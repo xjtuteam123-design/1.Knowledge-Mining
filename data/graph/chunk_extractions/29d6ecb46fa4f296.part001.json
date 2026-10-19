@@ -1,0 +1,1308 @@
+{
+  "document_id": "29d6ecb46fa4f296",
+  "chunk_id": "29d6ecb46fa4f296:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "New perspective into the atomic-scale local plasticity behavior of Ni-based single crystal superalloys",
+    "authors": [
+      "Sen Liu",
+      "Shuang Chen",
+      "Wenqiang Zhang",
+      "Xianjue Ye",
+      "Yuefei Zhang",
+      "Ze Zhang"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2025,
+    "doi": "10.1016/j.msea.2025.149032"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "we elucidate the plasticity mechanisms and local plastic evolution of Ni-based single crystal superalloys during indentation loading from the perspective of atomic simulations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "γ/γ′ two-phase Ni–Ni3Al atomic model",
+      "canonical_name": "Ni-Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.1 Molecular dynamic models",
+              "quote": "A simplified model of a nickel-based superalloy is considered, comprising a two-phase structure of Ni and Ni3Al.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "29d6ecb46fa4f296:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "γ′ precipitate",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.1 Molecular dynamic models",
+              "quote": "A simplified model of a nickel-based superalloy is considered, comprising a two-phase structure of Ni and Ni3Al.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "29d6ecb46fa4f296:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "Therefore, the dimensions of the model alloy in the X(YZ) direction are 40 ɑγ′, with the region of 36 ɑγ replaced by 35 ɑγ′, where the ratio of the γ and γ′ phases is approximately 3:7.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics model construction",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "lattice_parameter_gamma_nm": 0.352,
+          "lattice_parameter_gamma_prime_nm": 0.362,
+          "coincidence_site_lattice_n": 35,
+          "gamma_to_gamma_prime_ratio": "3:7",
+          "potential": "Mishin EAM potential",
+          "boundary_conditions": "periodic in x and y; bottommost layers fixed"
+        }
+      },
+      "input_state": null,
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "The lattice parameters are taken as ɑγ = 0.352 nm and ɑγ′ = 0.362 nm [11]. The principle of Coincidence Site Lattice (CSL) is employed to alleviate the misfit stresses caused by lattice mismatch, thereby stabilizing the γ/γ′ interface.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "energy minimization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "algorithm": "conjugate gradient"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "A time step of 0.003 ps was set, and energy minimization was conducted using the conjugate gradient algorithm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "NVT relaxation",
+      "parameters": {
+        "temperature_c": 25,
+        "time": "150 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "temperature_damping_coefficient": "100 times the time step"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "First, a relaxation of 150 ps is conducted under the NVT ensemble, with the temperature damping coefficient set to 100 times the time step.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "NPT relaxation",
+      "parameters": {
+        "temperature_c": 25,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "stress_damping_coefficient": "1000 times the time step"
+        }
+      },
+      "input_state": null,
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "The second relaxation step is performed under the NPT ensemble, with the stress damping coefficient set to 1000 times the time step. Consequently, the current model is stress-free and exhibits the lowest energy at room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "nanoindentation simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": "0.1 Å/ps",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "final_depth": "30 Å",
+          "indentation_max_depth_nm": 3,
+          "indenter_retraction_depth_nm": 2,
+          "force_constant_K": null,
+          "simulator": "LAMMPS",
+          "time_step_ps": 0.003,
+          "temperatures_studied_K": [
+            300,
+            600,
+            900,
+            1200,
+            1500
+          ]
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "The indenter is moved perpendicular into the surface to a final depth of 30 Å with a velocity of 0.1 Å/ps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": "approximately 0.3",
+        "size": null,
+        "morphology": null,
+        "location": "matrix channels",
+        "composition": "Ni",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "where the ratio of the γ and γ′ phases is approximately 3:7",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": "approximately 0.7",
+        "size": null,
+        "morphology": "cuboid",
+        "location": "embedded within γ matrix",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "ordered L12-structured γ′ precipitates phase in the form of cuboids are uniformly embedded within the disordered FCC structure of the γ phase, with sizes ranging from approximately 300 to 500 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "L12",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ′ precipitates",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "ordered L12-structured γ′ precipitates phase in the form of cuboids are uniformly embedded within the disordered FCC structure of the γ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "within the disordered FCC structure of the γ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "stacking fault",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ channels and γ′ precipitates beneath indenter",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "At room temperature, dislocations predominantly accumulate within the γ channels, forming high-density stacking faults (SFs).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "irregular, short segments",
+        "location": "plastic zone beneath indenter",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "At high temperatures (1200–1500 K), atomic thermal activation promotes the disappearance of SFs and the formation of irregular dislocation network structures, with dislocations climbing and bypass mechanisms dominating the plastic deformation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "plastic zone",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "broadens with depth and temperature",
+        "morphology": "localized along specific crystallographic planes at 300 K; diffuse at 1500 K",
+        "location": "beneath indenter",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Temperature dependence of indention response",
+          "quote": "As the depth increases (~3 nm), the plastic zone broadens to varying degrees, exhibiting localized behavior along specific crystallographic planes at 300 K and gradually dispersed distribution as temperature increases.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "dislocation lock",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dislocation loops and multi-dislocation nodes",
+        "location": "plastic zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Microstructure and dislocation evolution",
+          "quote": "At 900 K, dislocation density reaches its peak, as confirmed by Fig. 8f, and the plastic zone contains numerous complex dislocation features such as dislocation loops and multi-dislocation nodes (Fig. 8c), which can lead to dislocation pinning and hinder plastic flow.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "stacking fault ring",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "ring",
+        "location": "γ′ precipitates",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "As the temperature increases to 600–900 K, dislocations shear into the γ′ precipitates, resulting in the formation of SFs, SF rings and immobile dislocation locks, which lead to dislocation pinning.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "property": "hardness",
+      "value": 20.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": "0.1 Å/ps",
+        "loading_mode": "nanoindentation",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Calculation of mechanical properties",
+          "quote": "Table 1 Results obtained from MD simulation. Hardness is presented in units of GPa... Temperature (K) 300 600 900 1200 1500 ... Hmax (GPa) 20.80 20.45 18.77 17.02 14.80",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "property": "hardness",
+      "value": 20.45,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 326.85,
+        "strain_rate": "0.1 Å/ps",
+        "loading_mode": "nanoindentation",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Calculation of mechanical properties",
+          "quote": "Hmax (GPa) 20.80 20.45 18.77 17.02 14.80",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "property": "hardness",
+      "value": 18.77,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 626.85,
+        "strain_rate": "0.1 Å/ps",
+        "loading_mode": "nanoindentation",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Calculation of mechanical properties",
+          "quote": "Hmax (GPa) 20.80 20.45 18.77 17.02 14.80",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "property": "hardness",
+      "value": 17.02,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 926.85,
+        "strain_rate": "0.1 Å/ps",
+        "loading_mode": "nanoindentation",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Calculation of mechanical properties",
+          "quote": "Hmax (GPa) 20.80 20.45 18.77 17.02 14.80",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "property": "hardness",
+      "value": 14.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 1226.85,
+        "strain_rate": "0.1 Å/ps",
+        "loading_mode": "nanoindentation",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Calculation of mechanical properties",
+          "quote": "Hmax (GPa) 20.80 20.45 18.77 17.02 14.80",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Shockley partial dislocation activity",
+      "category": "dislocation plasticity",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The results indicate that 1/6 <112> Shockley dislocations are the origin of the plastic response and constitute the core deformation mechanism of superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation pinning",
+      "category": "dislocation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Microstructure and dislocation evolution",
+          "quote": "which can lead to dislocation pinning and hinder plastic flow",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation climb",
+      "category": "high-temperature plasticity",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "with dislocations climbing and bypass mechanisms dominating the plastic deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "dislocation bypass",
+      "category": "high-temperature plasticity",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "with dislocations climbing and bypass mechanisms dominating the plastic deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "thermal activation",
+      "category": "thermally activated plasticity",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Temperature dependence of indention response",
+          "quote": "This behavior is attributed to thermal activation enhancing cross-slip and climbing of dislocations, distributing deformation over a larger volume",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "A simplified model of a nickel-based superalloy is considered, comprising a two-phase structure of Ni and Ni3Al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "A simplified model of a nickel-based superalloy is considered, comprising a two-phase structure of Ni and Ni3Al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "A simplified model of a nickel-based superalloy is considered, comprising a two-phase structure of Ni and Ni3Al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "The molecular dynamic analysis is employed for simulation of a three-dimensional domain of γ and γ′ phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "energy minimization was conducted using the conjugate gradient algorithm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "First, a relaxation of 150 ps is conducted under the NVT ensemble",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "The second relaxation step is performed under the NPT ensemble",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "The indenter is moved perpendicular into the surface to a final depth of 30 Å with a velocity of 0.1 Å/ps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Molecular dynamic models",
+          "quote": "where the ratio of the γ and γ′ phases is approximately 3:7",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "ordered L12-structured γ′ precipitates phase in the form of cuboids are uniformly embedded within the disordered FCC structure of the γ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "ordered L12-structured γ′ precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "within the disordered FCC structure of the γ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "At room temperature, dislocations predominantly accumulate within the γ channels, forming high-density stacking faults (SFs).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the formation of irregular dislocation network structures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Temperature dependence of indention response",
+          "quote": "As the depth increases (~3 nm), the plastic zone broadens to varying degrees",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Microstructure and dislocation evolution",
+          "quote": "the plastic zone contains numerous complex dislocation features such as dislocation loops and multi-dislocation nodes",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "resulting in the formation of SFs, SF rings and immobile dislocation locks",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Calculation of mechanical properties",
+          "quote": "Hmax (GPa) 20.80 20.45 18.77 17.02 14.80",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Calculation of mechanical properties",
+          "quote": "Hmax (GPa) 20.80 20.45 18.77 17.02 14.80",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Calculation of mechanical properties",
+          "quote": "Hmax (GPa) 20.80 20.45 18.77 17.02 14.80",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Calculation of mechanical properties",
+          "quote": "Hmax (GPa) 20.80 20.45 18.77 17.02 14.80",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Calculation of mechanical properties",
+          "quote": "Hmax (GPa) 20.80 20.45 18.77 17.02 14.80",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "defect_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Microstructure and dislocation evolution",
+          "quote": "which can lead to dislocation pinning and hinder plastic flow",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "mechanism_5",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Temperature dependence of indention response",
+          "quote": "This behavior is attributed to thermal activation enhancing cross-slip and climbing of dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_25",
+      "source_id": "mechanism_5",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "with dislocations climbing and bypass mechanisms dominating the plastic deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_26",
+      "source_id": "mechanism_5",
+      "predicate": "DEGRADES",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Temperature dependence of indention response",
+          "quote": "At elevated temperature (1500 K), the material’s hardness dramatically decreases, and atomic thermal activation promotes a more diffuse plastic zone",
+          "table": null,
+          "figure": null,
+          "chunk_id": "29d6ecb46fa4f296:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

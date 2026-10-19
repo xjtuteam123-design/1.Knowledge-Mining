@@ -1,0 +1,857 @@
+{
+  "document_id": "1419a79640d25d78",
+  "chunk_id": "1419a79640d25d78:part:001",
+  "paper_metadata": {
+    "title": "Achieving enhanced dynamic mechanical properties in a titanium alloy through tungsten addition and heterogeneous microstructure",
+    "authors": [
+      "Na Li",
+      "Yuankui Cao",
+      "Jixun Zhang",
+      "Dongyang Qin",
+      "Wei Liu",
+      "Jian Xun",
+      "Bin Liu",
+      "Yuntian Zhu",
+      "Yong Liu"
+    ],
+    "journal": "Journal of Alloys and Compounds",
+    "year": 2025,
+    "doi": "10.1016/j.jallcom.2025.180726"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ti-W alloy",
+      "material_category": "titanium alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The W-containing HS Ti alloy (Ti-W alloy) featured a fibrous heterostructure composed of W-rich and W-lean structures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ti-20W",
+      "canonical_name": "Ti-20W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "hot-extruded",
+      "composition": [
+        {
+          "element": "W",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Materials fabrication",
+              "quote": "Fig. 1 (a) illustrates the fabrication process of the Ti-20W (weight fraction, wt%) alloy.",
+              "table": null,
+              "figure": "Fig. 1(a)",
+              "chunk_id": "1419a79640d25d78:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Materials fabrication",
+              "quote": "Fig. 1 (a) illustrates the fabrication process of the Ti-20W (weight fraction, wt%) alloy.",
+              "table": null,
+              "figure": "Fig. 1(a)",
+              "chunk_id": "1419a79640d25d78:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Materials fabrication",
+          "quote": "In this study, a Ti-20W alloy with a compositional gradient was fabricated by controlling the partial diffusion of W particles through the powder metallurgy process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "powder mixing",
+      "parameters": {
+        "temperature_c": null,
+        "time": "6 hours",
+        "pressure": null,
+        "atmosphere": "argon",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "mixer": "V-shaped mixer",
+          "Ti powder": "99.9%, < 45 μm",
+          "W powder": "99.9%, 2-4 μm"
+        }
+      },
+      "input_state": "elemental Ti and W powders",
+      "output_state": "powder mixture",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Materials fabrication",
+          "quote": "High-purity Ti powder (99.9 %, < 45 μ m) and W powder (99.9 %, 2 – 4 μ m) were mixed for 6 hours using a V-shaped mixer under an argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "cold isostatic pressing (CIP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": "60 s",
+        "pressure": "180 MPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "billet": "cylindrical, φ 120 mm"
+        }
+      },
+      "input_state": "powder mixture",
+      "output_state": "compacted billet",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Materials fabrication",
+          "quote": "The resulting powder mixture was then compacted into a cylindrical billet ( φ 120 mm) by using cold isostatic pressing (CIP) at a pressure of 180 MPa for 60 s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "sintering",
+      "parameters": {
+        "temperature_c": 1350,
+        "time": "4 hours",
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "purpose": "promote partial diffusion of W particles"
+        }
+      },
+      "input_state": "compacted billet",
+      "output_state": "sintered billet with diffusion zone",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Materials fabrication",
+          "quote": "Subsequently, the billet was sintered at 1350 ℃ for 4 hours in a vacuum to promote partial diffusion of W particles.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "hot extrusion",
+      "parameters": {
+        "temperature_c": 950,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling",
+        "deformation": "extrusion ratio 16:1",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "final diameter": "30 mm",
+          "product": "fully dense Ti-W alloy rod"
+        }
+      },
+      "input_state": "sintered billet with diffusion zone",
+      "output_state": "hot-extruded rod with fibrous heterostructure",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Materials fabrication",
+          "quote": "The diffusion zone was then elongated into a fiber-like structure through hot extrusion at 950 ℃ with an extrusion ratio of 16:1, followed by air cooling.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "α-Ti",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "slender precipitates in W-lean structure (approx. 1.5 μm); short precipitates in W-rich structure (approx. 200 nm)",
+        "location": "W-lean and W-rich structures",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Microstructures",
+          "quote": "The X-ray diffraction (XRD) patterns of the Ti-W alloy are shown in Fig. 2 (a), revealing the presence of both α -Ti and β -Ti phases.",
+          "table": null,
+          "figure": "Fig. 2(a)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        },
+        {
+          "page": 4,
+          "section": "3.1 Microstructures",
+          "quote": "As shown in Fig. 3 (a), slender precipitates, approximately 1.5 μ m in length, are densely distributed in the W-lean structure.",
+          "table": null,
+          "figure": "Fig. 3(a)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "β-Ti",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "matrix",
+        "location": "W-lean and W-rich structures",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Microstructures",
+          "quote": "The X-ray diffraction (XRD) patterns of the Ti-W alloy are shown in Fig. 2 (a), revealing the presence of both α -Ti and β -Ti phases.",
+          "table": null,
+          "figure": "Fig. 2(a)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "fibrous heterostructure",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "alternating fibrous structures along extrusion direction",
+        "location": "longitudinal section",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Microstructures",
+          "quote": "Alternating fibrous structures with distinct gray and bright contrasts were found distributing parallelly along the extrusion direction.",
+          "table": null,
+          "figure": "Fig. 2(b-c)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "W-rich structure",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "fibrous",
+        "location": "alternating with W-lean structure",
+        "composition": "W content higher than W-lean by approx. 9 wt%",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Microstructures",
+          "quote": "The difference in W content between the W-lean and W-rich structures is approximately 9 wt%.",
+          "table": null,
+          "figure": "Fig. 2(f-h)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "W-lean structure",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "fibrous",
+        "location": "alternating with W-rich structure",
+        "composition": "W content lower than W-rich by approx. 9 wt%",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Microstructures",
+          "quote": "The difference in W content between the W-lean and W-rich structures is approximately 9 wt%.",
+          "table": null,
+          "figure": "Fig. 2(f-h)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "property": "yield strength",
+      "value": 1264,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "0.001 s⁻¹",
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "quasi-static compression"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Mechanical properties under quasi-static and dynamic conditions",
+          "quote": "At 298 K, the yield strength of Ti-W alloy was increased from 1264 MPa to 1602 MPa with the strain rate rising from 0.001 s 1 to 3000 s 1, indicating a high strain-rate hardening effect.",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "property": "yield strength",
+      "value": 1602,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "3000 s⁻¹",
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Split Hopkinson Pressure Bar (SHPB)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Mechanical properties under quasi-static and dynamic conditions",
+          "quote": "At 298 K, the yield strength of Ti-W alloy was increased from 1264 MPa to 1602 MPa with the strain rate rising from 0.001 s 1 to 3000 s 1, indicating a high strain-rate hardening effect.",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "property": "peak stress",
+      "value": 2061,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "3000 s⁻¹",
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Split Hopkinson Pressure Bar (SHPB)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Mechanical properties under quasi-static and dynamic conditions",
+          "quote": "As a result, the peak stress reached ~2 GPa at the strain rate of 3000 s 1 without compromising the compressive plasticity.",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "property": "yield strength",
+      "value": 730,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": "3000 s⁻¹",
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Split Hopkinson Pressure Bar (SHPB)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Mechanical properties under quasi-static and dynamic conditions",
+          "quote": "During dynamic deformation, a high yield strength up to 730 MPa at 3000 s 1 is maintained due to the strong strain-rate hardening effect to resist against the thermal softening.",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "deformed at 973 K",
+      "property": "adiabatic shear band width",
+      "value": 35,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "μm",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": "3000 s⁻¹",
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "SEM"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3.2 Deformation microstructures at 973 K",
+          "quote": "The W-rich structure was strongly sheared by a wide ASB with a width of approximately 35 μ m, leading to a substantial shearing displacement ( Fig. 7 (b-c)).",
+          "table": null,
+          "figure": "Fig. 7(b-c)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "strain-rate hardening",
+      "category": "mechanical",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Mechanical properties under quasi-static and dynamic conditions",
+          "quote": "This is attributed to the rapid saturation of dislocations due to their rapid generation and accumulation within a short time.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "hetero-deformation induced hardening",
+      "category": "mechanical",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4.1 Strain-rate hardening behavior",
+          "quote": "the harder W-rich structures can bear higher stress and restrain the plastic deformation of the W-lean structures during the impacting process, leading to a strain gradient between the hetero-interfaces. The high-density dislocations could be sharply produced and accumulated near the interface of W-rich and W-lean structures, leading to a high strain-rate hardening effect.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dynamic recrystallization",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "deformed at 973 K",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3.2 Deformation microstructures at 973 K",
+          "quote": "the grains within the ASB undergo dynamic recrystallization, leading to refinement of the microstructure to the nanoscale.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "thermal softening",
+      "category": "thermal",
+      "sample_id": "sample_1",
+      "material_state": "deformed at 973 K",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "4.2 Adiabatic shear band (ASB)",
+          "quote": "At 973 K, pure Ti ( α pure-Ti = 0.0087) [14,55] exhibits a higher thermal softening parameter compared to the Ti-W alloy ( α Ti-W = 0.0049).",
+          "table": "Table 3",
+          "figure": "Fig. 9(c)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Microstructures",
+          "quote": "Alternating fibrous structures with distinct gray and bright contrasts were found distributing parallelly along the extrusion direction.",
+          "table": null,
+          "figure": "Fig. 2(b-c)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Microstructures",
+          "quote": "The X-ray diffraction (XRD) patterns of the Ti-W alloy are shown in Fig. 2 (a), revealing the presence of both α -Ti and β -Ti phases.",
+          "table": null,
+          "figure": "Fig. 2(a)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Microstructures",
+          "quote": "The X-ray diffraction (XRD) patterns of the Ti-W alloy are shown in Fig. 2 (a), revealing the presence of both α -Ti and β -Ti phases.",
+          "table": null,
+          "figure": "Fig. 2(a)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "microstructure_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4.1 Strain-rate hardening behavior",
+          "quote": "Therefore, the heterogeneous structures could help Ti-W alloy to obtain a high strain-rate hardening capability.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4.1 Strain-rate hardening behavior",
+          "quote": "The high-density dislocations could be sharply produced and accumulated near the interface of W-rich and W-lean structures, leading to a high strain-rate hardening effect.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4.1 Strain-rate hardening behavior",
+          "quote": "The high-density dislocations could be sharply produced and accumulated near the interface of W-rich and W-lean structures, leading to a high strain-rate hardening effect.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_4",
+      "predicate": "DECREASES",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "4.2 Adiabatic shear band (ASB)",
+          "quote": "Both models predict that the Ti-W alloy has a greater shear band width than pure Ti [14]. This is attributed to the increased thermal conductivity ( Fig. 9 (d)), decreased specific heat capacity, and reduced thermal softening in the Ti-W alloy ( Fig. 9 (a-c)).",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Mechanical properties under quasi-static and dynamic conditions",
+          "quote": "At 298 K, the yield strength of Ti-W alloy was increased from 1264 MPa to 1602 MPa with the strain rate rising from 0.001 s 1 to 3000 s 1, indicating a high strain-rate hardening effect.",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Mechanical properties under quasi-static and dynamic conditions",
+          "quote": "At 298 K, the yield strength of Ti-W alloy was increased from 1264 MPa to 1602 MPa with the strain rate rising from 0.001 s 1 to 3000 s 1, indicating a high strain-rate hardening effect.",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Mechanical properties under quasi-static and dynamic conditions",
+          "quote": "As a result, the peak stress reached ~2 GPa at the strain rate of 3000 s 1 without compromising the compressive plasticity.",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "hot-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Mechanical properties under quasi-static and dynamic conditions",
+          "quote": "During dynamic deformation, a high yield strength up to 730 MPa at 3000 s 1 is maintained due to the strong strain-rate hardening effect to resist against the thermal softening.",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "deformed at 973 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3.2 Deformation microstructures at 973 K",
+          "quote": "The W-rich structure was strongly sheared by a wide ASB with a width of approximately 35 μ m, leading to a substantial shearing displacement ( Fig. 7 (b-c)).",
+          "table": null,
+          "figure": "Fig. 7(b-c)",
+          "chunk_id": "1419a79640d25d78:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

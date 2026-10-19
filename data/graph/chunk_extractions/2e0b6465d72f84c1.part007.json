@@ -1,0 +1,255 @@
+{
+  "type": "json_object",
+  "document_id": "2e0b6465d72f84c1",
+  "chunk_id": "2e0b6465d72f84c1:part:007",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": null,
+    "doi": "10.1016/j.actamat.2020.06.042"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Discussion",
+          "quote": "a microstructure-related hardness model of a polycrystalline Ni-based superalloy is proposed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:007"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Co-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Discussion",
+          "quote": "Vickers hardness of Co- and Ni-based superalloys using machine learning to be captured as an important parameter for Vickers hardness prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:007"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Discussion",
+          "quote": "volume fraction of the γ phase along with grain size will also play a major role in determination of final estimate of Vickers hardness.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:007"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Discussion",
+          "quote": "reduction of volume fraction of γ phase along with reduction of grain size of the γ phase will result in increase in Vickers hardness",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:007"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "GPR",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of Vickers hardness",
+      "inputs": [
+        "microstructure",
+        "composition"
+      ],
+      "target": "Vickers hardness",
+      "dataset": "collected from experimental reports containing SEM images, compositions and Vickers hardness of superalloys",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Discussion",
+          "quote": "In summary, we developed highly accurate ML models using GPR and feature reduction technique LASSO for accurate prediction of Vickers hardness of superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:007"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "SVR",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of Vickers hardness",
+      "inputs": [
+        "microstructural features"
+      ],
+      "target": "Vickers hardness",
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Discussion",
+          "quote": "Models trained using SVR on the microstructural features only prove to be insufficient for correct prediction of Vickers hardness.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:007"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "generalized model",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "simultaneous prediction of Co- and Ni-based superalloys",
+      "inputs": [
+        "microstructure",
+        "composition"
+      ],
+      "target": "Vickers hardness",
+      "dataset": null,
+      "validation": "20% hold-out test set",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Discussion",
+          "quote": "a generalized model that can handle these two types of superalloys simultaneously.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:007"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_4",
+      "name": "GPR",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of Vickers hardness",
+      "inputs": [
+        "microstructure",
+        "composition"
+      ],
+      "target": "Vickers hardness",
+      "dataset": "19 selected features and only 19 important features",
+      "validation": "20% hold-out test set",
+      "metrics": {
+        "R2": 0.95,
+        "RMSE_percent": 2.95,
+        "R2_upper": 0.99,
+        "RMSE_percent_upper": 2.71,
+        "R2_lower": null,
+        "RMSE_percent_lower": null
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Discussion",
+          "quote": "The models without feature reduction give an accurate estimate with R2 of 0.99/0.98 and RMSE (%RMSE) of 0.10/0.14 (2.46/3.44).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:007"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "phase_1",
+      "predicate": "DECREASES",
+      "target_id": "ml_model_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Discussion",
+          "quote": "reduction of volume fraction of γ phase along with reduction of grain size of the γ phase will result in increase in Vickers hardness",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:007"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_1",
+      "predicate": "INCREASES",
+      "target_id": "ml_model_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Discussion",
+          "quote": "reduction of volume fraction of γ phase along with reduction of grain size of the γ phase will result in increase in Vickers hardness",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:007"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

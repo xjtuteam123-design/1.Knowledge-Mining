@@ -1,0 +1,252 @@
+{
+  "document_id": "0e23b5db68720bca",
+  "chunk_id": "0e23b5db68720bca:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A new kinetic model for sigma phase formation correlated with stacking fault shearing in superalloys",
+    "authors": [
+      "Wanshun Xia",
+      "Yuan Cheng",
+      "Jin Li Cao",
+      "Xinbao Zhao",
+      "Quanzhao Yue",
+      "Qian Yu",
+      "Jian Bo Lin",
+      "Wen Tong Geng",
+      "Yuefeng Gu",
+      "Ze Zhang"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2025,
+    "doi": "10.1016/j.actamat.2025.120842"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the ESF/SESF promotes formation in both γ and γ′",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e23b5db68720bca:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "γ′ phase",
+      "canonical_name": "Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "bulk Ni765Al255",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0e23b5db68720bca:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "bulk Ni765Al255",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0e23b5db68720bca:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "bulk Ni765Al255",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e23b5db68720bca:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "sigma phase",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The calculated results in Fig. 8b reveal that Cr and Re have the tendency to segregate to the fault. This strongly indicates that the fault is beneficial to the aggregation of Cr and Re and hence promotes the σ phase nucleation in both γ and γ′ phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e23b5db68720bca:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma prime phase",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "stacking fault",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "type": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "a specific planar defect, SESF, significantly promotes the σ phase precipitation at low temperature creep.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e23b5db68720bca:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "segregation of solutes to stacking faults",
+      "category": null,
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Cr and Re have the tendency to segregate to the fault",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e23b5db68720bca:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "microstructure_1",
+      "predicate": "PROMOTES",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the fault is beneficial to the aggregation of Cr and Re and hence promotes the σ phase nucleation in both γ and γ′ phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e23b5db68720bca:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The calculated results in Fig. 8b reveal that Cr and Re have the tendency to segregate to the fault. This strongly indicates that the fault is beneficial to the aggregation of Cr and Re and hence promotes the σ phase nucleation in both γ and γ′ phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e23b5db68720bca:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,225 @@
+{
+  "document_id": "420dbe04e1d74aaa",
+  "chunk_id": "420dbe04e1d74aaa:part:008",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A Kolsky Bar for High-Rate Micro-compression: Preliminary Results",
+    "authors": [
+      "Daniel Casem",
+      "Emily Huskins",
+      "Jonathan Ligda",
+      "Brian Schuster"
+    ],
+    "journal": "Dynamic Behavior of Materials, Volume 1, Conference Proceedings of the Society for Experimental Mechanics Series",
+    "year": 2016,
+    "doi": "10.1007/978-3-319-22452-7_14"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "niobium",
+      "material_category": "refractory metal",
+      "evidence": [
+        {
+          "page": 91,
+          "section": "14.4 Results: High-Rate Compression of Niobium",
+          "quote": "An example application is also given where a niobium sample is loaded at a strain rate greater than 1 M/s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "420dbe04e1d74aaa:part:008"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "niobium sample",
+      "canonical_name": "Nb",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": 99.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 94,
+              "section": "14.4 Results: High-Rate Compression of Niobium",
+              "quote": "The sample was rough machined from a 25 μm thick foil (99.9 % pure, annealed) with a fs laser mill.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "420dbe04e1d74aaa:part:008"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 94,
+          "section": "14.4 Results: High-Rate Compression of Niobium",
+          "quote": "This section presents data from an experiment on a niobium sample. The sample was rough machined from a 25 μm thick foil (99.9 % pure, annealed) with a fs laser mill.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "420dbe04e1d74aaa:part:008"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "rough machining",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "foil_thickness": "25 μm",
+          "tool": "femtosecond laser mill"
+        }
+      },
+      "input_state": "foil",
+      "output_state": "rough machined",
+      "evidence": [
+        {
+          "page": 94,
+          "section": "14.4 Results: High-Rate Compression of Niobium",
+          "quote": "The sample was rough machined from a 25 μm thick foil (99.9 % pure, annealed) with a fs laser mill.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "420dbe04e1d74aaa:part:008"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "final machining",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "tool": "focused ion beam (FIB)"
+        }
+      },
+      "input_state": "rough machined",
+      "output_state": "finished",
+      "evidence": [
+        {
+          "page": 94,
+          "section": "14.4 Results: High-Rate Compression of Niobium",
+          "quote": "Final machining was performed with a FIB, and the ﬁnished sample is shown Fig. 14.6.",
+          "table": null,
+          "figure": "Fig. 14.6",
+          "chunk_id": "420dbe04e1d74aaa:part:008"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "property": "strain rate",
+      "value": null,
+      "min_value": 1,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Ms^-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 91,
+          "section": "14.4 Results: High-Rate Compression of Niobium",
+          "quote": "An example application is also given where a niobium sample is loaded at a strain rate greater than 1 M/s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "420dbe04e1d74aaa:part:008"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 94,
+          "section": "14.4 Results: High-Rate Compression of Niobium",
+          "quote": "The sample was rough machined from a 25 μm thick foil (99.9 % pure, annealed) with a fs laser mill.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "420dbe04e1d74aaa:part:008"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 94,
+          "section": "14.4 Results: High-Rate Compression of Niobium",
+          "quote": "Final machining was performed with a FIB, and the ﬁnished sample is shown Fig. 14.6.",
+          "table": null,
+          "figure": "Fig. 14.6",
+          "chunk_id": "420dbe04e1d74aaa:part:008"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

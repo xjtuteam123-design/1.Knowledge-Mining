@@ -1,0 +1,234 @@
+{
+  "document_id": "b75801caf09c3223",
+  "chunk_id": "b75801caf09c3223:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Journal of Materials Research",
+    "year": 2025,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Al alloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Concluding remarks",
+          "table": null,
+          "figure": null,
+          "quote": "This study contains a homogene-ous two-phase material with a spherical inclusion at the center to evaluate the effect of lattice misfits and external loading on the mechanical properties of Ni-based alloy.",
+          "chunk_id": "b75801caf09c3223:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni-Al binary alloy with 20 wt.% Al",
+      "canonical_name": "Ni-20Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated two-phase gamma/gamma-prime microstructure",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "14",
+              "section": "Simulation approach",
+              "table": null,
+              "figure": null,
+              "quote": "Ni–Al binary alloy is selected as the material with the Ni as base composition and 20-wt% Al for the matrix and precipitate, respectively.",
+              "chunk_id": "b75801caf09c3223:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 20.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "14",
+              "section": "Simulation approach",
+              "table": null,
+              "figure": null,
+              "quote": "Ni–Al binary alloy is selected as the material with the Ni as base composition and 20-wt% Al for the matrix and precipitate, respectively.",
+              "chunk_id": "b75801caf09c3223:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Simulation approach",
+          "table": null,
+          "figure": null,
+          "quote": "The first step is to create a microstructure consisting of a two-phase system. Ni–Al binary alloy is selected as the material with the Ni as base composition and 20-wt% Al for the matrix and precipitate, respectively.",
+          "chunk_id": "b75801caf09c3223:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "phase-field simulation microstructure generation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "domain_size": "351 x 351 dx",
+          "cell_spacing": "1 nm",
+          "interface_width": "2.5 dx",
+          "inclusion_radius": "30 dx",
+          "eigenstrain_range": "-0.2 to 0.2%"
+        }
+      },
+      "input_state": null,
+      "output_state": "simulated two-phase gamma/gamma-prime microstructure",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Simulation approach",
+          "table": null,
+          "figure": null,
+          "quote": "A 2D simulation domain of size 351 × 351 /Delta1x is considered. A single spherical inclusion of radius 30 /Delta1x is placed at the center of the simulation domain, as shown in Fig. 8. The cell spacing is chosen to be /Delta1x= 1 nm, and the interface width to be ξ = 2.5 /Delta1x to reduce the computation time and compromise the accuracy.",
+          "chunk_id": "b75801caf09c3223:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "monotonic tensile loading simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "1.2% total deformation",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "simulated two-phase gamma/gamma-prime microstructure",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "table": null,
+          "figure": "Figure 5",
+          "quote": "The distribution of accumulated plastic strain in Ni–Al alloy for the four different lattice misfits e0 at 1.2% total deformation after a monotonic tensile loading: (a) 0.1, (b) 0.2, (c) − 0.1, and (d) − 0.2.",
+          "chunk_id": "b75801caf09c3223:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated two-phase gamma/gamma-prime microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Simulation approach",
+          "table": null,
+          "figure": null,
+          "quote": "Ni–Al binary alloy is selected as the material with the Ni as base composition and 20-wt% Al for the matrix and precipitate, respectively.",
+          "chunk_id": "b75801caf09c3223:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated two-phase gamma/gamma-prime microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Simulation approach",
+          "table": null,
+          "figure": null,
+          "quote": "A 2D simulation domain of size 351 × 351 /Delta1x is considered. A single spherical inclusion of radius 30 /Delta1x is placed at the center of the simulation domain, as shown in Fig. 8.",
+          "chunk_id": "b75801caf09c3223:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {
+        "loading_mode": "monotonic tensile loading"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "table": null,
+          "figure": "Figure 5",
+          "quote": "The distribution of accumulated plastic strain in Ni–Al alloy for the four different lattice misfits e0 at 1.2% total deformation after a monotonic tensile loading: (a) 0.1, (b) 0.2, (c) − 0.1, and (d) − 0.2.",
+          "chunk_id": "b75801caf09c3223:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "gamma phase",
+    "gamma-prime phase"
+  ],
+  "conflicts": []
+}

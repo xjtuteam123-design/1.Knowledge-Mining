@@ -1,0 +1,295 @@
+{
+  "document_id": "8de65d599bd2caf3",
+  "chunk_id": "8de65d599bd2caf3:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Two-step heat treatment improving the fracture toughness of Nb-Si alloy",
+    "authors": [
+      "C. Ye"
+    ],
+    "journal": "International Journal of Refractory Metals & Hard Materials",
+    "year": 2021,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb-Si alloy with Y addition",
+      "material_category": "Nb-Si based alloy",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4. Conclusion",
+          "quote": "In this study, different heat treatment processes are carried out to adjust the microstructure and mechanical properties of Nb-Si alloy with the addition of Y.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "HT2-2 (0.6Y)",
+      "canonical_name": "Nb-Si-0.6Y",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "two-step heat treated",
+      "composition": [
+        {
+          "element": "Y",
+          "value": 0.6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": "4. Conclusion",
+              "quote": "(2) Without the sacrifice of tensile strength which also increases slightly, the fracture toughness is improved by 30.3% (HT2-2, 0.6Y).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "8de65d599bd2caf3:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4. Conclusion",
+          "quote": "(1) The two-step heat treatment can refine the microstructure effectively which is the result of silicide separation. Compared to the silicide after single-step heat treatment, the volume of silicide reduces by 40.6% as for HT2-2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "two-step heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "single-step heat treated",
+      "output_state": "two-step heat treated",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4. Conclusion",
+          "quote": "The two-step heat treatment can refine the microstructure effectively which is the result of silicide separation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "silicides",
+      "sample_id": "sample_1",
+      "material_state": "two-step heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "spheroidized",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4. Conclusion",
+          "quote": "the silicides with sharp corners tend to be spheroidized by the two-step heat treatment which also bring in slight micro-cracks.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Defect",
+      "name": "micro-cracks",
+      "sample_id": "sample_1",
+      "material_state": "two-step heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "in the silicides",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Page 7",
+          "quote": "after the two-step heat treatment, there are also some micro-cracks in the silicides which can promote the crack deflection and crack bridge to toughen the alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "two-step heat treated",
+      "property": "fracture toughness",
+      "value": 30.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4. Conclusion",
+          "quote": "(2) Without the sacrifice of tensile strength which also increases slightly, the fracture toughness is improved by 30.3% (HT2-2, 0.6Y).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "crack deflection",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "two-step heat treated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Page 7",
+          "quote": "after the two-step heat treatment, there are also some micro-cracks in the silicides which can promote the crack deflection and crack bridge to toughen the alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "crack bridging",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "two-step heat treated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Page 7",
+          "quote": "after the two-step heat treatment, there are also some micro-cracks in the silicides which can promote the crack deflection and crack bridge to toughen the alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "process_1",
+      "predicate": "REFINES",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "two-step heat treated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4. Conclusion",
+          "quote": "The two-step heat treatment can refine the microstructure effectively which is the result of silicide separation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_2",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "two-step heat treated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Page 7",
+          "quote": "after the two-step heat treatment, there are also some micro-cracks in the silicides which can promote the crack deflection and crack bridge to toughen the alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "two-step heat treated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4. Conclusion",
+          "quote": "the more important role is to induce proper micro-cracks and promote the crack deflection and crack bridges to toughen the Nb-Si alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8de65d599bd2caf3:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

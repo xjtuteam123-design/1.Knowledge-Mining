@@ -1,0 +1,300 @@
+{
+  "document_id": "035d258f09b49940",
+  "chunk_id": "035d258f09b49940:part:002",
+  "paper_metadata": {
+    "title": "Coupling physics in machine learning to predict properties of high-temperature alloys",
+    "authors": [
+      "J. Peng",
+      "Y. Yamamoto",
+      "J. A. Haynes",
+      "E. Lara-Curzio",
+      "D. Shin"
+    ],
+    "journal": "npj Computational Materials",
+    "year": 2020,
+    "doi": "10.1038/s41524-020-00407-2"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "9Cr steel",
+      "material_category": "high Cr steel",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Methods",
+          "quote": "The raw experimental dataset was compiled by National Energy Technology Laboratory 8,9, USA, using the creep datasheet for high Cr steel39 in the MatNavi materials database by the National Institute for Materials Science, Japan.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "property": "R2",
+      "value": 0.95,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "RF and SVM models on 9Cr steel yield strength"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Among the ML models tested, the RF and SVM ones exhibited very high accuracy ( R 2 > 0.95) for predicting 9Cr steel yield strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": null,
+      "material_state": null,
+      "property": "R2",
+      "value": 0.999,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "RF (MIC) for PAGS prediction"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Figure 8",
+          "quote": "RF (MIC), R2=0.999, MAE=0.022",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "random forest",
+      "sample_id": null,
+      "property_observation_id": "observation_1",
+      "task": "yield strength prediction",
+      "inputs": [
+        "top 10 features from PCC",
+        "top 15 features from MIC"
+      ],
+      "target": "9Cr steel yield strength",
+      "dataset": "451 instances/rows, 45 input features/columns",
+      "validation": "5-fold cross-validation",
+      "metrics": {
+        "R2": 0.95
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Among the ML models tested, the RF and SVM ones exhibited very high accuracy ( R2 > 0.95) for predicting 9Cr steel yield strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "support vector machine",
+      "sample_id": null,
+      "property_observation_id": "observation_1",
+      "task": "yield strength prediction",
+      "inputs": [
+        "top 10 features from PCC",
+        "top 15 features from MIC"
+      ],
+      "target": "9Cr steel yield strength",
+      "dataset": "451 instances/rows, 45 input features/columns",
+      "validation": "5-fold cross-validation",
+      "metrics": {
+        "R2": 0.95
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Among the ML models tested, the RF and SVM ones exhibited very high accuracy ( R2 > 0.95) for predicting 9Cr steel yield strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "random forest",
+      "sample_id": null,
+      "property_observation_id": "observation_2",
+      "task": "PAGS prediction",
+      "inputs": [
+        "top 10 features from MIC"
+      ],
+      "target": "PAGS",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "R2": 0.999,
+        "MAE": 0.022
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Figure 8",
+          "quote": "RF (MIC), R2=0.999, MAE=0.022",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_4",
+      "name": "random forest",
+      "sample_id": null,
+      "property_observation_id": "observation_2",
+      "task": "PAGS prediction",
+      "inputs": [
+        "top 10 features from |PCC|"
+      ],
+      "target": "PAGS",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "R2": 0.997,
+        "MAE": 0.187
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Figure 8",
+          "quote": "RF (|PCC|), R2=0.997, MAE=0.187",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Among the ML models tested, the RF and SVM ones exhibited very high accuracy ( R2 > 0.95) for predicting 9Cr steel yield strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "ml_model_2",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Among the ML models tested, the RF and SVM ones exhibited very high accuracy ( R2 > 0.95) for predicting 9Cr steel yield strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "ml_model_3",
+      "predicate": "PREDICTS",
+      "target_id": "observation_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Figure 8",
+          "quote": "RF (MIC), R2=0.999, MAE=0.022",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "ml_model_4",
+      "predicate": "PREDICTS",
+      "target_id": "observation_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Figure 8",
+          "quote": "RF (|PCC|), R2=0.997, MAE=0.187",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "035d258f09b49940:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

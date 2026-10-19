@@ -1,0 +1,219 @@
+{
+  "document_id": "b31ca401c9829f9d",
+  "chunk_id": "b31ca401c9829f9d:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Materials",
+    "year": "2024",
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Conclusions",
+          "quote": "In the nano-indentation tests, as the volume fraction or aging time increases, the nano-hardness of Ni-based single crystal superalloys gradually increases, exhibiting a complex variation trend.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b31ca401c9829f9d:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "TCP phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Conclusions",
+          "quote": "Conversely, for the alloys with φ = 60%, the harmful TCP phases precipitate substantially within the matrix with increasing aging time, further enhancing the alloys’ nano-hardness.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b31ca401c9829f9d:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "precipitation particle",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": "smaller",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Conclusions",
+          "quote": "It is worth noting that the particle sizes of the studied materials are smaller, i.e., the dislocation cutting mechanism still plays a key role.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b31ca401c9829f9d:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "dislocation channel",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": "wide",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Conclusions",
+          "quote": "For low volume fractions ( φ = 30%), wider dislocation channels reduce the hindrance of dislocation movement, leading to relatively low nano-hardness.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b31ca401c9829f9d:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation cutting",
+      "category": "dislocation-particle interaction",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Conclusions",
+          "quote": "It is worth noting that the particle sizes of the studied materials are smaller, i.e., the dislocation cutting mechanism still plays a key role.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b31ca401c9829f9d:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation motion hindrance",
+      "category": "dislocation glide",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Conclusions",
+          "quote": "The microstructural evolution significantly influences the nucleation and movement of dislocations, thereby affecting the macro-mechanical properties of materials.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b31ca401c9829f9d:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Conclusions",
+          "quote": "It is worth noting that the particle sizes of the studied materials are smaller, i.e., the dislocation cutting mechanism still plays a key role.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b31ca401c9829f9d:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "microstructure_2",
+      "predicate": "DECREASES",
+      "target_id": "mechanism_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Conclusions",
+          "quote": "For low volume fractions ( φ = 30%), wider dislocation channels reduce the hindrance of dislocation movement, leading to relatively low nano-hardness.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b31ca401c9829f9d:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "phase_1",
+      "predicate": "INCREASES",
+      "target_id": "mechanism_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Conclusions",
+          "quote": "Conversely, for the alloys with φ = 60%, the harmful TCP phases precipitate substantially within the matrix with increasing aging time, further enhancing the alloys’ nano-hardness.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b31ca401c9829f9d:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "φ = 30%",
+    "φ = 60%",
+    "h f /hmax ratio"
+  ],
+  "conflicts": []
+}

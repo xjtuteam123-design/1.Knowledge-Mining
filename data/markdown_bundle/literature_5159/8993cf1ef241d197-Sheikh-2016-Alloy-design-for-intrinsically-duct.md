@@ -1,0 +1,464 @@
+# Sheikh-2016-Alloy-design-for-intrinsically-duct
+
+<!-- source: D:\总文献\Sheikh-2016-Alloy-design-for-intrinsically-duct.pdf -->
+<!-- file_sha256: 661e2981ca88a226670b79523fd795fd8020b4e8d69ffd4cd1c4ccb26e16a515 -->
+
+## Page 1
+
+Alloy design for intrinsically ductile refractory high-entropy alloys
+Saad Sheikh,1 Samrand Shafeie,1 Qiang Hu,2 Johan Ahlstr€om,1 Christer Persson,1
+Jaroslav Vesel/C19y,3 Ji/C20r/C19 ıZ/C19yka,3 Uta Klement,1 and Sheng Guo1,a)
+1Department of Materials and Manufacturing Technology, Chalmers University of Technology,
+Gothenburg 41296, Sweden
+2Institute of Applied Physics, Jiangxi Academy of Sciences, Nanchang 330029, People’s Republic of China
+3UJP PRAHA a.s., Nad Kam/C19ınkou 1345, Prague 15610, Czech Republic
+(Received 30 September 2016; accepted 18 October 2016; published online 28 October 2016)
+Refractory high-entropy alloys (RHEAs), comprising group IV (Ti, Zr, Hf), V (V, Nb, Ta), and VI
+(Cr, Mo, W) refractory elements, can be potentially new generation high-temperature materials.
+However, most existing RHEAs lack room-temperature ductility, similar to conventional refractory
+metals and alloys. Here, we propose an alloy design strategy to intrinsically ductilize RHEAs based
+on the electron theory and more speciﬁcally to decrease the number of valence electrons through
+controlled alloying. A new ductile RHEA, Hf
+0.5Nb0.5Ta0.5Ti1.5Zr, was developed as a proof of con-
+cept, with a fracture stress of close to 1 GPa and an elongation of near 20%. The ﬁndings here will
+shed light on the development of ductile RHEAs for ultrahigh-temperature applications in aero-
+space and power-generation industries. Published by AIP Publishing.
+[http://dx.doi.org/10.1063/1.4966659]
+I. INTRODUCTION
+The quest for ultrahigh temperature structural materials
+superior to nickel-based superalloys is essentially driven by
+the need to improve the efﬁciency of aerospace and power-
+generation gas-turbine engines, by operating at higher tem-
+peratures. The efﬁciency and performance of jet engines are
+strongly dependent on the highest temperature in the engine,
+i.e., the inlet temperature of the high pressure turbine blades.
+Today’s engines expose nickel-based superalloys to tempera-
+tures approaching 1150
+/C14 C, close to 90% of their melting
+points.1 Although the use of complex cooling systems and
+thermal barrier coatings can enable them to exist in the hot-
+test region of a turbine engine with temperatures approach-
+ing 1500
+/C14 C, the efﬁciency gained from operating at higher
+temperatures is greatly reduced. New ultrahigh temperature
+materials, therefore, must be developed that can operate at
+higher temperatures ( >1300
+/C14 C) without the need for
+cooling.1,2
+Conventional alloys, including nickel-based superalloys,
+are based on one or sometimes two principal elements, for
+example, Fe in steels and Ti and Al in TiAl based intermetal-
+lics. The recently emerging high-entropy alloys (HEAs), how-
+ever, provide a novel alloying strategy that signiﬁcantly
+expands the scope of the conventional alloy design.
+3–12 HEAs
+typically consist of at least four principal metallic elements
+in near-equiatomic ratios and therefore have a higher conﬁgu-
+ration entropy than that in conventional alloys. Due to their
+unique features, including high softening resistance at ele-
+vated temperatures, the slow diffusion kinetics, and high oxi-
+dation resistance, HEAs naturally possess the advantages to
+be considered as new types of high-temperature alloys. If
+these unique advantages can be further combined with the
+high melting point of refractory elements, i.e., group IV
+(Ti, Zr, Hf), V (V, Nb, Ta), and VI (Cr, Mo, W) refractory
+elements, the idea of refractory HEAs (RHEAs)
+13–16 would
+be a highly interesting alloying concept, aiming at high-
+temperature applications. However, the current bottleneck for
+utilizing RHEAs as structural materials is their general room
+temperature brittleness.
+17–21 Interestingly, among the reported
+RHEAs, there exist two alloys that possess tensile ductility at
+room temperature: equiatomic quaternary HfNbTiZr
+22 and
+equiatomic quinary HfNbTaTiZr. 23 The mechanism behind
+the ductility of HfNbTiZr and HfNbTaTiZr, in a sharp con-
+trast to other brittle RHEAs, however, remains unknown.
+Revealing the ductilizing mechanism for RHEAs from the
+alloy design perspective, aiming for the development of more
+ductile RHEAs with adjustable compositions (for example,
+using lighter elements to reduce the density), constitutes the
+topic of the current work.
+Particularly, in this work, we will tune the ductility of
+RHEAs utilizing the electron theory, with the objective to
+achieve the intrinsic ductility . The reasoning behind our
+alloy design strategy is based on a very recent theoretical
+work in intrinsically ductilizing bcc refractory alloys.
+24 An
+important theoretical ductility criterion for group V (V, Nb,
+Ta)- and VI metal (Cr, Mo, W)-based bcc refractory alloys is
+the mechanical failure mode of their perfect crystals under
+tension along the weakest direction [100]. For example, pure
+group V elements like V and Nb fail by shear deformation
+and they are intrinsically ductile, while pure group VI metals
+like Mo and W fail by cleavage and they are deemed intrinsi-
+cally brittle. Interestingly, ﬁrst-principles calculations show
+that alloying pure Mo/W with group IV (Ti, Zr, Hf) or group
+V transition metals can transform them into intrinsically duc-
+tile materials, failing in shear under [100] tension. It is
+intriguing to know whether the same principle can be
+extended from binary bcc refractory alloys to multicompo-
+nent bcc RHEAs. If it does, this means elements from group
+a)Author to whom correspondence should be addressed. Electronic mail:
+sheng.guo@chalmers.se
+0021-8979/2016/120(16)/164902/5/$30.00 Published by AIP Publishing.120, 164902-1
+JOURNAL OF APPLIED PHYSICS 120, 164902 (2016)
+
+## Page 2
+
+V or group IV, when alloyed with elements from group VI
+or group V, can lead to intrinsically ductile RHEAs.
+Interestingly, this scenario seems to be supported by the two
+existing ductile RHEAs: HfNbTiZr
+22 and HfNbTaTiZr, 23
+where in the quaternary alloys, the group V element Nb is
+alloyed with group IV elements Ti, Zr, and Hf, while in the
+quinary alloys, group V elements Nb and Ta are alloyed with
+group IV elements Ti, Zr, and Hf. On the other hand, if
+group V elements Nb and Ta are alloyed with group V and
+group VI elements V, Mo and W with more valence elec-
+trons, the formed alloys MoNbTaW and MoNbTaVW are
+brittle.
+17,19 From both the theoretical analysis and available
+experimental results, decreasing the average valence electron
+numbers, or valence electron concentrations (VEC),
+24,25 has
+been proven effective in ductilizing refractory alloys. Along
+this line of thinking, we developed a new ductile RHEA in
+this work, further validating the alloy design strategy of
+intrinsically ductile RHEAs using the electron theory.
+II. EXPERIMENTAL
+A new RHEA with the nominal composition,
+Hf0.5Nb0.5Ta0.5Ti1.5Zr, was prepared, a modiﬁed composi-
+tion to existing ductile RHEAs, HfNbTiZr and HfNbTaTiZr,
+keeping its VEC low and comparable to that of these known
+ductile RHEAs. The alloy preparation was carried out using
+high purity ( >99.9%) elemental materials by arc melting on
+a water-cooled copper plate in a Ti-gettered Ar atmosphere.
+The arc-melted ingot was ﬂipped and re-melted at least ﬁve
+times to ensure thorough mixing and chemical homogeneity.
+The ingot has the dimension of about 60 mm (length) /C2
+20 mm (width) /C2 10 mm (thickness). The microstructure of
+the as-cast sample was studied on polished and chemically
+etched specimen using a LEO Gemini 1550 scanning elec-
+tron microscope (SEM). The etchant used to reveal the
+microstructure was a mixture of 1.5 ml nitric acid, 5 ml
+hydroﬂuoric acid, and 45 ml water, for approximately 10 s.
+The crystal structure of the alloy was examined by Bruker
+AXS D8 advance X-ray diffraction (XRD) system using Cr-
+Ka radiation. Vickers hardness was measured on the pol-
+ished surface applying 1 kg load for 15 s. The density of the
+alloy was measured following the Archimedes’ principle. A
+rectangular dog-bone-shaped tensile specimen with a gauge
+length of 12.5 mm, a width of 3.2 mm, and a thickness of
+2 mm was machined from the ingot by electrical discharge
+machining, followed by surface polishing. Tensile testing
+was carried out using an Instron 5500 R electro-mechanic
+tensile tester, with a strain rate of 10
+/C0 3 s/C0 1.
+III. RESULTS AND DISCUSSION
+Figure 1 shows the backscatter electron image of the
+microstructure of the as-cast Hf 0.5Nb0.5Ta0.5Ti1.5Zr under
+SEM. A dendritic structure can be clearly observed. The XRD
+pattern, shown in the inset in Fig. 1, indicates that a single-
+phase bcc structure was achieved. All constituent elements
+have a bcc crystal structure just below their melting tempera-
+tures. Alloying of Nb with Ta leads to a continuous bcc solid
+solution in the entire compositional range.
+26 All other pairs of
+constituent elements (Hf-Nb, Hf-Ta, Hf-Ti, Hf-Zr, Nb-Ti, Nb-
+Zr, Ta-Ti, Ta-Zr, and Ti-Zr) also form continuous bcc solid
+solutions in the entire composition range just below solidus
+temperatures but can transform fully or partially to hcp solid
+solutions at low temperatures.
+26 The bcc solid solution that
+was achieved in the as-cast Hf 0.5Nb0.5Ta0.5Ti1.5Zr alloy is
+then stabilized by the high conﬁguration entropy and therefore
+the low Gibbs free energy, while the formation of hcp phase
+is kinetically restricted, possibly due to the sluggish diffusion
+in the alloy.27 A note can be added here on the segregation in
+the dendritic structure. Segregation is commonly seen in
+directly cast HEAs, and is also seen here for the new RHEA.
+From the XRD result, the segregation does not cause any new
+phase with a different crystal structure and noticeably differ-
+ent lattice constants. The material can therefore still be
+regarded as a single-phase bcc structure. On the one hand,
+since in this work we are mainly addressing the intrinsic duc-
+tility of REHAs, the effect of microstructure including the ele-
+mental segregation on the ductility is not given too much
+focus. On the other hand, we are already in the process of
+using thermomechanical treatments to modify the microstruc-
+ture via recrystallization. The segregation is no longer an issue
+in the recrystallized RHEA.
+The Vickers hardness of the as-cast Hf
+0.5Nb0.5Ta0.5
+Ti1.5Zr alloy is 301 HV. Figure 2 shows the room
+FIG. 1. Microstructure of as-cast Hf 0.5Nb0.5Ta0.5Ti1.5Zr alloy with typical
+dendritic morphology. The inset shows the XRD pattern.
+FIG. 2. True tensile stress-strain curve for the as-cast Hf 0.5Nb0.5Ta0.5Ti1.5Zr.
+The inset shows the microstructure at the fractured surface.
+164902-2 Sheikh et al. J. Appl. Phys. 120, 164902 (2016)
+
+## Page 3
+
+temperature true stress-strain curve for the as-cast
+Hf0.5Nb0.5Ta0.5Ti1.5Zr alloy. A yield stress of 903 MPa, an
+ultimate tensile stress (UTS) of 990 MPa, and an elongation
+to fracture of 18.8% were achieved, showing a combination
+of high strength and high ductility. The ductility can be fur-
+ther evidenced from the dimples observed at fractured surfa-
+ces, shown in the inset of Fig. 2. The mechanical properties
+of the as-cast Hf
+0.5Nb0.5Ta0.5Ti1.5Zr alloy are even slightly
+better than those of existing ductile HfNbTiZr (cast and
+homogenized) and HfNbTaTiZr (as-cast) RHEAs, where
+the yield stress, UTS, and elongation are 879 MPa, 969 MPa,
+and 14.9%,
+22 and 800–840 MPa, 850–890 MPa, and
+6%–9%,23 respectively.
+Thus, a new ductile RHEA, Hf 0.5Nb0.5Ta0.5Ti1.5Zr, has
+been designed, based on our intention to develop intrinsically
+ductile RHEAs following the electron theory. 24 Table I lists
+nine different RHEAs containing elements from groups IV,
+V, and VI, and their corresponding VEC. In all these nine
+RHEAs, only single-phase bcc solid solutions are formed.
+Among them, three are ductile (with >5% tensile elongation),
+while six are brittle. Seen from Fig. 3, all ductile RHEAs have
+aV E C/C20 4.4, while all brittle alloys have a VEC /C21 4.6. With
+a database of nine alloys, it is probably not convincing yet to
+conclude that there exists a threshold VEC of /C24 4.5 below
+which intrinsic ductility can be achieved in RHEAs, or to
+accurately predict whether an RHEA with a VEC of 4.5
+would be ductile or brittle. However, decreasing VEC in
+RHEAs by controlled alloying has indeed been proved effec-
+tive in ductilizing RHEAs. According to Qi and Chrzan,
+24 the
+intrinsic brittle to intrinsic ductile transition is determined by
+the transition of the elastic instability mode from tensile to
+shear failure, and the intrinsic ductility of bcc refractory alloys
+depends on whether shear instability occurs before the ideal
+tensile stress is reached. Tensile strain alters the band struc-
+tures of these alloys and changes the position of the Fermi
+level. Alloying additions can shift the Fermi level and can
+therefore tune the critical strain for the shear instability and
+the corresponding intrinsic failure mode. More speciﬁcally,
+decreasing the number of valence electrons shifts the Fermi
+level down relative to the band structure, so less strain is
+required and the shear instability occurs earlier. From the
+electronic structure perspective, the shear instability can also
+be understood from the concept of Jahn-Teller distortion,
+24
+which lowers the total energy of the alloy by splitting the
+degenerate energy levels of symmetry related and partially
+occupied orbitals near the Fermi level. Speciﬁcally, shifting
+the band structure by removing electrons, so decreasing the
+number of valance electrons, can increase the density of states
+(DOS) near the Fermi level and therefore increase the driving
+force for the Jahn-Teller distortion. DOS peaks just below and
+above the Fermi level would shift further away from the
+Fermi level to decrease energies, after the Jahn-Teller distor-
+tion. On a different note, Chan discussed the role of s þ d
+electrons (they are valence electrons for transition metals) on
+ductilizing Nb-based alloys from a different perspective other
+than shear instability.
+28 His approach was based on calculat-
+ing the surface energy and the Peierls-Nabarro (P-N) barrier
+energy as a function of alloy compositions. The surface
+energy, which is insensitive to alloy additions, was regarded
+as a measure of the resistance to cleavage fracture, while the
+P-N barrier energy, which is sensitive to alloy additions, was
+a measure of the dislocation mobility. Chan claimed that
+decreasing VEC in Nb-alloys, such as by Ti addition, can
+reduce the P-N barrier energy and hence enhance the disloca-
+tion mobility and therefore the tensile ductility.
+It is proposed here that intrinsically ductile RHEAs can
+be designed by manipulating VEC through controlled alloy-
+ing. It has to be emphasized that the strategy is essentially
+directed to bcc solid solutions, as is the case where Qi and
+Chrzan exempliﬁed how decreasing VEC can ductilize binary
+Wo rM oa l l o y s .
+24 In the context of RHEAs, this means that
+the alloy design of ductile RHEAs ﬁrst has to guarantee the
+formation of bcc solid solutions and no other phases. A sub-
+stantial work has been done in guiding the phase selection in
+HEAs, and it is now known that designing solid solutions
+forming HEAs can be conveniently helped by the two-
+dimensional d /C0 DH
+mix plot,29–32 where d is the atomic size
+mismatch among constituent elements and DHmix is the aver-
+aged mixing enthalpies among different pairs of elements. d is
+deﬁned by d ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃPn
+i¼1 cið1 /C0 ri= Pn
+j¼1 cjrjÞ2
+q
+,w h e r en is the
+number of alloying elements, ci is the atomic percentage for
+the ith element, and ri or rj is the atomic radius for the ith or
+jth element, respectively), and DHmix is given by DHmix
+¼ Pn
+i¼1;j>i 4DHmix
+AB cicj,w h e r eDHmix
+AB is the enthalpy of mixing
+for the binary equiatomic AB alloys. Statistically, it is shown
+TABLE I. Refractory HEAs and their VEC, d, and DHmix.
+Alloy system VEC d /C2 100 DHmix (kJ/mol) References
+HfNbTiZr 4.25 4.86 2.50 22
+Hf0.5Nb0.5Ta0.5Ti1.5Zr 4.25 4.78 1.87 This work
+HfNbTaTiZr 4.4 4.98 2.72 23
+HfMoTaTiZr 4.6 6.08 /C0 1.92 20
+HfMoNbTaTiZr 4.67 5.78 /C0 0.89 20
+HfMoNbTiZr 4.6 6.09 /C0 1.6 18
+MoNbTaVW 5.4 3.15 /C0 4.64 17 and 19
+MoNbTaW 5.5 2.32 /C0 6.50 17 and 19
+MoNbTaV 5.25 3.47 /C0 3.25 21
+FIG. 3. Separation of ductile and brittle RHEAs by the valence electron
+concentration.
+164902-3 Sheikh et al. J. Appl. Phys. 120, 164902 (2016)
+
+## Page 4
+
+that solid solutions can form when d is small (d /H113510.066), and
+DHmix is not signiﬁcantly negative ( DHmix /H11407/C0 11.6 kJ/mol).29
+Satisfying d < 0.066 and DHmix > /C0 11.6 kJ/mol, however, is
+necessary but not sufﬁcient conditions to form solid solutions
+in HEAs, as chances are that intermetallic compounds can still
+form.
+29 Checking the binary phase diagrams among constitu-
+ent elements can give some further guidance in designing
+solid solutions forming HEAs.
+33 For example, for the newly
+developed Hf0.5Nb0.5Ta0.5Ti1.5Zr alloy, there is no intermetal-
+lic compound forming in all relevant binary phase diagrams.
+It is therefore highly likely that as long as the necessary d /C0
+DH
+mix conditions are satisﬁed, solid solutions can indeed
+form, as is the real situation. On the premise that solid solu-
+tions are formed, the crystal structure of solid solutions can be
+tuned by VEC ( VEC ¼ P
+n
+i ciðVECÞi, where ( VEC)i is VEC
+for the ith element), where a large VEC ( >8) favors the fcc
+solid solution, while a smaller VEC ( <6.87) stabilizes the bcc
+solid solution. 25 Finally, to intrinsically ductilize bcc struc-
+tured RHEAs, VEC needs to be decreased to, for example,
+<4.5, based on what is indicated in Fig. 3. The box delineated
+by the blue dashed lines in Fig. 4 therefore gives a parametric
+guidance to design ductile RHEAs from the alloy design per-
+spective: d, DH
+mix, and VEC can all be calculated from given
+alloy compositions.
+Driven by the needs to increase the efﬁciency of gas-
+turbine engines, developing novel high-temperature materials
+with higher working temperatures and ideally reduced densi-
+ties compared to the currently used Ni-based superalloys is of
+critical importance. The density of the newly developed
+RHEA Hf
+0.5Nb0.5Ta0.5Ti1.5Zr was measured to be 8.13 g/cm 3,
+which is comparable to those of current Ni-based superalloys,
+and also lower than those of previously reported RHEAs,
+such as MoNbTaVW (12.36 g/cm
+3),17 MoNbTaW (13.75 g/
+cm3),17 HfNbTaTiZr (9.94 g/cm 3),18 HfMoTaTiZr (10.24 g/
+cm3), and HfMoNbTaTiZr (9.97 g/cm 3).20 With an estimated
+(by rule of mixture) melting point of 2055 /C14 C,
+Hf0.5Nb0.5Ta0.5Ti1.5Zr certainly has the potential to compete
+with Ni-based superalloys, if it also possesses decent high-
+temperature performance including high-temperature strength,
+resistance to creep deformation, and resistance to corrosion
+and oxidation. The high-temperature performance of
+Hf
+0.5Nb0.5Ta0.5Ti1.5Zr, and other low-density ductile RHEAs
+developed following the same alloy design strategy, will be
+the target for further studies. Nevertheless, solving the room
+temperature brittleness can be regarded as the ﬁrst and fore-
+most step in developing RHEAs as new generations of
+high-temperature materials. Additional optimizations include
+further reducing the density, and/or increasing the melting
+point, and enhancing the oxidation and corrosion resistance.
+In the meanwhile, although as-cast materials already present
+an attractive combination of high strength and high ductility
+here, thermomechanical treatments can certainly be used to
+further improve the mechanical performance.
+IV . SUMMARY
+To conclude, here we developed a new ductile RHEA,
+Hf0.5Nb0.5Ta0.5Ti1.5Zr, with a density of 8.13 g/cm 3 and a
+yield stress of 903 MPa, a fracture stress of 990 MPa, and an
+elongation of 18.8%, performing better than previously devel-
+oped ductile RHEAs. More importantly, we proposed the
+mechanism and route for ductilizing RHEAs comprising
+groups IV (Ti, Zr, Hf), V (V, Nb, Ta) and VI (Cr, Mo, W)
+refractory elements, using the electron theory. Intrinsically
+ductile RHEAs can be developed by alloying elements from
+group VI or group V, with elements from group V or group
+IV, or in other words by decreasing the number of valence
+electrons (s þ d electrons), in single-phase bcc solid solutions.
+ACKNOWLEDGMENTS
+Saad Sheikh and Sheng Guo are grateful for the
+ﬁnancial support from Area of Advance Materials Science
+from Chalmers University of Technology.
+1J. A. Lemberg and R. O. Ritchie, Adv. Mater. 24, 3445 (2012).
+2J. H. Perepezko, Science 326, 1068 (2009).
+3B. Gludovatz, A. Hohenwarter, D. Catoor, E. H. Chang, E. P. George, and
+R. O. Ritchie, Science 345, 1153 (2014).
+4Z. Li, K. G. Pradeep, Y. Deng, D. Raabe, and C. C. Tasan, Nature 534,
+227 (2016).
+5J. W. Yeh, S. K. Chen, S. J. Lin, J. Y. Gan, T. S. Chin, T. T. Shun, C. H.
+Tsau, and S. Y. Chang, Adv. Eng. Mater. 6, 299 (2004).
+6B. Cantor, I. T. H. Chang, P. Knight, and A. J. B. Vincent, Mater. Sci.
+Eng. A 375–377, 213 (2004).
+7Y. Zhang, T. T. Zuo, Z. Tang, M. C. Gao, K. A. Dahmen, P. K. Liaw, and
+Z. P. Lu, Prog. Mater. Sci. 61, 1 (2014).
+8Z. P. Lu, H. Wang, M. W. Chen, I. Baker, J. W. Yeh, C. T. Liu, and T. G.
+Nieh, Intermetallics 66, 67 (2015).
+9M. C. Gao, J.-W. Yeh, P. K. Liaw, and Y. Zhang, High-Entropy Alloys:
+Fundamentals and Applications (Springer, Cham, Switzerland, 2016).
+10F. Otto, Y. Yang, H. Bei, and E. P. George, Acta Mater. 61, 2628 (2013).
+11F. Otto, A. Dlouh /C19y, C. Somsen, H. Bei, G. Eggeler, and E. P. George, Acta
+Mater. 61, 5743 (2013).
+12Z. Wu, H. Bei, F. Otto, G. M. Pharr, and E. P. George, Intermetallics 46,
+131 (2014).
+13O. N. Senkov, G. B. Wilks, D. B. Miracle, C. P. Chuang, and P. K. Liaw,
+Intermetallics 18, 1758 (2010).
+14Y. Zou, S. Maiti, W. Steurer, and R. Spolenak, Acta Mater. 65, 85 (2014).
+15S. Maiti and W. Steurer, Acta Mater. 106, 87 (2016).
+16Y. Zou, H. Ma, and R. Spolenak, Nat. Commun. 6, 7748 (2015).
+17O. N. Senkov, G. B. Wilks, J. M. Scott, and D. B. Miracle, Intermetallics
+19, 698 (2011).
+FIG. 4. A plot showing how ductile bcc solid solutions can be predicted by
+three parameters, atomic size mismatch, d, averaged mixing enthalpy,
+DHmix, and valence electron concentration, VEC, as indicated by the blue
+dashed box. Parameters for d and DHmix are also projected onto the d /C0
+DHmix plane, shown as cyan dots.
+164902-4 Sheikh et al. J. Appl. Phys. 120, 164902 (2016)
+
+## Page 5
+
+18N. N. Guo, L. Wang, L. S. Luo, X. Z. Li, Y. Q. Su, J. J. Guo, and H. Z. Fu,
+Mater. Des. 81, 87 (2015).
+19O. N. Senkov, J. M. Scott, S. V. Senkova, D. B. Miracle, and C. F.
+Woodward, J. Alloys Compd. 509, 6043 (2011).
+20C. C. Juan, M. H. Tsai, C. W. Tsai, C. M. Lin, W. R. Wang, C. C. Yang,
+S. K. Chen, S. J. Lin, and J. W. Yeh, Intermetallics 62, 76 (2015).
+21H. W. Yao, J. W. Qiao, M. C. Gao, J. A. Hawk, S. G. Ma, and H. F. Zhou,
+Entropy 18, 189 (2016).
+22Y. D. Wu, Y. H. Cai, T. Wang, J. J. Si, J. Zhu, Y. D. Wang, and X. D. Hui,
+Mater. Lett. 130, 277 (2014).
+23G. Dirras, L. Lilensten, P. Djemia, M. Laurent-Brocq, D. Tingaud, J. P.
+Couzinie, L. Perriere, T. Chauveau, and I. Guillot, Mater. Sci. Eng. A 654,
+30 (2016).
+24L. Qi and D. C. Chrzan, Phys. Rev. Lett. 112, 115503 (2014).
+25S. Guo, C. Ng, J. Lu, and C. T. Liu, J. Appl. Phys. 109, 103505
+(2011).
+26H. Baker and H. Okamoto, ASM Handbook Volume 3: Alloy Phase
+Diagrams (American Society for Metals, Ohio, 1992).
+27K. Y. Tsai, M. H. Tsai, and J. W. Yeh, Acta Mater. 61, 4887 (2013).
+28K. S. Chan, Metall. Mater. Trans. A 32, 2475 (2001).
+29S. Guo, Q. Hu, C. Ng, and C. T. Liu, Intermetallics 41, 96 (2013).
+30S. Guo and C. T. Liu, Prog. Nat. Sci.: Mater. Int. 21, 433 (2011).
+31Y. Zhang, Y. J. Zhou, J. P. Lin, G. L. Chen, and P. K. Liaw, Adv. Eng.
+Mater. 10, 534 (2008).
+32S. Guo, Mater. Sci. Technol. 31, 1223 (2015).
+33M. C. Gao and D. E. Alman, Entropy 15, 4504 (2013).
+164902-5 Sheikh et al. J. Appl. Phys. 120, 164902 (2016)

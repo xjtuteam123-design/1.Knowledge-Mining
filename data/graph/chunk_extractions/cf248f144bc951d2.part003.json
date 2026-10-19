@@ -1,0 +1,122 @@
+{
+  "document_id": "cf248f144bc951d2",
+  "chunk_id": "cf248f144bc951d2:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Dislocation density-based constitutive model for cyclic deformation and softening of Ni-based superalloys",
+    "authors": [
+      "Kumar S",
+      "Patra A",
+      "Sahu JK"
+    ],
+    "journal": "Fatigue & Fracture of Engineering Materials & Structures",
+    "year": 2024,
+    "doi": "10.1111/ffe.14367"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 18,
+          "section": "Appendix A",
+          "quote": "predicted cyclic stress –strain response in the 1st and 20th cycles, and compared with the corresponding experimental data for a strain amplitude of 1% at 600 /C14 C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "IN 718",
+      "canonical_name": "Inconel 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-received",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 21,
+          "section": "Appendix B",
+          "quote": "A P P E N D I X B : TEM CHARACTERIZATION OF AS-RECEIVED MATERIAL",
+          "table": null,
+          "figure": "Figure B1",
+          "chunk_id": "cf248f144bc951d2:part:003"
+        },
+        {
+          "page": 21,
+          "section": "Appendix C",
+          "quote": "the constitutive model has been used to predict the cyclic softening behavior of IN 718 and compared with relevant experiments in the present work",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma'' (γ'')",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 21,
+          "section": "Appendix B",
+          "quote": "FIGURE B1 HRTEM image of (A) γ00 precipitate in the as-received material and (B) magnified image of the γ00 precipitate showing an “unsheared” lattice inside the precipitate.",
+          "table": null,
+          "figure": "Figure B1",
+          "chunk_id": "cf248f144bc951d2:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 21,
+          "section": "Appendix B",
+          "quote": "FIGURE B1 HRTEM image of (A) γ00 precipitate in the as-received material and (B) magnified image of the γ00 precipitate showing an “unsheared” lattice inside the precipitate.",
+          "table": null,
+          "figure": "Figure B1",
+          "chunk_id": "cf248f144bc951d2:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    {
+      "term": "IN 718",
+      "reason": "The source references IN 718 but the supplied segment does not provide its composition or a composition-level definition; retained as sample original_name only."
+    }
+  ],
+  "conflicts": []
+}

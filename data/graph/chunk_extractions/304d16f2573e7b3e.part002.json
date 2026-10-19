@@ -1,0 +1,301 @@
+{
+  "document_id": "304d16f2573e7b3e",
+  "chunk_id": "304d16f2573e7b3e:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Yanjie Li",
+      "Yibin Liu",
+      "Kesi Wu",
+      "Jie Sun",
+      "Dahai Zhang",
+      "Qingguo Fei"
+    ],
+    "journal": "International Journal of Fatigue",
+    "year": 2025,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based powder metallurgy superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "Microstructure, properties and heat treatment process of powder metallurgy superalloy FGH95[J]. J Iron Steel Res Int 2006;13 (5):65 – 8.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "FGH95",
+      "canonical_name": "FGH95",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "LCF tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4. Conclusion",
+          "quote": "(2) The FGH95 alloy exhibits distinct fracture modes at varying temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "dislocations assume the form of dislocation II, which bypasses the γ’ precipitated phase for motion and deformation.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "matrix phase",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "At higher temperatures (T600), dislocations slip on the slip surface of the matrix phase and climb through the phase boundary between the two phases.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation glide",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "At low temperatures (T420 and T510), dislocations primarily move along the slip surface, resulting in crack initiation along the slip zone.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation climb",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "At higher temperatures (T600), dislocations slip on the slip surface of the matrix phase and climb through the phase boundary between the two phases",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation bypass of precipitate",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "dislocations assume the form of dislocation II, which bypasses the γ’ precipitated phase for motion and deformation.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4. Conclusion",
+          "quote": "(2) The FGH95 alloy exhibits distinct fracture modes at varying temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "dislocations assume the form of dislocation II, which bypasses the γ’ precipitated phase for motion and deformation.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "At higher temperatures (T600), dislocations slip on the slip surface of the matrix phase and climb through the phase boundary between the two phases.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "conditions": {
+        "temperature_c": "T420 and T510"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "At low temperatures (T420 and T510), dislocations primarily move along the slip surface, resulting in crack initiation along the slip zone.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "conditions": {
+        "temperature_c": "T600"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "At higher temperatures (T600), dislocations slip on the slip surface of the matrix phase and climb through the phase boundary between the two phases",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "LCF tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "dislocations assume the form of dislocation II, which bypasses the γ’ precipitated phase for motion and deformation.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "304d16f2573e7b3e:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

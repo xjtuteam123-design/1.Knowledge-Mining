@@ -1,0 +1,94 @@
+{
+  "document_id": "dae15150e2848b2e",
+  "chunk_id": "dae15150e2848b2e:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "O.N. Senkov",
+      "S. Gorsse",
+      "D.B. Miracle",
+      "S.I. Rao",
+      "T.M. Butler"
+    ],
+    "journal": "Materials & Design",
+    "year": 2024,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "refractory complex concentrated alloy (RCCA)",
+      "material_category": "refractory complex concentrated alloy",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "5. Summary and conclusions",
+          "quote": "Using experimental data in the open literature, the room tempera - ture (RT) ductility and high-temperature (HT) strength of RCCAs are correlated against CALPHAD estimates of the liquidus temperature ( T L ) and rule-of-mixtures (ROM) estimates for elastic properties, density ( ρ ) and valence electron concentration (VEC).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dae15150e2848b2e:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "multivariate linear regression (MLR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict room-temperature ductility and high-temperature yield strength of RCCAs",
+      "inputs": [
+        "liquidus temperature",
+        "elastic properties",
+        "density",
+        "valence electron concentration"
+      ],
+      "target": "RT ductility and HT yield strength",
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 14,
+          "section": "5. Summary and conclusions",
+          "quote": "A multivariate linear regression (MLR) model has been developed using machine learning in the high dimensional RCCA design space.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dae15150e2848b2e:part:003"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "5. Summary and conclusions",
+          "quote": "A multivariate linear regression (MLR) model has been developed using machine learning in the high dimensional RCCA design space.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dae15150e2848b2e:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

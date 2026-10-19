@@ -1,0 +1,188 @@
+{
+  "document_id": "9159e2b414207886",
+  "chunk_id": "9159e2b414207886:part:004",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Advanced Engineering Materials",
+    "year": null,
+    "doi": "10.1002/adem.200310083"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Inconel 706 nickel-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "the solidification path of INCONEL 706 with cooling rate of 0.5 K/s",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:004"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "INCONEL 706",
+      "canonical_name": "Inconel 706",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solidifying",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "the solidification path of INCONEL 706 with cooling rate of 0.5 K/s",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:004"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "solidification",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "cooling_rate": "0.5 K/s"
+        }
+      },
+      "input_state": "liquid",
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "the solidification path of INCONEL 706 with cooling rate of 0.5 K/s",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:004"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "solid-state precipitation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solid solution",
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "solid-state precipitation paths",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:004"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "solidifying",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "the solidification path of INCONEL 706 with cooling rate of 0.5 K/s",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:004"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "solidifying",
+      "conditions": {
+        "cooling_rate": "0.5 K/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "the solidification path of INCONEL 706 with cooling rate of 0.5 K/s",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:004"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "solid solution",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "solid-state precipitation paths",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:004"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

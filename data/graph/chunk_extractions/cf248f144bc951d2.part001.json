@@ -1,0 +1,729 @@
+{
+  "document_id": "cf248f144bc951d2",
+  "chunk_id": "cf248f144bc951d2:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Dislocation density-based constitutive model for cyclic deformation and softening of Ni-based superalloys",
+    "authors": [
+      "Shivam Kumar",
+      "Anirban Patra",
+      "J. K. Sahu"
+    ],
+    "journal": "Fatigue & Fracture of Engineering Materials & Structures",
+    "year": 2024,
+    "doi": "10.1111/ffe.14367"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "A physically-based constitutive modeling framework is proposed for the cyclic deformation and softening of Ni-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "IN 718",
+      "canonical_name": "Inconel 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 | MATERIAL",
+          "quote": "The IN 718 alloy was initially forged and then subjected to a solutionizing heat treatment, followed by aging. This is schematically shown in Figure 1A. The material was solution treated at 960 /C14 C for 1 h and then air cooled to room temperature. Subsequently, it was aged at 760 /C14 C for 8 h and then furnace cooled to 620 /C14 C, where it was held for 8 h, before being finally air cooled to room temperature.",
+          "table": null,
+          "figure": "Figure 1A",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        },
+        {
+          "page": 3,
+          "section": "2 | MATERIAL",
+          "quote": "The study utilized a material identical to that employed by Banerjee et al.,30 with an additional material (IN 718) sharing the same composition but featuring a distinct grain size of 24 μm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        },
+        {
+          "page": 3,
+          "section": "2 | MATERIAL",
+          "quote": "Further, additional LCF experiments were also performed at 0.9% and 0.7% strain amplitude on identical material of grain size of 4 μm in the present study for comparison with predicted model trends.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "forging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "forged",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 | MATERIAL",
+          "quote": "The IN 718 alloy was initially forged and then subjected to a solutionizing heat treatment, followed by aging.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": 960,
+        "time": "1 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooled",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "forged",
+      "output_state": "solution treated",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 | MATERIAL",
+          "quote": "The material was solution treated at 960 /C14 C for 1 h and then air cooled to room temperature.",
+          "table": null,
+          "figure": "Figure 1A",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 760,
+        "time": "8 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "furnace cooled to 620 °C, held 8 h, then air cooled",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution treated",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 | MATERIAL",
+          "quote": "Subsequently, it was aged at 760 /C14 C for 8 h and then furnace cooled to 620 /C14 C, where it was held for 8 h, before being finally air cooled to room temperature.",
+          "table": null,
+          "figure": "Figure 1A",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ matrix",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 | INTRODUCTION",
+          "quote": "The microstructure of these alloys is generally comprised of γ0 and γ00 precipitates in the γ matrix, and precipitate strengthening is one of the main mechanisms contributing to the high-temperature strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "L12 (ordered FCC) crystal structure",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3 | CONSTITUTIVE MODEL",
+          "quote": "The IN 718 microstructure is comprised of γ0and γ00 precipitates, with an L1 2 (ordered FCC) and metastable D022 crystal structure, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ''",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "metastable D022 crystal structure",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3 | CONSTITUTIVE MODEL",
+          "quote": "The IN 718 microstructure is comprised of γ0and γ00 precipitates, with an L1 2 (ordered FCC) and metastable D022 crystal structure, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "γ grain",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "mean grain radius ≈ 4 μm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 | MATERIAL",
+          "quote": "Analysis of the SEM microstructure shown in Figure 2A reveals that the mean grain radius of the γ phase is ≈ 4 μm.",
+          "table": null,
+          "figure": "Figure 2A",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "γ' precipitate",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "12 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 | MATERIAL",
+          "quote": "TEM microstructures of the as-received material are shown in Figure 2B,C, which indicate the approximate size of γ0 and γ00 precipitates as 12 and 10 nm, respectively.",
+          "table": null,
+          "figure": "Figure 2B,C",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "γ'' precipitate",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "10 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 | MATERIAL",
+          "quote": "TEM microstructures of the as-received material are shown in Figure 2B,C, which indicate the approximate size of γ0 and γ00 precipitates as 12 and 10 nm, respectively.",
+          "table": null,
+          "figure": "Figure 2B,C",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3 | CONSTITUTIVE MODEL",
+          "quote": "High-angle grain boundaries in the γ matrix may act as barriers to dislocation glide. Accordingly, this has been modeled using a Hall–Petch type term, which gives the increase in strength as an inverse of the square root of the grain size, that is, Δσ gb ¼ f kHPﬃﬃﬃ d p",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3 | CONSTITUTIVE MODEL",
+          "quote": "Several alloying elements are added to Ni-based superalloys to enhance their mechanical properties due to solid solution strengthening. Gypen and Deruyttere 37 proposed a model for solid solution strengthening of the nickel matrix-based alloy that assumes superposition of the strengthening due to individual solute species with different potencies.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "precipitate strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3 | CONSTITUTIVE MODEL",
+          "quote": "These ordered precipitates are the main contributors to the strength of IN 718. Ordered precipitates in the path of glide dislocations may get sheared by the dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "dislocation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3 | CONSTITUTIVE MODEL",
+          "quote": "The strength contribution due to the dislocation density is given by a Taylor hardening model, Δσdislocation ¼ Gb ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃqρ ρtot p",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "precipitate shearing",
+      "category": "softening",
+      "sample_id": "sample_1",
+      "material_state": "cyclic deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2 | Cyclic softening",
+          "quote": "Physically, the cyclic softening has generally been attributed to successive shearing of coherent and ordered γ00 precipitates by dislocations during cyclic deformation. This successive shearing leads to a progressive reduction in size up to a point where they offer no resistance to the dislocation movement.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 | MATERIAL",
+          "quote": "This work studies the cyclic deformation behavior of a polycrystalline Ni-based superalloy, IN 718.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 | MATERIAL",
+          "quote": "The IN 718 alloy was initially forged and then subjected to a solutionizing heat treatment, followed by aging.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "solution treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 | MATERIAL",
+          "quote": "The material was solution treated at 960 /C14 C for 1 h and then air cooled to room temperature.",
+          "table": null,
+          "figure": "Figure 1A",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 | MATERIAL",
+          "quote": "Subsequently, it was aged at 760 /C14 C for 8 h and then furnace cooled to 620 /C14 C, where it was held for 8 h, before being finally air cooled to room temperature.",
+          "table": null,
+          "figure": "Figure 1A",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 | INTRODUCTION",
+          "quote": "The microstructure of these alloys is generally comprised of γ0 and γ00 precipitates in the γ matrix, and precipitate strengthening is one of the main mechanisms contributing to the high-temperature strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 | INTRODUCTION",
+          "quote": "The microstructure of these alloys is generally comprised of γ0 and γ00 precipitates in the γ matrix, and precipitate strengthening is one of the main mechanisms contributing to the high-temperature strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 | INTRODUCTION",
+          "quote": "The microstructure of these alloys is generally comprised of γ0 and γ00 precipitates in the γ matrix, and precipitate strengthening is one of the main mechanisms contributing to the high-temperature strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 | MATERIAL",
+          "quote": "Analysis of the SEM microstructure shown in Figure 2A reveals that the mean grain radius of the γ phase is ≈ 4 μm.",
+          "table": null,
+          "figure": "Figure 2A",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 | MATERIAL",
+          "quote": "TEM microstructures of the as-received material are shown in Figure 2B,C, which indicate the approximate size of γ0 and γ00 precipitates as 12 and 10 nm, respectively.",
+          "table": null,
+          "figure": "Figure 2B,C",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 | MATERIAL",
+          "quote": "TEM microstructures of the as-received material are shown in Figure 2B,C, which indicate the approximate size of γ0 and γ00 precipitates as 12 and 10 nm, respectively.",
+          "table": null,
+          "figure": "Figure 2B,C",
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3 | CONSTITUTIVE MODEL",
+          "quote": "High-angle grain boundaries in the γ matrix may act as barriers to dislocation glide. Accordingly, this has been modeled using a Hall–Petch type term, which gives the increase in strength as an inverse of the square root of the grain size.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3 | CONSTITUTIVE MODEL",
+          "quote": "Several alloying elements are added to Ni-based superalloys to enhance their mechanical properties due to solid solution strengthening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3 | CONSTITUTIVE MODEL",
+          "quote": "These ordered precipitates are the main contributors to the strength of IN 718.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3 | CONSTITUTIVE MODEL",
+          "quote": "These ordered precipitates are the main contributors to the strength of IN 718.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "mechanism_5",
+      "predicate": "DEGRADES",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "cyclic deformed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2 | Cyclic softening",
+          "quote": "Physically, the cyclic softening has generally been attributed to successive shearing of coherent and ordered γ00 precipitates by dislocations during cyclic deformation. This successive shearing leads to a progressive reduction in size up to a point where they offer no resistance to the dislocation movement.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cf248f144bc951d2:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

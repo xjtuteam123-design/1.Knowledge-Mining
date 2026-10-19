@@ -1,0 +1,202 @@
+{
+  "document_id": "5bb030f589765065",
+  "chunk_id": "5bb030f589765065:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A review on atom probe and correlative microscopy studies of corrosion in nickel-based superalloys",
+    "authors": [
+      "C.R.",
+      "M.A.",
+      "M.P.R.",
+      "S.P."
+    ],
+    "journal": "MRS Bulletin",
+    "year": 2022,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "Multicomponent Ni-based superalloys exhibit accelerated oxidation and the formation of Mo oxide as well.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "B-containing superalloy",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "oxidized",
+      "composition": [
+        {
+          "element": "B",
+          "value": 0.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "boron additions of 0.05 wt% extended the sample lifetime from 90 to 9000 h in creep tests",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5bb030f589765065:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "A B-containing superalloy was also studied using APT, and the results showed a surface aluminoborate phase within the oxide scale, which weakened the polycrystalline superalloy due to the outward diffusion of B from grain boundaries into the oxide scale.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "aluminoborate",
+      "sample_id": "sample_1",
+      "material_state": "oxidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "surface oxide scale",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "A B-containing superalloy was also studied using APT, and the results showed a surface aluminoborate phase within the oxide scale, which weakened the polycrystalline superalloy due to the outward diffusion of B from grain boundaries into the oxide scale.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "sample lifetime",
+      "value": null,
+      "min_value": 90,
+      "max_value": 9000,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "creep",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "boron additions of 0.05 wt% extended the sample lifetime from 90 to 9000 h in creep tests",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "outward diffusion of boron",
+      "category": "diffusion",
+      "sample_id": "sample_1",
+      "material_state": "oxidized",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "A B-containing superalloy was also studied using APT, and the results showed a surface aluminoborate phase within the oxide scale, which weakened the polycrystalline superalloy due to the outward diffusion of B from grain boundaries into the oxide scale.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "oxidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "A B-containing superalloy was also studied using APT, and the results showed a surface aluminoborate phase within the oxide scale",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "oxidized",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "A B-containing superalloy was also studied using APT, and the results showed a surface aluminoborate phase within the oxide scale, which weakened the polycrystalline superalloy due to the outward diffusion of B from grain boundaries into the oxide scale.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

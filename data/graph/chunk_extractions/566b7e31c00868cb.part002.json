@@ -1,0 +1,243 @@
+{
+  "document_id": "566b7e31c00868cb",
+  "chunk_id": "566b7e31c00868cb:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Lijing Lin",
+      "Xin Xian",
+      "Zhihong Zhong",
+      "Chang Chen",
+      "Zhixiong Zhu",
+      "Yucheng Wu",
+      "Peter K. Liaw"
+    ],
+    "journal": "Intermetallics",
+    "year": 2020,
+    "doi": "10.1016/j.intermet.2020.106744"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "CrMnFeCoNiAl high-entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "The composite structure of CrMnFeCoNiAl0.75 alloy made it possess high strength up to 500 �C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "566b7e31c00868cb:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CrMnFeCoNiAl0.75",
+      "canonical_name": "CrMnFeCoNiAl0.75",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 0.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "6",
+              "section": "Conclusions",
+              "quote": "CrMnFeCoNiAl0.75 alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "566b7e31c00868cb:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "The composite structure of CrMnFeCoNiAl0.75 alloy made it possess high strength up to 500 �C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "566b7e31c00868cb:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "channel-shaped",
+        "location": "dual-phase region",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "The dual-phase region with fine structure was composed of channel-shaped BCC phase and cubic-shaped B2 phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "566b7e31c00868cb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "B2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cubic-shaped",
+        "location": "dual-phase region",
+        "composition": "Ni-Al-Co-Mn",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "Ni – Al – Co – Mn B2 phase. The dual-phase region with fine structure was composed of channel-shaped BCC phase and cubic-shaped B2 phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "566b7e31c00868cb:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation motion impedance by BCC and ordered B2 phases",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "The high strength was attributed to the formation of high strength BCC and ordered B2 phase in the alloy, which effectively impede the motion of dislocations below 600 �C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "566b7e31c00868cb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "thermo-activated dislocation movement",
+      "category": "softening",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "The decreased alloy strength at and above 600 �C may be due to the decrease in strength of B2 and BCC phase, dislocations cutting the B2 phase, and thermo-activated dislocation movement.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "566b7e31c00868cb:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {
+        "temperature_c": 600
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "The high strength was attributed to the formation of high strength BCC and ordered B2 phase in the alloy, which effectively impede the motion of dislocations below 600 �C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "566b7e31c00868cb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {
+        "temperature_c": 600
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "The high strength was attributed to the formation of high strength BCC and ordered B2 phase in the alloy, which effectively impede the motion of dislocations below 600 �C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "566b7e31c00868cb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {
+        "temperature_c": 600
+      },
+      "polarity": "negative",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "The decreased alloy strength at and above 600 �C may be due to the decrease in strength of B2 and BCC phase, dislocations cutting the B2 phase, and thermo-activated dislocation movement.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "566b7e31c00868cb:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,397 @@
+{
+  "document_id": "edf29be147755524",
+  "chunk_id": "edf29be147755524:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Nb521合金电子束选区熔化及组织结构与力学性能",
+    "authors": [
+      "刘宝鹍"
+    ],
+    "journal": "哈尔滨工业大学工学硕士学位论文",
+    "year": null,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb-W alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": "29",
+          "section": "2.2.3 合金密度测试",
+          "quote": "设计 Nb-W 合金的密度测试实验，对电子束选区熔化增材制造技术制备的 Nb521 合金进行密度测试。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Nb521 合金粉末",
+      "canonical_name": "Nb521",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "gas-atomized powder",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "33",
+          "section": "3.2.1 Nb521 合金粉末",
+          "quote": "本实验所采用的 Nb521 合金粉末由等离子体旋转雾化制粉设备所制备的",
+          "table": null,
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Nb521 合金铸锭",
+      "canonical_name": "Nb521",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "ingot",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "56",
+          "section": "4.4.3 析出相形成机理分析",
+          "quote": "而我们在铸锭中只发现了长条状析出相，由能谱分析为 Nb 2 C 相",
+          "table": null,
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "S1",
+      "canonical_name": "Nb521",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built (EBSM, bottom layer)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "55",
+          "section": "4.3.1 Nb521 合金成形件切割方式",
+          "quote": "设计六个垂直于打印方向的水平样本如图 4-10(a) 所示，每层厚度为 1.3mm，选择编号为 S1~S6 进行显微组织演化分析。",
+          "table": null,
+          "figure": "4-10",
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": null,
+      "canonical_name": "253MA stainless steel",
+      "alloy_system_id": null,
+      "material_state": "substrate",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "45",
+          "section": "4.2.1 温度场模型的建立",
+          "quote": "主要分为 Nb521 合金成形件与 253MA 不锈钢基板上下两个模块",
+          "table": null,
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "plasma rotating electrode atomization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "gas atomization",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "gas-atomized powder",
+      "evidence": [
+        {
+          "page": "33",
+          "section": "3.2.1 Nb521 合金粉末",
+          "quote": "本实验所采用的 Nb521 合金粉末由等离子体旋转雾化制粉设备所制备的",
+          "table": null,
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": null,
+      "sequence": 1,
+      "method": "electron beam selective melting (EBSM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": "0.7 m/s",
+        "layer_thickness": null,
+        "other": {
+          "beam_current_ma": 15
+        }
+      },
+      "input_state": "gas-atomized powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": "29",
+          "section": "2.1.2 EBSM 工艺参数",
+          "quote": "综合以上实验结果，Nb521 合金的打印参数制定为：扫描速度为 0.7m/s，束流为 15mA 较为合适。",
+          "table": "2-7",
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Nb",
+      "sample_id": "sample_1",
+      "material_state": "gas-atomized powder",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "42",
+          "section": "3.5.3 XRD 结果分析",
+          "quote": "三种粒度的 Nb521 粉均为 Nb 衍射峰，无其他明显衍射峰存在，Nb521 合金粉末经快速凝固后形成过饱和固溶体",
+          "table": null,
+          "figure": "3-12",
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Nb2C",
+      "sample_id": "sample_3",
+      "material_state": "as-built (EBSM, bottom layer)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "long strip",
+        "location": "intragranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "54",
+          "section": "4.4.2 TEM 结果分析",
+          "quote": "条状析出相及点状C富集析出相成分基本一致，主要含有Nb、C元素的存在，可以确定为同一种相，应为XRD图谱标定的 Nb 2 C 相。",
+          "table": "4-1",
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "(Nb,Zr)C",
+      "sample_id": "sample_3",
+      "material_state": "as-built (EBSM, bottom layer)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dot-like",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "54",
+          "section": "4.4.2 TEM 结果分析",
+          "quote": "从表中可以发现 Zr 富集的点状析出相主要含有 Nb、Zr 及 C 元素，可以确定为(Nb，Zr)C 相",
+          "table": "4-1",
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "gas-atomized powder",
+      "property": "nanohardness",
+      "value": null,
+      "min_value": 5,
+      "max_value": 8,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "72",
+          "section": "结论",
+          "quote": "Nb521 合金粉末总体硬度位于 5~8GPa。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "as-built (EBSM, bottom layer)",
+      "property": "tensile strength",
+      "value": 552.31,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "along printing direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test at 0.11 mm/min"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "68",
+          "section": "4.5.1 拉伸性能测试分析",
+          "quote": "结果表明，S1 层拉伸强度最高，随着打印层面增加，拉伸强度逐渐降低，至 S6 层拉伸强度又出现升高的趋势。整体的拉伸强度在 500~550MPa，均大于铸锭的拉伸强度。",
+          "table": null,
+          "figure": "4-25",
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_3",
+      "material_state": "as-built (EBSM, bottom layer)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "69",
+          "section": "4.5.1 拉伸性能测试分析",
+          "quote": "Nb521 合金的强化来源主要分为两个方面，一是由 W、Mo、Zr 等合金元素和间隙元素 C 产生的固溶强化",
+          "table": null,
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_3",
+      "material_state": "as-built (EBSM, bottom layer)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "69",
+          "section": "4.5.1 拉伸性能测试分析",
+          "quote": "其二为弥散分布的碳化物粒子产生的沉淀强化及其相关的细晶强化",
+          "table": null,
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "as-built (EBSM, bottom layer)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "69",
+          "section": "4.5.1 拉伸性能测试分析",
+          "quote": "Nb521 合金的强化来源主要分为两个方面，一是由 W、Mo、Zr 等合金元素和间隙元素 C 产生的固溶强化",
+          "table": null,
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "as-built (EBSM, bottom layer)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "69",
+          "section": "4.5.1 拉伸性能测试分析",
+          "quote": "其二为弥散分布的碳化物粒子产生的沉淀强化及其相关的细晶强化",
+          "table": null,
+          "figure": null,
+          "chunk_id": "edf29be147755524:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

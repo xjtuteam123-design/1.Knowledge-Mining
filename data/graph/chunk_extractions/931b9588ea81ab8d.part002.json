@@ -1,0 +1,119 @@
+{
+  "document_id": "931b9588ea81ab8d",
+  "chunk_id": "931b9588ea81ab8d:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "The Journal of Physical Chemistry Letters",
+    "year": 2015,
+    "doi": "10.1021/acs.jpclett.5b00177"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": null,
+          "quote": "In the presence of metal vacancies in Ni we ﬁnd a substantial energetic preference for both oxygen and sulfur to occupy substitutional rather that interstitial sites",
+          "table": null,
+          "figure": null,
+          "chunk_id": "931b9588ea81ab8d:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Defect",
+      "name": "metal vacancy",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ni",
+        "identification_status": "author_hypothesis"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": null,
+          "quote": "In the presence of metal vacancies in Ni we ﬁnd a substantial energetic preference for both oxygen and sulfur to occupy substitutional rather that interstitial sites",
+          "table": null,
+          "figure": null,
+          "chunk_id": "931b9588ea81ab8d:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "vacancy trapping of oxygen",
+      "category": "defect interaction",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": null,
+          "quote": "In the presence of metal vacancies in Ni we ﬁnd a substantial energetic preference for both oxygen and sulfur to occupy substitutional rather that interstitial sites that should lead to trapping of oxygen (sulfur) at metal vacancy sites.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "931b9588ea81ab8d:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": null,
+          "quote": "In the presence of metal vacancies in Ni we ﬁnd a substantial energetic preference for both oxygen and sulfur to occupy substitutional rather that interstitial sites that should lead to trapping of oxygen (sulfur) at metal vacancy sites.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "931b9588ea81ab8d:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    {
+      "term": "Ni",
+      "reason": "Elemental Ni material is referenced but no sample, composition, or fabrication process is described in the segment. Element node not created because sample context is absent.",
+      "evidence": [
+        {
+          "page": "5",
+          "section": null,
+          "quote": "In the presence of metal vacancies in Ni we ﬁnd a substantial energetic preference for both oxygen and sulfur to occupy substitutional rather that interstitial sites",
+          "table": null,
+          "figure": null
+        }
+      ]
+    }
+  ],
+  "conflicts": []
+}

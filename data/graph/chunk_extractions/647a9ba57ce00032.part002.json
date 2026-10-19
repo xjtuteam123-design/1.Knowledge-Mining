@@ -1,0 +1,378 @@
+{
+  "document_id": "647a9ba57ce00032",
+  "chunk_id": "647a9ba57ce00032:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "International Journal of Plasticity",
+    "year": null,
+    "doi": "10.1016/j.ijplas.2020.102896"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "4. Model application to single crystal Ni-based superalloys",
+          "quote": "After implementing the model in the commercial FE framework of ABAQUS, it is applied to two different single crystal Ni-based superalloys, CMSX-4 and MD2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "15",
+          "section": "4.1. Tension tests: model validation",
+          "quote": "Parameter optimization is performed simultaneously for two sets of CMSX-4 single crystal experimental observations (listed in Table 3) involving maximum variation in conditions such as crystal orientation, strain rate, and test temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "MD2",
+      "canonical_name": "MD2",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2. Room temperature predictions of the model",
+          "quote": "Due to different alloy composition for MD2, activation energy F0 and initial dislocation density ρα0 were re-calibrated with respect to MD2 experimental flow curves (Leidermark et al., 2010).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "18",
+          "section": "5.2. Rational behind dual flow rule",
+          "quote": "Being a disordered fcc structure, γ channels exhibit an easy glide of 1/2⟨1 1 0⟩γ dislocations on octahedral planes",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": "0.75 at 850 C; 0.71 at 950 C",
+        "size": "mean precipitate size 573 nm at 850 C, 562 nm at 950 C; gamma channel width 58 nm at 850 C, 67 nm at 950 C",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 2",
+          "quote": "Mean size of γ′ precipitate lγ′ 573 562 nm; Mean size of γ channel wγ′ 58 67 nm; Volume fraction of γ′ precipitate Vγ′f 0.75 0.71",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": "sample_2",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": "0.65",
+        "size": "precipitate size 450 nm; gamma channel width 65 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "17",
+          "section": "Table 4",
+          "quote": "Size of γ′ precipitate lγ′ 450 nm; Size of γ channel wγ′ 65 nm; Volume fraction of γ′ precipitate Vγ′f 0.65",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "anti-phase boundary shearing",
+      "category": "precipitation shearing",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "15",
+          "section": "4.1. Tension tests: model validation",
+          "quote": "stage 1 is the elastic regime followed by γ channel dislocation glide in stage 2, and finally in stage 3 anti-phase boundary shearing of γ′ precipitates resulting in stress-plateau with slight decrease.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation storage at gamma/gamma prime interface",
+      "category": "work hardening",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "15",
+          "section": "4.1. Tension tests: model validation",
+          "quote": "Significant hardening associated with stage 2 of [0 0 1] orientation is a direct consequence of dislocation storage in the γ′ precipitate interface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation pile-up and looping around gamma prime particles",
+      "category": "back stress",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "19",
+          "section": "5.1. Physical significance of back stress",
+          "quote": "Back stress is required in the model to depict the mechanism of dislocations pileup and looping around the γ′ particles which has a strong influence on the deformation behavior of both γ and γ′.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "4. Model application to single crystal Ni-based superalloys",
+          "quote": "it is applied to two different single crystal Ni-based superalloys, CMSX-4 and MD2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "4. Model application to single crystal Ni-based superalloys",
+          "quote": "it is applied to two different single crystal Ni-based superalloys, CMSX-4 and MD2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "18",
+          "section": "5.2. Rational behind dual flow rule",
+          "quote": "γ channels exhibit an easy glide of 1/2⟨1 1 0⟩γ dislocations on octahedral planes, whereas shear of dislocation sparse ordered L12 γ′ precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 2",
+          "quote": "Volume fraction of γ′ precipitate Vγ′f 0.75 0.71",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "17",
+          "section": "Table 4",
+          "quote": "Volume fraction of γ′ precipitate Vγ′f 0.65",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "15",
+          "section": "4.1. Tension tests: model validation",
+          "quote": "finally in stage 3 anti-phase boundary shearing of γ′ precipitates resulting in stress-plateau with slight decrease",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "15",
+          "section": "4.1. Tension tests: model validation",
+          "quote": "Significant hardening associated with stage 2 of [0 0 1] orientation is a direct consequence of dislocation storage in the γ′ precipitate interface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "19",
+          "section": "5.1. Physical significance of back stress",
+          "quote": "The magnitude and nature of the back stress is strongly influenced by the volume fraction and size of the γ′ along with the deformation magnitude.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "P1 = ρα0, P2 = F0, P3 = APB 100",
+    "P4 = A, P5 = APB 111, P6 = rb"
+  ],
+  "conflicts": []
+}

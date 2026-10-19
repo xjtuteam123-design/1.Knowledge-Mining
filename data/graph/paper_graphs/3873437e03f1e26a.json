@@ -1,0 +1,219 @@
+{
+  "document_id": "3873437e03f1e26a",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Long Time Creep Prediction of a Creep Constitutive Equation of Ni-Base Single Crystal Superalloys",
+    "authors": [
+      "Hitoshi Izuno",
+      "Yutaka Koizumi",
+      "Tadaharu Yokokawa",
+      "Hiroshi Harada"
+    ],
+    "journal": "Journal of the Japan Institute of Metals (日本金属学会誌)",
+    "year": 2007,
+    "doi": "10.2320/jinstmet.71.712"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base single crystal superalloy",
+      "material_category": "Ni-base single crystal superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Long Time Creep Prediction of a Creep Constitutive Equation of Ni-Base Single Crystal Superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3873437e03f1e26a:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "PWA1484",
+      "canonical_name": "PWA1484",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. 再現結果およびクリープ挙動の予測",
+          "quote": "Fig. 2 に本構成式を用いた PWA1484 合金15) の 1000 °C/ 137 MPa における長時間クリープ試験に対する適用結果を示す．",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "3873437e03f1e26a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "TMS-82+",
+      "canonical_name": "TMS-82+",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. 再現結果およびクリープ挙動の予測",
+          "quote": "Fig. 4 に物質・材料研究機構が開発した TMS 82 ＋合金16)の 900°C/245 MPa におけるクリープ試験結果を示す．",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3873437e03f1e26a:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "property": "rupture time",
+      "value": 5522,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 900,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "long time creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. 再現結果およびクリープ挙動の予測",
+          "quote": "一方，この試験での破断寿命は 5522 h と測定されており，値に開きがある．",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3873437e03f1e26a:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "multi regression analysis of creep constitutive parameters",
+      "category": "modelling",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. 再現結果およびクリープ挙動の予測",
+          "quote": "このフィットで得られた各 cut off 時間に対応する A2, c1, c2, m の組から，作成された重回帰式により l を計算した．",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3873437e03f1e26a:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. 再現結果およびクリープ挙動の予測",
+          "quote": "Fig. 2 に本構成式を用いた PWA1484 合金15) の 1000 °C/ 137 MPa における長時間クリープ試験に対する適用結果を示す．",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "3873437e03f1e26a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. 再現結果およびクリープ挙動の予測",
+          "quote": "Fig. 4 に物質・材料研究機構が開発した TMS 82 ＋合金16)の 900°C/245 MPa におけるクリープ試験結果を示す．",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3873437e03f1e26a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {
+        "temperature_c": 900,
+        "test_method": "long time creep test"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. 再現結果およびクリープ挙動の予測",
+          "quote": "一方，この試験での破断寿命は 5522 h と測定されており，値に開きがある．",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3873437e03f1e26a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. 再現結果およびクリープ挙動の予測",
+          "quote": "Fig. 5 にこうして得られた l の計算結果を示す． cut off 時間が 2000 時間以降において， l が破断寿命に急速に近づいていることがわかる．",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "3873437e03f1e26a:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

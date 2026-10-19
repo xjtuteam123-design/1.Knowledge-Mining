@@ -1,0 +1,1411 @@
+{
+  "document_id": "274a2422699f6f6b",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Plastic deformation behavior and constitutive modeling of Cu-50Ta alloy during hot compression",
+    "authors": [
+      "Bo Pu",
+      "Ping Song",
+      "Wen-Bin Li",
+      "Wen-Jin Yao",
+      "Xiao-Ming Wang"
+    ],
+    "journal": "Materials Research Express",
+    "year": 2022,
+    "doi": "10.1088/2053-1591/ac49bd"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Cu-Ta alloy",
+      "material_category": "metal-matrix composite",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "This paper presents a study on plastic deformation behavior of Cu– 50Ta alloy at temperatures of 286– 473 K and strain-rate of 0.01– 6200 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        },
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the J-C constitutive model is selected in this paper to describe the dynamic deformation behavior of Cu– 50Ta.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Cu-50Ta",
+      "canonical_name": "Cu-50Ta",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-forged",
+      "composition": [
+        {
+          "element": "Cu",
+          "value": 50,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mass ratio (Cu:Ta)",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "4",
+              "section": "2.1 Material",
+              "quote": "Cu– Ta composite material with a mass ratio of 1:1 was prepared by a liquid-phase sintering process.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "274a2422699f6f6b:part:001"
+            },
+            {
+              "page": "13",
+              "section": null,
+              "quote": "Cu– 50Ta",
+              "table": null,
+              "figure": null,
+              "chunk_id": "274a2422699f6f6b:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 50,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mass ratio (Cu:Ta)",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "4",
+              "section": "2.1 Material",
+              "quote": "Cu– Ta composite material with a mass ratio of 1:1 was prepared by a liquid-phase sintering process.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "274a2422699f6f6b:part:001"
+            },
+            {
+              "page": "13",
+              "section": null,
+              "quote": "Cu– 50Ta",
+              "table": null,
+              "figure": null,
+              "chunk_id": "274a2422699f6f6b:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "To improve the material density, the sintered samples were forged at room temperature. The density of the Cu– 50Ta alloy was 11.528 g cm−3, which was 99.5% of the theoretical value.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        },
+        {
+          "page": "15",
+          "section": "4. Conclusions",
+          "quote": "Cu– 50Ta alloy with high strength and density was prepared by liquid-phase sintering and forging.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "liquid-phase sintering",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "powder_mixture": "Cu powder 19.879 μm average particle size, Ta powder 4.594 μm average particle size"
+        }
+      },
+      "input_state": "Cu and Ta powders",
+      "output_state": "sintered compact",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "Cu– Ta composite material with a mass ratio of 1:1 was prepared by a liquid-phase sintering process.",
+          "table": "table 1",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        },
+        {
+          "page": "15",
+          "section": "4. Conclusions",
+          "quote": "Cu– 50Ta alloy with high strength and density was prepared by liquid-phase sintering and forging.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "forging",
+      "parameters": {
+        "temperature_c": "room temperature",
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "purpose": "improve material density"
+        }
+      },
+      "input_state": "sintered compact",
+      "output_state": "as-forged",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "To improve the material density, the sintered samples were forged at room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        },
+        {
+          "page": "15",
+          "section": "4. Conclusions",
+          "quote": "Cu– 50Ta alloy with high strength and density was prepared by liquid-phase sintering and forging.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Cu matrix",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "Near-spherical Ta particles(light-colored structures) were embedded in the Cu matrix phase(dark color).",
+          "table": null,
+          "figure": "figure 1",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Ta particle",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "about 20 μm average",
+        "morphology": "near-spherical",
+        "location": "embedded in Cu matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "Near-spherical Ta particles(light-colored structures) were embedded in the Cu matrix phase(dark color). The average size of the Ta particles was about 20 μm.",
+          "table": null,
+          "figure": "figure 1",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "yield strength",
+      "value": 543.75,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 286,
+        "strain_rate": "0.01 s^-1",
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MTS universal testing machine"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "At a temperature of 286 K, the strain-rate increased from 0.01 s−1 to 6200 s−1, and the yield strength increased from 543.75 MPa to 881.13 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "yield strength",
+      "value": 881.13,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 286,
+        "strain_rate": "6200 s^-1",
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "split Hopkinson pressure bar (SHPB)"
+      },
+      "comparison_sample_id": "observation_1",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "At a temperature of 286 K, the strain-rate increased from 0.01 s−1 to 6200 s−1, and the yield strength increased from 543.75 MPa to 881.13 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "yield strength",
+      "value": 740,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 286,
+        "strain_rate": "1700 s^-1",
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "split Hopkinson pressure bar (SHPB)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.2 Thermal sensitivity",
+          "quote": "Under conditions of 1700 s−1 and 286 K, the yield strength of the material was 740 MPa; as the temperature increased to 473 K, the yield strength decreased to about 650 MPa.",
+          "table": null,
+          "figure": "figure 7",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "yield strength",
+      "value": 650,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 473,
+        "strain_rate": "1700 s^-1",
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "split Hopkinson pressure bar (SHPB)"
+      },
+      "comparison_sample_id": "observation_3",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.2 Thermal sensitivity",
+          "quote": "Under conditions of 1700 s−1 and 286 K, the yield strength of the material was 740 MPa; as the temperature increased to 473 K, the yield strength decreased to about 650 MPa.",
+          "table": null,
+          "figure": "figure 7",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "melting point",
+      "value": 1093.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "standard atmospheric pressure",
+        "duration": null,
+        "test_method": "ASTM E773-2006 (2018)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "the melting point of the Cu– 50Ta prepared in this study was 1093.5 °C under standard air pressure.",
+          "table": null,
+          "figure": "figure 2",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "specific heat capacity",
+      "value": null,
+      "min_value": 0.345,
+      "max_value": 0.482,
+      "uncertainty": null,
+      "unit": "J g^-1 K^-1",
+      "conditions": {
+        "temperature_c": "50-600",
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "standard atmospheric pressure",
+        "duration": null,
+        "test_method": "ASTM E773-2006 (2018)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "In the temperature range of 50°C– 600 °C, the speciﬁc heat capacity of the material ﬂuctuated between 0.345– 0.482 J gK−1.",
+          "table": null,
+          "figure": "figure 3",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "specific heat capacity",
+      "value": null,
+      "min_value": 0.345,
+      "max_value": 0.482,
+      "uncertainty": null,
+      "unit": "J g^-1 K^-1",
+      "conditions": {
+        "temperature_c": "50-600",
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "standard atmospheric pressure",
+        "duration": null,
+        "test_method": "ASTM E773-2006 (2018)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "the speciﬁc heat capacity of the material ﬂuctuated between 0.345– 0.482 J gK−1.",
+          "table": null,
+          "figure": "figure 3",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "elastic modulus",
+      "value": 44.249,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 3",
+          "quote": "Elastic modulus (Compress) E (Gpa) 44.249",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "density",
+      "value": 11.528,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "g/cm3",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 3",
+          "quote": "Density ρ (gc m−3) 11.528",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "yield stress constant A",
+      "value": 735.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "J-C constitutive model parameter fitting"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 3",
+          "quote": "Yield stress constant A (Mpa) 735.6",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "strain hardening constant B",
+      "value": 19.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "J-C constitutive model parameter fitting"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 3",
+          "quote": "Strain hardening constant B (Mpa) 19.6",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "specific heat",
+      "value": 0.345,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "J/(g*K)",
+      "conditions": {
+        "temperature_c": 50,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 3",
+          "quote": "Specific heat (50 °C) Cp (J/(g * K)) 0.345",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "property": "surface temperature",
+      "value": 789,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "K",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "dynamic impact compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "SHPB, numerical simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "At an impact speed of 23.17 m s−1, the surface temperature of the sample exceeded 466 K, and the instantaneous temperatures of some areas even reached 789 K, which was about 57.7% of the material melting point.",
+          "table": null,
+          "figure": "Figure 18",
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "strain-rate strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "The material exhibited obvious strain-rate strengthening and thermal softening. As the strain-rate increased, the yield strength logarithmically increased.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        },
+        {
+          "page": "15",
+          "section": "4. Conclusions",
+          "quote": "The Cu – 50Ta alloy prepared in this study had obvious strain-rate strengthening and thermal-softening properties.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "thermal softening",
+      "category": "softening",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1 Stress-strain relationship",
+          "quote": "As the ambient temperature rose to 473 K, theﬂow stress of the material obviously decreased under the same strain-rate, which presented as thermal softening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        },
+        {
+          "page": "15",
+          "section": "4. Conclusions",
+          "quote": "The Cu – 50Ta alloy prepared in this study had obvious strain-rate strengthening and thermal-softening properties.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "adiabatic heating",
+      "category": "thermal",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the temperature distribution of the material was not uniform because the deformation process was adiabatic and the temperature rise occurred too late in the process for heat to be transferred.",
+          "table": null,
+          "figure": "Figure 18",
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "phenomenological model of strain-rate sensitivity coefficient",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "prediction of strain-rate sensitivity coefficient m",
+      "inputs": [
+        "strain-rate",
+        "strain"
+      ],
+      "target": "strain-rate sensitivity coefficient m",
+      "dataset": "experimental data at 286 K, strain-rate 1700-6200 s^-1",
+      "validation": "comparison with experiment; maximum prediction error",
+      "metrics": {
+        "max_prediction_error_percent": 8
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "3.3 Strain-rate sensitivity",
+          "quote": "the prediction model of the strain-rate sensitivity coefﬁcient is in good agreement with the experimental data at 286 K and strain-rate of 1700– 6200 s−1, with a maximum prediction error of less than 8%.",
+          "table": "table 2",
+          "figure": "figure 14",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "Johnson-Cook constitutive model",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "prediction of equivalent stress-equivalent plastic strain relationship",
+      "inputs": [
+        "equivalent plastic strain",
+        "dimensionless strain-rate",
+        "dimensionless temperature"
+      ],
+      "target": "flow stress",
+      "dataset": "experimental compression data, 286-473 K, 0.01-6200 s^-1",
+      "validation": "accuracy verification",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "A Johnson– Cook constitutive model was established to predict the equivalent stress– equivalent plastic strain relationship under extreme deformation(high temperature and strain-rate).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "Cu– Ta composite material with a mass ratio of 1:1 was prepared by a liquid-phase sintering process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "Cu– Ta composite material with a mass ratio of 1:1 was prepared by a liquid-phase sintering process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "To improve the material density, the sintered samples were forged at room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "Near-spherical Ta particles(light-colored structures) were embedded in the Cu matrix phase(dark color).",
+          "table": null,
+          "figure": "figure 1",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "Near-spherical Ta particles(light-colored structures) were embedded in the Cu matrix phase(dark color). The average size of the Ta particles was about 20 μm.",
+          "table": null,
+          "figure": "figure 1",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "At a temperature of 286 K, the strain-rate increased from 0.01 s−1 to 6200 s−1, and the yield strength increased from 543.75 MPa to 881.13 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "At a temperature of 286 K, the strain-rate increased from 0.01 s−1 to 6200 s−1, and the yield strength increased from 543.75 MPa to 881.13 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.2 Thermal sensitivity",
+          "quote": "Under conditions of 1700 s−1 and 286 K, the yield strength of the material was 740 MPa; as the temperature increased to 473 K, the yield strength decreased to about 650 MPa.",
+          "table": null,
+          "figure": "figure 7",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.2 Thermal sensitivity",
+          "quote": "Under conditions of 1700 s−1 and 286 K, the yield strength of the material was 740 MPa; as the temperature increased to 473 K, the yield strength decreased to about 650 MPa.",
+          "table": null,
+          "figure": "figure 7",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "the melting point of the Cu– 50Ta prepared in this study was 1093.5 °C under standard air pressure.",
+          "table": null,
+          "figure": "figure 2",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "In the temperature range of 50°C– 600 °C, the speciﬁc heat capacity of the material ﬂuctuated between 0.345– 0.482 J gK−1.",
+          "table": null,
+          "figure": "figure 3",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1 Material",
+          "quote": "the speciﬁc heat capacity of the material ﬂuctuated between 0.345– 0.482 J gK−1.",
+          "table": null,
+          "figure": "figure 3",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {
+        "temperature_c": 286
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "As the strain-rate increased, the yield strength logarithmically increased. At a temperature of 286 K, the strain-rate increased from 0.01 s−1 to 6200 s−1, and the yield strength increased from 543.75 MPa to 881.13 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {
+        "strain_rate": "1700 s^-1"
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.2 Thermal sensitivity",
+          "quote": "Cu– 50Ta had an obvious thermal-softening effect, and the yield strength of the material linearly decreased with an increase in temperature.",
+          "table": null,
+          "figure": "figure 7",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_1",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "3.3 Strain-rate sensitivity",
+          "quote": "a phenomenological evolution model of the strain-rate sensitivity coefﬁcient (m) of the alloy was established based on the experimental results.",
+          "table": "table 2",
+          "figure": "figure 13",
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_2",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "A Johnson– Cook constitutive model was established to predict the equivalent stress– equivalent plastic strain relationship under extreme deformation(high temperature and strain-rate).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_ELEMENT",
+      "target_id": "element_Cu",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Cu– 50Ta",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_ELEMENT",
+      "target_id": "element_Ta",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Cu– 50Ta",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 3",
+          "quote": "Elastic modulus (Compress) E (Gpa) 44.249",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 3",
+          "quote": "Density ρ (gc m−3) 11.528",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 3",
+          "quote": "Yield stress constant A (Mpa) 735.6",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_11",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 3",
+          "quote": "Strain hardening constant B (Mpa) 19.6",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_12",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 3",
+          "quote": "Specific heat (50 °C) Cp (J/(g * K)) 0.345",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_13",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "At an impact speed of 23.17 m s−1, the surface temperature of the sample exceeded 466 K, and the instantaneous temperatures of some areas even reached 789 K, which was about 57.7% of the material melting point.",
+          "table": null,
+          "figure": "Figure 18",
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_25",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the temperature distribution of the material was not uniform because the deformation process was adiabatic and the temperature rise occurred too late in the process for heat to be transferred.",
+          "table": null,
+          "figure": "Figure 18",
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_26",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "15",
+          "section": "4. Conclusions",
+          "quote": "The Cu – 50Ta alloy prepared in this study had obvious strain-rate strengthening and thermal-softening properties.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_27",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "15",
+          "section": "4. Conclusions",
+          "quote": "The Cu – 50Ta alloy prepared in this study had obvious strain-rate strengthening and thermal-softening properties.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_28",
+      "source_id": "mechanism_3",
+      "predicate": "INCREASES",
+      "target_id": "observation_13",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the deformation process was adiabatic and the temperature rise occurred too late in the process for heat to be transferred.",
+          "table": null,
+          "figure": "Figure 18",
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_29",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "as-forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "15",
+          "section": "4. Conclusions",
+          "quote": "As the strain-rate increased, the yield strength of the material significantly increased",
+          "table": null,
+          "figure": null,
+          "chunk_id": "274a2422699f6f6b:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

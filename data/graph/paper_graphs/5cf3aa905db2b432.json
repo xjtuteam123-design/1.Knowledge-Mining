@@ -1,0 +1,206 @@
+{
+  "document_id": "5cf3aa905db2b432",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A Review on the Material Development and Corresponding Properties for Power Plant Applications",
+    "authors": [
+      "Jeet P. Patil",
+      "Manas Paliwal",
+      "Sushil K. Mishra"
+    ],
+    "journal": "Materials Performance and Characterization",
+    "year": 2022,
+    "doi": "10.1520/MPC20200173"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "ferritic steel",
+      "material_category": "ferritic steel",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "FERRITIC ALLOYS",
+          "quote": "The low cost of ferritic steel alloys, along with high-thermal conductivity, low coefficient of thermal expansion, and good fabricability, make ferritic steel alloy a suitable candidate material in power plant design.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5cf3aa905db2b432:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "austenitic steel",
+      "material_category": "austenitic steel",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "AUSTENITIC STEEL ALLOYS",
+          "quote": "With this objective, new alloys were introduced in 1924 with a base composition of 18 % Cr – 8 % Ni.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5cf3aa905db2b432:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "nickel-based alloy",
+      "material_category": "nickel-based alloy",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "NICKEL-BASED ALLOYS",
+          "quote": "Nickel-based alloys are the prime candidate material for designing turbine components exposed to supercritical operating conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5cf3aa905db2b432:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_4",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 27,
+          "section": null,
+          "quote": "The developed alloys are continuously evaluated by the researchers for their potential applications as power plant components.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5cf3aa905db2b432:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_T22",
+      "original_name": "T22",
+      "canonical_name": "2.25Cr-1Mo steel",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 2.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 6,
+              "section": "FERRITIC ALLOYS",
+              "quote": "T(P)22 has a nominal composition of 2.25Cr1Mo",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5cf3aa905db2b432:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 6,
+              "section": "FERRITIC ALLOYS",
+              "quote": "T(P)22 has a nominal composition of 2.25Cr1Mo",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5cf3aa905db2b432:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "FERRITIC ALLOYS",
+          "quote": "T(P)22, a ferritic steel alloy, is mostly used for tubes, pipes, casts, and forged components",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5cf3aa905db2b432:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_TP347HFG",
+      "original_name": "TP347HFG",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "fine-grained",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "AUSTENITIC STEEL ALLOYS",
+          "quote": "This newly developed steel was designated as TP347HFG and can be used at 593°C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5cf3aa905db2b432:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_T22",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_T22",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "FERRITIC ALLOYS",
+          "quote": "T(P)22, a ferritic steel alloy, is mostly used for tubes, pipes, casts, and forged components",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5cf3aa905db2b432:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_TP347HFG",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_2",
+      "sample_id": "sample_TP347HFG",
+      "material_state": "fine-grained",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "AUSTENITIC STEEL ALLOYS",
+          "quote": "This newly developed steel was designated as TP347HFG and can be used at 593°C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5cf3aa905db2b432:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

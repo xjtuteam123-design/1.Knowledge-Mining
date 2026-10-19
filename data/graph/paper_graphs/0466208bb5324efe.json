@@ -1,0 +1,1358 @@
+{
+  "document_id": "0466208bb5324efe",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Hierarchical crystal plasticity FE model for nickel-based superalloys: Sub-grain microstructures to polycrystalline aggregates",
+    "authors": [
+      "Shahriyar Keshavarz",
+      "Somnath Ghosh"
+    ],
+    "journal": "International Journal of Solids and Structures",
+    "year": 2014,
+    "doi": "10.1016/j.ijsolstr.2014.03.037"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "Ni-based superalloys are widely used in propulsion components of the aerospace industry such as turbine engine blades, disks, casings and liners.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        },
+        {
+          "page": "5",
+          "section": "2.4 Parameter calibration and validation of the constitutive law",
+          "quote": "Selected constitutive parameters in the crystal plasticity model for c /C0c0 phase Ni-based superalloys with APB shearing have been calibrated for the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%) in Keshavarz and Ghosh (2013).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:002"
+        },
+        {
+          "page": "11",
+          "section": null,
+          "quote": "Single crystal experiments on Ni-based superalloys show considerable tension–compression asymmetry.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "polycrystalline",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "2.4 Parameter calibration and validation of the constitutive law",
+              "quote": "the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 6.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "2.4 Parameter calibration and validation of the constitutive law",
+              "quote": "the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 9.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "2.4 Parameter calibration and validation of the constitutive law",
+              "quote": "the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 5.45,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "2.4 Parameter calibration and validation of the constitutive law",
+              "quote": "the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 6.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "2.4 Parameter calibration and validation of the constitutive law",
+              "quote": "the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:002"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 6.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "2.4 Parameter calibration and validation of the constitutive law",
+              "quote": "the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 0.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "2.4 Parameter calibration and validation of the constitutive law",
+              "quote": "the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "2.4 Parameter calibration and validation of the constitutive law",
+              "quote": "the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Re",
+          "value": 2.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "2.4 Parameter calibration and validation of the constitutive law",
+              "quote": "the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Statistically equivalent virtual polycrystals of the alloy CMSX-4 are created for simulations with the homogenized model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        },
+        {
+          "page": "5",
+          "section": "2.4 Parameter calibration and validation of the constitutive law",
+          "quote": "Selected constitutive parameters in the crystal plasticity model for c /C0c0 phase Ni-based superalloys with APB shearing have been calibrated for the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%) in Keshavarz and Ghosh (2013).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:002"
+        },
+        {
+          "page": "11",
+          "section": null,
+          "quote": "single crystal CMSX-4 with 70 % volume fraction of c0 precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "two-phase binary Ni-based superalloy",
+      "canonical_name": "Ni-Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "sub-grain microstructure",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2. Sub-grain scale model for the c/c0 microstructural RVE",
+              "quote": "The two-phase binary Ni-based superalloy consists of a primary matrix c phase (pure Ni) and a secondary intermetallic c0(Ni3Al) phase as shown in Fig. 1 (b).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2. Sub-grain scale model for the c/c0 microstructural RVE",
+              "quote": "The two-phase binary Ni-based superalloy consists of a primary matrix c phase (pure Ni) and a secondary intermetallic c0(Ni3Al) phase as shown in Fig. 1 (b).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Sub-grain scale model for the c/c0 microstructural RVE",
+          "quote": "The two-phase binary Ni-based superalloy consists of a primary matrix c phase (pure Ni) and a secondary intermetallic c0(Ni3Al) phase as shown in Fig. 1 (b).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "CMSX-4 single crystal",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "2.4 Parameter calibration and validation of the constitutive law",
+              "quote": "the alloy CMSX-4 (Ni, Cr-6.4, Co-9.3, Al-5.45, Ta-6.3, W-6.2, Ti-0.9, Mo-0.5, Re-2.8 in wt%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.4 Parameter calibration and validation of the constitutive law",
+          "quote": "Rate-dependent crystal plasticity equations for the c and c0 phases are implemented in the CPFEM code, using an implicit time-integration scheme.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "CMSX-4 single crystal with 70% volume fraction of gamma-prime precipitates",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": null,
+              "quote": "single crystal CMSX-4 with 70 % volume fraction of c0 precipitates",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0466208bb5324efe:part:003"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "single crystal CMSX-4 with 70 % volume fraction of c0 precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "virtual polycrystalline microstructure RVE",
+      "canonical_name": "CMSX",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built virtual polycrystalline",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "A statistically equivalent, virtual polycrystalline microstructural model of the superalloy CMSX is created for simulating polycrystalline behavior.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "cast",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "The shape and size of the c0-phase depend largely on the cooling rate and internal stress gradients during the casting and heat treatment processes ( Epishin et al., 2001; Pollock and Sammy, 2006; Ignat et al. 1993).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "The shape and size of the c0-phase depend largely on the cooling rate and internal stress gradients during the casting and heat treatment processes ( Epishin et al., 2001; Pollock and Sammy, 2006; Ignat et al. 1993).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "cooling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "Slower cooling rates lead to the formation of bimodal populations of large (>500 nm) secondary and small (<50 nm) tertiary c0 precipitates, while higher cooling rates yield predominantly unimodal distribution of secondary c0 precipitates (300–500 nm) ( Pollock and Sammy, 2006 ).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_4",
+      "sequence": 1,
+      "method": "crystal plasticity finite element method (CPFEM)",
+      "parameters": {
+        "temperature_c": 750,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_tensile_loads_MPa": [
+            650,
+            770
+          ],
+          "loading_direction": "[001]"
+        }
+      },
+      "input_state": null,
+      "output_state": "simulated creep response",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "In Ma et al. (2008) two tensile loads of 650 and 770 MPa are applied in the [0 0 1] direction at 750 /C176C. CPFEM analyses with the homogenized parameters are conducted for a single grain under these conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_5",
+      "sequence": 1,
+      "method": "crystal plasticity finite element method (CPFEM)",
+      "parameters": {
+        "temperature_c": 750,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": 0.0001,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "loading_direction": "z-direction",
+          "precipitate_volume_fraction": "70%",
+          "cubic_gamma_prime_edge_length_um": 0.45
+        }
+      },
+      "input_state": null,
+      "output_state": "volume-averaged stress-strain responses",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "The sub-grain considered has a regular array of cubic precipitates with a 70% precipitate volume fraction and cubic c0 edge-length of 0 :45 lm. Simulations are done for applied tension and compression strain-rate of 0 :0001 s/C01 in the z-direction at a temperature of 750 /C176C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma matrix",
+      "sample_id": "sample_2",
+      "material_state": "sub-grain microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ni-Cr alloy",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "The continuous c-matrix phase has a face centered cubic ( fcc) lattice structure, and is an alloy of Ni and Cr with a small fraction of other alloying elements.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma' precipitate",
+      "sample_id": "sample_2",
+      "material_state": "sub-grain microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "300-500 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "The precipitate phase c0 is a coherent ordered inter-metallic reinforcing phase of L12 crystal structure of Ni 3Al type, which appears as a distribution of cuboidal precipitates in a solid solution as shown in Fig. 1(b).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_3",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.4 Parameter calibration and validation of the constitutive law",
+          "quote": "Rate-dependent crystal plasticity equations for the c and c0 phases are implemented in the CPFEM code, using an implicit time-integration scheme.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": "sample_3",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.4 Parameter calibration and validation of the constitutive law",
+          "quote": "Rate-dependent crystal plasticity equations for the c and c0 phases are implemented in the CPFEM code, using an implicit time-integration scheme.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Micro-twin formulation is not seen for tension loading in the [0 0 1] direction. However, significant micro-twin has been seen to develop for compression in this direction in the TEM studies of Kakehi (1999).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "gamma-prime",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "attributes": {
+        "phase_fraction": "70%",
+        "size": null,
+        "morphology": "cubic precipitates",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "single crystal CMSX-4 with 70 % volume fraction of c0 precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "micro-twin",
+      "sample_id": "sample_4",
+      "material_state": "deformed single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Micro-twin formulation is not seen for tension loading in the [0 0 1] direction. However, significant micro-twin has been seen to develop for compression in this direction in the TEM studies of Kakehi (1999).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "property": "creep strain",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": 0.0001,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "crystal plasticity finite element simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The true stress- logarithmic strain response by the AE-CPFE model and the averaged stress–strain response by the SG-RVE FE model are plotted in Fig. 9 .",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "property": "creep strain",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": 0.0001,
+        "loading_mode": "compression",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "crystal plasticity finite element simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The true stress- logarithmic strain response by the AE-CPFE model and the averaged stress–strain response by the SG-RVE FE model are plotted in Fig. 9 .",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_5",
+      "material_state": "as-built virtual polycrystalline",
+      "property": "yield strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": 0.0001,
+        "loading_mode": "tension",
+        "orientation": "z-direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "crystal plasticity finite element simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "The volume-averaged stress–strain responses for tension and compression are shown in Fig. 12 (b).",
+          "table": null,
+          "figure": "Fig. 12 (b)",
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_5",
+      "material_state": "as-built virtual polycrystalline",
+      "property": "yield strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": 0.0001,
+        "loading_mode": "compression",
+        "orientation": "z-direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "crystal plasticity finite element simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "The volume-averaged stress–strain responses for tension and compression are shown in Fig. 12 (b).",
+          "table": null,
+          "figure": "Fig. 12 (b)",
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "property": "creep strain",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "experimental"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "In Ma et al. (2008) two tensile loads of 650 and 770 MPa are applied in the [0 0 1] direction at 750 /C176C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "property": "creep strain",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "experimental"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "In Ma et al. (2008) two tensile loads of 650 and 770 MPa are applied in the [0 0 1] direction at 750 /C176C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "anti-phase boundary (APB) shearing",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "sub-grain microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Sub-grain scale model for the c/c0 microstructural RVE",
+          "quote": "Plastic deformation is accommodated through crystallographic slip on discrete slip systems and by APB shearing of the c0 phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "micro-twinning",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "polycrystalline",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Micro-twinning initiation and evolution models are incorporated in the single crystal AE-CP finite element models for manifesting tension–compression asymmetry.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "APB shearing",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_3",
+      "material_state": "single crystal",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.4 Parameter calibration and validation of the constitutive law",
+          "quote": "Selected constitutive parameters in the crystal plasticity model for c /C0c0 phase Ni-based superalloys with APB shearing have been calibrated for the alloy CMSX-4",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "solid-solution strengthening",
+      "category": "alloying mechanism",
+      "sample_id": "sample_3",
+      "material_state": "single crystal",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "2.5 Effect of gamma prime APB shearing and precipitate shape on the overall response",
+          "quote": "The alloy gets its high yield stress and hardening behavior from the c0 phase in the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "APB shearing",
+      "category": "deformation mechanism",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Both tension and compression simulations see a combination of APB shearing and micro-twinning.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_6",
+      "name": "micro-twinning",
+      "category": "deformation mechanism",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Significant micro-twin formation is not seen for tension loading in the [0 0 1] direction. However, significant micro-twin has been seen to develop for compression in this direction in the TEM studies of Kakehi (1999).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_7",
+      "name": "dislocation glide",
+      "category": "deformation mechanism",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "APB shearing is responsible for the difference in tension and compression tests in the [0 0 1] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "polycrystalline",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Statistically equivalent virtual polycrystals of the alloy CMSX-4 are created for simulations with the homogenized model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "sub-grain microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Sub-grain scale model for the c/c0 microstructural RVE",
+          "quote": "The two-phase binary Ni-based superalloy consists of a primary matrix c phase (pure Ni) and a secondary intermetallic c0(Ni3Al) phase as shown in Fig. 1 (b).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "The shape and size of the c0-phase depend largely on the cooling rate and internal stress gradients during the casting and heat treatment processes ( Epishin et al., 2001; Pollock and Sammy, 2006; Ignat et al. 1993).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "The shape and size of the c0-phase depend largely on the cooling rate and internal stress gradients during the casting and heat treatment processes ( Epishin et al., 2001; Pollock and Sammy, 2006; Ignat et al. 1993).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "Slower cooling rates lead to the formation of bimodal populations of large (>500 nm) secondary and small (<50 nm) tertiary c0 precipitates, while higher cooling rates yield predominantly unimodal distribution of secondary c0 precipitates (300–500 nm) ( Pollock and Sammy, 2006 ).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_2",
+      "material_state": "sub-grain microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Sub-grain scale model for the c/c0 microstructural RVE",
+          "quote": "The two-phase binary Ni-based superalloy consists of a primary matrix c phase (pure Ni) and a secondary intermetallic c0(Ni3Al) phase as shown in Fig. 1 (b).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_2",
+      "material_state": "sub-grain microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Sub-grain scale model for the c/c0 microstructural RVE",
+          "quote": "The two-phase binary Ni-based superalloy consists of a primary matrix c phase (pure Ni) and a secondary intermetallic c0(Ni3Al) phase as shown in Fig. 1 (b).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "sub-grain microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Sub-grain scale model for the c/c0 microstructural RVE",
+          "quote": "Dislocations dissociate in the c0-phase, leading to formation of an anti-phase boundary (APB).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "single crystal",
+      "conditions": {
+        "temperature_c": 800
+      },
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.4 Parameter calibration and validation of the constitutive law",
+          "quote": "Selected constitutive parameters in the crystal plasticity model for c /C0c0 phase Ni-based superalloys with APB shearing have been calibrated for the alloy CMSX-4",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_4",
+      "predicate": "INCREASES",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_3",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "2.5 Effect of gamma prime APB shearing and precipitate shape on the overall response",
+          "quote": "The alloy gets its high yield stress and hardening behavior from the c0 phase in the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "phase_6",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_5",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Both tension and compression simulations see a combination of APB shearing and micro-twinning.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_6",
+      "predicate": "PROMOTES",
+      "target_id": "observation_1",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "conditions": {
+        "loading_mode": "compression"
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Deformation is dominated by strain due to micro-twin evolution as shown in Fig. 11 (a).",
+          "table": null,
+          "figure": "Fig. 11 (a)",
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "microstructure_1",
+      "predicate": "CORRELATES_WITH",
+      "target_id": "observation_1",
+      "sample_id": "sample_4",
+      "material_state": "single crystal with 70% volume fraction of gamma-prime precipitates",
+      "conditions": {
+        "loading_mode": "compression"
+      },
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Deformation is dominated by strain due to micro-twin evolution as shown in Fig. 11 (a).",
+          "table": null,
+          "figure": "Fig. 11 (a)",
+          "chunk_id": "0466208bb5324efe:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "gamma-gamma'",
+    "AE-CP",
+    "SG-RVE",
+    "CPFEM",
+    "GND",
+    "SSD"
+  ],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

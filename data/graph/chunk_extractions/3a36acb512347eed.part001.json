@@ -1,0 +1,1222 @@
+{
+  "document_id": "3a36acb512347eed",
+  "chunk_id": "3a36acb512347eed:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Calculation of alloying effect of Ruthenium in Ni-based single-crystal superalloys",
+    "authors": [
+      "F. Sun",
+      "J.X. Zhang",
+      "Y. Tian"
+    ],
+    "journal": "Computational Materials Science",
+    "year": "2012",
+    "doi": "10.1016/j.commatsci.2012.03.049"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Al superalloy",
+      "material_category": "Ni-based single-crystal superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "There are two primary phases present in such superalloys, where the precipitate c0 phase (based on L1 2 Ni3Al) is coherently embedded between narrow channels of c phase (based on fcc Ni).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "c/c0 interface supercell centering at an Al atom",
+      "canonical_name": "Ni-Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed supercell",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Dmol3 method and calculation model",
+              "quote": "Two 48-atom supercells were employed in our calculations in which the center of a supercell is either Al or Ni, as shown in Figs. 1 and 2 . An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "3a36acb512347eed:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Dmol3 method and calculation model",
+              "quote": "Two 48-atom supercells were employed in our calculations in which the center of a supercell is either Al or Ni, as shown in Figs. 1 and 2 . An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "3a36acb512347eed:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "Two 48-atom supercells were employed in our calculations in which the center of a supercell is either Al or Ni, as shown in Figs. 1 and 2 .",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "c/c0 interface supercell centering at a Ni atom",
+      "canonical_name": "Ni-Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed supercell",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Dmol3 method and calculation model",
+              "quote": "Two 48-atom supercells were employed in our calculations in which the center of a supercell is either Al or Ni, as shown in Figs. 1 and 2 . An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "3a36acb512347eed:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Dmol3 method and calculation model",
+              "quote": "Two 48-atom supercells were employed in our calculations in which the center of a supercell is either Al or Ni, as shown in Figs. 1 and 2 .",
+              "table": null,
+              "figure": null,
+              "chunk_id": "3a36acb512347eed:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "The central atoms labeled by ''1'' are substituted for Ru.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "DMol3 first-principles calculation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "functional": "PBE-GGA",
+          "spin": "spin-restricted",
+          "scf_convergence": "1e-5",
+          "binding_energy_convergence": "1e-5 Ry",
+          "supercell": "48 atoms",
+          "model": "Al-centered c/gamma' interface"
+        }
+      },
+      "input_state": "unrelaxed supercell",
+      "output_state": "relaxed supercell",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "Calculations were performed using Dmol3 method [33,34] based on the density functional theory.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "geometric relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "unrelaxed supercell",
+      "output_state": "relaxed supercell",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "Eref is the sum of the energies of the free atoms, Eatom(i), included in this cluster.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "DMol3 first-principles calculation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "functional": "PBE-GGA",
+          "spin": "spin-restricted",
+          "scf_convergence": "1e-5",
+          "binding_energy_convergence": "1e-5 Ry",
+          "supercell": "48 atoms",
+          "model": "Ni-centered c/gamma' interface"
+        }
+      },
+      "input_state": "unrelaxed supercell",
+      "output_state": "relaxed supercell",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "Since Ni site is preferred by Ru at c/c0 interface, the following calculations are based on the coherent interface model in which a Ni atom is placed at the center of a supercell, as shown in Fig. 2 .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma (fcc Ni)",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "lower Ni region of supercell",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma' (L12 Ni3Al)",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "upper Ni3Al region of supercell",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "coherent gamma/gamma' interface",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "center of supercell",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "Since both phases have a cubic lattice with similar lattice parameters, the c0 phase would precipitate in a cube–cube orientation relationship with the c matrix, forming a complete coherent c/c0 interface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma (fcc Ni)",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "lower Ni region of supercell",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "gamma' (L12 Ni3Al)",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "upper Ni3Al region of supercell",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "coherent gamma/gamma' interface",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "center of supercell",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "Since both phases have a cubic lattice with similar lattice parameters, the c0 phase would precipitate in a cube–cube orientation relationship with the c matrix, forming a complete coherent c/c0 interface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "property": "total energy",
+      "value": -319.4172,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DMol3 first-principles calculation (Al-centered, Ru substitution)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Ru /C0 319.4172",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "property": "binding energy",
+      "value": -604.813,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DMol3 first-principles calculation (Al-centered, Ru substitution)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Ru /C0 319.4172 /C0 604.8130",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "property": "total energy",
+      "value": -322.0052,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DMol3 first-principles calculation (Ni-centered, Ru substitution)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Ru /C0 319.4172 /C0 604.8130 /C0 322.0052 /C0 616.0817",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "property": "binding energy",
+      "value": -616.0817,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DMol3 first-principles calculation (Ni-centered, Ru substitution)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Ru /C0 319.4172 /C0 604.8130 /C0 322.0052 /C0 616.0817",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "property": "total energy",
+      "value": -317.3093,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DMol3 first-principles calculation (Al-centered, no PGM)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Al(Ni) /C0 317.3093 /C0 582.2428 /C0 317.3093 /C0 582.2428",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "property": "binding energy",
+      "value": -582.2428,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DMol3 first-principles calculation (Al-centered, no PGM)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Al(Ni) /C0 317.3093 /C0 582.2428 /C0 317.3093 /C0 582.2428",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "property": "total energy",
+      "value": -317.3093,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DMol3 first-principles calculation (Ni-centered, no PGM)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Al(Ni) /C0 317.3093 /C0 582.2428 /C0 317.3093 /C0 582.2428",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "property": "binding energy",
+      "value": -582.2428,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DMol3 first-principles calculation (Ni-centered, no PGM)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Al(Ni) /C0 317.3093 /C0 582.2428 /C0 317.3093 /C0 582.2428",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "reverse partitioning",
+      "category": "elemental partitioning",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Influence of Ru on the partitioning behavior of refractory elements",
+          "quote": "The above calculation results suggest that W and Cr prefer the c phase, while the presence of Ru reverses their partitioning behavior.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "orbital hybridization",
+      "category": "electronic structure",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.3. Mulliken orbital population and partial density of states",
+          "quote": "Such charge transfer behavior demonstrates that there is a strong orbital hybridization in Ni, Re and Ru.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Influence of Ru on the partitioning behavior of refractory elements",
+          "quote": "Usually, refractory elements W, Re, Cr and Mo are added in Ni-based single-crystal superalloys to form a strengthening solid–solution phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "microstructure stabilization",
+      "category": "phase stability",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Thus, the substitutions of either Ni or Al site for PGMs atoms can decrease Et and Eb, which may result in an improved microstructure stability of Ni-based single-crystal superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "Calculations were performed using Dmol3 method [33,34] based on the density functional theory.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "Since Ni site is preferred by Ru at c/c0 interface, the following calculations are based on the coherent interface model in which a Ni atom is placed at the center of a supercell, as shown in Fig. 2 .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "An upper Ni 3Al region and a lower Ni region represent the c0 and c phases respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "forming a complete coherent c/c0 interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Dmol3 method and calculation model",
+          "quote": "forming a complete coherent c/c0 interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Ru /C0 319.4172",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Ru /C0 319.4172 /C0 604.8130",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "/C0 322.0052",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "/C0 616.0817",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Al(Ni) /C0 317.3093 /C0 582.2428",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Al(Ni) /C0 317.3093 /C0 582.2428",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Al(Ni) /C0 317.3093 /C0 582.2428 /C0 317.3093 /C0 582.2428",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "Al(Ni) /C0 317.3093 /C0 582.2428 /C0 317.3093 /C0 582.2428",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Influence of Ru on the partitioning behavior of refractory elements",
+          "quote": "while the presence of Ru reverses their partitioning behavior",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.3. Mulliken orbital population and partial density of states",
+          "quote": "resulting in Re p-orbital/Ru p-orbital hybridization and an enhanced binding across the c/c0 interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "mechanism_4",
+      "predicate": "IMPROVES",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1. Site preference of PGMs",
+          "quote": "which may result in an improved microstructure stability of Ni-based single-crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "These elements are effective in improving the solution strengthening effect and the elevated temperature strength of Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_2",
+      "material_state": "relaxed supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4. Conclusions",
+          "quote": "Ru remarkably affects the partitioning behavior of W, Re and Cr between c phase and c0 phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a36acb512347eed:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

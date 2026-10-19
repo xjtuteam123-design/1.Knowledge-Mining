@@ -1,0 +1,834 @@
+{
+  "document_id": "11f15d74dcfea631",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Atomistic modeling for the extremely low and high temperature-dependent yield strength in a Ni-based single crystal superalloy",
+    "authors": [
+      "Zhiwei Zhang",
+      "Qiang Fu",
+      "Jun Wang",
+      "Rong Yang",
+      "Pan Xiao",
+      "Fujiu Ke",
+      "Chunsheng Lu"
+    ],
+    "journal": "Materials Today Communications",
+    "year": "2021",
+    "doi": "10.1016/j.mtcomm.2021.102451"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based single crystal superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the yield strength of a Ni-based single crystal superalloy varying with temperature, especially at extremely low ( 272 ◦ C) and high (1227 ◦ C) temperatures, has been investigated",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "mosaic cubic Ni/Ni3Al model",
+      "canonical_name": "Ni-Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated model with IMD network",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Simulation model and methods",
+              "quote": "A Ni-based single crystal superalloy consists of pure face-centered cubic Ni matrix and L1 2 Ni 3 Al precipitate",
+              "table": null,
+              "figure": null,
+              "chunk_id": "11f15d74dcfea631:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "Ni3Al precipitate",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Simulation model and methods",
+              "quote": "A Ni-based single crystal superalloy consists of pure face-centered cubic Ni matrix and L1 2 Ni 3 Al precipitate",
+              "table": null,
+              "figure": null,
+              "chunk_id": "11f15d74dcfea631:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "an initial mosaic cubic model of Ni-based single crystal superalloy can be constructed, as shown in Fig. 1 a. The < 100 > crystallographic orientations are along with three orthogonal coordinates and the model has a volume of 26.4 × 26.4 × 26.4 nm 3 consisting of 1.6 million atoms. In the model, the volume fraction of Ni 3 Al is 71 %",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation model construction",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "model_volume_nm3": "26.4 × 26.4 × 26.4",
+          "atom_count": "1.6 million",
+          "Ni3Al_volume_fraction": "71 %",
+          "potential": "embedded-atom potential (Mishin)",
+          "software": "LAMMPS",
+          "boundary_conditions": "periodic"
+        }
+      },
+      "input_state": null,
+      "output_state": "model with IMD network",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "The embedded-atom potential function for a Ni Al system developed by Mishin [ 28 ] was taken to define atomic interactions of Ni and Ni 3 Al. Periodic boundary conditions were implemented in three directions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "energy minimization relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "100 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "relaxed model",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "initial configurations were energetically minimized by relaxing all samples for 100 ps",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "tensile test simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension",
+        "strain_rate": "5 × 10^8 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range_c": "-272 to 1227",
+          "time_step": "1 fs"
+        }
+      },
+      "input_state": null,
+      "output_state": "deformed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "Tensile simulations were carried out by integrating Newton ’ s equations of motion for all atoms with a time step of 1 fs, and to investigate the temperature effect, temperatures were selected from 272 to 1227 ◦ C. The strain rate was controlled at 5 × 10 8 s 1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Ni matrix",
+      "sample_id": "sample_1",
+      "material_state": "simulated model with IMD network",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "A Ni-based single crystal superalloy consists of pure face-centered cubic Ni matrix and L1 2 Ni 3 Al precipitate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "L1_2 Ni3Al",
+      "sample_id": "sample_1",
+      "material_state": "simulated model with IMD network",
+      "attributes": {
+        "phase_fraction": "71 %",
+        "size": null,
+        "morphology": null,
+        "location": "center of model",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "L1 2 Ni 3 Al precipitate... In the model, the volume fraction of Ni 3 Al is 71 %, which is in agreement with the experimental value of 70 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "interface misfit dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "simulated model with IMD network",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Ni/Ni3Al {100} interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "The three-dimensional IMD network is formed on the Ni/Ni 3 Al {100} interface as illustrated in Fig. 1 b",
+          "table": null,
+          "figure": "Fig. 1b",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield strength",
+      "value": 4.9,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": -272,
+        "strain_rate": "5 × 10^8 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "the yield strength of a Ni-based single crystal superalloy decreases from 4.9 GPa to its local minimum of 4.2 GPa as temperature increases from 272 to 123 ◦ C",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield strength",
+      "value": 4.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": -123,
+        "strain_rate": "5 × 10^8 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "the yield strength of a Ni-based single crystal superalloy decreases from 4.9 GPa to its local minimum of 4.2 GPa as temperature increases from 272 to 123 ◦ C",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield strength",
+      "value": 4.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": -27,
+        "strain_rate": "5 × 10^8 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "Then, with temperature rising to 27 ◦ C, it goes up to 4.6 GPa, i.e., the value of yield strength within an intermediate temperature zone",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield strength",
+      "value": 4.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 927,
+        "strain_rate": "5 × 10^8 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Results",
+          "quote": "as temperature ascends from 627 to 927 ◦ C, yield strength rises and reaches its local peak value of 4.8 GPa, showing an anomalous yield strength behavior",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield strength",
+      "value": 4.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 1227,
+        "strain_rate": "5 × 10^8 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Results",
+          "quote": "After that, as temperature increases to 1227 ◦ C, the yield strength falls to 4.5 GPa",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "thermal activation softening",
+      "category": "thermal activation",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "as temperature increases from 272 to 123 ◦ C, indicating a thermal activation softening process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation lock formation and pinning",
+      "category": "dislocation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4. Discussion",
+          "quote": "They are immovable dislocations and form the Hirth and Lomer-Cottrell locks, which contribute to the stability of yield strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "decomposition of perfect dislocations in IMD network",
+      "category": "dislocation reaction",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4. Discussion",
+          "quote": "Below the temperature, yield strength decreases with temperature since decomposition of 1/2 < 110 > perfect dislocations in the IMD network is the main deformation mechanism during a thermal activation process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated model with IMD network",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "an initial mosaic cubic model of Ni-based single crystal superalloy can be constructed",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated model with IMD network",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "In the model, the volume fraction of Ni 3 Al is 71 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated model with IMD network",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "an initial mosaic cubic model of Ni-based single crystal superalloy can be constructed",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "Tensile simulations were carried out by integrating Newton ’ s equations of motion for all atoms with a time step of 1 fs",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated model with IMD network",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "A Ni-based single crystal superalloy consists of pure face-centered cubic Ni matrix and L1 2 Ni 3 Al precipitate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated model with IMD network",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "A Ni-based single crystal superalloy consists of pure face-centered cubic Ni matrix and L1 2 Ni 3 Al precipitate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated model with IMD network",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Simulation model and methods",
+          "quote": "The three-dimensional IMD network is formed on the Ni/Ni 3 Al {100} interface as illustrated in Fig. 1 b",
+          "table": null,
+          "figure": "Fig. 1b",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "the yield strength of a Ni-based single crystal superalloy decreases from 4.9 GPa to its local minimum of 4.2 GPa",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "with temperature rising to 27 ◦ C, it goes up to 4.6 GPa",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Results",
+          "quote": "yield strength rises and reaches its local peak value of 4.8 GPa, showing an anomalous yield strength behavior",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Results",
+          "quote": "as temperature increases to 1227 ◦ C, the yield strength falls to 4.5 GPa",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4. Discussion",
+          "quote": "yield strength decreases with temperature since decomposition of 1/2 < 110 > perfect dislocations in the IMD network is the main deformation mechanism during a thermal activation process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "mechanism_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4. Discussion",
+          "quote": "yield strength decreases with temperature since decomposition of 1/2 < 110 > perfect dislocations in the IMD network is the main deformation mechanism during a thermal activation process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "mechanism_1",
+      "predicate": "DECREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {
+        "temperature_c": -123
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "decreases from 4.9 GPa to its local minimum of 4.2 GPa as temperature increases from 272 to 123 ◦ C, indicating a thermal activation softening process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4. Discussion",
+          "quote": "Beyond 123 ◦ C, 1/6 < 110 > stair-rod and 1/3 < 001 > Hirth dislocations start to take the initiative to nucleate at the corners of IMD network and form dislocations locks to produce pinning effects. This results in yield strength increasing with temperature",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "mechanism_2",
+      "predicate": "STABILIZES",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4. Discussion",
+          "quote": "locks formed by 1/3 < 111 > Frank and 1/3 < 001 > Hirth dislocations are the main strengthening mechanism... which result in pinning dislocations and improve yield strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "11f15d74dcfea631:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

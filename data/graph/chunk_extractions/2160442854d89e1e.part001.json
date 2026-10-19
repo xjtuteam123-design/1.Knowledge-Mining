@@ -1,0 +1,548 @@
+{
+  "document_id": "2160442854d89e1e",
+  "chunk_id": "2160442854d89e1e:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Twin formation through repeated dislocation impingement on phase boundary in Ni-based superalloys using atomistic simulations",
+    "authors": [
+      "Sagar Chandra",
+      "Mahendra K. Samal",
+      "Vivek M. Chavan"
+    ],
+    "journal": "Journal of Materials Research",
+    "year": 2025,
+    "doi": "10.1557/s43578-025-01687-4"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Article",
+          "quote": "Twin formation through repeated dislocation impingement on phase boundary in Ni-based superalloys using atomistic simulations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "γ-γ′ system",
+      "canonical_name": "Ni3Al precipitate in Ni matrix",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "plastically deformed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "the γ matrix (Ni) and γ ′ ( Ni3Al) precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": 626.85,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "750 MPa applied shear stress",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_shear_stress_mpa": 750
+        }
+      },
+      "input_state": "unperturbed γ−γ′ system",
+      "output_state": "plastically deformed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Figure 1 caption",
+          "quote": "The applied shear stress is 750 MPa at 900 K temperature.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": 626.85,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "975 MPa applied shear stress",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_shear_stress_mpa": 975
+        }
+      },
+      "input_state": "unperturbed γ−γ′ system",
+      "output_state": "plastically deformed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Atomistic simulation results",
+          "quote": "The applied shear stress is 975 MPa and deformation temperature is 900 K",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "L12-ordered Ni3Al",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "precipitate",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ ′ precipitates (L12 structure) embedded coherently in the γ (FCC structure) Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": "Ni",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ (FCC structure) Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Defect",
+      "name": "stacking fault",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "in γ′ precipitate",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "the partial sweeps in the precipitate leaving behind CSF attached to the interface",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Defect",
+      "name": "twin",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "in γ′ precipitate",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "a twin is formed in the precipitate",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "phase boundary",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ−γ′ interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "they may also exist in the form of phase boundaries between the γ matrix (Ni) and γ ′ ( Ni3Al) precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "dislocation pile-up",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ side of γ−γ′ interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "aggregation of matrix dislocations on the γ side of the γ − γ ′ interface preceding the onset of twinning in γ ′ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "repeated dislocation impingement on phase boundary",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Introduction",
+          "quote": "a mechanism of twin formation assisted by continuous impingement of 1/2⟨110 ⟩ matrix dislocations on the γ − γ ′ interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Shockley partial nucleation",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Atomistic simulation results",
+          "quote": "nucleation of 1/6[¯12 ¯1] partial is observed from the interface into the γ ′ phase",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ ′ ( Ni3Al) precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ (FCC structure) Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "leaving behind CSF attached to the interface",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "a twin is formed in the precipitate",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "phase boundaries between the γ matrix (Ni) and γ ′ ( Ni3Al) precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "aggregation of matrix dislocations on the γ side of the γ − γ ′ interface preceding the onset of twinning in γ ′ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "microstructure_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Introduction",
+          "quote": "a pileup of matrix dislocations at the γ − γ ′ interface prior to onset of deformation twinning in the precipitate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Atomistic simulation results",
+          "quote": "nucleation of Shockley partial into the γ ′ phase is a high energy process which is facilitated by local stress concentration at the interface arising due to continuous impingement of matrix dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_2",
+      "predicate": "PROMOTES",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "Absorption of next matrix dislocation leads to nucleation of yet another Bδ partial on adjacent {1 1 1} plane which nucleates the twin embryo in γ ′ phase",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_2",
+      "predicate": "FORMS",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "it creates a SESF in the precipitate",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

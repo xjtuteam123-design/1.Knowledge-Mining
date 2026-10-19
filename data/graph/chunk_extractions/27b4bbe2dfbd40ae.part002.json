@@ -1,0 +1,292 @@
+{
+  "document_id": "27b4bbe2dfbd40ae",
+  "chunk_id": "27b4bbe2dfbd40ae:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Accelerated Discovery of Refractory High-Entropy Alloys via Interpretable Machine Learning",
+    "authors": [
+      "Jian Cao",
+      "Chang Liu",
+      "Zian Chen",
+      "Haichao Li",
+      "Hongping Xiao",
+      "Lina Xu",
+      "Shun Wang",
+      "Xiao He",
+      "Guoyong Fang"
+    ],
+    "journal": "The Journal of Physical Chemistry Letters",
+    "year": 2025,
+    "doi": "10.1021/acs.jpclett.5c01616"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "refractory high-entropy alloy (RHEA)",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Conclusion",
+          "quote": "In summary, we proposed a novel integrated design framework for RHEAs, combining MLP-MD, feature engineering, supervised regression models, and MOGA.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "27b4bbe2dfbd40ae:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "TiVCrZrMo",
+      "canonical_name": "TiVCrZrMo",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated (MD)",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Conclusion",
+          "quote": "Initially, accurate MD simulations of the TiVCrZrMo RHEA were performed using the UNEP-v1 potentials",
+          "table": null,
+          "figure": null,
+          "chunk_id": "27b4bbe2dfbd40ae:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated (MD)",
+      "property": "ultimate tensile strength",
+      "value": 10000000000,
+      "min_value": null,
+      "max_value": null,
+      "unit": "Pa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MD simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Results and Discussion",
+          "quote": "Several solutions achieved T m values above 2700 K while maintaining UTS above 10 GPa",
+          "table": null,
+          "figure": "5a",
+          "chunk_id": "27b4bbe2dfbd40ae:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated (MD)",
+      "property": "ultimate tensile strength",
+      "value": 12000000000,
+      "min_value": null,
+      "max_value": null,
+      "unit": "Pa",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ML prediction (XGBR)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Results and Discussion",
+          "quote": "When the weighting is skewed to 1:2 (Figure 5b), favoring UTS, the front shifts accordingly; while T m slightly decreases in some candidates, the maximum UTS reaches over 12 GPa.",
+          "table": null,
+          "figure": "5b",
+          "chunk_id": "27b4bbe2dfbd40ae:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "gradient boosting regression (GBR)",
+      "sample_id": "sample_1",
+      "property_observation_id": "observation_1",
+      "task": "regression",
+      "inputs": [],
+      "target": "melting temperature",
+      "dataset": "MD simulation dataset",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Conclusion",
+          "quote": "GBR showed superior performance in predicting T m",
+          "table": null,
+          "figure": null,
+          "chunk_id": "27b4bbe2dfbd40ae:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "extreme gradient boosting regression (XGBR)",
+      "sample_id": "sample_1",
+      "property_observation_id": "observation_2",
+      "task": "regression",
+      "inputs": [],
+      "target": "ultimate tensile strength",
+      "dataset": "MD simulation dataset",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Conclusion",
+          "quote": "XGBR exhibited excellent accuracy and generalization capabilities for predicting UTS at 1000 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "27b4bbe2dfbd40ae:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "multi-objective genetic algorithm (MOGA)",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "multi-objective optimization",
+      "inputs": [
+        "composition",
+        "phase fractions"
+      ],
+      "target": "melting temperature and ultimate tensile strength",
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Results and Discussion",
+          "quote": "Leveraging trained predictive models within an MOGA, we optimized alloy compositions for simultaneous high T m and UTS",
+          "table": null,
+          "figure": null,
+          "chunk_id": "27b4bbe2dfbd40ae:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated (MD)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Conclusion",
+          "quote": "GBR showed superior performance in predicting T m",
+          "table": null,
+          "figure": null,
+          "chunk_id": "27b4bbe2dfbd40ae:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "ml_model_2",
+      "predicate": "PREDICTS",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated (MD)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Conclusion",
+          "quote": "XGBR exhibited excellent accuracy and generalization capabilities for predicting UTS at 1000 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "27b4bbe2dfbd40ae:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,154 @@
+{
+  "document_id": "78da10ddabbc96cf",
+  "chunk_id": "78da10ddabbc96cf:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Qiaomu Liu",
+      "Zhaotian Wang",
+      "Peng Di",
+      "Shuo Huang",
+      "Yongquan Ning"
+    ],
+    "journal": "Journal of Alloys and Compounds",
+    "year": 2024,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Co-Cr-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4. Conclusions",
+          "quote": "This study investigated the phase transition and coarsening behavior of the microstructure of Ni-Co-Cr-based superalloys following long-term thermal exposure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "78da10ddabbc96cf:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "mu phase",
+      "sample_id": null,
+      "material_state": "thermally exposed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries and around large intergranular gamma-prime precipitates",
+        "composition": "enriched in Co, Cr, Mo, W and refractory elements",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "results and discussion",
+          "quote": "The μ phase precipitates in the samples analyzed in this study were predominantly observed at the GBs, particularly near large intergranular γ′ precipitates, which may be due to the segregation of Co, Cr, Mo, and W associated with the intergranular γ/γ′ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "78da10ddabbc96cf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma-prime",
+      "sample_id": null,
+      "material_state": "thermally exposed",
+      "attributes": {
+        "phase_fraction": "stable volume fraction",
+        "size": null,
+        "morphology": null,
+        "location": "intragranular and intergranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "results and discussion",
+          "quote": "Intragranular γ′ typically undergoes coarsening during elevated temperature thermal exposure, which is characterized by a stable volume fraction, increased phase-interface distance, and decreased quantity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "78da10ddabbc96cf:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation shearing",
+      "category": "deformation mechanism",
+      "sample_id": null,
+      "material_state": "thermally exposed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "results and discussion",
+          "quote": "Dislocation shearing is the primary deformation mechanism in intragranular γ′ precipitates during high-temperature tensile deformation, and involves numerous slip lines, SFs, and nanotwins (Fig. 8 (b)).",
+          "table": null,
+          "figure": "8",
+          "chunk_id": "78da10ddabbc96cf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid-solution strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": null,
+      "material_state": "thermally exposed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "results and discussion",
+          "quote": "the enrichment of refractory elements in the μ precipitates reduces the solid solution-strengthening effect in the γ matrix surrounding the μ precipitates [29,30].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "78da10ddabbc96cf:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": null,
+      "material_state": "thermally exposed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "results and discussion",
+          "quote": "the enrichment of refractory elements in the μ precipitates reduces the solid solution-strengthening effect in the γ matrix surrounding the μ precipitates [29,30].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "78da10ddabbc96cf:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

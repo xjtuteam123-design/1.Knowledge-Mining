@@ -1,0 +1,915 @@
+{
+  "document_id": "0ee14d1e70c5536b",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A Study into the Mechanical Strength of the Welded Joint between a High-Temperature Piezoceramic and a Structural Alloy",
+    "authors": [
+      "Yu. G. Zadorozhnyi"
+    ],
+    "journal": "Refractories and Industrial Ceramics",
+    "year": "2004",
+    "doi": "10.1023/B:REFR.0000029618.10385.ce"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "KhN67MVTYu nickel-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "For the joint TV-2 + Cr + Cu + KhN67MVTYu-grade steel, a number of parameters can be specified that affect the strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "bismuth titanate-based piezoceramic",
+      "material_category": "piezoceramic",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "They use TV-2 and TV-3-type piezoceramics based on bismuth titanate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "KhN67MVTYu-grade steel",
+      "canonical_name": "KhN67MVTYu",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "base metal",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": null,
+              "quote": "For the joint TV-2 + Cr + Cu + KhN67MVTYu-grade steel, a number of parameters can be specified that affect the strength.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0ee14d1e70c5536b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "For the joint TV-2 + Cr + Cu + KhN67MVTYu-grade steel, a number of parameters can be specified that affect the strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "TV-2",
+      "canonical_name": "TV-2 bismuth titanate-based piezoceramic",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "as-received",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "They use TV-2 and TV-3-type piezoceramics based on bismuth titanate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "TV-2 + Cr + Cu + KhN67MVTYu welded joint",
+      "canonical_name": "TV-2 PC + Cr barrier layer + Cu spacer + KhN67MVTYu superalloy joint",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "diffusion welded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "Fig. 1. Tensile strength σt of the TV-2 + Cr + Cu + KhN67MVTYu welded joint (with a diameter of 5 mm) plotted as a function of the PC surface roughness parameter Rz and the thickness of the compensating copper spacer Δcsp (temperature 1073 K; compression pressure 10 MPa; vacuum < 1 × 10–2 Pa; holding time 300 sec; chromium layer thickness 0.5 μm).",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "vacuum vapor sputtering",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "deposited_material": "Cr"
+        }
+      },
+      "input_state": "as-received",
+      "output_state": "Cr sputtered",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "The chromium barrier layer (BL) sputtered over the PC weld surface develops defects that come in part from the sputtering technology and in part from the PC porosity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "diffusion welding",
+      "parameters": {
+        "temperature_c": 1073,
+        "time": "300 sec",
+        "pressure": "10 MPa",
+        "atmosphere": "vacuum < 1e-2 Pa",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": "0.5 um Cr",
+        "other": {
+          "copper_spacer_thickness": "0.2-0.35 mm"
+        }
+      },
+      "input_state": "Cr sputtered PC + Cu spacer + KhN67MVTYu",
+      "output_state": "diffusion welded",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "Fig. 1. Tensile strength σt of the TV-2 + Cr + Cu + KhN67MVTYu welded joint (with a diameter of 5 mm) plotted as a function of the PC surface roughness parameter Rz and the thickness of the compensating copper spacer Δcsp (temperature 1073 K; compression pressure 10 MPa; vacuum < 1 × 10–2 Pa; holding time 300 sec; chromium layer thickness 0.5 μm).",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "chromium oxide",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "BL",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "The diffusive dissolution of chromium in PC results in the occurrence of chromium oxide layers which, owing to their inhibitory behavior, set a limit to the diffusion of bismuth into copper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "new phase",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "PC + chromium contact zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "This gives reason to believe that the evolvement of a new phase (in the PC + chromium contact zone) is driven by the diffusion of reactants, which was confirmed by the results of an analysis of the transition zone in a welded joint.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "micropore",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": "8%",
+        "size": "0.2-1 um",
+        "morphology": null,
+        "location": "PC",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "The TV-2-type PC has a porosity of 8% and the average pore size 0.2 – 1 μm across.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Defect",
+      "name": "microcrack",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "PC surface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "With the surface roughness reduced to Rz = 0.1 – 0.3 μm (polishing with a diamond paste), the breaking load tended to decrease. This effect may be due to the occurrence of microcracks on the welded surface as produced by polishing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Defect",
+      "name": "structural imperfection",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "PC surface layer",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": null,
+          "quote": "During the welding of a chromium layer supported on a copper spacer, the physical contact between the chromium layer and PC produces a strain in the PC surface layer. This process may involve generation of a significant amount of structural imperfections (defects).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "property": "tensile strength",
+      "value": null,
+      "min_value": 28,
+      "max_value": 35,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1073,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "vacuum < 1e-2 Pa",
+        "duration": "300 sec",
+        "test_method": "constant loading rate tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "Maximum strength within the narrow range of σ = 28 – 35 MPa was reached for the welded surfaces ground with M10-grade grinding powder on glass. Here the surface roughness parameter for PC was Rz = 0.4 – 0.6 μm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "property": "tensile strength",
+      "value": 19,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1073,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "vacuum < 1e-2 Pa",
+        "duration": "300 sec",
+        "test_method": "constant loading rate tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "Increasing the surface roughness (Rz = 1.5 – 2 μm, using N3-grade grinding powder) extends the strength range for welded structures to 19 MPa (Fig. 1).",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "property": "tensile strength",
+      "value": 15,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1073,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "vacuum < 1e-2 Pa",
+        "duration": "300 sec",
+        "test_method": "constant loading rate tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "Up to the compression pressure of 10 MPa, the strength did not exceed 15 MPa, and failure of the welded joint occurred partially in the material contact surface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "property": "tensile strength",
+      "value": null,
+      "min_value": 250,
+      "max_value": 400,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "10-30 sec",
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "An analysis of the rate of formation of the chromium + copper welded joint has shown that after a lapse of 10 – 30 sec the strength attained was 250 – 400 MPa, which is 5 – 10 times the TV-2 PC strength (30 – 40 MPa).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "property": "tensile strength",
+      "value": null,
+      "min_value": 30,
+      "max_value": 40,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "which is 5 – 10 times the TV-2 PC strength (30 – 40 MPa).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "bismuth diffusion barrier by chromium oxide layer",
+      "category": "diffusion barrier",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "The diffusive dissolution of chromium in PC results in the occurrence of chromium oxide layers which, owing to their inhibitory behavior, set a limit to the diffusion of bismuth into copper [2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "liquid phase formation at contact",
+      "category": "weld degradation",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "During the diffusion welding of a PC and bismuth, the metal performs as a dopant for the surface ceramic layer. This results in the occurrence of a liquid phase at the contact of the welded materials and may cause failure of the welded joint.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "microplastic deformation induced defect generation",
+      "category": "weld degradation",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": null,
+          "quote": "During the welding of a chromium layer supported on a copper spacer, the physical contact between the chromium layer and PC produces a strain in the PC surface layer. This process may involve generation of a significant amount of structural imperfections (defects).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "For the joint TV-2 + Cr + Cu + KhN67MVTYu-grade steel, a number of parameters can be specified that affect the strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_2",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "They use TV-2 and TV-3-type piezoceramics based on bismuth titanate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "Fig. 1. Tensile strength σt of the TV-2 + Cr + Cu + KhN67MVTYu welded joint (with a diameter of 5 mm).",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "The chromium barrier layer (BL) sputtered over the PC weld surface develops defects that come in part from the sputtering technology and in part from the PC porosity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "The fabrication technology of all-in-one metal-ceramic structures involves a series of operations where each operation exerts an influence on the mechanical strength of the welded structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "The diffusive dissolution of chromium in PC results in the occurrence of chromium oxide layers which, owing to their inhibitory behavior, set a limit to the diffusion of bismuth into copper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "This gives reason to believe that the evolvement of a new phase (in the PC + chromium contact zone) is driven by the diffusion of reactants, which was confirmed by the results of an analysis of the transition zone in a welded joint.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "The TV-2-type PC has a porosity of 8% and the average pore size 0.2 – 1 μm across.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_3",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "This effect may be due to the occurrence of microcracks on the welded surface as produced by polishing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_3",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": null,
+          "quote": "This process may involve generation of a significant amount of structural imperfections (defects).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "The diffusive dissolution of chromium in PC results in the occurrence of chromium oxide layers which, owing to their inhibitory behavior, set a limit to the diffusion of bismuth into copper [2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "This results in the occurrence of a liquid phase at the contact of the welded materials and may cause failure of the welded joint.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "mechanism_3",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": null,
+          "quote": "During the welding of a chromium layer supported on a copper spacer, the physical contact between the chromium layer and PC produces a strain in the PC surface layer. This process may involve generation of a significant amount of structural imperfections (defects).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "which is 5 – 10 times the TV-2 PC strength (30 – 40 MPa).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "Maximum strength within the narrow range of σ = 28 – 35 MPa was reached for the welded surfaces ground with M10-grade grinding powder on glass.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "Increasing the surface roughness (Rz = 1.5 – 2 μm, using N3-grade grinding powder) extends the strength range for welded structures to 19 MPa (Fig. 1).",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "Up to the compression pressure of 10 MPa, the strength did not exceed 15 MPa, and failure of the welded joint occurred partially in the material contact surface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_3",
+      "material_state": "diffusion welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "An analysis of the rate of formation of the chromium + copper welded joint has shown that after a lapse of 10 – 30 sec the strength attained was 250 – 400 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ee14d1e70c5536b:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "TV-3"
+  ],
+  "conflicts": []
+}

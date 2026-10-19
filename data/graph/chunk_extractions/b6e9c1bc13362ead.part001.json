@@ -1,0 +1,1507 @@
+{
+  "document_id": "b6e9c1bc13362ead",
+  "chunk_id": "b6e9c1bc13362ead:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Lattice Misfit Predictions via the Gaussian Process Regression for Ni-Based Single Crystal Superalloys",
+    "authors": [
+      "Yun Zhang",
+      "Xiaojie Xu"
+    ],
+    "journal": "Metals and Materials International",
+    "year": 2020,
+    "doi": "10.1007/s12540-020-00883-7"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based single crystal superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Ni-based single crystal superalloys exhibit superb mechanical strength, particularly, creep resistance at elevated temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 62.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5.6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 10.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 6.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 0.6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 CMSX-4 62.20 5.60 10.00 6.50 0.60 3.00 0.00 6.00 6.00 0.10",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 61.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 9.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 6.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 0.6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 2.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 6.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 6.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 1",
+          "quote": "90 CMSX-4 61.10 5.70 9.50 6.40 0.60 2.90 0.00 6.50 6.30 0.00",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "SRR99",
+      "canonical_name": "SRR99",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 68.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 5.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 8.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 2.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 9.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "2 SRR99 68.70 5.50 5.00 8.50 0.00 0.00 0.00 2.80 9.50 0.00",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "SC16",
+      "canonical_name": "SC16",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 74.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 3.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 15.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 2.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 3.6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "4 SC16 74.70 3.50 0.00 15.40 2.80 0.00 0.00 3.60 0.00 0.00",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "CMSX-10",
+      "canonical_name": "CMSX-10",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 69.77,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 2.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 0.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 8.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 5.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.03,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "7 CMSX-10 69.77 5.70 3.00 2.00 0.40 6.00 0.00 8.00 5.00 0.03",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "IN792DS",
+      "canonical_name": "IN792DS",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 61.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 3.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 9.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 12.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 1.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "11 IN792DS 61.30 3.40 9.00 12.50 1.90 0.00 0.00 4.00 4.00 0.00",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": "ExAl7",
+      "canonical_name": "ExAl7",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 58.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 3.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 9.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 12.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 1.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "26 ExAl7 58.30 3.40 9.00 12.50 1.90 3.00 0.00 4.00 4.00 0.00",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_8",
+      "original_name": "ExAl8",
+      "canonical_name": "ExAl8",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 58.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 3.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 9.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 9.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 1.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 1",
+          "quote": "42 ExAl8 58.30 3.40 9.00 9.50 1.90 3.00 3.00 4.00 4.00 0.00",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_9",
+      "original_name": "ExAl9",
+      "canonical_name": "ExAl9",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 61.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 3.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 9.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 12.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 1.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 1",
+          "quote": "58 ExAl9 61.30 3.40 9.00 12.50 1.90 0.00 0.00 4.00 4.00 0.00",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_10",
+      "original_name": "ExAl10",
+      "canonical_name": "ExAl10",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 61.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 3.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 9.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 9.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 1.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 1",
+          "quote": "74 ExAl10 61.30 3.40 9.00 9.50 1.90 3.00 0.00 4.00 4.00 0.00",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_11",
+      "original_name": "CMSX-6",
+      "canonical_name": "CMSX-6",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 69.6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 4.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 5.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 10.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 3.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 2.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 1",
+          "quote": "106 CMSX-6 69.60 4.70 5.20 10.30 3.20 0.00 0.00 2.20 0.00 0.00",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_12",
+      "original_name": "AM1",
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 63.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 6.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 7.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 2.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 7.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 5.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 1",
+          "quote": "132 AM1 63.80 5.20 6.50 7.80 2.00 0.00 0.00 7.90 5.70 0.00",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "Gaussian process regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "lattice misfit prediction",
+      "inputs": [
+        {
+          "name": "chemical composition",
+          "details": "Ni, Al, Co, Cr, Mo, Re, Ru, Ta, W, Hf, Nb, Ti, Ir"
+        },
+        {
+          "name": "temperature"
+        },
+        {
+          "name": "dendrite location"
+        },
+        {
+          "name": "specimen thickness"
+        }
+      ],
+      "target": "lattice misfit",
+      "dataset": "experimental data in Table 1",
+      "validation": "10-fold cross-validation",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "we develop the Gaussian process regression model to predict lattice misfits for Ni-based single crystal superalloys based on chemical composition, temperature, and two morphological indicators.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b6e9c1bc13362ead:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": []
+}

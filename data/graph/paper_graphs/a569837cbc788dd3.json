@@ -1,0 +1,654 @@
+{
+  "document_id": "a569837cbc788dd3",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "title": "Study of the Crack and Porosity Regulation of a Non-weldable Ni-Based Superalloy Fabricated by Laser Powder Bed Fusion",
+    "authors": [
+      "Shuijin Li",
+      "Shuang Gao",
+      "Weiguang Zhang",
+      "Guoxin Lu",
+      "Luqing Cui",
+      "Linzi Li",
+      "Yinghui Ma",
+      "Sai Wang"
+    ],
+    "journal": "Journal of Materials Engineering and Performance",
+    "year": 2025,
+    "doi": "10.1007/s11665-024-10362-4"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "non-weldable Ni-based superalloy",
+      "evidence": []
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "IN939",
+      "canonical_name": "IN939",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 22.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 18.91,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ti",
+          "value": 3.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 1.99,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 1.84,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 1.34,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": 1.02,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": 0.14,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "C",
+          "value": 0.135,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Si",
+          "value": 0.039,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "B",
+          "value": 0.0076,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "gas atomization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "particle_size_range_um": "15-45"
+        }
+      },
+      "input_state": null,
+      "output_state": "powder",
+      "evidence": []
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": "120, 140, 160, 180, 200, 240, 280, 320, 360",
+        "scan_speed": "600, 1000, 1400, 1800, 2000 mm/s",
+        "layer_thickness": 30,
+        "other": {
+          "hatch_distance_um": 80,
+          "hatch_angle_deg": 67,
+          "spot_size_um": 60,
+          "laser_volume_energy_density_J_mm3": "37.5-83.3"
+        }
+      },
+      "input_state": "powder",
+      "output_state": "as-built",
+      "evidence": []
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "substrate preheating",
+      "parameters": {
+        "temperature_c": 180,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-built",
+      "output_state": "preheated",
+      "evidence": []
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "tensile testing",
+      "parameters": {
+        "temperature_c": 25,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": "1 mm/min",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "standard": "ASTM E8M"
+        }
+      },
+      "input_state": "preheated",
+      "output_state": null,
+      "evidence": []
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "carbide",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "crack tip",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "liquid film",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "columnar dendrite",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "cellular dendrite",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "high angle grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "crack density",
+      "value": null,
+      "min_value": 0.34,
+      "max_value": 6.85,
+      "uncertainty": null,
+      "unit": "mm/mm2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "XY plane",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "optical microscopy image analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "relative density",
+      "value": null,
+      "min_value": 98.0,
+      "max_value": 99.0,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Archimedes drainage method"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "surface roughness",
+      "value": 1.17,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "µm",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "top surface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Mitutoyo SJ210 roughness tester"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "surface roughness",
+      "value": 8.09,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "µm",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "top surface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Mitutoyo SJ210 roughness tester"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "preheated",
+      "property": "ultimate tensile strength",
+      "value": 1118.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1 mm/min",
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "SHIMADZU AG-25TA"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "preheated",
+      "property": "yield strength",
+      "value": 883.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1 mm/min",
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "SHIMADZU AG-25TA"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "preheated",
+      "property": "elongation",
+      "value": 15.26,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1 mm/min",
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "SHIMADZU AG-25TA"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate tensile strength",
+      "value": 1082.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1 mm/min",
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "SHIMADZU AG-25TA"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "yield strength",
+      "value": 857.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1 mm/min",
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "SHIMADZU AG-25TA"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "elongation",
+      "value": 13.76,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1 mm/min",
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "SHIMADZU AG-25TA"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "alloying element segregation",
+      "category": "solidification",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "mechanism_2",
+      "name": "high residual stress",
+      "category": "thermal stress",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "mechanism_3",
+      "name": "carbide formation",
+      "category": "precipitation",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "mechanism_4",
+      "name": "liquid film formation",
+      "category": "solidification",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "claim_3",
+      "source_id": "process_3",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "preheated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_4",
+      "source_id": "process_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "preheated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

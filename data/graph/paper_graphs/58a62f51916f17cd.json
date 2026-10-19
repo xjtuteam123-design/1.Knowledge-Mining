@@ -1,0 +1,1594 @@
+{
+  "document_id": "58a62f51916f17cd",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A unified model of tensile and creep deformation for use in niobium alloy materials selection and design for high-temperature applications",
+    "authors": [
+      "L.S. Bowling",
+      "N.R. Philips",
+      "D.E. Matejczyk",
+      "J.M. Skelton",
+      "J.M. Fitz-Gerald",
+      "S.R. Agnew"
+    ],
+    "journal": "Materialia",
+    "year": 2024,
+    "doi": "10.1016/j.mtla.2024.102210"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb-Hf alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "the selected alloys include: (1) the ubiquitous, but relatively low strength Hf-containing alloy, C103; (2) a higher strength, higher Hf-content alloy, WC-3009, that also contains significant W; (3) C-129(Y), which is intermediate in composition between these two",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Nb-W-Zr alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "two Hf-free alloys with very similar compositions, (4) Cb-752 and (5) D-43, the latter of which includes C additions that gives rise to carbide precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "Nb-W-Ta alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "(6) an alloy, FS-85, that contains a high fraction of Ta, in addition to W, which is also present in the other alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "C103",
+      "canonical_name": "Nb-10Hf-1Ti",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "recrystallized",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "balance",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "C103 Balance – – 10 (5.4) – 1 (2.0) –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "C103 Balance – – 10 (5.4) – 1 (2.0) –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "C103 Balance – – 10 (5.4) – 1 (2.0) –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Sellars-Tegart model",
+          "quote": "Rolled sheet coupons of Hf-containing Nb-alloys, C103 and WC-3009, were tensile tested in the fully recrystallized condition",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "WC-3009",
+      "canonical_name": "Nb-30Hf-9W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "recrystallized",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "balance",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "WC-3009 Balance 9 (5.6) – 30 (19.2) – – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "WC-3009 Balance 9 (5.6) – 30 (19.2) – – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "WC-3009 Balance 9 (5.6) – 30 (19.2) – – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Sellars-Tegart model",
+          "quote": "Rolled sheet coupons of Hf-containing Nb-alloys, C103 and WC-3009, were tensile tested in the fully recrystallized condition",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "WC-3009",
+      "canonical_name": "Nb-30Hf-9W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-printed",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "balance",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "WC-3009 Balance 9 (5.6) – 30 (19.2) – – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "WC-3009 Balance 9 (5.6) – 30 (19.2) – – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "WC-3009 Balance 9 (5.6) – 30 (19.2) – – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Sellars-Tegart model",
+          "quote": "additively manufactured WC-3009 samples tested in the as-printed condition [34]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "C-129(Y)",
+      "canonical_name": "Nb-10W-10Hf",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "balance",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "C-129(Y) * Balance 10 (5.6) ≤ 0.5 10 (5.4) ≤ 0.5 – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "C-129(Y) * Balance 10 (5.6) ≤ 0.5 10 (5.4) ≤ 0.5 – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "C-129(Y) * Balance 10 (5.6) ≤ 0.5 10 (5.4) ≤ 0.5 – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Table 1",
+          "quote": "C-129(Y) label denotes both C-129, which may contain up to 0.5 wt% Ta and 0.5 wt% Zr, and C-129Y, which also contains 0.1 wt% Y.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "Cb-752",
+      "canonical_name": "Nb-10W-2.5Zr",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "balance",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "Cb-752 Balance 10 (5.3) 2.5 (2.7) – – – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "Cb-752 Balance 10 (5.3) 2.5 (2.7) – – – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 2.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "Cb-752 Balance 10 (5.3) 2.5 (2.7) – – – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "The presently reported LMP* trends for alloys Cb-752 and FS-85 correspond with creep-life data obtained from samples subjected to the optimal final anneal at 1593 ◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "D-43",
+      "canonical_name": "Nb-10W-1Zr-0.1C",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "balance",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "D-43 Balance 10 (5.3) 1 (1.1) – – – 0.1 (0.8)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "D-43 Balance 10 (5.3) 1 (1.1) – – – 0.1 (0.8)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "D-43 Balance 10 (5.3) 1 (1.1) – – – 0.1 (0.8)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "D-43 Balance 10 (5.3) 1 (1.1) – – – 0.1 (0.8)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "A 10-minute solution anneal at 1650 ◦C, 25 % cold deformation, and final (aging) anneal of 1 hr at 1427 ◦C was found to result in the optimal D-43 creep strength [53,87,88]. This condition is denoted as D-43 M",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": "D-43 M",
+      "canonical_name": "Nb-10W-1Zr-0.1C",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "annealed and aged",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "balance",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "D-43 Balance 10 (5.3) 1 (1.1) – – – 0.1 (0.8)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "D-43 Balance 10 (5.3) 1 (1.1) – – – 0.1 (0.8)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "D-43 Balance 10 (5.3) 1 (1.1) – – – 0.1 (0.8)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "D-43 Balance 10 (5.3) 1 (1.1) – – – 0.1 (0.8)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "This condition is denoted as D-43 M and results in superior creep performance when compared to D-43 samples that have only been treated with an anneal",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_8",
+      "original_name": "FS-85",
+      "canonical_name": "Nb-28Ta-10W-1Zr",
+      "alloy_system_id": "alloy_system_3",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "balance",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "FS-85 Balance 10 (6.2) 1 (1.3) – 28 (17.7) – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "FS-85 Balance 10 (6.2) 1 (1.3) – 28 (17.7) – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "FS-85 Balance 10 (6.2) 1 (1.3) – 28 (17.7) – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 28,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "FS-85 Balance 10 (6.2) 1 (1.3) – 28 (17.7) – –",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "58a62f51916f17cd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "The presently reported LMP* trends for alloys Cb-752 and FS-85 correspond with creep-life data obtained from samples subjected to the optimal final anneal at 1593 ◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1316,
+        "time": "1 hr",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "recrystallized",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Footnote 1",
+          "quote": "Heat treatments were standard mill anneals, C103 samples were held at 1316 ◦C for 1 hr",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1260,
+        "time": "2 hr",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "recrystallized",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Footnote 1",
+          "quote": "and WC-3009 samples for 2 hr at 1260 ◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_4",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Sellars-Tegart model",
+          "quote": "Similarly, C-129 and C-129(Y) exhibit indistinguishable creep responses (small additions of Y in C-129Y were designed to improve weldability [14]).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_5",
+      "sequence": 1,
+      "method": "solution annealing",
+      "parameters": {
+        "temperature_c": 1538,
+        "time": "one hour",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "Processing of Cb-752 included various steps of cold working, a penultimate solution-anneal at 1538 ◦C for one hour, and a final cold-reduction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_5",
+      "sequence": 2,
+      "method": "cold rolling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "final cold-reduction",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "Processing of Cb-752 included various steps of cold working, a penultimate solution-anneal at 1538 ◦C for one hour, and a final cold-reduction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_5",
+      "sequence": 3,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1593,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "final anneals at 1318, 1371, 1480, 1593, and 1760 ◦C were investigated, and the creep resistance increased with final annealing temperature until 1593 ◦C, while samples annealed at 1760 ◦C had inferior creep resistance.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_7",
+      "sequence": 1,
+      "method": "solution annealing",
+      "parameters": {
+        "temperature_c": 1650,
+        "time": "10 min",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "solution annealed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "A 10-minute solution anneal at 1650 ◦C, 25 % cold deformation, and final (aging) anneal of 1 hr at 1427 ◦C was found to result in the optimal D-43 creep strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_8",
+      "sample_id": "sample_7",
+      "sequence": 2,
+      "method": "cold rolling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "25 % cold deformation",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "A 10-minute solution anneal at 1650 ◦C, 25 % cold deformation, and final (aging) anneal of 1 hr at 1427 ◦C was found to result in the optimal D-43 creep strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_9",
+      "sample_id": "sample_7",
+      "sequence": 3,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 1427,
+        "time": "1 hr",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "A 10-minute solution anneal at 1650 ◦C, 25 % cold deformation, and final (aging) anneal of 1 hr at 1427 ◦C was found to result in the optimal D-43 creep strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_10",
+      "sample_id": "sample_8",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1593,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "The presently reported LMP* trends for alloys Cb-752 and FS-85 correspond with creep-life data obtained from samples subjected to the optimal final anneal at 1593 ◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "ZrO2",
+      "sample_id": "sample_5",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries and within grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "He found that the ZrO2 along grain boundaries and within the grains of the Cb-752 material began to dissolve as the solution annealing temperature increased",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "grain-boundary precipitate",
+      "sample_id": "sample_5",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "large, discontinuous precipitates along grain boundaries can exhibit inferior creep resistance",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Nb2C",
+      "sample_id": "sample_7",
+      "material_state": "annealed and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "needle-like",
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "A typical microstructure of D-43 M includes needle-like Nb2C carbides with a hexagonal structure along grain boundaries, spherical, face-centered cubic monocarbides dispersed within the matrix, and refined, elongated grains",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "monocarbide",
+      "sample_id": "sample_7",
+      "material_state": "annealed and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "spherical",
+        "location": "within matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "spherical, face-centered cubic monocarbides dispersed within the matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "HfO2",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "It should also be noted that both materials were reported to have HfO2 present, but similar to alloy C103, there was no obvious correlation between oxygen content and strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "property": "ultimate tensile stress",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1649,
+        "strain_rate": 0.00033,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM E8"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Sellars-Tegart model",
+          "quote": "Representative tensile test data obtained from alloy C103 at 1649 ◦C, initially strained at 3.3 × 10–4 s-1 and jumped to 8.3 × 10–3 s-1",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "property": "ultimate tensile stress",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1649,
+        "strain_rate": 0.0083,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM E8"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Sellars-Tegart model",
+          "quote": "Representative tensile test data obtained from alloy C103 at 1649 ◦C, initially strained at 3.3 × 10–4 s-1 and jumped to 8.3 × 10–3 s-1",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solute drag",
+      "category": "creep mechanism",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "4.1 Mechanistic observations",
+          "quote": "alloys with a stress exponent of 3 suggest that the rate controlling mechanism is drag on the moving dislocations, either by solute or precipitates within grains [76]; this is described as Class 1 or Class A behavior [33].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation climb and glide",
+      "category": "creep mechanism",
+      "sample_id": "sample_6",
+      "material_state": "annealed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1 Mechanistic observations",
+          "quote": "This conclusion is corroborated by the ST fit of n = 5.5 for D-43, where a value of n ≈ 5 indicates that a dislocation climb and glide mechanism controls the creep, rather than solute drag.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "precipitate strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_7",
+      "material_state": "annealed and aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1 Mechanistic observations",
+          "quote": "D-43 is the only intentionally precipitate strengthened Nb-alloy investigated in this study, and these precipitates have a significant, positive impact upon the creep resistance.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "the ubiquitous, but relatively low strength Hf-containing alloy, C103",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Table 1",
+          "quote": "C103 Balance – – 10 (5.4) – 1 (2.0) –",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Footnote 1",
+          "quote": "C103 samples were held at 1316 ◦C for 1 hr",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "a higher strength, higher Hf-content alloy, WC-3009",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Footnote 1",
+          "quote": "WC-3009 samples for 2 hr at 1260 ◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_4",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "C-129(Y), which is intermediate in composition between these two",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "alloy_system_2",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_5",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "two Hf-free alloys with very similar compositions, (4) Cb-752",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "alloy_system_2",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_6",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "(5) D-43, the latter of which includes C additions that gives rise to carbide precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_5",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "ZrO2 along grain boundaries and within the grains of the Cb-752 material",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_7",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": null,
+      "material_state": "annealed and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2 Effect of heat treatment on flow strength of Nb-alloys",
+          "quote": "needle-like Nb2C carbides with a hexagonal structure along grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_7",
+      "material_state": "annealed and aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1 Mechanistic observations",
+          "quote": "these precipitates have a significant, positive impact upon the creep resistance",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1 Mechanistic observations",
+          "quote": "Class 1 (solute drag) high-temperature behavior means they are relatively insensitive to the details of their microstructure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "sample_6",
+      "sample_id": "sample_6",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1 Mechanistic observations",
+          "quote": "solute drag is not expected to be rate controlling for D-43",
+          "table": null,
+          "figure": null,
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_7",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": "recrystallized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Sellars-Tegart model",
+          "quote": "Representative tensile test data obtained from alloy C103 at 1649 ◦C, initially strained at 3.3 × 10–4 s-1",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "58a62f51916f17cd:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

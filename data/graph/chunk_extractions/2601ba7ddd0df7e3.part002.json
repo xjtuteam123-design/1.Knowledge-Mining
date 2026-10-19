@@ -1,0 +1,271 @@
+{
+  "document_id": "2601ba7ddd0df7e3",
+  "chunk_id": "2601ba7ddd0df7e3:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "E. M. Aziz",
+      "V. K. Kodur"
+    ],
+    "journal": "Fire and Materials",
+    "year": 2015,
+    "doi": "10.1002/fam"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "HSLA steel",
+      "material_category": "high-strength low-alloy steel",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.2",
+          "quote": "high-strength low-alloy A572 steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2601ba7ddd0df7e3:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "A572 Gr. 50",
+      "canonical_name": "ASTM A572 Gr. 50",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heated and air cooled to room temperature",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.2",
+          "quote": "For evaluating residual strength of A572 Gr. 50 steel after heating and cooling to room temperature through air cooling or water quenching",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2601ba7ddd0df7e3:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "heating",
+      "parameters": {
+        "temperature_c": 1000,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-received",
+      "output_state": "heated",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.2",
+          "quote": "when heated to temperatures up to 1000 °C and cooled down to room temperature",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2601ba7ddd0df7e3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "air cooling",
+      "parameters": {
+        "temperature_c": 20,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "air",
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "heated",
+      "output_state": "heated and air cooled to room temperature",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.2",
+          "quote": "after heating and cooling to room temperature through air cooling",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2601ba7ddd0df7e3:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "heated and air cooled to room temperature",
+      "property": "residual yield strength ratio",
+      "value": 0.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "air",
+        "duration": null,
+        "test_method": "residual tensile test after heating and air cooling"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.2",
+          "quote": "40% yield strength and 60% ultimate strength recovery for high-strength low-alloy A572 steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2601ba7ddd0df7e3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "heated and air cooled to room temperature",
+      "property": "residual ultimate strength ratio",
+      "value": 0.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "air",
+        "duration": null,
+        "test_method": "residual tensile test after heating and air cooling"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.2",
+          "quote": "40% yield strength and 60% ultimate strength recovery for high-strength low-alloy A572 steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2601ba7ddd0df7e3:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "heated and air cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.2",
+          "quote": "when heated to temperatures up to 1000 °C and cooled down to room temperature",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2601ba7ddd0df7e3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "heated and air cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.2",
+          "quote": "after heating and cooling to room temperature through air cooling",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2601ba7ddd0df7e3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "heated and air cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.2",
+          "quote": "40% yield strength and 60% ultimate strength recovery for high-strength low-alloy A572 steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2601ba7ddd0df7e3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "heated and air cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.2",
+          "quote": "40% yield strength and 60% ultimate strength recovery for high-strength low-alloy A572 steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2601ba7ddd0df7e3:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

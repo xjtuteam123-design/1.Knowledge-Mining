@@ -1,0 +1,629 @@
+{
+  "document_id": "7b27c83b48113927",
+  "chunk_id": "7b27c83b48113927:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Three-dimensional elastoplastic phase-field simulation of γ' rafting and creep deformation",
+    "authors": [
+      "Min Yang",
+      "Jun Zhang",
+      "Hua Wei",
+      "Weimin Gui",
+      "Tao Jin",
+      "Lin Liu"
+    ],
+    "journal": "Journal of Materials Science",
+    "year": 2017,
+    "doi": "10.1007/s10853-017-1470-2"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "nickel-base single-crystal superalloy",
+      "material_category": "Ni-base superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "A modified phase-field model coupling viscoplastic constitutive equations has been built up to simulate the creep process of nickel-base single-crystal superalloys at 1223 K/300 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "nickel-base single-crystal superalloy (phase-field simulation)",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated initial state",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Ginzburg-Landau free energy",
+          "quote": "The present creep simulation is performed at 1223 K, so the equilibrium parameters of cm, cp and go are assigned as 0.15, 0.231 and 1, respectively, and c2 assigned as 0.18.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        },
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "A three-dimensional (3-D) phase-field simulation was performed with a 32 9 32 9 32 computational cell. Microstructure evolution during creep at 1223 K/300 MPa is shown in Fig. 1.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "phase-field creep simulation",
+      "parameters": {
+        "temperature_c": 950.0,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "external_tensile_stress": "300 MPa",
+          "loading_direction": "[001]",
+          "computational_cell": "32 x 32 x 32",
+          "reported_temperature": "1223 K",
+          "reported_stress": "300 MPa"
+        }
+      },
+      "input_state": "simulated initial state",
+      "output_state": "simulated crept state",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "A modified phase-field model coupling viscoplastic constitutive equations has been built up to simulate the creep process of nickel-base single-crystal superalloys at 1223 K/300 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        },
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "Microstructure evolution during creep at 1223 K/300 MPa is shown in Fig. 1.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "L12 Ni3Al (γ')",
+      "sample_id": "sample_1",
+      "material_state": "simulated initial state",
+      "attributes": {
+        "phase_fraction": "about 54%",
+        "size": "about 160 nm",
+        "morphology": "cubic precipitate at center of γ matrix (initial state)",
+        "location": "center of γ matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "The excellent high-temperature performance of such alloys originates from the microstructure of L1 2 intermetallic compound Ni 3Al (c0 precipitate) coherently embedded in the Ni-rich face-centered cubic (FCC) c matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        },
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "As can be seen from Fig. 1a, a cubic c0 precipitate with a length of about 160 nm is placed at the center of c matrix (the blank area) at the beginning. The initial volume fraction of c0 precipitate is about 54%.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "7b27c83b48113927:part:001"
+        },
+        {
+          "page": "5",
+          "section": "Results and discussion",
+          "quote": "Besides, the c0 volume fraction decreases to 51% at the end of simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "FCC γ matrix",
+      "sample_id": "sample_1",
+      "material_state": "simulated initial state",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "matrix channels surrounding γ' precipitate",
+        "location": "matrix channels",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "(c0 precipitate) coherently embedded in the Ni-rich face-centered cubic (FCC) c matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "rafted γ' precipitate",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "attributes": {
+        "phase_fraction": "about 51% at end of simulation",
+        "size": null,
+        "morphology": "plate-like, coarsened along direction vertical to [001]; interface bends slightly with convex surfaces for γ'",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "promoting c0 precipitate to raft along the direction vertical to [001] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        },
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "With the creep time increasing, the cubic c0 precipitate coarsens along the direction vertical to [001] direction and the width of horizontal c channels (the c channel along the direction vertical to [010] crystallographic direction) increases to a steady value",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "7b27c83b48113927:part:001"
+        },
+        {
+          "page": "5",
+          "section": "Results and discussion",
+          "quote": "When observed in 3-D space, the interface between c0 and c phases bends slightly with convex surfaces for c0 precipitate, as shown in Fig. 1c.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "horizontal γ channel",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "width increases to a steady value",
+        "morphology": "channel vertical to [001]",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "the width of horizontal c channels (the c channel along the direction vertical to [010] crystallographic direction) increases to a steady value",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "7b27c83b48113927:part:001"
+        },
+        {
+          "page": "5",
+          "section": "Results and discussion",
+          "quote": "the plastic strain level in horizontal c channel is higher than that in vertical c channel",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "heterogeneous plastic strain distribution",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "maxima along planes parallel to {111}",
+        "location": "γ matrix channels",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and discussion",
+          "quote": "Notably, the spatial distribution of epl 33 rðÞ in c matrix is heterogeneous (Fig. 2c), which means more plastic strain generates around the plans parallel to {111} plans.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "property": "creep strain",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 950.0,
+        "strain_rate": null,
+        "loading_mode": "tensile creep",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation vs experimental comparison",
+        "reported_temperature": "1223 K",
+        "reported_stress": "300 MPa"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and discussion",
+          "quote": "Figure 4 shows the plastic strain and plastic strain rate curves compared with experimental data [10] at 1223 K/300 MPa. Obviously, the simulative result shows a good agreement with the experimental data in the initial creep stage, as shown in Fig. 4a.",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "γ-channel plasticity driving rafting",
+      "category": "microstructure evolution mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Under the external tension along [001] direction, the plastic strain prefers to concentrate in the channel vertical to [001] direction, promoting c0 precipitate to raft along the direction vertical to [001] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        },
+        {
+          "page": "7",
+          "section": "Conclusions",
+          "quote": "Under the external tension along [001] direction, the plastic strain in c horizontal channel is way above that in c vertical channel, contributing to the formation of plate-like c0 precipitate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "slip-system interaction hardening",
+      "category": "hardening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The interactions between slip systems alter the value of plastic strain and thus the stress field in inner c channel. In turn, the stress field readjusts the plastic deformation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        },
+        {
+          "page": "6",
+          "section": "Results and discussion",
+          "quote": "For model I, however, the changes of plastic strain and stress are no longer analogous. This is due to the external contribution of isotropic hardening which concludes the interactions between the slip systems.",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation glide and climb",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "At the same time, a large amount of plastic deformation, caused by dislocation glide and climb, occurs in c channel.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "A modified phase-field model coupling viscoplastic constitutive equations has been built up to simulate the creep process of nickel-base single-crystal superalloys at 1223 K/300 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated initial state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "Microstructure evolution during creep at 1223 K/300 MPa is shown in Fig. 1.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated initial state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "a cubic c0 precipitate with a length of about 160 nm is placed at the center of c matrix (the blank area) at the beginning. The initial volume fraction of c0 precipitate is about 54%.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated initial state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "(c0 precipitate) coherently embedded in the Ni-rich face-centered cubic (FCC) c matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "promoting c0 precipitate to raft along the direction vertical to [001] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "the width of horizontal c channels (the c channel along the direction vertical to [010] crystallographic direction) increases to a steady value",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and discussion",
+          "quote": "more plastic strain generates around the plans parallel to {111} plans.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "FORMS",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the plastic strain prefers to concentrate in the channel vertical to [001] direction, promoting c0 precipitate to raft along the direction vertical to [001] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and discussion",
+          "quote": "The interactions between slip systems alter the value of plastic strain and then the distribution of stress. The distribution of stress, in turn, affects the plastic deformation.",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "7b27c83b48113927:part:001"
+        },
+        {
+          "page": "7",
+          "section": "Conclusions",
+          "quote": "The interactions between slip systems alter the value of plastic strain and then the distribution of stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and discussion",
+          "quote": "the simulative result shows a good agreement with the experimental data in the initial creep stage, as shown in Fig. 4a.",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated crept state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Viscoplastic energy",
+          "quote": "the experimental results have proved that [ 7]: (1) the plastic deformation is produced by the dislocation motion; (2) the dislocations are concentrated in matrix channels and interact with each other.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b27c83b48113927:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

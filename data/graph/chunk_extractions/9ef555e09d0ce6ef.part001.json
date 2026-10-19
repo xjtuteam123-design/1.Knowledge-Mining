@@ -1,0 +1,651 @@
+{
+  "document_id": "9ef555e09d0ce6ef",
+  "chunk_id": "9ef555e09d0ce6ef:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Fatigue strain mapping via digital image correlation for Ni-based superalloys: the role of thermal activation on cube slip",
+    "authors": [
+      "Alberto W. Mello",
+      "Andrea Nicolas",
+      "Michael D. Sangid"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2017,
+    "doi": "10.1016/j.msea.2017.04.002"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "A deformation mechanism map for a Ni-based superalloy is presented during cyclic loading at low (300 °C), intermediate (550 °C), and high (700 °C) temperatures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni3Al",
+      "material_category": "ordered intermetallic (L12)",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "1. Introduction",
+          "quote": "the APBE on the {100} plane is less than that on the {111} plane, as observed by Dimiduk et al. which quantified these values over a range of binary Ni3Al single crystals via transmission electron microscopy [12]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "RR1000",
+      "canonical_name": "RR1000",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "supersolvus heat-treated, coarse grain",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "The material analyzed in the present work is a powder processed Ni-based superalloy, RR1000, supplied by Rolls-Royce plc. The material is a supersolvus heat-treated, coarse grain variant of RR1000 and hence it contains no primary γ’.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "supersolvus heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "controlled cooling rate from solution temperature to optimize secondary γ’ size",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "powder processed RR1000",
+      "output_state": "supersolvus heat-treated, coarse grain",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "The material is a supersolvus heat-treated, coarse grain variant of RR1000 and hence it contains no primary γ’. Details of the heat treatment can be found in ref [38]. The cooling rate of the material from the solution temperature was controlled, in order to optimize the secondary γ’ size.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "electro-discharge machining",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "geometry": "dog bone, 10 mm gauge length, 3 mm wide, 1.25 mm thick"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "The material was machined by electro-discharge machining to obtain the final sample geometry. The samples have a dog bone shape, with 10 mm gauge length, cross sectional area 3 mm wide and 1.25 mm thick.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "polishing",
+      "parameters": {
+        "temperature_c": null,
+        "time": "about five minutes on 1200 grit sand paper on both sides; vibro-polisher with colloidal silica 0.05 μm for 24 hours",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "abrasive": "1200 grit sand paper; colloidal silica 0.05 μm"
+        }
+      },
+      "input_state": null,
+      "output_state": "mirror like surface",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "All samples were polished on 1200 grit sand paper for about five minutes on both sides and then left in a vibro-polisher with colloidal silica 0.05m for 24 hours for a mirror like surface on one of the sides.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "speckle patterning",
+      "parameters": {
+        "temperature_c": 300,
+        "time": "10 minutes",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "speckle": "Ti nano-powder (60 nm) with Bicine and distilled water, drop casting, heated to burn off Bicine"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "After mapping the AOI texture, the specimen was speckled with Ti nano-powder for digital image correlation (DIC). ... Upon drying, the specimen was heated to 300 ºC for 10 minutes to burn off all the Bicine.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "fatigue test",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": "7 x 10-4 Pa (5 x 10-6 Torr)",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": "initial total strain 0.7% or 1.0%, stress ratio R = 0.1",
+        "strain_rate": "3 x 10-3 1/s",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "frequency": "0.15 Hz",
+          "cycles": "interrupted at 1, 10, 100 and 1,000 cycles",
+          "temperatures": "300, 550, 700 °C"
+        }
+      },
+      "input_state": null,
+      "output_state": "fatigued",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.2. Equipment and Loading Parameters",
+          "quote": "After the desired temperature is reached and stabilized, the cycles were applied at 0.15 Hz. ... All experiments were performed at a pressure of 7 x 10-4 Pa (5 x 10-6 Torr). Each sample was loaded to an assigned initial total strain (0.7% or 1.0%) and then unloaded for DIC verification of the first cycle. ... The average applied strain rate for this experiment is 3 x 10-3 1/s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma (FCC matrix)",
+      "sample_id": "sample_1",
+      "material_state": "supersolvus heat-treated, coarse grain",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.2 Slip System Activity",
+          "quote": "Thus, the γ matrix has alternating slip along the {111} planes, yet from a higher length scale, it appears slip follows the {100} planes.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "secondary gamma prime (L12)",
+      "sample_id": "sample_1",
+      "material_state": "supersolvus heat-treated, coarse grain",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "mean maximum feret diameter ~300 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "The mean maximum feret diameter of the secondary γ’ was measured as ~300 nm via high resolution SEM imaging after a Kalling’s etch.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "coarse grain",
+      "sample_id": "sample_1",
+      "material_state": "supersolvus heat-treated, coarse grain",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "target average grain size of 30 μm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "The coarse grain RR1000 has a target average grain size of 30 µm [38].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "slip band",
+      "sample_id": "sample_1",
+      "material_state": "fatigued",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "planar, discrete",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.1. Strain Evolution",
+          "quote": "The lines representing values of high strain capture slip bands following an active slip plane. As can be visualized in Figs. 6 and 7, the slip bands are present in the first cycles and intensify with respect to the value of strain with number of cycles.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "cross-slip",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "supersolvus heat-treated, coarse grain",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "The activation of cubic slip via cross-slip within the ordered intermetallic γ’ phase has been well documented in Ni-based superalloys and is generally accepted as the mechanism responsible for the anomalous yield phenomenon.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Kear-Wilsdorf locking",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "supersolvus heat-treated, coarse grain",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "1. Introduction",
+          "quote": "The cross-slipped dislocation segments are immobile and result in a strengthening mechanism via the formation of the widely accepted Kear-Wilsdorf locking mechanism [8].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "planar slip",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "fatigued",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.1. Strain Evolution",
+          "quote": "The results lead to dislocation confinement to well define glide planes and planar slip features.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "The material analyzed in the present work is a powder processed Ni-based superalloy, RR1000",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "The material is a supersolvus heat-treated, coarse grain variant of RR1000",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.2. Equipment and Loading Parameters",
+          "quote": "Each sample was loaded to an assigned initial total strain (0.7% or 1.0%) and then unloaded for DIC verification of the first cycle.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "supersolvus heat-treated, coarse grain",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "The mean maximum feret diameter of the secondary γ’ was measured as ~300 nm via high resolution SEM imaging",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "supersolvus heat-treated, coarse grain",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "The material is a supersolvus heat-treated, coarse grain variant of RR1000 and hence it contains no primary γ’.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "fatigued",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.1. Strain Evolution",
+          "quote": "the slip bands are present in the first cycles and intensify with respect to the value of strain with number of cycles",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "supersolvus heat-treated, coarse grain",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "The activation of cubic slip via cross-slip within the ordered intermetallic γ’ phase has been well documented in Ni-based superalloys and is generally accepted as the mechanism responsible for the anomalous yield phenomenon.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "supersolvus heat-treated, coarse grain",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "1. Introduction",
+          "quote": "The cross-slipped dislocation segments are immobile and result in a strengthening mechanism via the formation of the widely accepted Kear-Wilsdorf locking mechanism [8].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "The material was machined by electro-discharge machining to obtain the final sample geometry.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "All samples were polished on 1200 grit sand paper for about five minutes on both sides and then left in a vibro-polisher with colloidal silica 0.05m for 24 hours",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1. Sample Preparation",
+          "quote": "the specimen was speckled with Ti nano-powder for digital image correlation (DIC). ... Upon drying, the specimen was heated to 300 ºC for 10 minutes to burn off all the Bicine.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "alloy_system_2",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "1. Introduction",
+          "quote": "the APBE on the {100} plane is less than that on the {111} plane, as observed by Dimiduk et al. which quantified these values over a range of binary Ni3Al single crystals via transmission electron microscopy [12]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

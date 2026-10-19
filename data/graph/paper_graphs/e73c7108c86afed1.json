@@ -1,0 +1,290 @@
+{
+  "document_id": "e73c7108c86afed1",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "title": "Application of data-driven methods for laser powder bed fusion of Ni-based superalloys: A review",
+    "authors": [
+      "Kun Li",
+      "Jianbin Zhan",
+      "Yong Wang",
+      "Yu Qin",
+      "Na Gong",
+      "David Z. Zhang",
+      "Susheng Tan",
+      "Lawrence E. Murr",
+      "Zheng Liu"
+    ],
+    "journal": "Journal of Manufacturing Processes",
+    "year": 2024,
+    "doi": "10.1016/j.jmapro.2024.11.053"
+  },
+  "alloy_systems": [],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "random forest (RF)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict creep rate and lifetime",
+      "inputs": [
+        "build direction",
+        "scanning strategy",
+        "number of laser beams",
+        "density",
+        "number of pore defects"
+      ],
+      "target": "creep rate and lifetime",
+      "dataset": "LPBF Ni-based superalloys (Sanchez et al. [183])",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "25",
+          "section": null,
+          "quote": "Sanchez et al. [ 183 ] used process parameters (such as build direc - tion, scanning strategy, and the number of laser beams), density, and the number of pore defects as inputs, with creep rate and lifetime as outputs, to construct six types of machine-learning models. As shown in Fig. 31 a, the random forest (RF) and gradient boosting (GBT) models achieved the highest accuracy in predicting creep rate",
+          "table": null,
+          "figure": "Fig. 31 a",
+          "chunk_id": "e73c7108c86afed1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "gradient boosting (GBT)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict creep rate and lifetime",
+      "inputs": [
+        "build direction",
+        "scanning strategy",
+        "number of laser beams",
+        "density",
+        "number of pore defects"
+      ],
+      "target": "creep rate and lifetime",
+      "dataset": "LPBF Ni-based superalloys (Sanchez et al. [183])",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "25",
+          "section": null,
+          "quote": "As shown in Fig. 31 a, the random forest (RF) and gradient boosting (GBT) models achieved the highest accuracy in predicting creep rate",
+          "table": null,
+          "figure": "Fig. 31 a",
+          "chunk_id": "e73c7108c86afed1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "deep neural network",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict creep rate and lifetime",
+      "inputs": [
+        "build direction",
+        "scanning strategy",
+        "number of laser beams",
+        "density",
+        "number of pore defects"
+      ],
+      "target": "creep rate and lifetime",
+      "dataset": "LPBF Ni-based superalloys (Sanchez et al. [183])",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "25",
+          "section": null,
+          "quote": "the percentage error for VSM predicted by RF, GBT, and Deep Neural Network exceeds 400 %",
+          "table": null,
+          "figure": "Fig. 31 a",
+          "chunk_id": "e73c7108c86afed1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_4",
+      "name": "polynomial regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "establish relationship between process parameters and evaluation metrics for corrosion resistance",
+      "inputs": [
+        "process parameters"
+      ],
+      "target": "corrosion resistance metrics (PD and EIS)",
+      "dataset": "In718 alloy (Mythreyi et al. [187])",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "26",
+          "section": null,
+          "quote": "Similarly, Mythreyi et al. [ 187 ] developed four models — polynomial regression, support vector regression, random forest, and extreme gradient boosting (XGB) — to establish the relationship between process parameters and evaluation metrics (PD and EIS) for corrosion resistance.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e73c7108c86afed1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_5",
+      "name": "support vector regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "establish relationship between process parameters and evaluation metrics for corrosion resistance",
+      "inputs": [
+        "process parameters"
+      ],
+      "target": "corrosion resistance metrics (PD and EIS)",
+      "dataset": "In718 alloy (Mythreyi et al. [187])",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "26",
+          "section": null,
+          "quote": "Similarly, Mythreyi et al. [ 187 ] developed four models — polynomial regression, support vector regression, random forest, and extreme gradient boosting (XGB) — to establish the relationship between process parameters and evaluation metrics (PD and EIS) for corrosion resistance.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e73c7108c86afed1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_6",
+      "name": "random forest",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "establish relationship between process parameters and evaluation metrics for corrosion resistance",
+      "inputs": [
+        "process parameters"
+      ],
+      "target": "corrosion resistance metrics (PD and EIS)",
+      "dataset": "In718 alloy (Mythreyi et al. [187])",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "26",
+          "section": null,
+          "quote": "Similarly, Mythreyi et al. [ 187 ] developed four models — polynomial regression, support vector regression, random forest, and extreme gradient boosting (XGB) — to establish the relationship between process parameters and evaluation metrics (PD and EIS) for corrosion resistance.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e73c7108c86afed1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_7",
+      "name": "extreme gradient boosting (XGB)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "establish relationship between process parameters and evaluation metrics for corrosion resistance",
+      "inputs": [
+        "process parameters"
+      ],
+      "target": "corrosion resistance metrics (PD and EIS)",
+      "dataset": "In718 alloy (Mythreyi et al. [187])",
+      "validation": null,
+      "metrics": {
+        "R2": {
+          "PD": 0.954,
+          "EIS": 0.997
+        }
+      },
+      "evidence": [
+        {
+          "page": "26",
+          "section": null,
+          "quote": "Their results indicated that the XGB algorithm had the highest predic - tion accuracy for the corrosion rate of the In718 alloy, with R 2 indices of 0.954 and 0.997 for the fitted PD and EIS, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e73c7108c86afed1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_8",
+      "name": "conventional autoencoding (CAE)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "automatically extract features from molten pool images and identify anomalies during the LPBF process",
+      "inputs": [
+        "molten pool images"
+      ],
+      "target": "anomaly identification (normal vs anomalous molten pools)",
+      "dataset": "In625 alloy (Fathizadan et al. [193])",
+      "validation": null,
+      "metrics": {
+        "accuracy": "95 %",
+        "F1 score": "82 %"
+      },
+      "evidence": [
+        {
+          "page": "28",
+          "section": null,
+          "quote": "Their method enabled the model to automatically detect and label “ anomalous ” molten pools, achieving an accuracy of 95 % and an F1 score of 82 % in distinguishing between normal and anomalous molten pools in the LPBF process of the In625 alloy.",
+          "table": null,
+          "figure": "Fig. 32 a",
+          "chunk_id": "e73c7108c86afed1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_9",
+      "name": "Gaussian regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "adjust and test simulation model (temperature prediction)",
+      "inputs": [
+        "temperature data from simulation"
+      ],
+      "target": "experimental data",
+      "dataset": "In625 alloy (Anandan Kumar et al. [211])",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "31",
+          "section": "4.2.3. Coupling of machine learning and simulation",
+          "quote": "Anandan Kumar et al. [ 211 ] first simulated the thermal field of the In625 alloy during LPBF. They then used the obtained temperature data as input for the Gaussian regression model, with the data from experiments as output, instead of going through the adjustment and test steps of the simulation model",
+          "table": null,
+          "figure": "Fig. 34",
+          "chunk_id": "e73c7108c86afed1:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "25",
+          "section": null,
+          "quote": "the random forest (RF) and gradient boosting (GBT) models achieved the highest accuracy in predicting creep rate",
+          "table": null,
+          "figure": "Fig. 31 a",
+          "chunk_id": "e73c7108c86afed1:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

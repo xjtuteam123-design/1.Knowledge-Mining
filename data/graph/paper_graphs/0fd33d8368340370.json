@@ -1,0 +1,1168 @@
+{
+  "document_id": "0fd33d8368340370",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "title": "Strong and ductile niobium-based refractory alloy via deformable zirconia nanoparticles",
+    "authors": [
+      "Jianan Chen",
+      "Chang Liu",
+      "Yifan Wang",
+      "Wangwang Ding",
+      "Qiying Tao",
+      "Gang Chen",
+      "Wei Cai",
+      "Mingli Qin",
+      "Xuanhui Qu"
+    ],
+    "journal": "Additive Manufacturing",
+    "year": null,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb-based refractory alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "1. Introduction",
+          "quote": "Niobium (Nb)-based alloys, including Nb-5W-2Mo-1Zr (Nb521) and Nb-10Hf-1Ti (C103), are widely used in the aerospace fields such as propulsion systems, due to their superior high-temperature mechanical properties, low density, and excellent corrosion resistance [1-5].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Nb521",
+      "canonical_name": "Nb-5W-2Mo-1Zr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": "2.1 Powder feedstock",
+              "quote": "Table 1. Chemical composition (wt.%) of the jet-milled HDH Nb521 powders. Element O C H N W Mo Zr Nb Value 0.13 0.014 0.009 0.021 5.33 1.73 1.70 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0fd33d8368340370:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 5.33,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": "2.1 Powder feedstock",
+              "quote": "Table 1. Chemical composition (wt.%) of the jet-milled HDH Nb521 powders. Element O C H N W Mo Zr Nb Value 0.13 0.014 0.009 0.021 5.33 1.73 1.70 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0fd33d8368340370:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 1.73,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": "2.1 Powder feedstock",
+              "quote": "Table 1. Chemical composition (wt.%) of the jet-milled HDH Nb521 powders. Element O C H N W Mo Zr Nb Value 0.13 0.014 0.009 0.021 5.33 1.73 1.70 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0fd33d8368340370:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 1.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": "2.1 Powder feedstock",
+              "quote": "Table 1. Chemical composition (wt.%) of the jet-milled HDH Nb521 powders. Element O C H N W Mo Zr Nb Value 0.13 0.014 0.009 0.021 5.33 1.73 1.70 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0fd33d8368340370:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Abstract",
+          "quote": "Here, we present an approach of designing and fabricating a niobium-based (Nb-5W-2Mo-1Zr, Nb521) alloy with copiously and coherently dispersed nanoscale zirconia (ZrO2) precipitates through laser powder bed fusion followed by heat treating.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": 200,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "flowing argon",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 210,
+        "scan_speed": "800 mm/s",
+        "layer_thickness": "30 μm",
+        "other": {
+          "hatch_distance": "0.10 mm",
+          "scanning_strategy": "stripe of zigzag pattern with a stripe length of 10 mm and a rotation of 67° after each layer"
+        }
+      },
+      "input_state": "HDH Nb521 powders",
+      "output_state": "LPBFed Nb521",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.2 Laser powder bed fusion and heat treatment",
+          "quote": "The Nb521 specimens were fabricated using an LPBF machine (SLM Solutions 125HL, Germany) equipped with a 400 W IPG fiber laser. The substrate was preheated to 200 ℃ in a flowing argon atmosphere before processing. The processing parameters included a powder layer thickness of 30 μm, a laser power of 210 W, a scanning speed of 800 mm/s, and a hatch distance of 0.10 mm, respectively. The scanning strategy was the stripe of zigzag pattern with a stripe length of 10 mm and a rotation of 67° after each layer [32].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "vacuum heat treatment",
+      "parameters": {
+        "temperature_c": 1400,
+        "time": "1 hour",
+        "pressure": "~1×10-3 Pa",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "LPBFed Nb521",
+      "output_state": "heat-treated (HTed, as-fabricated) Nb521",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.2 Laser powder bed fusion and heat treatment",
+          "quote": "Specimens cut from the substrate were then heat treated in a vacuum furnace under a vacuum degree of ~1×10-3 Pa at 1400 ℃ for 1 hour to relieve internal stress. All analyses herein after were performed on the heat-treated (HTed, also referred to as the as-fabricated) specimens if not specified.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.1 Microstructural characterization",
+          "quote": "The XRD patterns shown in Fig. 1(c) indicate the LPBFed and HTed (as-fabricated) Nb521 specimens both exhibit a typical body-centered cubic (BCC) crystal structure.",
+          "table": null,
+          "figure": "Fig. 1(c)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "m-ZrO2",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "intragranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.1 Microstructural characterization",
+          "quote": "The corresponding fast Fourier transform (FFT) patterns in Fig. 2(e) confirm that this nanoparticle is the [100] orientated monoclinic zirconia (m-ZrO2, space group: P121/c1; lattice parameters: a = 0.515 nm, b = 0.521 nm, c = 0.531nm, β = 99.3°) within the [1̅11] orientated Nb matrix.",
+          "table": null,
+          "figure": "Fig. 2(e)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "t-ZrO2",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "intergranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": "3.1 Microstructural characterization",
+          "quote": "According to the FFT analysis shown in Fig. 3(g), this crystal region, sheared by ~9.3° relative to its neighbor (Fig. 3(e)), can be identified as the tetragonal ZrO2 (t-ZrO2, space group: P42/n; lattice parameters: a = b = 0.364 nm, c = 0.527 nm) with the [11̅0] grain orientation.",
+          "table": null,
+          "figure": "Fig. 3(g)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "m-ZrO2",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "lamellar",
+        "location": "intragranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 16,
+          "section": "3.3 Microstructure after tension",
+          "quote": "FFT analysis in Fig. 5(e) confirms that the deformed lamellar precipitate is the m-ZrO2 phase, with an orientation relationship between the precipitate and Nb matrix of (012̅)m // (110)Nb and [100]m // [11̅0]Nb.",
+          "table": null,
+          "figure": "Fig. 5(e)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "equiaxed grain",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "<10 μm",
+        "morphology": "equiaxed",
+        "location": "melt pool boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.1 Microstructural characterization",
+          "quote": "Some fine equiaxed grains (<10 μm) were found at melt pool boundaries (Fig. 1(d)), while large columnar grains (~200 μm) are distributed in the center of melt pools and aligned with the heat flux direction (Fig. 1(f)).",
+          "table": null,
+          "figure": "Fig. 1(d)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "columnar grain",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "~200 μm",
+        "morphology": "columnar",
+        "location": "center of melt pools",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.1 Microstructural characterization",
+          "quote": "Some fine equiaxed grains (<10 μm) were found at melt pool boundaries (Fig. 1(d)), while large columnar grains (~200 μm) are distributed in the center of melt pools and aligned with the heat flux direction (Fig. 1(f)).",
+          "table": null,
+          "figure": "Fig. 1(f)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "stacking fault",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "intergranular ZrO2 precipitate",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.1 Microstructural characterization",
+          "quote": "Fig. 3(b) shows that the precipitate contains multiple stacking faults (SFs).",
+          "table": null,
+          "figure": "Fig. 3(b)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "nanotwin",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "intergranular ZrO2 precipitate",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.1 Microstructural characterization",
+          "quote": "Fig. 3(c) displays the detailed structure of the intergranular precipitate at a higher magnification, revealing the presence of nanotwins in addition to SFs.",
+          "table": null,
+          "figure": "Fig. 3(c)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "deformation twin",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "intragranular ZrO2 precipitate",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 16,
+          "section": "3.3 Microstructure after tension",
+          "quote": "Analysis of the corresponding FFT pattern in Fig. 5(h) reveals that the twin variants are of the (100)[001] type.",
+          "table": null,
+          "figure": "Fig. 5(h)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_6",
+      "type": "Microstructure",
+      "name": "lamellar nanoparticle",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "~20.1 nm in width and ~127.5 nm in length",
+        "morphology": "lamellar",
+        "location": "Nb matrix",
+        "composition": "Zr and O",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 15,
+          "section": "3.3 Microstructure after tension",
+          "quote": "Fig. 5(a) shows that after tension, there are numerous lamellar nanoparticles (~20.1 nm in width and ~127.5 nm in length) in the Nb matrix, as indicated by the yellow arrows",
+          "table": null,
+          "figure": "Fig. 5(a)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_7",
+      "type": "Microstructure",
+      "name": "dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "network",
+        "location": "around ZrO2 precipitates",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 23,
+          "section": "4.2.1 Strengthening",
+          "quote": "Fig. 8(a) shows that the Nb521 specimen after tension contains networks with high densities of dislocations, which formed around the ZrO2 precipitates (highlighted by arrows in the corresponding DF-STEM image of Fig. 8(b)).",
+          "table": null,
+          "figure": "Fig. 8(a)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_8",
+      "type": "Microstructure",
+      "name": "dimple",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension (fracture surface)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "fine dimples",
+        "location": "fracture surface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.2 Tensile properties",
+          "quote": "The fracture surface of the specimen after tension exhibits a dominant ductile feature, as implied by numerous fine dimples with slight cleavage appearance, as shown in Figs. 4(d) and 4(e).",
+          "table": null,
+          "figure": "Figs. 4(d) and 4(e)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "property": "ultimate tensile strength",
+      "value": 516.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±4.0",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": "0.4 mm/min",
+        "loading_mode": "tension",
+        "orientation": "perpendicular to building direction",
+        "atmosphere": "air",
+        "duration": null,
+        "test_method": "uniaxial tensile test with extensometer, gauge length 10 mm"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.2 Tensile properties",
+          "quote": "The achieved room-temperature ultimate tensile strength (UTS) and fracture strain of the alloy are 516.8±4.0 MPa and 18.6±0.3 %, respectively.",
+          "table": null,
+          "figure": "Fig. 4(a)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "property": "fracture strain",
+      "value": 18.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±0.3",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": "0.4 mm/min",
+        "loading_mode": "tension",
+        "orientation": "perpendicular to building direction",
+        "atmosphere": "air",
+        "duration": null,
+        "test_method": "uniaxial tensile test with extensometer, gauge length 10 mm"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.2 Tensile properties",
+          "quote": "The achieved room-temperature ultimate tensile strength (UTS) and fracture strain of the alloy are 516.8±4.0 MPa and 18.6±0.3 %, respectively.",
+          "table": null,
+          "figure": "Fig. 4(a)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "property": "work-hardening capacity",
+      "value": 200,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": "0.4 mm/min",
+        "loading_mode": "tension",
+        "orientation": "perpendicular to building direction",
+        "atmosphere": "air",
+        "duration": null,
+        "test_method": "derived from true stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.2 Tensile properties",
+          "quote": "The as-fabricated Nb521 specimen exhibits a high work-hardening capacity (~200MPa, σYS/σUTS = 0.61, YS: yield strength) and excellent uniform elongation (from ~1 % true strain to fracture)",
+          "table": null,
+          "figure": "Fig. 4(b)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "property": "product of strength and ductility",
+      "value": 9.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa%",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": "0.4 mm/min",
+        "loading_mode": "tension",
+        "orientation": "perpendicular to building direction",
+        "atmosphere": "air",
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.2 Tensile properties",
+          "quote": "The product of strength and ductility of our specimen reaches a record level of 9.6 GPa% for the AMed Nb521 alloys to date (Fig. 4(c)).",
+          "table": null,
+          "figure": "Fig. 4(c)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "transformation induced plasticity (TRIP)",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Abstract",
+          "quote": "The combination of transformation induced plasticity (TRIP) and twinning induced plasticity (TWIP) from the nanoscale ZrO2 precipitates provides sufficient capacity to accommodate strain and relieve stress concentration.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "twinning induced plasticity (TWIP)",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Abstract",
+          "quote": "The combination of transformation induced plasticity (TRIP) and twinning induced plasticity (TWIP) from the nanoscale ZrO2 precipitates provides sufficient capacity to accommodate strain and relieve stress concentration.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "Orowan mechanism",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 23,
+          "section": "4.2.1 Strengthening",
+          "quote": "With increasing the stress, the coherent interface between the ZrO2 precipitates and Nb matrix generates long-range stresses that effectively inhibit the dislocation slip, resulting in the dislocations interacting with precipitates through the Orowan bowing mechanism and even plastically deforming the ZrO2 precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "dispersion strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 22,
+          "section": "4.2.1 Strengthening",
+          "quote": "Furthermore, the typical dispersion strengthening caused by the ZrO2 precipitates embedded in the matrix can be seen in the microstructures of the specimens after tensile fracture",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "martensitic phase transformation",
+      "category": "phase transformation",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 22,
+          "section": "4.2.1 Strengthening",
+          "quote": "Upon tensile loading, the localized stress triggered the martensitic transformation, by which the intergranular metastable t-ZrO2 phase transformed into the m-ZrO2 phase (see Figs. 5 and 7), resulting in the phase transformation induced toughening effect [48], and subsequently enhances the strength and fracture toughness of the material [23].",
+          "table": null,
+          "figure": "Figs. 5 and 7",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.2 Laser powder bed fusion and heat treatment",
+          "quote": "The Nb521 specimens were fabricated using an LPBF machine (SLM Solutions 125HL, Germany) equipped with a 400 W IPG fiber laser.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.2 Laser powder bed fusion and heat treatment",
+          "quote": "Specimens cut from the substrate were then heat treated in a vacuum furnace under a vacuum degree of ~1×10-3 Pa at 1400 ℃ for 1 hour to relieve internal stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.1 Microstructural characterization",
+          "quote": "The XRD patterns shown in Fig. 1(c) indicate the LPBFed and HTed (as-fabricated) Nb521 specimens both exhibit a typical body-centered cubic (BCC) crystal structure.",
+          "table": null,
+          "figure": "Fig. 1(c)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.1 Microstructural characterization",
+          "quote": "The corresponding fast Fourier transform (FFT) patterns in Fig. 2(e) confirm that this nanoparticle is the [100] orientated monoclinic zirconia (m-ZrO2, space group: P121/c1; lattice parameters: a = 0.515 nm, b = 0.521 nm, c = 0.531nm, β = 99.3°) within the [1̅11] orientated Nb matrix.",
+          "table": null,
+          "figure": "Fig. 2(e)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "3.1 Microstructural characterization",
+          "quote": "According to the FFT analysis shown in Fig. 3(g), this crystal region, sheared by ~9.3° relative to its neighbor (Fig. 3(e)), can be identified as the tetragonal ZrO2 (t-ZrO2, space group: P42/n; lattice parameters: a = b = 0.364 nm, c = 0.527 nm) with the [11̅0] grain orientation.",
+          "table": null,
+          "figure": "Fig. 3(g)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "3.3 Microstructure after tension",
+          "quote": "FFT analysis in Fig. 5(e) confirms that the deformed lamellar precipitate is the m-ZrO2 phase, with an orientation relationship between the precipitate and Nb matrix of (012̅)m // (110)Nb and [100]m // [11̅0]Nb.",
+          "table": null,
+          "figure": "Fig. 5(e)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.1 Microstructural characterization",
+          "quote": "Some fine equiaxed grains (<10 μm) were found at melt pool boundaries (Fig. 1(d)), while large columnar grains (~200 μm) are distributed in the center of melt pools and aligned with the heat flux direction (Fig. 1(f)).",
+          "table": null,
+          "figure": "Fig. 1(d)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.1 Microstructural characterization",
+          "quote": "Some fine equiaxed grains (<10 μm) were found at melt pool boundaries (Fig. 1(d)), while large columnar grains (~200 μm) are distributed in the center of melt pools and aligned with the heat flux direction (Fig. 1(f)).",
+          "table": null,
+          "figure": "Fig. 1(f)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.1 Microstructural characterization",
+          "quote": "Fig. 3(b) shows that the precipitate contains multiple stacking faults (SFs).",
+          "table": null,
+          "figure": "Fig. 3(b)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.1 Microstructural characterization",
+          "quote": "Fig. 3(c) displays the detailed structure of the intergranular precipitate at a higher magnification, revealing the presence of nanotwins in addition to SFs.",
+          "table": null,
+          "figure": "Fig. 3(c)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "3.3 Microstructure after tension",
+          "quote": "Analysis of the corresponding FFT pattern in Fig. 5(h) reveals that the twin variants are of the (100)[001] type.",
+          "table": null,
+          "figure": "Fig. 5(h)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_6",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "3.3 Microstructure after tension",
+          "quote": "Fig. 5(a) shows that after tension, there are numerous lamellar nanoparticles (~20.1 nm in width and ~127.5 nm in length) in the Nb matrix, as indicated by the yellow arrows",
+          "table": null,
+          "figure": "Fig. 5(a)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_7",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 23,
+          "section": "4.2.1 Strengthening",
+          "quote": "Fig. 8(a) shows that the Nb521 specimen after tension contains networks with high densities of dislocations, which formed around the ZrO2 precipitates (highlighted by arrows in the corresponding DF-STEM image of Fig. 8(b)).",
+          "table": null,
+          "figure": "Fig. 8(a)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_8",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated, after tension (fracture surface)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.2 Tensile properties",
+          "quote": "The fracture surface of the specimen after tension exhibits a dominant ductile feature, as implied by numerous fine dimples with slight cleavage appearance, as shown in Figs. 4(d) and 4(e).",
+          "table": null,
+          "figure": "Figs. 4(d) and 4(e)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.2 Tensile properties",
+          "quote": "The achieved room-temperature ultimate tensile strength (UTS) and fracture strain of the alloy are 516.8±4.0 MPa and 18.6±0.3 %, respectively.",
+          "table": null,
+          "figure": "Fig. 4(a)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.2 Tensile properties",
+          "quote": "The achieved room-temperature ultimate tensile strength (UTS) and fracture strain of the alloy are 516.8±4.0 MPa and 18.6±0.3 %, respectively.",
+          "table": null,
+          "figure": "Fig. 4(a)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.2 Tensile properties",
+          "quote": "The as-fabricated Nb521 specimen exhibits a high work-hardening capacity (~200MPa, σYS/σUTS = 0.61, YS: yield strength) and excellent uniform elongation (from ~1 % true strain to fracture)",
+          "table": null,
+          "figure": "Fig. 4(b)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.2 Tensile properties",
+          "quote": "The product of strength and ductility of our specimen reaches a record level of 9.6 GPa% for the AMed Nb521 alloys to date (Fig. 4(c)).",
+          "table": null,
+          "figure": "Fig. 4(c)",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 24,
+          "section": "4.2.2 Ductilizing",
+          "quote": "The presence of martensitic tetragonal-to-monoclinic transformation in ZrO2 (Figs. 5 and 7) can be controlled to provide plasticity during tension, improving the ductility through transformation induced plasticity (TRIP) [23].",
+          "table": null,
+          "figure": "Figs. 5 and 7",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 24,
+          "section": "4.2.2 Ductilizing",
+          "quote": "The progressive transformation and twinning of ZrO2 during tension (Figs. 5 and 7) can accommodate incoming strains, effectively relieving the stress concentration caused by dislocation pile-up and leading to prolonged uniform elongation and enhanced work hardening due to the synthetical effect of TWIP and TRIP [52, 54].",
+          "table": null,
+          "figure": "Figs. 5 and 7",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 23,
+          "section": "4.2.1 Strengthening",
+          "quote": "With increasing the stress, the coherent interface between the ZrO2 precipitates and Nb matrix generates long-range stresses that effectively inhibit the dislocation slip, resulting in the dislocations interacting with precipitates through the Orowan bowing mechanism and even plastically deforming the ZrO2 precipitates (see Figs. 5, 6 and 7).",
+          "table": null,
+          "figure": "Figs. 5, 6 and 7",
+          "chunk_id": "0fd33d8368340370:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,486 @@
+{
+  "document_id": "d691a2d608bc1f55",
+  "chunk_id": "d691a2d608bc1f55:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A Creep-Damage Phase-Field Model: Predicting Topological Inversion in Ni-based Single Crystal Superalloys",
+    "authors": [
+      "Rajendran Harikrishnan",
+      "Jean-Briac le Graverend"
+    ],
+    "journal": "Materials & Design",
+    "year": 2018,
+    "doi": "10.1016/j.matdes.2018.09.012"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "The lifetime of Ni-based single crystal superalloys is connected to the integrity of the strengthening phase, γ′.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-Al binary alloy",
+      "material_category": "binary alloy",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.1. Starting Microstructure",
+          "quote": "For a computationally feasible simulation of multi-component alloy system like Ni-based single crystal superalloys, we consider a Ni-Al binary system in the phase-field model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4 alloy",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "standard heat treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "A typical standard heat treated Ni-based single crystal superalloy sample has a distinct bi-phased γ/γ′ microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        },
+        {
+          "page": "11",
+          "section": "4.1. Starting Microstructure",
+          "quote": "The material parameters used in these simulations, for instance, stiffness coefficients, lattice misfit, thermodynamic quantities, etc. are similar to the ones obtained experimentally for CMSX-4 alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        },
+        {
+          "page": "12",
+          "section": "4.1. Starting Microstructure",
+          "quote": "Hence, a natural lattice misfit of -0.3% is used, and it is similar to that of the CMSX-4 alloy to arrive at the cuboidal faceted microstructures shown in Fig. 1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Ni-Al binary system",
+      "canonical_name": "Ni-Al",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "as-homogenized",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 15.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": "4.1. Starting Microstructure",
+              "quote": "The γ′ phase is at equilibrium with a fixed concentration of 25 at.% Al while the γ phase is at 15.4 at.% Al [61].",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d691a2d608bc1f55:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.1. Starting Microstructure",
+          "quote": "For a computationally feasible simulation of multi-component alloy system like Ni-based single crystal superalloys, we consider a Ni-Al binary system in the phase-field model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treated",
+      "attributes": {
+        "phase_fraction": 0.7,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "The precipitation of a high volume fraction (close to 70 %) of the long-range ordered L1 2 γ′ phase appears as cubes coherently embedded in a face-centered cubic (fcc) solid solution γ matrix [13].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "The precipitation of a high volume fraction (close to 70 %) of the long-range ordered L1 2 γ′ phase appears as cubes coherently embedded in a face-centered cubic (fcc) solid solution γ matrix [13].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_2",
+      "material_state": "as-homogenized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "25 at.% Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.1. Starting Microstructure",
+          "quote": "The γ′ phase is at equilibrium with a fixed concentration of 25 at.% Al while the γ phase is at 15.4 at.% Al [61].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_2",
+      "material_state": "as-homogenized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "15.4 at.% Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.1. Starting Microstructure",
+          "quote": "The γ′ phase is at equilibrium with a fixed concentration of 25 at.% Al while the γ phase is at 15.4 at.% Al [61].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "cuboidal microstructure",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "The precipitation of a high volume fraction (close to 70 %) of the long-range ordered L1 2 γ′ phase appears as cubes coherently embedded in a face-centered cubic (fcc) solid solution γ matrix [13].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "raft structure",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "platelet-like",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": "4.2. High-Temperature /Low-Stress Creep Simulations",
+          "quote": "The dislocations reduce the internal stresses and the cuboidal shaped precipitates coalesce together and form a platelet-like structure, known as rafts, that is perpendicular to the load axis in tension when the natural lattice misfit is negative (N-type), parallel otherwise (P-type) [70].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "rafting",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "At high temperature /low stress, the γ′ precipitates directionally coarsen, phenomenon known as rafting[14].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "topological inversion",
+      "category": "microstructural degradation",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "While rafting occurs during the primary creep stage and is stable during the secondary one [22], the transition between the secondary and tertiary creep stages comes with a topological inversion, viz. theγ′ phase is now surrounding theγ phase [23, 24, 2, 25].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "The precipitation of a high volume fraction (close to 70 %) of the long-range ordered L1 2 γ′ phase appears as cubes coherently embedded in a face-centered cubic (fcc) solid solution γ matrix [13].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "The precipitation of a high volume fraction (close to 70 %) of the long-range ordered L1 2 γ′ phase appears as cubes coherently embedded in a face-centered cubic (fcc) solid solution γ matrix [13].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "as-homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.1. Starting Microstructure",
+          "quote": "The γ′ phase is at equilibrium with a fixed concentration of 25 at.% Al while the γ phase is at 15.4 at.% Al [61].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": "as-homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.1. Starting Microstructure",
+          "quote": "The γ′ phase is at equilibrium with a fixed concentration of 25 at.% Al while the γ phase is at 15.4 at.% Al [61].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "The precipitation of a high volume fraction (close to 70 %) of the long-range ordered L1 2 γ′ phase appears as cubes coherently embedded in a face-centered cubic (fcc) solid solution γ matrix [13].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "4.2. High-Temperature /Low-Stress Creep Simulations",
+          "quote": "The dislocations reduce the internal stresses and the cuboidal shaped precipitates coalesce together and form a platelet-like structure, known as rafts, that is perpendicular to the load axis in tension when the natural lattice misfit is negative (N-type), parallel otherwise (P-type) [70].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "At high temperature /low stress, the γ′ precipitates directionally coarsen, phenomenon known as rafting[14].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "While rafting occurs during the primary creep stage and is stable during the secondary one [22], the transition between the secondary and tertiary creep stages comes with a topological inversion, viz. theγ′ phase is now surrounding theγ phase [23, 24, 2, 25].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d691a2d608bc1f55:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

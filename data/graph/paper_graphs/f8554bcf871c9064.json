@@ -1,0 +1,260 @@
+{
+  "document_id": "f8554bcf871c9064",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Constitutive modelling of creep degradation due to rafting in single-crystalline Ni-base superalloys",
+    "authors": [
+      "Bernard Fedelich",
+      "Georgia Künecke",
+      "Alexander Epishin",
+      "Thomas Link",
+      "Pedro Portella"
+    ],
+    "journal": "Materials Science and Engineering A",
+    "year": 2009,
+    "doi": "10.1016/j.msea.2008.04.089"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base single-crystal superalloy",
+      "material_category": "Ni-base superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "single-crystalline Ni-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f8554bcf871c9064:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "The model has been validated for the alloy CMSX-4 at 950 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f8554bcf871c9064:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": 0.71,
+        "size": null,
+        "morphology": "cubic",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3",
+          "quote": "with the volume fraction f γ′ = 0.71",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f8554bcf871c9064:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "property": "Orowan stress",
+      "value": 180,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 950,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.2",
+          "quote": "we get an estimate of the initial Orowan stress τOrowan = 180 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f8554bcf871c9064:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "property": "creep strain",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 950,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.2",
+          "quote": "At 950 °C, creep is already possible in the [0 0 1] orientation under a constant stress of 100 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f8554bcf871c9064:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "rafting",
+      "category": "microstructural degradation",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Rafting, i.e., directional coarsening of the γ/γ′ precipitates usually occurs in Ni-base superalloys under high-temperature creep loading",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f8554bcf871c9064:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "The model has been validated for the alloy CMSX-4 at 950 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f8554bcf871c9064:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3",
+          "quote": "with the volume fraction f γ′ = 0.71",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f8554bcf871c9064:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {
+        "temperature_c": 950
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "The rafting effect is incorporated in the model through the dependence of the Orowan stress on the channel width.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f8554bcf871c9064:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {
+        "temperature_c": 950
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "This instability of the microstructure can also lead to a significant degradation of the monotonic and the cyclic strength of these alloys [2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f8554bcf871c9064:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

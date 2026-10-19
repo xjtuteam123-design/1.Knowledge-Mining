@@ -1,0 +1,768 @@
+{
+  "document_id": "a6d63be85f719a67",
+  "chunk_id": "a6d63be85f719a67:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Directed Energy Deposition-Arc Repair Al6.5Cu2Ni0.3Ti0.5Zr0.25V Alloy: Microstructure Evolution and Strengthening Mechanism",
+    "authors": [
+      "Hongbin Dai",
+      "Yu Song",
+      "Hongtao Chen",
+      "Jian Miao"
+    ],
+    "journal": "Advanced Engineering Materials",
+    "year": 2024,
+    "doi": "10.1002/adem.202301772"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Al-Cu-Ni-Ti-Zr-V alloy",
+      "material_category": "heat-resistant aluminum alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Casting Al6.5Cu2Ni0.3Ti0.5Zr0.25V alloy is applied to aircraft engine components, but the casting defects are difficult to avoid.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "cast Al6.5Cu2Ni0.3Ti0.5Zr0.25V alloy",
+      "canonical_name": "Al6.5Cu2Ni0.3Ti0.5Zr0.25V",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cu",
+          "value": 6.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ni",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ti",
+          "value": 0.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": 0.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Experimental Section",
+          "quote": "The cast Al6.5Cu2Ni0.3Ti0.5Zr0.25V alloy plate with a size of 200 mm × 50 mm × 35 mm was prepared.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "repaired zone (as-deposited)",
+      "canonical_name": "Al6.5Cu2Ni0.3Ti0.5Zr0.25V",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-deposited",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "The repair zone consists of deposited weld metal (WM) zone, a partly melted zone (PMZ) zone, and a base material (BM) zone, as indicated in Figure 3a.",
+          "table": null,
+          "figure": "Figure 3a",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "heat-treated repaired zone",
+      "canonical_name": "Al6.5Cu2Ni0.3Ti0.5Zr0.25V",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Microstructure Analysis of the Repaired Zone in the Heat Treatment State",
+          "quote": "The metallographic diagram of the heat-treated repaired zone is illustrated in Figure 5a.",
+          "table": null,
+          "figure": "Figure 5a",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "wire arc additive manufacturing (WAAM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "99.9% pure Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "welding_current_a": 180,
+          "gas_flow_rate_l_min": 10,
+          "wire_diameter_mm": 5,
+          "nozzle_diameter_mm": 15
+        }
+      },
+      "input_state": "as-cast",
+      "output_state": "as-deposited",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Experimental Section",
+          "quote": "Select welding wire with a diameter of 5 mm that matches the composition of the substrate. The welding current is set to 180 A, and 99.9% pure Ar is used as the protective gas during process. The gas flow rate is set to 10 L min−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_3",
+      "sequence": 2,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": 535,
+        "time": "30 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "pre_hold_temperature_c": 500,
+          "pre_hold_time": "1 h"
+        }
+      },
+      "input_state": "as-deposited",
+      "output_state": "solution-treated",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Experimental Section",
+          "quote": "the sample was kept at 500 °C for 1 h and then placed in the furnace for a solid solution treatment of 535 °C for 30 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 3,
+      "method": "water quenching",
+      "parameters": {
+        "temperature_c": 25,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "water quenching",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution-treated",
+      "output_state": "quenched",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Experimental Section",
+          "quote": "After heat treatment, the sample in water with a temperature of 25 °C rapidly.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_3",
+      "sequence": 4,
+      "method": "artificial aging",
+      "parameters": {
+        "temperature_c": 195,
+        "time": "12 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "quenched",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Experimental Section",
+          "quote": "subjected to artificial aging treatment at 195 °C for 12 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "α-Al",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "It is mainly composed of α-Al matrix and eutectic phases with different morphologies that are distributed along the grain boundary.",
+          "table": null,
+          "figure": "Figure 2a",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "δ-Al3CuNi",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dendritic",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "The dendritic phase with a Cu to Ni ratio close to 1:1 is δ-Al3CuNi (point A)",
+          "table": null,
+          "figure": "Figure 2b,d",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ-Al7Cu4Ni",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "skeletal",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "the skeletal phase with a much larger proportion of Cu elements is γ-Al7Cu4Ni (point B)",
+          "table": null,
+          "figure": "Figure 2b,d",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "θ-Al2Cu",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "reticular",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "The reticular phase is θ-Al2Cu (point C)",
+          "table": null,
+          "figure": "Figure 2b,d",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "Al3M (Ti, Zr, V)",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rod-like",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "the rod-like phase is Al3M (Ti, Zr, V) (point D)",
+          "table": null,
+          "figure": "Figure 2b,d",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "θ'-Al2Cu",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "nanoscale",
+        "morphology": "needle-like",
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Microstructure Analysis of the Repaired Zone in the Heat Treatment State",
+          "quote": "Figure 8c TEM bright-field image indicates the typical nanoscale needle-like precipitation phase θ'-Al2Cu produced in the matrix during aging belongs to square dot matrix.",
+          "table": null,
+          "figure": "Figure 8c",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "equiaxed grain",
+      "sample_id": "sample_2",
+      "material_state": "as-deposited",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "equiaxed",
+        "location": "WM zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "Therefore, equiaxed crystals mostly exist in WM zone, as indicated in Figure 3b.",
+          "table": null,
+          "figure": "Figure 3b",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "dendritic microstructure",
+      "sample_id": "sample_2",
+      "material_state": "as-deposited",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dendritic",
+        "location": "PMZ zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "The eutectic phase (Figure 3c) in the PMZ zone is the largest and has dendritic characteristics.",
+          "table": null,
+          "figure": "Figure 3c",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "high angle grain boundary",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": "89.47%",
+        "size": null,
+        "morphology": null,
+        "location": "WM zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Microstructure Analysis of the Repaired Zone in the Heat Treatment State",
+          "quote": "Therefore, the repaired zone grains mostly exist in the form of high angle grain boundaries (HAGBs), accounting for 89.47% and 86.17%",
+          "table": null,
+          "figure": "Figure 7g-i",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "high angle grain boundary",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": "86.17%",
+        "size": null,
+        "morphology": null,
+        "location": "PMZ zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Microstructure Analysis of the Repaired Zone in the Heat Treatment State",
+          "quote": "Therefore, the repaired zone grains mostly exist in the form of high angle grain boundaries (HAGBs), accounting for 89.47% and 86.17%",
+          "table": null,
+          "figure": "Figure 7g-i",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "dendritic segregation",
+      "sample_id": "sample_2",
+      "material_state": "as-deposited",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "The migration ability of Ni element is weak, and it cannot fully diffuse during the rapid solidification process in the repair zone, resulting in dendritic segregation at grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "property": "ultimate tensile strength",
+      "value": 120,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 350,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "15 min",
+        "test_method": "ISO 6892-1:2016"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "At 350 °C, the average tensile strength, yield strength and elongation are 120.0 MPa, 98.6 MPa and 12.9%, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "property": "yield strength",
+      "value": 98.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 350,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "15 min",
+        "test_method": "ISO 6892-1:2016"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "At 350 °C, the average tensile strength, yield strength and elongation are 120.0 MPa, 98.6 MPa and 12.9%, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "property": "elongation",
+      "value": 12.9,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 350,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "15 min",
+        "test_method": "ISO 6892-1:2016"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "At 350 °C, the average tensile strength, yield strength and elongation are 120.0 MPa, 98.6 MPa and 12.9%, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Microstructure Analysis of the Repaired Zone in the Heat Treatment State",
+          "quote": "these θ' phases are finely diffusely distributed in the repaired zone, which can strongly impede the motion of dislocations.",
+          "table": null,
+          "figure": "Figure 8e",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "It is mainly composed of α-Al matrix and eutectic phases with different morphologies that are distributed along the grain boundary.",
+          "table": null,
+          "figure": "Figure 2a",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Microstructure Analysis of Repaired Zone without Heat Treatment",
+          "quote": "The dendritic phase with a Cu to Ni ratio close to 1:1 is δ-Al3CuNi (point A)",
+          "table": null,
+          "figure": "Figure 2b,d",
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "conditions": {
+        "temperature_c": 350
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "At 350 °C, the average tensile strength, yield strength and elongation are 120.0 MPa, 98.6 MPa and 12.9%, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Experimental Section",
+          "quote": "After sedimentation repair, T7 heat treatment was applied to the sample.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a6d63be85f719a67:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

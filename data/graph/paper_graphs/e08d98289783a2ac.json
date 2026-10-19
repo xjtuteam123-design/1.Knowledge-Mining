@@ -1,0 +1,1146 @@
+{
+  "document_id": "e08d98289783a2ac",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "title": "Microstructure and Mechanical Behaviors of Electron-Beam Melted Ta10W Alloy at High Temperatures",
+    "authors": [
+      "Bang Xiao",
+      "Guangyu Yang",
+      "Ming Wei",
+      "Jian Wang"
+    ],
+    "journal": "Journal of Materials Engineering and Performance",
+    "year": 2025,
+    "doi": "10.1007/s11665-025-12476-9"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ta-W alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Ta10W refractory alloy has excellent mechanical behaviors at elevated temperatures, which inspires researchers to engage in further investigation on it",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ta10W alloy",
+      "canonical_name": "Ta10W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Ta",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Abstract",
+              "quote": "Ta10W refractory alloy was recently fabricated utilizing powder-bed electron beam melting technology.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "e08d98289783a2ac:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Abstract",
+              "quote": "Ta10W refractory alloy was recently fabricated utilizing powder-bed electron beam melting technology.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "e08d98289783a2ac:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Ta10W refractory alloy was recently fabricated utilizing powder-bed electron beam melting technology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "blending",
+      "parameters": {
+        "temperature_c": null,
+        "time": "8 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "Ta powder and W powder",
+      "output_state": "as-mixed Ta10W powder",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "2.1 Sample Preparation",
+          "quote": "Ta and W powders were physically mixed using a blender for 8 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "electron beam melting (EBM)",
+      "parameters": {
+        "temperature_c": 1100,
+        "time": null,
+        "pressure": "10^-1 Pa",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": 0.85,
+        "layer_thickness": null,
+        "other": {
+          "scanning_current": "20 mA",
+          "running_voltage": "60 kV",
+          "preheating_temperature_c": 1100,
+          "facility": "Y150 additive manufacturing facility"
+        }
+      },
+      "input_state": "as-mixed Ta10W powder",
+      "output_state": "as-built Ta10W alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "2.1 Sample Preparation",
+          "quote": "The Ta10W alloy was fabricated utilizing a Y150 additive manufacturing facility (Xi'an Sailong Metal Materials Co., Ltd.), under a vacuum atmosphere of 10^-1 Pa. Preheating of the substrate was accomplished when reaching a temperature of 1100 °C. The scanning current is 20 mA with a scanning speed of 0.85 m/s, and the running voltage of the process is 60 kV.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "tensile testing",
+      "parameters": {
+        "temperature_c": 600,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "air",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": 0.001,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "heating_duration": "26-50 min",
+          "holding_time": "5 min"
+        }
+      },
+      "input_state": "as-built",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.3 Mechanical Tests",
+          "quote": "The tensile tests were performed (with their axis normal to the build direction) on an ETM105D WANCE (100 kN) testing machine at a constant strain rate of 10^-3/s. These samples were fabricated with a gauge length of 16 mm and a diameter of 3 mm (ASTM E8/E8M). The tensile tests were carried out in an air atmosphere at 600 and 800 °C, with an argon atmosphere at 1000 °C. The heating duration is 26-50 min with a holding time of 5 min at the final testing temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "tensile testing",
+      "parameters": {
+        "temperature_c": 800,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "air",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": 0.001,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "heating_duration": "26-50 min",
+          "holding_time": "5 min"
+        }
+      },
+      "input_state": "as-built",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.3 Mechanical Tests",
+          "quote": "The tensile tests were performed (with their axis normal to the build direction) on an ETM105D WANCE (100 kN) testing machine at a constant strain rate of 10^-3/s. These samples were fabricated with a gauge length of 16 mm and a diameter of 3 mm (ASTM E8/E8M). The tensile tests were carried out in an air atmosphere at 600 and 800 °C, with an argon atmosphere at 1000 °C. The heating duration is 26-50 min with a holding time of 5 min at the final testing temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "tensile testing",
+      "parameters": {
+        "temperature_c": 1000,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "argon",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": 0.001,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "heating_duration": "26-50 min",
+          "holding_time": "5 min"
+        }
+      },
+      "input_state": "as-built",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.3 Mechanical Tests",
+          "quote": "The tensile tests were performed (with their axis normal to the build direction) on an ETM105D WANCE (100 kN) testing machine at a constant strain rate of 10^-3/s. These samples were fabricated with a gauge length of 16 mm and a diameter of 3 mm (ASTM E8/E8M). The tensile tests were carried out in an air atmosphere at 600 and 800 °C, with an argon atmosphere at 1000 °C. The heating duration is 26-50 min with a holding time of 5 min at the final testing temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "split-Hopkinson pressure bar testing",
+      "parameters": {
+        "temperature_c": 300,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": 4000,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "bar_diameter": "16 mm",
+          "sample_dimensions": "4 mm x 2 mm"
+        }
+      },
+      "input_state": "as-built",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.3 Mechanical Tests",
+          "quote": "The Hopkinson pressure bar experiment (ZDSHPB-20, China) was performed in a bar diameter of 16 mm, and the dimensions of the samples were 4 mm x 2 mm. The strain rate was 4000/s, and the testing temperatures were 300, 600, and 1000 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "split-Hopkinson pressure bar testing",
+      "parameters": {
+        "temperature_c": 600,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": 4000,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "bar_diameter": "16 mm",
+          "sample_dimensions": "4 mm x 2 mm"
+        }
+      },
+      "input_state": "as-built",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.3 Mechanical Tests",
+          "quote": "The Hopkinson pressure bar experiment (ZDSHPB-20, China) was performed in a bar diameter of 16 mm, and the dimensions of the samples were 4 mm x 2 mm. The strain rate was 4000/s, and the testing temperatures were 300, 600, and 1000 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_8",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "split-Hopkinson pressure bar testing",
+      "parameters": {
+        "temperature_c": 1000,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": 4000,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "bar_diameter": "16 mm",
+          "sample_dimensions": "4 mm x 2 mm"
+        }
+      },
+      "input_state": "as-built",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.3 Mechanical Tests",
+          "quote": "The Hopkinson pressure bar experiment (ZDSHPB-20, China) was performed in a bar diameter of 16 mm, and the dimensions of the samples were 4 mm x 2 mm. The strain rate was 4000/s, and the testing temperatures were 300, 600, and 1000 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and Discussion",
+          "quote": "All the TEM diffraction maps suggest a single BCC phase of the as-deformed Ta10W alloy, the same as that in Fig. 3(c).",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate tensile strength",
+      "value": 764,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "the room temperature ultimate tensile strength of the as-built Ta10W alloy is 764 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate tensile strength",
+      "value": 467,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": 0.001,
+        "loading_mode": "tension",
+        "orientation": "normal to the build direction",
+        "atmosphere": "air",
+        "duration": null,
+        "test_method": "ETM105D WANCE"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The ultimate tensile strength and the ductility of the as-built Ta10W alloy are 467 MPa and 1.7% at 600 °C in air.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "elongation",
+      "value": 1.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": 0.001,
+        "loading_mode": "tension",
+        "orientation": "normal to the build direction",
+        "atmosphere": "air",
+        "duration": null,
+        "test_method": "ETM105D WANCE"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The ultimate tensile strength and the ductility of the as-built Ta10W alloy are 467 MPa and 1.7% at 600 °C in air.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate tensile strength",
+      "value": 232,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": 0.001,
+        "loading_mode": "tension",
+        "orientation": "normal to the build direction",
+        "atmosphere": "air",
+        "duration": null,
+        "test_method": "ETM105D WANCE"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The ultimate tensile strength of the as-built Ta10W alloy deformed at 800 °C is 232 MPa, and the ductility is 1.7%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "elongation",
+      "value": 1.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": 0.001,
+        "loading_mode": "tension",
+        "orientation": "normal to the build direction",
+        "atmosphere": "air",
+        "duration": null,
+        "test_method": "ETM105D WANCE"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The ultimate tensile strength of the as-built Ta10W alloy deformed at 800 °C is 232 MPa, and the ductility is 1.7%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate tensile strength",
+      "value": 111,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": 0.001,
+        "loading_mode": "tension",
+        "orientation": "normal to the build direction",
+        "atmosphere": "argon",
+        "duration": null,
+        "test_method": "ETM105D WANCE"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The ultimate tensile strength and ductility of the as-built Ta10W alloy are 111 MPa and 8.6% at 1000 °C with argon atmosphere, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "elongation",
+      "value": 8.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": 0.001,
+        "loading_mode": "tension",
+        "orientation": "normal to the build direction",
+        "atmosphere": "argon",
+        "duration": null,
+        "test_method": "ETM105D WANCE"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The ultimate tensile strength and ductility of the as-built Ta10W alloy are 111 MPa and 8.6% at 1000 °C with argon atmosphere, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate tensile strength",
+      "value": 694,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": 4000,
+        "loading_mode": "impact",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "split-Hopkinson pressure bar"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "the as-fabricated Ta10W alloy was not significantly oxidized and exhibited a strength of 694 MPa with a strain of 14% at 300 °C",
+          "table": null,
+          "figure": "Fig. 3a and b",
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "elongation",
+      "value": 14,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": 4000,
+        "loading_mode": "impact",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "split-Hopkinson pressure bar"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "the as-fabricated Ta10W alloy was not significantly oxidized and exhibited a strength of 694 MPa with a strain of 14% at 300 °C",
+          "table": null,
+          "figure": "Fig. 3a and b",
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate tensile strength",
+      "value": 633,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": 4000,
+        "loading_mode": "impact",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "split-Hopkinson pressure bar"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "Even at 600 °C, the ultimate strength of the as-built Ta10W alloy is 633 MPa with a ductility of 14.8%",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "elongation",
+      "value": 14.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": 4000,
+        "loading_mode": "impact",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "split-Hopkinson pressure bar"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "Even at 600 °C, the ultimate strength of the as-built Ta10W alloy is 633 MPa with a ductility of 14.8%",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate tensile strength",
+      "value": 400,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": 4000,
+        "loading_mode": "impact",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "split-Hopkinson pressure bar"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "it still has an ultimate strength of 400 MPa and a stable plastic strain of about 12%",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "elongation",
+      "value": 19,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": 4000,
+        "loading_mode": "impact",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "split-Hopkinson pressure bar"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "The ductility at 1000 °C is 19%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "oxidation",
+      "category": "environmental degradation",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "the oxidation of the as-fabricated Ta10W alloy here substantially influenced the ductility of this alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "thermal softening",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "4. Conclusion",
+          "quote": "the thermal softening effect affects the tensile strength of this alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Ta10W refractory alloy was recently fabricated utilizing powder-bed electron beam melting technology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_ELEMENT",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Ta10W refractory alloy was recently fabricated utilizing powder-bed electron beam melting technology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "2.1 Sample Preparation",
+          "quote": "The Ta10W alloy was fabricated utilizing a Y150 additive manufacturing facility (Xi'an Sailong Metal Materials Co., Ltd.), under a vacuum atmosphere of 10^-1 Pa. Preheating of the substrate was accomplished when reaching a temperature of 1100 °C. The scanning current is 20 mA with a scanning speed of 0.85 m/s, and the running voltage of the process is 60 kV.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and Discussion",
+          "quote": "All the TEM diffraction maps suggest a single BCC phase of the as-deformed Ta10W alloy, the same as that in Fig. 3(c).",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {
+        "temperature_c": 25,
+        "loading_mode": "tension"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "the room temperature ultimate tensile strength of the as-built Ta10W alloy is 764 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {
+        "temperature_c": 600,
+        "atmosphere": "air",
+        "loading_mode": "tension"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The ultimate tensile strength and the ductility of the as-built Ta10W alloy are 467 MPa and 1.7% at 600 °C in air.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {
+        "temperature_c": 800,
+        "atmosphere": "air",
+        "loading_mode": "tension"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The ultimate tensile strength of the as-built Ta10W alloy deformed at 800 °C is 232 MPa, and the ductility is 1.7%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {
+        "temperature_c": 1000,
+        "atmosphere": "argon",
+        "loading_mode": "tension"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The ultimate tensile strength and ductility of the as-built Ta10W alloy are 111 MPa and 8.6% at 1000 °C with argon atmosphere, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": 4000,
+        "loading_mode": "impact"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "the as-fabricated Ta10W alloy was not significantly oxidized and exhibited a strength of 694 MPa with a strain of 14% at 300 °C",
+          "table": null,
+          "figure": "Fig. 3a and b",
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": 4000,
+        "loading_mode": "impact"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "Even at 600 °C, the ultimate strength of the as-built Ta10W alloy is 633 MPa with a ductility of 14.8%",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_12",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": 4000,
+        "loading_mode": "impact"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "it still has an ultimate strength of 400 MPa and a stable plastic strain of about 12%",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {
+        "temperature_c": 600,
+        "atmosphere": "air"
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "the oxidation of the as-fabricated Ta10W alloy here substantially influenced the ductility of this alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {
+        "temperature_c": 1000,
+        "atmosphere": "argon"
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "4. Conclusion",
+          "quote": "the thermal softening effect affects the tensile strength of this alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e08d98289783a2ac:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

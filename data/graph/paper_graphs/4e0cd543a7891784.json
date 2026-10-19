@@ -1,0 +1,966 @@
+{
+  "document_id": "4e0cd543a7891784",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Estimation of homogenisation time for superalloys based on a new diffusional model",
+    "authors": [
+      "Mohammad Javad Sohrabi",
+      "Hamed Mirzadeh"
+    ],
+    "journal": "Materials Science and Technology",
+    "year": 2019,
+    "doi": "10.1080/02670836.2019.1706906"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Fe-Cr superalloy (Inconel 718)",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "IndispensablealloyingelementssuchasNb,Mo,andTican result in a serious microsegregation during solid- ification [1,2] of Inconel 718 superalloy [3–6], which is one of the most used nickel-based superalloys in the worldforhigh-temperatureserviceapplications [ 7–12].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Inconel 718 cast ingot",
+      "canonical_name": "Ni-18.88Fe-17.61Cr-4.97Nb-2.85Mo-0.94Ti-0.57Al-0.06Si-0.02C",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Experimental material and procedures",
+              "quote": "AnInconel718superalloyingotwithchemicalcompo- sition of Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e0cd543a7891784:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 18.88,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Experimental material and procedures",
+              "quote": "Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e0cd543a7891784:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 17.61,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Experimental material and procedures",
+              "quote": "Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e0cd543a7891784:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 4.97,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Experimental material and procedures",
+              "quote": "Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e0cd543a7891784:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 2.85,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Experimental material and procedures",
+              "quote": "Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e0cd543a7891784:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 0.94,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Experimental material and procedures",
+              "quote": "Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e0cd543a7891784:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 0.57,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Experimental material and procedures",
+              "quote": "Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e0cd543a7891784:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Si",
+          "value": 0.06,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Experimental material and procedures",
+              "quote": "Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e0cd543a7891784:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.02,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Experimental material and procedures",
+              "quote": "Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e0cd543a7891784:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental material and procedures",
+          "quote": "AnInconel718superalloyingotwithchemicalcompo- sition of Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%) was homogenisation annealed at 1050, 1100, and 1150°C for 1–9 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "homogenisation annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range_c": "1050-1150",
+          "time_range_h": "1-9"
+        }
+      },
+      "input_state": "as-cast",
+      "output_state": "homogenised",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental material and procedures",
+          "quote": "was homogenisation annealed at 1050, 1100, and 1150°C for 1–9 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dendritic microstructure",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "SDAS 15 μm",
+        "morphology": "dendritic",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Diffusional model",
+          "quote": "An average SDAS of 15 μm was determined from the shown backscattered SEM image of the cast ingot.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "microsegregation",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "interdendritic region",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "IndispensablealloyingelementssuchasNb,Mo,andTican result in a serious microsegregation during solid- ification [1,2] of Inconel 718 superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "white particles",
+        "location": "segregated region",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Diffusional model",
+          "quote": "Characterising the observed phases (white particles in the segregated region) is outside of the scope of the present work",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "4e0cd543a7891784:part:001"
+        },
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "The presence of IMT (1160 and 1180°C [2,15]) is associated with undesirable phases such as the Laves phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "property": "homogenisation time",
+      "value": 61.3,
+      "min_value": null,
+      "max_value": null,
+      "unit": "h",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 1050,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "model calculation for Nb back-diffusion (x = 7.5 μm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "tH forNbat1050,1100,and1150°C werer calculated as 61.3, 29.3, and 14.7 h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "property": "homogenisation time",
+      "value": 29.3,
+      "min_value": null,
+      "max_value": null,
+      "unit": "h",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "model calculation for Nb back-diffusion (x = 7.5 μm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "tH forNbat1050,1100,and1150°C werer calculated as 61.3, 29.3, and 14.7 h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "property": "homogenisation time",
+      "value": 14.7,
+      "min_value": null,
+      "max_value": null,
+      "unit": "h",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 1150,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "model calculation for Nb back-diffusion (x = 7.5 μm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "tH forNbat1050,1100,and1150°C werer calculated as 61.3, 29.3, and 14.7 h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "property": "homogenisation time",
+      "value": 95.7,
+      "min_value": null,
+      "max_value": null,
+      "unit": "h",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 1050,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "model calculation for Mo back-diffusion (x = 7.5 μm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Mo, it was determined as 95.7, 38.7, and 16.7hfor1050,1100,and1150°C,respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "property": "homogenisation time",
+      "value": 38.7,
+      "min_value": null,
+      "max_value": null,
+      "unit": "h",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "model calculation for Mo back-diffusion (x = 7.5 μm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Mo, it was determined as 95.7, 38.7, and 16.7hfor1050,1100,and1150°C,respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "property": "homogenisation time",
+      "value": 16.7,
+      "min_value": null,
+      "max_value": null,
+      "unit": "h",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 1150,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "model calculation for Mo back-diffusion (x = 7.5 μm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Mo, it was determined as 95.7, 38.7, and 16.7hfor1050,1100,and1150°C,respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "property": "homogenisation time",
+      "value": 44.9,
+      "min_value": null,
+      "max_value": null,
+      "unit": "h",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 1050,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "model calculation for Ti back-diffusion (x = 7.5 μm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Ti at 1050, 1100, and 1150°C, it was obtained as 44.9, 20.1, and 9.6h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "property": "homogenisation time",
+      "value": 20.1,
+      "min_value": null,
+      "max_value": null,
+      "unit": "h",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "model calculation for Ti back-diffusion (x = 7.5 μm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Ti at 1050, 1100, and 1150°C, it was obtained as 44.9, 20.1, and 9.6h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "property": "homogenisation time",
+      "value": 9.6,
+      "min_value": null,
+      "max_value": null,
+      "unit": "h",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 1150,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "model calculation for Ti back-diffusion (x = 7.5 μm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Ti at 1050, 1100, and 1150°C, it was obtained as 44.9, 20.1, and 9.6h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "back-diffusion of segregating elements",
+      "category": "diffusion",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "During homogenisation,theback-diffusionofthesoluteatoms from the solute-rich regions into the matrix occurs.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental material and procedures",
+          "quote": "AnInconel718superalloyingotwithchemicalcompo- sition of Ni-18.88Fe-17.61Cr.4.97Nb-2.85Mo-0.94Ti- 0.57Al-0.06Si-0.02C (wt-%)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental material and procedures",
+          "quote": "was homogenisation annealed at 1050, 1100, and 1150°C for 1–9 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Diffusional model",
+          "quote": "An average SDAS of 15 μm was determined from the shown backscattered SEM image of the cast ingot.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "IndispensablealloyingelementssuchasNb,Mo,andTican result in a serious microsegregation during solid- ification [1,2] of Inconel 718 superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Diffusional model",
+          "quote": "Characterising the observed phases (white particles in the segregated region) is outside of the scope of the present work",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "process_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "During homogenisation,theback-diffusionofthesoluteatoms from the solute-rich regions into the matrix occurs.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "tH forNbat1050,1100,and1150°C werer calculated as 61.3, 29.3, and 14.7 h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "tH forNbat1050,1100,and1150°C werer calculated as 61.3, 29.3, and 14.7 h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "tH forNbat1050,1100,and1150°C werer calculated as 61.3, 29.3, and 14.7 h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Mo, it was determined as 95.7, 38.7, and 16.7hfor1050,1100,and1150°C,respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Mo, it was determined as 95.7, 38.7, and 16.7hfor1050,1100,and1150°C,respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Mo, it was determined as 95.7, 38.7, and 16.7hfor1050,1100,and1150°C,respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Ti at 1050, 1100, and 1150°C, it was obtained as 44.9, 20.1, and 9.6h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Ti at 1050, 1100, and 1150°C, it was obtained as 44.9, 20.1, and 9.6h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "homogenised",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "for Ti at 1050, 1100, and 1150°C, it was obtained as 44.9, 20.1, and 9.6h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e0cd543a7891784:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

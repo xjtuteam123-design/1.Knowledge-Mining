@@ -1,0 +1,937 @@
+{
+  "document_id": "3a024dfa2dd1bd06",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Coupling the Phase Field Method for diffusive transformations with dislocation density-based crystal plasticity: Application to Ni-based superalloys",
+    "authors": [
+      "M. Cottura",
+      "B. Appolaire",
+      "A. Finel",
+      "Y. Le Bouar"
+    ],
+    "journal": "Journal of the Mechanics and Physics of Solids",
+    "year": 2016,
+    "doi": "10.1016/j.jmps.2016.05.016"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "the rafting of γ′ precipitates in a Ni-based superalloy is investigated during [100] creep loadings",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        },
+        {
+          "page": "11",
+          "section": "3.2 Role of the back-stress",
+          "quote": "To comply with Ni-based superalloys during low-stress high temperature creep [53], it is assumed that only γ phase can deform plastically γ′ responding only elastically.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "AM1 Ni-based single crystal superalloy",
+      "material_category": "nickel-based single crystal superalloy",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2 Rafting of Ni-based superalloys during creep",
+          "quote": "This microstructure is in good qualitative agreement with microstructures observed in AM1 (Fig. 1), even if the precipitate size is smaller than in the standard heating procedure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "AM1 alloy",
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "AM1 alloy observed by Scanning Electron Microscopy: γ′ precipitates (dark) in γ matrix (light) after a standard heat treatment",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "AM1 alloy",
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "crept",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "b - after creep loading under 150 MPa at 950 ◦C during 100 h",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "AM1",
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "aged (16 h at 950 °C)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2 Rafting of Ni-based superalloys during creep",
+          "quote": "Starting from an initial disordered γ phase, the alloy is aged during 16 h at 950 ◦C. The resulting microstructure (Fig. 8 - left) consists of γ′ cuboidal precipitates, aligned along the cubic directions, separated by well-deﬁned γ channels (dark regions).",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        },
+        {
+          "page": "18",
+          "section": "5. Conclusion",
+          "quote": "The parameters of the model have been carefully selected to mimic the behavior of the AM1 monocrystalline superalloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "standard heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "after a standard heat treatment",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "creep loading",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "100 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress": "150 MPa",
+          "loading_axis": "[100]"
+        }
+      },
+      "input_state": "as-cast",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "after creep loading under 150 MPa at 950 ◦C during 100 h",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "16 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "disordered γ phase",
+      "output_state": "aged (16 h at 950 °C)",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2 Rafting of Ni-based superalloys during creep",
+          "quote": "Starting from an initial disordered γ phase, the alloy is aged during 16 h at 950 ◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": "high volume fraction",
+        "size": null,
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "a high volume fraction of strengtheningγ′ precipitates (L12 ordered structure) embedded in a face-centered cubic (fcc) solid-solutionγ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        },
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "γ′ precipitates (dark) in γ matrix (light) after a standard heat treatment",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "face-centered cubic (fcc) solid-solutionγ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "raft",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rafter; perpendicular to the tensile loading axis",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "the model predicts that rafting proceeds perpendicularly to the tensile loading axis",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        },
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "the directional coarsening (rafting) ofγ′ precipitates occurs under creep loading together with plastic deformation mainly localized within the γ channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "attributes": {
+        "phase_fraction": 0.63,
+        "size": "160 nm (average precipitate size)",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2 Rafting of Ni-based superalloys during creep",
+          "quote": "The volume fraction of the γ′ precipitates is 0.63 and their average size is 160 nm.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "γ channel",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "78 nm (average width)",
+        "morphology": null,
+        "location": "between γ′ cuboidal precipitates",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2 Rafting of Ni-based superalloys during creep",
+          "quote": "The γ channels are 78 nm wide on average.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "raft",
+      "sample_id": "sample_3",
+      "material_state": "crept (150 MPa, 950 °C, [100] loading)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "aligned perpendicular to the tensile axis",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2 Rafting of Ni-based superalloys during creep",
+          "quote": "In both cases, the precipitates self-organize into rafts that are aligned along the direction perpendicular to the tensile axis.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "property": "yield stress (0.2% offset)",
+      "value": 480,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "normal to layers",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "1D laminate simulation, infinite γ channel width (no back-stress)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.2 Role of the back-stress",
+          "quote": "The 0.2% oﬀset yield stress increases from 480 MPa for an inﬁnite width (or no backstress), to 530 MPa for s = 200 nm and 620 MPa for s = 20 nm.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "property": "yield stress (0.2% offset)",
+      "value": 530,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "normal to layers",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "1D laminate simulation, γ channel width s = 200 nm, with back-stress"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.2 Role of the back-stress",
+          "quote": "The 0.2% oﬀset yield stress increases from 480 MPa for an inﬁnite width (or no backstress), to 530 MPa for s = 200 nm and 620 MPa for s = 20 nm.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "property": "yield stress (0.2% offset)",
+      "value": 620,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "normal to layers",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "1D laminate simulation, γ channel width s = 20 nm, with back-stress"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.2 Role of the back-stress",
+          "quote": "The 0.2% oﬀset yield stress increases from 480 MPa for an inﬁnite width (or no backstress), to 530 MPa for s = 200 nm and 620 MPa for s = 20 nm.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "rafting",
+      "category": "microstructure evolution",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "in agreement with experiments, the model predicts that rafting proceeds perpendicularly to the tensile loading axis and it is shown that plasticity slows down significantly the evolution of the rafts",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "back-stress",
+      "category": "size effect / strain gradient plasticity",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.2 Role of the back-stress",
+          "quote": "On the contrary, when considering back-stress, the plastic regime depends ons, and the two-phase materials is strengthened as the channel width decreases: the yield stress as well as the hardening increase when s decreases.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "forest hardening",
+      "category": "dislocation hardening (short-range interactions)",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "18",
+          "section": "5. Conclusion",
+          "quote": "Second, the forest hardening resulting from the short-range interactions between dislocations is included through a hardening matrix in the Taylor relation whose components are identiﬁed on dislocation dynamics calculations taken from the literature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "AM1 alloy",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "AM1 alloy",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "after a standard heat treatment",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "after creep loading under 150 MPa at 950 ◦C during 100 h",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "a high volume fraction of strengtheningγ′ precipitates (L12 ordered structure) embedded in a face-centered cubic (fcc) solid-solutionγ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "face-centered cubic (fcc) solid-solutionγ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {
+        "temperature_c": 950,
+        "duration": "100 h",
+        "stress": "150 MPa"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "the rafting of γ′ precipitates in a Ni-based superalloy is investigated during [100] creep loadings",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "process_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {
+        "temperature_c": 950,
+        "duration": "100 h",
+        "stress": "150 MPa"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "in agreement with experiments, the model predicts that rafting proceeds perpendicularly to the tensile loading axis",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_1",
+      "predicate": "FORMS",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "the directional coarsening (rafting) ofγ′ precipitates occurs under creep loading together with plastic deformation mainly localized within the γ channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "alloy_system_2",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "18",
+          "section": "5. Conclusion",
+          "quote": "The parameters of the model have been carefully selected to mimic the behavior of the AM1 monocrystalline superalloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_3",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2 Rafting of Ni-based superalloys during creep",
+          "quote": "Starting from an initial disordered γ phase, the alloy is aged during 16 h at 950 ◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2 Rafting of Ni-based superalloys during creep",
+          "quote": "The resulting microstructure (Fig. 8 - left) consists of γ′ cuboidal precipitates, aligned along the cubic directions, separated by well-deﬁned γ channels (dark regions).",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2 Rafting of Ni-based superalloys during creep",
+          "quote": "The γ channels are 78 nm wide on average.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_3",
+      "material_state": "crept (150 MPa, 950 °C, [100] loading)",
+      "conditions": {
+        "stress_MPa": 150,
+        "temperature_c": 950,
+        "loading_axis": "[100]"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.2 Rafting of Ni-based superalloys during creep",
+          "quote": "In both cases, the precipitates self-organize into rafts that are aligned along the direction perpendicular to the tensile axis.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.2 Role of the back-stress",
+          "quote": "When considering back-stress, the plastic regime depends ons, and the two-phase materials is strengthened as the channel width decreases: the yield stress as well as the hardening increase when s decreases.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "conditions": {},
+      "polarity": "increase",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.2 Role of the back-stress",
+          "quote": "The 0.2% oﬀset yield stress increases from 480 MPa for an inﬁnite width (or no backstress), to 530 MPa for s = 200 nm and 620 MPa for s = 20 nm.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "conditions": {},
+      "polarity": "increase",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.2 Role of the back-stress",
+          "quote": "The 0.2% oﬀset yield stress increases from 480 MPa for an inﬁnite width (or no backstress), to 530 MPa for s = 200 nm and 620 MPa for s = 20 nm.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "microstructure_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_3",
+      "material_state": "aged (16 h at 950 °C)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.2 Role of the back-stress",
+          "quote": "When the channel width is much larger than ξP (e.g. s = 100 nm), the plastic deformation remains almost constant over most of the γ channel.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3a024dfa2dd1bd06:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "Ni-based single crystal superalloy",
+    "fcc slip systems",
+    "rafting"
+  ],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

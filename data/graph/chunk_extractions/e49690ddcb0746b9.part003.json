@@ -1,0 +1,204 @@
+{
+  "document_id": "e49690ddcb0746b9",
+  "chunk_id": "e49690ddcb0746b9:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Superalloy 718: Evolution of the Alloy from High to Low Temperature Application",
+    "authors": [
+      "Shailesh Patel",
+      "John deBarbadillo",
+      "Stephen Coryell"
+    ],
+    "journal": "Proceedings of the 9th International Symposium on Superalloy 718 & Derivatives: Energy, Aerospace, and Industrial Applications",
+    "year": 2018,
+    "doi": "10.1007/978-3-319-89480-5_2"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Fe-Cr-Nb-Mo alloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 40,
+          "section": "Introduction",
+          "quote": "Eiselstein explored a combination of molybdenum and niobium in a nickel-chromium matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Alloy 718 (UNS N07718)",
+      "canonical_name": "Alloy 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 39,
+          "section": "Abstract",
+          "quote": "Alloy 718 (UNS N07718) was the culmination of a research project started in the mid-1950s to develop a stronger pipe alloy for coal-fired power plants.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 954,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": 43,
+          "section": "Strengthening Mechanism",
+          "quote": "Treatment A (sub-delta solvus anneal at 1750 °F (954 °C)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:003"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 718,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "step": "first step"
+        }
+      },
+      "input_state": "annealed",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 43,
+          "section": "Strengthening Mechanism",
+          "quote": "a two-step age at 1325 °F (718 °C) and 1150 °F (621 °C) for a total time of about 18 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:003"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 621,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "step": "second step"
+        }
+      },
+      "input_state": "aged",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 43,
+          "section": "Strengthening Mechanism",
+          "quote": "a two-step age at 1325 °F (718 °C) and 1150 °F (621 °C) for a total time of about 18 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:003"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma double prime",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "disc-shaped",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 42,
+          "section": "Alloy 718 Strengthening Mechanism",
+          "quote": "The precipitates are disk-shaped with the c-axis of the unit cell perpendicular to the plane of the disk and oriented in the (100), (010) and (001) directions of the γ matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "coherency strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 42,
+          "section": "Alloy 718 Strengthening Mechanism",
+          "quote": "Oblak, Paulonis and Duvall who showed that coherency strengthening was the predominant mechanism acting in alloy 718 [16].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": []
+}

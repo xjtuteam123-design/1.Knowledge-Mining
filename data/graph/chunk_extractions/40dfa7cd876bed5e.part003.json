@@ -1,0 +1,195 @@
+{
+  "document_id": "40dfa7cd876bed5e",
+  "chunk_id": "40dfa7cd876bed5e:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Crystals",
+    "year": 2019,
+    "doi": "10.3390/cryst9070345"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb-Hf-Ni alloy",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "this Nb-Hf-Ni alloy was designed at the end of my post-doc",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dfa7cd876bed5e:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Nb-Hf-Ni alloy",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "arc-melted",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "even the cooling of the alloy after arc-melting was not recorded",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dfa7cd876bed5e:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "arc-melted",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "The alloy was kindly arc-melted by the RMI Titanium Company, Ohio, USA",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dfa7cd876bed5e:part:003"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "new phase precipitates",
+      "sample_id": "sample_1",
+      "material_state": "arc-melted",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "nearly equivalent content of solute atoms (Ni and Hf)",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "the presence of both solute-rich clusters and precipitates offered the chance to have two states of the precipitate formation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dfa7cd876bed5e:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "nucleation and growth of new phase",
+      "category": "phase transformation",
+      "sample_id": "sample_1",
+      "material_state": "arc-melted",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "The clusters are identified as the nuclei of the new phase. Observing a large number density of clusters with precipitates is an indication that the material was analysed in a state where nucleation and growth stages of the new phase are overlapping.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dfa7cd876bed5e:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Hf-rich cluster enrichment followed by Ni absorption",
+      "category": "diffusion",
+      "sample_id": "sample_1",
+      "material_state": "arc-melted",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "as they grow, clusters initially rich in Hf tend to absorb Ni to reach a nearly equivalent content of solute atoms, in agreement with the ratio measured in the precipitates of the new phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dfa7cd876bed5e:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "the presence of both solute-rich clusters and precipitates offered the chance to have two states of the precipitate formation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dfa7cd876bed5e:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_1",
+      "predicate": "FORMS",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "The clusters are identified as the nuclei of the new phase. Observing a large number density of clusters with precipitates is an indication that the material was analysed in a state where nucleation and growth stages of the new phase are overlapping.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dfa7cd876bed5e:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

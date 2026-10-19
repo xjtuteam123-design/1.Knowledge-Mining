@@ -1,0 +1,526 @@
+{
+  "document_id": "4c4febe98fdb2038",
+  "chunk_id": "4c4febe98fdb2038:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A numerical model to predict mechanical properties of Ni-base disk superalloys",
+    "authors": [
+      "Young-Kwang Kim",
+      "Donghoon Kim",
+      "Hong-Kyu Kim",
+      "Eun-Yoo Yoon",
+      "Youngseon Lee",
+      "Chang-Seok Oh",
+      "Byeong-Joo Lee"
+    ],
+    "journal": "International Journal of Plasticity",
+    "year": 2018,
+    "doi": "10.1016/j.ijplas.2018.06.011"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base disk superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": null,
+          "quote": "A numerical model to predict mechanical properties of Ni-base disk superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "seven designed alloys",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "hot isostatic pressed, solution annealed, aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "The seven designed alloys (Table 1) were used to evaluate the validity and applicability of the present model. These alloys were fabricated using argon gas atomization, powder sieving (-270 mesh), and hot isostatic pressing at sub-solvus temperatures and 103 MPa for 4 h. The heat treatment procedure entailed sub-solvus solution annealing for 1 h, salt quenching or air cooling, and two-step aging heat treatments at 870 °C for 1 h, air cooling, 650 °C for 24 h, then air cooling.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "argon gas atomization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "argon",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "powder",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "These alloys were fabricated using argon gas atomization, powder sieving (-270 mesh), and hot isostatic pressing at sub-solvus temperatures and 103 MPa for 4 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "powder sieving",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "mesh": "-270"
+        }
+      },
+      "input_state": "powder",
+      "output_state": "sieved powder",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "These alloys were fabricated using argon gas atomization, powder sieving (-270 mesh), and hot isostatic pressing at sub-solvus temperatures and 103 MPa for 4 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "hot isostatic pressing (HIP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": "4 h",
+        "pressure": "103 MPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_note": "sub-solvus"
+        }
+      },
+      "input_state": "sieved powder",
+      "output_state": "consolidated",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "These alloys were fabricated using argon gas atomization, powder sieving (-270 mesh), and hot isostatic pressing at sub-solvus temperatures and 103 MPa for 4 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "solution annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": "1 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "salt quenching or air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_note": "sub-solvus"
+        }
+      },
+      "input_state": "consolidated",
+      "output_state": "solution annealed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "The heat treatment procedure entailed sub-solvus solution annealing for 1 h, salt quenching or air cooling, and two-step aging heat treatments at 870 °C for 1 h, air cooling, 650 °C for 24 h, then air cooling.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "two-step aging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "first_step": "870 °C for 1 h, air cooling",
+          "second_step": "650 °C for 24 h, then air cooling"
+        }
+      },
+      "input_state": "solution annealed",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "The heat treatment procedure entailed sub-solvus solution annealing for 1 h, salt quenching or air cooling, and two-step aging heat treatments at 870 °C for 1 h, air cooling, 650 °C for 24 h, then air cooling.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Numerical modeling and simulation",
+          "quote": "Ni-base superalloys, the main material for disk applications, have multi-modal γ′ size distributions in the γ′ fraction range of 30 ~ 60 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Numerical modeling and simulation",
+          "quote": "Ni-base superalloys, the main material for disk applications, have multi-modal γ′ size distributions in the γ′ fraction range of 30 ~ 60 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Hall-Petch strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1. Tensile model",
+          "quote": "σ/g=0=−/g<0=− of Ni-base disk superalloys is affected by the Hall-Petch effect, solid-solution hardening, and precipitation hardening",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1. Tensile model",
+          "quote": "σ/g=0=−/g<0=− of Ni-base disk superalloys is affected by the Hall-Petch effect, solid-solution hardening, and precipitation hardening",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1. Tensile model",
+          "quote": "σ/g=0=−/g<0=− of Ni-base disk superalloys is affected by the Hall-Petch effect, solid-solution hardening, and precipitation hardening",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "The seven designed alloys (Table 1) were used to evaluate the validity and applicability of the present model.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "These alloys were fabricated using argon gas atomization, powder sieving (-270 mesh), and hot isostatic pressing at sub-solvus temperatures and 103 MPa for 4 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "These alloys were fabricated using argon gas atomization, powder sieving (-270 mesh), and hot isostatic pressing at sub-solvus temperatures and 103 MPa for 4 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "These alloys were fabricated using argon gas atomization, powder sieving (-270 mesh), and hot isostatic pressing at sub-solvus temperatures and 103 MPa for 4 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "The heat treatment procedure entailed sub-solvus solution annealing for 1 h, salt quenching or air cooling, and two-step aging heat treatments at 870 °C for 1 h, air cooling, 650 °C for 24 h, then air cooling.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Experimental procedure",
+          "quote": "The heat treatment procedure entailed sub-solvus solution annealing for 1 h, salt quenching or air cooling, and two-step aging heat treatments at 870 °C for 1 h, air cooling, 650 °C for 24 h, then air cooling.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Numerical modeling and simulation",
+          "quote": "Ni-base superalloys, the main material for disk applications, have multi-modal γ′ size distributions in the γ′ fraction range of 30 ~ 60 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": null,
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Numerical modeling and simulation",
+          "quote": "Ni-base superalloys, the main material for disk applications, have multi-modal γ′ size distributions in the γ′ fraction range of 30 ~ 60 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "property_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1. Tensile model",
+          "quote": "To represent solid-solution hardening, the model proposed by Roth et al. (1997) was used here, because it reproduces σ/g=0=−/g<0=− of various solid-solution Ni-base alloys reasonably well (Roth et al., 1997).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4c4febe98fdb2038:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

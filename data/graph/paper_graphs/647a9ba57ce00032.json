@@ -1,0 +1,883 @@
+{
+  "document_id": "647a9ba57ce00032",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Crystal plasticity model for single crystal Ni-based superalloys: Capturing orientation and temperature dependence of flow stress",
+    "authors": [
+      "Satyapriya Gupta",
+      "Curt A. Bronkhorst"
+    ],
+    "journal": "International Journal of Plasticity",
+    "year": 2020,
+    "doi": "https://doi.org/10.1016/j.ijplas.2020.102896"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "We develop a dislocation density based crystal plasticity model to capture the micromechanical behavior ofγ′ strengthening nickel-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        },
+        {
+          "page": "14",
+          "section": "4. Model application to single crystal Ni-based superalloys",
+          "quote": "After implementing the model in the commercial FE framework of ABAQUS, it is applied to two different single crystal Ni-based superalloys, CMSX-4 and MD2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 21,
+          "section": "5.3 APB shearing and its temperature dependence",
+          "quote": "Ni-based superalloys rely heavily onγ′ precipitate shearing for their overall strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        },
+        {
+          "page": "33",
+          "section": "Highlights",
+          "quote": "A dislocation density based crystal plasticity model for γ-γ′ microstructure Ni-based superalloys is developed and implemented as a user material subroutine.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:004"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "Subsequently, proper working of the model is tested against an independent set of single crystal experimental data available for CMSX-4 around service temperature and MD2 at room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        },
+        {
+          "page": "15",
+          "section": "4.1. Tension tests: model validation",
+          "quote": "Parameter optimization is performed simultaneously for two sets of CMSX-4 single crystal experimental observations (listed in Table 3) involving maximum variation in conditions such as crystal orientation, strain rate, and test temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 21,
+          "section": "5.4 Temperature dependence of slip resistance",
+          "quote": "our model could aﬃrmatively capture temperature dependent yield stress anomaly (YSA) for CMSX-4 single crystals.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        },
+        {
+          "page": "33",
+          "section": "Highlights",
+          "quote": "Temperature dependent model predictions of CMSX-4 flow stress suggests the presence of strong orientation dependence.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:004"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "MD2",
+      "canonical_name": "MD2",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "Subsequently, proper working of the model is tested against an independent set of single crystal experimental data available for CMSX-4 around service temperature and MD2 at room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        },
+        {
+          "page": "16",
+          "section": "4.2. Room temperature predictions of the model",
+          "quote": "Due to different alloy composition for MD2, activation energy F0 and initial dislocation density ρα0 were re-calibrated with respect to MD2 experimental flow curves (Leidermark et al., 2010).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 24,
+          "section": "6 Conclusions",
+          "quote": "Simulations conducted for superalloy MD2 demonstrated the lower temperature prediction capabilities of the model, where experimentally observed orientation dependent RT deformation behavior of MD2 single crystals is reproduced by the model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "narrow channels",
+        "morphology": "narrow channels",
+        "location": "between γ′ precipitates",
+        "composition": "Ni-based solid solution (disordered fcc)",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Microstructure of the Ni-based superalloys consist of ordered fcc γ′ phase (Ni3Al with L12 structure) coherently or semi-coherently embedded in Ni-based solid solution of narrow γ (disordered fcc) channels.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        },
+        {
+          "page": "18",
+          "section": "5.2. Rational behind dual flow rule",
+          "quote": "Being a disordered fcc structure, γ channels exhibit an easy glide of 1/2⟨1 1 0⟩γ dislocations on octahedral planes",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 21,
+          "section": "5.2",
+          "quote": "However, the presence of γ phase does not seem to play any important role in the manifestation of YSA.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        },
+        {
+          "page": "33",
+          "section": "Highlights",
+          "quote": "Mechanism based modeling of γ and γ′ phases allows for the accurate prediction of the experimental observations for single crystals of Ni-based superalloys covering a large temperature range (RT to 1150 C).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:004"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": "up to 0.7 (single crystal); 0.75 at 850 C; 0.71 at 950 C",
+        "size": "sub-micron; mean precipitate size 573 nm at 850 C, 562 nm at 950 C; gamma channel width 58 nm at 850 C, 67 nm at 950 C",
+        "morphology": null,
+        "location": "coherently or semi-coherently embedded in γ channels",
+        "composition": "Ni3Al with L12 structure",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Microstructure of the Ni-based superalloys consist of ordered fcc γ′ phase (Ni3Al with L12 structure) coherently or semi-coherently embedded in Ni-based solid solution of narrow γ (disordered fcc) channels.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        },
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Morphological parameters of the alloy such as volume fraction (up to 0.7 in single crystal), average size (in sub-microns) of γ′ and the spacing between them significantly influence the deformation behavior of the alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        },
+        {
+          "page": "13",
+          "section": "Table 2",
+          "quote": "Mean size of γ′ precipitate lγ′ 573 562 nm; Mean size of γ channel wγ′ 58 67 nm; Volume fraction of γ′ precipitate Vγ′f 0.75 0.71",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 21,
+          "section": "5.3 APB shearing and its temperature dependence",
+          "quote": "Ni-based superalloys rely heavily onγ′ precipitate shearing for their overall strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        },
+        {
+          "page": "33",
+          "section": "Highlights",
+          "quote": "Mechanism based modeling of γ and γ′ phases allows for the accurate prediction of the experimental observations for single crystals of Ni-based superalloys covering a large temperature range (RT to 1150 C).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:004"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_2",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": "0.65",
+        "size": "precipitate size 450 nm; gamma channel width 65 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "17",
+          "section": "Table 4",
+          "quote": "Size of γ′ precipitate lγ′ 450 nm; Size of γ channel wγ′ 65 nm; Volume fraction of γ′ precipitate Vγ′f 0.65",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "anti-phase boundary shearing",
+      "category": "precipitation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "Furthermore, anti-phase boundary (APB) shearing is considered as the dominant deformation mechanism for shearable γ′ precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        },
+        {
+          "page": "15",
+          "section": "4.1. Tension tests: model validation",
+          "quote": "stage 1 is the elastic regime followed by γ channel dislocation glide in stage 2, and finally in stage 3 anti-phase boundary shearing of γ′ precipitates resulting in stress-plateau with slight decrease.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 21,
+          "section": "5.3 APB shearing and its temperature dependence",
+          "quote": "Creation of APB, when a pair of a 2⟨1 1 0⟩γ also known as superdislocations, cuts through γ′ is the well accepted mechanism of γ′ shearing",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Orowan looping",
+      "category": "precipitation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "1. Introduction",
+          "quote": "This includes both anti-phase boundary shearing for smaller γ′ precipitates (Raynor and Silcock, 1970, D´ ecamps et al., 1991, Lin et al., 2018) and Orowan looping around it in case of larger precipitates (Fragomeni and Hillberry, 1997, Takahashi et al., 2010).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "solid-solution strengthening",
+      "category": "solid solution strengthening",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "1. Introduction",
+          "quote": "Solid solution strengthening where γ is supposed to be the primary contributor (Sims et al., 1987, Fleischmann et al., 2015).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "coherency strengthening",
+      "category": "coherency strengthening",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "1. Introduction",
+          "quote": "Coherency strengthening originating from elastic interaction between the strain fields of a coherent misfit between γ-γ′ and the dislocation (Ardell, 1985, Wang et al., 2018).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "dislocation storage at gamma/gamma prime interface",
+      "category": "work hardening",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "15",
+          "section": "4.1. Tension tests: model validation",
+          "quote": "Significant hardening associated with stage 2 of [0 0 1] orientation is a direct consequence of dislocation storage in the γ′ precipitate interface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_6",
+      "name": "dislocation pile-up and looping around gamma prime particles",
+      "category": "back stress",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "19",
+          "section": "5.1. Physical significance of back stress",
+          "quote": "Back stress is required in the model to depict the mechanism of dislocations pileup and looping around the γ′ particles which has a strong influence on the deformation behavior of both γ and γ′.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_7",
+      "name": "Kear-Wilsdorf lock formation by cross-slip",
+      "category": "yield stress anomaly",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 21,
+          "section": "5.4 Temperature dependence of slip resistance",
+          "quote": "The majority of past research suggest that the origin of the YSA is the formation of Kear-Wilsdorf (KW) locks during APB shearing of γ′ precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_8",
+      "name": "cyclic softening by gamma prime degradation",
+      "category": "fatigue",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 22,
+          "section": "5.5 Discrepancies in cyclic loading predictions",
+          "quote": "Degradation of γ′ appears to be a general consensus on the mechanism of cyclic softening which is missing in our model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_9",
+      "name": "strain partitioning between gamma and gamma prime",
+      "category": "heterogeneous deformation",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 22,
+          "section": "5.6 Strain partitioning between two phases",
+          "quote": "This diﬀerence in strain magnitude give rise to stress build up at γ−γ′ interfaces leading to damage and eventually premature failure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "Subsequently, proper working of the model is tested against an independent set of single crystal experimental data available for CMSX-4 around service temperature and MD2 at room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "Subsequently, proper working of the model is tested against an independent set of single crystal experimental data available for CMSX-4 around service temperature and MD2 at room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Microstructure of the Ni-based superalloys consist of ordered fcc γ′ phase (Ni3Al with L12 structure) coherently or semi-coherently embedded in Ni-based solid solution of narrow γ (disordered fcc) channels.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Microstructure of the Ni-based superalloys consist of ordered fcc γ′ phase (Ni3Al with L12 structure) coherently or semi-coherently embedded in Ni-based solid solution of narrow γ (disordered fcc) channels.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "Furthermore, anti-phase boundary (APB) shearing is considered as the dominant deformation mechanism for shearable γ′ precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        },
+        {
+          "page": "15",
+          "section": "4.1. Tension tests: model validation",
+          "quote": "finally in stage 3 anti-phase boundary shearing of γ′ precipitates resulting in stress-plateau with slight decrease",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 21,
+          "section": "5.3 APB shearing and its temperature dependence",
+          "quote": "when a pair of a 2⟨1 1 0⟩γ also known as superdislocations, cuts through γ′ is the well accepted mechanism of γ′ shearing",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "1. Introduction",
+          "quote": "This includes both anti-phase boundary shearing for smaller γ′ precipitates (Raynor and Silcock, 1970, D´ ecamps et al., 1991, Lin et al., 2018) and Orowan looping around it in case of larger precipitates (Fragomeni and Hillberry, 1997, Takahashi et al., 2010).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "4. Model application to single crystal Ni-based superalloys",
+          "quote": "it is applied to two different single crystal Ni-based superalloys, CMSX-4 and MD2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 21,
+          "section": "5.4 Temperature dependence of slip resistance",
+          "quote": "for CMSX-4 single crystals",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "4. Model application to single crystal Ni-based superalloys",
+          "quote": "it is applied to two different single crystal Ni-based superalloys, CMSX-4 and MD2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 24,
+          "section": "6 Conclusions",
+          "quote": "orientation dependent RT deformation behavior of MD2 single crystals",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "18",
+          "section": "5.2. Rational behind dual flow rule",
+          "quote": "γ channels exhibit an easy glide of 1/2⟨1 1 0⟩γ dislocations on octahedral planes, whereas shear of dislocation sparse ordered L12 γ′ precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 21,
+          "section": "5.2",
+          "quote": "the presence of γ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "Table 2",
+          "quote": "Volume fraction of γ′ precipitate Vγ′f 0.75 0.71",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        },
+        {
+          "page": 21,
+          "section": "5.3 APB shearing and its temperature dependence",
+          "quote": "γ′ precipitate shearing",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "17",
+          "section": "Table 4",
+          "quote": "Volume fraction of γ′ precipitate Vγ′f 0.65",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_5",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "15",
+          "section": "4.1. Tension tests: model validation",
+          "quote": "Significant hardening associated with stage 2 of [0 0 1] orientation is a direct consequence of dislocation storage in the γ′ precipitate interface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_6",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "19",
+          "section": "5.1. Physical significance of back stress",
+          "quote": "The magnitude and nature of the back stress is strongly influenced by the volume fraction and size of the γ′ along with the deformation magnitude.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_7",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 21,
+          "section": "5.4 Temperature dependence of slip resistance",
+          "quote": "KW locks are formed when a segment of 1/2⟨1 1 0⟩{1 1 1} screw dislocations preferentially (due to signiﬁcantly lower APB energy on cube planes) cross-slip from octahedral to cube planes and become immobile.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "mechanism_7",
+      "predicate": "INCREASES",
+      "target_id": "mechanism_7",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 21,
+          "section": "5.4 Temperature dependence of slip resistance",
+          "quote": "Increased temperature triggers more cross-slip (due to drop in APB energy for cube slip) leading to a surge in KW locks and thus higher yield stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "mechanism_8",
+      "predicate": "DEGRADES",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 22,
+          "section": "5.5 Discrepancies in cyclic loading predictions",
+          "quote": "primary mechanisms responsible for γ′ degradation resulting in cyclic softening includeγ′ shearing, disordering, dissolution and loss of coherency betweenγ andγ′",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "33",
+          "section": "Highlights",
+          "quote": "Mechanism based modeling of γ and γ′ phases allows for the accurate prediction of the experimental observations for single crystals of Ni-based superalloys covering a large temperature range (RT to 1150 C).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:004"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "33",
+          "section": "Highlights",
+          "quote": "Mechanism based modeling of γ and γ′ phases allows for the accurate prediction of the experimental observations for single crystals of Ni-based superalloys covering a large temperature range (RT to 1150 C).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "647a9ba57ce00032:part:004"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "P1 = ρα0, P2 = F0, P3 = APB 100",
+    "P4 = A, P5 = APB 111, P6 = rb"
+  ],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

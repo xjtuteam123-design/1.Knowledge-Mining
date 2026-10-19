@@ -1,0 +1,670 @@
+{
+  "document_id": "34f47e5ea1d3ed33",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "High-temperature fracture toughness of SiC-Mo5Si3C composite",
+    "authors": [
+      "Q. Zhu",
+      "K. Shobu"
+    ],
+    "journal": "Journal of Materials Science Letters",
+    "year": 2000,
+    "doi": "10.1023/A:1006760719459"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "SiC-Mo5Si3C composite",
+      "material_category": "ceramic matrix composite",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "title",
+          "quote": "High-temperature fracture toughness of SiC-Mo5Si3C composite",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "SiC-Mo5Si3C composite",
+      "canonical_name": "SiC-Mo5Si3C",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-infiltrated",
+      "composition": [
+        {
+          "element": "SiC",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Results",
+              "quote": "the composite is only composed of SiC and Mo5Si3C",
+              "table": null,
+              "figure": null,
+              "chunk_id": "34f47e5ea1d3ed33:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 45,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "infiltrant",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Experimental",
+              "quote": "An infiltrant of the Mo45Si30C5 composition was prepared from the raw powders of MoSi2",
+              "table": null,
+              "figure": null,
+              "chunk_id": "34f47e5ea1d3ed33:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Si",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "infiltrant",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Experimental",
+              "quote": "An infiltrant of the Mo45Si30C5 composition was prepared from the raw powders of MoSi2",
+              "table": null,
+              "figure": null,
+              "chunk_id": "34f47e5ea1d3ed33:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "infiltrant",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Experimental",
+              "quote": "An infiltrant of the Mo45Si30C5 composition was prepared from the raw powders of MoSi2",
+              "table": null,
+              "figure": null,
+              "chunk_id": "34f47e5ea1d3ed33:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "a SiC preform of dimensions 40×16×6 (mm) was prepared from the raw SiC powder (φ, circa 3.2 μm, purity 99%, Showa Denko, Japan) through a cold isostatic pressing (CIP) process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "cold isostatic pressing (CIP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "preform_dimensions": "40×16×6 mm",
+          "powder_size": "circa 3.2 μm",
+          "powder_purity": "99%"
+        }
+      },
+      "input_state": "SiC powder",
+      "output_state": "SiC preform",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "a SiC preform of dimensions 40×16×6 (mm) was prepared from the raw SiC powder (φ, circa 3.2 μm, purity 99%, Showa Denko, Japan) through a cold isostatic pressing (CIP) process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "melt infiltration",
+      "parameters": {
+        "temperature_c": 2100,
+        "time": "20 min hold; ramp to 2100 °C in 5 min from 1000 °C; 5-min cool down to 1000 °C",
+        "pressure": null,
+        "atmosphere": "1 atm argon",
+        "cooling_method": "power cut off at 1000 °C",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "furnace": "induction furnace",
+          "melting_above_c": 2000,
+          "spontaneous_infiltration_above_c": 2050
+        }
+      },
+      "input_state": "SiC preform with Mo45Si30C5 infiltrant powder mixture",
+      "output_state": "as-infiltrated SiC-Mo5Si3C composite",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "The infiltration was performed at 2100 °C in an induction furnace in 1 atm argon. Typically, the temperature was ramped to 2100 °C in 5 min from 1000 °C, held for 20 min, followed by a 5-min cool down to 1000 °C, where the power was cut off.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": "20 min",
+        "pressure": null,
+        "atmosphere": "argon",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "annealing_temperatures_c": "1200 and 1400",
+          "purpose": "verify crack healing of precracked specimens"
+        }
+      },
+      "input_state": "precracked specimen",
+      "output_state": "annealed precracked specimen",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results",
+          "quote": "a set of precracked specimens was annealed at 1200 °C and 1400 °C in argon for 20 min (typical testing duration), then tested at room temperature",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "SiC",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Results",
+          "quote": "The XRD and SEM/EDS investigations confirmed that the composite is only composed of SiC and Mo5Si3C.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Mo5Si3C",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "infiltrated regions",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Results",
+          "quote": "Dark phases are SiC and bright phases are Mo5Si3C.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "porosity",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "uninfiltrated areas up to 20 μm",
+        "morphology": null,
+        "location": "uninfiltrated areas and closed pores in SiC matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Results",
+          "quote": "The remaining porosity is attributed to the uninﬁltrated areas up to 20 μm and closed pores in the SiC matrix that could not be reached during the inﬁltration process",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "property": "fracture toughness",
+      "value": 3.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa·m^0.5",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "three-point bending",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "indentation strength (IS) technique"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results",
+          "quote": "The room-temperature fracture toughness of the composites is 3.5 MPa·m0.5",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "property": "fracture toughness",
+      "value": 7.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa·m^0.5",
+      "conditions": {
+        "temperature_c": 1400,
+        "strain_rate": null,
+        "loading_mode": "three-point bending",
+        "orientation": null,
+        "atmosphere": "1 atm argon",
+        "duration": "10 min equilibration",
+        "test_method": "indentation strength (IS) technique"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results",
+          "quote": "reaching a mean value of 7.6 MPa·m0.5 at 1400 °C",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "property": "fracture toughness",
+      "value": 4.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa·m^0.5",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "three-point bending",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "indentation strength (IS) technique; specimens annealed at 1400 °C in argon for 20 min"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results",
+          "quote": "The fracture toughness of the heat-treated specimens only slightly increased to a mean value of 4.0 MPa·m0.5 in the samples annealed at 1400 °C.",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "plastic deformation of infiltrated Mo5Si3C phases",
+      "category": "toughening",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Discussion",
+          "quote": "The increase in toughness at elevated temperatures would be mainly attributed to the plastic deformation of the inﬁltrated Mo5Si3C phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "crack bridging",
+      "category": "toughening",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Discussion",
+          "quote": "The composite could be toughened by inﬁltrated phases through the crack bridge mechanism [26].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Results",
+          "quote": "The XRD and SEM/EDS investigations confirmed that the composite is only composed of SiC and Mo5Si3C.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Results",
+          "quote": "The XRD and SEM/EDS investigations confirmed that the composite is only composed of SiC and Mo5Si3C.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Results",
+          "quote": "The remaining porosity is attributed to the uninﬁltrated areas up to 20 μm and closed pores in the SiC matrix",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Discussion",
+          "quote": "The increase in toughness at elevated temperatures would be mainly attributed to the plastic deformation of the inﬁltrated Mo5Si3C phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Discussion",
+          "quote": "The composite could be toughened by inﬁltrated phases through the crack bridge mechanism [26].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "conditions": {
+        "temperature_c": 1400
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Discussion",
+          "quote": "The increase in toughness at elevated temperatures would be mainly attributed to the plastic deformation of the inﬁltrated Mo5Si3C phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "conditions": {
+        "temperature_c": 1400
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Discussion",
+          "quote": "The composite could be toughened by inﬁltrated phases through the crack bridge mechanism [26]. Additional energy is required for a crack to pass through the toughening inclusions, which then appears in macroscopic terms as an increased toughness [27].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "conditions": {
+        "temperature_c": 25
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results",
+          "quote": "The room-temperature fracture toughness of the composites is 3.5 MPa·m0.5",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-infiltrated",
+      "conditions": {
+        "temperature_c": 1400
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results",
+          "quote": "reaching a mean value of 7.6 MPa·m0.5 at 1400 °C",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {
+        "temperature_c": 25
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results",
+          "quote": "The fracture toughness of the heat-treated specimens only slightly increased to a mean value of 4.0 MPa·m0.5 in the samples annealed at 1400 °C.",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "34f47e5ea1d3ed33:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

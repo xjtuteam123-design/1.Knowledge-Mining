@@ -1,0 +1,1832 @@
+{
+  "document_id": "036c4ffb193783ec",
+  "paper_metadata": {
+    "title": "Combining Machine Learning and Molecular Dynamics to Predict Mechanical Properties and Microstructural Evolution of FeNiCrCoCu High-Entropy Alloys",
+    "authors": [
+      "Jingui Yu",
+      "Faping Yu",
+      "Qiang Fu",
+      "Gang Zhao",
+      "Caiyun Gong",
+      "Mingchao Wang",
+      "Qiaoxin Zhang"
+    ],
+    "journal": "Nanomaterials",
+    "year": 2023,
+    "doi": "10.3390/nano13060968"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "FeNiCrCoCu high-entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "we combined machine learning and molecular dynamics to predict the mechanical properties of FeNiCrCoCu high-entropy alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        },
+        {
+          "page": null,
+          "section": null,
+          "quote": "Tension-Compression Asymmetry of FeNiCrCoCu HEAs",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:002"
+        },
+        {
+          "page": 13,
+          "section": "3.7. Influence and Mechanism of HEA Coating on Mechanical Properties",
+          "quote": "The stress-strain curves of pure Ni and Ni reinforced with Fe33Ni32Cr11Co11Cu13 HEAs under tensile and compressive load are shown in Figure 11a.",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Fe33Ni32Cr11Co11Cu13 HEA",
+      "canonical_name": "Fe33Ni32Cr11Co11Cu13",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [
+        {
+          "element": "Fe",
+          "value": 33,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "3.2",
+              "quote": "Fe33Ni32Cr11Co11Cu13 HEA was predicted to have the atomic ratio with the best tensile strength.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 32,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "3.2",
+              "quote": "Fe33Ni32Cr11Co11Cu13 HEA was predicted to have the atomic ratio with the best tensile strength.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 11,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "3.2",
+              "quote": "Fe33Ni32Cr11Co11Cu13 HEA was predicted to have the atomic ratio with the best tensile strength.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 11,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "3.2",
+              "quote": "Fe33Ni32Cr11Co11Cu13 HEA was predicted to have the atomic ratio with the best tensile strength.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "3.2",
+              "quote": "Fe33Ni32Cr11Co11Cu13 HEA was predicted to have the atomic ratio with the best tensile strength.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2",
+          "quote": "The MLR model predicted that the tensile strength of Fe33Ni32Cr11Co11Cu13 HEA was 28.25 GPa, while the actual simulated tensile strength of the HEA was 28.38 GPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Fe5Ni23.75Cr23.75Co23.75Cu23.75",
+      "canonical_name": "Fe5Ni23.75Cr23.75Co23.75Cu23.75",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [
+        {
+          "element": "Fe",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe5Ni23.75Cr23.75Co23.75Cu23.75",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 23.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe5Ni23.75Cr23.75Co23.75Cu23.75",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 23.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe5Ni23.75Cr23.75Co23.75Cu23.75",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 23.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe5Ni23.75Cr23.75Co23.75Cu23.75",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 23.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe5Ni23.75Cr23.75Co23.75Cu23.75",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Fe5Ni23.75Cr23.75Co23.75Cu23.75",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Fe20Ni20Cr20Co20Cu20",
+      "canonical_name": "Fe20Ni20Cr20Co20Cu20",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [
+        {
+          "element": "Fe",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe20Ni20Cr20Co20Cu20",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe20Ni20Cr20Co20Cu20",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe20Ni20Cr20Co20Cu20",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe20Ni20Cr20Co20Cu20",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe20Ni20Cr20Co20Cu20",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Fe20Ni20Cr20Co20Cu20",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "Fe35Ni16.25Cr16.25Co16.25Cu16.25",
+      "canonical_name": "Fe35Ni16.25Cr16.25Co16.25Cu16.25",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [
+        {
+          "element": "Fe",
+          "value": 35,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe35Ni16.25Cr16.25Co16.25Cu16.25",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 16.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe35Ni16.25Cr16.25Co16.25Cu16.25",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 16.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe35Ni16.25Cr16.25Co16.25Cu16.25",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 16.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe35Ni16.25Cr16.25Co16.25Cu16.25",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 16.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe35Ni16.25Cr16.25Co16.25Cu16.25",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Fe35Ni16.25Cr16.25Co16.25Cu16.25",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "Fe23.75Ni23.75Cr23.75Co23.75Cu5",
+      "canonical_name": "Fe23.75Ni23.75Cr23.75Co23.75Cu5",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [
+        {
+          "element": "Fe",
+          "value": 23.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe23.75Ni23.75Cr23.75Co23.75Cu5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 23.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe23.75Ni23.75Cr23.75Co23.75Cu5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 23.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe23.75Ni23.75Cr23.75Co23.75Cu5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 23.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe23.75Ni23.75Cr23.75Co23.75Cu5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe23.75Ni23.75Cr23.75Co23.75Cu5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Fe23.75Ni23.75Cr23.75Co23.75Cu5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "Fe16.25Ni16.25Cr16.25Co16.25Cu35",
+      "canonical_name": "Fe16.25Ni16.25Cr16.25Co16.25Cu35",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [
+        {
+          "element": "Fe",
+          "value": 16.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe16.25Ni16.25Cr16.25Co16.25Cu35",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 16.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe16.25Ni16.25Cr16.25Co16.25Cu35",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 16.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe16.25Ni16.25Cr16.25Co16.25Cu35",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 16.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe16.25Ni16.25Cr16.25Co16.25Cu35",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 35,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "Fe16.25Ni16.25Cr16.25Co16.25Cu35",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "036c4ffb193783ec:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Fe16.25Ni16.25Cr16.25Co16.25Cu35",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": "Fe33Ni32Cr11Co11Cu13 HEAs",
+      "canonical_name": "Fe33Ni32Cr11Co11Cu13",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated",
+      "composition": [
+        {
+          "element": "Fe",
+          "value": 33,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 13,
+              "section": "3.7. Influence and Mechanism of HEA Coating on Mechanical Properties",
+              "quote": "The stress-strain curves of pure Ni and Ni reinforced with Fe33Ni32Cr11Co11Cu13 HEAs under tensile and compressive load are shown in Figure 11a.",
+              "table": null,
+              "figure": "11",
+              "chunk_id": "036c4ffb193783ec:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 32,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 13,
+              "section": "3.7. Influence and Mechanism of HEA Coating on Mechanical Properties",
+              "quote": "The stress-strain curves of pure Ni and Ni reinforced with Fe33Ni32Cr11Co11Cu13 HEAs under tensile and compressive load are shown in Figure 11a.",
+              "table": null,
+              "figure": "11",
+              "chunk_id": "036c4ffb193783ec:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 11,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 13,
+              "section": "3.7. Influence and Mechanism of HEA Coating on Mechanical Properties",
+              "quote": "The stress-strain curves of pure Ni and Ni reinforced with Fe33Ni32Cr11Co11Cu13 HEAs under tensile and compressive load are shown in Figure 11a.",
+              "table": null,
+              "figure": "11",
+              "chunk_id": "036c4ffb193783ec:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 11,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 13,
+              "section": "3.7. Influence and Mechanism of HEA Coating on Mechanical Properties",
+              "quote": "The stress-strain curves of pure Ni and Ni reinforced with Fe33Ni32Cr11Co11Cu13 HEAs under tensile and compressive load are shown in Figure 11a.",
+              "table": null,
+              "figure": "11",
+              "chunk_id": "036c4ffb193783ec:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 13,
+              "section": "3.7. Influence and Mechanism of HEA Coating on Mechanical Properties",
+              "quote": "The stress-strain curves of pure Ni and Ni reinforced with Fe33Ni32Cr11Co11Cu13 HEAs under tensile and compressive load are shown in Figure 11a.",
+              "table": null,
+              "figure": "11",
+              "chunk_id": "036c4ffb193783ec:part:003"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.7. Influence and Mechanism of HEA Coating on Mechanical Properties",
+          "quote": "The stress-strain curves of pure Ni and Ni reinforced with Fe33Ni32Cr11Co11Cu13 HEAs under tensile and compressive load are shown in Figure 11a.",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_8",
+      "original_name": "pure Ni",
+      "canonical_name": "Ni",
+      "alloy_system_id": null,
+      "material_state": "simulated",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.7. Influence and Mechanism of HEA Coating on Mechanical Properties",
+          "quote": "The stress-strain curves of pure Ni and Ni reinforced with Fe33Ni32Cr11Co11Cu13 HEAs under tensile and compressive load are shown in Figure 11a.",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_9",
+      "original_name": "HEA Coating",
+      "canonical_name": "Fe33Ni32Cr11Co11Cu13",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated",
+      "composition": [
+        {
+          "element": "Fe",
+          "value": 33,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ni",
+          "value": 32,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 11,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 11,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cu",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 14,
+          "section": "Table 5",
+          "quote": "Ni 2.3 6.75 65.93 HEA Coating 2.46 4.81 48.85",
+          "table": "5",
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_10",
+      "original_name": "Ni reinforced with the HEAs coating",
+      "canonical_name": "Ni with Fe33Ni32Cr11Co11Cu13 HEA coating",
+      "alloy_system_id": null,
+      "material_state": "simulated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.7",
+          "quote": "The model with the HEAs coating showed more twinning",
+          "table": null,
+          "figure": "12",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_11",
+      "original_name": "polycrystalline HEA",
+      "canonical_name": "FeNiCrCoCu HEA",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 13,
+          "section": "Figure 10",
+          "quote": "Microstructural evolution of polycrystalline HEA with grain number of 15",
+          "table": null,
+          "figure": "10",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": 26.85,
+        "time": "300 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT"
+        }
+      },
+      "input_state": "as-constructed",
+      "output_state": "as-relaxed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Models and Methods",
+          "quote": "The HEA model first relaxed at 300 K under NVT ensemble for 300 ps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Models and Methods",
+          "quote": "the model size of FeNiCrCoCu HEA is 3.56× 7.12× 3.56 nm3 with an FCC phase structure [36].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dislocation entanglement",
+      "sample_id": "sample_11",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.7",
+          "quote": "the degree of dislocation entanglement is the largest",
+          "table": null,
+          "figure": "10",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "twin",
+      "sample_id": "sample_10",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Ni",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.7",
+          "quote": "The model with the HEAs coating showed more twinning",
+          "table": null,
+          "figure": "12",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "property": "tensile strength",
+      "value": 28.25,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2",
+          "quote": "The MLR model predicted that the tensile strength of Fe33Ni32Cr11Co11Cu13 HEA was 28.25 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "property": "tensile strength",
+      "value": 28.38,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2",
+          "quote": "while the actual simulated tensile strength of the HEA was 28.38 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_8",
+      "material_state": "simulated",
+      "property": "tensile strength",
+      "value": 2.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 27,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.7",
+          "quote": "the tensile strength of HEA coated reinforced Ni increased from 2.3 GPa to 2.46 GPa",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_9",
+      "material_state": "simulated",
+      "property": "tensile strength",
+      "value": 2.46,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 27,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.7",
+          "quote": "the tensile strength of HEA coated reinforced Ni increased from 2.3 GPa to 2.46 GPa",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_8",
+      "material_state": "simulated",
+      "property": "compressive strength",
+      "value": 6.75,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 27,
+        "strain_rate": null,
+        "loading_mode": "compressive",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.7",
+          "quote": "the compressive strength decreased from 6.75 GPa to 4.8 GPa",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_9",
+      "material_state": "simulated",
+      "property": "compressive strength",
+      "value": 4.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 27,
+        "strain_rate": null,
+        "loading_mode": "compressive",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.7",
+          "quote": "the compressive strength decreased from 6.75 GPa to 4.8 GPa",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_8",
+      "material_state": "simulated",
+      "property": "tensile-compression asymmetry",
+      "value": 65.93,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 27,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "Table 5",
+          "quote": "Ni 2.3 6.75 65.93",
+          "table": "5",
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_9",
+      "material_state": "simulated",
+      "property": "tensile-compression asymmetry",
+      "value": 48.85,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 27,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "Table 5",
+          "quote": "HEA Coating 2.46 4.81 48.85",
+          "table": "5",
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_7",
+      "material_state": "simulated",
+      "property": "tensile strength",
+      "value": 28.25,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "machine learning prediction"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": "4. Conclusions",
+          "quote": "tensile strength of Fe33Ni32Cr11Co11Cu13 HEAs (HEAs with optimum mechanical properties) reached 28.25 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "twinning",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This is due to the increase in stress caused by twinning during compression and the decrease in stress due to dislocation slip during stretching.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation slip",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This is due to the increase in stress caused by twinning during compression and the decrease in stress due to dislocation slip during stretching.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation climb",
+      "category": "deformation mechanism",
+      "sample_id": "sample_9",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.7",
+          "quote": "The microscopic mechanism is that dislocation inside the HEAs coating climbs to Ni, forming a large slip surface and promoting generation of twins.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "twinning",
+      "category": "deformation mechanism",
+      "sample_id": "sample_10",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.7",
+          "quote": "the dislocations' climb in HEA promotes the formation of twins in Ni, which affects the tensile and compressive mechanical properties of Ni.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "dislocation slip",
+      "category": "deformation mechanism",
+      "sample_id": "sample_11",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.7",
+          "quote": "The shift of the slip direction leads to the dislocation entanglement in the slip direction after the dislocation crosses the grain boundary, and the degree of dislocation entanglement increases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "multiple linear regression",
+      "sample_id": null,
+      "property_observation_id": "observation_1",
+      "task": "prediction of tensile strength",
+      "inputs": [
+        "content of principal elements Fe, Ni, Cr, Co, Cu"
+      ],
+      "target": "tensile strength",
+      "dataset": "120 tensile models",
+      "validation": "80% training set, 20% test set",
+      "metrics": {
+        "prediction_confidence": "84.9%"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2",
+          "quote": "The prediction confidence of the BPNN, RF and MLR models is 68.28%, 74.94% and 84.9%, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "back propagation neural network",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of tensile strength",
+      "inputs": [
+        "content of principal elements Fe, Ni, Cr, Co, Cu"
+      ],
+      "target": "tensile strength",
+      "dataset": "120 tensile models",
+      "validation": "80% training set, 20% test set",
+      "metrics": {
+        "prediction_confidence": "68.28%"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2",
+          "quote": "The prediction confidence of the BPNN, RF and MLR models is 68.28%, 74.94% and 84.9%, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "random forest",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of tensile strength",
+      "inputs": [
+        "content of principal elements Fe, Ni, Cr, Co, Cu"
+      ],
+      "target": "tensile strength",
+      "dataset": "120 tensile models",
+      "validation": "80% training set, 20% test set",
+      "metrics": {
+        "prediction_confidence": "74.94%"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2",
+          "quote": "The prediction confidence of the BPNN, RF and MLR models is 68.28%, 74.94% and 84.9%, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "we combined machine learning and molecular dynamics to predict the mechanical properties of FeNiCrCoCu high-entropy alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Models and Methods",
+          "quote": "The HEA model first relaxed at 300 K under NVT ensemble for 300 ps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "process_1",
+      "predicate": "RESULTS_IN_STATE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Models and Methods",
+          "quote": "The HEA model first relaxed at 300 K under NVT ensemble for 300 ps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Models and Methods",
+          "quote": "the model size of FeNiCrCoCu HEA is 3.56× 7.12× 3.56 nm3 with an FCC phase structure [36].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2",
+          "quote": "The MLR model predicted that the tensile strength of Fe33Ni32Cr11Co11Cu13 HEA was 28.25 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": null,
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2",
+          "quote": "while the actual simulated tensile strength of the HEA was 28.38 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2",
+          "quote": "The MLR model predicted that the tensile strength of Fe33Ni32Cr11Co11Cu13 HEA was 28.25 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This is due to the increase in stress caused by twinning during compression",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "the decrease in stress due to dislocation slip during stretching",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_9",
+      "predicate": "INCREASES",
+      "target_id": "observation_4",
+      "sample_id": "sample_9",
+      "material_state": "simulated",
+      "conditions": {
+        "loading_mode": "tensile"
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.7",
+          "quote": "the tensile strength of HEA coated reinforced Ni increased from 2.3 GPa to 2.46 GPa",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_9",
+      "predicate": "DECREASES",
+      "target_id": "observation_6",
+      "sample_id": "sample_9",
+      "material_state": "simulated",
+      "conditions": {
+        "loading_mode": "compressive"
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.7",
+          "quote": "the compressive strength decreased from 6.75 GPa to 4.8 GPa",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_3",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_10",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.7",
+          "quote": "the dislocations' climb in HEA promotes the formation of twins in Ni",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_9",
+      "predicate": "DECREASES",
+      "target_id": "observation_8",
+      "sample_id": "sample_9",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.7",
+          "quote": "The beneficial changes of the two strengths reduce the tension-compression asymmetry of the Ni matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "036c4ffb193783ec:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

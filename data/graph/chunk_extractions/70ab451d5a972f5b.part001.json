@@ -1,0 +1,599 @@
+{
+  "document_id": "70ab451d5a972f5b",
+  "chunk_id": "70ab451d5a972f5b:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Selective Laser Melting and Remelting of Pure Tungsten",
+    "authors": [
+      "Zhengang Xiong",
+      "Panpan Zhang",
+      "Chaolin Tan",
+      "Dongdong Dong",
+      "Wenyou Ma",
+      "Kun Yu"
+    ],
+    "journal": "Advanced Engineering Materials",
+    "year": 2020,
+    "doi": "10.1002/adem.201901352"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "pure tungsten",
+      "material_category": "refractory metal",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Tungsten, the metal with the highest melting point, has many unique physical properties",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "pure tungsten",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "W",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Introduction",
+              "quote": "pure tungsten",
+              "table": null,
+              "figure": null,
+              "chunk_id": "70ab451d5a972f5b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "dense pure tungsten specimens are produced by optimizing SLM processing parameters.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "selective laser melting (SLM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "flowing argon, oxygen content below 0.1 vol%",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 300,
+        "scan_speed": "400 mm s-1",
+        "layer_thickness": "20 μm",
+        "other": {
+          "hatch_spacing": null,
+          "scan_rotation": "67° between adjacent layers",
+          "substrate_preheat": "180 C",
+          "laser_beam_diameter": "100 μm"
+        }
+      },
+      "input_state": "tungsten powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Materials and Processing",
+          "quote": "The pure tungsten powder was processed in an EOS M290 SLM system (EOS GmbH, Krailling, Germany) equipped with a 400 W laser and laser beam diameter of 100 μm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "selective laser remelting (SLRM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 300,
+        "scan_speed": "400 mm s-1",
+        "layer_thickness": null,
+        "other": {
+          "note": "additional laser remelting step (SLRM (3))"
+        }
+      },
+      "input_state": "as-built",
+      "output_state": "as-remelted",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.4. Remelting Strategy",
+          "quote": "To improve the surface quality and further ensure the formability of pure tungsten, SLM-processed specimens were remelted layer by layer. The additional remelting step was implemented on substrates with laser power of 300 W and scanning speed of 400 mm s-1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "selective laser melting (SLM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "flowing argon, oxygen content below 0.1 vol%",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 300,
+        "scan_speed": "600 mm s-1",
+        "layer_thickness": "20 μm",
+        "other": {
+          "scan_rotation": "67° between adjacent layers",
+          "substrate_preheat": "180 C"
+        }
+      },
+      "input_state": "tungsten powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructural Analysis",
+          "quote": "The ultimate compressive strength of the specimens with a scanning speed of 600 mm s-1 is 1197 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "columnar grain",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "columnar",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructural Analysis",
+          "quote": "Figure 6 shows the SEM image of typical columnar grains for SLM-produced pure tungsten.",
+          "table": null,
+          "figure": "Figure 6",
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "fine grain",
+      "sample_id": "sample_1",
+      "material_state": "as-remelted",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "14 ± 3 μm",
+        "morphology": "equiaxed",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.4. Remelting Strategy",
+          "quote": "The grain size of tungsten was refined from 29 ± 10 μm (Figure 11a) to 14 ± 3 μm (Figure 11b).",
+          "table": null,
+          "figure": "Figure 11",
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "crack",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "crack_type": "Y-shaped",
+        "orientation": "near molten pool centerline, cross along surface ripples, extend between layers",
+        "location": "surface"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.3. Surface Morphology",
+          "quote": "It can be observed that the surface presents “Y”-shaped cracks, which exhibit some certain regularity. The cracks of pure tungsten produced by SLM can be classified into three types according to their orientation.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "microhardness",
+      "value": 456,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV0.2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "10 s",
+        "test_method": "Vickers microhardness"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.1. SLM Processing and Densification",
+          "quote": "the average microhardness of tungsten samples increases with the growth of laser power and after passing through a maximum of 456 HV 0.2 the values decrease",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate compressive strength",
+      "value": 1197,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "compressive test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructural Analysis",
+          "quote": "The ultimate compressive strength of the specimens with a scanning speed of 600 mm s-1 is 1197 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "relative density",
+      "value": 98.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.3,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Archimedes method"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 1",
+          "quote": "400 18.93 ± 0.06 98.1 ± 0.3 131 ± 8",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "bending strength",
+      "value": 131,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 8,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "three-point bending",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "three-point bending"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 1",
+          "quote": "400 18.93 ± 0.06 98.1 ± 0.3 131 ± 8",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-remelted",
+      "property": "surface roughness",
+      "value": 10.62,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "μm",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "stylus profiler"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.4. Remelting Strategy",
+          "quote": "the strategy using laser remelting effectively reduced the Ra value from 14.72 to 10.62 μm for the SLRM (3) sample surface, which is 28% lower than that produced without remelting.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "thermal stress cracking",
+      "category": "failure",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3. Surface Morphology",
+          "quote": "Under the extreme temperature gradient, tungsten thereupon cracks once the triggered thermal stress exceeds its yield strength in this state.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "oxygen embrittlement",
+      "category": "embrittlement",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3. Surface Morphology",
+          "quote": "In addition, the attracted oxygen atoms hinder the movement of dislocations, which are not conducive to plastic deformation for brittle tungsten.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "exceptionally_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "as-remelted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "exceptionally_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-remelted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-remelted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

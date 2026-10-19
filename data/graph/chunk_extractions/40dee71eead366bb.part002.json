@@ -1,0 +1,486 @@
+{
+  "document_id": "40dee71eead366bb",
+  "chunk_id": "40dee71eead366bb:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Microstructure-sensitive statistically equivalent representative volume elements for intragranular γ–γ′ microstructures of Ni-based superalloys",
+    "authors": [],
+    "journal": "Acta Materialia",
+    "year": 2018,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "6.1",
+          "quote": "Finite element simulations of the SEVMs for determining the P-SERVE are conducted with a dislocation density-based crystal plasticity constitutive law, developed for intragranular g /C0 g0 microstructures of Ni-based superalloys in Refs. [ 28,40].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "intragranular γ–γ′ microstructure (FIB-SEM experimental data)",
+      "canonical_name": "Ni-based superalloy with γ–γ′ microstructure",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "experimental microstructure",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2",
+          "quote": "to match the two point correlation function S2 of the 6000 precipitate experimental microstructure with that of the SEVM",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "SEVM Np=200",
+      "canonical_name": "Ni-based superalloy with γ–γ′ microstructure",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "virtual SEVM (Np=200)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.3",
+          "quote": "an ensemble of 30 SEVMs, each with Np ¼ 200",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "SEVM Np=10",
+      "canonical_name": "Ni-based superalloy with γ–γ′ microstructure",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "virtual SEVM (Np=10)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "5.2.2",
+          "quote": "ensemble random vector channel width distribution is generated for each of the 30 instantiations of SEVMs with N p ¼ 10; 20; 50; 100; 200",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "SEVM Np=20",
+      "canonical_name": "Ni-based superalloy with γ–γ′ microstructure",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "virtual SEVM (Np=20)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "9",
+          "section": "5.2.4",
+          "quote": "ensemble distance to surface distributions are generated for each of the 30 SEVM instantiations with Np ¼ 10; 20; 50; 100; 200",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "SEVM Np=50",
+      "canonical_name": "Ni-based superalloy with γ–γ′ microstructure",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "virtual SEVM (Np=50)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "5.2.1",
+          "quote": "It begins to converge near Np ¼ 50, indicating a minimum size of Np 50.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "SEVM Np=100",
+      "canonical_name": "Ni-based superalloy with γ–γ′ microstructure",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "virtual SEVM (Np=100)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "5.2.2",
+          "quote": "For 2% error the local volume fraction measure requires Np > 100 to converge.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "genetic algorithm optimization of superellipsoid placement",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "fitness_threshold": 0.0001,
+          "max_iterations": 500,
+          "operators": "mutation only",
+          "target": "two-point correlation function S2"
+        }
+      },
+      "input_state": "statistically dispersed superellipsoids",
+      "output_state": "optimized SEVM",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2",
+          "quote": "The algorithm is terminated when the ﬁtness function J falls below a threshold 10 /C0 4 or if a prede ﬁned number of iterations is reached. The maximum number of iterations is set to 500.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "dislocation density-based crystal plasticity finite element simulation (DD-CPFE)",
+      "parameters": {
+        "temperature_c": 300,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "10% total strain",
+        "strain_rate": "1e-4 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "loading_direction": "[001]",
+          "elements": "4-noded tetrahedral (TET4)"
+        }
+      },
+      "input_state": "meshed SEVM",
+      "output_state": "deformed simulated microstructure",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "6.2",
+          "quote": "The CPFE simulations are all performed under a constant strain-rate loading of 10 /C0 4s/C0 1 in the ½001/C138 direction at a temperature of 300 K, until 10% total strain is attained.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ phase",
+      "sample_id": "sample_1",
+      "material_state": "experimental microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix channels",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": "6",
+          "quote": "The mechanical response of Ni-based superalloys is highly dependent on the nonuniform intragranular g /C0 g0 microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′ phase",
+      "sample_id": "sample_1",
+      "material_state": "experimental microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "generalized superellipsoid",
+        "location": "intragranular precipitates",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2",
+          "quote": "where Vf represents the volume fraction of g0 precipitates and ( a0; r0) are parameters to be calibrated.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "precipitate–matrix channel microstructure",
+      "sample_id": "sample_1",
+      "material_state": "experimental microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "intragranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "6.4",
+          "quote": "Mechanical response ﬁelds, obtained from intragranular crystal plasticity simulations, exhibit signi ﬁcant variations in the microstructure consisting of precipitates and matrix channels.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitate shearing by APB-coupled dislocations and Kear-Wilsdorf locks",
+      "category": "dislocation-precipitate interaction",
+      "sample_id": "sample_2",
+      "material_state": "virtual SEVM (Np=200)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "6.1",
+          "quote": "This resistance stress for the precipitates accounts for APB shearing and Kear-Wilsdorf locks and manifests non-Schmid effects, tension-compression asymmetry and anomalous yield strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "experimental microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "6",
+          "quote": "The mechanical response of Ni-based superalloys is highly dependent on the nonuniform intragranular g /C0 g0 microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "experimental microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2",
+          "quote": "where Vf represents the volume fraction of g0 precipitates and ( a0; r0) are parameters to be calibrated.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "experimental microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "6.4",
+          "quote": "Mechanical response ﬁelds, obtained from intragranular crystal plasticity simulations, exhibit signi ﬁcant variations in the microstructure consisting of precipitates and matrix channels.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_2",
+      "material_state": "virtual SEVM (Np=200)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2",
+          "quote": "The algorithm is terminated when the ﬁtness function J falls below a threshold 10 /C0 4 or if a prede ﬁned number of iterations is reached. The maximum number of iterations is set to 500.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "virtual SEVM (Np=200)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "6.2",
+          "quote": "The CPFE simulations are all performed under a constant strain-rate loading of 10 /C0 4s/C0 1 in the ½001/C138 direction at a temperature of 300 K, until 10% total strain is attained.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "virtual SEVM (Np=200)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "6.1",
+          "quote": "This resistance stress for the precipitates accounts for APB shearing and Kear-Wilsdorf locks and manifests non-Schmid effects, tension-compression asymmetry and anomalous yield strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "experimental microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "6.1",
+          "quote": "developed for intragranular g /C0 g0 microstructures of Ni-based superalloys in Refs. [ 28,40]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "virtual SEVM (Np=200)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.3",
+          "quote": "an ensemble of 30 SEVMs, each with Np ¼ 200",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40dee71eead366bb:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "SEVM",
+    "M-SERVE",
+    "P-SERVE"
+  ],
+  "conflicts": []
+}

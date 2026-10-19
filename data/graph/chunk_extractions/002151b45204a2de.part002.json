@@ -1,0 +1,292 @@
+{
+  "document_id": "002151b45204a2de",
+  "chunk_id": "002151b45204a2de:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Metallurgical and Materials Transactions A",
+    "year": 2015,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "In addition to Ni alloys, Ni3Al alloys are also susceptible to dynamic embrittlement",
+          "table": null,
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni3Al",
+      "material_category": "intermetallic",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "Ni3Al alloys are also susceptible to dynamic embrittlement",
+          "table": null,
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "IN 718",
+      "canonical_name": "IN 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "polycrystalline",
+      "composition": [
+        {
+          "element": "O",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at. ppm",
+          "role": "initial",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "9",
+              "section": "IV. ESTIMATES OF OXIDATION AND OXYGEN PENETRATION RATES",
+              "quote": "the initial oxygen content was taken to be 20 at. ppm",
+              "table": null,
+              "figure": null,
+              "chunk_id": "002151b45204a2de:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "9",
+          "section": "IV. ESTIMATES OF OXIDATION AND OXYGEN PENETRATION RATES",
+          "quote": "The calculations were performed for T = 923 K (650 °C) and t = 1 hour. The value of NO S was calculated using Eq. [4], while the initial oxygen content was taken to be 20 at. ppm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Ni3Al",
+      "canonical_name": "Ni3Al",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": null,
+              "quote": "Ni3Al alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "002151b45204a2de:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": null,
+              "quote": "Ni3Al alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "002151b45204a2de:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "In addition to Ni alloys, Ni3Al alloys are also susceptible to dynamic embrittlement",
+          "table": null,
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dynamic embrittlement",
+      "category": "embrittlement",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "Ni3Al alloys are also susceptible to dynamic embrittlement due to the ingress of oxygen into grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "transformation toughening",
+      "category": "toughening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "transformation-induced residual compressive stresses associated with the oxide layer formation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "Ni3Al alloys are also susceptible to dynamic embrittlement",
+          "table": null,
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "claim_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "transformation-induced residual compressive stresses associated with the oxide layer formation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "polycrystalline",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Table IV",
+          "quote": "Observed Rate (mm/h) for IN 718 at 923 K (650 °C) ... 100 polycrystalline IN 718 [7]",
+          "table": "Table IV",
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "bicrystal with R5",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Table IV",
+          "quote": "5 bicrystal with R5 g.b. [8,9]",
+          "table": "Table IV",
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "polycrystalline",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Table IV",
+          "quote": "Observed Rate (mm/h) for IN 718 at 923 K (650 °C) ... 2 to 10 Polycrystalline IN 718 [16–18]",
+          "table": "Table IV",
+          "figure": null,
+          "chunk_id": "002151b45204a2de:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

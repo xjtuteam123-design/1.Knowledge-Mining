@@ -1,0 +1,691 @@
+{
+  "document_id": "06c56a28744a465a",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Computational analysis of mechanical behavior and potential energy of thermoresponsive copper-tantalum nanoalloy",
+    "authors": [
+      "Mahesh Kumar Gupta",
+      "Vinay Panwar",
+      "Rajendra Prasad Mahapatra"
+    ],
+    "journal": "Journal of Molecular Modeling",
+    "year": 2022,
+    "doi": "10.1007/s00894-022-05183-y"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Cu-Ta alloy",
+      "material_category": "nanocrystalline binary alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The mechanical properties of nanocrystalline copper-tantalum (Cu-Ta) alloy are investigated using classical molecular dynamics simulation approach",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:001"
+        },
+        {
+          "page": "10",
+          "section": "Conclusions",
+          "quote": "The mechanical behavior of 9Cu-Ta nanoalloy at different temperatures from 50 to 1600 K and a fixed strain rate of 5 × 1010 s−1 has been investigated by classical molecular dynamic simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "9Cu-Ta",
+      "canonical_name": "Cu-10Ta",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "nanocrystalline",
+      "composition": [
+        {
+          "element": "Cu",
+          "value": 90,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Introduction",
+              "quote": "a nanoalloy having 90% copper and 10% tantalum atoms (9Cu-Ta)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "06c56a28744a465a:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Introduction",
+              "quote": "a nanoalloy having 90% copper and 10% tantalum atoms (9Cu-Ta)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "06c56a28744a465a:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Methodology",
+          "quote": "The number of copper and tantalum atoms in the simulation box is 12,150 and 1350, respectively. Initially in each simulation, the number of atoms created for 9Cu-Ta alloys is 13,500 where the ratio of atoms of copper and tantalum is 9:1 and the structure is FCC with lattice parameter 4.0448 Å",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:001"
+        },
+        {
+          "page": "10",
+          "section": "Conclusions",
+          "quote": "The mechanical behavior of 9Cu-Ta nanoalloy at different temperatures from 50 to 1600 K and a fixed strain rate of 5 × 1010 s−1 has been investigated by classical molecular dynamic simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "50 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "time_step": "1 fs"
+        }
+      },
+      "input_state": "initial",
+      "output_state": "equilibrated",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Methodology",
+          "quote": "The system was first relaxed to about 50 ps under canonical ensemble NVT to achieve an equilibrium state having minimum energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "virtual tensile test",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": "5e10 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "temperatures": "50, 200, 300, 500, 700, 1000, 1200, 1600 K"
+        }
+      },
+      "input_state": "equilibrated",
+      "output_state": "deformed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Methodology",
+          "quote": "The process of loading is under the NVT ensemble to deform with a constant strain rate of 5 × 10^10 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "attributes": {
+        "phase_fraction": 1.0,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Methodology",
+          "quote": "Figure 2a shows the crystal structure of 9Cu-Ta nanocrystalline alloy before deformation, i.e., 100% FCC structure.",
+          "table": null,
+          "figure": "2a",
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "nanocrystalline structure",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "attributes": {
+        "grain_size": null,
+        "morphology": null,
+        "location": null
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Methodology",
+          "quote": "Figure 1c represents the nanocrystalline copper-tantalum alloy in which copper is mixed with tantalum atoms in a ratio of 9:1.",
+          "table": null,
+          "figure": "1c",
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "yield strength",
+      "value": 7.15,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 50,
+        "strain_rate": "5e10 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "the yield strength of nanocrystalline 9Cu-Ta alloy decreases with an increase in temperature from 7.15 GPa at 50 K to 2.88 GPa at 1600 K.",
+          "table": null,
+          "figure": "5b",
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "yield strength",
+      "value": 2.88,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 1600,
+        "strain_rate": "5e10 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "the yield strength of nanocrystalline 9Cu-Ta alloy decreases with an increase in temperature from 7.15 GPa at 50 K to 2.88 GPa at 1600 K.",
+          "table": null,
+          "figure": "5b",
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "ultimate tensile strength",
+      "value": 7.49,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 50,
+        "strain_rate": "5e10 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "the ultimate strength reduces by almost 50%, i.e., from 7.49 to 3.78 GPa.",
+          "table": null,
+          "figure": "5a",
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "ultimate tensile strength",
+      "value": 3.78,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 1600,
+        "strain_rate": "5e10 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "the ultimate strength reduces by almost 50%, i.e., from 7.49 to 3.78 GPa.",
+          "table": null,
+          "figure": "5a",
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "Young's modulus",
+      "value": 27.01,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 50,
+        "strain_rate": "5e10 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "Young’s modulus at 50 K is 27.01 GPa and the value increases to 31.31 GPa at 300 K which further decreases to 20.24 GPa as the temperature increases to 1600 K.",
+          "table": null,
+          "figure": "5c",
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "Young's modulus",
+      "value": 31.31,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": "5e10 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "Young’s modulus at 50 K is 27.01 GPa and the value increases to 31.31 GPa at 300 K which further decreases to 20.24 GPa as the temperature increases to 1600 K.",
+          "table": null,
+          "figure": "5c",
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "Young's modulus",
+      "value": 20.24,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 1600,
+        "strain_rate": "5e10 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "Young’s modulus at 50 K is 27.01 GPa and the value increases to 31.31 GPa at 300 K which further decreases to 20.24 GPa as the temperature increases to 1600 K.",
+          "table": null,
+          "figure": "5c",
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "thermal softening",
+      "category": "thermal",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Results and discussion",
+          "quote": "The temperature-induced softening in the material can be attributed to high thermal vibrations of atoms at the higher temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:001"
+        },
+        {
+          "page": "10",
+          "section": "Conclusions",
+          "quote": "the nanocrystalline alloy exhibits prominent ductile behavior and degraded mechanical properties at higher temperatures due to the thermal softening effect",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "thermal activation of dislocation movement",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "The reason behind this response is thermal activation of dislocation movement that causes easier plastic deformation at higher temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_1",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Results and discussion",
+          "quote": "The temperature-induced softening in the material can be attributed to high thermal vibrations of atoms at the higher temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "The reason behind this response is thermal activation of dislocation movement that causes easier plastic deformation at higher temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "nanocrystalline",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Conclusions",
+          "quote": "The mechanical behavior of 9Cu-Ta nanoalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "nanocrystalline",
+      "conditions": {
+        "temperature_c": null
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Conclusions",
+          "quote": "exhibits prominent ductile behavior and degraded mechanical properties at higher temperatures due to the thermal softening effect",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

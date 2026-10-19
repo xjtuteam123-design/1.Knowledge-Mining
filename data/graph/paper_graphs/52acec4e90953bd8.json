@@ -1,0 +1,729 @@
+{
+  "document_id": "52acec4e90953bd8",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "title": "Influence of Nano-Sized SiC on the Laser Powder Bed Fusion of Molybdenum",
+    "authors": [
+      "Nathan E. Ellsworth",
+      "Ryan A. Kemnitz",
+      "Cayla C. Eckley",
+      "Brianna M. Sexton",
+      "Cynthia T. Bowers",
+      "Joshua R. Machacek",
+      "Larry W. Burggraf"
+    ],
+    "journal": "Crystals",
+    "year": 2022,
+    "doi": "10.3390/cryst12091276"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mo-SiC composite",
+      "material_category": "metal matrix composite",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Nano-sized SiC particles (0.1 wt%) were homogeneously mixed with molybdenum powder and the printing characteristics, chemical composition, microstructure, mechanical properties were compared to pure molybdenum",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "pure molybdenum",
+      "material_category": "refractory metal",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Consolidation of pure molybdenum through laser powder bed fusion and other additive manufacturing techniques is complicated by a high melting temperature",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "pure molybdenum",
+      "canonical_name": "Mo",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "LPBF consolidated",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": 99.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2. Materials and Methods",
+              "quote": "Feedstocks were pure molybdenum powder (99.9% Mo) with an average particle size of approximately 30 µm",
+              "table": null,
+              "figure": null,
+              "chunk_id": "52acec4e90953bd8:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Materials and Methods",
+          "quote": "The pure molybdenum and Mo-0.1SiC specimens used in this study were produced using a GE Concept Laser Mlab Cusing 200R 3D metal printer",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Mo-0.1SiC",
+      "canonical_name": "Mo-0.1SiC",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "LPBF consolidated",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2. Materials and Methods",
+              "quote": "Batches of 200 g powder (199.8 g Mo and 0.2 g SiC) were mixed in air",
+              "table": null,
+              "figure": null,
+              "chunk_id": "52acec4e90953bd8:part:001"
+            }
+          ]
+        },
+        {
+          "element": "SiC",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Abstract",
+              "quote": "Nano-sized SiC particles (0.1 wt%) were homogeneously mixed with molybdenum powder",
+              "table": null,
+              "figure": null,
+              "chunk_id": "52acec4e90953bd8:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Mo-0.1SiC specimens were produced using a GE Concept Laser Mlab Cusing 200R 3D metal printer",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "powder mixing",
+      "parameters": {
+        "temperature_c": null,
+        "time": "two one-minute periods with one minute cooling between",
+        "pressure": null,
+        "atmosphere": "air",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "mixer": "FlakTec Inc. DAC 250.1 FVZ-K SpeedMixer",
+          "batch_mass": "200 g (199.8 g Mo + 0.2 g SiC)"
+        }
+      },
+      "input_state": "powder",
+      "output_state": "mixed powder",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Materials and Methods",
+          "quote": "Batches of 200 g powder (199.8 g Mo and 0.2 g SiC) were mixed in air using a FlakTec Inc. DAC 250.1 FVZ-K SpeedMixer (Landrum, SC, USA). The batches were mixed for a pair of one-minute periods with one minute of cooling between.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "nitrogen shield gas, oxygen <1000 ppm",
+        "cooling_method": "rapid solidification",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 200,
+        "scan_speed": "100, 200, 400, 800 mm/s",
+        "layer_thickness": "20 µm",
+        "other": {
+          "hatch_spacing": "50 µm",
+          "laser_type": "200 W continuous wave Yb:YAG fiber laser",
+          "scan_strategy": "meander with 90° rotation between layers",
+          "substrate": "copper",
+          "offset": "0.5 mm at 800 mm/s",
+          "specimen_dimensions": "12 mm × 4 mm × 2 mm"
+        }
+      },
+      "input_state": "mixed powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Materials and Methods",
+          "quote": "Cuboid specimens with dimensions 12 mm × 4 mm × 2 mm were consolidated on a copper substrate using a fixed laser power of 200 W, hatch spacing of 50 µm, and a layer thickness of 20 µm at four different scan speeds: 100, 200, 400 and 800 mm/s.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "nitrogen shield gas, oxygen <1000 ppm",
+        "cooling_method": "rapid solidification",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 200,
+        "scan_speed": "100, 200, 400, 800 mm/s",
+        "layer_thickness": "20 µm",
+        "other": {
+          "hatch_spacing": "50 µm",
+          "laser_type": "200 W continuous wave Yb:YAG fiber laser",
+          "scan_strategy": "meander with 90° rotation between layers",
+          "substrate": "copper",
+          "offset": "0.5 mm at 800 mm/s",
+          "specimen_dimensions": "12 mm × 4 mm × 2 mm"
+        }
+      },
+      "input_state": "pure molybdenum powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Materials and Methods",
+          "quote": "Cuboid specimens with dimensions 12 mm × 4 mm × 2 mm were consolidated on a copper substrate using a fixed laser power of 200 W, hatch spacing of 50 µm, and a layer thickness of 20 µm at four different scan speeds: 100, 200, 400 and 800 mm/s.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Si-O nanoparticle",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "nanoscale",
+        "morphology": "nanoparticle",
+        "location": "bulk",
+        "composition": "primarily silicon and oxygen, devoid of molybdenum",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2. Microstructural Characterization",
+          "quote": "EDS identifies the content of the secondary phase as almost entirely silicon and oxygen, devoid of any molybdenum.",
+          "table": null,
+          "figure": "6",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Mo-O inclusion",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "inclusion",
+        "location": "fracture surface",
+        "composition": "molybdenum and oxygen",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.3. Mechanical Properties",
+          "quote": "Point EDS was performed on the secondary phase present on the surfaces and revealed only molybdenum and oxygen contained in the inclusions.",
+          "table": null,
+          "figure": "10",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "columnar grain",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "attributes": {
+        "size": null,
+        "morphology": "columnar",
+        "location": "build direction",
+        "orientation": "anisotropic"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Microstructural Characterization",
+          "quote": "The large columnar grains in the build direction are similar to those commonly found in LPBF molybdenum and other refractory metals [21].",
+          "table": null,
+          "figure": "4",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "crack",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "attributes": {
+        "location": "along weld tracks and 45° to weld direction"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2. Microstructural Characterization",
+          "quote": "The addition of SiC did not prevent that cracking that appears along the weld tracks and 45° to the weld direction",
+          "table": null,
+          "figure": "2",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "lack-of-fusion defect",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "location": "fracture surface"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.3. Mechanical Properties",
+          "quote": "The surfaces of the pure molybdenum specimen showed many open volume defects, caused by a lack of fusion, where there was poor consolidation as well as unmelted particles",
+          "table": null,
+          "figure": "9",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_3",
+      "type": "Defect",
+      "name": "porosity",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "location": "bulk"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Microstructural Characterization",
+          "quote": "The consolidation in the pure molybdenum samples was very poor and the porosity does not show any regularity.",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "flexural strength",
+      "value": 242.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 23.5,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "three-point bend",
+        "orientation": "load across build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MTS 810 load frame"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.3. Mechanical Properties",
+          "quote": "The flexural strength at a print speed of 400 mm/s was 242.8± 23.5 MPa for Mo-0.1SiC",
+          "table": null,
+          "figure": "8",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "flexural strength",
+      "value": 134.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 12.7,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "three-point bend",
+        "orientation": "load across build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MTS 810 load frame"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.3. Mechanical Properties",
+          "quote": "134.3 ± 12.7 MPa for pure molybdenum representing a roughly 80% increase",
+          "table": null,
+          "figure": "8",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "Vickers hardness",
+      "value": 318,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 10,
+      "unit": "HV0.5",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "top surface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Vickers microhardness"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "4. Discussion",
+          "quote": "The maximum hardness found in the Mo-0.1SiC was 318 ± 10 HV0.5 in the specimen printed at 800 mm/s.",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "Vickers hardness",
+      "value": 207,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 16,
+      "unit": "HV0.5",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "top surface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Vickers microhardness"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "4. Discussion",
+          "quote": "The pure molybdenum printed at 200 mm/s had a comparable Vickers hardness of 207 ± 16 HV0.5",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "oxidation of free carbon",
+      "category": "chemical reaction",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Two mechanisms of oxygen reduction were identified as responsible for the improvements: oxidation of free carbon and the creation of secondary phase nanoparticles.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "formation of secondary phase nanoparticles",
+      "category": "phase transformation",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Two mechanisms of oxygen reduction were identified as responsible for the improvements: oxidation of free carbon and the creation of secondary phase nanoparticles.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dispersion strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "The secondary phase nanoparticles provided dispersion strengthening to improve the strength and reduce cracking in AM tungsten as well as a means to scavenge oxygen",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Nano-sized SiC particles (0.1 wt%) were homogeneously mixed with molybdenum powder",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_2",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Consolidation of pure molybdenum through laser powder bed fusion",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_ELEMENT",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2. Microstructural Characterization",
+          "quote": "EDS identifies the content of the secondary phase as almost entirely silicon and oxygen",
+          "table": null,
+          "figure": "6",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.3. Mechanical Properties",
+          "quote": "revealed only molybdenum and oxygen contained in the inclusions",
+          "table": null,
+          "figure": "10",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "defect_3",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "The formation of nanoparticles instead suggests that the silicon became mobile at the high temperatures and sequestered oxygen.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "4. Discussion",
+          "quote": "The increase in both strength and hardness are due to the nanoparticles blocking dislocation movement and preventing the propagation of cracks.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Microstructural Characterization",
+          "quote": "The large columnar grains in the build direction are similar to those commonly found in LPBF molybdenum",
+          "table": null,
+          "figure": "4",
+          "chunk_id": "52acec4e90953bd8:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

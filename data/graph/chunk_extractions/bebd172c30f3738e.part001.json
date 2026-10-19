@@ -1,0 +1,236 @@
+{
+  "document_id": "bebd172c30f3738e",
+  "chunk_id": "bebd172c30f3738e:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Development of a new temperature-dependent yield criterion for stainless and high-strength alloy steels in construction engineering",
+    "authors": [
+      "Shuobiao Li",
+      "Wenqi Ding",
+      "Qingzhao Zhang"
+    ],
+    "journal": "Case Studies in Construction Materials",
+    "year": 2023,
+    "doi": "10.1016/j.cscm.2023.e02149"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "stainless steel",
+      "material_category": "steel",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "high-temperature tensile test data from five steels (two stainless steels and three high-strength alloy steels)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bebd172c30f3738e:part:001"
+        },
+        {
+          "page": "4",
+          "section": "2.3 Effect of temperature on the yielding of steel",
+          "quote": "the yield strength (elastic proportional limit) of a stainless steel (S30408) at different temperatures is extracted based on the stress-strain curves obtained from unidirectional tensile tests",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bebd172c30f3738e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "high-strength alloy steel",
+      "material_category": "steel",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "high-temperature tensile test data from five steels (two stainless steels and three high-strength alloy steels)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bebd172c30f3738e:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "S30408",
+      "canonical_name": "S30408",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.3 Effect of temperature on the yielding of steel",
+          "quote": "the yield strength (elastic proportional limit) of a stainless steel (S30408) at different temperatures is extracted based on the stress-strain curves obtained from unidirectional tensile tests",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bebd172c30f3738e:part:001"
+        },
+        {
+          "page": "5",
+          "section": "3.1.2 Expressions of energy",
+          "quote": "The mechanical and thermal energy corresponding to the actual yield point (elastic proportional limit) of S30408 steel at different temperatures can be obtained by calculation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bebd172c30f3738e:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "uniaxial tensile test",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range_c": "20-900"
+        }
+      },
+      "input_state": null,
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "2.3 Effect of temperature on the yielding of steel",
+          "quote": "these stress-strain curves are ob - tained from uniaxial tensile tests at different temperatures, with specific data from the literature [31]",
+          "table": null,
+          "figure": "Fig. 3(a)",
+          "chunk_id": "bebd172c30f3738e:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation slip",
+      "category": "deformation mechanism",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "the yield and plastic deformation of crystalline materials such as many metals are caused by dislocation slip [22], and the resistance of lattice atoms to dislocation slip will decrease with the increase of temperature",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bebd172c30f3738e:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.3 Effect of temperature on the yielding of steel",
+          "quote": "the yield strength (elastic proportional limit) of a stainless steel (S30408) at different temperatures is extracted based on the stress-strain curves obtained from unidirectional tensile tests",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bebd172c30f3738e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.3 Effect of temperature on the yielding of steel",
+          "quote": "the yield strength (elastic proportional limit) of a stainless steel (S30408) at different temperatures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bebd172c30f3738e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "2.3 Effect of temperature on the yielding of steel",
+          "quote": "these stress-strain curves are ob - tained from uniaxial tensile tests at different temperatures, with specific data from the literature [31]",
+          "table": null,
+          "figure": "Fig. 3(a)",
+          "chunk_id": "bebd172c30f3738e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "the yield and plastic deformation of crystalline materials such as many metals are caused by dislocation slip",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bebd172c30f3738e:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "TGM yield criterion",
+    "temperature-dependent generalized von Mises yield criterion",
+    "von Mises yield criterion",
+    "yield energy",
+    "thermal distortion energy"
+  ],
+  "conflicts": []
+}

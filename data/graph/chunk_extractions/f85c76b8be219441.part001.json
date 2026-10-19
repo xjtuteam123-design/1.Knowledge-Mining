@@ -1,0 +1,1075 @@
+{
+  "document_id": "f85c76b8be219441",
+  "chunk_id": "f85c76b8be219441:part:001",
+  "paper_metadata": {
+    "title": "Phase interface engineering: A new route towards ultrastrong yet ductile Mo alloy",
+    "authors": [
+      "Weiqiang Hu",
+      "Lianfeng Wei",
+      "Yanchao Li",
+      "Wen Zhang",
+      "Zongqing Ma",
+      "Chenxi Liu",
+      "Yongchang Liu"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2024,
+    "doi": "10.1016/j.msea.2023.145867"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mo-Y2O3 alloy",
+      "material_category": "ODS refractory metal",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Oxide dispersion strengthened (ODS) refractory metals, represented by tungsten and molybdenum alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "f-MoY alloy",
+      "canonical_name": "Mo-0.5 wt%Y2O3",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Y2O3",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.2. Design of powder preparation",
+              "quote": "Mo-0.5 wt%Y2O3 composite powder is prepared by two-step freeze-drying.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f85c76b8be219441:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Design of alloy preparation",
+          "quote": "The final oxide doped Mo-alloy fabricated by phase interface engineering was denoted as f-MoY alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "pure Mo",
+      "canonical_name": "Mo",
+      "alloy_system_id": null,
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.2. Design of powder preparation",
+              "quote": "Additionally, pure Mo powder was also fabricated by repeating above steps except adding Y(NO3)3·6H2O.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f85c76b8be219441:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "The hardness of annealed pure Mo in this work is 265 ± 10 HV0.2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "two-step freeze-drying",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "first_step": "(NH4)6Mo7O24·4H2O + Y(NO3)3·6H2O dissolved in water, sprayed into liquid nitrogen, freeze-dried, calcined in pure argon",
+          "second_step": "(NH4)6Mo7O24·4H2O added (5:1 weight ratio), repeated freeze-drying"
+        }
+      },
+      "input_state": "precursor solution",
+      "output_state": "composite oxide powder",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.2. Design of powder preparation",
+          "quote": "Mo-0.5 wt%Y2O3 composite powder is prepared by two-step freeze-drying.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "two-step reduction",
+      "parameters": {
+        "temperature_c": 800,
+        "time": "3h (second step); 600°C for 2h (first step)",
+        "pressure": null,
+        "atmosphere": "pure hydrogen",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "first_step": "600°C for 2h in pure hydrogen",
+          "second_step": "800°C for 3h in pure hydrogen"
+        }
+      },
+      "input_state": "composite oxide powder",
+      "output_state": "composite powder",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.2. Design of powder preparation",
+          "quote": "the composite oxide powder was two-step reduced (600°C for 2h, 800°C for 3h) by pure hydrogen atmosphere for later use.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "preforming",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": "5 MPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "powder",
+      "output_state": "preform",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Design of alloy preparation",
+          "quote": "the 100 g of freeze-dried powder was firstly preformed under 5 MPa to reduce powder looseness.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "cold isostatic pressing",
+      "parameters": {
+        "temperature_c": null,
+        "time": "30 min",
+        "pressure": "250 MPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "preform",
+      "output_state": "green compact",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Design of alloy preparation",
+          "quote": "subjected to cold isostatic pressing under 250 MPa for 30 min.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "sintering",
+      "parameters": {
+        "temperature_c": 1650,
+        "time": "6 h (at 1650°C); 800°C for 2h, 1400°C for 2h",
+        "pressure": "no pressure",
+        "atmosphere": "pure hydrogen",
+        "cooling_method": "furnace cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "steps": "800°C for 2h, 1400°C for 2h, and 1650°C for 6 h"
+        }
+      },
+      "input_state": "green compact",
+      "output_state": "sintered alloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Design of alloy preparation",
+          "quote": "the preformed samples were sintered without any pressure at 800°C for 2 h, 1400°C for 2 h, and 1650°C for 6 h, in protective atmosphere of pure hydrogen, followed by conventional furnace cooling.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_1",
+      "sequence": 6,
+      "method": "swaging",
+      "parameters": {
+        "temperature_c": 1500,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "flowing hydrogen",
+        "cooling_method": null,
+        "deformation": "each swaging height ~1/7 of original height; repeated twice; last swaging height half the last height",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "heating": "rapidly heated to 1500°C in flowing hydrogen"
+        }
+      },
+      "input_state": "sintered alloy",
+      "output_state": "swaged alloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Design of alloy preparation",
+          "quote": "Next the alloy was rapidly heated to 1500°C in flowing hydrogen air, and then rapidly swaged down. The above heating and swaging processes need to be repeated twice, and each swaging height is approximately 1/7 of the original height. The alloy was rapidly heated to 1500°C again, and the last swaging height was half the last height at one time.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_1",
+      "sequence": 7,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 900,
+        "time": "1 h",
+        "pressure": null,
+        "atmosphere": "pure hydrogen",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "purpose": "to eliminate residual stress"
+        }
+      },
+      "input_state": "swaged alloy",
+      "output_state": "annealed alloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Design of alloy preparation",
+          "quote": "the swaged alloy was annealed at 900°C for 1 h in pure hydrogen air to eliminate residual stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Y5Mo2O12",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "<50 nm",
+        "morphology": "particle",
+        "location": "intragranular and intergranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "5.2. Microstructure characterization of swaged alloy",
+          "quote": "when the oxide size is less than 50 nm, the composition is not traditional Y2O3 phase but the Y5Mo2O12 ternary phase.",
+          "table": null,
+          "figure": "Fig. 3d",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Y2O3",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": ">50 nm",
+        "morphology": "core in core-shell structure",
+        "location": "intragranular and intergranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "5.2. Microstructure characterization of swaged alloy",
+          "quote": "when oxide particles continue to increase (> 50 nm), they present a novel core-shell structure, in which the core is traditional Y2O3 phase",
+          "table": null,
+          "figure": "Fig. 3f",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "ultrafine grain",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "attributes": {
+        "size": "average grain size ~1.05 μm",
+        "morphology": "slightly elongated, aspect ratio ~2.3/1",
+        "location": "Mo matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "5.2. Microstructure characterization of swaged alloy",
+          "quote": "The average Mo grain size of f-MoY alloy is about 1.05 μm.",
+          "table": null,
+          "figure": "Fig. 4f",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "subgrain",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "attributes": {
+        "size": null,
+        "morphology": "low angle grain boundaries (<15°)",
+        "location": "within large Mo grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "5.2. Microstructure characterization of swaged alloy",
+          "quote": "the GBs between the small grains within large Mo grain is generally less than 15°, which is confirmed to be subgrain boundaries.",
+          "table": null,
+          "figure": "Fig. 4c-d",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "Y2O3",
+      "sample_id": "sample_1",
+      "material_state": "sintered",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "3-5 nm",
+        "morphology": "nanoparticle",
+        "location": "in powder",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "6.1. Alloy forming mechanism",
+          "quote": "The second phase particles possess an ultrafine size (only 3-5 nm), and their composition is calibrated as Y2O3 phase.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "property": "tensile strength",
+      "value": 1045.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±15",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "0.001 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to swaging direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5967"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the Y2O3 added through phase interface engineering increase the strength from 830.1 ± 12 MPa to 1045.1 ± 15 MPa.",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "property": "elongation",
+      "value": 21.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±0.2",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "0.001 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to swaging direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5967"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the elongation increased sharply from 12.8 ± 0.3 % for pure Mo to 21.1 ± 0.2 % for f-MoY alloy.",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "property": "tensile strength",
+      "value": 631.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±7",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": "0.001 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to swaging direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5967"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the strength of f-MoY alloy is 631.4 ± 7 MPa, while matching a high elongation of 12.4 % ± 0.3 %.",
+          "table": null,
+          "figure": "Fig. 2b",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "property": "elongation",
+      "value": 12.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±0.3",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": "0.001 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to swaging direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5967"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the strength of f-MoY alloy is 631.4 ± 7 MPa, while matching a high elongation of 12.4 % ± 0.3 %.",
+          "table": null,
+          "figure": "Fig. 2b",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "property": "Vickers hardness",
+      "value": 356,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±13",
+      "unit": "HV0.2",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "parallel to swaging direction",
+        "atmosphere": null,
+        "duration": "20 s",
+        "test_method": "Vickers hardness test, 200 gf load"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the Vickers hardness increased from 265 ± 10 HV0.2 to 356 ± 13 HV0.2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "property": "tensile strength",
+      "value": 830.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±12",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "0.001 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to swaging direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5967"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the Y2O3 added through phase interface engineering increase the strength from 830.1 ± 12 MPa to 1045.1 ± 15 MPa.",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "property": "elongation",
+      "value": 12.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±0.3",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "0.001 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to swaging direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5967"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the elongation increased sharply from 12.8 ± 0.3 % for pure Mo to 21.1 ± 0.2 % for f-MoY alloy.",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "property": "tensile strength",
+      "value": 364.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±9",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": "0.001 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to swaging direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5967"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the pure Mo possesses a strength of 364.5 ± 9 MPa with a elongation of 11.3 % ± 0.2 %.",
+          "table": null,
+          "figure": "Fig. 2b",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "property": "elongation",
+      "value": 11.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±0.2",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": "0.001 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to swaging direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5967"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the pure Mo possesses a strength of 364.5 ± 9 MPa with a elongation of 11.3 % ± 0.2 %.",
+          "table": null,
+          "figure": "Fig. 2b",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "property": "Vickers hardness",
+      "value": 265,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "±10",
+      "unit": "HV0.2",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "parallel to swaging direction",
+        "atmosphere": null,
+        "duration": "20 s",
+        "test_method": "Vickers hardness test, 200 gf load"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "The hardness of annealed pure Mo in this work is 265 ± 10 HV0.2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary pinning",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "sintered",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "5.3. Microstructure characterization of sintered alloy",
+          "quote": "fine and dispersed intergranular particles maintain coherent interfaces with Mo matrix, thereby better impeding GBs movement and then refining Mo grains.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "fine grain strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "6.3. Strengthening and toughening mechanisms",
+          "quote": "fine grain strengthening is the only strengthening way that simultaneously improves strength and ductility",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "coherent interface strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "6.3. Strengthening and toughening mechanisms",
+          "quote": "The coherent phase interface also realizes the lattice connection between Mo and oxide, contributing to improving alloy ductility.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "delamination toughening",
+      "category": "toughening",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "6.3. Strengthening and toughening mechanisms",
+          "quote": "The hierarchical structure achieves delamination toughening, and its related principle is to relax the triaxial stress condition and passivate the crack tip while the cracks and crack branching planes intersecting",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "5.2. Microstructure characterization of swaged alloy",
+          "quote": "when the oxide size is less than 50 nm, the composition is not traditional Y2O3 phase but the Y5Mo2O12 ternary phase.",
+          "table": null,
+          "figure": "Fig. 3d",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "5.2. Microstructure characterization of swaged alloy",
+          "quote": "when oxide particles continue to increase (> 50 nm), they present a novel core-shell structure, in which the core is traditional Y2O3 phase",
+          "table": null,
+          "figure": "Fig. 3f",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "5.2. Microstructure characterization of swaged alloy",
+          "quote": "The average Mo grain size of f-MoY alloy is about 1.05 μm.",
+          "table": null,
+          "figure": "Fig. 4f",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "5.2. Microstructure characterization of swaged alloy",
+          "quote": "the GBs between the small grains within large Mo grain is generally less than 15°, which is confirmed to be subgrain boundaries.",
+          "table": null,
+          "figure": "Fig. 4c-d",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_1",
+      "predicate": "REFINES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "sintered",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "5.3. Microstructure characterization of sintered alloy",
+          "quote": "fine and dispersed intergranular particles maintain coherent interfaces with Mo matrix, thereby better impeding GBs movement and then refining Mo grains.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "6.3. Strengthening and toughening mechanisms",
+          "quote": "fine grain strengthening is the only strengthening way that simultaneously improves strength and ductility",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "microstructure_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "swaged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "6.3. Strengthening and toughening mechanisms",
+          "quote": "fine grain strengthening is the only strengthening way that simultaneously improves strength and ductility",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {
+        "temperature_c": 25
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the Y2O3 added through phase interface engineering increase the strength from 830.1 ± 12 MPa to 1045.1 ± 15 MPa.",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {
+        "temperature_c": 25
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the elongation increased sharply from 12.8 ± 0.3 % for pure Mo to 21.1 ± 0.2 % for f-MoY alloy.",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "5.1. Mechanical properties",
+          "quote": "the Vickers hardness increased from 265 ± 10 HV0.2 to 356 ± 13 HV0.2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f85c76b8be219441:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

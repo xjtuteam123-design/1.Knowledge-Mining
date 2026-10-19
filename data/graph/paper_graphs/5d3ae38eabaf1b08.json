@@ -1,0 +1,399 @@
+{
+  "document_id": "5d3ae38eabaf1b08",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Elevated Temperature Fatigue of TZC Molybdenum Alloy Under High Frequency and High Vacuum Conditions",
+    "authors": [
+      "C. R. Honeycutt",
+      "T. F. Martin",
+      "J. C. Sawyer",
+      "E. A. Steigerwald"
+    ],
+    "journal": "NASA CR-72241",
+    "year": 1967,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mo-base TZC alloy",
+      "material_category": "molybdenum-base alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": null,
+          "quote": "ELEVATED TEMPERATURE FATIGUE OF TZC MOLYBDENUM ALLOY UNDER HIGH FREQUENCY AND HIGH VACUUM CONDITIONS",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "TZC",
+      "canonical_name": "TZC molybdenum alloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "recrystallized",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "balance",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "MATERIALS AND PROCEDURE",
+              "quote": "The composition and processing history for the molybdenum-base T2C alloy used in the tests are given in Tables 1 and 2.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "5d3ae38eabaf1b08:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "MATERIALS AND PROCEDURE",
+          "quote": "The TZC was recrystallized at 3090'F (170OOC) for one hour in vacuum prior to testing and the conventional smooth tensile properties produced by this heat treatment are given in Table 2.",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "recrystallization annealing",
+      "parameters": {
+        "temperature_c": 1700,
+        "time": "1 hour",
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "recrystallized",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "MATERIALS AND PROCEDURE",
+          "quote": "The TZC was recrystallized at 3090'F (170OOC) for one hour in vacuum prior to testing and the conventional smooth tensile properties produced by this heat treatment are given in Table 2.",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "recrystallized microstructure",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "FIGURE 1 MICROSTRUCTURE OF MOLYBDENUM -BASE TZC ALLOY, ANNEALED 1700°C, IOOX, ETCHANT: 15% HF, 15% H2SO4, 8% \"03, 62% H20.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "property": "fatigue strength",
+      "value": 16000,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "psi",
+      "conditions": {
+        "temperature_c": 1204,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": "vacuum",
+        "duration": null,
+        "test_method": "high frequency fatigue test at 20 kHz"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "SUMMARY",
+          "quote": "Fatigue strengths at 2200'F (1204OC) and 10 cycles were as low as 16,000 psi.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "property": "fatigue strength",
+      "value": 18000,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "psi",
+      "conditions": {
+        "temperature_c": 982,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": "vacuum",
+        "duration": "10^9 cycles",
+        "test_method": "high frequency fatigue test at 20 kHz"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "RESULTS AND DISCUSSION",
+          "quote": "TABLE 4 Ratio of Fatigue-to-Tensile Strength TZC Molybdenum Alloy, Tested in Vacuum, ACOO 1 x lom7 Torr at 20 K cs",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "property": "fatigue strength",
+      "value": 17000,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "psi",
+      "conditions": {
+        "temperature_c": 1093,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": "vacuum",
+        "duration": "10^9 cycles",
+        "test_method": "high frequency fatigue test at 20 kHz"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "RESULTS AND DISCUSSION",
+          "quote": "TABLE 4 Ratio of Fatigue-to-Tensile Strength TZC Molybdenum Alloy, Tested in Vacuum, ACOO 1 x lom7 Torr at 20 K cs",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "property": "fatigue strength",
+      "value": 16000,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "psi",
+      "conditions": {
+        "temperature_c": 1204,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": "vacuum",
+        "duration": "10^9 cycles",
+        "test_method": "high frequency fatigue test at 20 kHz"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "RESULTS AND DISCUSSION",
+          "quote": "TABLE 4 Ratio of Fatigue-to-Tensile Strength TZC Molybdenum Alloy, Tested in Vacuum, ACOO 1 x lom7 Torr at 20 K cs",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "property": "fatigue-to-tensile strength ratio",
+      "value": 0.29,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 982,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": "vacuum",
+        "duration": "10^9 cycles",
+        "test_method": "high frequency fatigue test at 20 kHz"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "RESULTS AND DISCUSSION",
+          "quote": "0.29",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "property": "fatigue-to-tensile strength ratio",
+      "value": 0.28,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1093,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": "vacuum",
+        "duration": "10^9 cycles",
+        "test_method": "high frequency fatigue test at 20 kHz"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "RESULTS AND DISCUSSION",
+          "quote": "0.28",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "property": "fatigue-to-tensile strength ratio",
+      "value": 0.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1204,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": "vacuum",
+        "duration": "10^9 cycles",
+        "test_method": "high frequency fatigue test at 20 kHz"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "RESULTS AND DISCUSSION",
+          "quote": "0.30",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "cyclic stress induced accelerated creep",
+      "category": "creep",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "SUMMARY",
+          "quote": "The application of a cyclic load to a statically-loaded specimen produced a marked acceleration in the degree of specimen extension.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "SUMMARY",
+          "quote": "The application of a cyclic load to a statically-loaded specimen produced a marked acceleration in the degree of specimen extension.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d3ae38eabaf1b08:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

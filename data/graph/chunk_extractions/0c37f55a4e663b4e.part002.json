@@ -1,0 +1,213 @@
+{
+  "document_id": "0c37f55a4e663b4e",
+  "chunk_id": "0c37f55a4e663b4e:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": null,
+    "doi": "10.1016/j.engfailanal.2020.104610"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "HPNb alloy",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": "20",
+          "section": "Highlights",
+          "quote": "(1) The paramagnetic structure of HPNb alloy change into ferromagnetic after carburization.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c37f55a4e663b4e:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "HPNb alloy tube",
+      "canonical_name": "HPNb",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "carburized",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "20",
+          "section": "Highlights",
+          "quote": "(4) Carburization reduced the high temperature creep strength of HPNb alloy tube.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c37f55a4e663b4e:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "M23C6",
+      "sample_id": "sample_1",
+      "material_state": "carburized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "20",
+          "section": "Highlights",
+          "quote": "(2) The M 23C6 carbides are replaced by carbon-rich M7C3 carbides in carburization zone.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c37f55a4e663b4e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "M7C3",
+      "sample_id": "sample_1",
+      "material_state": "carburized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "carburization zone",
+        "composition": "carbon-rich",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "20",
+          "section": "Highlights",
+          "quote": "(2) The M 23C6 carbides are replaced by carbon-rich M7C3 carbides in carburization zone.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c37f55a4e663b4e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "ferromagnetic structure",
+      "sample_id": "sample_1",
+      "material_state": "carburized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "20",
+          "section": "Highlights",
+          "quote": "(1) The paramagnetic structure of HPNb alloy change into ferromagnetic after carburization.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c37f55a4e663b4e:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "carburization",
+      "category": "environmental degradation",
+      "sample_id": "sample_1",
+      "material_state": "carburized",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "20",
+          "section": "Highlights",
+          "quote": "(4) Carburization reduced the high temperature creep strength of HPNb alloy tube.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c37f55a4e663b4e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "embrittlement",
+      "category": "degradation",
+      "sample_id": "sample_1",
+      "material_state": "carburized",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "20",
+          "section": "Highlights",
+          "quote": "(3) The carburized tube furnace tubes become brittle after carburization.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c37f55a4e663b4e:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "carburized",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "20",
+          "section": "Highlights",
+          "quote": "(3) The carburized tube furnace tubes become brittle after carburization.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c37f55a4e663b4e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "TRANSFORMS_TO",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "carburized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "20",
+          "section": "Highlights",
+          "quote": "(2) The M 23C6 carbides are replaced by carbon-rich M7C3 carbides in carburization zone.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c37f55a4e663b4e:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

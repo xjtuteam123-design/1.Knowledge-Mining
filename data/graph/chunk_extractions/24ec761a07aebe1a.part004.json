@@ -1,0 +1,149 @@
+{
+  "document_id": "24ec761a07aebe1a",
+  "chunk_id": "24ec761a07aebe1a:part:004",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "The brittle-to-ductile transition in cold-rolled tungsten sheets: the rate-limiting mechanism of plasticity controlling the BDT in ultrafine-grained tungsten",
+    "authors": [
+      "Carsten Bonnekoh",
+      "Philipp Lied",
+      "Stefan Zaefferer",
+      "Ute Jäntsch",
+      "Andreas Hoffmann",
+      "Jens Reiser",
+      "Michael Rieth"
+    ],
+    "journal": "Nuclear Materials and Energy",
+    "year": 2020,
+    "doi": "10.1016/j.nme.2020.100769"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "tungsten",
+      "material_category": "pure metal",
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "dislocation glide in W takes place in type {110} glide planes [126]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "24ec761a07aebe1a:part:004"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "material 4.1CR",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "cold-rolled",
+      "composition": [
+        {
+          "element": "W",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 15,
+              "section": null,
+              "quote": "Neutron irradiation campaigns including room-temperature ductile W (material 4.1CR) are presently performed",
+              "table": null,
+              "figure": null,
+              "chunk_id": "24ec761a07aebe1a:part:004"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "Neutron irradiation campaigns including room-temperature ductile W (material 4.1CR) are presently performed and will be subject of future publications.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "24ec761a07aebe1a:part:004"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "cold rolling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "severe",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "cold-rolled",
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "There is no evidence for a preferred development of CSL boundaries during severe rolling of W.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "24ec761a07aebe1a:part:004"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation nucleation at boundaries",
+      "category": "dislocation_mechanism",
+      "sample_id": "sample_1",
+      "material_state": "cold-rolled",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "enhanced dislocation nucleation stimulated by the presence of rolling-induced LABs and HABs seems very likely to be responsible for the low BDT temperatures of severely deformed W sheets with UFG microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "24ec761a07aebe1a:part:004"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,244 @@
+{
+  "document_id": "a7b6049e6cf2b485",
+  "chunk_id": "a7b6049e6cf2b485:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Tae Jin Jang",
+      "Gunjick Lee",
+      "Sang Yoon Song",
+      "Min Young Sung",
+      "Jun Ho Lee",
+      "Young-Kyun Kim",
+      "Hyokyung Sung",
+      "Aparna Saksena",
+      "Baptiste Gault",
+      "Se-Ho Kim",
+      "Alireza Zargaran",
+      "Young-Sang Na",
+      "Seok Su Sohn"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2025,
+    "doi": "10.1016/j.actamat.2025.121513"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "dual-phase high-entropy alloy (DHEA)",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "our DHEA shows unique DPF behavior",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a7b6049e6cf2b485:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "DHEA",
+      "canonical_name": "dual-phase high-entropy alloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "integrating coherent L1 2 precipitates by the direct aging process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a7b6049e6cf2b485:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "direct aging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "incorporating coherent L1 2 precipitates by the direct aging process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a7b6049e6cf2b485:part:003"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "L1 2 nanoprecipitates",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "coherent L1 2 nanoprecipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a7b6049e6cf2b485:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "property": "elongation",
+      "value": 16.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "while maintaining a ductility of 16.2 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a7b6049e6cf2b485:part:003"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The substantial precipitation strengthening from L1 2 nanoprecipitates enhances effective stress and minimizes stress drops",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a7b6049e6cf2b485:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "coherent L1 2 nanoprecipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a7b6049e6cf2b485:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The substantial precipitation strengthening from L1 2 nanoprecipitates enhances effective stress and minimizes stress drops",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a7b6049e6cf2b485:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "while maintaining a ductility of 16.2 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a7b6049e6cf2b485:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

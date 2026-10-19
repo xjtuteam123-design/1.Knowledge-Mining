@@ -1,0 +1,126 @@
+{
+  "document_id": "2e0b6465d72f84c1",
+  "chunk_id": "2e0b6465d72f84c1:part:006",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": null,
+    "doi": "10.1016/j.actamat.2020.06.042"
+  },
+  "alloy_systems": [],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "Gaussian process regression (GPR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of Vickers hardness of Co- and Ni-based superalloys",
+      "inputs": [
+        "composition",
+        "microstructural features"
+      ],
+      "target": "Vickers hardness",
+      "dataset": "superalloys database of Co- and Ni-based superalloys",
+      "validation": "train/test split",
+      "metrics": {
+        "r2_train": 0.99,
+        "r2_test": 0.97,
+        "rmse_train": 0.1,
+        "rmse_test": 0.14,
+        "rmse_percent_train": 2.46,
+        "rmse_percent_test": 3.44
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "3.2 Prediction of Vickers hardness using machine learning",
+          "quote": "Actual Value \nR2: 0.99/0.97 \nRMSE: 0.10/0.14",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2e0b6465d72f84c1:part:006"
+        },
+        {
+          "page": "11",
+          "section": "3.2 Prediction of Vickers hardness using machine learning",
+          "quote": "the best GPR model \nR2 of 0.99/0.98 and RMSE (%RMSE) \nof 0.10/0.14 (2.46/3.44)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:006"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "Gaussian process regression (GPR) with selected features",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of Vickers hardness of Co- and Ni-based superalloys",
+      "inputs": [
+        "selected composition features",
+        "selected microstructural features"
+      ],
+      "target": "Vickers hardness",
+      "dataset": "superalloys database; 25 principal components of composition",
+      "validation": "train/test split",
+      "metrics": {
+        "r2_train": 0.99,
+        "r2_test": 0.91,
+        "rmse_train": 0.1,
+        "rmse_test": 0.16,
+        "rmse_percent_train": 2.46,
+        "rmse_percent_test": 3.94
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "3.2 Prediction of Vickers hardness using machine learning",
+          "quote": "top 5 GPR \nmodels for 25 principal components with composition \nhasR2 (train/test) of 0.99/0.91 and RMSE (%RMSE) \nof 0.10/0.16 (2.46/3.94).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:006"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "Gaussian process regression (GPR) with LASSO feature selection",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of Vickers hardness of Co- and Ni-based superalloys",
+      "inputs": [
+        "LASSO-selected features"
+      ],
+      "target": "Vickers hardness",
+      "dataset": "superalloys database; combinatorial feature subsets",
+      "validation": "train/test split",
+      "metrics": {
+        "r2_train": 0.99,
+        "r2_test": 0.94,
+        "rmse_train": 0.11,
+        "rmse_test": 0.12,
+        "rmse_percent_train": 2.71,
+        "rmse_percent_test": 2.95
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.2 Prediction of Vickers hardness using machine learning",
+          "quote": "R2 of 0.99/0.94 and RMSE (%RMSE) \nof 0.11/0.12 (2.71/2.95).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:006"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": []
+}

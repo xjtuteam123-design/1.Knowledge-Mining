@@ -1,0 +1,456 @@
+{
+  "document_id": "273e74fcdccbbc6e",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Analysis of phenomenological equations of state for creep processes and the rupture strength of steels and alloys at high temperature",
+    "authors": [
+      "V. V. Osasyuk",
+      "A. N. Olisov"
+    ],
+    "journal": "Problemy Prochnosti",
+    "year": 1984,
+    "doi": "10.1007/BF01530020"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "heat-resistant Cr-Mo-V steel",
+      "material_category": "low-alloy steel",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "The results of tests of steel 12KhlMF at 575\"C confirmed this.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        },
+        {
+          "page": "7",
+          "section": "LITERATURE CITED",
+          "quote": "\"Stability of metal and reliability of steam lines made of steel 12ghlMF during 15 years of use,\"",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "12KhlMF",
+      "canonical_name": "12Kh1MF",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "initial state",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "The results of tests of steel 12KhlMF at 575\"C confirmed this.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        },
+        {
+          "page": "3",
+          "section": "Fig. 2",
+          "quote": "Load-extension curve of specimens\" of steel 12KhlMF ~Zf = i0 ram, Zf = i00 ram) at T = 575eC, v - 2 mm/mln with periodic unloadings.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "12KhlMF after preliminary service",
+      "canonical_name": "12Kh1MF",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "service-exposed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fig. 4",
+          "quote": "Creep curves of steel 12KhlMF at 575\"C and a stress of 120 MPa: i) after prellm~nary service for 2500 h at 100 MPa; 2) after preliminary service for 170 h at 120 MPa.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "service exposure",
+      "parameters": {
+        "temperature_c": 575,
+        "time": "2500 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 100
+        }
+      },
+      "input_state": "initial state",
+      "output_state": "service-exposed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fig. 4",
+          "quote": "i) after prellm~nary service for 2500 h at 100 MPa",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "service exposure",
+      "parameters": {
+        "temperature_c": 575,
+        "time": "170 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 120
+        }
+      },
+      "input_state": "initial state",
+      "output_state": "service-exposed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fig. 4",
+          "quote": "2) after preliminary service for 170 h at 120 MPa",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "tensile testing with periodic unloading",
+      "parameters": {
+        "temperature_c": 575,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "crosshead_speed": "2 mm/min",
+          "gage_length": "10 mm"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Fig. 2",
+          "quote": "Load-extension curve of specimens\" of steel 12KhlMF ~Zf = i0 ram, Zf = i00 ram) at T = 575eC, v - 2 mm/mln with periodic unloadings.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "carbide",
+      "sample_id": "sample_2",
+      "material_state": "service-exposed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "author_interpretation"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "its mechanical properties change continuously as a result of the transition of the alloying elements from solid solution in- to carbides and the formation of new phases and structures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "service-exposed",
+      "property": "creep rate",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 575,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fig. 4",
+          "quote": "Creep curves of steel 12KhlMF at 575\"C and a stress of 120 MPa: i) after prellm~nary service for 2500 h at 100 MPa",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "alloying element depletion from solid solution by carbide precipitation",
+      "category": "microstructural degradation",
+      "sample_id": "sample_2",
+      "material_state": "service-exposed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "the transition of the alloying elements from solid solution in- to carbides and the formation of new phases and structures and occurrence of other processes (apart from the formation of discontinuities) which lead to a deterioration in its service properties",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "time-dependent damage",
+      "category": "damage accumulation",
+      "sample_id": "sample_2",
+      "material_state": "service-exposed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "Time-dependent damage, connected with physlco- chemlcal processes in the material and consisting of a change in its mechanical character- istics during high-temperature holding under load, can be determined through mechanical tests of specimens after different periods of service.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "grain boundary softening",
+      "category": "degradation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "the boundaries soften more rapidly than the grains and their mechanical properties become lower than those of the grains after a certain period of time",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "initial state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "The results of tests of steel 12KhlMF at 575\"C confirmed this.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_2",
+      "material_state": "service-exposed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fig. 4",
+          "quote": "i) after prellm~nary service for 2500 h at 100 MPa",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_1",
+      "sample_id": "sample_2",
+      "material_state": "service-exposed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "the transition of the alloying elements from solid solution in- to carbides and the formation of new phases and structures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "process_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "service-exposed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "When a material works under load at high temperatures, its mechanical properties change continuously as a result of the transition of the alloying elements from solid solution in- to carbides and the formation of new phases and structures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "process_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "service-exposed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "Time-dependent damage, connected with physlco- chemlcal processes in the material and consisting of a change in its mechanical character- istics during high-temperature holding under load",
+          "table": null,
+          "figure": null,
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "service-exposed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fig. 4",
+          "quote": "Creep curves of steel 12KhlMF at 575\"C and a stress of 120 MPa: i) after prellm~nary service for 2500 h at 100 MPa; 2) after preliminary service for 170 h at 120 MPa.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "service-exposed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fig. 4",
+          "quote": "i) after prellm~nary service for 2500 h at 100 MPa",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "273e74fcdccbbc6e:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

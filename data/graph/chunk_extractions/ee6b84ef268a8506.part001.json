@@ -1,0 +1,522 @@
+{
+  "document_id": "ee6b84ef268a8506",
+  "chunk_id": "ee6b84ef268a8506:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Microstructure based model for creep of single crystal superalloys in the high temperature and low stress creep regime",
+    "authors": [
+      "V. Mohles",
+      "Y. Jiang",
+      "I. Steinbach",
+      "I. Roslyakova",
+      "D. Bürger",
+      "G. Eggeler"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2024,
+    "doi": "10.1016/j.msea.2024.146780"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "single crystal Ni-based superalloy",
+      "material_category": "single crystal superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Title/Introduction",
+          "quote": "Microstructure based model for creep of single crystal superalloys in the high temperature and low stress creep regime",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "ERBO/1",
+      "canonical_name": "ERBO/1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-crept",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Experimental data",
+          "quote": "The present paper refers to the microstructural evaluations published by Ahmed et al. [20] on the ERBO/1 single crystal Ni-base superalloy creep tested at T = 950 °C and σ = 350 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        },
+        {
+          "page": 2,
+          "section": "2. Experimental data",
+          "quote": "The total alloy composition is included in Table 4 .",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "uniaxial tensile creep testing",
+      "parameters": {
+        "temperature_c": 950,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 350,
+          "loading_direction": "<001>",
+          "specimen_diameter_mm": 4,
+          "gauge_length_mm": 10
+        }
+      },
+      "input_state": "initial cuboidal gamma/gamma-prime microstructure",
+      "output_state": "rafted microstructure",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Experimental data",
+          "quote": "The single crystals with about 4 mm diameter and 10 mm gauge length were loaded in <001> direction, just like for the SEM micrographs from Ref. [20].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "uniaxial tensile creep testing",
+      "parameters": {
+        "temperature_c": 920,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 300,
+          "loading_direction": "<001>"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Experimental data",
+          "quote": "Later, additional creep curves have been measured using the same equipment and procedures as described in Ref. [21] at the following five conditions, very close to the conditions used for deriving w(ε): [920 °C, 300 MPa]; [950 °C, 300 ± 30 MPa]; and [980 °C, 300 MPa].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (L1_2)",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "attributes": {
+        "phase_fraction": "≈70 %",
+        "size": "average cube edge length ≈ 0.4 μm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "SXs exhibit a microstructure where γ′-cubes (ordered L1 2-phase, average cube edge length: ≈ 0.4 μm, volume fraction: ≈ 70 %) are separated by thin γ-channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma (FCC)",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "attributes": {
+        "phase_fraction": "≈30 %",
+        "size": "average channel width ≈ 0.1 μm",
+        "morphology": "thin channels between gamma-prime cubes",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "thin γ-channels (crystal structure: f.c.c., average channel width: ≈ 0.1 μm, volume fraction: ≈ 30 %)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "raft structure",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rafts perpendicular to applied stress direction",
+        "location": "dendritic regions",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Rafting in the high temperature low stress creep regime leads to an increase of γ-channel widths w , a central microstructural parameter which is easily accessible in experiments.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "gamma channel",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Experimental data",
+          "quote": "From all images, the mean γ-channel width w was measured in <001> directions normal to the flat particle sides",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Defect",
+      "name": "dislocation dipole",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma channels",
+        "composition": null,
+        "identification_status": "model assumption"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Creep model",
+          "quote": "annihilation of dislocation dipoles by climb",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation climb",
+      "category": "recovery",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Recovery, i.e., the reduction of ρ, is modelled from thermally activated, mechanically assisted climb.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        },
+        {
+          "page": 4,
+          "section": "3. Creep model",
+          "quote": "annihilation of dislocation dipoles by climb",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "rafting",
+      "category": "microstructure evolution",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Rafting in the high temperature low stress creep regime leads to an increase of γ-channel widths w",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "strain hardening",
+      "category": "work hardening",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "we associate the decrease of deformation rate in the early stages of creep with an increase of dislocation density. This type of strain hardening is counteracted by a thermally activated recovery process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Experimental data",
+          "quote": "the ERBO/1 single crystal Ni-base superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Experimental data",
+          "quote": "creep tested at T = 950 °C and σ = 350 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ′-cubes (ordered L1 2-phase, average cube edge length: ≈ 0.4 μm, volume fraction: ≈ 70 %)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "thin γ-channels (crystal structure: f.c.c., average channel width: ≈ 0.1 μm, volume fraction: ≈ 30 %)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Rafting in the high temperature low stress creep regime leads to an increase of γ-channel widths w",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Creep model",
+          "quote": "annihilation of dislocation dipoles by climb",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Recovery, i.e., the reduction of ρ, is modelled from thermally activated, mechanically assisted climb.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Rafting in the high temperature low stress creep regime leads to an increase of γ-channel widths w",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "microstructure_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "as-crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Creep model",
+          "quote": "the dislocations move only in the γ-channels [20]. Hence the constrictions sketched in Fig. 2(a) are taken as the central assumption for the model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee6b84ef268a8506:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,522 @@
+{
+  "document_id": "8bd631509a460b10",
+  "chunk_id": "8bd631509a460b10:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Structure and Mechanical Properties of Low Doped-Zr TC4 Alloy Prepared by Spark Plasma Sintering",
+    "authors": [
+      "Aijun Chen",
+      "Hao Deng",
+      "Longqing Chen",
+      "Yongqiang Wei",
+      "Zuxi Xia",
+      "Jun Tang"
+    ],
+    "journal": "Advanced Engineering Materials",
+    "year": 2018,
+    "doi": "10.1002/adem.201800739"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "TC4-Zr alloy",
+      "material_category": "Ti alloy",
+      "evidence": []
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "TC4",
+      "canonical_name": "Ti-6Al-4V",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-sintered",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "sample_2",
+      "original_name": "TC4-Zr",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-sintered",
+      "composition": [
+        {
+          "element": "Zr",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "sample_3",
+      "original_name": "TC4-2Zr",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-sintered",
+      "composition": [
+        {
+          "element": "Zr",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "sample_4",
+      "original_name": "TC4-5Zr",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-sintered",
+      "composition": [
+        {
+          "element": "Zr",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": null,
+      "sequence": 1,
+      "method": "ball milling",
+      "parameters": {
+        "temperature_c": null,
+        "time": "50 h",
+        "pressure": null,
+        "atmosphere": "purified argon (99.999%, 0.5 MPa)",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "rotation_speed": "350 rpm",
+          "ball_to_powder_ratio": "10:1",
+          "ball_diameter": "12 and 6 mm"
+        }
+      },
+      "input_state": "powder",
+      "output_state": "milled powder",
+      "evidence": []
+    },
+    {
+      "id": "process_2",
+      "sample_id": null,
+      "sequence": 2,
+      "method": "spark plasma sintering (SPS)",
+      "parameters": {
+        "temperature_c": 850,
+        "time": "5 min",
+        "pressure": "60 MPa",
+        "atmosphere": "vacuum (5 Pa)",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "heating_rate": "100 °C min-1",
+          "die_diameter": "30 mm"
+        }
+      },
+      "input_state": "milled powder",
+      "output_state": "as-sintered compact",
+      "evidence": []
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-sintered",
+      "property": "tensile strength",
+      "value": 920,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-sintered",
+      "property": "tensile strength",
+      "value": 1014,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "as-sintered",
+      "property": "tensile strength",
+      "value": 1048,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_4",
+      "material_state": "as-sintered",
+      "property": "tensile strength",
+      "value": 1106,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-sintered",
+      "property": "elongation",
+      "value": 24.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "as-sintered",
+      "property": "elongation",
+      "value": 18.9,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_3",
+      "material_state": "as-sintered",
+      "property": "elongation",
+      "value": 17.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_4",
+      "material_state": "as-sintered",
+      "property": "elongation",
+      "value": 16.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "as-sintered",
+      "property": "yield strength",
+      "value": 860,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_2",
+      "material_state": "as-sintered",
+      "property": "yield strength",
+      "value": 986,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_3",
+      "material_state": "as-sintered",
+      "property": "yield strength",
+      "value": 1008,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_4",
+      "material_state": "as-sintered",
+      "property": "yield strength",
+      "value": 1029,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_1",
+      "material_state": "as-sintered",
+      "property": "elastic modulus",
+      "value": 112,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_14",
+      "sample_id": "sample_2",
+      "material_state": "as-sintered",
+      "property": "elastic modulus",
+      "value": 118,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_15",
+      "sample_id": "sample_3",
+      "material_state": "as-sintered",
+      "property": "elastic modulus",
+      "value": 120,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    },
+    {
+      "id": "observation_16",
+      "sample_id": "sample_4",
+      "material_state": "as-sintered",
+      "property": "elastic modulus",
+      "value": 123,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Instron 5892 testing machine"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": []
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,578 @@
+{
+  "document_id": "4631ff96c70d2e28",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A phase field model incorporating strain gradient viscoplasticity: Application to rafting in Ni-base superalloys",
+    "authors": [
+      "M. Cottura",
+      "Y. Le Bouar",
+      "A. Finel",
+      "B. Appolaire",
+      "K. Ammar",
+      "S. Forest"
+    ],
+    "journal": "Journal of the Mechanics and Physics of Solids",
+    "year": 2012,
+    "doi": "10.1016/j.jmps.2012.04.003"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "abstract",
+          "quote": "Then, the dynamic coupling between microstructure evolution and viscoplastic activity is addressed and illustrated by the rafting of the microstructure observed in Ni-base superalloys under creep conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        },
+        {
+          "page": "7",
+          "section": null,
+          "quote": "we have studied an AM1-type superalloy under loading for which data concerning its mechanical behavior are available in the literature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni-base superalloy (effective binary alloy, γ/γ′ two-phase)",
+      "canonical_name": "Ni-base superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "two-phase γ/γ′ microstructure, 950 °C",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Phase field model",
+          "quote": "In these alloys, the disordered g phase and the ordered g0 phase coexist at equilibrium.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        },
+        {
+          "page": "5",
+          "section": "3.1.1 1D: Analytical solution",
+          "quote": "the g0 volume fraction tg0 ¼ 0:7 used in Fig. 2",
+          "table": null,
+          "figure": "2",
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "AM1",
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "we have used tensile curves s vs. e obtained with a tensile strain rate _e 11 ¼ 10/C0 3 s/C0 1, in conditions where the microstructure is known not to evolve signiﬁcantly.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "creep",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "72 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 150
+        }
+      },
+      "input_state": null,
+      "output_state": "rafted",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.2.2",
+          "quote": "In the second step, a constant stress sa ¼ 150 MPa has been applied to the microstructure in Fig. 5 (0) along the horizontal axis, while holding temperature at 950 1C.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "two-phase γ/γ′ microstructure, 950 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "cγ = 0.15",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Phase field model",
+          "quote": "In these alloys, the disordered g phase and the ordered g0 phase coexist at equilibrium.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        },
+        {
+          "page": "3",
+          "section": "2.1.1 Ginzburg–Landau free energy",
+          "quote": "we have used the equilibrium concentrations cg ¼ 0:15 and cg0 ¼ 0:231",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "two-phase γ/γ′ microstructure, 950 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "cγ′ = 0.231",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Phase field model",
+          "quote": "In these alloys, the disordered g phase and the ordered g0 phase coexist at equilibrium.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        },
+        {
+          "page": "3",
+          "section": "2.1.1 Ginzburg–Landau free energy",
+          "quote": "we have used the equilibrium concentrations cg ¼ 0:15 and cg0 ¼ 0:231",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the curve s vs. e predicted with the parameters in Table 1 for the g bulk phase is compared to the experimental tensile curve of Espie´ (1996), with _e 11 ¼ 9 /C2 10/C0 4 s/C0 1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": 0.7,
+        "size": "450 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "such as the volume fraction tg0 ¼ 0:7 and the average precipitate size /C24 450 nm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "periodic γ/γ′ laminate (1D configuration)",
+      "sample_id": "sample_1",
+      "material_state": "1D static two-phase laminate",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "γ channel thickness s = 102 nm; γ′ precipitate thickness ℓ = 235 nm; γ′ volume fraction 0.7",
+        "morphology": "alternating elastic γ′ layers and plastic γ channels",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.1.1 1D: Analytical solution",
+          "quote": "a 1D conﬁguration has been chosen which mimics a periodic arrangement of elastic g0 layers with thickness ‘ and plastic g channels with thickness s along the x direction (Fig. 1).",
+          "table": null,
+          "figure": "1",
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        },
+        {
+          "page": "6",
+          "section": "Fig. 2 caption",
+          "quote": "in a 1D conﬁguration of two phases: g channel (plastic) of thickness s¼102 nm and g0 precipitates (elastic) of thickness ‘ ¼ 235 nm.",
+          "table": null,
+          "figure": "2",
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "cuboidal microstructure",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": 0.7,
+        "size": "450 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "such as the volume fraction tg0 ¼ 0:7 and the average precipitate size /C24 450 nm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "rafted microstructure",
+      "sample_id": "sample_2",
+      "material_state": "rafted",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rafts",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.2.2",
+          "quote": "the microstructure tends towards a morphology of rafts aligned along the same direction perpendicular to the tensile axis.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "property": "stress",
+      "value": 560,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 950,
+        "strain_rate": 0.001,
+        "loading_mode": "tension",
+        "orientation": "[100]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "at e ¼ 0:07%, s /C25 560 MPa",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "plastic size effect",
+      "category": "strain gradient plasticity",
+      "sample_id": "sample_1",
+      "material_state": "1D static two-phase laminate",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "abstract",
+          "quote": "Plasticity is introduced using a continuum strain gradient formalism which captures the size effect of the viscoplastic behavior.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "rafting",
+      "category": "microstructural evolution",
+      "sample_id": "sample_2",
+      "material_state": "rafted",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.2.2",
+          "quote": "the microstructure tends towards a morphology of rafts aligned along the same direction perpendicular to the tensile axis.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Phase field model",
+          "quote": "The coupling between phase ﬁeld method and mesoscale viscoplastic model is presented in the context of the microstructural evolution in Ni-base superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "two-phase γ/γ′ microstructure, 950 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Phase field model",
+          "quote": "In these alloys, the disordered g phase and the ordered g0 phase coexist at equilibrium.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "two-phase γ/γ′ microstructure, 950 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Phase field model",
+          "quote": "In these alloys, the disordered g phase and the ordered g0 phase coexist at equilibrium.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "1D static two-phase laminate",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Fig. 2 caption",
+          "quote": "in a 1D conﬁguration of two phases: g channel (plastic) of thickness s¼102 nm and g0 precipitates (elastic) of thickness ‘ ¼ 235 nm.",
+          "table": null,
+          "figure": "2",
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "1D static two-phase laminate",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "abstract",
+          "quote": "Plasticity is introduced using a continuum strain gradient formalism which captures the size effect of the viscoplastic behavior.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "we have studied an AM1-type superalloy under loading for which data concerning its mechanical behavior are available in the literature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "FORMS",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "such as the volume fraction tg0 ¼ 0:7 and the average precipitate size /C24 450 nm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_2",
+      "material_state": "rafted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.2.2",
+          "quote": "the microstructure tends towards a morphology of rafts aligned along the same direction perpendicular to the tensile axis.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "4631ff96c70d2e28:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "y",
+    "Z0",
+    "q",
+    "z",
+    "R0",
+    "Dg",
+    "Dw"
+  ],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

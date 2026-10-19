@@ -1,0 +1,1161 @@
+{
+  "document_id": "1008f0d686d91c08",
+  "chunk_id": "1008f0d686d91c08:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Dongdong Zhang",
+      "Hucheng Pan",
+      "Jingren Li",
+      "Dongsheng Xie",
+      "Deping Zhang",
+      "Chaojie Che",
+      "Jian Meng",
+      "Gaowu Qin"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": "2022",
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mg-RE alloy",
+      "material_category": "magnesium-rare-earth alloy",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2. Comparison with other Mg-RE extruded alloys",
+          "quote": "the present alloy has only 4% RE, but the strength exceeds 450 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "As-extruded",
+      "canonical_name": "Mg-RE (4% RE) alloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-extruded",
+      "composition": [
+        {
+          "element": "RE",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "% (basis not specified)",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "8",
+              "section": "4.2. Comparison with other Mg-RE extruded alloys",
+              "quote": "the present alloy has only 4% RE",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1008f0d686d91c08:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Peak-aged",
+      "canonical_name": "Mg-RE (4% RE) alloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "peak-aged",
+      "composition": [
+        {
+          "element": "RE",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "% (basis not specified)",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "8",
+              "section": "4.2. Comparison with other Mg-RE extruded alloys",
+              "quote": "the present alloy has only 4% RE",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1008f0d686d91c08:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "extrusion",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "description": "simple low-temperature and low-speed extrusion process"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-extruded",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "5. Conclusion",
+          "quote": "ultra-high-strength is achieved in a low-RE-alloyed Mg alloy by a simple low-temperature and low-speed extrusion process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "ageing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "description": "peak-ageing"
+        }
+      },
+      "input_state": "as-extruded",
+      "output_state": "peak-aged",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Fig. 8 caption",
+          "quote": "Precipitates in the hot-worked region of the as-extruded alloy after peak-ageing",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Mg3Sm",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "attributes": {
+        "phase_fraction": 0.87,
+        "size": "mean particle radius 19.2 nm",
+        "morphology": null,
+        "location": "grain boundaries and hot-worked regions",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1.2. Strengthening of Mg3RE particle",
+          "quote": "r is the mean particle radius of 19.2 nm according to Fig. 8",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "bimodal microstructure",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "fine recrystallized grains df = ~1 μm; coarse hot-worked grains dc = ~40 μm",
+        "morphology": "bimodal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1.1",
+          "quote": "For the present alloy, df = ~1 μm and dc = ~40 μm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "basal texture",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "strong",
+        "location": "hot-worked regions",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1.1",
+          "quote": "bimodal grains provide strengthening by synergy effect of fine grains in recrystallized regions and strongly basal texture in hot-worked regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "property": "ultimate tensile strength",
+      "value": 435,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 3,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "property": "tensile yield strength",
+      "value": 430,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 2,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "property": "elongation to failure",
+      "value": 6.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 1.2,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "property": "ultimate compressive strength",
+      "value": 463,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 6,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "property": "compressive yield strength",
+      "value": 305,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 3,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "property": "elongation to failure",
+      "value": 9.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 1.6,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "property": "ultimate tensile strength",
+      "value": 462,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 4,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "property": "tensile yield strength",
+      "value": 458,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 2,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "property": "elongation to failure",
+      "value": 4.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.8,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "property": "ultimate compressive strength",
+      "value": 445,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 4,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "property": "compressive yield strength",
+      "value": 328,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 3,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "property": "elongation to failure",
+      "value": 7.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 1.4,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1.1",
+          "quote": "bimodal grains provide strengthening by synergy effect of fine grains in recrystallized regions and strongly basal texture in hot-worked regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Orowan dislocation bypassing",
+      "category": "particle strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.1.2",
+          "quote": "Orowan dislocation bypassing is the operative mechanism responsible for particle strengthening of Mg3Sm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "5. Conclusion",
+          "quote": "ultra-high-strength is achieved in a low-RE-alloyed Mg alloy by a simple low-temperature and low-speed extrusion process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Fig. 8 caption",
+          "quote": "Precipitates in the hot-worked region of the as-extruded alloy after peak-ageing",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1.2. Strengthening of Mg3RE particle",
+          "quote": "r is the mean particle radius of 19.2 nm according to Fig. 8",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1.1",
+          "quote": "For the present alloy, df = ~1 μm and dc = ~40 μm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1.1",
+          "quote": "bimodal grains provide strengthening by synergy effect of fine grains in recrystallized regions and strongly basal texture in hot-worked regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1.1",
+          "quote": "bimodal grains provide strengthening by synergy effect of fine grains in recrystallized regions and strongly basal texture in hot-worked regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.1.2",
+          "quote": "Orowan dislocation bypassing is the operative mechanism responsible for particle strengthening of Mg3Sm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1.1",
+          "quote": "bimodal grains provide strengthening by synergy effect of fine grains in recrystallized regions and strongly basal texture in hot-worked regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.1.2",
+          "quote": "Since dynamical precipitation of Mg3Sm particle principally occurred in hot-worked regions, the yield strength increment from particle strengthening should be 0.55 ΔσOrowan = ~151 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "As-extruded 435 ± 3 430 ± 2 6.0 ± 1.2 463 ± 6 305 ± 3 9.5 ± 1.6 0.709",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_9",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_10",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_11",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_12",
+      "sample_id": "sample_2",
+      "material_state": "peak-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Table 1",
+          "quote": "Peak-aged 462 ± 4 458 ± 2 4.8 ± 0.8 445 ± 4 328 ± 3 7.5 ± 1.4 0.716",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1008f0d686d91c08:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

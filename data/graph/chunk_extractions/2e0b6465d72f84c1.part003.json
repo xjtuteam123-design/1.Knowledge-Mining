@@ -1,0 +1,153 @@
+{
+  "document_id": "2e0b6465d72f84c1",
+  "chunk_id": "2e0b6465d72f84c1:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": null,
+    "doi": "10.1016/j.actamat.2020.06.042"
+  },
+  "alloy_systems": [],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "principal component analysis (PCA)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "dimensionality reduction of feature space by capturing the maximum number of independent variables in the dataset",
+      "inputs": [],
+      "target": null,
+      "dataset": "features of the training dataset",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The central motive of PCA is reduction of dimensionality of any dataset containing huge number of independent variables such that the variability exhibited by the data is maximized.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:003"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "support vector regression (SVR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "map training data to a higher dimensional space and find a linear relationship between features and target property",
+      "inputs": [],
+      "target": "property of interest",
+      "dataset": "training dataset",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the support vector regression (SVR), where the objective is to map the training data to a higher dimensional space and find a linear relationship between the features and its target property as shown [42]:",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:003"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "Gaussian process regression (GPR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "Bayesian nonlinear regression predicting the target variable from input features",
+      "inputs": [],
+      "target": null,
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The second approach uses non parametric Gaussian process regression (GPR). GPR is a Bayesian approach in which the target variable takes the form of [45]:",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:003"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": null,
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The central motive of PCA is reduction of dimensionality of any dataset containing huge number of independent variables such that the variability exhibited by the data is maximized.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "ml_model_2",
+      "predicate": "PREDICTS",
+      "target_id": null,
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "where, the objective is to map the training data to a higher dimensional space and find a linear relationship between the features and its target property as shown [42]:",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "ml_model_3",
+      "predicate": "PREDICTS",
+      "target_id": null,
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "GPR is a Bayesian approach in which the target variable takes the form of [45]:",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

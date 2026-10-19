@@ -1,0 +1,404 @@
+{
+  "document_id": "ea7c5fb2e6fe45ce",
+  "chunk_id": "ea7c5fb2e6fe45ce:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Design of Re-free nickel-base single crystal superalloys using modelling and experimental validations",
+    "authors": [
+      "Longfei Zhang",
+      "Zaiwang Huang",
+      "Yanming Pan",
+      "Liang Jiang"
+    ],
+    "journal": "Modelling and Simulation in Materials Science and Engineering",
+    "year": 2019,
+    "doi": "10.1088/1361-651X/ab2031"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Cr-Co-Al-Ti-Ta-Mo-W alloy system",
+      "material_category": "nickel-base single crystal superalloy",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "2.2. Modelling procedures",
+          "quote": "Considering the common elements added in the developed SC superalloys [1], the Ni-Cr-Co-Al-Ti-Ta-Mo-W alloy system was selected for designing Re-free alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Re-free nickel-base single crystal superalloy",
+      "material_category": "nickel-base single crystal superalloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "To explore the design space of Re-free nickel-base single crystal superalloys, computer-aid model ling procedures were developed based on thermodynamic calculations and regression analysis.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "nickel-base single crystal superalloy",
+      "material_category": "nickel-base single crystal superalloy",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "1. Introduction",
+          "quote": "It has been nearly 40 years for the compositional evolution of nickel-base single crystal (SC) superalloys, which have been extensively used in aero-engines and industrial gas turbines as the materials of hot section components, such as the high pressure turbine blades [1,2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "SC11",
+      "canonical_name": "SC11",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "Two Re-free alloys SC11 and SC21 were tested to validate the modelling procedures. The results indicated after ageing treatment, SC11 that violated the constraints of misfit and phase stability number exhibited premature γ′ coalescence; while SC21 that fulfilled all the constraints exhibited the targeted microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "SC21",
+      "canonical_name": "SC21",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "SC21 that fulfilled all the constraints exhibited the targeted microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_3",
+      "material_state": "heat-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.2.3. Creep resistance model",
+          "quote": "It is known [32] that the second generation alloy CMSX-4 is one of the most successful alloys that has been extensively used in aero and industry turbine applications, which has shown an excellent combination of high temperature strength and phase stability. This can be attributed to its close to optimum microstructural architecture [2], including ~70 vol.% of γ′ phase and an appropriate γ/γ′ misfit to confer cuboidal γ′ precipitates with a uniform size of ~0.5 μm after heat treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "ageing treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "The results indicated after ageing treatment, SC11 that violated the constraints of misfit and phase stability number exhibited premature γ′ coalescence; while SC21 that fulfilled all the constraints exhibited the targeted microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": 70,
+        "size": "~0.5 μm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.2.3. Creep resistance model",
+          "quote": "including ~70 vol.% of γ′ phase and an appropriate γ/γ′ misfit to confer cuboidal γ′ precipitates with a uniform size of ~0.5 μm after heat treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "γ' coalescence",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "SC11 that violated the constraints of misfit and phase stability number exhibited premature γ′ coalescence",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "targeted microstructure",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "SC21 that fulfilled all the constraints exhibited the targeted microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "TCP",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "although a limited amount of TCP phases were formed during high temperature creep.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "property": "creep resistance",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "resulting in inferior creep resistance than prediction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "property": "creep resistance",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "SC21 exhibited creep resistance as expected",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "γ' coalescence",
+      "category": "microstructural degradation",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "SC11 that violated the constraints of misfit and phase stability number exhibited premature γ′ coalescence",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "microstructural degradation",
+      "category": "creep",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "caused severe microstructur al degradation during creep, resulting in inferior creep resistance than prediction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "microstructure_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "SC11 that violated the constraints of misfit and phase stability number exhibited premature γ′ coalescence; while SC21 that fulfilled all the constraints exhibited the targeted microstructure. The inappropriate misfit and phase stability number in SC11 caused severe microstructur al degradation during creep, resulting in inferior creep resistance than prediction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "SC11 that violated the constraints of misfit and phase stability number exhibited premature γ′ coalescence; while SC21 that fulfilled all the constraints exhibited the targeted microstructure. The inappropriate misfit and phase stability number in SC11 caused severe microstructur al degradation during creep, resulting in inferior creep resistance than prediction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ea7c5fb2e6fe45ce:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,1147 @@
+{
+  "document_id": "1f55efc527aa24c3",
+  "chunk_id": "1f55efc527aa24c3:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Optimization of composition and heat treatment of Ti-4Al-2Fe-xMn TRIP titanium alloys using an artificial neural network",
+    "authors": [
+      "Jeong Mok Oh",
+      "P.L. Narayana",
+      "Jae-Keun Hong",
+      "Jong-Taek Yeom",
+      "N.S. Reddy",
+      "Namhyun Kang",
+      "Chan Hee Park"
+    ],
+    "journal": "Journal of Alloys and Compounds",
+    "year": 2021,
+    "doi": "10.1016/j.jallcom.2021.161029"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ti-Al-Fe-Mn TRIP titanium alloy",
+      "material_category": "titanium alloy",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The high Mn content of the 4 wt% Mn alloy led to retained β in the microstructure after deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ti–4Al–2Fe–1Mn (wt%)",
+      "canonical_name": "Ti-4Al-2Fe-1Mn",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "(a, e, i) x = 1 wt%;",
+              "table": null,
+              "figure": "Fig. 8",
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Fig. 8. Electron backscatter diffraction (EBSD) maps of 883 °C-heat-treated Ti–4Al–2Fe–xMn (wt%) alloys after tensile deformation. (a, e, i) x = 1 wt%;",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Ti–4Al–2Fe–2Mn (wt%)",
+      "canonical_name": "Ti-4Al-2Fe-2Mn",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "(b, f, j) x = 2 wt%;",
+              "table": null,
+              "figure": "Fig. 8",
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Fig. 8. Electron backscatter diffraction (EBSD) maps of 883 °C-heat-treated Ti–4Al–2Fe–xMn (wt%) alloys after tensile deformation. (b, f, j) x = 2 wt%;",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Ti–4Al–2Fe–3Mn (wt%)",
+      "canonical_name": "Ti-4Al-2Fe-3Mn",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "(c, g, k) x = 3 wt%;",
+              "table": null,
+              "figure": "Fig. 8",
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Fig. 8. Electron backscatter diffraction (EBSD) maps of 883 °C-heat-treated Ti–4Al–2Fe–xMn (wt%) alloys after tensile deformation. (c, g, k) x = 3 wt%;",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "Ti–4Al–2Fe–4Mn (wt%)",
+      "canonical_name": "Ti-4Al-2Fe-4Mn",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Ti–4Al–2Fe–xMn (x = 1, 2, 3, and 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "(d, h, l) x = 4 wt%.",
+              "table": null,
+              "figure": "Fig. 8",
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Fig. 8. Electron backscatter diffraction (EBSD) maps of 883 °C-heat-treated Ti–4Al–2Fe–xMn (wt%) alloys after tensile deformation. (d, h, l) x = 4 wt%.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "optimized alloy (Ti–4Al–2Fe–1.4Mn, 883 °C HT)",
+      "canonical_name": "Ti-4Al-2Fe-1.4Mn",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated at 883 °C",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "5. Conclusion",
+              "quote": "The optimized conditions for maximizing the UTS × El value were predicted to be 1.4 wt% Mn and HT temperature of 883 °C.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "5. Conclusion",
+              "quote": "Ti–4Al–2Fe–xMn (x = 0, 1, 2, 3, 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "5. Conclusion",
+              "quote": "Ti–4Al–2Fe–xMn (x = 0, 1, 2, 3, 4 wt%) alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 1.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "5. Conclusion",
+              "quote": "The optimized conditions for maximizing the UTS × El value were predicted to be 1.4 wt% Mn and HT temperature of 883 °C.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1f55efc527aa24c3:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": "5. Conclusion",
+          "quote": "The optimized conditions for maximizing the UTS × El value were predicted to be 1.4 wt% Mn and HT temperature of 883 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 883,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "heat-treated at 883 °C",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "883 °C-heat-treated Ti–4Al–2Fe–xMn (wt%) alloys after tensile deformation",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 883,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "heat-treated at 883 °C",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "883 °C-heat-treated Ti–4Al–2Fe–xMn (wt%) alloys after tensile deformation",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 883,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "heat-treated at 883 °C",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "883 °C-heat-treated Ti–4Al–2Fe–xMn (wt%) alloys after tensile deformation",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_4",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 883,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "heat-treated at 883 °C",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "883 °C-heat-treated Ti–4Al–2Fe–xMn (wt%) alloys after tensile deformation",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_5",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 883,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "heat-treated at 883 °C",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "5. Conclusion",
+          "quote": "The optimized conditions for maximizing the UTS × El value were predicted to be 1.4 wt% Mn and HT temperature of 883 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "αp",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The fraction of αp decreased with increasing Mn content",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "β",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the β/β boundaries changed from HABs to LABs",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "α′SIM",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The α′SIM that formed at lower Mn contents included several variants and was relatively small",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "coarse β grain",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "coarse",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "coarse β grains were formed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "high-angle boundary (HAB)",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "β/β boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the β/β boundaries changed from HABs to LABs",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "strain concentration",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "prior β boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the alloy with 3 wt% Mn exhibited strain concentration in the prior β boundaries rather than in α′SIM",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "dynamic grain refinement",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "author_interpretation"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "This decrease in the grain refinement efficiency with increasing Mn content was confirmed by comparing the geometrical necessary dislocation densities of the alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "property": "geometrical necessary dislocation density",
+      "value": 5690000000000000.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "m−2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "EBSD"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the geometrical necessary dislocation densities of the alloys, which were 56.9 × 1014, 43.9 × 1014, and 33.4 × 1014 m−2 for the alloys with 1, 2, and 3 wt% Mn, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "property": "geometrical necessary dislocation density",
+      "value": 4390000000000000.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "m−2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "EBSD"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the geometrical necessary dislocation densities of the alloys, which were 56.9 × 1014, 43.9 × 1014, and 33.4 × 1014 m−2 for the alloys with 1, 2, and 3 wt% Mn, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "property": "geometrical necessary dislocation density",
+      "value": 3340000000000000.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "m−2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "EBSD"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the geometrical necessary dislocation densities of the alloys, which were 56.9 × 1014, 43.9 × 1014, and 33.4 × 1014 m−2 for the alloys with 1, 2, and 3 wt% Mn, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_4",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "property": "UTS × El",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Therefore, the 4 wt% Mn alloy did not exhibit TRIP behavior dominantly, which resulted in a low UTS × El value.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "transformation-induced plasticity (TRIP)",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The increased strain led to the transformation of the metastable β phase to α′SIM due to TRIP behavior",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "pinning effect",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The fraction of αp decreased with increasing Mn content, which weakened the pinning effect of αp that inhibited grain growth during the HT process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dynamic grain refinement",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The α′SIM that formed at lower Mn contents included several variants and was relatively small, thereby leading to excellent mechanical properties. However, a slight increase in Mn content led to α′SIM with limited variants and increased size, which reduced the efficiency of dynamic grain refinement.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "artificial neural network (ANN)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression to predict UTS and El",
+      "inputs": [
+        "Mn content",
+        "HT temperature"
+      ],
+      "target": "UTS, El",
+      "dataset": "database of Ti–4Al–2Fe–xMn (x = 0, 1, 2, 3, 4 wt%) alloys produced at various HT temperatures",
+      "validation": "R2 value",
+      "metrics": {
+        "R2": 0.999
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "5. Conclusion",
+          "quote": "The UTS and El values of Ti–4Al–2Fe–xMn (x = 0, 1, 2, 3, 4 wt%) alloys produced at various HT temperatures were predicted using an ANN model with an accuracy of 99.9% (based on R2 value).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The increased strain led to the transformation of the metastable β phase to α′SIM due to TRIP behavior",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the alloy with 3 wt% Mn exhibited strain concentration in the prior β boundaries rather than in α′SIM",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The α′SIM that formed at lower Mn contents included several variants and was relatively small, thereby leading to excellent mechanical properties.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_3",
+      "predicate": "DEGRADES",
+      "target_id": "observation_4",
+      "sample_id": "sample_4",
+      "material_state": "heat-treated at 883 °C and tensile deformed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Therefore, the 4 wt% Mn alloy did not exhibit TRIP behavior dominantly, which resulted in a low UTS × El value.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f55efc527aa24c3:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

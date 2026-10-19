@@ -1,0 +1,163 @@
+{
+  "document_id": "2e0b6465d72f84c1",
+  "chunk_id": "2e0b6465d72f84c1:part:004",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "A. K. Singh"
+    ],
+    "journal": null,
+    "year": null,
+    "doi": "10.1016/j.actamat.2020.06.042"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Co-and-Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "accelerated prediction of Vickers hardness of Co- and Ni-based superalloys using machine learning",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:004"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.1 Microstructure analysis",
+          "quote": "the gamma phase is kept as black section and the gamma-prime phase is kept white as shown in Fig1.",
+          "table": null,
+          "figure": "Fig1",
+          "chunk_id": "2e0b6465d72f84c1:part:004"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma-prime phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.1 Microstructure analysis",
+          "quote": "the gamma phase is kept as black section and the gamma-prime phase is kept white as shown in Fig1.",
+          "table": null,
+          "figure": "Fig1",
+          "chunk_id": "2e0b6465d72f84c1:part:004"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "machine learning model",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "Vickers hardness prediction",
+      "inputs": [
+        "principal components of individual principal components"
+      ],
+      "target": "Vickers hardness",
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.2 Property prediction",
+          "quote": "The PC values computed from 2-point correlations are used as feature set for training the ML model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:004"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "ml_model_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "accelerated prediction of Vickers hardness of Co- and Ni-based superalloys using machine learning",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:004"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_2",
+      "predicate": "COMPARED_WITH",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.1 Microstructure analysis",
+          "quote": "the gamma phase is kept as black section and the gamma-prime phase is kept white as shown in Fig1.",
+          "table": null,
+          "figure": "Fig1",
+          "chunk_id": "2e0b6465d72f84c1:part:004"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "2-point correlation",
+    "principal component analysis (PCA)",
+    "interface delimited"
+  ],
+  "conflicts": []
+}

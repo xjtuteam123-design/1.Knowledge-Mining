@@ -1,0 +1,165 @@
+{
+  "document_id": "85d40e8a4c001f65",
+  "chunk_id": "85d40e8a4c001f65:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Journal of Materials Research and Technology",
+    "year": 2022,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "P/M Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "temperature is a more controlling processing factor than the strain rate in the failure behaviors of the P/M Ni-based superalloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85d40e8a4c001f65:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "P/M Ni-based superalloy",
+      "canonical_name": "P/M Ni-based superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "hot compressed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "13",
+          "section": "4. Conclusions",
+          "quote": "In summary, we employed isothermal hot compression experiments and FEA to study the deformation and failure of a P/M Ni-based superalloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85d40e8a4c001f65:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "isothermal hot compression",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "50% nominal strain",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range_c": "1050-1150",
+          "strain_rate_range_s-1": "0.001-1"
+        }
+      },
+      "input_state": null,
+      "output_state": "hot compressed",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "4. Conclusions",
+          "quote": "Compression of the sample under different temperatures and strain rates was performed till a nominal strain of 50%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85d40e8a4c001f65:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "hot compressed",
+      "property": "failure strain",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "FEA simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "the value in pink labels, i.e., the failure strain εf, increases with the increase of strain rate.",
+          "table": null,
+          "figure": "12",
+          "chunk_id": "85d40e8a4c001f65:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "work hardening",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "hot compressed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "This phenomenon can be attributed to the high degree of work hardening at low temperatures and a long time of intense stress imposed on the samples during low strain rates to permit sufficient time for damage initiation and propagation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85d40e8a4c001f65:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "hot compressed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "This phenomenon can be attributed to the high degree of work hardening at low temperatures and a long time of intense stress imposed on the samples during low strain rates to permit sufficient time for damage initiation and propagation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85d40e8a4c001f65:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

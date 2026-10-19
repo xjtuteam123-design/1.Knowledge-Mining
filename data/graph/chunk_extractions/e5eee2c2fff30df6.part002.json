@@ -1,0 +1,182 @@
+{
+  "document_id": "e5eee2c2fff30df6",
+  "chunk_id": "e5eee2c2fff30df6:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Crystal Viscoplasticity Model of Molybdenum Including the Influence of Silicon in Solid Solution",
+    "authors": [
+      "K. A. Brindley",
+      "R. W. Neu"
+    ],
+    "journal": null,
+    "year": 2019,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mo-Si alloy",
+      "material_category": "refractory metal alloy",
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "Mo with any addition of Si in solid solution [8]. As a result of the changing dislocation mobilities, Mo shows different strain rate sensitivity as a function of Si content.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e5eee2c2fff30df6:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": null,
+      "sequence": 1,
+      "method": "arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "arc-melted",
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "Due to the inconsistency in experimental yield strength as a function of strain rate from the arc-melted α-Mo experiments",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e5eee2c2fff30df6:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "alpha-Mo",
+      "sample_id": null,
+      "material_state": "arc-melted",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Mo with Si in solid solution",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "Mo with Si in solid solution is relatively insensitive to strain rate at room temperature and becomes sensitive to strain rate at higher temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e5eee2c2fff30df6:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid solution softening",
+      "category": "solid solution effect",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "21",
+          "section": "Conclusions",
+          "quote": "These experiments provide evidence of solid solution softening in α-Mo in agreement with limited previous experiments and confirm the sharp contrast in behavior between pure Mo and Mo with Si in solid solution.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e5eee2c2fff30df6:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": null,
+      "material_state": "arc-melted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "Due to the inconsistency in experimental yield strength as a function of strain rate from the arc-melted α-Mo experiments",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e5eee2c2fff30df6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": "arc-melted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "the arc-melted α-Mo experiments",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e5eee2c2fff30df6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "21",
+          "section": "Conclusions",
+          "quote": "These experiments provide evidence of solid solution softening in α-Mo in agreement with limited previous experiments and confirm the sharp contrast in behavior between pure Mo and Mo with Si in solid solution.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e5eee2c2fff30df6:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

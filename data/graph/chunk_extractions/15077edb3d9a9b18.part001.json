@@ -1,0 +1,1107 @@
+{
+  "document_id": "15077edb3d9a9b18",
+  "chunk_id": "15077edb3d9a9b18:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Predicting creep-fatigue and thermomechanical fatigue life of Ni-base superalloys using a probabilistic physics-guided neural network",
+    "authors": [
+      "Rohan Acharya",
+      "Alexander N. Caputo",
+      "Richard W. Neu"
+    ],
+    "journal": "Fatigue & Fracture of Engineering Materials & Structures",
+    "year": 2023,
+    "doi": "10.1111/ffe.13948"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The model is demonstrated from a comprehensive set of data on single-crystal and directionally solidified Ni-base superalloys extracted from the literature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": null,
+      "canonical_name": "CMSX-8",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Estrada Rodas, Gorgannejad, Neu 9 CMSX-8 SX IF None, T, C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        },
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "All data included in the database were cast and heat treated using a typical treatment, solution treated and age hardened",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": null,
+      "canonical_name": "PWA1484",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Amaro, Antolovich, Neu 10 PWA1484 SX TMF None, C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": null,
+      "canonical_name": "STAL-15",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Segersäll, Leidermark, Moverare 11 STAL-15 SX TMF C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": null,
+      "canonical_name": "René N5",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Lafata, Rettberg, He, Pollock 13 René N5 SX IF C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": null,
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Hong, Choi, Kim, Yoo, Jo 14 CMSX-4 SX IF T&C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": null,
+      "canonical_name": "CMSX-6",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Ott, Mughrabi19 CMSX-4, CSMX-6 SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": null,
+      "canonical_name": "CM247LC",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Okazaki, Take, Kakehi, Yamazaki, Sakane, Arai, et al 20 CMSX-4 CM247LC SX DS IF, TMF IF, TMF None, C None, C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_8",
+      "original_name": null,
+      "canonical_name": "CMSX-4 PLUS",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Wahl, Harris 21 CMSX-4 PLUS SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_9",
+      "original_name": null,
+      "canonical_name": "LSC-11",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Yandt, Wu, Tsuno, Sato 22 LSC-11, CSMX-4 SX IF None, C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_10",
+      "original_name": null,
+      "canonical_name": "CMSX-2",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Okazaki, Sakaguchi23 CMSX-2, CSMX-4 SX IF, TMF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_11",
+      "original_name": null,
+      "canonical_name": "CMSX-7",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Wahl, Harris24 CMSX-7, CMSX-8 SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_12",
+      "original_name": null,
+      "canonical_name": "STAL-15-Si",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Segersäll, Kontis, Pedrazzini, Bagot, Moody, Moverare, et al 27 STAL-15, STAL-15-Si, STAL-15-Re SX TMF C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_13",
+      "original_name": null,
+      "canonical_name": "STAL-15-Re",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Segersäll, Kontis, Pedrazzini, Bagot, Moody, Moverare, et al 27 STAL-15, STAL-15-Si, STAL-15-Re SX TMF C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_14",
+      "original_name": null,
+      "canonical_name": "SCA425Hf",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Moverare, Johansson 28 SCA425Hf SX TMF C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_15",
+      "original_name": null,
+      "canonical_name": "René N4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Gabb, Gayda, Miner 29 René N4 SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_16",
+      "original_name": null,
+      "canonical_name": "SRR99",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Yu, Sun, Jin, Zhao, Guan, Hu 30 SRR99 SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_17",
+      "original_name": null,
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Fleury, Rémy32 AM1 SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_18",
+      "original_name": null,
+      "canonical_name": "GTD-111",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Shenoy, Gordon, McDowell, Neu 34 GTD-111 DS IF None, T, C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_19",
+      "original_name": null,
+      "canonical_name": "René 80H",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and age hardened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Okazaki, Tabata, Nohmi 40 René 80H, CM247LC DS IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "casting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "All data included in the database were cast and heat treated using a typical treatment, solution treated and age hardened",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "solution treated",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "All data included in the database were cast and heat treated using a typical treatment, solution treated and age hardened",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution treated",
+      "output_state": "solution treated and age hardened",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "All data included in the database were cast and heat treated using a typical treatment, solution treated and age hardened",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": "50-70%",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "All these superalloys are typically γ′ strengthened, containing from 50 to 70% γ′.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "γ′ precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "All these superalloys are typically γ′ strengthened, containing from 50 to 70% γ′.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "probabilistic physics-guided neural network (PPgNN)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict mean fatigue life (cycles to failure) and its confidence interval for creep-fatigue and thermomechanical fatigue histories",
+      "inputs": [
+        "strain range",
+        "maximum temperature",
+        "minimum temperature",
+        "temperature-strain phase factor (TSPFalt)",
+        "cyclic frequency",
+        "dwell time in compression",
+        "dwell time in tension"
+      ],
+      "target": "cycles to failure (fatigue life) and standard deviation in life",
+      "dataset": "451 creep-fatigue and TMF test data points on single-crystal and directionally solidified Ni-base superalloys extracted from open literature",
+      "validation": "early stopping; trained with 350 epochs initially and early stopping applied after minimal loss change beyond 200 epochs",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This paper explores the use of a neural network (NN) with a probabilistic physics-guided architecture to learn these relationships and predict the cycles to failure for a wide range of possible creep-fatigue and thermomechanical fatigue histories.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        },
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "The total number of test data extracted and included in the database was 451.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        },
+        {
+          "page": 6,
+          "section": "2.2 Framework of the probabilistic physics-guided neural network",
+          "quote": "To prevent possible overfitting, early stopping was applied, and the model was trained for",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Estrada Rodas, Gorgannejad, Neu 9 CMSX-8 SX IF None, T, C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Amaro, Antolovich, Neu 10 PWA1484 SX TMF None, C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Segersäll, Leidermark, Moverare 11 STAL-15 SX TMF C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_4",
+      "sample_id": "sample_4",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Lafata, Rettberg, He, Pollock 13 René N5 SX IF C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_5",
+      "sample_id": "sample_5",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Hong, Choi, Kim, Yoo, Jo 14 CMSX-4 SX IF T&C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_6",
+      "sample_id": "sample_6",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Ott, Mughrabi19 CMSX-4, CSMX-6 SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_7",
+      "sample_id": "sample_7",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Okazaki, Take, Kakehi, Yamazaki, Sakane, Arai, et al 20 CMSX-4 CM247LC SX DS IF, TMF IF, TMF None, C None, C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_8",
+      "sample_id": "sample_8",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Wahl, Harris 21 CMSX-4 PLUS SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_9",
+      "sample_id": "sample_9",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Yandt, Wu, Tsuno, Sato 22 LSC-11, CSMX-4 SX IF None, C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_10",
+      "sample_id": "sample_10",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Okazaki, Sakaguchi23 CMSX-2, CSMX-4 SX IF, TMF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_11",
+      "sample_id": "sample_11",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Wahl, Harris24 CMSX-7, CMSX-8 SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_12",
+      "sample_id": "sample_12",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Segersäll, Kontis, Pedrazzini, Bagot, Moody, Moverare, et al 27 STAL-15, STAL-15-Si, STAL-15-Re SX TMF C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_13",
+      "sample_id": "sample_13",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Segersäll, Kontis, Pedrazzini, Bagot, Moody, Moverare, et al 27 STAL-15, STAL-15-Si, STAL-15-Re SX TMF C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_14",
+      "sample_id": "sample_14",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Moverare, Johansson 28 SCA425Hf SX TMF C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_15",
+      "sample_id": "sample_15",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Gabb, Gayda, Miner 29 René N4 SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_16",
+      "sample_id": "sample_16",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Yu, Sun, Jin, Zhao, Guan, Hu 30 SRR99 SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_17",
+      "sample_id": "sample_17",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Fleury, Rémy32 AM1 SX IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_18",
+      "sample_id": "sample_18",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Shenoy, Gordon, McDowell, Neu 34 GTD-111 DS IF None, T, C",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_19",
+      "sample_id": "sample_19",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Okazaki, Tabata, Nohmi 40 René 80H, CM247LC DS IF None",
+          "table": "TABLE 1",
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "All data included in the database were cast and heat treated using a typical treatment",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "solution treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "solution treated and age hardened",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and age hardened",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "solution treated and age hardened",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "alloy_system_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "All these superalloys are typically γ′ strengthened, containing from 50 to 70% γ′.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Extracting data from literature",
+          "quote": "All these superalloys are typically γ′ strengthened, containing from 50 to 70% γ′.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_25",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {
+        "target": "fatigue life"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "the model predicts both the mean fatigue life and its confidence intervals (CI)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

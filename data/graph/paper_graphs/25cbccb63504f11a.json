@@ -1,0 +1,411 @@
+{
+  "document_id": "25cbccb63504f11a",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A thermo-mechanical model for hot cracking susceptibility in electron beam powder bed fusion of Ni-base superalloys",
+    "authors": [
+      "Benjamin Wahlmann",
+      "Matthias Markl",
+      "Carolin Körner"
+    ],
+    "journal": "Materials & Design",
+    "year": 2024,
+    "doi": "10.1016/j.matdes.2023.112528"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "Ni-base superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Title",
+          "quote": "A thermo-mechanical model for hot cracking susceptibility in electron beam powder bed fusion of Ni-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": null,
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "3.1 Electron beam melting",
+              "quote": "Additive manufacturing by PBF-EB was used to fabricate cuboidal samples of the Ni-base superalloy CMSX-4.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "25cbccb63504f11a:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1 Electron beam melting",
+          "quote": "Additive manufacturing by PBF-EB was used to fabricate cuboidal samples of the Ni-base superalloy CMSX-4.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "CMSX-4 with selective preheating",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "preheated",
+      "composition": [
+        {
+          "element": null,
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "4.3 Multi-layer simulations",
+              "quote": "One further CMSX-4 build process was simulated to assess the potential of a modified processing strategy for crack mitigation (Fig. 9 e), f) and Fig. 10 c)). Before melting, the scan area was selectively preheated with a defocused electron beam for 2.5 s until it reached a temperature of 1246 °C, 100 °C lower than the melting temperature of CMSX-4.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "25cbccb63504f11a:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "4.3 Multi-layer simulations",
+          "quote": "One further CMSX-4 build process was simulated to assess the potential of a modified processing strategy for crack mitigation (Fig. 9 e), f) and Fig. 10 c)). Before melting, the scan area was selectively preheated with a defocused electron beam for 2.5 s until it reached a temperature of 1246 °C, 100 °C lower than the melting temperature of CMSX-4.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "IN718",
+      "canonical_name": "IN718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": null,
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "4.3 Multi-layer simulations",
+              "quote": "IN718 (Fig. 9 c), d) and Fig. 10 b)) was chosen to investigate if the cracking model could reproduce the composition-dependent cracking susceptibility since, in contrast to CMSX-4, this alloy can be easily processed by PBF-EB without forming cracks [56,57].",
+              "table": null,
+              "figure": null,
+              "chunk_id": "25cbccb63504f11a:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "4.3 Multi-layer simulations",
+          "quote": "IN718 (Fig. 9 c), d) and Fig. 10 b)) was chosen to investigate if the cracking model could reproduce the composition-dependent cracking susceptibility since, in contrast to CMSX-4, this alloy can be easily processed by PBF-EB without forming cracks [56,57].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "electron beam powder bed fusion (PBF-EB)",
+      "parameters": {
+        "temperature_c": 1000,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "helium 10^-3 mbar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": 100,
+        "other": {
+          "acceleration_voltage_kv": 60,
+          "line_offset_um": 100,
+          "build_height_mm": 20,
+          "sample_size": "15 × 15 × 20 mm3",
+          "scan_strategy": "line order 5"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1 Electron beam melting",
+          "quote": "Additive manufacturing by PBF-EB was used to fabricate cuboidal samples of the Ni-base superalloy CMSX-4. The experiments were carried out on an Arcam A2 EBM system. The electron beam operated at 60 kV acceleration voltage under a 10^-3 mbar helium atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        },
+        {
+          "page": 5,
+          "section": "3.1 Electron beam melting",
+          "quote": "The distance between the scan lines (line offset) was set to 100 µm, and a height of 50 µm was chosen for the individual layers, resulting in an effective powder layer thickness of about 100 µm, considering powder consolidation. The build chamber temperature was kept at 1000 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "selective preheating",
+      "parameters": {
+        "temperature_c": 1246,
+        "time": "2.5 s",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 150,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "area": "7.5 mm × 7.5 mm"
+        }
+      },
+      "input_state": "as-built",
+      "output_state": "preheated",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "4.3 Multi-layer simulations",
+          "quote": "Before melting, the scan area was selectively preheated with a defocused electron beam for 2.5 s until it reached a temperature of 1246 °C, 100 °C lower than the melting temperature of CMSX-4. Because of this, a shallow temperature gradient should be achieved. Preheating is usually performed by rapid line order scanning, resulting in a nearly uniform heat input. The preheating was modeled using an effective area heat source, applying a power of 150 W evenly across the melting area of 7.5 mm × 7.5 mm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "electron beam powder bed fusion (PBF-EB)",
+      "parameters": {
+        "temperature_c": 1246,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 350,
+        "scan_speed": "3000 mm/s",
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "preheated",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "4.3 Multi-layer simulations",
+          "quote": "The beam power was reduced to 350 W to maintain a melt pool depth equal to the other simulations, while 3000 mm s^-1 scan speed were maintained.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "electron beam powder bed fusion (PBF-EB)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "4.3 Multi-layer simulations",
+          "quote": "IN718 (Fig. 9 c), d) and Fig. 10 b)) was chosen to investigate if the cracking model could reproduce the composition-dependent cracking susceptibility since, in contrast to CMSX-4, this alloy can be easily processed by PBF-EB without forming cracks [56,57].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ' phase",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ni3(Al,Ti,Ta)",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "These materials have a high volume fraction of γ′ phase, an L12 ordered phase of type Ni3(Al,Ti,Ta), which is primarily responsible for their excellent high-temperature capability.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ'' phase",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": "5.3 Crack mitigation strategies",
+          "quote": "The Ni-base alloy IN718 has a comparatively low fraction of γ′ and γ′′ phases and a significantly lower CTE than CMSX-4.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dendritic microstructure",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dendritic",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Ni-base superalloys have received significant attention in this regard due to the potential to fabricate chemically homogeneous [5] and creep-resistant [6] parts, which is enabled by rapid cooling resulting in a fine dendritic structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "hot cracking",
+      "category": "crack formation",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "4.2 Process map for CMSX-4",
+          "quote": "Cracks can be several mm long and are typically tortuous with few kinks (Fig. 6 c)), indicating hot cracking as the dominant cracking mechanism.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "temperature gradient mechanism",
+      "category": "stress formation",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "4.1 Thermo-mechanical material state during additive manufacturing",
+          "quote": "These effects of the temperature field on the stress states are known as the temperature gradient mechanism [55].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "25cbccb63504f11a:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": []
+}

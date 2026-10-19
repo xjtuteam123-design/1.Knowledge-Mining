@@ -1,0 +1,2112 @@
+{
+  "document_id": "4911ef6d64f5cd6d",
+  "chunk_id": "4911ef6d64f5cd6d:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Atomic-scale insights into the strength and plasticity enhancement of Ni-based superalloys with refinement dispersion of precipitates",
+    "authors": [
+      "Yihui Yin",
+      "Shiqing Lu",
+      "Lusheng Wang",
+      "Kun Song",
+      "Xia Huang",
+      "Jun Ding",
+      "Siliang Yan"
+    ],
+    "journal": "Chemical Physics Letters",
+    "year": 2025,
+    "doi": "10.1016/j.cplett.2024.141837"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy with gamma-prime precipitates",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The effect of dispersion distribution of the precipitated phase ( γ’ phase) on strength and plasticity at atomic scale in Ni-based superalloys with 15 % volume fraction of γ’ phase and diameters of 10 and 30 nm at room- temperature were revealed by molecular dynamics simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Model I",
+      "canonical_name": "Ni-Al-Ni3Al gamma/gamma-prime model (15 vol.% gamma-prime)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Methodology",
+              "quote": "The EAM alloy potential function [21] , which has accurately predicted the physical properties of Ni, Al, and Ni 3 Al phases",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4911ef6d64f5cd6d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "gamma-prime precipitate",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Methodology",
+              "quote": "The EAM alloy potential function [21] , which has accurately predicted the physical properties of Ni, Al, and Ni 3 Al phases",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4911ef6d64f5cd6d:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The volume fraction of the γ’ phase in the two MD models (Model I and Model II) is 15 % [18] with approximately 960,000 atoms. However, the Model I has 2 γ’ phases with a diameter of 30 nm",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Model II",
+      "canonical_name": "Ni-Al-Ni3Al gamma/gamma-prime model (15 vol.% gamma-prime)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Methodology",
+              "quote": "The EAM alloy potential function [21] , which has accurately predicted the physical properties of Ni, Al, and Ni 3 Al phases",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4911ef6d64f5cd6d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "gamma-prime precipitate",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Methodology",
+              "quote": "The EAM alloy potential function [21] , which has accurately predicted the physical properties of Ni, Al, and Ni 3 Al phases",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4911ef6d64f5cd6d:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "while Model II has 19 randomly distributed γ’ phases with a diameter of 10 nm (see Fig. 1 (a))",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics model construction",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "software": "Atomsk",
+          "box_size": "100 x 100 x 1 nm",
+          "crack_size": "15 x 2 nm",
+          "atoms": "approximately 960,000",
+          "gamma_prime_volume_fraction": "15 %",
+          "gamma_prime_count": 2,
+          "gamma_prime_diameter": "30 nm",
+          "boundary_conditions": "scaling along X and Y; periodic along Z"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The nickel-based superalloy models were established by Atomsk software [16].",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "molecular dynamics model construction",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "software": "Atomsk",
+          "box_size": "100 x 100 x 1 nm",
+          "crack_size": "15 x 2 nm",
+          "atoms": "approximately 960,000",
+          "gamma_prime_volume_fraction": "15 %",
+          "gamma_prime_count": 19,
+          "gamma_prime_diameter": "10 nm",
+          "boundary_conditions": "scaling along X and Y; periodic along Z"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The nickel-based superalloy models were established by Atomsk software [16].",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "energy minimization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "algorithm": "conjugate gradient"
+        }
+      },
+      "input_state": "as-built",
+      "output_state": "energy-minimized",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The conjugate gradient method is performed to obtain the initial atomic configuration with the minimum energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "energy minimization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "algorithm": "conjugate gradient"
+        }
+      },
+      "input_state": "as-built",
+      "output_state": "energy-minimized",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The conjugate gradient method is performed to obtain the initial atomic configuration with the minimum energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "NVT relaxation",
+      "parameters": {
+        "temperature_c": 300,
+        "time": "50 ps",
+        "pressure": "0.1 bar",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "thermostat": "Nose-Hoover",
+          "software": "LAMMPS"
+        }
+      },
+      "input_state": "energy-minimized",
+      "output_state": "as-relaxed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "Then the initial configuration with minimized energy is relaxed under the NVT ensemble for 50 ps. The Nose-Hoover method [19] was employed to maintain the temperature of 300 and the pressure of 0.1 bar in the simulation system.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_2",
+      "sequence": 3,
+      "method": "NVT relaxation",
+      "parameters": {
+        "temperature_c": 300,
+        "time": "50 ps",
+        "pressure": "0.1 bar",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "thermostat": "Nose-Hoover",
+          "software": "LAMMPS"
+        }
+      },
+      "input_state": "energy-minimized",
+      "output_state": "as-relaxed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "Then the initial configuration with minimized energy is relaxed under the NVT ensemble for 50 ps. The Nose-Hoover method [19] was employed to maintain the temperature of 300 and the pressure of 0.1 bar in the simulation system.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "tensile loading (molecular dynamics)",
+      "parameters": {
+        "temperature_c": 300,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "total tensile strain 30 %",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "loading_axis": "Y",
+          "velocity": "7.7 x 10^3 nm/ps"
+        }
+      },
+      "input_state": "as-relaxed",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "After relaxation, a tensile load with a velocity of 7.7 × 10 3 nm/ps was applied along the Y-axis with a total tensile strain of 30 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_8",
+      "sample_id": "sample_2",
+      "sequence": 4,
+      "method": "tensile loading (molecular dynamics)",
+      "parameters": {
+        "temperature_c": 300,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "total tensile strain 30 %",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "loading_axis": "Y",
+          "velocity": "7.7 x 10^3 nm/ps"
+        }
+      },
+      "input_state": "as-relaxed",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "After relaxation, a tensile load with a velocity of 7.7 × 10 3 nm/ps was applied along the Y-axis with a total tensile strain of 30 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (Ni3Al) precipitate",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": "15 %",
+        "size": "30 nm diameter",
+        "morphology": null,
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "However, the Model I has 2 γ’ phases with a diameter of 30 nm",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma-prime (Ni3Al) precipitate",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": "15 %",
+        "size": "10 nm diameter",
+        "morphology": null,
+        "location": "randomly distributed",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "while Model II has 19 randomly distributed γ’ phases with a diameter of 10 nm (see Fig. 1 (a))",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "phase boundary",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma/gamma-prime interface",
+        "composition": null,
+        "identification_status": "experimental",
+        "phase_boundary_density": "0.597/3 per nm (Model II reported as three times that of Model I)"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "The small-sized γ’ phases increase the phase boundary energy [25] and the phase boundary density (0.597/nm, three times that of Model-I)",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "stacking fault",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "crack tip",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "Phase transitions (only found in Model-II) and stratification faults are observed at the crack tip.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "nanovoid",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "main-crack tip and gamma/gamma-prime phase boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The atomic stress always piled up at the main-crack tip or the γ / γ’ phase boundary to forms nanovoids in the model I, leading to rapid brittle fracture",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "dislocation pile-up",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma-prime phase boundary near crack tip",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "The dislocation near the crack tip moves to the γ’ phase boundary to form dislocation pile up, leading to stress concentration.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_3",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental",
+        "dislocation_density": "1.2 x 10^3 /Å^2"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "while the average densities of total dislocations are recorded at 1.2 × 10 3 Å 2 and 1.7 × 10 3 Å 2 , respectively.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_4",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental",
+        "dislocation_density": "1.7 x 10^3 /Å^2"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "while the average densities of total dislocations are recorded at 1.2 × 10 3 Å 2 and 1.7 × 10 3 Å 2 , respectively.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_5",
+      "type": "Defect",
+      "name": "dislocation ring",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "around small-sized gamma-prime phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "dislocations that encounter the small-sized γ’ phase tend to bypass it, resulting in the formation of dislocation rings rather than a sheared γ’ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_6",
+      "type": "Defect",
+      "name": "Shockley dislocation",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "The small-sized r ’ phase, which facilitates the generation of Shockley dislocations, consequently leading to an increase in stacking faults.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_7",
+      "type": "Defect",
+      "name": "Stair-rod dislocation",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "junction of slip surfaces",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "When two Shockley dislocations encounter each other at the junction of their respective slip surfaces, they can synthesize into an immobile Stair- rod dislocation",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "property": "stress concentration coefficient",
+      "value": 4.059,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The calculated stress concentration coefficient of model I and model II are 4.059 and 3.674, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "property": "stress concentration coefficient",
+      "value": 3.674,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The calculated stress concentration coefficient of model I and model II are 4.059 and 3.674, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "property": "Young's modulus",
+      "value": 94.86,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The Young ’ s modulus of Model-I and Model-II were 94.86 and 103.32 MPa, respectively",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "property": "Young's modulus",
+      "value": 103.32,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The Young ’ s modulus of Model-I and Model-II were 94.86 and 103.32 MPa, respectively",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "property": "yield strength",
+      "value": 6.79,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "the yield stress of Model-I and Model-II were 6.79 GPa and 7.49 GPa, respectively",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "property": "yield strength",
+      "value": 7.49,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "the yield stress of Model-I and Model-II were 6.79 GPa and 7.49 GPa, respectively",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "property": "critical stress intensity factor",
+      "value": 1.9,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa·m^1/2",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "of Model-I and Model-II was 1.9 MPa ⋅ m1/2 and 2.1 MPa ⋅ m1/2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "property": "critical stress intensity factor",
+      "value": 2.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa·m^1/2",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "of Model-I and Model-II was 1.9 MPa ⋅ m1/2 and 2.1 MPa ⋅ m1/2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "property": "crack propagation velocity",
+      "value": 184.22,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "% (relative to Model II)",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "the crack propagation velocity of Model I is 184.22 % greater than that of Model II",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "property": "crack initiation time",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "the crack initiation time approximately 10 ps slower than that of Model II",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "stress concentration at phase boundary",
+      "category": "mechanical",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "The dislocation near the crack tip moves to the γ’ phase boundary to form dislocation pile up, leading to stress concentration.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation nucleation at phase boundary",
+      "category": "plastic deformation",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "Dislocation nucleation occurs at the phase boundary of the small-sized γ’ phase.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation bypass by Orowan looping",
+      "category": "strengthening",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "dislocations that encounter the small-sized γ’ phase tend to bypass it, resulting in the formation of dislocation rings rather than a sheared γ’ phase [24].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "quasi-atomic reconstruction phase transition",
+      "category": "plastic deformation",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "The crack tip underwent a phase transformation of quasi atomic recon - struction, which released the crack tip stress, hindered the crack growth and improved the plasticity of the material.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "intrinsic stacking fault formation",
+      "category": "plastic deformation",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "The formation of ISF can also reduce the local atomic stress, but the reduction value is smaller than that caused by the quasi-atomic restructuring phase transformation",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_6",
+      "name": "dislocation reaction forming immobile Stair-rod dislocation",
+      "category": "strengthening",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "When two Shockley dislocations encounter each other at the junction of their respective slip surfaces, they can synthesize into an immobile Stair- rod dislocation",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The volume fraction of the γ’ phase in the two MD models (Model I and Model II) is 15 % [18] with approximately 960,000 atoms.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The volume fraction of the γ’ phase in the two MD models (Model I and Model II) is 15 % [18] with approximately 960,000 atoms.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The nickel-based superalloy models were established by Atomsk software [16].",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "energy-minimized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The conjugate gradient method is performed to obtain the initial atomic configuration with the minimum energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "Then the initial configuration with minimized energy is relaxed under the NVT ensemble for 50 ps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_7",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "After relaxation, a tensile load with a velocity of 7.7 × 10 3 nm/ps was applied along the Y-axis with a total tensile strain of 30 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The nickel-based superalloy models were established by Atomsk software [16].",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_2",
+      "material_state": "energy-minimized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "The conjugate gradient method is performed to obtain the initial atomic configuration with the minimum energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_6",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "Then the initial configuration with minimized energy is relaxed under the NVT ensemble for 50 ps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_8",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "After relaxation, a tensile load with a velocity of 7.7 × 10 3 nm/ps was applied along the Y-axis with a total tensile strain of 30 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "However, the Model I has 2 γ’ phases with a diameter of 30 nm",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodology",
+          "quote": "while Model II has 19 randomly distributed γ’ phases with a diameter of 10 nm (see Fig. 1 (a))",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "the phase boundary density (0.597/nm, three times that of Model-I)",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "Phase transitions (only found in Model-II) and stratification faults are observed at the crack tip.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The atomic stress always piled up at the main-crack tip or the γ / γ’ phase boundary to forms nanovoids in the model I",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "The dislocation near the crack tip moves to the γ’ phase boundary to form dislocation pile up, leading to stress concentration.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_3",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "while the average densities of total dislocations are recorded at 1.2 × 10 3 Å 2 and 1.7 × 10 3 Å 2 , respectively.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_4",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "while the average densities of total dislocations are recorded at 1.2 × 10 3 Å 2 and 1.7 × 10 3 Å 2 , respectively.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_5",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "dislocations that encounter the small-sized γ’ phase tend to bypass it, resulting in the formation of dislocation rings",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_6",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "The small-sized r ’ phase, which facilitates the generation of Shockley dislocations, consequently leading to an increase in stacking faults.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_7",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "When two Shockley dislocations encounter each other at the junction of their respective slip surfaces, they can synthesize into an immobile Stair- rod dislocation",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The calculated stress concentration coefficient of model I and model II are 4.059 and 3.674, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The calculated stress concentration coefficient of model I and model II are 4.059 and 3.674, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The Young ’ s modulus of Model-I and Model-II were 94.86 and 103.32 MPa, respectively",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_25",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The Young ’ s modulus of Model-I and Model-II were 94.86 and 103.32 MPa, respectively",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_26",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "the yield stress of Model-I and Model-II were 6.79 GPa and 7.49 GPa, respectively",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_27",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "the yield stress of Model-I and Model-II were 6.79 GPa and 7.49 GPa, respectively",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_28",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "of Model-I and Model-II was 1.9 MPa ⋅ m1/2 and 2.1 MPa ⋅ m1/2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_29",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "of Model-I and Model-II was 1.9 MPa ⋅ m1/2 and 2.1 MPa ⋅ m1/2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_30",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "the crack propagation velocity of Model I is 184.22 % greater than that of Model II",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_31",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "the crack initiation time approximately 10 ps slower than that of Model II",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_32",
+      "source_id": "defect_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "to form dislocation pile up, leading to stress concentration",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_33",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "Subsequently, the stress concentration induced initiation and propagation of nano- voids at the phase boundary, resulting in the rapid propagation of cracks along the phase boundary and reduction of the plasticity of the Ni-based superalloy",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_34",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "The atomic stress always piled up at the main-crack tip or the γ / γ’ phase boundary to forms nanovoids in the model I",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_35",
+      "source_id": "phase_2",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "Dislocation nucleation occurs at the phase boundary of the small-sized γ’ phase.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_36",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. Result and Discussion",
+          "quote": "The activation of dislocation emission reduces the stress at both the crack tip and the phase boundary, thereby preventing the formation of nanovoid at the phase boundary.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_37",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "dislocations that encounter the small-sized γ’ phase tend to bypass it, resulting in the formation of dislocation rings",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_38",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "The generation of dislocation rings induces localized atomic deformation, which further contributes to the improvement of plasticity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_39",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "Phase transitions (only found in Model-II) and stratification faults are observed at the crack tip.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_40",
+      "source_id": "mechanism_4",
+      "predicate": "IMPROVES",
+      "target_id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "which released the crack tip stress, hindered the crack growth and improved the plasticity of the material.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_41",
+      "source_id": "defect_6",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_5",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "the small-sized r ’ phase, which facilitates the generation of Shockley dislocations, consequently leading to an increase in stacking faults",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_42",
+      "source_id": "microstructure_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "The formation of ISF can also reduce the local atomic stress, but the reduction value is smaller than that caused by the quasi-atomic restructuring phase transformation",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_43",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_6",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "The diffuse refinement of the γ’ phase not only increases the density and number of dislocations but also promotes mutual obstruction and reactions among them, further contributing to the enhancement of strength",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_44",
+      "source_id": "mechanism_6",
+      "predicate": "INCREASES",
+      "target_id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3. Result and Discussion",
+          "quote": "further contributing to the enhancement of strength in nickel-based superalloys",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_45",
+      "source_id": "sample_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "indicating that γ’ phase dispersion refinement can improve the deformation resistance of Ni-based superalloy",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_46",
+      "source_id": "sample_2",
+      "predicate": "COMPARED_WITH",
+      "target_id": "sample_1",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Result and Discussion",
+          "quote": "the yield stress of Model-I and Model-II were 6.79 GPa and 7.49 GPa, respectively, implying that γ’ phase dispersion refinement can enhance the strength of Ni-based superalloy",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "4911ef6d64f5cd6d:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

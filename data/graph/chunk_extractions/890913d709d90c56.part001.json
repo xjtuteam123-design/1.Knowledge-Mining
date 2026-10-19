@@ -1,0 +1,634 @@
+{
+  "document_id": "890913d709d90c56",
+  "chunk_id": "890913d709d90c56:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Study of high temperature mechanical properties and irradiation behavior of Zr3Al alloy by Chen's lattice inversion EAM",
+    "authors": [
+      "Jin Wang",
+      "Ni Lu",
+      "Chuan-Hui Zhang"
+    ],
+    "journal": "Materials Today Communications",
+    "year": 2024,
+    "doi": "10.1016/j.mtcomm.2023.107664"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Zr-Al alloy",
+      "material_category": "binary alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An embedded atomic method based on Chen’s lattice inversion (CLI-EAM) was developed for the Zr3Al binary alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Zr3Al",
+      "canonical_name": "Zr3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-modeled",
+      "composition": [
+        {
+          "element": "Zr",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atomic ratio",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "for the Zr3Al binary alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "890913d709d90c56:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atomic ratio",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "for the Zr3Al binary alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "890913d709d90c56:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An embedded atomic method based on Chen’s lattice inversion (CLI-EAM) was developed for the Zr3Al binary alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": 0,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "cutoff_distance": "6.875 Å"
+        }
+      },
+      "input_state": "perfect crystal",
+      "output_state": "equilibrated structure at 0 K",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1 Basic properties",
+          "quote": "All simulations were performed at 0 K with a cut-off distance of 6.875 Å.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "tensile test simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tensile",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperatures": "five different temperatures"
+        }
+      },
+      "input_state": "equilibrated Zr3Al",
+      "output_state": "deformed Zr3Al",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Stress-strain behavior",
+          "quote": "the effect of temperature on the mechanical properties of the Zr3Al system at five different temperatures were investigated. We extended the Zr3Al",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "L12",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.3 Inversion calculation procedure",
+          "quote": "For Zr-Al binary system, lattice inversion employs on L12 structure of Zr3Al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "property": "bulk modulus",
+      "value": 116.16,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CLI-EAM calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 3",
+          "quote": "BV (GPa) 116.16",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "property": "shear modulus",
+      "value": 51.97,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CLI-EAM calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 3",
+          "quote": "GV (GPa) 51.97",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "property": "elastic constant C11",
+      "value": 150.04,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CLI-EAM calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 3",
+          "quote": "C11 (GPa) 150.04",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "property": "elastic constant C12",
+      "value": 99.22,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CLI-EAM calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 3",
+          "quote": "C12 (GPa) 99.22",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "property": "elastic constant C14",
+      "value": 69.68,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CLI-EAM calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 3",
+          "quote": "C14 (GPa) 69.68",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "property": "ultimate tensile strength",
+      "value": 8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 426.85,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "but could still maintain a strength of 8 GPa at 700 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "thermal disorder",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The outcomes manifested the high temperatures augment disorder within the alloy lattice structure, culminating in the abatement of the maximum tensile strength of Zr3Al",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "for the Zr3Al binary alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1 Basic properties",
+          "quote": "All simulations were performed at 0 K with a cut-off distance of 6.875 Å.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Stress-strain behavior",
+          "quote": "the effect of temperature on the mechanical properties of the Zr3Al system at five different temperatures were investigated. We extended the Zr3Al",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.3 Inversion calculation procedure",
+          "quote": "For Zr-Al binary system, lattice inversion employs on L12 structure of Zr3Al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 3",
+          "quote": "BV (GPa) 116.16",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 3",
+          "quote": "GV (GPa) 51.97",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 3",
+          "quote": "C11 (GPa) 150.04",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 3",
+          "quote": "C12 (GPa) 99.22",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 3",
+          "quote": "C14 (GPa) 69.68",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {
+        "temperature_c": 426.85,
+        "loading_mode": "tensile"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "but could still maintain a strength of 8 GPa at 700 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The outcomes manifested the high temperatures augment disorder within the alloy lattice structure, culminating in the abatement of the maximum tensile strength of Zr3Al",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

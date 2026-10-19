@@ -1,0 +1,675 @@
+{
+  "document_id": "b75801caf09c3223",
+  "chunk_id": "b75801caf09c3223:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Micromechanical model to study the deformation behavior and effect of misfits on mechanical properties in Ni-based superalloys—a phase-field approach",
+    "authors": [
+      "Gururaj Gopal Rao",
+      "Victor R. Vasquez"
+    ],
+    "journal": "Journal of Materials Research",
+    "year": 2025,
+    "doi": "10.1557/s43578-025-01541-7"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "Typically, single-crystal Ni-based superalloys consist of a two-phase microstructure composed of precipitates ( γ ′ ) embedded in a matrix ( γ ).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-Al alloy",
+      "material_category": "model alloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Stress and strain fields",
+          "quote": "Figure  4: The distribution of von Mises stresses in Ni–Al alloy for the four different lattice misfits e0 at 1.2% total deformation after a monotonic tensile loading",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "spherical inclusion in an infinite matrix (simulation)",
+      "canonical_name": "Ni-Al",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Simulation results and discussion",
+          "quote": "To validate these solutions, a single spherical inclusion was placed at the center of an infinite matrix (Fig. 1).",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "b75801caf09c3223:part:001"
+        },
+        {
+          "page": "6",
+          "section": "Stress and strain fields",
+          "quote": "The distribution of von Mises stresses in Ni–Al alloy for the four different lattice misfits e0 at 1.2% total deformation after a monotonic tensile loading",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "phase-field simulation with monotonic uniaxial tensile loading",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "total deformation 1.2%",
+        "strain_rate": "10^-3 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "simulation_setup": "single spherical inclusion at center of infinite matrix, load along [010]"
+        }
+      },
+      "input_state": "stress-free state",
+      "output_state": "1.2% total deformation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "To evaluate the effect of the eigenstrains on the tensile proper - ties of Ni-based alloys, uniaxial tensile tests were performed at a strain rate of 10−3 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma matrix",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "composed of precipitates ( γ ′ ) embedded in a matrix ( γ ).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime inclusion",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "spherical, elliptical, plate-like or rod-like depending on eigenstrain",
+        "location": "center of matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Morphology of (γ′) inclusion",
+          "quote": "the (γ′) inclusions predominantly take on plate- or rod-like shapes, which have been successfully reproduced here.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "stress concentration around inclusion",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "inclusion and matrix-inclusion interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Stress and strain fields",
+          "quote": "By treating the matrix as a reference phase, inclusions naturally function as stress concentration sites.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = 0.2%",
+      "property": "yield strength",
+      "value": 1.862,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tension",
+        "orientation": "[010]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "For e0 = 0.2% and e0 = 0.1% , the material showed a yield strength of 1.862 and 1.853, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = 0.1%",
+      "property": "yield strength",
+      "value": 1.853,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tension",
+        "orientation": "[010]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "For e0 = 0.2% and e0 = 0.1% , the material showed a yield strength of 1.862 and 1.853, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = 0.0",
+      "property": "yield strength",
+      "value": 1.858,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tension",
+        "orientation": "[010]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "The yield strength reached at 1.858 for the e0 = 0.0 , at 1.852 for e0 =− 0.1% , and at 1.846 for e0 =− 0.2% .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = -0.1%",
+      "property": "yield strength",
+      "value": 1.852,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tension",
+        "orientation": "[010]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "The yield strength reached at 1.858 for the e0 = 0.0 , at 1.852 for e0 =− 0.1% , and at 1.846 for e0 =− 0.2% .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = -0.2%",
+      "property": "yield strength",
+      "value": 1.846,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tension",
+        "orientation": "[010]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "The yield strength reached at 1.858 for the e0 = 0.0 , at 1.852 for e0 =− 0.1% , and at 1.846 for e0 =− 0.2% .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation nucleation",
+      "category": "plasticity",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "Typically, dislocations that are introduced through eigenstrains nucleate with increasing strain.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "lattice misfit induced internal stress",
+      "category": "elastic mismatch",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "The lattice misfit is considered an important material property that strongly affects the mechani - cal properties at high temperatures, as it leads to the formation of internal stresses",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "plastic deformation",
+      "category": "plasticity",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Stress and strain fields",
+          "quote": "Lattice misfit strains alter the local stress state by influencing the elastic–plastic transition and can, therefore, shift the onset of plastic deformation in high-concentration regions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Stress and strain fields",
+          "quote": "The distribution of von Mises stresses in Ni–Al alloy for the four different lattice misfits e0 at 1.2% total deformation after a monotonic tensile loading",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "composed of precipitates ( γ ′ ) embedded in a matrix ( γ ).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Simulation results and discussion",
+          "quote": "To validate these solutions, a single spherical inclusion was placed at the center of an infinite matrix (Fig. 1).",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Stress and strain fields",
+          "quote": "By treating the matrix as a reference phase, inclusions naturally function as stress concentration sites.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = 0.2%",
+      "conditions": {
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tension"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "For e0 = 0.2% and e0 = 0.1% , the material showed a yield strength of 1.862 and 1.853, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = 0.1%",
+      "conditions": {
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tension"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "For e0 = 0.2% and e0 = 0.1% , the material showed a yield strength of 1.862 and 1.853, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = 0.0",
+      "conditions": {
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tension"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "The yield strength reached at 1.858 for the e0 = 0.0 , at 1.852 for e0 =− 0.1% , and at 1.846 for e0 =− 0.2% .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = -0.1%",
+      "conditions": {
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tension"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "The yield strength reached at 1.858 for the e0 = 0.0 , at 1.852 for e0 =− 0.1% , and at 1.846 for e0 =− 0.2% .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = -0.2%",
+      "conditions": {
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tension"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "The yield strength reached at 1.858 for the e0 = 0.0 , at 1.852 for e0 =− 0.1% , and at 1.846 for e0 =− 0.2% .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "As the lattice misfit magnitude increases, tensile deformation lowers the macroscopic yield stress, strain hardening, and stress triaxiality.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated under uniaxial tensile loading at 1.2% total deformation",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Stress and strain fields",
+          "quote": "High stresses developed in these lattice structures exceed the point where the material can deform without per - manent damage. As a result, plastic strain, or permanent deformation, occurs around the inclusion.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "eigenstrain e0 = -0.2%",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Monotonic tensile test",
+          "quote": "The stress–strain curve for eigenstrain e0 =− 0.2% is placed lower and this is due to the early nucleation of dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b75801caf09c3223:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "stress triaxiality",
+    "von Mises equivalent stress"
+  ],
+  "conflicts": []
+}

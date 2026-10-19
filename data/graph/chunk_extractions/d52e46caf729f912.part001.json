@@ -1,0 +1,2184 @@
+{
+  "document_id": "d52e46caf729f912",
+  "chunk_id": "d52e46caf729f912:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Phase prediction of Ni-base superalloys via high-throughput experiments and machine learning",
+    "authors": [
+      "Zijun Qin",
+      "Zi Wang",
+      "Yunqiang Wang",
+      "Lina Zhang",
+      "Weifu Li",
+      "Jin Liu",
+      "Zexin Wang",
+      "Zihang Li",
+      "Jun Pan",
+      "Lei Zhao",
+      "Feng Liu",
+      "Liming Tan",
+      "Jianxin Wang",
+      "Hua Han",
+      "Liang Jiang",
+      "Yong Liu"
+    ],
+    "journal": "Materials Research Letters",
+    "year": 2021,
+    "doi": "10.1080/21663831.2020.1815093"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "Predicting the phase precipitation of multicomponent alloys, especially the Ni-base superalloys, is a difficult task.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "W1",
+      "canonical_name": "Ni-13.0Co-3.0W-2.9Mo-12.2Cr-3.03Al-3.96Ti-3.1Ta-0.21Hf",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 13.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W1 13.0 3.0 2.9 12.2 3.03 3.96 3.1 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W1 13.0 3.0 2.9 12.2 3.03 3.96 3.1 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 2.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W1 13.0 3.0 2.9 12.2 3.03 3.96 3.1 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 12.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W1 13.0 3.0 2.9 12.2 3.03 3.96 3.1 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3.03,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W1 13.0 3.0 2.9 12.2 3.03 3.96 3.1 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 3.96,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W1 13.0 3.0 2.9 12.2 3.03 3.96 3.1 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W1 13.0 3.0 2.9 12.2 3.03 3.96 3.1 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W1 13.0 3.0 2.9 12.2 3.03 3.96 3.1 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.21,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W1 13.0 3.0 2.9 12.2 3.03 3.96 3.1 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W1 13.0 3.0 2.9 12.2 3.03 3.96 3.1 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 1",
+          "quote": "Measured composition of multicomponent alloys in wt.%.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "W2",
+      "canonical_name": "Ni-27.8Co-3.0W-2.9Mo-12.0Cr-3.05Al-4.06Ti-3.0Ta-0.21Hf",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 27.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W2 27.8 3.0 2.9 12.0 3.05 4.06 3.0 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W2 27.8 3.0 2.9 12.0 3.05 4.06 3.0 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 2.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W2 27.8 3.0 2.9 12.0 3.05 4.06 3.0 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 12.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W2 27.8 3.0 2.9 12.0 3.05 4.06 3.0 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W2 27.8 3.0 2.9 12.0 3.05 4.06 3.0 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 4.06,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W2 27.8 3.0 2.9 12.0 3.05 4.06 3.0 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W2 27.8 3.0 2.9 12.0 3.05 4.06 3.0 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.21,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W2 27.8 3.0 2.9 12.0 3.05 4.06 3.0 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W2 27.8 3.0 2.9 12.0 3.05 4.06 3.0 – 0.21 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 1",
+          "quote": "W2 27.8 3.0 2.9 12.0 3.05 4.06 3.0 – 0.21 Bal.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "W3",
+      "canonical_name": "Ni-13.0Co-6.1W-2.9Mo-11.8Cr-3.05Al-3.92Ti-3.0Ta-0.22Hf",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 13.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W3 13.0 6.1 2.9 11.8 3.05 3.92 3.0 – 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 6.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W3 13.0 6.1 2.9 11.8 3.05 3.92 3.0 – 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 2.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W3 13.0 6.1 2.9 11.8 3.05 3.92 3.0 – 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 11.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W3 13.0 6.1 2.9 11.8 3.05 3.92 3.0 – 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W3 13.0 6.1 2.9 11.8 3.05 3.92 3.0 – 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 3.92,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W3 13.0 6.1 2.9 11.8 3.05 3.92 3.0 – 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W3 13.0 6.1 2.9 11.8 3.05 3.92 3.0 – 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.22,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W3 13.0 6.1 2.9 11.8 3.05 3.92 3.0 – 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W3 13.0 6.1 2.9 11.8 3.05 3.92 3.0 – 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 1",
+          "quote": "W3 13.0 6.1 2.9 11.8 3.05 3.92 3.0 – 0.22 Bal.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "W4",
+      "canonical_name": "Ni-13.1Co-3.0W-6.0Mo-12.1Cr-3.05Al-4.08Ti-3.1Ta-0.19Hf",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 13.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W4 13.1 3.0 6.0 12.1 3.05 4.08 3.1 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W4 13.1 3.0 6.0 12.1 3.05 4.08 3.1 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W4 13.1 3.0 6.0 12.1 3.05 4.08 3.1 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 12.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W4 13.1 3.0 6.0 12.1 3.05 4.08 3.1 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W4 13.1 3.0 6.0 12.1 3.05 4.08 3.1 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 4.08,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W4 13.1 3.0 6.0 12.1 3.05 4.08 3.1 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W4 13.1 3.0 6.0 12.1 3.05 4.08 3.1 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.19,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W4 13.1 3.0 6.0 12.1 3.05 4.08 3.1 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W4 13.1 3.0 6.0 12.1 3.05 4.08 3.1 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 1",
+          "quote": "W4 13.1 3.0 6.0 12.1 3.05 4.08 3.1 – 0.19 Bal.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "W5",
+      "canonical_name": "Ni-13.0Co-2.9W-3.0Mo-12.0Cr-3.07Al-6.01Ti-3.0Ta-0.19Hf",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 13.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W5 13.0 2.9 3.0 12.0 3.07 6.01 3.0 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 2.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W5 13.0 2.9 3.0 12.0 3.07 6.01 3.0 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W5 13.0 2.9 3.0 12.0 3.07 6.01 3.0 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 12.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W5 13.0 2.9 3.0 12.0 3.07 6.01 3.0 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3.07,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W5 13.0 2.9 3.0 12.0 3.07 6.01 3.0 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 6.01,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W5 13.0 2.9 3.0 12.0 3.07 6.01 3.0 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W5 13.0 2.9 3.0 12.0 3.07 6.01 3.0 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.19,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W5 13.0 2.9 3.0 12.0 3.07 6.01 3.0 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W5 13.0 2.9 3.0 12.0 3.07 6.01 3.0 – 0.19 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 1",
+          "quote": "W5 13.0 2.9 3.0 12.0 3.07 6.01 3.0 – 0.19 Bal.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "W6",
+      "canonical_name": "Ni-13.0Co-3.0W-2.9Mo-12.0Cr-3.10Al-4.04Ti-8.1Ta-0.20Hf",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 13.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W6 13.0 3.0 2.9 12.0 3.10 4.04 8.1 – 0.20 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W6 13.0 3.0 2.9 12.0 3.10 4.04 8.1 – 0.20 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 2.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W6 13.0 3.0 2.9 12.0 3.10 4.04 8.1 – 0.20 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 12.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W6 13.0 3.0 2.9 12.0 3.10 4.04 8.1 – 0.20 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W6 13.0 3.0 2.9 12.0 3.10 4.04 8.1 – 0.20 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 4.04,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W6 13.0 3.0 2.9 12.0 3.10 4.04 8.1 – 0.20 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 8.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W6 13.0 3.0 2.9 12.0 3.10 4.04 8.1 – 0.20 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W6 13.0 3.0 2.9 12.0 3.10 4.04 8.1 – 0.20 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W6 13.0 3.0 2.9 12.0 3.10 4.04 8.1 – 0.20 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 1",
+          "quote": "W6 13.0 3.0 2.9 12.0 3.10 4.04 8.1 – 0.20 Bal.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": "W7",
+      "canonical_name": "Ni-13.0Co-3.0W-3.0Mo-11.9Cr-2.98Al-4.12Ti-3.0Ta-4.0Nb-0.22Hf",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 13.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 11.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 2.98,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 4.12,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 4.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.22,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "d52e46caf729f912:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 1",
+          "quote": "W7 13.0 3.0 3.0 11.9 2.98 4.12 3.0 4.0 0.22 Bal.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_8",
+      "original_name": "NiX-6W-4Nb diffusion triple",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "diffused",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Figure 2",
+          "quote": "labeled and (N) montaged SEM images of NiX-6W-4Nb diffusion triple.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "vacuum induction melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 Materials and sample preparation",
+          "quote": "Those alloys were prepared by vacuum induction melting method firstly and homogenized by heat treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "homogenization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 Materials and sample preparation",
+          "quote": "Those alloys were prepared by vacuum induction melting method firstly and homogenized by heat treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "hot isostatic pressing",
+      "parameters": {
+        "temperature_c": 1180,
+        "time": "8 h",
+        "pressure": "150 MPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "diffused",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 Materials and sample preparation",
+          "quote": "After hot isostatic pressing at 1180°C/150MPa for 8h and two-stage aging process of 1180°C / 1000h plus 800°C / 2000h, the alloys with different components were closely bonded and fully diffused to form compositional and microstructural gradient.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 1180,
+        "time": "1000 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stage": "first stage"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 Materials and sample preparation",
+          "quote": "After hot isostatic pressing at 1180°C/150MPa for 8h and two-stage aging process of 1180°C / 1000h plus 800°C / 2000h, the alloys with different components were closely bonded and fully diffused to form compositional and microstructural gradient.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 800,
+        "time": "2000 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stage": "second stage"
+        }
+      },
+      "input_state": null,
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 Materials and sample preparation",
+          "quote": "After hot isostatic pressing at 1180°C/150MPa for 8h and two-stage aging process of 1180°C / 1000h plus 800°C / 2000h, the alloys with different components were closely bonded and fully diffused to form compositional and microstructural gradient.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma matrix",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "In specific, the γ matrix is mainly strengthened by solid solution elements.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime (L12, Ni3Al-based)",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ni3Al-based",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "The γ′ phase is the L12 ordered phase based on Ni3Al, and is the main strengthening phase in Ni-based superalloys.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "sigma phase",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "punctate, acicular, irregular, and discontinuous",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "In terms of morphological features, μ and σ phases are mainly in punctate, acicular, irregular, and discontinuous shapes, and the η phase is generally in shapes of large flake and lathy needle.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "mu phase",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "punctate, acicular, irregular, and discontinuous",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "The σ and μ phases are TCP phases, and the η phase is a typical GCP phase.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "eta phase",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "large flake and lathy needle",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "The σ and μ phases are TCP phases, and the η phase is a typical GCP phase.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "compositional and microstructural gradient",
+      "sample_id": "sample_1",
+      "material_state": "diffused",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 Materials and sample preparation",
+          "quote": "the alloys with different components were closely bonded and fully diffused to form compositional and microstructural gradient.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "In specific, the γ matrix is mainly strengthened by solid solution elements.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "The γ′ phase is the L12 ordered phase based on Ni3Al, and is the main strengthening phase in Ni-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "crack initiation at detrimental phases",
+      "category": "damage",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "Wherein the TCP and GCP phases are always thought detrimental to the alloys, as their precipitation would deplete the strengthening elements, and facilitate the crack initiation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "depletion of strengthening elements by TCP/GCP precipitation",
+      "category": "degradation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "Wherein the TCP and GCP phases are always thought detrimental to the alloys, as their precipitation would deplete the strengthening elements, and facilitate the crack initiation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "k-nearest neighbor (KNN)",
+      "sample_id": "sample_8",
+      "property_observation_id": null,
+      "task": "classification of TCP and GCP detrimental phase precipitation from composition-derived physical parameters",
+      "inputs": [
+        "Delta S_conf",
+        "delta",
+        "Tm"
+      ],
+      "target": "precipitation of TCP phases and GCP phases",
+      "dataset": "8371 data points from 11 diffusion multiples; test set 761 data from NiX-W-Nb diffusion triple, remaining 7610 for training",
+      "validation": "10-fold cross validation and grid-search hyperparameter selection; test on NiX-6W-4Nb diffusion triple",
+      "metrics": {
+        "AUC_TCP": 0.88,
+        "AUC_GCP": 0.92
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3 Validity of ML model",
+          "quote": "The algorithm with best general predictability on TCP and GCP phase precipitation was k-nearest neighbor (KNN), which was also selected for the following test.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "d52e46caf729f912:part:001"
+        },
+        {
+          "page": "9",
+          "section": "3.3 Validity of ML model",
+          "quote": "the KNN model has accurately predicted the precipitation of harmful phases, as the AUC values of TCP and GCP reached 0.88 and 0.92, respectively.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 Materials and sample preparation",
+          "quote": "Several superalloys were utilized to assemble a diffusion multiple contain complex compositions, as shown in Table 1.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_8",
+      "sample_id": "sample_8",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Figure 2",
+          "quote": "labeled and (N) montaged SEM images of NiX-6W-4Nb diffusion triple.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 Materials and sample preparation",
+          "quote": "Those alloys were prepared by vacuum induction melting method firstly and homogenized by heat treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 Materials and sample preparation",
+          "quote": "After hot isostatic pressing at 1180°C/150MPa for 8h and two-stage aging process of 1180°C / 1000h plus 800°C / 2000h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "The γ, γ′, σ, μ and η phases are the major phases in the diffusion multiple.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "The γ′ phase is the L12 ordered phase based on Ni3Al, and is the main strengthening phase in Ni-base superalloys.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "The σ and μ phases are TCP phases, and the η phase is a typical GCP phase.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "The σ and μ phases are TCP phases, and the η phase is a typical GCP phase.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "The σ and μ phases are TCP phases, and the η phase is a typical GCP phase.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "The γ′ phase is the L12 ordered phase based on Ni3Al, and is the main strengthening phase in Ni-base superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Phase identification",
+          "quote": "In specific, the γ matrix is mainly strengthened by solid solution elements.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "Wherein the TCP and GCP phases are always thought detrimental to the alloys, as their precipitation would deplete the strengthening elements, and facilitate the crack initiation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "phase_5",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "Wherein the TCP and GCP phases are always thought detrimental to the alloys, as their precipitation would deplete the strengthening elements, and facilitate the crack initiation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "phase_3",
+      "sample_id": "sample_8",
+      "material_state": null,
+      "conditions": {
+        "phases": "TCP phases"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3 Validity of ML model",
+          "quote": "the KNN model has accurately predicted the precipitation of harmful phases, as the AUC values of TCP and GCP reached 0.88 and 0.92, respectively.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "phase_5",
+      "sample_id": "sample_8",
+      "material_state": null,
+      "conditions": {
+        "phases": "GCP phases"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3 Validity of ML model",
+          "quote": "the KNN model has accurately predicted the precipitation of harmful phases, as the AUC values of TCP and GCP reached 0.88 and 0.92, respectively.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "d52e46caf729f912:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

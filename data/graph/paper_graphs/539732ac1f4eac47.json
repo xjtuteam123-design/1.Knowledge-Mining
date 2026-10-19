@@ -1,0 +1,852 @@
+{
+  "document_id": "539732ac1f4eac47",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Viscoplastic phase field simulation of microstructural evolutions under complex loadings in Ni-base superalloys",
+    "authors": [
+      "Anaïs Gaubert",
+      "Yann Le Bouar",
+      "Alphonse Finel"
+    ],
+    "journal": "Advanced Materials Research",
+    "year": 2011,
+    "doi": "10.4028/www.scientific.net/AMR.278.216"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base single crystal superalloy",
+      "material_category": "Ni-base superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "An elasto-viscoplastic phase field model is proposed to study the microstructural evolutions under mechanical loadings in a Ni-base superalloy single crystal.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "AM1 superalloy",
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "The phase field model",
+              "quote": "The concentration field ) , (t r c represents the local Al atomic concentration.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "539732ac1f4eac47:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Viscoplasticity parameters in the phase field model",
+          "quote": "The material parameters for both phases have been identified on monotonic and cyclic experiments on the AM1 superalloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": "15 minutes",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "disordered state with stress-free boundary conditions",
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "Annealing at 1200°C during 15 minutes followed by annealing at 950°C during 1.5h is simulated to obtain the cuboidale microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "1.5h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "cuboidal microstructure",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "Annealing at 1200°C during 15 minutes followed by annealing at 950°C during 1.5h is simulated to obtain the cuboidale microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "creep simulation along [001]",
+      "parameters": {
+        "temperature_c": 1050,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_stress": "150 MPa",
+          "orientation": "[001]",
+          "mesh": "64x64x64 points",
+          "simulation_box": "526 nm x 526 nm x 526 nm"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [001] orientation",
+          "quote": "The first simulations concerns microstructural evolutions under creep at 1050°C, 150MPa along the [001] orientation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "creep simulation along [011]",
+      "parameters": {
+        "temperature_c": 1050,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_stress": "150 MPa",
+          "orientation": "[011]",
+          "simulation_box": "526 nm x 526 nm x 526 nm"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [011] orientation",
+          "quote": "This section presents simulation results for creep at 1050°C, 150MPa along the [011] orientation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "alternate fatigue simulation",
+      "parameters": {
+        "temperature_c": 950,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "0.9%",
+        "strain_rate": "1e-5 s-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "orientation": "[001]",
+          "mesh": "512x512 points (2D)",
+          "cycles": "15"
+        }
+      },
+      "input_state": "cuboidal microstructure",
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "The influence of an alternate fatigue loading at 950°C has been simulated. The applied deformation is 0.9%, the deformation rate is 10-5s-1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "matrix channels",
+        "location": "matrix channels",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Viscoplasticity parameters in the phase field model",
+          "quote": "The plastic activity mainly occurs in the matrix γ channels while the γ’ precipitates remain elastic under creep loading.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rafts perpendicular to tensile axis (elasto-viscoplastic); straighter rafts (elastic)",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [001] orientation",
+          "quote": "In both cases, the microstructure evolves in order to form platelets perpendicular to the tensile axis.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [011]",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cubic section initially, platelets normal to <100>, <010>, <110> in later stage (elasto-viscoplastic); cubic precipitates coarsening along z (elastic)",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [011] orientation",
+          "quote": "the micros tructure coarsens along the z axis, the precipitate s section remaining cubic. The elasto-viscoplastic si mulation, figure 5, exhibits a different result.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "rafted microstructure",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "platelets perpendicular to tensile axis; curved shape in elasto-viscoplastic simulation, straighter in elastic",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [001] orientation",
+          "quote": "rafting is completed after 1.75h in elasticity whereas only 0.61h are needed with plasticity. Secondly, plasticity has an influence o n the precipitates shape.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "cuboidal microstructure",
+      "sample_id": "sample_1",
+      "material_state": "after annealing at 950°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "Annealing at 1200°C during 15 minutes followed by annealing at 950°C during 1.5h is simulated to obtain the cuboidale microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "45-degree oriented microstructure",
+      "sample_id": "sample_1",
+      "material_state": "alternate fatigue at 950°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "tends to be aligned to directions at 45° from the cubic axis",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "In the elasto-viscoplastic case, a microstructure disorientation is observed. The microstructure tends to be aligned to directions at 45° from the cubic axis.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        },
+        {
+          "page": 6,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "When the loading rate is slow enough, a 45° oriented mic rostructure is observed as in the elasto-viscoplastic phase field simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "platelet family",
+      "sample_id": "sample_1",
+      "material_state": "creep along [011]",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "platelets normal to <100>, <010> and <110>",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [011] orientation",
+          "quote": "This author has pointed out the coexistence of three platelets fami lies: platelets normal to the directions <100>, <010> and <110>.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "plastic activity in gamma matrix channels",
+      "category": "plasticity",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [001] orientation",
+          "quote": "After 0.44h, the plastic activity is concentrated in the vertical channels of matrix. An intermediate va lue of plastic deformation is observed near the corners of the precipitates. The plastic activity i n these areas explains the curved shape of the precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "rafting",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The most commonly known microstructural evolution i n these materials is the so-called rafting phenomenon which arises under creep loading along t he orientation [001].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Viscoplasticity parameters in the phase field model",
+          "quote": "The material parameters for both phases have been identified on monotonic and cyclic experiments on the AM1 superalloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "The phase field model",
+          "quote": "The concentration field ) , (t r c represents the local Al atomic concentration.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {
+        "temperature_c": 1200,
+        "time": "15 minutes"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "Annealing at 1200°C during 15 minutes followed by annealing at 950°C during 1.5h is simulated to obtain the cuboidale microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {
+        "temperature_c": 950,
+        "time": "1.5h"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "Annealing at 1200°C during 15 minutes followed by annealing at 950°C during 1.5h is simulated to obtain the cuboidale microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "after annealing at 950°C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "Annealing at 1200°C during 15 minutes followed by annealing at 950°C during 1.5h is simulated to obtain the cuboidale microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "conditions": {
+        "temperature_c": 1050,
+        "applied_stress": "150 MPa",
+        "orientation": "[001]"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [001] orientation",
+          "quote": "The first simulations concerns microstructural evol utions under creep at 1050°C, 150MPa along the [001] orientation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [011]",
+      "conditions": {
+        "temperature_c": 1050,
+        "applied_stress": "150 MPa",
+        "orientation": "[011]"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [011] orientation",
+          "quote": "This section presents simulation results for creep at 1050°C, 150MPa along the [011] orientation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": "sample_1",
+      "material_state": "alternate fatigue at 950°C",
+      "conditions": {
+        "temperature_c": 950,
+        "deformation": "0.9%",
+        "strain_rate": "1e-5 s-1",
+        "orientation": "[001]"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "The influence of an alternate fatigue loading at 95 0°C has been simulated. The applied deformation is 0.9%, the deformation rate is 10 -5s-1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Viscoplasticity parameters in the phase field model",
+          "quote": "The plastic activity mainly oc curs in the matrix γ channels while the γ’ precipitates remain elastic under creep loading.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Viscoplasticity parameters in the phase field model",
+          "quote": "The plastic activity mainly oc curs in the matrix γ channels while the γ’ precipitates remain elastic under creep loading.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [011]",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [011] orientation",
+          "quote": "the micros tructure coarsens along the z axis, the precipitate s section remaining cubic.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [001] orientation",
+          "quote": "In both cases, the microstructure evolves in order to form platelets perpendicular to the tensile axis.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "creep along [011]",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [011] orientation",
+          "quote": "This author has pointed out the coexistence of three platelets fami lies: platelets normal to the directions <100>, <010> and <110>. These orientations correspond to the orientations given by the elasto-viscoplastic simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "alternate fatigue at 950°C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "In the elasto-viscoplastic case, a microstructure disorientation is observed. The microstructure tends to be aligned to directions at 45° from the cubic axis.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Simulation of microstructural evolution under creep along the [001] orientation",
+          "quote": "An intermediate va lue of plastic deformation is observed near the corners of the precipitates. The plastic activity i n these areas explains the curved shape of the precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "alternate fatigue at 950°C",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Simulation of microstructural evolution under alternate fatigue in the [001] orientation",
+          "quote": "The plastic strain is oriented at 45° from the cubic directions. Conseque ntly, the plastic strain field explains the orientation taken by the microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "mechanism_2",
+      "predicate": "PROMOTES",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "creep at 1050°C along [001]",
+      "conditions": {
+        "temperature_c": 1050,
+        "applied_stress": "150 MPa",
+        "orientation": "[001]"
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The most commonly known microstructural evolution i n these materials is the so-called rafting phenomenon which arises under creep loading along t he orientation [001].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "539732ac1f4eac47:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

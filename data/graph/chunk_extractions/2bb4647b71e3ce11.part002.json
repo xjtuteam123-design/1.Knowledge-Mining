@@ -1,0 +1,314 @@
+{
+  "document_id": "2bb4647b71e3ce11",
+  "chunk_id": "2bb4647b71e3ce11:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Estimating the Microstructure-Based and Property-Based Statistically Equivalent Representative Volume Elements (SERVE) for a Ni-Based Superalloy",
+    "authors": [],
+    "journal": "Metallurgical and Materials Transactions A",
+    "year": null,
+    "doi": "10.1007/s11661-018-4858-y"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "IV. VALIDATION OF THE VIRTUAL MICROSTRUCTURE GENERATION ALGORITHM USING EBSD DATA",
+          "quote": "The model and algorithms are validated using the EBSD data of the Ni-based superalloy specimen, discussed in Section II–A.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Rene88-DT",
+      "canonical_name": "Rene88-DT",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 11,
+          "section": "VI. PROPERTY-BASED SERVE (P-SERVE) AND ITS ESTIMATION",
+          "quote": "the parameters of the AE-CP constitutive model are directly calibrated from experimental data on polycrystalline superalloy Rene88-DT.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "IV. VALIDATION OF THE VIRTUAL MICROSTRUCTURE GENERATION ALGORITHM USING EBSD DATA",
+          "quote": "inverse pole figure (IPF) color scheme for the FCC standard triangle",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma-prime",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "A. Activation Energy-Based Crystal Plasticity Model",
+          "quote": "incorporates characteristic morphological features of the c/c0 subgrain microstructure in the representation of its constitutive parameters",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "strain energy",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "B. Calibration of Crystal Plasticity Constitutive Parameters",
+          "quote": "The objective function to be minimized by the GA algorithms is the difference of strain energy increments in finite-element simulations with the SERVEs and experimental plots.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ],
+      "value_note": "Non-numeric entity extracted due to property-based modeling; no explicit numeric value given in the segment."
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "yield strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CPFEM simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "C. Convergence Studies for Estimating the P-SERVE",
+          "quote": "Results of the CPFE simulations are used to determine the volume-averaged, macroscopic strain energy, yield strength (0.2 pct flow stress in the stress–strain plot), and the hardening rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ],
+      "value_note": "Non-numeric entity extracted due to property-based modeling; no explicit numeric value given in the segment."
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "hardening rate",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CPFEM simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "C. Convergence Studies for Estimating the P-SERVE",
+          "quote": "Results of the CPFE simulations are used to determine the volume-averaged, macroscopic strain energy, yield strength (0.2 pct flow stress in the stress–strain plot), and the hardening rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ],
+      "value_note": "Non-numeric entity extracted due to property-based modeling; no explicit numeric value given in the segment."
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "twinning",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "III. VIRTUAL MICROSTRUCTURE GENERATION ALGORITHM",
+          "quote": "By repeating the above steps, a set of twins are inserted in parent grain microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "genetic algorithm",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "calibration of constitutive parameters",
+      "inputs": [
+        "strain energy increments from finite-element simulations",
+        "experimental strain energy increments"
+      ],
+      "target": "minimization of difference in strain energy increments",
+      "dataset": "experimental mechanical test data for Rene88-DT",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 13,
+          "section": "B. Calibration of Crystal Plasticity Constitutive Parameters",
+          "quote": "For calibration, a genetic algorithm (GA)-minimization loop is developed and implemented to generate different sets of constitutive parameters.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "IV. VALIDATION OF THE VIRTUAL MICROSTRUCTURE GENERATION ALGORITHM USING EBSD DATA",
+          "quote": "inverse pole figure (IPF) color scheme for the FCC standard triangle",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "A. Activation Energy-Based Crystal Plasticity Model",
+          "quote": "incorporates characteristic morphological features of the c/c0 subgrain microstructure in the representation of its constitutive parameters",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "III. VIRTUAL MICROSTRUCTURE GENERATION ALGORITHM",
+          "quote": "By repeating the above steps, a set of twins are inserted in parent grain microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

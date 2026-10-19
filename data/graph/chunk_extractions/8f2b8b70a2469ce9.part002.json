@@ -1,0 +1,150 @@
+{
+  "document_id": "8f2b8b70a2469ce9",
+  "chunk_id": "8f2b8b70a2469ce9:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "International Journal of Fatigue",
+    "year": 2025,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The variation of the elastic modulus of single crystalline Ni-base su - peralloys at various temperatures with orientation is shown in Fig. 1 .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "directionally solidified Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "2.4. Modification for DS alloys",
+          "quote": "For DS alloys, we employ a similar orientation assignment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "single-crystal Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The variation of the elastic modulus of single crystalline Ni-base su - peralloys at various temperatures with orientation is shown in Fig. 1 .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "creep rupture",
+      "category": "fracture",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "3.2. Influence of crystallographic orientation on TMF",
+          "quote": "The fracture behavior exhibited features of creep rupture with the fracture occurring along a grain boundary of the DS alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "physics-guided probabilistic neural network (PPgNN)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "creep-fatigue and thermo-mechanical fatigue crack initiation life prediction with confidence intervals",
+      "inputs": [
+        "strain range (εr)",
+        "maximum temperature of the cycle (Tmax)",
+        "minimum temperature of the cycle (Tmin)",
+        "temperature-strain phase factor (TSPFalt)",
+        "cyclic loading frequency",
+        "dwell time in tension",
+        "dwell time in compression",
+        "crystallographic orientation (normalized elastic modulus ratio)",
+        "runout index"
+      ],
+      "target": "fatigue life",
+      "dataset": "DS and SX Ni-base superalloy creep-fatigue and TMF data compiled from several sources",
+      "validation": "goodness of fit (parity) plots and k-fold cross-validation",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "8",
+          "section": "2.5. PPgNN architecture",
+          "quote": "The PPgNN model architecture for predicting life and confidence intervals for DS and SX Ni-base superalloys is shown in Fig. 3 .",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        },
+        {
+          "page": "10",
+          "section": "2.7. Evaluation of model training",
+          "quote": "The thoroughness of the model ’ s training was scrutinized using two principal methodologies: goodness of fit plots and k-fold cross- validation testing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "ml_model_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "3.2. Influence of crystallographic orientation on TMF",
+          "quote": "the current archi - tecture of PPgNN does not have any information on the presence of grain boundaries, which will be needed to predict this condition",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

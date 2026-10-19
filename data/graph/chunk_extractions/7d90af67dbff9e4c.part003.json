@@ -1,0 +1,181 @@
+{
+  "document_id": "7d90af67dbff9e4c",
+  "chunk_id": "7d90af67dbff9e4c:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Crystals",
+    "year": 2023,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb521 alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "Conclusions",
+          "quote": "It can be seen from the MJC model that the parameters of Nb521 vary greatly at different temperatures and strain rates, which may be because the deformation mechanism of Nb521 is affected at higher temperatures and strain rates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7d90af67dbff9e4c:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Nb521",
+      "canonical_name": "Nb521",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "16",
+          "section": "Conclusions",
+          "quote": "It can be seen from the MJC model that the parameters of Nb521 vary greatly at different temperatures and strain rates, which may be because the deformation mechanism of Nb521 is affected at higher temperatures and strain rates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7d90af67dbff9e4c:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "{001} <110> cubic texture",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "16",
+          "section": "Conclusions",
+          "quote": "Both grain elongation and torsion are the main deformation mechanism of Nb521, and {001} <110> cubic texture gradually forms with stretching.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7d90af67dbff9e4c:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain elongation and torsion",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "Conclusions",
+          "quote": "Both grain elongation and torsion are the main deformation mechanism of Nb521, and {001} <110> cubic texture gradually forms with stretching.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7d90af67dbff9e4c:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "microcrack initiation by impurity particles",
+      "category": "fracture",
+      "sample_id": "sample_1",
+      "material_state": "tested at room temperature",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "Conclusions",
+          "quote": "At room temperature, microcracks induced by impurity particles at the grain boundary initiate the fracture.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7d90af67dbff9e4c:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "microcrack initiation by specific stress conditions",
+      "category": "fracture",
+      "sample_id": "sample_1",
+      "material_state": "tested at high temperature",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "Conclusions",
+          "quote": "At high temperatures, the microcracks are not induced by impurity particles but by specific stress conditions. The cracks appear on both sides along with the stretching, leading to the brittle fracture of the surface structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7d90af67dbff9e4c:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "FORMS",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "Conclusions",
+          "quote": "Both grain elongation and torsion are the main deformation mechanism of Nb521, and {001} <110> cubic texture gradually forms with stretching.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7d90af67dbff9e4c:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "Conclusions",
+          "quote": "At room temperature, microcracks induced by impurity particles at the grain boundary initiate the fracture. At high temperatures, the microcracks are not induced by impurity particles but by specific stress conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7d90af67dbff9e4c:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

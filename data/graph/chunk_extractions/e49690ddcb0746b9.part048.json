@@ -1,0 +1,265 @@
+{
+  "document_id": "e49690ddcb0746b9",
+  "chunk_id": "e49690ddcb0746b9:part:048",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Optimization of the Forging Process Window in Respect of AGG, IGG and Direct Age Effect in Alloy 718 Engine Disks",
+    "authors": [
+      "Aleksandar Stanojevic",
+      "Christian Bucher",
+      "Markus Gruber",
+      "Bernd Oberwinkler",
+      "Martin Stockinger"
+    ],
+    "journal": "Proceedings of the 9th International Symposium on Superalloy 718 & Derivatives: Energy, Aerospace, and Industrial Applications",
+    "year": 2018,
+    "doi": "10.1007/978-3-319-89480-5_46"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy 718",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": 682,
+          "section": "Abstract",
+          "quote": "Alloy 718 is commonly used for turbine disks in aircraft engines.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:048"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "alloy 718 engine disk forging",
+      "canonical_name": "Alloy 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "forged, direct aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 683,
+          "section": "Introduction",
+          "quote": "Direct age forgings tend to exhibit coarse grain regions and a decreased direct age effect in a certain processing window",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:048"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "forging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "forged",
+      "evidence": []
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "direct aging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "forged",
+      "output_state": "direct aged",
+      "evidence": [
+        {
+          "page": 683,
+          "section": "Introduction",
+          "quote": "The direct age (DA) process skips the solution annealing, thus the aging treatment takes place directly after the forging process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:048"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "direct aged",
+      "property": "total yield strength",
+      "value": 1350,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 684,
+          "section": "Strengthening Mechanisms",
+          "quote": "Total yield strength 1350 MPa",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:048"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation strengthening",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "direct aged",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 683,
+          "section": "Strengthening Mechanisms",
+          "quote": "The precipitation strengthening shows the highest contribution to the total yield-strength where the coherency strain fields of the γ″ precipitates is the dominant strengthening effect",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:048"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid solution strengthening",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "direct aged",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 684,
+          "section": "Strengthening Mechanisms",
+          "quote": "The solid solution strengthening depends on the alloying elements and their relative size difference in comparison to the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:048"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "grain boundary strengthening",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "direct aged",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 684,
+          "section": "Strengthening Mechanisms",
+          "quote": "The grain boundary strengthening is controlled by the grain size and follows the Hall-Petch relation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:048"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "direct age effect",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "direct aged",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 684,
+          "section": "Direct Age Effect",
+          "quote": "The strengthening effect due to the direct aging is not fully understood yet. However, there are a number of theories about possible strengthening mechanisms responsible for the DA-effect.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:048"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "direct aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 683,
+          "section": "Strengthening Mechanisms",
+          "quote": "The precipitation strengthening shows the highest contribution to the total yield-strength where the coherency strain fields of the γ″ precipitates is the dominant strengthening effect",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:048"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_4",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "direct aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 684,
+          "section": "Direct Age Effect",
+          "quote": "An optimal DA effect contributes approximately 150 MPa to the total yield strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:048"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,389 @@
+{
+  "document_id": "2e0b6465d72f84c1",
+  "chunk_id": "2e0b6465d72f84c1:part:005",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": null,
+    "doi": "10.1016/j.actamat.2020.06.042"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Co-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "prediction of Vickers hardness of Co- and Ni-based superalloys using machine learning",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "prediction of Vickers hardness of Co- and Ni-based superalloys using machine learning",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "support vector regression (SVR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of Vickers hardness",
+      "inputs": [
+        "number of principal components",
+        "microstructural features"
+      ],
+      "target": "Vickers hardness",
+      "dataset": "Vickers hardness of Co- and Ni-based superalloys, 35 to 80 PCs",
+      "validation": "train/test split with 90:10 ratio",
+      "metrics": {
+        "R2_test_70PC": [
+          0.64,
+          0.48
+        ],
+        "R2_train_70PC": [
+          0.75,
+          0.36
+        ],
+        "RMSE_test_70PC": [
+          18.47,
+          8.87
+        ],
+        "RMSE_train_70PC": 0.75,
+        "percent_RMSE_train_70PC": [
+          18.47,
+          8.87
+        ],
+        "R2_test_80PC_extracted": [
+          0.72,
+          0.57
+        ],
+        "R2_train_80PC_extracted": [
+          0.64,
+          0.72
+        ],
+        "RMSE_test_80PC_extracted": [
+          15.76,
+          17.73
+        ],
+        "RMSE_train_80PC_extracted": [
+          15.76,
+          17.73
+        ]
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The performance of SVR models, trained on different number of principal components, is shown in Fig3. The RMSE of train data is greater than the test data, which shows that the model is under fitted.",
+          "table": null,
+          "figure": "Fig3",
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        },
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The best result for SVR using only the microstructural features is obtained for 70 PCs. The R2 for the model developed on 70 PCs is 0.64/0.48 and RMSE (%RMSE) is 0.75/0.36 (18.47/8.87).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        },
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The best results in GPR are obtained from 80 PCs with R2 of 0.72/0.57 and RMSE (%RMSE) of 0.64/0.72 (15.76/17.73).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        },
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The models are trained for different number of PCs varying from 35 to 80 using gridsearch or iterative algorithms.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "Gaussian process regression (GPR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of Vickers hardness",
+      "inputs": [
+        "compositional features",
+        "microstructural features",
+        "number of PCs"
+      ],
+      "target": "Vickers hardness",
+      "dataset": "Vickers hardness of Co- and Ni-based superalloys, 25 to 80 PCs",
+      "validation": "gridsearch or iterative algorithms; train/test",
+      "metrics": {
+        "R2": [
+          0.99,
+          0.98
+        ],
+        "RMSE": [
+          0.1,
+          0.14
+        ],
+        "percent_RMSE": [
+          2.46,
+          3.44
+        ],
+        "model_type": "Matem kernel"
+      },
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The models are trained for different number of PCs varying from 35 to 80 using gridsearch or iterative algorithms. The performance of SVR models, trained on different number of principal components, is shown in Fig3. The RMSE of train data is greater than the test data, which shows that the model is underfitted.",
+          "table": null,
+          "figure": "Fig3",
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        },
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The Matem kernel function is given by [49],",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        },
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The best result for SVR using only the microstructural features is obtained for 70 PCs. The R2 for the model developed on 70 PCs is 0.64/0.48 and RMSE (%RMSE) is 0.75/0.36 (18.47/8.87). This shows that the models developed from microstructural features using SVR are unable to capture the structure-property relationship.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        },
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The best results in GPR are obtained from 80 PCs with R2 of 0.72/0.57 and RMSE (%RMSE) of 0.64/0.72 (15.76/17.73).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        },
+        {
+          "page": 10,
+          "section": null,
+          "quote": "Table 1 Best GPR models with composition and varying number of principle components.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        },
+        {
+          "page": 10,
+          "section": null,
+          "quote": "25 0.99/0.98 0.10/0.14 2.46/3.44",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "Gaussian process regression (GPR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of Vickers hardness",
+      "inputs": [
+        "compositional features"
+      ],
+      "target": "Vickers hardness",
+      "dataset": "Vickers hardness of Co- and Ni-based superalloys, 30 to 80 PCs",
+      "validation": "gridsearch or iterative algorithms; train/test",
+      "metrics": {
+        "R2_30PC_train": 0.99,
+        "R2_30PC_test": 0.97,
+        "RMSE_30PC_train": 0.1,
+        "RMSE_30PC_test": 0.15,
+        "percent_RMSE_30PC_train": 2.46,
+        "percent_RMSE_30PC_test": 3.69,
+        "R2_80PC_train": 0.99,
+        "R2_80PC_test": 0.95,
+        "RMSE_80PC_train": 0.09,
+        "RMSE_80PC_test": 0.19,
+        "percent_RMSE_80PC_train": 2.32,
+        "percent_RMSE_80PC_test": 4.68
+      },
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "Table 1 Best GPR models with composition and varying number of principle components.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        },
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The models developed using all the compositional features, while the PCs ranged from 25 to 80. The models result in a much better description of the Vickers hardness. This is expected as mechanical properties such as Vickers hardness are highly dependent on composition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The best result for SVR using only the microstructural features is obtained for 70 PCs. The R2 for the model developed on 70 PCs is 0.64/0.48 and RMSE (%RMSE) is 0.75/0.36 (18.47/8.87).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "alloy_system_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The best result for SVR using only the microstructural features is obtained for 70 PCs. The R2 for the model developed on 70 PCs is 0.64/0.48 and RMSE (%RMSE) is 0.75/0.36 (18.47/8.87).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "ml_model_2",
+      "predicate": "PREDICTS",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The best results in GPR are obtained from 80 PCs with R2 of 0.72/0.57 and RMSE (%RMSE) of 0.64/0.72 (15.76/17.73).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "ml_model_2",
+      "predicate": "PREDICTS",
+      "target_id": "alloy_system_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The best results in GPR are obtained from 80 PCs with R2 of 0.72/0.57 and RMSE (%RMSE) of 0.64/0.72 (15.76/17.73).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "ml_model_3",
+      "predicate": "PREDICTS",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The models developed using all the compositional features, while the PCs ranged from 25 to 80. The models result in a much better description of the Vickers hardness.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "ml_model_3",
+      "predicate": "PREDICTS",
+      "target_id": "alloy_system_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The models developed using all the compositional features, while the PCs ranged from 25 to 80. The models result in a much better description of the Vickers hardness.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:005"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

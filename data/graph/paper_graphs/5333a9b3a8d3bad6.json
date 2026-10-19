@@ -1,0 +1,391 @@
+{
+  "document_id": "5333a9b3a8d3bad6",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Phase-Field Simulation on Coarsening of the γ' Phase Particles in Ni-Based Superalloys Considering Elastic Inhomogeneity",
+    "authors": [
+      "Yuhki Tsukada",
+      "Yoshinori Murata",
+      "Toshiyuki Koyama",
+      "Masahiko Morinaga"
+    ],
+    "journal": "Defect and Diffusion Forum",
+    "year": 2010,
+    "doi": "10.4028/www.scientific.net/DDF.297-301.376"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "A phase-field simulation is performed to examine the effect of elastic inhomogeneity between the γ and γ' phases on coarsening of the γ' phase in Ni-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "TMS-26",
+      "canonical_name": "TMS-26",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated at 1373 K",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results",
+          "quote": "Elastic constants of the TMS-26 alloy at 1373K (Cm11 =184, Cm12 =135, Cm44 =88.1, Cp11 =209, Cp12 =142, Cp44 =90.4 GPa) [6] were employed in this simulation, and the volume fraction of the γ' phase in the equilibrium state was set to be 55% [6].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        },
+        {
+          "page": 4,
+          "section": "Results",
+          "quote": "The lattice misfit was set to be ε0=-0.003, which is close to the value for TMS-26 alloy [6].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "phase-field simulation",
+      "parameters": {
+        "temperature_c": 1373,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "dimension": "2D",
+          "gamma_prime_volume_fraction": "55%",
+          "lattice_misfit": -0.003,
+          "boundary_conditions": "periodic"
+        }
+      },
+      "input_state": "supersaturated solid solution with random noise of the field variables",
+      "output_state": "simulated at 1373 K",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results",
+          "quote": "Phase-field simulation at a temperature of 1373 K was performed by solving the two sets of Eqs. 1 and 2 numerically, using the explicit method under the periodic boundary conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        },
+        {
+          "page": 4,
+          "section": "Results",
+          "quote": "The simulation was started from the supersaturated solid solution with a random noise of the field variables (f, φi).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ' phase",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "attributes": {
+        "phase_fraction": "55%",
+        "size": null,
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Ni-based superalloys, which are composed of the γ' phase (L12 structure) precipitated in the γ phase with face-centered cubic lattice",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        },
+        {
+          "page": 6,
+          "section": "Particle size distribution",
+          "quote": "the peak radius is r/r(t) = 0.7~0.8",
+          "table": null,
+          "figure": "Fig. 4, Fig. 5",
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ phase",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Ni-based superalloys, which are composed of the γ' phase (L12 structure) precipitated in the γ phase with face-centered cubic lattice",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "property": "coefficient of determination (R2)",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1373,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Results",
+          "quote": "The variation of elastic anisotropy gives significant effect on both morphology and size distribution function of the γ' particles, whereas the variation of shear modulus gives little effect on them.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "elastic inhomogeneity",
+      "category": "elastic interaction",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results",
+          "quote": "It is found that the cuboidal shape of the γ' phase arranges along the <10> crystallographic direction of the γ matrix due to the anisotropic elastic interaction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "anisotropic elastic interaction",
+      "category": "elastic interaction",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results",
+          "quote": "It is found that the cuboidal shape of the γ' phase arranges along the <10> crystallographic direction of the γ matrix due to the anisotropic elastic interaction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results",
+          "quote": "Elastic constants of the TMS-26 alloy at 1373K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results",
+          "quote": "Phase-field simulation at a temperature of 1373 K was performed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Particle size distribution",
+          "quote": "scaled particle size distribution of the γ' phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "the γ' phase (L12 structure) precipitated in the γ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results",
+          "quote": "due to the anisotropic elastic interaction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_2",
+      "predicate": "PROMOTES",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results",
+          "quote": "It is found that the cuboidal shape of the γ' phase arranges along the <10> crystallographic direction of the γ matrix due to the anisotropic elastic interaction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "observation_1",
+      "predicate": "COMPARED_WITH",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated at 1373 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Results",
+          "quote": "The variation of elastic anisotropy gives significant effect on both morphology and size distribution function of the γ' particles, whereas the variation of shear modulus gives little effect on them.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5333a9b3a8d3bad6:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

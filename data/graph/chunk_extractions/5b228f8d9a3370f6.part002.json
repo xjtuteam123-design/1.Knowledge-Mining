@@ -1,0 +1,805 @@
+{
+  "document_id": "5b228f8d9a3370f6",
+  "chunk_id": "5b228f8d9a3370f6:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Metallurgical and Materials Transactions A",
+    "year": 2025,
+    "doi": "10.1007/s11661-024-07621-3"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the influence of O atom solid solution on the cell parameters of c and c¢ phases in Ni-based superalloys were investigated using first-principles calculations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "diffusion couple",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "diffusion couple",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "14",
+          "section": "E. Diffusion Mechanism of O at Diffusion Couple Interface",
+          "quote": "Figure 15 provides a comprehensive overview of the diffusion process at the diffusion couple interface.",
+          "table": null,
+          "figure": "15",
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Ni",
+      "canonical_name": "Ni",
+      "alloy_system_id": null,
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "12",
+              "section": null,
+              "quote": "the c matrix and c¢ phase is simplified to FCC-structured Ni and L1 2 structured Ni 3Al for geometric optimization",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5b228f8d9a3370f6:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Table II. Single/Supercell Lattice Parameters of Ni and Ni 3Al Before and After O Atom Solution",
+          "table": "II",
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Ni3Al",
+      "canonical_name": "Ni3Al",
+      "alloy_system_id": null,
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "12",
+              "section": null,
+              "quote": "the c matrix and c¢ phase is simplified to FCC-structured Ni and L1 2 structured Ni 3Al for geometric optimization",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5b228f8d9a3370f6:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "12",
+              "section": null,
+              "quote": "the c matrix and c¢ phase is simplified to FCC-structured Ni and L1 2 structured Ni 3Al for geometric optimization",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5b228f8d9a3370f6:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Table II. Single/Supercell Lattice Parameters of Ni and Ni 3Al Before and After O Atom Solution",
+          "table": "II",
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "spark plasma sintering (SPS)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "diffusion couple",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the diffusion couple interface prepared by SPS is similar to the sintering neck formed between the oxide layers of powder particles during sintering",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": "24 hours",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "duration_hours": 24
+        }
+      },
+      "input_state": "diffusion couple",
+      "output_state": "heat-treated",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "after 24 hours of heat treatment, the inward diffusion of oxygen gradually reduces the LP mismatch",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma matrix",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the affinity of O for the c matrix is stronger",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma' phase",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the c matrix and the c¢ phase at different distances from the interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "alpha-Al2O3",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "diffusion couple interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "leaving only pure aAl2O3 at the interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "Ni3Al-O1",
+      "sample_id": "sample_3",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "calculated"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Table II. Single/Supercell Lattice Parameters of Ni and Ni 3Al Before and After O Atom Solution",
+          "table": "II",
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "Ni3Al-O2",
+      "sample_id": "sample_3",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "calculated"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Table II. Single/Supercell Lattice Parameters of Ni and Ni 3Al Before and After O Atom Solution",
+          "table": "II",
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "NiCr-O1",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "calculated"
+      },
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "Table III. Single Lattice Parameters of c Doped with Alloy Elements Before and After O Atom Solution",
+          "table": "III",
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "NiCr-O2",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "calculated"
+      },
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "Table III. Single Lattice Parameters of c Doped with Alloy Elements Before and After O Atom Solution",
+          "table": "III",
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_8",
+      "type": "Phase",
+      "name": "NiCo-O1",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "calculated"
+      },
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "Table III. Single Lattice Parameters of c Doped with Alloy Elements Before and After O Atom Solution",
+          "table": "III",
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_9",
+      "type": "Phase",
+      "name": "NiCo-O2",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "calculated"
+      },
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "Table III. Single Lattice Parameters of c Doped with Alloy Elements Before and After O Atom Solution",
+          "table": "III",
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_10",
+      "type": "Phase",
+      "name": "NiMo-O1",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "calculated"
+      },
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "Table III. Single Lattice Parameters of c Doped with Alloy Elements Before and After O Atom Solution",
+          "table": "III",
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_11",
+      "type": "Phase",
+      "name": "NiMo-O2",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "calculated"
+      },
+      "evidence": [
+        {
+          "page": "15",
+          "section": null,
+          "quote": "Table III. Single Lattice Parameters of c Doped with Alloy Elements Before and After O Atom Solution",
+          "table": "III",
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "property": "lattice parameter mismatch",
+      "value": null,
+      "min_value": 0.2785,
+      "max_value": 0.2785,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "24 hours",
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "after 24 hours of heat treatment, the inward diffusion of oxygen gradually reduces the LP mismatch, decreasing from 0.2785 to a value closer to the theoretical expectation of 0.1259",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "property": "lattice parameter mismatch",
+      "value": null,
+      "min_value": 0.1259,
+      "max_value": 0.1259,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "24 hours",
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "after 24 hours of heat treatment, the inward diffusion of oxygen gradually reduces the LP mismatch, decreasing from 0.2785 to a value closer to the theoretical expectation of 0.1259",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "property": "formation energy",
+      "value": -5.12,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the formation energy of O atom is the lowest ( /C0 5.12 eV), its high solubility in the c phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_3",
+      "material_state": null,
+      "property": "formation energy",
+      "value": -5.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "15",
+          "section": "IV. CONCLUSION",
+          "quote": "First-principles calculations further demonstrate a lower formation energy ( /C0 5.12 eV) associated with O solid solution in the Ni crystal cell compared to that observed in Ni 3Al (/C0 5.00 eV)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "oxygen diffusion",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "after 24 hours of heat treatment, the inward diffusion of oxygen gradually reduces the LP mismatch",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "O solid solution",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "the influence of O atom solid solution on the cell parameters of c and c¢ phases in Ni-based superalloys were investigated using first-principles calculations",
+          "table": null,
+          "figure": "12",
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the diffusion couple interface prepared by SPS is similar to the sintering neck formed between the oxide layers of powder particles during sintering",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "after 24 hours of heat treatment, the inward diffusion of oxygen gradually reduces the LP mismatch",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "the matrix regions near and far from the interface consist solely of Ni and Ni 3Al",
+          "table": null,
+          "figure": "15",
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "the matrix regions near and far from the interface consist solely of Ni and Ni 3Al",
+          "table": null,
+          "figure": "15",
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "leaving only pure aAl2O3 at the interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_1",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "conditions": {
+        "duration": "24 hours"
+      },
+      "polarity": "negative",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "after 24 hours of heat treatment, the inward diffusion of oxygen gradually reduces the LP mismatch, decreasing from 0.2785 to a value closer to the theoretical expectation of 0.1259",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "in the matrix near the diffusion couple interface, the high O atom content per unit volume results in more serious lattice expansion in c phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5b228f8d9a3370f6:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

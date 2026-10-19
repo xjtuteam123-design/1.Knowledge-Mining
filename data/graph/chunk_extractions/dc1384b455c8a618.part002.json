@@ -1,0 +1,295 @@
+{
+  "document_id": "dc1384b455c8a618",
+  "chunk_id": "dc1384b455c8a618:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Jan Kout",
+      "Tomáš Krajňák",
+      "Pavel Salvetr",
+      "Pavel Podaný",
+      "Michal Brázda",
+      "Daniel Preisler",
+      "Jan Džugan",
+      "Jiří Stráský",
+      "Marek Janeček",
+      "Petr Hausild"
+    ],
+    "journal": "Materials",
+    "year": 2025,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "CrNbTiZr refractory complex concentrated alloy",
+      "material_category": "refractory complex concentrated alloy",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Conclusions",
+          "quote": "The successful fabrication of a crack-free RCCA CrNbTiZr through directed energy deposition using elemental powders represents a significant advancement in the additive manufacturing of high-performance materials.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CrNbTiZr RCCA",
+      "canonical_name": "CrNbTiZr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-deposited",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": "Conclusions",
+              "quote": "The successful fabrication of a crack-free RCCA CrNbTiZr through directed energy deposition using elemental powders",
+              "table": null,
+              "figure": null,
+              "chunk_id": "dc1384b455c8a618:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Conclusions",
+          "quote": "Even though undissolved Nb particles are present in the as-deposited condition, the achieved yield strength is comparable to that of the cast equimolar CrNbTiZr alloy subjected to hot isostatic pressing and a long-term annealing process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "directed energy deposition (DED)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "powder": "elemental powders"
+        }
+      },
+      "input_state": "elemental powders",
+      "output_state": "as-deposited",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Conclusions",
+          "quote": "The successful fabrication of a crack-free RCCA CrNbTiZr through directed energy deposition using elemental powders",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "undissolved Nb particle",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Nb",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Conclusions",
+          "quote": "Even though undissolved Nb particles are present in the as-deposited condition",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Defect",
+      "name": "Cr concentration gradient",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "along build direction, lower Cr content at bottom section and higher concentrations near the top",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Page 12",
+          "quote": "Notably, a Cr concentration gradient was evident in the build direction, with lower Cr content at the bottom section and higher concentrations near the top.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Cr vaporization during prolonged laser exposure",
+      "category": "elemental redistribution",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Page 12",
+          "quote": "This phenomenon likely arises from different vaporization of Cr during prolonged laser exposure, particularly at the bottom layers that undergo more thermal cycling than the top ones",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "powder blend de-mixing during deposition",
+      "category": "elemental redistribution",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Page 12",
+          "quote": "Powder blend de-mixing during deposition can also be considered as a source of the observed inhomogeneities. This phenomenon can occur due to various factors, including differences in particle size, shape, density, and surface properties among the constituent powders.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Conclusions",
+          "quote": "Even though undissolved Nb particles are present in the as-deposited condition",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Page 12",
+          "quote": "Notably, a Cr concentration gradient was evident in the build direction, with lower Cr content at the bottom section and higher concentrations near the top.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Page 12",
+          "quote": "This phenomenon likely arises from different vaporization of Cr during prolonged laser exposure, particularly at the bottom layers that undergo more thermal cycling than the top ones",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "Page 12",
+          "quote": "Powder blend de-mixing during deposition can also be considered as a source of the observed inhomogeneities.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dc1384b455c8a618:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

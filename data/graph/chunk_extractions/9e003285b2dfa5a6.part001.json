@@ -1,0 +1,1361 @@
+{
+  "document_id": "9e003285b2dfa5a6",
+  "chunk_id": "9e003285b2dfa5a6:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Simulated data for high temperature composite design",
+    "authors": [
+      "C.C. Chamis",
+      "G.H. Abumeri"
+    ],
+    "journal": "Composites Science and Technology",
+    "year": 2006,
+    "doi": "10.1016/j.compscitech.2006.03.010"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "SiC fiber-reinforced Ti6 titanium matrix composite",
+      "material_category": "metal matrix composite",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "This paper presents the mechanical and thermal properties of a unidirectional composite from silicon carbide (SiC)/titanium (Ti6) MMC as computationally simulated by METCAN from constituents properties as described subsequently.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "nickel-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and significances",
+          "quote": "The combined results obtained for a monolithic super alloy are shown in Fig. 11 .",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "0.30 FVR SiC/Ti6",
+      "canonical_name": "SiC/Ti6",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "composition": [
+        {
+          "element": "SiC",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "vol.% (fiber volume ratio)",
+          "role": "nominal",
+          "applies_to": "fiber",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Results and significances",
+              "quote": "Fiber volume ratio (FVR) of 0.30 provided a good test for this material.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "9e003285b2dfa5a6:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "matrix (balance)",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 2",
+              "quote": "Matrix: titanium ... Ti6",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "9e003285b2dfa5a6:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "Anticipated initial thermal and mechanical properties of a unidirectional composite (0.30 FVR SiC/TI6)",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "B-1900",
+      "canonical_name": "B-1900 nickel-base alloy",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and significances",
+          "quote": "Nickel base alloy B-1900 rupture strength at various temperatures (sustained stress = 90% of static strength).",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "nickel alloy (fatigue, Fig. 12)",
+      "canonical_name": "nickel-base alloy",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and significances",
+          "quote": "Prediction of nickel alloy mechanical fatigue strength using the multi-factor interaction model (mechanical cycling eﬀect, exponent = 4.5 ).",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "consolidation and cool-down",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "cool-down from consolidation temperature to room temperature (70 F)",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "consolidation_temperature": "close to Ti6 matrix melting temperature"
+        }
+      },
+      "input_state": "consolidation temperature",
+      "output_state": "consolidated and cooled to room temperature",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and significances",
+          "quote": "the cool-down history from consolidation temperature to room temperature (70 F) was simulated before the mechanical load was applied",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "unidirectional fiber-matrix arrangement",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "unidirectional continuous SiC fibers in Ti6 matrix; perfect bond assumed",
+        "location": null,
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and significances",
+          "quote": "For this evaluation, a perfect bond was assumed to exist between the ﬁber and the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "local matrix sector fracture",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "discontinuities indicating local region (sector A) fractures",
+        "location": "matrix micro-region A",
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and significances",
+          "quote": "The discontinuities indicate local region (sector A in Fig. 2 ) fractures.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "fiber fracture",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "fiber",
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and significances",
+          "quote": "the modulus decreases continuously and exhibits an abrupt drop near composite fracture, which occurs as a result of ﬁber fractures.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "longitudinal elastic modulus",
+      "value": 26.676,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Mpsi",
+      "conditions": {
+        "temperature_c": 21.1,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "longitudinal (11)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, initial tensile load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "E‘11 Mpsi 26.676 25.606 23.618",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "longitudinal elastic modulus",
+      "value": 25.606,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Mpsi",
+      "conditions": {
+        "temperature_c": 260,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "longitudinal (11)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, initial tensile load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "E‘11 Mpsi 26.676 25.606 23.618",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "longitudinal elastic modulus",
+      "value": 23.618,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Mpsi",
+      "conditions": {
+        "temperature_c": 537.8,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "longitudinal (11)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, initial tensile load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "E‘11 Mpsi 26.676 25.606 23.618",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "transverse elastic modulus",
+      "value": 17.884,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Mpsi",
+      "conditions": {
+        "temperature_c": 21.1,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "transverse (22)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, initial tensile load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "E‘22 Mpsi 17.884 16.410 13.293",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "transverse elastic modulus",
+      "value": 16.41,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Mpsi",
+      "conditions": {
+        "temperature_c": 260,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "transverse (22)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, initial tensile load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "E‘22 Mpsi 17.884 16.410 13.293",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "transverse elastic modulus",
+      "value": 13.293,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Mpsi",
+      "conditions": {
+        "temperature_c": 537.8,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "transverse (22)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, initial tensile load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "E‘22 Mpsi 17.884 16.410 13.293",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "in-plane shear modulus",
+      "value": 8.373,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Mpsi",
+      "conditions": {
+        "temperature_c": 21.1,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "in-plane shear (12)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, initial tensile load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "G‘12 Mpsi 8.373 7.052 5.378",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "in-plane shear modulus",
+      "value": 7.052,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Mpsi",
+      "conditions": {
+        "temperature_c": 260,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "in-plane shear (12)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, initial tensile load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "G‘12 Mpsi 8.373 7.052 5.378",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "in-plane shear modulus",
+      "value": 5.378,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Mpsi",
+      "conditions": {
+        "temperature_c": 537.8,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "in-plane shear (12)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, initial tensile load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "G‘12 Mpsi 8.373 7.052 5.378",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "longitudinal tensile strength",
+      "value": 195.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Ksi",
+      "conditions": {
+        "temperature_c": 21.1,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "longitudinal (11)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, from stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘11T Ksi 195.00 180.00 160.00",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "longitudinal tensile strength",
+      "value": 180.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Ksi",
+      "conditions": {
+        "temperature_c": 260,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "longitudinal (11)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, from stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘11T Ksi 195.00 180.00 160.00",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "longitudinal tensile strength",
+      "value": 160.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Ksi",
+      "conditions": {
+        "temperature_c": 537.8,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "longitudinal (11)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, from stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘11T Ksi 195.00 180.00 160.00",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "transverse tensile strength",
+      "value": 64.75,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Ksi",
+      "conditions": {
+        "temperature_c": 21.1,
+        "strain_rate": null,
+        "loading_mode": "transverse tensile",
+        "orientation": "transverse (22)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, from stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘22T Ksi 64.75 50.75 35.00",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_14",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "transverse tensile strength",
+      "value": 50.75,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Ksi",
+      "conditions": {
+        "temperature_c": 260,
+        "strain_rate": null,
+        "loading_mode": "transverse tensile",
+        "orientation": "transverse (22)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, from stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘22T Ksi 64.75 50.75 35.00",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_15",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "transverse tensile strength",
+      "value": 35.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Ksi",
+      "conditions": {
+        "temperature_c": 537.8,
+        "strain_rate": null,
+        "loading_mode": "transverse tensile",
+        "orientation": "transverse (22)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, from stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘22T Ksi 64.75 50.75 35.00",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_16",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "in-plane shear strength",
+      "value": 43.75,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Ksi",
+      "conditions": {
+        "temperature_c": 21.1,
+        "strain_rate": null,
+        "loading_mode": "in-plane shear",
+        "orientation": "in-plane shear (12)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, from stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘12 Ksi 43.75 36.25 23.75",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_17",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "in-plane shear strength",
+      "value": 36.25,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Ksi",
+      "conditions": {
+        "temperature_c": 260,
+        "strain_rate": null,
+        "loading_mode": "in-plane shear",
+        "orientation": "in-plane shear (12)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, from stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘12 Ksi 43.75 36.25 23.75",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_18",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "in-plane shear strength",
+      "value": 23.75,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Ksi",
+      "conditions": {
+        "temperature_c": 537.8,
+        "strain_rate": null,
+        "loading_mode": "in-plane shear",
+        "orientation": "in-plane shear (12)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation, from stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘12 Ksi 43.75 36.25 23.75",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_19",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "longitudinal coefficient of thermal expansion",
+      "value": 4.577,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ppm/F",
+      "conditions": {
+        "temperature_c": 21.1,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "longitudinal (11)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "a‘11 ppm/F 4.577 4.389 4.205",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_20",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "longitudinal coefficient of thermal expansion",
+      "value": 4.205,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ppm/F",
+      "conditions": {
+        "temperature_c": 537.8,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "longitudinal (11)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "a‘11 ppm/F 4.577 4.389 4.205",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_21",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "longitudinal thermal conductivity",
+      "value": 0.585,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "BTU/F h in.",
+      "conditions": {
+        "temperature_c": 21.1,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "longitudinal (11)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "K‘11 BTU/F h in. 0.585 0.619 0.706",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_22",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "longitudinal thermal conductivity",
+      "value": 0.706,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "BTU/F h in.",
+      "conditions": {
+        "temperature_c": 537.8,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "longitudinal (11)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "K‘11 BTU/F h in. 0.585 0.619 0.706",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_23",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "major Poisson's ratio",
+      "value": 0.255,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 21.1,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "in-plane (12)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "m‘12 in./in. 0.255 0.222 0.183",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_24",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "property": "major Poisson's ratio",
+      "value": 0.183,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 537.8,
+        "strain_rate": null,
+        "loading_mode": "longitudinal tensile",
+        "orientation": "in-plane (12)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "METCAN simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "m‘12 in./in. 0.255 0.222 0.183",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "thermal expansion mismatch induced residual stress",
+      "category": "thermomechanical",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and significances",
+          "quote": "Due to the mismatch in the coeﬃcient of thermal expansion (CTE a), the stresses developed in the ﬁber were compressive while those developed in the matrix were tensile.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "local damage degradation of properties",
+      "category": "damage",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and significances",
+          "quote": "The conclusion from this discussion is that local directional damage may be present that may be detected by some properties and may be insensitive to others.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and significances",
+          "quote": "Longitudinal loads were imposed on a unidirectional Silicon Carbide ﬁber Titanium Matrix (SiC/Ti6) composite system at three diﬀerent temperatures (70, 500 and 1000 F)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_2",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and significances",
+          "quote": "Nickel base alloy B-1900 rupture strength at various temperatures",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and significances",
+          "quote": "the cool-down history from consolidation temperature to room temperature (70 F) was simulated before the mechanical load was applied",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and significances",
+          "quote": "For this evaluation, a perfect bond was assumed to exist between the ﬁber and the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and significances",
+          "quote": "The discontinuities indicate local region (sector A in Fig. 2 ) fractures.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_2",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and significances",
+          "quote": "the modulus decreases continuously and exhibits an abrupt drop near composite fracture, which occurs as a result of ﬁber fractures.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "process_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and significances",
+          "quote": "To accomplish this, the cool-down history from consolidation temperature to room temperature (70 F) was simulated before the mechanical load was applied.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "defect_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Results and significances",
+          "quote": "The conclusion from this discussion is that local directional damage may be present that may be detected by some properties and may be insensitive to others.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "E‘11 Mpsi 26.676 25.606 23.618",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "E‘11 Mpsi 26.676 25.606 23.618",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_12",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘11T Ksi 195.00 180.00 160.00",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_15",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘22T Ksi 64.75 50.75 35.00",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_18",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "S‘12 Ksi 43.75 36.25 23.75",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_22",
+      "sample_id": "sample_1",
+      "material_state": "consolidated and cooled to room temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "K‘11 BTU/F h in. 0.585 0.619 0.706",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_23",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 3",
+          "quote": "m‘12 in./in. 0.255 0.222 0.183",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "9e003285b2dfa5a6:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "rupture strength of B-1900 (Fig. 11 values not numerically reported)",
+    "fatigue strength of nickel alloy (Fig. 12 values not numerically reported)"
+  ],
+  "conflicts": []
+}

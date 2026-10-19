@@ -1,0 +1,254 @@
+{
+  "document_id": "b692a45efab7d495",
+  "chunk_id": "b692a45efab7d495:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Fan Yang",
+      "Wenyue Zhao",
+      "Yi Ru",
+      "Yanling Pei",
+      "Shusuo Li",
+      "Shengkai Gong",
+      "Huibin Xu"
+    ],
+    "journal": "Materials & Design",
+    "year": 2023,
+    "doi": "10.1016/j.matdes.2023.112174"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "6. Summary and conclusion",
+          "quote": "In this work, we demonstrate the application of deep learning in the rapid development of Ni-based SX superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b692a45efab7d495:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "designed alloys",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": null,
+          "value": null,
+          "min_value": 5,
+          "max_value": 6,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 11,
+              "section": null,
+              "quote": "a certain content of Mo (5 ~ 6 wt%) element can maintain sufficient γ strength",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b692a45efab7d495:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Re",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 11,
+              "section": null,
+              "quote": "is 3 wt%, which is equivalent to the content of Re in the 2nd generation SX superalloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b692a45efab7d495:part:003"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 12,
+          "section": "6. Summary and conclusion",
+          "quote": "For the designed compositions, the density is less than 8.3 g/cm3, and the creep rupture life under ultra-high temperatures (1200 ◦C 80 MPa) predicted by the SaTNC model is higher than 180 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b692a45efab7d495:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ/γ'",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": "6. Summary and conclusion",
+          "quote": "The microstructural features corresponding to the designed alloys are also provided in Table 5.",
+          "table": "5",
+          "figure": null,
+          "chunk_id": "b692a45efab7d495:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "designed",
+      "property": "creep rupture life",
+      "value": null,
+      "min_value": 180,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 1200,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 12,
+          "section": "6. Summary and conclusion",
+          "quote": "the creep rupture life under ultra-high temperatures (1200 ◦C 80 MPa) predicted by the SaTNC model is higher than 180 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b692a45efab7d495:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "designed",
+      "property": "density",
+      "value": null,
+      "min_value": null,
+      "max_value": 8.3,
+      "uncertainty": null,
+      "unit": "g/cm3",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 12,
+          "section": "6. Summary and conclusion",
+          "quote": "the density is less than 8.3 g/cm3",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b692a45efab7d495:part:003"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "SaTNC",
+      "sample_id": null,
+      "property_observation_id": "observation_1",
+      "task": "creep rupture life prediction",
+      "inputs": [],
+      "target": "creep rupture life",
+      "dataset": "Datasets",
+      "validation": "5-fold cross-validation",
+      "metrics": {
+        "MAPE": 0.3797,
+        "SMAPE": 0.2817,
+        "R2": 0.7908
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": "6. Summary and conclusion",
+          "quote": "A deep learning model called SaTNC is established based on Transformer, which shows a good performance in predicting the creep rupture life of Ni-based SX superalloy, the 5-fold cross-validation of MAPE, SMAPE, and R2 of are 0.3797, 0.2817, and 0.7908 respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b692a45efab7d495:part:003"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_2",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "6. Summary and conclusion",
+          "quote": "the creep rupture life under ultra-high temperatures (1200 ◦C 80 MPa) predicted by the SaTNC model is higher than 180 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b692a45efab7d495:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

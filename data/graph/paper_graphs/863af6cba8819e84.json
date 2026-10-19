@@ -1,0 +1,809 @@
+{
+  "document_id": "863af6cba8819e84",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Microstructure and Hot Compression Simulation of Nb Based Alloy",
+    "authors": [
+      "Cai Xiaomei",
+      "Zheng Xin",
+      "Li Zhongkui",
+      "Bai Run",
+      "Wang Feng",
+      "Xia Mingxing"
+    ],
+    "journal": "Chinese Journal of Rare Metals",
+    "year": 2010,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb-Ti-Al alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Keywords",
+          "quote": "Key words: Nb-Ti-Al alloy ; hot compression ; microstructure ; dynamic recrystallization",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "新型铌合金铸态锭",
+      "canonical_name": "Nb-30.50Ti-4.01Al-6.58V-2.09Zr (at.%)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": 56.82,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Table 1",
+              "quote": "Table 1 Chemical compositions of the alloy (% , atom fraction) Nb 56.82 Ti 30.50 Al 4.01 V 6.58 Zr 2.09",
+              "table": "1",
+              "figure": null,
+              "chunk_id": "863af6cba8819e84:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 30.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Table 1",
+              "quote": "Table 1 Chemical compositions of the alloy (% , atom fraction) Nb 56.82 Ti 30.50 Al 4.01 V 6.58 Zr 2.09",
+              "table": "1",
+              "figure": null,
+              "chunk_id": "863af6cba8819e84:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 4.01,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Table 1",
+              "quote": "Table 1 Chemical compositions of the alloy (% , atom fraction) Nb 56.82 Ti 30.50 Al 4.01 V 6.58 Zr 2.09",
+              "table": "1",
+              "figure": null,
+              "chunk_id": "863af6cba8819e84:part:001"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 6.58,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Table 1",
+              "quote": "Table 1 Chemical compositions of the alloy (% , atom fraction) Nb 56.82 Ti 30.50 Al 4.01 V 6.58 Zr 2.09",
+              "table": "1",
+              "figure": null,
+              "chunk_id": "863af6cba8819e84:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 2.09,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Table 1",
+              "quote": "Table 1 Chemical compositions of the alloy (% , atom fraction) Nb 56.82 Ti 30.50 Al 4.01 V 6.58 Zr 2.09",
+              "table": "1",
+              "figure": null,
+              "chunk_id": "863af6cba8819e84:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "实验",
+          "quote": "将纯铌 、海绵钛及铝钒中间合金和锆箔压成电极后经过三次真空电弧炉熔炼得到成分如表 1 所示的合金 。",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "热压缩试样 (室温、10^-1、20%)",
+      "canonical_name": "Nb-30.50Ti-4.01Al-6.58V-2.09Zr (at.%)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "room-temperature low-strain-rate compressed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Fig. 4",
+          "quote": "Fig． 4 Microstructure of the samples at the low strain condition (room temperature ，10 － 1 ，20%)",
+          "table": null,
+          "figure": "4",
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "number_of_melts": "three times",
+          "electrode_preparation": "pure Nb, sponge Ti, Al-V master alloy and Zr foil pressed into electrode"
+        }
+      },
+      "input_state": "raw materials / pressed electrode",
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "实验",
+          "quote": "将纯铌 、海绵钛及铝钒中间合金和锆箔压成电极后经过三次真空电弧炉熔炼得到成分如表 1 所示的合金 。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "hot compression",
+      "parameters": {
+        "temperature_c": 25,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "20%",
+        "strain_rate": "0.1 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "equipment": "Gleeble-1500",
+          "specimen_dimensions": "Φ8 mm × 12 mm"
+        }
+      },
+      "input_state": "as-cast",
+      "output_state": "room-temperature low-strain-rate compressed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 实验",
+          "quote": "将铸态合金加工成为 Φ 8 mm × 12 mm 的圆柱形试样 ，在 Gleeble-1500 热 / 力模拟试验机上进行了热模拟压缩试验 ，通过压缩模拟 ，测定了不同试验条件下的应力 - 应变曲线 。热压缩模拟工艺参数为 : (1) 应变量为 : 20% ; 应变速率分别为 : 0． 1 ， 1 和 50 s － 1 ; (2) 变 形 温 度 为 : 室 温 ， 950 ， 1050 和 1150 ℃ 。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Microstructure",
+      "name": "equiaxed grain",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "fine and uniform",
+        "location": "macrostructure",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 合金的显微组织",
+          "quote": "由图 1 ( a ) 可知 ，合金的宏观组织为细小均匀的等轴晶 ;",
+          "table": null,
+          "figure": "1",
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Microstructure",
+      "name": "rod-like structure",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "fine and long, and short and thick rod-shaped",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 合金的显微组织",
+          "quote": "由图 1 ( b ) 和 ( c ) 可发现合金在铸态下为细而长和短而粗的棒状结构 。",
+          "table": null,
+          "figure": "1",
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "Vickers hardness",
+      "value": 206.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "HV 10/30"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "Table 2 Vickers hardness (HV) values of alloy ingot (kg · mm － 2 ) (测试条件 : HV 10 /30) Ingot position Direction vs radius Testing position Ingot heart Radius Ingot border Top Upright 206． 7 208． 9 214． 0 Bottom Upright 208． 8 213． 9 211． 7",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "Vickers hardness",
+      "value": 208.9,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "HV 10/30"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "Table 2 Vickers hardness (HV) values of alloy ingot (kg · mm － 2 ) (测试条件 : HV 10 /30) Ingot position Direction vs radius Testing position Ingot heart Radius Ingot border Top Upright 206． 7 208． 9 214． 0 Bottom Upright 208． 8 213． 9 211． 7",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "Vickers hardness",
+      "value": 214.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "HV 10/30"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "Table 2 Vickers hardness (HV) values of alloy ingot (kg · mm － 2 ) (测试条件 : HV 10 /30) Ingot position Direction vs radius Testing position Ingot heart Radius Ingot border Top Upright 206． 7 208． 9 214． 0 Bottom Upright 208． 8 213． 9 211． 7",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "Vickers hardness",
+      "value": 208.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "HV 10/30"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "Table 2 Vickers hardness (HV) values of alloy ingot (kg · mm － 2 ) (测试条件 : HV 10 /30) Ingot position Direction vs radius Testing position Ingot heart Radius Ingot border Top Upright 206． 7 208． 9 214． 0 Bottom Upright 208． 8 213． 9 211． 7",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "Vickers hardness",
+      "value": 213.9,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "HV 10/30"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "Table 2 Vickers hardness (HV) values of alloy ingot (kg · mm － 2 ) (测试条件 : HV 10 /30) Ingot position Direction vs radius Testing position Ingot heart Radius Ingot border Top Upright 206． 7 208． 9 214． 0 Bottom Upright 208． 8 213． 9 211． 7",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "Vickers hardness",
+      "value": 211.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "HV 10/30"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "Table 2 Vickers hardness (HV) values of alloy ingot (kg · mm － 2 ) (测试条件 : HV 10 /30) Ingot position Direction vs radius Testing position Ingot heart Radius Ingot border Top Upright 206． 7 208． 9 214． 0 Bottom Upright 208． 8 213． 9 211． 7",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "room-temperature low-strain-rate compressed",
+      "property": "deformation resistance",
+      "value": 922,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "0.1 s^-1",
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Gleeble-1500 hot compression simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3.1 热压缩应力-应变曲线分析",
+          "quote": "合金在室温低变形速率压缩时 ，存在很高的应力峰值 ，变形阻力达到 922 MPa ，没有出现屈服软化现象 。",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "引言",
+          "quote": "根据铌合金强化机制 ，在铌金属中添加 Ti ， Al 和 V 及 Zr 合金元素对其进行固溶强化可制备出一种新型铌合金材料 ;",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dynamic recrystallization",
+      "category": "softening",
+      "sample_id": "sample_2",
+      "material_state": "high-temperature high-strain-rate compressed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "At 950 ℃ test temperature the redistribution of solute caused the flow softening ， but at 1050 and 1150 ℃ test temperature the dynamic recrystallization was the contributing factor to the flow softening ．",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "solute redistribution",
+      "category": "softening",
+      "sample_id": "sample_2",
+      "material_state": "950 °C compressed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.3.2 热压缩显微组织分析",
+          "quote": "说明此时合金的屈服软化是由溶质的重新分配引起的 ，",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The as-cast properties of a new niobium alloys and its plastic deformation resistance were studied．",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "实验",
+          "quote": "将纯铌 、海绵钛及铝钒中间合金和锆箔压成电极后经过三次真空电弧炉熔炼得到成分如表 1 所示的合金 。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 合金的显微组织",
+          "quote": "由图 1 ( a ) 可知 ，合金的宏观组织为细小均匀的等轴晶 ;",
+          "table": null,
+          "figure": "1",
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 合金的显微组织",
+          "quote": "由图 1 ( b ) 和 ( c ) 可发现合金在铸态下为细而长和短而粗的棒状结构 。",
+          "table": null,
+          "figure": "1",
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "Table 2 Vickers hardness (HV) values of alloy ingot (kg · mm － 2 ) (测试条件 : HV 10 /30) Ingot position Direction vs radius Testing position Ingot heart Radius Ingot border Top Upright 206． 7 208． 9 214． 0 Bottom Upright 208． 8 213． 9 211． 7",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "Table 2 Vickers hardness (HV) values of alloy ingot (kg · mm － 2 ) (测试条件 : HV 10 /30) Ingot position Direction vs radius Testing position Ingot heart Radius Ingot border Top Upright 206． 7 208． 9 214． 0 Bottom Upright 208． 8 213． 9 211． 7",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "Table 2 Vickers hardness (HV) values of alloy ingot (kg · mm － 2 ) (测试条件 : HV 10 /30) Ingot position Direction vs radius Testing position Ingot heart Radius Ingot border Top Upright 206． 7 208． 9 214． 0 Bottom Upright 208． 8 213． 9 211． 7",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "room-temperature low-strain-rate compressed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 实验",
+          "quote": "将铸态合金加工成为 Φ 8 mm × 12 mm 的圆柱形试样 ，在 Gleeble-1500 热 / 力模拟试验机上进行了热模拟压缩试验 ，通过压缩模拟 ，测定了不同试验条件下的应力 - 应变曲线 。热压缩模拟工艺参数为 : (1) 应变量为 : 20% ; 应变速率分别为 : 0． 1 ， 1 和 50 s － 1 ; (2) 变 形 温 度 为 : 室 温 ， 950 ， 1050 和 1150 ℃ 。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "room-temperature low-strain-rate compressed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3.1 热压缩应力-应变曲线分析",
+          "quote": "合金在室温低变形速率压缩时 ，存在很高的应力峰值 ，变形阻力达到 922 MPa ，没有出现屈服软化现象 。",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "high-temperature high-strain-rate compressed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "At 950 ℃ test temperature the redistribution of solute caused the flow softening ， but at 1050 and 1150 ℃ test temperature the dynamic recrystallization was the contributing factor to the flow softening ．",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "950 °C compressed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.3.2 热压缩显微组织分析",
+          "quote": "说明此时合金的屈服软化是由溶质的重新分配引起的 ，",
+          "table": null,
+          "figure": null,
+          "chunk_id": "863af6cba8819e84:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "铝钒中间合金",
+    "10 － 1",
+    "屈服软化现象",
+    "稳态发展特征",
+    "加工硬化"
+  ],
+  "conflicts": []
+}

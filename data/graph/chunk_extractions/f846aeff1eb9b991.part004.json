@@ -1,0 +1,153 @@
+{
+  "document_id": "f846aeff1eb9b991",
+  "chunk_id": "f846aeff1eb9b991:part:004",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "L. Tang",
+      "F.Q. Jiang",
+      "J.S. Wróbel",
+      "B. Liu",
+      "S. Kabra",
+      "R.X. Duan",
+      "J.H. Luan",
+      "Z.B. Jiao",
+      "M.M. Attallah",
+      "D. Nguyen-Manh",
+      "B. Cai"
+    ],
+    "journal": "Journal of Materials Science & Technology",
+    "year": 2022,
+    "doi": "10.1016/j.jmst.2021.10.034"
+  },
+  "alloy_systems": [],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "as-fabricated samples",
+      "canonical_name": null,
+      "alloy_system_id": null,
+      "material_state": "as-fabricated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "17",
+          "section": "Conclusions",
+          "quote": "(6) During plastic deformation, dislocation motion and multiplica- tion served as the dominant deformation mechanism and the main strain carrier at 293 and 15 K. The as-fabricated samples had a low dislocation density of ∼6 × 1013 m −2 .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f846aeff1eb9b991:part:004"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental",
+        "density": "~6 × 10^13 m^-2"
+      },
+      "evidence": [
+        {
+          "page": "17",
+          "section": "Conclusions",
+          "quote": "The as-fabricated samples had a low dislocation density of ∼6 × 1013 m −2 . After yielding, dislocation density increased almost linearly with true stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f846aeff1eb9b991:part:004"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "property": "dislocation density",
+      "value": 60000000000000.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "m^-2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "17",
+          "section": "Conclusions",
+          "quote": "The as-fabricated samples had a low dislocation density of ∼6 × 1013 m −2 .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f846aeff1eb9b991:part:004"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation motion and multiplication",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "17",
+          "section": "Conclusions",
+          "quote": "(6) During plastic deformation, dislocation motion and multiplica- tion served as the dominant deformation mechanism and the main strain carrier at 293 and 15 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f846aeff1eb9b991:part:004"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-fabricated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "17",
+          "section": "Conclusions",
+          "quote": "After yielding, dislocation density increased almost linearly with true stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f846aeff1eb9b991:part:004"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

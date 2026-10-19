@@ -1,0 +1,746 @@
+{
+  "document_id": "694c0aa6187baa94",
+  "chunk_id": "694c0aa6187baa94:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Modeling anisotropic mechanical properties and creep behavior of Ni(γ)/Ni3Al(γ′) single crystal superalloys at high temperatures",
+    "authors": [
+      "G. Tolooei Eshlaghi",
+      "Amir R. Khoei"
+    ],
+    "journal": "J Nanopart Res",
+    "year": 2023,
+    "doi": "10.1007/s11051-023-05706-5"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni/Ni3Al single crystal superalloy",
+      "material_category": "Ni-based single crystal superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "this research studies the atomistic phenomena causing anisotropy and orientation dependence of mechanical characteristics and creep deformation in Ni(γ)/Ni3Al(γ′) superalloys with single crystals at extreme temperatures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni(γ)/Ni3Al(γ′)",
+      "canonical_name": "Ni/Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "atomistic MD model",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "γ matrix (pure Ni)",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Introduction",
+              "quote": "the matrix (γ) and precipitate phases (γ′) are considered to be comprised of pure Ni and Ni3Al, respectively",
+              "table": null,
+              "figure": null,
+              "chunk_id": "694c0aa6187baa94:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "γ′ precipitate (Ni3Al)",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Introduction",
+              "quote": "the matrix (γ) and precipitate phases (γ′) are considered to be comprised of pure Ni and Ni3Al, respectively",
+              "table": null,
+              "figure": null,
+              "chunk_id": "694c0aa6187baa94:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "In this study, MD simulations of Ni(γ)/Ni3Al(γ′) superalloys in three dimensions are performed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics tensile simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": "5×10^9 and 1×10^10 1/s",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range_K": "1100-1700",
+          "loading_directions": [
+            "[010]",
+            "[110]",
+            "[111]"
+          ],
+          "interatomic_potential": "Mishin EAM",
+          "code": "LAMMPS"
+        }
+      },
+      "input_state": "atomistic MD model",
+      "output_state": "tensile-tested model",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "tensile simulations are performed at constant strain rates of 5 × 1009 and 1 × 1010 1∕s",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "molecular dynamics creep simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range_K": "1100-1700",
+          "stress_range_GPa": "1.5-5.0",
+          "loading_directions": [
+            "[010]",
+            "[110]",
+            "[111]"
+          ]
+        }
+      },
+      "input_state": "atomistic MD model",
+      "output_state": "creep-tested model",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "accumulation of creep strain is explored under various stress and temperature regimes for loading directions aligned with the crystallographic orientations [010], [110], and [111] at temperatures between 1100 and 1700 K with stress values of 1.5 to 5.0 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "atomistic MD model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "pure Ni",
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "the matrix (γ) and precipitate phases (γ′) are considered to be comprised of pure Ni and Ni3Al, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "atomistic MD model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "coherently contained in γ matrix",
+        "composition": "Ni3Al (L12 ordered)",
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "The γ′ phase is an L12 ordered precipitation of intermetallic compounds of Ni3Al that produces high-temperature mechanical properties",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "atomistic MD model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ matrix",
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "a disordered nickel (Ni) face-centered-cubic (FCC) γ matrix phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "anti-phase boundary",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "within γ′ precipitate",
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "They are the anti-phase boundary (APB), the superlattice intrinsic stacking fault (SISF), the superlattice extrinsic stacking fault (SESF), and the complex stacking fault (CSF)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "micro-twin",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "twin",
+        "location": "[110] loading orientation models",
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "micro-twinning is initiated in the [110] orientation model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "γ′ raft",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "long elongated precipitates",
+        "location": null,
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Introduction",
+          "quote": "Rafts, which are long, elongated precipitates, are the outcome. It is possible for the rafts to be parallel or perpendicular relative to the stress, referred to as P- or N-type rafting, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "misfit dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "atomistic MD model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ/γ′ interfaces",
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "As a consequence of the mismatch in lattice parameters between γ and γ′, the development of networks of misfit dislocations occurs at γ∕γ� interfaces and small γ′ channels form in the superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "γ channel",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "between γ′ precipitates",
+        "composition": "pure Ni",
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "Because dislocations accumulate in matrix channels during this stage, the rate of creep strain diminishes over time to the point when it achieves a minimal value",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_6",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ channels",
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "Because dislocations accumulate in matrix channels during this stage, the rate of creep strain diminishes over time to the point when it achieves a minimal value",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_7",
+      "type": "Defect",
+      "name": "cavitation",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "pores at high-stress interfaces",
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Introduction",
+          "quote": "pores emerge and transform into cavitation sites as a result of the interfacial area with very high stress and the rising temperature. As a result, creep cavitation causes a monotonic increase in strain",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "property": "creep strain rate",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "constant stress",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "Increased temperatures and levels of stress, according to the findings of this study, lead to more creep strain accumulation and a substantially higher strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitate shearing",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "The active mechanism for the [010] loading orientation is γ′ precipitate shearing at lower temperatures and stresses",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation climb",
+      "category": "diffusional deformation",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "Climbing of dislocations and γ′ precipitate rafting become predominant processes when temperature or stress rises",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "γ′ rafting",
+      "category": "diffusional coarsening",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "Climbing of dislocations and γ′ precipitate rafting become predominant processes when temperature or stress rises",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "micro-twinning",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "micro-twinning is initiated in the [110] orientation model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "atomistic MD model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "MD simulations of Ni(γ)/Ni3Al(γ′) superalloys in three dimensions are performed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "atomistic MD model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "the matrix (γ) and precipitate phases (γ′) are considered to be comprised of pure Ni and Ni3Al, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "atomistic MD model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "The γ′ phase is an L12 ordered precipitation of intermetallic compounds of Ni3Al that produces high-temperature mechanical properties",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "atomistic MD model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "tensile simulations are performed at constant strain rates of 5 × 1009 and 1 × 1010 1∕s",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "atomistic MD model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "accumulation of creep strain is explored under various stress and temperature regimes for loading directions aligned with the crystallographic orientations [010], [110], and [111] at temperatures between 1100 and 1700 K with stress values of 1.5 to 5.0 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "Increased temperatures and levels of stress, according to the findings of this study, lead to more creep strain accumulation and a substantially higher strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "Climbing of dislocations and γ′ precipitate rafting become predominant processes when temperature or stress rises",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "Climbing of dislocations and γ′ precipitate rafting become predominant processes when temperature or stress rises",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_6",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Introduction",
+          "quote": "Because dislocations accumulate in matrix channels during this stage, the rate of creep strain diminishes over time to the point when it achieves a minimal value",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "creep-tested model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Introduction",
+          "quote": "micro-twinning is initiated in the [110] orientation model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "694c0aa6187baa94:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

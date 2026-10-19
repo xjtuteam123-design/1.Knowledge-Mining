@@ -1,0 +1,711 @@
+{
+  "document_id": "1f0847c478eea3e4",
+  "chunk_id": "1f0847c478eea3e4:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Microstructure and Elevated Temperature Flexure Testing of Tungsten Produced by Electron Beam Additive Manufacturing",
+    "authors": [
+      "Haozhi Zhang",
+      "Paul R. Carriere",
+      "Emmanuel D. Amoako",
+      "Chris D. Rock",
+      "Seiji U. Thielk",
+      "Colin G. Fletcher",
+      "Timothy J. Horn"
+    ],
+    "journal": "JOM",
+    "year": 2023,
+    "doi": "10.1007/s11837-023-06045-5"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Tungsten",
+      "material_category": "pure refractory metal",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Electron beam powder bed fusion (EB-PBF) shows promise in manufacturing pure tungsten via high thermal energy input, elevated build temperature, and a tightly controlled high-vacuum environment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "AM tungsten",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "W",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Results",
+              "quote": "Table II. The glow discharge mass spectroscopy (GDMS) result of W powder (ppm in wt.%), the selection sequence is refractory elements first, followed by other elements > 0.1 ppm, while the oxygen content was measured by inert gas fusion using LECO OH 836, referencing the refractory alloy protocol",
+              "table": "Table II",
+              "figure": null,
+              "chunk_id": "1f0847c478eea3e4:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "This work explores the process, structure, and property relationship of pure tungsten fabricated by EB-PBF, where 99.8% relative density was achieved with reduced cracking by isolating the build substrate and optimizing the print parameter suite.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "wrought tungsten",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "hot-rolled",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Experimental",
+          "quote": "the hot-rolled tungsten plates procured from Ed Fagan were harvested by EDM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "electron beam powder bed fusion (EB-PBF)",
+      "parameters": {
+        "temperature_c": 1800,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "vacuum 10^-3 mbar with helium bleed",
+        "cooling_method": "vacuum cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": "70 μm",
+        "other": {
+          "beam_current_mA": 10,
+          "beam_speed_mm_per_s": 300,
+          "focus_offset_mA": 10,
+          "hatch_spacing_μm": 30,
+          "preheat_min_beam_current_mA": 20,
+          "preheat_max_beam_current_mA": 48,
+          "preheat_beam_speed_mm_per_s": 14600
+        }
+      },
+      "input_state": "powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Sample Fabrication",
+          "quote": "A target surface temperature of 1800 °C was selected for all the printing processes in the present study, and maintained at the temperature for a minimum of 1 h prior to spreading the first powder layer.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        },
+        {
+          "page": "3",
+          "section": "Sample Fabrication",
+          "quote": "A controlled chamber vacuum level of 10^-3 mbar was maintained through a controlled bleed of Grade-VI purity helium into the chamber during printing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        },
+        {
+          "page": "4",
+          "section": "Sample Fabrication",
+          "quote": "The final melting parameters are listed in Table I, where the relatively low beam current, slow melt speed, and tight hatch spacing were used to melt each layer to avoid significant process defects and porosity.",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "The low ductility is related to a lack of close-packed planes in its BCC structure, low dislocation density, the difficulty of the dislocation slip motion, and poor grain boundary cohesion, which is exacerbated by the segregation of interstitial contamination (e.g., O, C, H, N, K, P) during solidification.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "equiaxed grain",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "10-100 μm",
+        "morphology": "equiaxed",
+        "location": "along build direction",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Figure 5a shows SEM backscatter images which also reveal an equiaxed microstructure in the AM tungsten material, with the grain size in the range of 10–100 μm.",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "subgrain",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "10-20 μm",
+        "morphology": "cell-like",
+        "location": "within grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "The enlarged area containing 10 to 20 μm subgrains is depicted in the higher-magnification image in Fig. 5b.",
+          "table": null,
+          "figure": "Fig. 5b",
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "low-angle grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": ">95%",
+        "size": null,
+        "morphology": null,
+        "location": "Y-Z and X-Y planes",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "The measured fraction of the low-angle grain boundary (1–15°) on both the Y–Z and X–Y planes is over 95%, as presented by the misorientation angle data chart in the figure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "high-angle grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Y-Z and X-Y planes",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "The high angle grain boundary on the Y–Z plane demonstrates the appearance of a bimodal distribution of columnar and equiaxed grain structure, and only equiaxed grains can be seen on the X–Y plane.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "columnar grain",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "columnar",
+        "location": "Y-Z plane",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Interestingly, the EBSD of the Y–Z plane shows a mix of columnar and equiaxed grains, which is different from the pure equiaxial microstructure observed in Fig. 5.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "pore",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Sporadic cracks and pores can be seen in the enlarged area images, where the crack density was negligible compared to the surface area of the specimens.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        },
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Voids are present along the boundaries, possibly due to gas pore formation during melting and are further pushed to the grain boundary during the cooling process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "crack",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Sporadic cracks and pores can be seen in the enlarged area images, where the crack density was negligible compared to the surface area of the specimens.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        },
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Furthermore, cracking was found to have a higher tendency to form along the high-angle grain boundaries, where the fracture helps to relieve intergranular stresses.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_3",
+      "type": "Defect",
+      "name": "intergranular crack",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Figure 7a shows the EBSD image quality of the intersection point of three large equiaxed grains, where the intergranular cracks are visible along all three grain boundaries, and features suggest the presence of stresses during the AM process.",
+          "table": null,
+          "figure": "Fig. 7a",
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "relative density",
+      "value": 99.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "gas pycnometer"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "The density of the printed specimens was measured by a gas pycnometer at 19.23 ± 0.02 g/cm3, which closely matches the nominal tungsten density of 19.25 g/cm3, suggesting that the processing parameters selected and incorporation of isolating layer can produce an almost full dense tungsten part with the relative density of 99.8%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "density",
+      "value": 19.23,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.02,
+      "unit": "g/cm3",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "gas pycnometer"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "The density of the printed specimens was measured by a gas pycnometer at 19.23 ± 0.02 g/cm3, which closely matches the nominal tungsten density of 19.25 g/cm3, suggesting that the processing parameters selected and incorporation of isolating layer can produce an almost full dense tungsten part with the relative density of 99.8%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "flexural strength",
+      "value": 470,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "four-point bending",
+        "orientation": null,
+        "atmosphere": "ambient atmosphere",
+        "duration": null,
+        "test_method": "ASTM C1161-18"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Flexural testing at ambient and elevated temperatures demonstrated high ductility at 900°C and flexural strength of 470 MPa at room temperature of additively manufactured tungsten.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "elongation",
+      "value": null,
+      "min_value": 900,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": 900,
+        "strain_rate": null,
+        "loading_mode": "four-point bending",
+        "orientation": null,
+        "atmosphere": "ambient atmosphere",
+        "duration": "5 min soak",
+        "test_method": "ASTM C1211-02"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Flexural testing at ambient and elevated temperatures demonstrated high ductility at 900°C and flexural strength of 470 MPa at room temperature of additively manufactured tungsten.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "intergranular fracture",
+      "category": "fracture",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "Intergranular fracture is the most common cause of failure in AM of W and is partially attributable to the high ductile to brittle transition temperature, which is dependent on oxygen concentration and ranges from 200°C to 600°C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dynamic recrystallization",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "The microstructure difference between this study and others might be the convoluted effect of low cooling rate-induced columnar-to-equiaxed transition and dynamic recrystallization due to the thermal stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Figure 5a shows SEM backscatter images which also reveal an equiaxed microstructure in the AM tungsten material, with the grain size in the range of 10–100 μm.",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Sporadic cracks and pores can be seen in the enlarged area images, where the crack density was negligible compared to the surface area of the specimens.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Sporadic cracks and pores can be seen in the enlarged area images, where the crack density was negligible compared to the surface area of the specimens.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "The density of the printed specimens was measured by a gas pycnometer at 19.23 ± 0.02 g/cm3, which closely matches the nominal tungsten density of 19.25 g/cm3, suggesting that the processing parameters selected and incorporation of isolating layer can produce an almost full dense tungsten part with the relative density of 99.8%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Flexural testing at ambient and elevated temperatures demonstrated high ductility at 900°C and flexural strength of 470 MPa at room temperature of additively manufactured tungsten.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "microstructure_4",
+      "predicate": "PROMOTES",
+      "target_id": "defect_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Furthermore, cracking was found to have a higher tendency to form along the high-angle grain boundaries, where the fracture helps to relieve intergranular stresses.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "defect_1",
+      "predicate": "PROMOTES",
+      "target_id": "defect_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "The appearance of pores seems to facilitate the initiation and propagation of the cracks, as some were found initiating from the pores.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1f0847c478eea3e4:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,226 @@
+{
+  "document_id": "22c4abc5723ac835",
+  "chunk_id": "22c4abc5723ac835:part:002",
+  "paper_metadata": {
+    "title": "Laser Powder Bed Fusion of Tungsten: A Review",
+    "authors": [
+      "H.L.",
+      "Y.Y.",
+      "Y.S.",
+      "D.W.",
+      "X.W."
+    ],
+    "journal": "Micromachines",
+    "year": 2024,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "W-Ta-C alloy",
+      "material_category": "refractory alloy",
+      "evidence": []
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "W + TaC",
+      "canonical_name": "W-TaC",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "TaC",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "in-situ reaction",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "W + TaC",
+      "output_state": "W(Ta) + W2C",
+      "evidence": []
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "W2C",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 19,
+          "section": null,
+          "quote": "W + TaC → W-Ta-C(liquid) → W(Ta) + W2C (16)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "22c4abc5723ac835:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary purification",
+      "category": "microstructural mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 19,
+          "section": null,
+          "quote": "A similar approach to [126] was proposed, where the formation of TaOx and C removes oxygen and powder from the chamber, purifying the grain boundaries and thereby inhibiting crack initiation and propagation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "22c4abc5723ac835:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid solution strengthening",
+      "category": "mechanical mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 19,
+          "section": null,
+          "quote": "For TaC particles, Ta alloying will change the Fermi level, giving W materials greater intrinsic ductility and helping reduce crack sensitivity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "22c4abc5723ac835:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 19,
+          "section": null,
+          "quote": "through the route of Equation (16), an in-situ reaction forms a secondary phase W2C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "22c4abc5723ac835:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 19,
+          "section": null,
+          "quote": "through the route of Equation (16), an in-situ reaction forms a secondary phase W2C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "22c4abc5723ac835:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 19,
+          "section": null,
+          "quote": "A similar approach to [126] was proposed, where the formation of TaOx and C removes oxygen and powder from the chamber, purifying the grain boundaries and thereby inhibiting crack initiation and propagation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "22c4abc5723ac835:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 19,
+          "section": null,
+          "quote": "For TaC particles, Ta alloying will change the Fermi level, giving W materials greater intrinsic ductility and helping reduce crack sensitivity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "22c4abc5723ac835:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,612 @@
+{
+  "document_id": "05ee3bb19b4045a8",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Analysis of laser-induced microcracking in tungsten under additive manufacturing conditions: Experiment and simulation",
+    "authors": [
+      "Bey Vrancken",
+      "Rishi K. Ganeriwala",
+      "Manyalibo J. Matthews"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2020,
+    "doi": "10.1016/j.actamat.2020.04.060"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "pure tungsten",
+      "material_category": "refractory metal",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Tungsten is receiving increasing interest as a plasma facing material in the ITER fusion reactor, collimators, and other structural, high temperature applications.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "W substrate",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-received",
+      "composition": [
+        {
+          "element": "W",
+          "value": 99.95,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 High-speed video",
+              "quote": "The 2 mm thick W substrates were cut from a 25.4 mm diameter, >99.95% purity W rod supplied by Eagle Alloys Corporation",
+              "table": null,
+              "figure": null,
+              "chunk_id": "05ee3bb19b4045a8:part:001"
+            }
+          ]
+        },
+        {
+          "element": "O",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "ppm",
+          "role": "impurity",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 High-speed video",
+              "quote": "The oxygen content of the plate as reported by the manufacturer was 30 ppm.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "05ee3bb19b4045a8:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 High-speed video",
+          "quote": "The 2 mm thick W substrates were cut from a 25.4 mm diameter, >99.95% purity W rod supplied by Eagle Alloys Corporation using wire EDM, after which the surface was partially ground using 600-grit SiO2 paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "scan track",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-solidified",
+      "composition": [
+        {
+          "element": "W",
+          "value": 99.95,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 High-speed video",
+              "quote": "The 2 mm thick W substrates were cut from a 25.4 mm diameter, >99.95% purity W rod supplied by Eagle Alloys Corporation",
+              "table": null,
+              "figure": null,
+              "chunk_id": "05ee3bb19b4045a8:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.1 Melt pool behavior",
+          "quote": "Contrary to metal alloys such as 316 L or AlSi10Mg, W does not have a clearly defined melt pool boundary when processed by LPBF. Instead, epitaxial growth and a planar solidification front ensure there is a seamless transition between the substrate microstructure and the solidification structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "wire EDM",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-received W rod",
+      "output_state": "W substrate",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 High-speed video",
+          "quote": "The 2 mm thick W substrates were cut from a 25.4 mm diameter, >99.95% purity W rod supplied by Eagle Alloys Corporation using wire EDM, after which the surface was partially ground using 600-grit SiO2 paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "grinding",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "grit": "600-grit SiO2 paper"
+        }
+      },
+      "input_state": "W substrate",
+      "output_state": "ground W substrate",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 High-speed video",
+          "quote": "The 2 mm thick W substrates were cut from a 25.4 mm diameter, >99.95% purity W rod supplied by Eagle Alloys Corporation using wire EDM, after which the surface was partially ground using 600-grit SiO2 paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 3,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ar flowed freely over the substrate at a rate of 0.5 l/min",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": "100-500",
+        "scan_speed": "100-500 mm/s",
+        "layer_thickness": null,
+        "other": {
+          "laser_wavelength_nm": 1070,
+          "beam_diameter_um": "50, 100",
+          "track_length_mm": 2,
+          "laser_mode": "continuous wave"
+        }
+      },
+      "input_state": "ground W substrate",
+      "output_state": "as-solidified scan track",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 High-speed video",
+          "quote": "A 1070 nm wavelength JK FL600 Yb:glass fiber laser operating in continuous wave mode with a maximum power output of 600 W was used to scan single, 2 mm long tracks on a tungsten plate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Microstructure",
+      "name": "elongated grain",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "elongated perpendicular to the surface",
+        "location": "substrate",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.1 Melt pool behavior",
+          "quote": "the substrate microstructure consisted of elongated grains perpendicular to the surface on which the tracks were scanned",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Microstructure",
+      "name": "chevron pattern",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "chevron pattern",
+        "location": "track surface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.1 Melt pool behavior",
+          "quote": "the track surface is flat with minor formation of a chevron pattern",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Microstructure",
+      "name": "vertically oriented grain",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "thin",
+        "morphology": "vertically oriented",
+        "location": "center of the melt pool",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.1 Melt pool behavior",
+          "quote": "the melt pool is nearly as deep as it is wide, which resulted in thin, vertically oriented grains in the center of the melt pool",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Defect",
+      "name": "transversal crack",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "roughly transversal across the scan vector, adhere to grain boundaries",
+        "location": "crack-affected zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Cracking behavior",
+          "quote": "The cracks are roughly transversal across the scan vector but still adhere to grain boundaries, surrounded by a branched crack network in an area roughly 3-4 times the melt width.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Defect",
+      "name": "longitudinal crack",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "longitudinal along the center line of the track",
+        "location": "center line of the track",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results",
+          "quote": "For high laser powers, longitudinal cracks along the center line of the track occurred as indicated by the red markers",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "property": "crack spacing",
+      "value": null,
+      "min_value": 250,
+      "max_value": 600,
+      "uncertainty": null,
+      "unit": "um",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "top-down high-speed video"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Cracking behavior",
+          "quote": "Fig. 8a shows that this crack spacing increases with increasing laser power, rising from 250 um to 600 um before the onset of longitudinal cracking.",
+          "table": null,
+          "figure": "Fig. 8a",
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "property": "cracking temperature",
+      "value": null,
+      "min_value": 450,
+      "max_value": 650,
+      "uncertainty": null,
+      "unit": "K",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "thermomechanical simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.3 Crack temperature",
+          "quote": "Cracking consistently happened in the 450 K-650 K interval in which the DBT is expected to occur.",
+          "table": null,
+          "figure": "Fig. 10a",
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "property": "strain rate",
+      "value": null,
+      "min_value": 0.5,
+      "max_value": 6,
+      "uncertainty": null,
+      "unit": "s-1",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "thermomechanical simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "4.2 Strain rate dependence",
+          "quote": "The calculated strain rates at the crack location ranged from 0.5 s-1 to 6 s-1, as shown in Fig. 10b.",
+          "table": null,
+          "figure": "Fig. 10b",
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "property": "compressive strength",
+      "value": 1253,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "the compressive strength at room temperature was determined to be 1253 MPa, and the thermal conductivity equal to 148 W/(m*K) [18], compared to 1432 MPa (tension) and 173 W/(m*K) for stress relieved tungsten [26].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "ductile-to-brittle transition",
+      "category": "fracture",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This work combines thermomechanical simulations with in situ high-speed video of microcracking in single laser-melted tracks, visualizing the ductile-to-brittle transition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "edge dislocation glide",
+      "category": "dislocation",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4.2 Strain rate dependence",
+          "quote": "This was later attributed to the orientation of the single crystal with respect to the loading, which allowed edge dislocation motion to be the governing DBT mechanism [46].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Cracking behavior",
+          "quote": "The cracks are roughly transversal across the scan vector but still adhere to grain boundaries, surrounded by a branched crack network in an area roughly 3-4 times the melt width.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "phase_5",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results",
+          "quote": "For high laser powers, longitudinal cracks along the center line of the track occurred as indicated by the red markers",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "At that moment, processing-induced residual stresses can lead to microcracking.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "as-solidified",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4.2 Strain rate dependence",
+          "quote": "This was later attributed to the orientation of the single crystal with respect to the loading, which allowed edge dislocation motion to be the governing DBT mechanism [46].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "05ee3bb19b4045a8:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

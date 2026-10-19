@@ -1,0 +1,147 @@
+{
+  "document_id": "420dbe04e1d74aaa",
+  "chunk_id": "420dbe04e1d74aaa:part:017",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Differences in the Hydrostatic Implosion of Metallic and Composite Tubes Studied Using Digital Image Correlation",
+    "authors": [
+      "M. Pinto",
+      "S. Gupta",
+      "A. Shukla"
+    ],
+    "journal": "Conference Proceedings of the Society for Experimental Mechanics Series",
+    "year": 2016,
+    "doi": "10.1007/978-3-319-22452-7_20"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Aluminum 6061-T6 alloy",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": "171",
+          "section": "24.2 Materials",
+          "quote": "Aluminum 6061-T6 tubes were extruded with an inner diameter of 54.6 mm, a wall thickness of 1.27 mm, and a length of 406 mm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "420dbe04e1d74aaa:part:017"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Aluminum 6061-T6 tube",
+      "canonical_name": "Aluminum 6061-T6",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "extruded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "171",
+          "section": "24.2 Materials",
+          "quote": "Aluminum 6061-T6 tubes were extruded with an inner diameter of 54.6 mm, a wall thickness of 1.27 mm, and a length of 406 mm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "420dbe04e1d74aaa:part:017"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "extrusion",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "extruded",
+      "evidence": [
+        {
+          "page": "171",
+          "section": "24.2 Materials",
+          "quote": "Aluminum 6061-T6 tubes were extruded with an inner diameter of 54.6 mm, a wall thickness of 1.27 mm, and a length of 406 mm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "420dbe04e1d74aaa:part:017"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "extruded",
+      "property": "collapse pressure",
+      "value": 2.04,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "hydrostatic",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "hydrostatic implosion"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "172",
+          "section": "24.4 Results",
+          "quote": "Aluminum tubes were observed to fail at 2.04 MPa in a mode 2, or ﬂattening buckling shape.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "420dbe04e1d74aaa:part:017"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "extruded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "172",
+          "section": "24.4 Results",
+          "quote": "Aluminum tubes were observed to fail at 2.04 MPa in a mode 2, or ﬂattening buckling shape.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "420dbe04e1d74aaa:part:017"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

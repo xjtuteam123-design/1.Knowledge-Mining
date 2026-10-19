@@ -1,0 +1,208 @@
+{
+  "document_id": "bde4afa3c0dbaca2",
+  "chunk_id": "bde4afa3c0dbaca2:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Degradation and anisotropy characteristics of fracture toughness in Ni-based superalloys after phase coarsening",
+    "authors": [
+      "Shunyong Zhang",
+      "Jianfeng Zhao",
+      "Yanxiang Liang",
+      "Jicheng Li",
+      "Xicheng Huang"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2024,
+    "doi": "10.1016/j.msea.2023.145852"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Title",
+          "quote": "Degradation and anisotropy characteristics of fracture toughness in Ni-based superalloys after phase coarsening",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "SC Ni-based superalloys",
+      "canonical_name": "Ni-based superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "balance",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Title",
+              "quote": "Degradation and anisotropy characteristics of fracture toughness in Ni-based superalloys after phase coarsening",
+              "table": null,
+              "figure": null,
+              "chunk_id": "bde4afa3c0dbaca2:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Geometrical models",
+          "quote": "In this study, the SC Ni-based superalloys, which are widely used in engineering, are selected as an example, and the corresponding average γ′ precipitation size is about 200 nm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": "30%",
+        "size": "200 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Geometrical models",
+          "quote": "the corresponding average γ′ precipitation size is about 200 nm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:001"
+        },
+        {
+          "page": 3,
+          "section": "2.1 Geometrical models",
+          "quote": "two volume fractions, VV = 30% and 60%, are adopted as an example",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ matrix",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Geometrical models",
+          "quote": "the black and white pixels correspond to the matrix and precipitation phases, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "interface layer",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "between precipitate particle and matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Geometrical models",
+          "quote": "there is an interface layer between the precipitate particle and the matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Ostwald ripening",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "the precipitate phase in the microstructure is easily coarsened (which is also usually called Ostwald ripening)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "the fracture toughness of alloys degraded considerably with phase coarsening",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

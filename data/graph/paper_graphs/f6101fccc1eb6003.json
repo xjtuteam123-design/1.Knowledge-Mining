@@ -1,0 +1,1431 @@
+{
+  "document_id": "f6101fccc1eb6003",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "title": "Laser Powder Bed Fusion Additive Manufacturing of Mo and TZM Exoskeleton with Cu Infiltration for New Heat Sinks Configuration",
+    "authors": [
+      "Tejas Ramakrishnan",
+      "Amit Kumar",
+      "Pierre Hudon",
+      "Mathieu Brochu"
+    ],
+    "journal": "Advanced Engineering Materials",
+    "year": 2024,
+    "doi": "10.1002/adem.202301409"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mo",
+      "material_category": "refractory metal",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "Molybdenum (Mo) is a refractory metal with good mechanical and thermal properties, such as a high melting point (2896 K) and thermal conductivity (134 W m-1 K-1).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "TZM alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "TZM is a Mo alloy which nominally contains 0.5 wt% titanium, 0.08 wt% zirconium, and between 0.01 to 0.04 wt% carbon.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Mo-HCS",
+      "canonical_name": "Mo",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": 99.9,
+          "max_value": 100.0,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.1. Fabrication and Characterization of Mo-HCS",
+          "quote": "Figure 7a shows an SEM micrograph of a fabricated Mo-HCS part",
+          "table": null,
+          "figure": "7a",
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Mo-HCS + Cu",
+      "canonical_name": "Mo + Cu",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "Cu-infiltrated",
+      "composition": [
+        {
+          "element": "Cu",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "infill",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.2. Cu-Infiltrated Mo-HCS",
+          "quote": "Figure 8a,b show representative optical micrographs of the Mo-HCS after Cu infiltration (Mo-HCS + Cu).",
+          "table": null,
+          "figure": "8a,b",
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "TZM-HCS",
+      "canonical_name": "Ti-Zr-Mo-C",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": 0.08,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "C",
+          "value": null,
+          "min_value": 0.01,
+          "max_value": 0.04,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3. TZM vs Mo as Exoskeleton in HCS",
+          "quote": "TZM-HCS was fabricated, matching the dimensions of the Mo-HCS.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "TZM-HCS + Cu",
+      "canonical_name": "Ti-Zr-Mo-C + Cu",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "Cu-infiltrated",
+      "composition": [
+        {
+          "element": "Cu",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "infill",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3. TZM vs Mo as Exoskeleton in HCS",
+          "quote": "Following Cu infiltration, the measured CTE of the TZM-HCS + Cu sample showed an increase to 6.6 × 10−6 K−1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "oxygen <300 ppm",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 400,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "VED": "750 to 1250 J mm-3",
+          "scanning_pattern": "bi-directional with 67° rotation between each layer",
+          "substrate": "Mo plates (99.95% metal basis) of 2.5 mm thickness",
+          "machine": "AM400 LPBF machine (Renishaw, UK)"
+        }
+      },
+      "input_state": "Mo gas-atomized powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1. LPBF Fabrication of HCS",
+          "quote": "Samples of 10 mm (L) × 3 mm (B) × 10 mm (H) and 0.5 mm wall thickness were fabricated using LPBF with a laser power of 400 W and VED between 750 to 1250 J mm−3 was used.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        },
+        {
+          "page": "4",
+          "section": "2.1. LPBF Fabrication of HCS",
+          "quote": "The samples were fabricated with a AM400 LPBF machine (Renishaw, UK) equipped with a reduced build volume unit using a bi-directional scanning pattern and 67° rotation between each layer.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "oxygen <300 ppm",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 400,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "VED": "750 to 1250 J mm-3",
+          "scanning_pattern": "bi-directional with 67° rotation between each layer",
+          "substrate": "Mo plates (99.95% metal basis) of 2.5 mm thickness",
+          "machine": "AM400 LPBF machine (Renishaw, UK)"
+        }
+      },
+      "input_state": "TZM spray-dried pre-alloyed powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3. TZM vs Mo as Exoskeleton in HCS",
+          "quote": "TZM-HCS was fabricated, matching the dimensions of the Mo-HCS.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "Cu infiltration",
+      "parameters": {
+        "temperature_c": 1373,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "flowing N2",
+        "cooling_method": "cooled in furnace",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "heating_rate": "10 K min-1",
+          "furnace": "F21100 tube furnace (Thermo Scientific, USA)",
+          "oxygen_getter": "titanium sponges"
+        }
+      },
+      "input_state": "as-built Mo-HCS with OFHC Cu in basin",
+      "output_state": "Cu-infiltrated",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2. Cu Infiltration into HCS",
+          "quote": "The infiltration was performed in a F21100 tube furnace (Thermo Scientific, USA) ... brought to 1373 K at 10 K min−1 in the same flowing atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_4",
+      "sequence": 2,
+      "method": "Cu infiltration",
+      "parameters": {
+        "temperature_c": 1373,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "flowing N2",
+        "cooling_method": "cooled in furnace",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "heating_rate": "10 K min-1",
+          "furnace": "F21100 tube furnace (Thermo Scientific, USA)",
+          "oxygen_getter": "titanium sponges"
+        }
+      },
+      "input_state": "as-built TZM-HCS with OFHC Cu in basin",
+      "output_state": "Cu-infiltrated",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2. Cu Infiltration into HCS",
+          "quote": "The infiltration was performed in a F21100 tube furnace (Thermo Scientific, USA) ... brought to 1373 K at 10 K min−1 in the same flowing atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Mo",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.2. Cu-Infiltrated Mo-HCS",
+          "quote": "Figure 8e shows the result of the XRD study and indicates peaks matching the PDF files COD#9008543 and COD#4105681 for Mo and Cu, respectively.",
+          "table": null,
+          "figure": "8e",
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Cu",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.2. Cu-Infiltrated Mo-HCS",
+          "quote": "Figure 8e shows the result of the XRD study and indicates peaks matching the PDF files COD#9008543 and COD#4105681 for Mo and Cu, respectively.",
+          "table": null,
+          "figure": "8e",
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "Ti and O rich precipitates",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "precipitates",
+        "location": null,
+        "composition": "rich in Ti and O",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3. TZM vs Mo as Exoskeleton in HCS",
+          "quote": "Figure 11 shows SEM micrographs with a large number of precipitates, and EDS line scan results indicating the precipitates to be rich in Ti and O.",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "columnar grain",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "columnar",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1. Fabrication and Characterization of Mo-HCS",
+          "quote": "The LPBF processing of a pure material like Mo results in a columnar grain structure, which is due to the elimination of the nucleation barrier by the partial remelting of the previous layer during LPBF processing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "irregular grain structure",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "irregular",
+        "location": "thin wall feature",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1. Fabrication and Characterization of Mo-HCS",
+          "quote": "Figure 7e shows a representative EBSD inverse pole figure (IPF) map of the thin wall feature, indicating an irregular grain structure with an aspect ratio between 0.8 and 1.3.",
+          "table": null,
+          "figure": "7e",
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "irregular grain structure",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "irregular",
+        "location": "wall structure",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3. TZM vs Mo as Exoskeleton in HCS",
+          "quote": "The TZM-HCS sample showed an irregular grain structure comparable to that of Mo-HCS, indicating that the grain macrostructure was agnostic of the light alloying present in TZM-HCS.",
+          "table": null,
+          "figure": "10b",
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Defect",
+      "name": "porosity",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1. Fabrication and Characterization of Mo-HCS",
+          "quote": "The sample had some porosity, but no sign of cracking was observed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "hardness",
+      "value": 210,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 12,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "perpendicular to build direction",
+        "atmosphere": null,
+        "duration": "10 s",
+        "test_method": "Vickers microhardness, 0.1 kgf load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1. Fabrication and Characterization of Mo-HCS",
+          "quote": "Hardness values of 210 ± 12 HV were acquired for sections perpendicular to the build direction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "hardness",
+      "value": 212,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 11,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "along build direction",
+        "atmosphere": null,
+        "duration": "10 s",
+        "test_method": "Vickers microhardness, 0.1 kgf load"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1. Fabrication and Characterization of Mo-HCS",
+          "quote": "while values of 212 ± 11 HV were measured for sections along the build direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "tested at 1073 K",
+      "property": "coefficient of thermal expansion (CTE)",
+      "value": 5.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.1,
+      "unit": "10-6 K-1",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "helium",
+        "duration": null,
+        "test_method": "dilatometry, ASTM A1033-10"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1. Fabrication and Characterization of Mo-HCS",
+          "quote": "The CTE of the Mo-HCS sample was measured to be 5.3 ± 0.1 × 10−6 K−1, which is comparable to the values reported in the literature for pure Mo (4.9 to 5.2 × 10−6 K−1).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "tested at 1073 K",
+      "property": "hardness",
+      "value": 211,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 10,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "10 s",
+        "test_method": "Vickers microhardness, 0.1 kgf load"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1. Fabrication and Characterization of Mo-HCS",
+          "quote": "A similar hardness value (211 ± 10 HV) to the as-built (AB) condition was measured, suggesting that the brief exposure to 1073 K did not affect the microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "property": "coefficient of thermal expansion (CTE)",
+      "value": 6.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "10-6 K-1",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "helium",
+        "duration": null,
+        "test_method": "dilatometry, ASTM A1033-10"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.2. Cu-Infiltrated Mo-HCS",
+          "quote": "Following Cu infiltration into the Mo cavities, the CTE of Mo-HCS + Cu was measured to be 6.5 × 10−6 K−1, which is higher than the CTE of Mo-HCS (5.3 ± 0.1 × 10−6 K−1).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "property": "hardness",
+      "value": 179,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 13,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "10 s",
+        "test_method": "Vickers microhardness, 0.1 kgf load"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.2. Cu-Infiltrated Mo-HCS",
+          "quote": "Microhardness measurements were performed following infiltration of Cu into Mo-HCS, and a reduction to 179 ± 13 HV (compared to ≈210 ± 12 HV for Mo-HCS alone) was observed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "property": "coefficient of thermal expansion (CTE)",
+      "value": 5.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "10-6 K-1",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "helium",
+        "duration": null,
+        "test_method": "dilatometry, ASTM A1033-10"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3. TZM vs Mo as Exoskeleton in HCS",
+          "quote": "TZM-HCS showed the same CTE as Mo-HCS at 5.3 × 10−6 K−1, indicating that the alloying elements do not influence the CTE of LPBF-processed TZM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "property": "hardness",
+      "value": 272,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 7,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "10 s",
+        "test_method": "Vickers microhardness, 0.1 kgf load"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3. TZM vs Mo as Exoskeleton in HCS",
+          "quote": "As expected, TZM-HCS and TZM-HCS + Cu samples have a much higher hardness (272 ± 7 HV) compared to Mo-HCS (210 ± 12 HV) due to the contribution of alloying elements in TZM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_4",
+      "material_state": "Cu-infiltrated",
+      "property": "coefficient of thermal expansion (CTE)",
+      "value": 6.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "10-6 K-1",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "helium",
+        "duration": null,
+        "test_method": "dilatometry, ASTM A1033-10"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3. TZM vs Mo as Exoskeleton in HCS",
+          "quote": "Following Cu infiltration, the measured CTE of the TZM-HCS + Cu sample showed an increase to 6.6 × 10−6 K−1, which is similar to the one measured for Mo-HCS + Cu (6.5 × 10−6 K−1).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "property": "thermal diffusivity",
+      "value": 61.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.8,
+      "unit": "10-6 m2 s-1",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "through thickness",
+        "atmosphere": "nitrogen",
+        "duration": null,
+        "test_method": "laser flash analysis (NdYAG laser, 1064 nm, 10 W, 1 ms pulse)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": "3.4. Thermal Diffusivity Measurements",
+          "quote": "Mo-HCS + Cu has a thermal diffusivity of 61.7 ± 0.8 × 10−6 m2 s−1",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_4",
+      "material_state": "Cu-infiltrated",
+      "property": "thermal diffusivity",
+      "value": 60.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 1.0,
+      "unit": "10-6 m2 s-1",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "through thickness",
+        "atmosphere": "nitrogen",
+        "duration": null,
+        "test_method": "laser flash analysis (NdYAG laser, 1064 nm, 10 W, 1 ms pulse)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": "3.4. Thermal Diffusivity Measurements",
+          "quote": "which is similar to the value of 60.3 ± 1.0 × 10−6 m2 s−1 measured for TZM-HCS + Cu.",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "property": "thermal conductivity",
+      "value": 158.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 2.0,
+      "unit": "W m-1 K-1",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "calculated from thermal diffusivity"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": "3.4. Thermal Diffusivity Measurements",
+          "quote": "Mo-HCS + Cu 61.7 ± 0.8 158.6 ± 2.0",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_4",
+      "material_state": "Cu-infiltrated",
+      "property": "thermal conductivity",
+      "value": 154.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 2.6,
+      "unit": "W m-1 K-1",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "calculated from thermal diffusivity"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": "3.4. Thermal Diffusivity Measurements",
+          "quote": "TZM-HCS + Cu 60.3 ± 1.0 154.2 ± 2.6",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_14",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "property": "conduction resistance (RCOND)",
+      "value": 8.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "K W-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "FEM simulation"
+      },
+      "comparison_sample_id": "sample_cu_mo_cu",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "3.5. Modelling of Cu-Mo-Cu vs Mo/TZM-HCS",
+          "quote": "the Cu-Mo-Cu heat sink produced an RCOND value of 8.8 K W−1, while the Mo-HCS + Cu heat sink gave a similar value of 8.4 K W−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_15",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "property": "thermal stress",
+      "value": 95,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 513,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "interface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "FEM simulation"
+      },
+      "comparison_sample_id": "sample_cu_mo_cu",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "3.5. Modelling of Cu-Mo-Cu vs Mo/TZM-HCS",
+          "quote": "for a similar TJ of 513 K, the GaAs Mo-HCS + Cu heat sink shows a stress value of only 95 MPa at the interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "recrystallization",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "Cu-infiltrated",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.2. Cu-Infiltrated Mo-HCS",
+          "quote": "exposure to 1373 K has caused an increase in the recrystallized fraction (from 3% to 12%).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid-solution strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3. TZM vs Mo as Exoskeleton in HCS",
+          "quote": "As expected, TZM-HCS and TZM-HCS + Cu samples have a much higher hardness (272 ± 7 HV) compared to Mo-HCS (210 ± 12 HV) due to the contribution of alloying elements in TZM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f6101fccc1eb6003:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_2",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_3",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_2",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_7",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_8",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "sample_3",
+      "sample_id": null,
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_9",
+      "source_id": "process_3",
+      "predicate": "PRODUCES",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_10",
+      "source_id": "process_4",
+      "predicate": "PRODUCES",
+      "target_id": "sample_4",
+      "sample_id": null,
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "tested at 1073 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_21",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_22",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_23",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_24",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_25",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_9",
+      "sample_id": "sample_4",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_26",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_10",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_27",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_11",
+      "sample_id": "sample_4",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_28",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_12",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_29",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_13",
+      "sample_id": "sample_4",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": []
+    },
+    {
+      "id": "claim_30",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_14",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "claim_31",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_15",
+      "sample_id": "sample_2",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "claim_32",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "Cu-infiltrated",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "claim_33",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_8",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

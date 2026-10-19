@@ -1,0 +1,207 @@
+{
+  "document_id": "b692a45efab7d495",
+  "chunk_id": "b692a45efab7d495:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Deep learning accelerates the development of Ni-based single crystal superalloys: A physical-constrained neural network for creep rupture life prediction",
+    "authors": [
+      "Fan Yang",
+      "Wenyue Zhao",
+      "Yi Ru",
+      "Yanling Pei",
+      "Shusuo Li",
+      "Shengkai Gong",
+      "Huibin Xu"
+    ],
+    "journal": "Materials & Design",
+    "year": 2023,
+    "doi": "10.1016/j.matdes.2023.112174"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Ni-based single crystal (SX) superalloys are typical materials applied for aero-engine turbine blades [1] .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b692a45efab7d495:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "property": "coefficient of determination (R2)",
+      "value": 0.7908,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "5-fold cross-validation on test set"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Prediction performance of SaTNC",
+          "quote": "the MAPE, SMAPE, and R2 are 0.3797, 0.2817, and 0.7908 respectively as illustrated in Fig. 2 a .",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "b692a45efab7d495:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": null,
+      "material_state": null,
+      "property": "mean absolute percentage error (MAPE)",
+      "value": 0.3797,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "5-fold cross-validation on test set"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Prediction performance of SaTNC",
+          "quote": "the MAPE, SMAPE, and R2 are 0.3797, 0.2817, and 0.7908 respectively as illustrated in Fig. 2 a .",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "b692a45efab7d495:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": null,
+      "material_state": null,
+      "property": "symmetric mean absolute percentage error (SMAPE)",
+      "value": 0.2817,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "5-fold cross-validation on test set"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Prediction performance of SaTNC",
+          "quote": "the MAPE, SMAPE, and R2 are 0.3797, 0.2817, and 0.7908 respectively as illustrated in Fig. 2 a .",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "b692a45efab7d495:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "Superalloy Transformer-based Net for Creep (SaTNC)",
+      "sample_id": null,
+      "property_observation_id": "observation_1",
+      "task": "creep rupture life prediction",
+      "inputs": [
+        "nominal alloy composition",
+        "γ composition",
+        "γ' composition",
+        "creep temperature",
+        "creep stress",
+        "volume fraction of γ' phase",
+        "γ/γ' lattice mismatch",
+        "stacking fault energy (SFE) of γ",
+        "antiphase boundary energy (APBE) of γ'"
+      ],
+      "target": "creep rupture life",
+      "dataset": "1675 Ni-based SX superalloys with [001] orientation under different creep conditions collected from published literature and patents",
+      "validation": "5-fold cross-validation, training/validation/testing proportion of 64/16/20%",
+      "metrics": {
+        "MAPE": 0.3797,
+        "SMAPE": 0.2817,
+        "R2": 0.7908
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "a physical-constrained neural network named Superalloy Transformer-based Network for Creep (SaTNC) is established, and the representation of superalloy is automatically learned based on deep representation learning.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b692a45efab7d495:part:001"
+        },
+        {
+          "page": 4,
+          "section": "3.1. Prediction performance of SaTNC",
+          "quote": "the MAPE, SMAPE, and R2 are 0.3797, 0.2817, and 0.7908 respectively as illustrated in Fig. 2 a .",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "b692a45efab7d495:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Prediction performance of SaTNC",
+          "quote": "the MAPE, SMAPE, and R2 are 0.3797, 0.2817, and 0.7908 respectively as illustrated in Fig. 2 a .",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "b692a45efab7d495:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

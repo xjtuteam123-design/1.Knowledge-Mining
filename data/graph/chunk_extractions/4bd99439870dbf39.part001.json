@@ -1,0 +1,374 @@
+{
+  "document_id": "4bd99439870dbf39",
+  "chunk_id": "4bd99439870dbf39:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Vacancy mediated alloying strengthening effects on γ/γ′ interface of Ni-based single crystal superalloys: A first-principles study",
+    "authors": [
+      "Wenyue Zhao",
+      "Zhimei Sun",
+      "Shengkai Gong"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2017,
+    "doi": "10.1016/j.actamat.2017.05.074"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "Page 3",
+          "section": "Abstract",
+          "quote": "Vacancy mediated alloying strengthening effects on γ/γ' interface of Ni-based single crystal superalloys: A first-principles study",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "γ/γ' interface supercell model (88 atoms, 11 layers)",
+      "canonical_name": "Ni-Ni3Al γ/γ' interface model",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "computational supercell",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 6",
+              "section": "2.1 Supercell models of γ/γ' interface",
+              "quote": "The γ/γ' interface supercell model of 88 atoms (11 layers, 8 atoms per layer) with layered structure composed of γ-Ni and γ'-Ni3Al is built as shown in Fig. 1a.",
+              "table": null,
+              "figure": "Fig. 1a",
+              "chunk_id": "4bd99439870dbf39:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 6",
+              "section": "2.1 Supercell models of γ/γ' interface",
+              "quote": "The γ/γ' interface supercell model of 88 atoms (11 layers, 8 atoms per layer) with layered structure composed of γ-Ni and γ'-Ni3Al is built as shown in Fig. 1a.",
+              "table": null,
+              "figure": "Fig. 1a",
+              "chunk_id": "4bd99439870dbf39:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "Page 6",
+          "section": "2.1 Supercell models of γ/γ' interface",
+          "quote": "The γ/γ' interface supercell model of 88 atoms (11 layers, 8 atoms per layer) with layered structure composed of γ-Ni and γ'-Ni3Al is built as shown in Fig. 1a.",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "first-principles density functional theory (DFT)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "code": "VASP",
+          "functional": "PBE-GGA",
+          "pseudopotential": "PAW",
+          "plane_wave_cutoff_ev": 480,
+          "k_point_mesh": "8x8x2 Monkhorst-Pack",
+          "energy_convergence_ev_per_atom": 1e-05,
+          "spin_polarization": "considered"
+        }
+      },
+      "input_state": null,
+      "output_state": "computational supercell",
+      "evidence": [
+        {
+          "page": "Page 9",
+          "section": "2.2 Total energy calculation",
+          "quote": "In the present study, the total-energy calculations within the framework of density functional theory (DFT) are performed using the Vienna Ab initio Simulation Package (VASP) [19, 20].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ-Ni",
+      "sample_id": "sample_1",
+      "material_state": "computational supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 6",
+          "section": "2.1 Supercell models of γ/γ' interface",
+          "quote": "The γ/γ' interface supercell model of 88 atoms (11 layers, 8 atoms per layer) with layered structure composed of γ-Ni and γ'-Ni3Al is built as shown in Fig. 1a.",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ'-Ni3Al (L12)",
+      "sample_id": "sample_1",
+      "material_state": "computational supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 6",
+          "section": "2.1 Supercell models of γ/γ' interface",
+          "quote": "The γ/γ' interface supercell model of 88 atoms (11 layers, 8 atoms per layer) with layered structure composed of γ-Ni and γ'-Ni3Al is built as shown in Fig. 1a.",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "vacancy-mediated alloying strengthening",
+      "category": "interfacial strengthening",
+      "sample_id": "sample_1",
+      "material_state": "computational supercell",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "Page 3",
+          "section": "Abstract",
+          "quote": "The improvement in the γ/γ' interfacial strength is ascribed to the increased chemical bonding strength between the alloying atom and the nearest-neighbor host atom.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "vacancy migration hindering",
+      "category": "diffusion",
+      "sample_id": "sample_1",
+      "material_state": "computational supercell",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "Page 3",
+          "section": "Abstract",
+          "quote": "a single Ni vacancy has higher migration energy barriers around the alloying solutes especially Re solute substituting on (001) γ at γ/γ' interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "computational supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "Page 6",
+          "section": "2.1 Supercell models of γ/γ' interface",
+          "quote": "The γ/γ' interface supercell model of 88 atoms (11 layers, 8 atoms per layer) with layered structure composed of γ-Ni and γ'-Ni3Al is built as shown in Fig. 1a.",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "computational supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "Page 9",
+          "section": "2.2 Total energy calculation",
+          "quote": "In the present study, the total-energy calculations within the framework of density functional theory (DFT) are performed using the Vienna Ab initio Simulation Package (VASP) [19, 20].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "computational supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "Page 6",
+          "section": "2.1 Supercell models of γ/γ' interface",
+          "quote": "The γ/γ' interface supercell model of 88 atoms (11 layers, 8 atoms per layer) with layered structure composed of γ-Ni and γ'-Ni3Al is built as shown in Fig. 1a.",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "computational supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "Page 6",
+          "section": "2.1 Supercell models of γ/γ' interface",
+          "quote": "The γ/γ' interface supercell model of 88 atoms (11 layers, 8 atoms per layer) with layered structure composed of γ-Ni and γ'-Ni3Al is built as shown in Fig. 1a.",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "phase_1",
+      "predicate": "FORMS",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "computational supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "Page 3",
+          "section": "Abstract",
+          "quote": "The improvement in the γ/γ' interfacial strength is ascribed to the increased chemical bonding strength between the alloying atom and the nearest-neighbor host atom.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "phase_2",
+      "predicate": "FORMS",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "computational supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "Page 3",
+          "section": "Abstract",
+          "quote": "The improvement in the γ/γ' interfacial strength is ascribed to the increased chemical bonding strength between the alloying atom and the nearest-neighbor host atom.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4bd99439870dbf39:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "γ-cpNi substitution site",
+    "γ-fcNi substitution site",
+    "γ/γ'-Ni substitution site",
+    "γ'-Al substitution site",
+    "γ'-Ni vacancy site"
+  ],
+  "conflicts": [
+    {
+      "description": "The source mentions that Wang [16] concluded γ'-Al is the most stable substitution site, whereas the present work finds γ-cpNi is the most preferable for Re, Mo, Ta, with Cr preferring the Ni vacancy site.",
+      "evidence": [
+        {
+          "page": "Page 10",
+          "section": "3.1 Site preferences of alloying elements at γ/γ' interface",
+          "quote": "Whereas in another work of γ/γ' interface by Wang [16], the Ni sites on (001) γ plane were not considered, which led them to the conclusion that γ'-Al was the most energetically stable substitution site.",
+          "table": null,
+          "figure": null
+        }
+      ]
+    }
+  ]
+}

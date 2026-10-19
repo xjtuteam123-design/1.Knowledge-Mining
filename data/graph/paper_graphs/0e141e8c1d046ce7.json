@@ -1,0 +1,280 @@
+{
+  "type": "json_object",
+  "document_id": "0e141e8c1d046ce7",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "title": "Combined approach to capture the evolution of oxidation of Nickel based superalloys using data driven approaches",
+    "authors": [
+      "Nikhil Khatavkar",
+      "Abhishek Kumar Singh"
+    ],
+    "journal": "Physical Review Materials",
+    "year": 2024,
+    "doi": "10.1103/PhysRevMaterials.8.053601"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "I. INTRODUCTION",
+          "quote": "Nickel-based superalloys are a special class of alloys used in the combustion turbines of power plants and aircraft [1,2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        },
+        {
+          "page": "3",
+          "section": "III. RESULTS",
+          "quote": "The selection of the superalloys is done such that only those compositions are included, which have nickel as the majority element.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma matrix",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "I. INTRODUCTION",
+          "quote": "The presence of a continuous γ matrix and γ′precipitate phase is responsible for strengthening the superalloys via precipitate hardening [5,6].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "I. INTRODUCTION",
+          "quote": "The γ′phase exhibits a L1 2 crystal structure and forms coherent interfaces with the fcc-γ matrix phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation hardening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "I. INTRODUCTION",
+          "quote": "The γ/γ′ interfaces block the dislocation movement to the γ′ phase, thus limiting the dislocations to the narrow γ channels between the precipitates and leading to precipitation hardening [7].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "protective scale formation",
+      "category": "oxidation resistance",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "I. INTRODUCTION",
+          "quote": "The detrimental effects of oxidation in the superalloys can be reduced by adding elements such as aluminum and chromium. The addition of aluminum and chromium leads to the formation of a protective scale of Al 2O3 or Cr 2O3 [12].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "artificial neural network",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression of oxidation mass gain",
+      "inputs": [
+        "individual superalloy compositions (wt.%)",
+        "time (hours)",
+        "temperature (°C)"
+      ],
+      "target": "specific mass gain due to oxidation (Δm)",
+      "dataset": "2540 entries for mass gain",
+      "validation": "train/test split of 90:10",
+      "metrics": {
+        "R2": 0.97,
+        "RMSE": 0.24
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "III. RESULTS",
+          "quote": "The data was divided into training and testing data in a ratio of 90:10.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        },
+        {
+          "page": "4",
+          "section": "III. RESULTS",
+          "quote": "The best result of R 2 = 0.97/0.97 and RMSE = 0.24/0.25 for the ANN model is obtained for 20 and 12 neurons in the first and second dense layer, respectively.",
+          "table": "I",
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "XGBoost",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression of oxidation mass gain",
+      "inputs": [
+        "individual superalloy compositions (wt.%)",
+        "time (hours)",
+        "temperature (°C)"
+      ],
+      "target": "specific mass gain due to oxidation (Δm)",
+      "dataset": "2540 entries for mass gain",
+      "validation": "train/test split",
+      "metrics": {
+        "R2": 0.97,
+        "RMSE": 0.22
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "III. RESULTS",
+          "quote": "The best result obtained for the XGBoost with all features has R 2 = 0.97/0.97 and RMSE = 0.22/0.22.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "XGBoost",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression of oxidation mass gain",
+      "inputs": [
+        "selected features"
+      ],
+      "target": "specific mass gain due to oxidation (Δm)",
+      "dataset": "cluster 1 (1858 data)",
+      "validation": "train/test split",
+      "metrics": {
+        "R2": 0.99,
+        "RMSE": 0.11
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "III. RESULTS",
+          "quote": "1 1858 0.99 /0.99 0.11 /0.11 19",
+          "table": "II",
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_4",
+      "name": "XGBoost",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression of parabolic oxidation rate (kp)",
+      "inputs": [
+        "selected features"
+      ],
+      "target": "parabolic oxidation rate (kp)",
+      "dataset": "787 entries for kp",
+      "validation": "train/test split",
+      "metrics": {
+        "R2": 0.99,
+        "RMSE": 0.03
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "III. RESULTS",
+          "quote": "The best ML model presents high accuracy with R 2 of 0.99 /0.99 and RMSE of 0.03/0.04.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "I. INTRODUCTION",
+          "quote": "The presence of a continuous γ matrix and γ′precipitate phase is responsible for strengthening the superalloys via precipitate hardening [5,6].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0e141e8c1d046ce7:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,192 @@
+{
+  "document_id": "853ea4d00d1ce522",
+  "chunk_id": "853ea4d00d1ce522:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Dynamic High-temperature Testing of an Iridium Alloy in Compression at High-strain Rates",
+    "authors": [
+      "B. Song",
+      "K. Nelson",
+      "R. Lipinski",
+      "J. Bignell",
+      "G. Ulrich",
+      "E. P. George"
+    ],
+    "journal": "Strain",
+    "year": 2014,
+    "doi": "10.1111/str.12100"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "iridium alloy",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "In this study, we analyzed the difficulties encountered in high-temperature Kolsky bar testing of thin iridium alloy specimens in compression.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "853ea4d00d1ce522:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "DOP-26",
+      "canonical_name": "DOP-26 iridium alloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Dynamic high-temperature experiments",
+          "quote": "Disc-shaped specimens were cut from a prime 52-mm-diameter, 0.65-mm-thick DOP-26 iridium alloy blank using electrical discharge machining with molybdenum wire and then ground with a diamond abrasive to a final diameter of 3.000 ± 0.025 mm to remove the residual electrical discharge machining layer.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "853ea4d00d1ce522:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 1375,
+        "time": "1 h ± 10 min",
+        "pressure": "≤1×10^-4 Torr",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "machined",
+      "output_state": "heat treated",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Dynamic high-temperature experiments",
+          "quote": "The disc specimens were then re-weighed, heat treated at 1375 ± 25 °C for 1 h ± 10 min in vacuum (≤1×10−4 Torr) in a furnace dedicated for the iridium alloy and re-weighed again to verify identity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "853ea4d00d1ce522:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "property": "flow stress",
+      "value": 2400,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "uncertainty analysis",
+          "quote": "As shown in Figure 7, the iridium alloy specimen was subjected to a stress of 2400 MPa at a strain of 30%.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "853ea4d00d1ce522:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Dynamic high-temperature experiments",
+          "quote": "Disc-shaped specimens were cut from a prime 52-mm-diameter, 0.65-mm-thick DOP-26 iridium alloy blank using electrical discharge machining with molybdenum wire and then ground with a diamond abrasive to a final diameter of 3.000 ± 0.025 mm to remove the residual electrical discharge machining layer.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "853ea4d00d1ce522:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Dynamic high-temperature experiments",
+          "quote": "The disc specimens were then re-weighed, heat treated at 1375 ± 25 °C for 1 h ± 10 min in vacuum (≤1×10−4 Torr) in a furnace dedicated for the iridium alloy and re-weighed again to verify identity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "853ea4d00d1ce522:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "uncertainty analysis",
+          "quote": "As shown in Figure 7, the iridium alloy specimen was subjected to a stress of 2400 MPa at a strain of 30%.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "853ea4d00d1ce522:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

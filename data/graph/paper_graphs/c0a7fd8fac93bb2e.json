@@ -1,0 +1,793 @@
+{
+  "document_id": "c0a7fd8fac93bb2e",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Local element segregation-induced cellular structures and dominant dislocation planar slip enable exceptional strength-ductility synergy in an additively-manufactured CoNiV multicomponent alloy with ageing treatment",
+    "authors": [
+      "Kefu Gan",
+      "Weiying Huang",
+      "Wei Zhang",
+      "Ruidi Li",
+      "Yong Zhang",
+      "Weisong Wu",
+      "Pengda Niu",
+      "Pengfei Wu"
+    ],
+    "journal": "International Journal of Plasticity",
+    "year": 2024,
+    "doi": "10.1016/j.ijplas.2024.104112"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "CoNiV multicomponent alloy",
+      "material_category": "multicomponent alloy (MCA)",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "We proposed an additively manufactured equiatomic CoNiV multicomponent alloy (MCA) using a conventional laser powder bed fusion (LPBF) method",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "as-printed CoNiV",
+      "canonical_name": "CoNiV",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-printed",
+      "composition": [
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal (equiatomic)",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Material preparation",
+              "quote": "An ingot of equiatomic CoNiV (at. %) multicomponent alloy was produced using a conventional laser powder bed fusion (LPBF)-printing method",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c0a7fd8fac93bb2e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Material preparation",
+          "quote": "A piece of alloy bulk with a dimension of around 90 mm × 40 mm × 15 mm was produced using an FS271 laser melting facility equipped with a 5000-W Gaussian beam fiber laser protected by an inert high-purity Argon atmosphere",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "aged CoNiV",
+      "canonical_name": "CoNiV",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal (equiatomic)",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Material preparation",
+              "quote": "An ingot of equiatomic CoNiV (at. %) multicomponent alloy was produced using a conventional laser powder bed fusion (LPBF)-printing method",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c0a7fd8fac93bb2e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Material preparation",
+          "quote": "Subsequently, a piece of alloy specimen was cut from the as-printed MCA bulk and then sealed into a quartz tube with a vacuum state. After that, the sealed alloy plate in the quartz tube was then heated to 500 ◦C in an oven and aged for 24 h, followed by water quenching.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": 100,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "inert high-purity Argon atmosphere, oxygen level below ~0.04%",
+        "cooling_method": "naturally cooled to room temperature inside the chamber with the Argon atmosphere",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 160,
+        "scan_speed": "800 mm/s",
+        "layer_thickness": "~20 μm",
+        "other": {
+          "laser_spot_size": "~100 μm",
+          "hatch_spacing": "~0.1 mm",
+          "scan_strategy": "anticlockwise rotated by ~67° between each adjacent printing layer",
+          "substrate_preheat": "100 °C"
+        }
+      },
+      "input_state": "Argon-atomized CoNiV pre-alloyed powders",
+      "output_state": "as-printed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Material preparation",
+          "quote": "The laser spot size was ~100 μm in diameter, and the laser melting was conducted at 160 W and 800 mm/s scanning speed. The powder layer thickness was controlled at ~20 μm during printing, and the hatch spacing was set as ~0.1 mm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "ageing",
+      "parameters": {
+        "temperature_c": 500,
+        "time": "24 h",
+        "pressure": "vacuum (sealed quartz tube)",
+        "atmosphere": "vacuum",
+        "cooling_method": "water quenching",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-printed",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Material preparation",
+          "quote": "the sealed alloy plate in the quartz tube was then heated to 500 ◦C in an oven and aged for 24 h, followed by water quenching.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 Microstructural features of the as-printed and aged MCA specimens",
+          "quote": "A single face-centered cubic crystal structure of the present MCA can be also identified from the X-ray diffractograms shown in Fig. S1g where only FCC peaks are visible",
+          "table": null,
+          "figure": "Fig. S1g",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "vanadium oxide",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "nano-sized",
+        "morphology": "particles",
+        "location": "alloy matrix",
+        "composition": "vanadium oxides",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.1 Microstructural features of the as-printed and aged MCA specimens",
+          "quote": "According to the EDS analysis, the oxide-like nano-particles can be ascribed to vanadium oxides, due to the higher affinity of V with oxygen than the other two primary elements.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "local chemical order (LCO)",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "nanoscale",
+        "morphology": null,
+        "location": "alloy matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.1 Microstructural features of the as-printed and aged MCA specimens",
+          "quote": "This fact suggests that the face-centered cubic (FCC)-structured grains of the aged MCA contain a few local chemical orders (LCOs)",
+          "table": null,
+          "figure": "Fig. 4b",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "property": "yield strength",
+      "value": 780,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "As for the case of ~298 K, the yield strength values of the as-printed and aged MCA specimens are ~780 MPa and ~930 MPa, respectively.",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "property": "yield strength",
+      "value": 930,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "As for the case of ~298 K, the yield strength values of the as-printed and aged MCA specimens are ~780 MPa and ~930 MPa, respectively.",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "property": "uniform elongation",
+      "value": 41,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "The uniform fracture elongation of the as-printed specimen (~41%) is slightly higher than that of the counterpart after an ageing treatment (~33%)",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "property": "uniform elongation",
+      "value": 33,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "The uniform fracture elongation of the as-printed specimen (~41%) is slightly higher than that of the counterpart after an ageing treatment (~33%)",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "property": "ultimate tensile strength",
+      "value": 1070,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "but with a lower ultimate tensile strength (~1070 MPa vs. ~1170 MPa)",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "property": "ultimate tensile strength",
+      "value": 1170,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "but with a lower ultimate tensile strength (~1070 MPa vs. ~1170 MPa)",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "property": "yield strength",
+      "value": 970,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": -196,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "liquid nitrogen",
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "as for the 77 K tensile experiments, it is found that the yield and ultimate tensile strength of the as-printed MCA specimens are increased to ~970 MPa and ~1380 MPa, respectively.",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "property": "ultimate tensile strength",
+      "value": 1380,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": -196,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "liquid nitrogen",
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "as for the 77 K tensile experiments, it is found that the yield and ultimate tensile strength of the as-printed MCA specimens are increased to ~970 MPa and ~1380 MPa, respectively.",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "property": "yield strength",
+      "value": 1100,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": -196,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "liquid nitrogen",
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "the yield and ultimate tensile strength of the aged specimens deformed at 77 K are increased to ~1100 MPa and ~1510 MPa, respectively.",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "property": "ultimate tensile strength",
+      "value": 1510,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": -196,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "liquid nitrogen",
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "the yield and ultimate tensile strength of the aged specimens deformed at 77 K are increased to ~1100 MPa and ~1510 MPa, respectively.",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "property": "uniform elongation",
+      "value": 40,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": -196,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "liquid nitrogen",
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "the uniform fracture elongation of the aged specimen at 77 K is highly improved to ~ 40%, even exceeding the value of the as-printed one (~35%).",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "property": "uniform elongation",
+      "value": 35,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": -196,
+        "strain_rate": "1e-3 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": "liquid nitrogen",
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2 Mechanical response of the MCA specimens",
+          "quote": "the uniform fracture elongation of the aged specimen at 77 K is highly improved to ~ 40%, even exceeding the value of the as-printed one (~35%).",
+          "table": null,
+          "figure": "Fig. 5a",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "property": "back stress",
+      "value": 50,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "loading-unloading-reloading (LUR)",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "loading-unloading-reloading (LUR) test"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "3.3.3 Back stress from the hierarchical microstructures of the present MCA specimens",
+          "quote": "the back stress of the aged specimen at ~5% is just slightly improved (~50 MPa) compared with the as-printed one",
+          "table": null,
+          "figure": "Fig. 10c",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "planar slip of dislocations",
+      "category": "deformation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.3.2 For the specimens deformed at the cryogenic temperature of 77 K",
+          "quote": "dislocation planar slip is found to dominate the plastic behaviors, and a large number of slip bands composed of long-length planar dislocations are generated regardless of the temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "back stress strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "3.3.3 Back stress from the hierarchical microstructures of the present MCA specimens",
+          "quote": "the back stress of the aged specimen is always higher than that of the as-printed counterpart at identical strains, suggesting that more GNDs are generated inside the former.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "local chemical order strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "3.4 Uncovering the ageing effects on the enhanced mechanical properties of the aged MCA specimens",
+          "quote": "Considerable LCOs are produced in the aged alloy, which prominently promotes the planar slip of dislocations on typical (111) crystalline planes of FCC matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.1 Microstructural features of the as-printed and aged MCA specimens",
+          "quote": "This fact suggests that the face-centered cubic (FCC)-structured grains of the aged MCA contain a few local chemical orders (LCOs)",
+          "table": null,
+          "figure": "Fig. 4b",
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_3",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "3.4 Uncovering the ageing effects on the enhanced mechanical properties of the aged MCA specimens",
+          "quote": "Considerable LCOs are produced in the aged alloy, which prominently promotes the planar slip of dislocations on typical (111) crystalline planes of FCC matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_10",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "conditions": {
+        "temperature_c": -196
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "3.4 Uncovering the ageing effects on the enhanced mechanical properties of the aged MCA specimens",
+          "quote": "a planar slip array of dislocations with extremely high density dominates the deformation microstructures in the aged specimen, strengthening and toughening the alloy, especially at a low temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c0a7fd8fac93bb2e:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

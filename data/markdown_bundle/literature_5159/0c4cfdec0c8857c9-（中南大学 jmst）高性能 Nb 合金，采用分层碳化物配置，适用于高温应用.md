@@ -1,0 +1,1250 @@
+# （中南大学 jmst）高性能 Nb 合金，采用分层碳化物配置，适用于高温应用
+
+<!-- source: D:\总文献\（中南大学 jmst）高性能 Nb 合金，采用分层碳化物配置，适用于高温应用.pdf -->
+<!-- file_sha256: d8dd72e63abf1ace51b800337ca7bc945312ab0fd04edc57b45b94c25f2a0ae5 -->
+
+## Page 1
+
+Journal of Materials Science & Technology 218 (2025) 263–278 
+Contents lists available at ScienceDirect 
+Journal of Materials Science & Technology 
+journal homepage: www.elsevier.com/locate/jmst 
+Research Article 
+High-performance Nb alloy featuring a hierarchical carbides 
+conﬁguration for elevated-temperature applications 
+Yafang Zhang a ,L a i r o n g Xiao a , d , Zhenyang Cai a , d ,R u i y a n g Xiao a ,M a o k u n Yin a , Xing Li a , 
+Yiqian Fu a , Xiangchen Xiao a , Yuxiang Jiang a , Zhenwu Peng a , Sainan Liu c ,X i a o j u n Zhao a , d , ∗, 
+Wei Li b , ∗, Miao Song b , ∗
+a School of Materials Science and Engineering, Central South University, Changsha 410083, China 
+b State Key Laboratory of Powder Metallurgy , Central South University , Changsha 410083, China 
+c Center for Mineral Materials , School of Minerals Processing and Bioengineering, Central South University , Changsha 410083 , China 
+d Key Laboratory of Non-ferrous Metal Materials Science and Engineering , Ministry of Education, Central South University , Changsha 410083 , China 
+a r t i c l e i n f o 
+Article history: 
+Received 12 December 2023 
+Revised 8 August 2024 
+Accepted 13 August 2024 
+Keywords: 
+Toughness 
+Thermal stability 
+Nb superalloy 
+Carbides 
+Hierarchical structure 
+a b s t r a c t 
+In aerospace, BBC-Nb alloys confront notable challenges in thermal stability and toughness under cyclic 
+fatigue at varying temperatures. Insuﬃcient thermal stability and expedited coalescence of precipitates 
+substantially accelerates the degradation of alloys at elevated temperatures. Here, a Nb alloy with im- 
+pressive thermal stability and mechanical properties was designed using theoretical calculations and a 
+two-step graded heat treatment process. The superlative properties of the Nb alloy are primarily associ- 
+ated with the NbC hierarchical structures, i.e., stable nanoparticles in Nb-BCC grains and discontinuous 
+microparticles at grain boundaries (GBs). The hierarchical carbides conﬁguration avoids continuous pre- 
+cipitation of carbides at GBs and preferential coarsening within the grains. The process involves precip- 
+itating ZrC nanoparticles at 1350 °C, then stabilizing NbC at 1800 °C by replacing Zr with Nb. Nb-FCC 
+nanophases enveloping NbC prevent coarsening and have strong relationships with both NbC nanoparti- 
+cles and matrix. The concept of ﬁne-tuning NbC precipitation within grains and introducing NbC at GBs 
+with a substitution method offers a strategy for high-strength, heat-resistant materials. 
+©2 0 2 4 Published by Elsevier Ltd on behalf of The editorial oﬃce of Journal of Materials Science & 
+Technology. 
+1. Introduction 
+Owing to their elevated melting point, low density, and favor- 
+able processability, Nb alloys have garnered considerable attention 
+as prospective materials in the forthcoming era of aerospace and 
+nuclear industries with the aim of replacing Ni alloys [ 1 ]. Nev- 
+ertheless, during aircraft climbing, cruising, and diving, Nb alloys 
+are subjected to sustained fatigue and shock loading along with 
+cyclic temperature variations [ 2 , 3 ], which impose stringent prereq- 
+uisites in terms of strength, plasticity, and thermal stability [ 4 ]. 
+These properties are intricately associated with the microstructures 
+of Nb alloys, such as the crystal structure of the matrix and con- 
+ﬁguration of the precipitates. Nb has various crystal structures, in- 
+cluding body-centered cubic (BCC), face-centered cubic (FCC), and 
+hexagonal closely packed (HCP) [ 5 ]. Among these, the BCC crystal 
+structure stands out as its substantial elastic modulus (174 GPa [ 6 ]) 
+∗ Correspondence authors. 
+E-mail addresses: zhaoxj@csu.edu.cn (X. Zhao), csuliw@csu.edu.cn (W. Li), 
+songmiao@csu.edu.cn (M. Song) . 
+and the most thermally stable below 900 °C [ 7 , 8 ]. In contrast, the 
+Nb-FCC variant has multiple slip systems [ 9 ], but it typically un- 
+dergoes a transformation into a thermally stable Nb-BCC structure 
+below 900 °C [ 10 ]. This seriously weakens the thermal stability and 
+plasticity of Nb alloys. 
+In addition to the inﬂuence of the crystal structure, precipitates 
+have been extensively employed to tune the mechanical properties 
+and thermal stability of Nb alloys. Among these precipitates, car- 
+bides ( M Cx ), which are common and effective, have been widely 
+used in Nb alloys [ 11 ]. Here, “M ” represents active metal elements, 
+which tend to bond with C atoms, such as elements like Zr and 
+Nb. Researches [ 12 , 13 ] have identiﬁed that the precipitation of NbC 
+in the Nb alloys generally exhibits uneven distribution and rapid 
+coarsening. These phenomena can be attributed to the abundance 
+of Nb as a source, which seriously weakens the mechanical proper- 
+ties of the alloy. Nevertheless, the introduction of a small amount 
+of Zr into the Nb matrix results in the preferential formation of 
+ZrC, arising from the strong interaction between Zr and C atoms 
+compared to that between Nb and C atoms [ 14 ]. Additionally, lim- 
+ited by the low concentration and diffusion rate of Zr in the Nb 
+https://doi.org/10.1016/j.jmst.2024.08.039 
+1005-0302/© 2024 Published by Elsevier Ltd on behalf of The editorial oﬃce of Journal of Materials Science & Technology.
+
+## Page 2
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+matrix [ 15 ], ZrC tended to be uniformly dispersed in smaller parti- 
+cles. Moreover, Zr atoms in the ZrC precipitates are relatively sus- 
+ceptible to be replaced by the Nb atoms in the Nb alloys, leading to 
+the formation of NbC precipitates, particularly above 1700 °C [ 16 ]. 
+This phenomenon is dominated by the abundance of Nb atoms 
+available from the surrounding Nb matrix, the similar crystal struc- 
+ture between NbC and ZrC, the analogous atomic radius of Nb 
+and Zr atoms, and the matching of the thermal expansion coef- 
+ﬁcients (CTE) between NbC ( ε = 7.34 × 10–6 K–1 ) and the Nb ma- 
+trix ( ε = 7.30 × 10–6 K–1 ) compared to ZrC ( ε = 8.19 × 10–6 K–1 ) 
+[ 17 , 18 ]. This instability in the phase transition between the car- 
+bides has a signiﬁcant impact on the thermal stability of Nb al- 
+loys. Consequently, it remains exceedingly challenging to prepare 
+Nb alloys with desirable mechanical properties and thermal stabil- 
+ity by manipulating the crystal structures within the matrix and 
+the conﬁguration of the carbide precipitates when employing the 
+traditional preparation process. 
+Here, an innovative two-step heating process was employed to 
+prepare Nb alloys with excellent mechanical properties and ther- 
+mal stability. Initially, under the guidance of theoretical calculation 
+combined with experimental optimization, uniformly distributed 
+ZrC nanoparticles were meticulously introduced within the grains 
+and at the grain boundaries (GBs) at 1350 °C. Subsequently, a 
+strategic transformation from the initial ZrC to the stabilized NbC 
+was initiated at 1800 °C. This resulted in the formation of a hi- 
+erarchical carbide conﬁguration and a unique dual-phase struc- 
+ture (Nb-FCC and Nb-BCC). This study offers valuable insights and 
+guidelines for the development of alloys with superior thermal sta- 
+bility and mechanical properties for high-temperature applications. 
+2. Experimental 
+2.1. Calculation and simulation 
+W and Mo with similar atomic radii were added to the Nb ma- 
+trix for solution strengthening. A small amount of C was added 
+to promote the precipitation of carbides from the matrix, thereby 
+tuning the microstructure of the Nb alloy. Due to the low solubil- 
+ity of Zr in Nb and the highly positive mixing enthalpy between Zr 
+and Nb, the addition of Zr generally leads to the precipitation of 
+interstitial C atoms as ZrCx above 600 °C [ 18 , 19 ]. Based on these 
+results, a Nb alloy with a composition of Nb88.5 W7.0 Mo2.5 Zr1.0 C1.0 
+was designed [ 20 ]. The TCTI2 database in the ThermCalc thermo- 
+dynamic calculation system was used to obtain the phase diagram 
+of the Nb88 .5 W7.0 Mo2.5 Zr1.0 C1.0 (at.%) alloy and possible carbides 
+during the Hill solidiﬁcation, and the First principle was employed 
+to calculate the formation energies of various potential phases. 
+Speciﬁcally, the plane-wave pseudopotential method implemented 
+by the CASTEP software is based on the density functional theory 
+describing electron-electron interactions [ 21 ]. The interactions be- 
+tween the atomic core and valence electrons were described us- 
+ing an ultrasoft pseudopotential. To ensure good convergence for 
+all calculations, the cutoff energy is determined by multiplying the 
+ENMAX of each element in the POTCAR by 1–1.3. The cutoff energy 
+of 669.4 eV is determined through convergence tests, where the 
+speciﬁc method involves conducting convergence tests on physical 
+quantities calculated under different cutoff energies based on the 
+size and periodicity of the crystal structure or molecule. The values 
+of force convergence and energy convergence are two key param- 
+eters in INCAR. In this study, it is deﬁned that the structure has 
+achieved force convergence when the forces acting on the system 
+are < 0.01 eV/˚A. Considering the characteristics of Nb alloy systems 
+containing layered carbides, the threshold for total energy change 
+is set at 10–5 eV. Generalized gradient approximation (GGA) and 
+Perdew–Burke–Ernzerhof (PBE) functional schemes were chosen to 
+deal with the exchange and correlation potentials in the calcula- 
+tions. 
+The setting of k-points has a signiﬁcant impact on the accu- 
+racy and convergence speed of computational results. High k-point 
+densities are required during structural optimization, and if the su- 
+percell is expanded, the k-points may need to be appropriately 
+reduced due to the increase in lattice parameters. Typically, the 
+product of the k-point value and the lattice parameter is kept 
+around 20. The lattice parameters of Nb-BCC, Nb-FCC matrices, and 
+NbC, ZrC, Zr3 C2 precipitates involved in this study are 3.301, 4.230, 
+4.470, 4.696, and 3.060 ˚A, respectively. Different k-point densities 
+are attempted based on the size and complexity of the system 
+to validate the convergence of the computational results. For the 
+free energy calculations, denser k-point grids are required to ac- 
+curately describe atomic motion and ensure result accuracy, with 
+7 × 7 × 7 or 6 × 6 × 6 grids used in this study. For forma- 
+tion energy calculations, the k-point density can be appropriately 
+reduced, with 5 × 5 × 5 or 6 × 6 × 6 grids used in this case 
+[ 22 ]. These parameters guarantee good convergence of the total en- 
+ergy. The convergence tolerance for the calculations was selected 
+as 5.0 × 10–6 eV atom–1 . In each case, the formation energy cal- 
+culations were based on volume optimization for all crystal struc- 
+tures. The crystal structure was modeled using Materials Studio 
+(crystal data from https://materialsproject.org/ ). 
+When calculating the free energy of Nb alloys containing car- 
+bides within GBs and grain interiors at high temperatures using 
+density functional theory (DFT), it is essential to construct the- 
+oretical models that accurately describe the complex microstruc- 
+tures of different samples. However, due to the complexity of alloy 
+systems, establishing a completely accurate theoretical model can 
+be highly challenging. In speciﬁc computations, high-performance 
+computing platforms are required, but computational resources are 
+still limited. Therefore, calculations need to be initially performed 
+on models with fewer than 100 atoms or even fewer, and then ex- 
+panded based on characteristics such as symmetry to balance com- 
+putational accuracy and cost. Additionally, continuous optimization 
+and validation based on several selected structures are necessary 
+to better describe the actual material properties. The theoretical 
+modeling framework employed in this study is as follows: 
+(1) Modeling of carbides within grain interiors. DFT calculations of 
+the electronic structure and energy of carbides (such as NbC, 
+ZrC, Zr3 C2 ) are conducted. The impact of carbide size, shape, 
+and distribution on alloy performance is considered. The inter- 
+face energy between carbides and the Nb matrix is evaluated. 
+(2) Modeling of GBs. GBs are transition regions between different 
+grains in materials. DFT is used to simulate atomic arrange- 
+ments at GBs and possible defect structures, and to calculate 
+the GB energy. 
+(3) Temperature-dependent theoretical models. Restricted thermal 
+vibration theory: considers the inﬂuence of atomic thermal vi- 
+brations on the electronic structure at high temperatures. This 
+theoretical model can describe the distribution of atomic po- 
+sitions and momenta at high temperatures. Grand canonical 
+ensemble theory: considers the coupling of the system with 
+a thermal bath to describe the system at high temperatures. 
+This theoretical model can be used to study the thermodynamic 
+properties of the system at high temperatures. Excited state 
+theory: considers the effects of excited states at high temper- 
+atures, including thermal and electronic excitations. This the- 
+oretical model can help understand the electronic transport 
+properties at high temperatures. 
+(4) Calculation of alloy free energy. Combining DFT calculations of 
+carbides within grain interiors and GB energies, the free energy 
+of the entire alloy system is estimated. Considering the tem- 
+perature’s effect on free energy, thermodynamic integrals and 
+264
+
+## Page 3
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+high-temperature expansion methods are required. The contri- 
+butions of carbides within grain interiors and GBs to the alloy 
+free energy, as well as their interactions, are evaluated. 
+(5) Statistical mechanics methods. Since the distribution of grains 
+and their internal carbides in alloys is random, statistical me- 
+chanics methods can be used to describe this randomness. By 
+Monte Carlo simulations or molecular dynamics simulations, a 
+large number of possible microstructure samples are generated. 
+The free energy of each sample is calculated, and the aver- 
+age free energy of the entire alloy system is statistically deter- 
+mined. 
+(6) Multiscale simulations. Since DFT calculations are typically lim- 
+ited to small-scale atomic clusters, while the performance of 
+alloys often needs to be described at larger scales, multiscale 
+simulation methods need to be considered. DFT calculations are 
+used at small scales to compute interactions and energies be- 
+tween atoms, while coarse-grained models or ﬁnite element 
+methods are used at larger scales to simulate the material’s 
+macroscopic properties. 
+(7) Experimental validation. The accuracy of theoretical models is 
+veriﬁed by measuring the high-temperature performance of 
+alloys, such as mechanical properties and thermal stability, 
+through experiments. Techniques such as transmission electron 
+microscopy (TEM) and scanning electron microscopy (SEM) are 
+used to observe the microstructure of alloys and compare them 
+with theoretical models. 
+ANSYS 19.2 ﬁnite element simulation software was used to an- 
+alyze the thermal stability of different samples in service environ- 
+ments ranging from 0 °C to 1800 °C. Solidworks mechanical mod- 
+eling software was used to model the Nb alloy’ 3D microstructure, 
+the discontinuous carbide network skeleton on GB, the 2D struc- 
+ture with the discontinuous carbide on GB pinned grains, and Nb 
+alloy with discontinuous NbC on GB and nano-FCC/NbC particles 
+dispersed within grains. ANSYS ﬁnite element software was used 
+to simulate the stress and strain distribution of the Nb alloy un- 
+der axial tensile force. To analyze the effect of carbides on the free 
+energy of Nb alloys, DFT calculations were performed to check the 
+average and maximum free energies of Nb alloys. The microstruc- 
+ture models with different carbides occupying speciﬁed sites, such 
+as on GB and in grains, were built by Materials studio. The corre- 
+sponding orientation relationships were formed by applying peri- 
+odic boundary conditions. To calculate the stable free energy, the 
+size and atomic position of the Nb-BCC alloy with the carbides 
+were relaxed. 
+2.2. Alloy preparation 
+Based on the designed composition, the Nb alloy was melted at 
+30 0 0 °C using a DHL400 high-temperature vacuum arc melt fur- 
+nace according to the designed composition. To ensure uniformity, 
+the alloy underwent ﬁve remelting processes and was cast into 
+a graphite mold to obtain the Raw Nb alloy in its as-cast state. 
+Then, the Raw-Nb was aged at 1350 °C for various durations (0, 
+10, 16, and 17 h) and quenched in water at room temperature, ob- 
+tain the samples Raw-Nb, NA10, NA16, and NA17, respectively. Sub- 
+sequently, based on the phase diagram and First principles calcu- 
+lations, the samples were stabilized at 1800 °C for 1 h (NA16S1), 
+2 h (NA16S2), and 5 h (NA16S5) to induce the transformation of 
+the low temperature carbide (ZrC) to the high temperature stable 
+carbide (NbC). 
+2.3. Characterization 
+According to the GB/T 228 standard, a microcomputer- 
+controlled electronic universal testing machine (MTS E45.105) was 
+used for uniaxial tensile testing at room temperature at a strain 
+rate of 1 × 10–3 s–1 . The tensile specimens had a length, width, 
+and thickness of 40, 4, and 2 mm, respectively. Three specimens 
+of each alloy were tested to ensure repeatability. After corrosion 
+of GB using a solution of 1HF: 5HNO3 (68 %): 25H2 O, the distri- 
+bution of carbides within the grains and along the GBs was char- 
+acterized using SEM (FEI Sirion 200, USA). The grain size distri- 
+bution has been statistical analyzed using SEM images by averag- 
+ing approximately 200 grains. Elemental line scanning was per- 
+formed using electro probe micro-analysis (EPMA, JeolJXA-8230, 
+Japan). Electron backscatter diffraction (EBSD, OIMXM4) samples 
+were polished using a low-temperature focused ion beam cutting 
+and polishing system (Hitachi IM40 0 0 Plus). After electrolytic pol- 
+ishing with methanol and anhydrous potassium perchlorate solu- 
+tion, the orientation, texture, strain, and grain size of the samples 
+were analyzed at an accelerating voltage of 20 kV with a scan step 
+size of 0.07–0.10 μm. TEM samples were prepared using a two- 
+focused ion beam system (FIB. Helios Nanolab G3 UC). A spherical- 
+aberration electron microscope (Titan G2 60–300) was used for 
+bright-ﬁeld (BF) and high-resolution TEM (HRTEM) imaging. 
+Neutrons have higher penetration power compared to X-rays, 
+thus neutron diffraction is advantageous for more precise determi- 
+nation of the phase composition of large bulk samples [ 23 ]. Room 
+temperature high-pressure neutron diffraction experiments were 
+conducted using the high-pressure neutron diffractometer at the 
+Mianyang Research Reactor in China, consisting of a neutron shut- 
+ter, focusing guide, monochromator, detector, and shielding [ 24 , 25 ] 
+The monochromator take-off angle was set at 93.8 °, and all neu- 
+tron diffraction patterns were obtained using a monochromatic 
+beam with a wavelength of 1.59 ˚A. The total length of the neu- 
+tron guide was 583.5 cm, and the neutron intensity at the sam- 
+ple position with a slit width of 7 cm was 2.84 × 106 ns–1 cm–2 , 
+with an optimal lattice resolution ( /Delta1d / d ) of 6.61 ‰ . The size of 
+the sample position for the incident neutron beam was approxi- 
+mately 2 cm × 3 cm, larger than the entrance hole of the pres- 
+sure vessel, ensuring the sample was fully bathed in the neutron 
+beam, and the loading force generated by the loading system di- 
+rectly acted on the piston-cylinder unit [ 25 ]. The detector consisted 
+of a 70-element 3 He tube array, with detection angles ranging from 
+–4 ° to 153 ° and detection times of 5 to 10 h [ 26 ]. The diffraction 
+patterns of the samples were collected under a loading force of 
+up to 145 kN. Further details about the neutron diffraction sys- 
+tem can be found in the Refs [ 27 , 28 ]. The neutron diffraction pat- 
+terns were analyzed using the Rietveld reﬁnement software FULL- 
+PROF [ 29 ]. The reﬁnement involved the Nb-BCC, Nb-FCC matrix, 
+and NbC, ZrC, Zr3 C2 precipitate structures to reﬁne the phase frac- 
+tions, lattice mismatches, and other parameters. The lattice param- 
+eters of Nb-BCC, Nb-FCC matrix, NbC, ZrC, Zr3 C2 precipitates were 
+determined to be 3.301, 4.230, 4.470, 4.696, and 3.060 ˚A, respec- 
+tively. Neutron diffraction was performed on samples at different 
+stages of stabilization processes to conduct phase analysis in this 
+study. 
+A ZRPY-1700 micro strain testing device was used to heat and 
+cool the samples from 0 °C to 900 °C after different stabilization 
+treatments to obtain the thermal strain response curve and eval- 
+uate the thermal stability of the alloy. Speciﬁcally, the alloy sam- 
+ple of /Phi15 mm × 15 mm is mounted on a sample holder with ad- 
+justable top clamp length. The initial temperature, sample length, 
+and the temperature-time curve program are set up using the con- 
+nected thermal expansion coeﬃcient testing system. Subsequently, 
+argon gas is introduced, the thermal expansion coeﬃcient testing 
+system connected to the computer is activated, and the heating 
+program is initiated. Sensors are utilized to monitor and record 
+real-time changes in temperature, relative displacement, correc- 
+tion values, sample deformation, thermal expansion coeﬃcient, 
+and other parameters over time. Upon completion of the experi- 
+265
+
+## Page 4
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+ment, curves corresponding to these parameters and real-time data 
+are obtained [ 30 ]. 
+3. Results 
+3.1. Alloy design 
+Phase diagram of Nb88 .5 W7.0 Mo2.5 Zr1.0 C1.0 (at. %) alloy and its 
+carbides during the Hill solidiﬁcation ( Fig. 1 (a)) show that the alloy 
+contained BCC, FCC, HCP, and carbide M Cx . Fig. 1 (b) (enlarge area 1 
+in Fig. 1 (a)) shows that the content of FCC tends to be stable above 
+1350 °C. Meanwhile, as observed from Fig. 1 (c), when the temper- 
+ature was increased to 1700 °C, the Zr-rich (Zr, Nb)C carbide trans- 
+formed into the Nb-rich (Nb, Zr)C phase. The Gibbs free energy 
+of the potential reaction of the carbide indicates that ZrC formed 
+more easily than NbC at approximately 1350 °C ( Fig. 1 (d)). Fig. 1 (e) 
+shows that the formation energies of NbC are lower than that of 
+the other carbides at 1800 °C. This thermodynamically explains the 
+high-temperature stability of the Nb-rich (Nb, Zr)C phase above 
+1700 °C, coinciding with the results presented in Fig. 1 (c). Fur- 
+thermore, the relatively high Gibbs free energy of reaction (3) in 
+Fig. 1 (d) shows that although the Gibbs free energy of reaction (3) 
+is negative, it is less likely to occur than reactions (1) and (2), and 
+reaction (1) does not occur due to the lack of C atoms, and reac- 
+tion (2) is preferred to (3) due to the abundant Nb source in the 
+system and the lower Gibbs free energy, even if there is a trace 
+of C produced. That is the already generated NbC was irreversible 
+(not easily converted to ZrC) at approximately 1350 °C, i.e., NbC 
+exhibits high thermodynamic stability. 
+The formation energy EForm for the compound M C and the ref- 
+erence material for M atoms can be calculated using the following 
+formula: EForm = EM C − E M −EC . Where, EM C is the total energy of 
+the compound M C; EM is the total energy of the reference material 
+for M atoms; EC is the total energy of the C atom. This formula al- 
+lows for the calculation of the formation energy of the compound 
+M C with respect to the reference material for M atoms. It provides 
+insight into the stability and energy changes associated with the 
+formation of the compound M C. Based on the abovementioned re- 
+sults, the preparation procedure for the Nb alloy was optimized, as 
+shown in Fig. 1 (f), wherein, insulation platforms were set at 1350 
+and 1800 °C with the aim of introducing the FCC phase and pre- 
+cipitating ﬁne stabilized carbides, respectively. 
+3.2. Microstructure and characterization 
+Microstructures and phases of the Nb alloys after aging at 
+1350 °C for various durations are shown in Fig. 2 . Fewer pre- 
+cipitates were observed in the single-phase BCC Raw-Nb sample 
+( Fig. 2 (a, e)). The Zr content of the matrix was approximately 0.9 
+at.%, and it gradually decreased with aging. After direct stabilisa- 
+tion of the Raw-Nb alloy at 1800 °C for 2 h ( Fig. 2 (b), one-step 
+heat treatment process), the NbC precipitated inside the grains 
+was coarse and unevenly distributed. The NbC at GBs is contin- 
+uously distributed with severe needle-like dendritic segregation. 
+These will seriously weaken the isotropy and toughness of the Nb 
+alloy [ 31 ]. After aging for 10 h, the Zr3 C2 precipitates ( Fig. 2 (e)) 
+exhibited an uneven distribution ( Fig. 2 (c)). The Zr content in the 
+matrix near Zr3 C2 was drastically reduced to 0.7 at.%. Neverthe- 
+less, when the aging time was increased to 16 h, numerous tiny 
+diffusely distributed spherical particles (particle size in the grains 
+(PSIG ): 39 ± 8 nm) and discontinuous big particles (particle size at 
+the grain boundaries (PSGB ): 510 ± 100 nm) were detected in the 
+grains and along the GBs, respectively ( Fig. 2 (d)). The EPMA line 
+scan ( Fig. 2 (f)) shows that the precipitates along the GBs were en- 
+riched with Zr and C. The neutron diffraction results verify that 
+Zr3 C2 ( Fig. 2 (e)) along the GBs evolved into ZrC ( Fig. 2 (f)) after 
+aging for 16 h. (W, Mo) Cx were not detected due to low W and 
+Mo content favoring solubility in the Nb matrix, higher formation 
+Fig. 1. Phase diagrams and forming energies of various phases. (a) Phase diagram of the Nb88 .5 W7.0 Mo2.5 Zr1.0 C1.0 (at.%) alloy during the Hill solidiﬁcation. (b) Enlarged area 
+b in Fig. 1 (a). (c) Variation in the element content of carbides with temperature. (d) Potential reactions and Gibbs free energies ( /2206r /Theta1Gm ) of carbides in region d of Fig. 1 (b, 
+c). (e) Formation energies of potential phases at 1800 °C calculated by ﬁrst principles. (f) Novel 2-step heating procedure. T is temperature, t is time. 
+266
+
+## Page 5
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+Fig. 2. Precipitation distribution and phase compositions of the Nb alloys by aging at 1350 °C for various durations. (a–d) Precipitation distribution and microstructure of the 
+samples after aging for 0 h (Raw-Nb), one-step heat treatment process (1800 °C for 2 h), aging for 10 h (NA10), aging for 16 h (NA16), respectively. (e) Neutron diffraction 
+analyses. (f) Elemental EPMA linear scanning along the blue arrow in Fig. 2 (d). 
+energy, and insuﬃcient carbon for precipitation, favoring NbC and 
+ZrC instead, as shown in Fig. 2 (f). For speciﬁc details and experi- 
+mental results, please refer to our previous work [ 30 ]. Further ex- 
+tension of aging causes the precipitated phase to gradually coarsen 
+into acicular dendrites. In addition, almost all Zr and C precipitated 
+from the matrix (0.1 at.% Zr and 0.1 at.% C in the matrix, Fig. 2 (c)). 
+The microstructure of the NA16 alloy was further analyzed us- 
+ing EBSD. The inverse pole ﬁgure (IPF, Fig.3 (a)) shows that the 
+NA16 alloy exhibits preferentially oriented regions; most of the 
+grains are oriented in the ⟨ 001 ⟩ direction, and a few grains rotate 
+in the ⟨ 101 ⟩ direction. The orientation distribution function (ODF) 
+diagram ( Fig. 3 (b)) shows that the γ-ﬁber is obvious ( ϕ2 = 45 °), 
+indicating that the NA16 exhibits high strength but unstable mi- 
+crostructure [ 32 ]. The average grain size (GS) of the NA16 sample 
+is 11.1 ± 1.2 μm after ﬁve counts ( Fig. 3 (d)). The kernel average 
+misorientation (KAM, Fig. 3 (c)) map shows signiﬁcant and uniform 
+internal strain within the grains. The high KAM value in the NA16 
+samples can be attributed to the signiﬁcant lattice mismatch be- 
+tween the Nb-BCC matrix and the ZrC, leading to a large strain 
+ﬁeld. This results in easy nucleation of dislocations and entangle- 
+ment between dislocations, consequently causing the high KAM 
+value in NA16.These are thought to be the key factors that dete- 
+riorate the thermal stability of the alloy and cause recrystalliza- 
+tion. According to the engineering stress-strain curves of the Nb 
+alloys ( Fig. 3 (e)), the strength and elongation of the Nb alloys in- 
+crease with extended aging duration to 16 h. Speciﬁcally, the ten- 
+sile strength and elongation of the Raw-Nb are 288.3 MPa and 
+19.6 %, respectively. And they increase to 414.5 MPa and 29.9 %, 
+respectively, after aging for 16 h ( Fig. 3 (e)). Nevertheless, further 
+extension of the aging time deteriorated the strength of the alloy 
+( Fig. 3 (e)). This is the result of carbide coarsening into needle den- 
+drites, which has an effect similar to that of needle-like L12 pre- 
+cipitates in an Al0.6 CoCrFeNi alloy [ 33 ]. Fig. 3 (f–h) shows the ther- 
+mal cyclical strain response curves during heating and cooling pro- 
+cess from 0 °C to 900 °C of various alloys. The speciﬁc calculation 
+method for the lag strain is as follows: ﬁrst, the thermal stability 
+of the various samples was assessed by analyzing the reproducibil- 
+ity of their thermal expansion through thermal cycling tests. The 
+thermal strain response curves of the samples are recorded during 
+three heating and cooling cycles (0 °C to 900 °C). The hysteresis 
+strain ( /Delta1ε) is calculated by 
+/Delta1ε = εc − εh 
+L0 
+(1) 
+where εc and εh are the linear expansion rates at the maximum 
+difference in the cooling and heating process, respectively. The ini- 
+tial length of the sample L0 = 17.00 mm, and /Delta1L represents the 
+difference in length when cooled or heated to the same tempera- 
+ture. The smaller /Delta1ε is, the smaller is the deformation during ther- 
+mal cycling, and the higher is the thermal stability of the alloy. In 
+general, /Delta1ε < 10–6 yields a remarkable thermal stability. Please re- 
+fer to our previous work for the speciﬁc calculation methods and 
+processes [ 30 ]. The Raw-Nb alloy presents an obvious hysteresis 
+loop (hysteretic strain /Delta1ε1 = 9.2 × 10–4 ), indicating a poor ther- 
+mal stability. The hysteretic strain decreased with increasing aging 
+time and decreases to 1.7 × 10–4 in the NA16 alloy, whereas this 
+267
+
+## Page 6
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+Fig. 3. EBSD analysis of grain orientation, strain and average grain size, as well as the mechanical properties and thermal stability of NA16 samples. (a) Inverse pole ﬁgure 
+(IPF) map. (b) Orientation distribution function (ODF) cross sections at ϕ2 = 0 °, 45 °, and 65 ° (c) Kernel average misoreintation (KAM) map. (d) Grain size distribution of the 
+Nb-matrix measured along one ﬁxed direction. (e) Engineering stress–strain curves of various samples. (f–h) Thermal strain response curves of various aging samples during 
+heating and cooling process from 0 °C to 900 °C: (f) Raw-Nb, (g) NA10, (h) NA16. 
+thermal stability is still not high enough for elevated temperature 
+applications. 
+To stabilize the ZrC to an elevated-temperature stable NbC 
+phase, according to the Fig. 1 (c, e), the NA16 alloy was further sta- 
+bilized at 1800 °C for various durations. Fig. 4 (a, b) shows that af- 
+ter stabilization at 1800 °C for 1 h (NA16S1), NbC particles begin 
+to precipitate at the GBs and in grains. In addition, numerous of 
+needle-like ZrC precipitate were detected surrounding the NbC par- 
+ticles. As shown in Fig. 4 (b), C coincides with both Zr and Nb par- 
+ticles but does not overlap with the hollow ring of Zr. Thus, during 
+the stabilization treatment at 1800 °C, Nb and C nucleate at the 
+ZrC interface, gradually replacing Zr atoms and consuming carbon 
+to precipitate NbC due to the higher stability of NbC at 1800 °C 
+( Fig. 4 (a)). The remaining pure Zr atoms diffuse outward along the 
+ZrC interface and dissolve into the matrix (as shown in the evolu- 
+tion of Zr concentration in the matrix in Fig. 4 ). The combination 
+of SEM and EDS mapping in Fig. 4 (a, b), along with Figs. 2 (d) and 
+4(e, f), validates this hypothesis. Additionally, a clear compositional 
+gradient of (Zr, Nb)C carbides is distinctly observable in Fig. 4 (a, b). 
+Although the NbC particle size at the GBs (PSGB ) increases signiﬁ- 
+cantly after stabilization for 2 h ( Fig. 4 (c, d), 280 ± 65 nm) com- 
+pared with that within the sample NA16S1. Neither EDS mapping 
+nor point scanning methods detected the presence of Zr elements 
+in the carbides. Composite carbide (Zr, Nb)C was not detected due 
+268
+
+## Page 7
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+Fig. 4. Effect of stabilization duration on microstructure at 1800 °C. Microstructures and composition variation at the GBs and in the matrix in the NA16S alloys after 
+stabilization for (a, b) 1 h, (c, d) 2 h, and (e, f) 5 h, respectively. 
+to favorable kinetic conditions for NbC precipitation at 1800 °C and 
+insuﬃcient carbon for stable Zr carbides. Slower precipitation and 
+higher nucleation barriers for ZrC, coupled with high Nb content, 
+led to Zr atoms dissolving in the Nb matrix. The particle size in 
+the matrix (PSm ) decreases from 190 ± 20 nm ( Fig. 4 (a, b)) to 
+30 ± 7 nm ( Fig. 4 (c, d)) in the corresponding samples. This is hy- 
+pothesized to be closely associated with redissolution of unstable 
+and undense NbC particles eutectoid precipitate with ZrC at the 
+early-stage during stabilization process ( Fig. 4 (a–d)). When the sta- 
+bilization duration was further extended to 5 h (NA16S5, Fig. 4 (e, 
+f)), NbC precipitates in grains are still in a stable and uniform dis- 
+tribution. However, the granular NbC morphology evolves into rods 
+or needles and obvious precipitate free zone forms ( Fig. 4 (e, f)), 
+which are supposed to weak the plasticity of the alloy [ 31 ]. In 
+addition, SEM-EDS composition analyses show that the solid so- 
+lution Zr in the matrix are about 0.4, 1.0, and 1.0 in the samples 
+NA16S1, NA16S2, and NA16S5, respectively ( Fig. 4 (a, c, and e)). This 
+shows that Zr already redissolves into the Nb matrix after heating 
+at 1800 °C for 2 h. 
+Fig. 5 shows the EBSD analysis of the sample NA16S2. The IPF 
+( Fig. 5 (a, b)) shows a homogeneous orientation distribution. The 
+ODF diagram in Fig. 5 (c) shows that there is no obvious prefer- 
+ential orientation in the alloys, exhibiting favorable isotropy [ 34 ]. 
+KAM map ( Fig. 5 (d)) illustrates that the strain within the NA16 al- 
+loy decreases substantially and distributes uniformly, closely asso- 
+ciated with recrystallization of the alloy at 1800 °C. This indicates 
+the formation of a relative stable microstructure and mechanical 
+isotropic alloy [ 35 ]. The average grain size distribution shows that 
+area fraction weighted average grain size of the Nb-BCC matrix of 
+the NA16S2 alloy was reﬁned to 7.5 ± 0.8 μm ( Fig. 5 (e)). 
+3.3. Properties of the NA16S samples 
+The low-magniﬁcation SEM image in Fig. 6 (a) shows an NbC 
+hierarchical structure, i.e., a uniformly distributed NbC nanoparti- 
+cles in grains and discontinuous NbC particles at the GBs, which 
+can pin the GBs and hinder the growth of grains. Therefore, the 
+NbC hierarchical structure could reﬁne the grains and improve the 
+thermal stability of the alloy [ 36 ]. The neutron diffraction results 
+( Fig. 6 (b)) conﬁrmed the presence of (Zr, Nb)C in NA16S1. Never- 
+theless, when the stabilization treatment was prolonged to 2 h, a 
+weak peak for Zr was detected in the NA16S2 sample ( Fig. 6 (b)), 
+suggesting that Zr atoms dissolved into the Nb matrix after leav- 
+ing ZrC, rather than existing as a composite carbide (Zr, Nb)C. The 
+tensile strength and elongation of NA16S2 reach 638.3 MPa and 
+41.0 %, respectively ( Fig. 6 (c)). Compared with NA16S2, the ten- 
+sile strength of NA16S5 increased by 5.1 %, but the elongation de- 
+creased by 12.0 %. 
+The thermal stability of the NA16S alloys was characterized ac- 
+cording to the maximum hysteresis strain /Delta1εi in Fig. 6 (d–f), i.e., 
+the maximum difference value of the thermal strain during heat- 
+ing and cooling process from 0 °C to 900 °C. The smaller /Delta1εi , the 
+better the thermal stability. The thermal strain response curve of 
+the Raw-Nb alloy forms an obvious hysteresis strain loop during 
+the heating and cooling, and the hysteresis strain /Delta1ε1 is up to 
+9.2 × 10–4 ( Fig. 3 (f)), indicating thermally unstable of the Raw- 
+Nb. After stabilization at 1800 °C for 1 h ( Fig. 6 (d)), the hystere- 
+sis strain /Delta1ε4 of NA16S1 alloy decreases to 7.3 × 10–5 . After the 
+stabilization treatment was extended to 2 h ( Fig. 6 (e)), the ther- 
+mal strain response curves of NA16S2 almost overlapped. The hys- 
+teretic strain /Delta1ε5 is as low as 8.6 × 10–6 , indicating an outstand- 
+269
+
+## Page 8
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+Fig. 5. Analysis of grain orientation of the NA16S2 sample by EBSD. (a, b) IPF map. (c) ODF cross sections at ϕ2 = 0 °, 45 °, and 65 ° (d) KAM map. (e) Grain size distribution 
+of the Nb-matrix measured along one ﬁxed direction. 
+ing thermal stability. Nevertheless, the hysteretic strain increased 
+with further stabilization treatment ( Fig. 6 (f)). Notably, when /Delta1εi 
+is smaller than 10–6 , it means that the alloy presents outstanding 
+thermal stability [ 37 ]. 
+Due to the limitation of experimental conditions, the thermal 
+stability of the Nb alloys from 0 °C to 1800 °C was further in- 
+vestigated by ANSYS ﬁnite element simulation software ( Fig. 7 ). 
+This work addresses the catastrophic issue of fastener relaxation 
+in Nb alloys for aerospace fasteners due to macroscopic dimen- 
+sional changes during high and low-temperature cycling processes. 
+To more accurately replicate the actual service environment of the 
+alloy, the geometric model references the cross-section of a bolt 
+with threads inclined at a certain angle to simulate the structural 
+stability of the threads in service environments ranging from 0 
+to 1800 °C. The 4 node PLANE 42 element supporting d-P anal- 
+ysis was selected, with the keyword K3 set for plane strain. The 
+stress–strain relationship of the material follows the isotropic d-P 
+yield criterion, with material parameters including the alloy den- 
+sity ρ = 8.17 g/cm ³, internal friction angle ϕ = 5 °, elastic mod- 
+ulus of 105 GPa, and Poisson’s ratio of 0.4. A reduction factor of 
+1.7 was set. The bottom of the thread was set as a ﬁxed bound- 
+ary adjustment, the slope as a constrained boundary condition, and 
+the external loads included the pre-tensioning force of the thread 
+and cold-hot cycles from 0 to 1800 °C. The mesh size was set 
+to 0.2 mm, the analysis type was Static, large deformation effects 
+were activated, and the Newton–Raphson option was set to Full N–
+R. The structural stability of the sample was evaluated by solving 
+the Displacement vector sum. The results show that the maximum 
+displacement vector ( Smax ) of the Raw-Nb sample ( Fig. 7 (a)) is as 
+high as 8.7 × 10–4 . After aging at 1350 °C for 16 h (NA16, Fig. 7 (b)), 
+the maximum displacement of NA16 decreased to 2.2 × 10–4 . Fur- 
+ther stabilization treatment at 1800 °C for 2 h ( Fig. 7 (c)), the maxi- 
+mum displacement of NA16S2 decreases signiﬁcantly to 9.0 × 10–6 , 
+i.e., the NA16S2 sample shows excellent thermal stability during 
+heating and cooling cyclic process from 0 to 1800 °C. Therefore, a 
+two-step heat treatment process to optimize the mechanical prop- 
+erties and thermal stability of the Nb alloy was obtained, i.e., the 
+Raw-Nb sample was aged at 1350 °C for 16 h, quenched in water 
+at room temperature, and followed by thermal stabilization treat- 
+ment at 1800 °C for 2 h. 
+To further understand the mechanism of the advanced thermal 
+stability and toughness of the NA16S2 alloy, hierarchical carbides 
+in the grains and at the GB were further characterized by an aber- 
+ration TEM ( Fig. 8 ). Fig. 8 (a) shows that the Raw-Nb matrix con- 
+sists of the Nb-BCC structure. The TEM bright ﬁeld of the NA16S2 
+sample ( Fig. 8 (b)) shows that the precipitates are distributed in 
+chains along the GB. The HRTEM image ( Fig. 8 (c)) shows some 
+nanoparticles dispersed within the grain of the NA16S2 alloy. The 
+illustration shows the HAADF (high-angle annular dark ﬁeld) im- 
+age of region d in Fig. 8 (c). The NbC/Nb-FCC nanocore-shell struc- 
+ture can be clearly observed. NbC particles with a particle size of 
+about 10.8 nm were precipitated in the Nb-BCC matrix. A Nb-FCC 
+nanolayer with a thickness of about 11.7 nm is wrapped around 
+the NbC. The FFT (fast fourier transform) image ( Fig. 8 (d)) of the 
+270
+
+## Page 9
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+Fig. 6. Microstructure, phase composition, and properties of the NA16S alloys. (a) Low magniﬁcation SEM image showing a uniformly distributed of the carbide hierarchical 
+structure in the sample NA16S2. (b) Neutron diffraction of various samples. (c) Engineering stress-strain curves. (d–f) Thermal strain response curves from 0 °C to 900 °C of 
+various NA16S alloys after stabilization for (d) 1 h, (e) 2 h, and (f) 5 h, respectively. 
+region d in Fig. 8 (c) shows that the nanoparticles in the grains are 
+NbC, which are enveloped by Nb-FCC phase with an orientation re- 
+lationship of [01¯1 ]FCC −Nb //[112 ]FCC −NbC , (200 )FCC −Nb //(¯1 ¯1 1 )FCC −NbC . 
+HRTEM and FFT image of the matrix show that the matrix 
+is still dominated by Nb-BCC ( Fig. 8 (e)). In addition, there is an 
+orientation relationship between the Nb-FCC ( Fig. 8 (d) nanopar- 
+ticles and the Nb-BCC matrix, i.e., [011 ] FCC −Nb //[001] BCC −Nb , 
+(200 )FCC −Nb //(110 )BCC −Nb . HRTEM and FFT images ( Fig. 8 (f)) comes 
+from the big [112 ]FCC −NbC particle at the GBs in Fig. 8 (c). Nb2 C was 
+not detected due to faster growth of NbC, structural constraints, al- 
+loy impurities altering kinetics, and heat treatment conditions fa- 
+voring NbC over the more stable Nb2 C. 
+4. Discussion 
+4.1. Microstructure evolution 
+Fig. 9 depicts a schematic diagram of microstructure evolution 
+of the Nb alloys. The initial Raw-Nb alloy primarily consists of a 
+single-phase Nb-BCC structure with a few precipitates. The charac- 
+teristics of precipitation, including distribution, particle size, coars- 
+ening, phase stabilization, play a crucial role in determining the 
+mechanical properties and stability of the Nb alloys. To achieve the 
+precipitation of ﬁnely dispersed carbides, as indicated in Fig. 1 (b–
+d), the Raw-Nb was initially subjected to aging at 1350 °C. Zr, due 
+to its lower Gibbs free energy compared to Nb for carbide for- 
+mation with C ( Fig. 1 (d)), exhibits a relatively easier nucleation 
+process. After aging for 10 h, Zr binds to C with formation of 
+Zr3 C2 . Increasing the aging time to 16 h leads to the transfor- 
+mation of the Zr3 C2 carbide into ZrC ( Fig. 1 (d)), distributed both 
+within the grains uniformly and at the GBs discontinuously. This 
+aids in pining grains and dislocations, effectively impeding grain 
+growth and deformation, thereby ensuring good strength. Never- 
+theless, this process is constrained by the limited concentration of 
+Zr (1.0 at.%) and C (1.0 at.%), the high diffusion energy barrier for Zr 
+atom [ 38 , 39 ], and the uniform distribution of Zr within the Nb ma- 
+trix. The diffusion energy barriers of Zr atoms [ 38 ] by substituting 
+Nb atoms at different positions in Nb-BCC crystals is much higher 
+than that of smaller C atoms between the Nb-BCC interstices [ 39 ]. 
+Thus, the formation and growth of carbides is dominated by the 
+diffusion of Zr atoms. Correspondingly, the low concentration of Zr 
+and its uniform distribution in Nb matrix and dislocation uniform 
+distribution determine the ﬁne ZrC and its dispersion nucleation 
+in the matrix. Afterwards, Nb displaces in the place of ZrC into 
+uniformly distributed NbC during 1800 °C treatment. Nevertheless, 
+continuing to increase the aging time at 1350 °C, ZrC particles be- 
+gin to coarse into needle-like structures, which is supposed to re- 
+duce the plasticity and stability of the alloy. 
+After aging at 1350 °C for 16 h, the sample was quenched in 
+room-temperature water (RTW) to introduce numerous strains and 
+nucleation sites, thereby facilitating grain recrystallization during 
+the subsequent heating process. Among the various types of Nb 
+carbides, such as Nb2 C, Nb3 C2 , and NbC, only NbC remained stable 
+above 1700 °C ( Fig. 1 (e)). Moreover, the CTE of ZrC ( ε = 8.2 × 10–6 
+K–1 ) does not match that of Nb ( ε = 7.3 × 10–6 K–1 ), and ZrC is 
+easily replaced by NbC ( ε = 7.34 × 10–6 K–1 ) due to the low for- 
+mation energy of NbC above 1700 °C ( Fig. 1 (c, e)). In addition, due 
+to the Gibbs free energy of the reaction (3) in Fig. 1 (d) is higher 
+271
+
+## Page 10
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+Fig. 7. Finite element simulation of the thermal stability during 0–1800 °C heating and cooling cycles of the Nb alloys. (a) Raw-Nb. (b) NA16. (c) NA16S2. 
+than that of the reaction (2) at around 1350 °C, the reaction (3) 
+is not easy to occur below 1400 °C, that is, once NbC is formed 
+at high temperature, the Zr atom is not easy to replace NbC with 
+ZrC during the cooling process, i.e., NbC can maintain good ther- 
+mal stability. To promote the transformation from ZrC into the sta- 
+ble NbC phase, the NA16 alloy was heated at 1800 °C for various 
+durations ( Fig. 1 (c–e)). After stabilization for 1 h, the ZrC parti- 
+cles began to transfer into the Nb-rich phase in the grains and 
+at the GBs, with increasing Zr content near NbC from 0.1 at.% to 
+0.4 at.% ( Fig. 4 (a)). The formation of Nb-rich particles adjacent to 
+the ZrC phases conﬁrmed that the NbC particles nucleated at the 
+initial ZrC locations. Uneven needle-like dendrites with ZrC were 
+also detected. Considering that only granular ZrC particles were 
+detected after heating treatment at 1350 °C for 16 h ( Fig. 2 (c)), it 
+can be inferred that needle-like ZrC precipitates and ZrC surround- 
+ing the NbC particles were formed in the early stages of the stabi- 
+lization heating ramp process at 1800 °C. These results were also 
+conﬁrmed by the microstructure of the sample NA16S2 ( Fig. 4 (c, 
+d)). Only the NbC particles were detected in the GBs and grains. 
+After increasing the stabilization time to 2 h, Zr completely dis- 
+solved in the matrix and NbC uniformly precipitated in the grains 
+and along the GBs. This transformation was realized by substitut- 
+ing Zr atoms with Nb within the initial ZrC precipitates. Addition- 
+ally, Nb-FCC wrapped around the carbide in the grains, maintaining 
+excellent orientation relationships with both NbC and the Nb-BCC 
+matrix. However, with further extension of the stabilization dura- 
+tion to 5 h, the carbide precipitates were still NbC, but their size 
+increased signiﬁcantly and the conﬁguration evolved from a spher- 
+ical to needle-like morphology, severely compromising the alloy’s 
+plasticity [ 40 ]. 
+4.2. Strengthening 
+The exceptional strength and plasticity of the NA16S2 alloy 
+are primarily related to its unique hierarchical microstructure, i.e., 
+stabilized NbC nanoprecipitates wrapped with Nb-FCC nanolayers, 
+which are uniformly distributed within the grains of the Nb-BCC 
+matrix. In addition, discontinuous NbC (sub) microprecipitates are 
+dispersed along the GBs. Contributions from the several mecha- 
+nisms of Nb alloys (solid solution strengthening, GB strengthening, 
+dislocation strengthening, and precipitate strengthening) are dis- 
+cussed and estimated using simpliﬁed models [ 41 ]. 
+4.2.1. GB strengthening 
+Hall–Petch effect equation [ 42 , 43 ]: 
+/Delta1σgb = ky √ 
+d 
+(1a) 
+where, Hall–Petch coeﬃcient ky = 0.068 MPa m1/2 [ 44 ], /Delta1σgb rep- 
+resents the strength contribution from GBs, and d represents the 
+average grain size [ 45 ]. The values of these factors for different 
+samples and GB strength contribution are listed in Table 1. 
+4.2.2. Solid solution strengthening 
+The strength contribution of the W solution concentration to Nb 
+alloy is 10.7 MPa/at.% [ 46 ], that of Mo concentration is 6.2 MPa/at.% 
+272
+
+## Page 11
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+Fig. 8. TEM analyses of the Raw-Nb sample and the NA16S2 sample. (a) HRTEM and FFT images of the Raw-Nb matrix. (b) TEM bright-ﬁeld image of the NA16S2 sample. (c) 
+HRTEM image of the boxed area in Fig. 8 (b). The illustration is a bright-ﬁeld image of NbC core/FCC-Nb shell/BCC-Nb matrix. (d) FFT image of nanoparticles inside the grain 
+of the region d in Fig. 8 (c). (e, f) HRTEM and FFT images of the matrix and NbC at GB in Fig. 8 (c), respectively. 
+Fig. 9. Schematic of the stabilization treatment and microstructure evolution processes. 
+273
+
+## Page 12
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+Fig. 10. XRD dislocation test of Raw-Nb, NA16 and NA16S2 samples. (a) XRD pattern. (b) Williamson–Hall plots. 
+Table 1 
+Hall–Petch equation variables for different samples and GB strength contribution. 
+Sample ky (MPa m1/2 ) d ( μm) /Delta1σgb (MPa) 
+Raw-Nb 0.068 17.5 16.3 
+NA16 0.068 11.1 20.4 
+NA16S2 0.068 7.5 24.8 
+[ 47 ], and that of Zr is 9.5 MPa/at.% [ 48 ]. The strengthening contri- 
+butions of the three alloys are shown in Table 2 . 
+4.2.3. Dislocation strengthening 
+The dislocation density of the matrix was quantitatively deter- 
+mined by XRD ( Fig. 10 ). The ﬁrst four diffraction peaks of the Nb- 
+BCC matrix are ﬁrst indexed ( Fig. 10 (b)). Since it is not used to 
+calculate dislocation density, the peak of precipitates is ignored. 
+The half-maximum width was determined by using the pseudo- 
+voigt function to ﬁt the XRD peak spectra. Subtract the instrument 
+width Bins from measured peak width BFWHM to obtain peak width 
+B of the sample [ 50 ]: 
+B =
+√ 
+B2 
+FWHM − B2 
+ins (2) 
+The Williamson–Hall method [ 51 ] is used to quantitatively ana- 
+lyze the relationship between microstrain ε and grain size d [ 52 ]: 
+Bcos θ = Kλ
+d 
++ εsin θ (3) 
+where θ is the Bragg angle, λ is wavelength and K is a constant 
+∼0.9 [ 53 ]. The ﬁtting results of Williamson–Hall plots [ 54 , 55 ]: 
+ρ = 2
+√ 
+3 ε 
+db 
+(4) 
+where ρ is dislocation density, b is the Burgers vector for Nb- 
+BCC. The dislocation densities of the Raw-Nb, NA16, NA16S2 are 
+Table 3 
+Dislocation ﬁtting parameters for Williamson–Hall plots [ 59–61 ] and strength 
+contribution of dislocations. 
+Sample Intercept Slope Dislocation density (m–2 ) /Delta1σd (MPa) 
+Raw-Nb –0.22 0.0013 2.5 × 1013 28.6 
+NA16 –0.01 0.0029 4.1 × 1013 45.7 
+NA16S2 –0.26 0.0008 1.3 × 1013 6.5 
+2.5 × 1013 , 4.1 × 1013 and 1.3 × 1013 m−2 , respectively. The Bailey–
+Hirsch relationship was applied to evaluate the strengthening con- 
+tributed by residual dislocations /Delta1σd [ 50 ]: 
+/Delta1σd = MαGbρ
+1 
+2 (5) 
+where M = 0.5 is the Taylor factor of Nb-BCC matrix [ 50 ], α = 0.2 
+is a constant [ 56 ], and G is the shear modulus, 20.0 GPa for Nb-BCC 
+alloy [ 57 ], b = 0.87 (the Burger’s vector of Nb-BCC metal) [ 58 ]. The 
+calculation results of /Delta1σd are shown in Table 3 . 
+4.2.4. Precipitates strengthening 
+Orovan equation [ 62–64 ]: 
+/Delta1σOrowan = M 0 . 4 Gb 
+π
+√ 
+1 − ϑ 
+ln 
+(
+2
+√ 
+2 / 3 r 
+b 
+)
+λp 
+(6) 
+where, G = 20.0 GPa (the shear modulus of Nb-BCC) [ 57 ]; b = 0.87 
+(the Burger’s vector of Nb-BCC metal) [ 58 ]; ϑ = 0.45 (the Pois- 
+son ratio of Nb-BCC)[ 65 ]; r is the average radius of the precipitates 
+[ 66 ]; λp = r(
+√ 
+2 π/ 3 f −1 . 63 ) indicates the average space between 
+the precipitates, and f represents the shape factor, which is used to 
+correct the inﬂuence of particle shape on dislocation bypass behav- 
+ior; and /2206σOrowan is the strength contribution of precipitates [ 67 ]. 
+The calculated results in Table 4 for Raw-Nb, NA16 and NA16S2 
+samples at GBs are 45.1, 7.3 and 24.6 MPa, respectively, and inside 
+grains are 2.4, 22.3 and 94.4 MPa, respectively. 
+Table 2 
+Solid solution strengthening contribution from solution concentration [ 49 ]. 
+Sample 
+Zr Mo W 
+Solution 
+concentration 
+(at.%) 
+Strengthening 
+contribution 
+(MPa) 
+Solution 
+concentration 
+(at.%) 
+Strengthening 
+contribution 
+(MPa) 
+Solution 
+concentration 
+(at.%) 
+Strengthening 
+contribution 
+(MPa) /Delta1σ (MPa) 
+Raw-Nb 0.9 8.6 2.0 12.4 5.0 53.5 74.5 
+NA16 0.1 1.0 2.0 12.4 5.0 53.5 66.9 
+NA16S2 1.0 9.5 2.0 12.4 5.0 53.5 75.4 
+274
+
+## Page 13
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+Table 4 
+The average radius of precipitates in different samples and the aver- 
+age spacing between them. 
+Sample precipitate r(nm) λp (nm) /Delta1σOrowan (MPa) 
+Raw-Nb GBs 47.8 148.7 45.1 
+(Zr3 C2 ) Inside grains 56.6 2900.6 2.4 
+NA16 GBs 230.4 1247.2 7.3 
+(ZrC) Inside grains 21.7 247.6 22.3 
+NA16S2 GBs 31.0 245.6 24.6 
+(NbC) Inside grains 10.4 46.9 94.4 
+Fig. 11 shows the strength contributions of different strength- 
+ening mechanisms across the three samples. The results show 
+that in the sample NA16S2, grain reﬁnement, W, Mo, Zr atomic 
+solid solution, dislocation strengthening, discontinuous NbC at GBs 
+and nano NbC dispersed within the grain contribute 24.8,75.4,6.5, 
+24.6 and 94.4 MPa, respectively. Notably, precipitate strengthening 
+emerged as the most signiﬁcant contributor, which was attributed 
+to the dispersed NbC nanoparticles impeding dislocation migra- 
+tion, thereby enhancing the alloy strength [ 36 ]. The contribution 
+of solid solution strengthening by elements such as W, Mo, and 
+Zr is also noteworthy. In addition, the recrystallized grains are re- 
+ﬁned to the micrometer scale, providing ﬁne crystal strengthening. 
+Moreover, according to XRD analysis, the dislocation density within 
+the NA16S2 alloy decreased signiﬁcantly, resulting in a minimal 
+Fig. 11. Comparison of strength contribution of different strengthening mechanisms 
+in Raw-Nb, NA16, NA16S2 samples. 
+strength contribution from the dislocations. This is also supported 
+by the KAM results shown in Figs. 3 (c) and 5 (d) 
+4.3. Toughening 
+The stress and strain distribution of the NA16S2 alloy under ex- 
+ternal force were simulated by ﬁnite element method ( Fig. 12 ). Ac- 
+cording to the tensile strength of NA16S2 alloy at room tempera- 
+ture (638.3 MPa), the boundary conditions are set as follows. Fix 
+Fig. 12. The modeling of the NA16S2 alloy and stress/strain distribution under external loading. (a) 3D modeling of grains. (b) 2D modelling of grains with discontinuous 
+carbide along GBs. (c) An enlarged local region showing discontinuous NbC on the GB and nano-FCC/NbC particles dispersed within the grains. (d) Stress distribution of the 
+NA16S2 alloy under tensile force along the red arrows direction in Fig. 12 (c). (e) Fatigue life prediction and crack propagation trend of NA16S2 alloy under tensile force. (f) 
+TEM image of carbide pinning dislocations inside a grain. 
+275
+
+## Page 14
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+one end and apply 200 MPa axial tensile force to the other end at 
+1800 °C, as shown by the red arrow in Fig. 12 (c). 
+The results of stress in Fig. 12 (d) show that the carbide in the 
+grains mainly plays the role of pinning dislocation (yellow dot- 
+ted lines and arrows), which is consistent with the experimen- 
+tal results (TEM image in Fig. 12 (f)). The discontinuous distribu- 
+tion of NbC at the GBs provided a dislocation channel between 
+the grains (red arrow), ensuring superior plasticity. Conversely, the 
+strain is uniformly distributed in the alloy ( Fig. 12 (f)), probably be- 
+cause the discontinuous portion on the GB relieves the strain gen- 
+erated by the continuous carbide portion and transfers the local 
+strain between the different grains, thus converting the local strain 
+into deformation of the entire network skeleton and improving the 
+isotropy. The dispersed NbC nanoparticles inside the grains served 
+as a source of dislocations during deformation, facilitating a more 
+uniform deformation [ 68 ]. The Nb-FCC nanolayer is strategically 
+oriented with respect to both the adjacent Nb-BCC matrix and NbC 
+nanoparticles. This orientation aids in transferring dislocations and 
+alleviating strain concentration, ultimately promoting uniform de- 
+formation of the alloy. Recrystallization of the Nb-BCC grains (Fig. 
+(5)) facilitates the relaxation of the local strain ( Fig. 5 (d)) [ 69 ], fur- 
+ther contributing to the toughness of the alloy. 
+Additionally, the fatigue life and related nucleation and prop- 
+agation of cracks in the NA16S2 alloy under axial tensile force 
+(200 MPa) at 1800 °C was predicted ( Fig. 12 (e)). The results show 
+that the life of the NA16S2 alloy can be as high as 1.0 × 106 s. 
+Multi-site nucleation of cracks absorbs energy [ 70 ], causing an 
+isotropic nature of the alloy ( Fig. 5 (a, c)) and promoting a uni- 
+form deformation [ 71 ]. The possible reason is that the plasticity 
+induced by the phase transition from Nb-BCC to Nb-FCC resists 
+crack propagation [ 72 ]. And the preferred regions for crack nucle- 
+ation, as indicated by white contrast regions in Fig. 12 (e), are lo- 
+cated within the matrix rather than at the GBs or near carbides. 
+Moreover, the cracks deﬂect from their initial propagation direc- 
+tions upon encountering the carbide nanoparticles (black arrow in 
+Fig. 12 (e)). Thereby, the simulated creep results show that carbide 
+nanoparticles can effectively prevent crack propagation [ 73 ], which 
+is beneﬁcial to improve the toughness of the alloy [ 74 ]. 
+4.4. Thermal stabilization 
+The phase stability, coarsening, quantity and distribution of 
+precipitates signiﬁcantly inﬂuence the thermal stability of alloys 
+[ 75 ]. Here, the strengthening phase is dominated by uniform dis- 
+tributed NbC nanoparticles, which is stable above 1700 °C. Specif- 
+ically, nano-ZrC is ﬁrst formed by multi-site nucleation of Zr atom 
+(characterized by low concentration, homogeneous distribution in 
+the matrix, high diffusion energy barrier) with trace C atom at 
+1350 °C. The Zr in ZrC is then replaced by Nb to form stable NbC 
+in the Nb alloy at 1800 °C. Thermodynamically, a high interface 
+energy between the carbide and the matrix often results in lattice 
+distortion, stress concentration, and crack initiation [ 76 ]. 
+In order to analyze the thermal stability mechanism of NA16S2 
+alloy from an atomic and energy perspective, DFT calculations 
+were performed at 1800 °C (service temperature [ 77 ]) to check 
+the average and maximum free energies ( Eavg and Emax ) of Nb al- 
+loys with different carbides [ 78 , 79 ]. We focus on the effects of the 
+quantity, distribution and phase composition of carbides on the 
+stability of the alloys. Fig. 13 (a–f) was modeled according to the 
+microstructures shown in Figs. 8 and 9 . The structures in Fig. 13 (b, 
+c, e, f) contain 20 0 0 atoms[ 80 , 81 ]. During the speciﬁc calculations, 
+we utilized a supercomputing platform; however, we were still 
+constrained by computational resources. Therefore, we initially cal- 
+culated models with fewer than 100 atoms or even fewer for dif- 
+ferent samples, and then expanded them based on symmetry and 
+other characteristics to balance computational accuracy and cost. 
+Fig. 13 (g) shows the calculated average and maximum free en- 
+ergies for Nb alloys with diverse carbides. The results showed that 
+Fig. 13. DFT calculations of average and maximum free energies of Nb alloys with diverse carbides at 1800 °C. (a) Crystal structure of Nb-BCC. (b–f) Modelling of Nb alloys 
+with four possible carbides at GBs: (b) less precipitate (Raw-Nb), (c) discontinuous NbC (Discont. NbC), (d) Enlarged nanoparticles in the grain in Fig. 13 (c), (e) continuous 
+NbC (Cont. NbC), (f) discontinuous ZrC (Discont. ZrC). (g) Calculated average and maximum free energies of Nb alloys with diverse carbides. 
+276
+
+## Page 15
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+Nb alloys with discontinuous NbC at the GB and nano-FCC/NbC 
+particles in the grains (Discont. NbC) exhibited the lowest free en- 
+ergy, indicating that the hierarchical carbide structure facilitates to 
+improve the thermal stability of the Nb alloys [ 82 ]. In addition, 
+comparing with the Raw-Nb (78.1 mJ/m2 ), Cont. NbC (60.3 mJ/m2 ), 
+and Discont. ZrC (35.4 mJ/m2 ), the difference between the aver- 
+age and the maximum free energies of Discont. NbC is merely 11.2 
+mJ/m2 . This suggests that the energy distribution within Discont. 
+NbC is relatively uniform with minimal local stress and deforma- 
+tion [ 83 , 84 ]. Possible reasons are as follows. the formation of nano- 
+Nb-FCC shells around the NbC nanoparticles prevents coarsening of 
+NbC nanoparticles. During the stabilization process, recrystalliza- 
+tion occurs, and carbides at the GBs and inside the grains impede 
+growth and deformation of grains [ 85 ]. Additionally, the relax- 
+ation of the lattice strain during the high-temperature treatment 
+( Fig. 5 (d)) plays a crucial role in the alloy’s thermal stability. Mean- 
+while, the close match of CTEs between the NbC ( ε = 7.0 × 10–6 
+K–1 ) particles and the Nb-BCC matrix ( ε = 7.3 × 10–6 K–1 ), coupled 
+with the uniform distribution of stabilized NbC, ensures uniform 
+deformation during the thermal loading ( Fig. 6 (e)) [ 86 ]. Discontin- 
+uous NbC at the GB may also relieve and allow the migration of 
+dislocations, and transform the local deformation into deformation 
+of the carbide network skeleton [ 87 ], thereby improving the stabil- 
+ity of the alloy. 
+5. Conclusions 
+Based on phase diagrams and energy calculations, a Nb alloy 
+with attractive thermal stability and mechanical properties was de- 
+signed by employing a novel two-step heat treatment process. The 
+conclusions drawn from the study are as follows. 
+(1) The ﬁrst design step involves an initial heat treatment at 
+1350 °C to foster the formation of uniform ZrC nanoparticles 
+in the grains and along the GBs. This outcome is primarily at- 
+tributed to the relatively low Gibbs free energy and growth rate 
+of ZrC precipitates, which is determined by the diffusion of Zr 
+atoms. This is because the diffusion barrier of the replacement 
+Zr atoms is much higher than that of the interstitial C atoms. In 
+addition, a low concentration of Zr atoms facilitated the prepa- 
+ration of evenly distributed ZrC particles, in contrast to the di- 
+rect formation of NbC in the Nb matrix. In the latter case, the 
+diffusion of smaller interstitial C atoms was presumed to be the 
+limiting factor in the growth of NbC, instead of the dominant 
+Nb atoms. 
+(2) Through a second heat treatment at 1800 °C, the transforma- 
+tion of ZrC into NbC precipitates occurred, leading to the forma- 
+tion of hierarchy NbC structures, i.e., the formation of uniformly 
+distributed NbC nanoparticles within the grains and the emer- 
+gence of discontinuous NbC (sub) microparticles along the GBs 
+(280 ± 65 nm). Additionally, Nb-FCC nanostructures surround- 
+ing the NbC precipitates were detected, which presented excel- 
+lent orientation relationships with both the NbC phase and the 
+Nb-BCC matrix, i.e., [01¯1 ]FCC //[01¯1 ]NbC , (200 )FCC //(¯1 ¯1 ¯1 )NbC and 
+[01¯1 ]FCC //[001 ]BCC , (200 )FCC //(110 )BCC . Moreover, the nano- 
+Nb-FCC shell acted as a barrier layer, hindering the supply of 
+Nb and C sources and delaying the coarsening of NbC. 
+(3) The optimized NA16S2 alloy exhibited remarkable mechanical 
+properties, with a tensile strength of 638.3 MPa and an elonga- 
+tion of 41.0 %, which are primarily attributed to the formation 
+of the hierarchical NbC structures. In addition, the presence of 
+a NbC/ Nb-FCC/ Nb-BCC heterogeneous conﬁguration in the Nb- 
+BCC matrix played a pivotal role in enhancing dislocation mi- 
+gration hinderance and ensuring deformation uniformity. Fur- 
+thermore, the alloy demonstrated exceptional thermal stability, 
+as evidenced by the nearly overlapping thermal strain response 
+curve spanning from 0 °C to 900 °C and a minimal hysteretic 
+strain of 8.6 × 10–6 . This outstanding thermal stability is closely 
+correlated with the formation of discontinuous NbC along the 
+GBs and the creation of a stable NbC/ Nb-FCC/ Nb-BCC hetero- 
+geneous structure within the Nb-BCC matrix. 
+Declaration of competing interest 
+No potential conﬂict of interest was reported by the authors. 
+CRediT authorship contribution statement 
+Yafang Zhang: Writing – original draft, Methodology, In- 
+vestigation, Funding acquisition, Formal analysis, Data curation. 
+Lairong Xiao: Supervision, Funding acquisition. Zhenyang Cai: 
+Writing –r e v i e w & editing, Supervision, Resources, Methodology. 
+Ruiyang Xiao: Methodology, Investigation, Formal analysis, Data 
+curation, Conceptualization. Maokun Yin: Methodology, Investi- 
+gation, Formal analysis, Data curation. Xing Li: Methodology, In- 
+vestigation, Formal analysis, Data curation. Yiqian Fu: Method- 
+ology, Investigation, Formal analysis, Data curation. Xiangchen 
+Xiao: Methodology, Investigation, Formal analysis, Data curation. 
+Yuxiang Jiang: Methodology, Investigation, Formal analysis, Data 
+curation. Zhenwu Peng: Methodology, Investigation, Formal anal- 
+ysis, Data curation. Sainan Liu: Methodology, Investigation, For- 
+mal analysis, Data curation. Xiaojun Zhao: Supervision, Resources, 
+Project administration, Methodology, Investigation. Wei Li: Inves- 
+tigation, Formal analysis, Data curation. Miao Song: Writing –
+review & editing, Supervision, Resources, Project administration, 
+Methodology, Investigation, Data curation. 
+Acknowledgements 
+This work was ﬁnancially supported by the National Natural 
+Science Foundation of China (Grant Nos. 52471025 and 51901252 ), 
+the Natural Science Foundation of Hunan Province (Grant No. 
+2023JJ30684 ), and the Natural Science Foundation of Changsha 
+Municipal (Grant No. kq2202091). 
+References 
+[1] W. Liu, S. Huang, C. Ye, L. Jia, Y. Kang, J. Sha, B. Chen, Y. Wu, H. Xiong, J. Mater. 
+Sci. Technol. 149 (2023) 127–153 . 
+[2] T. Wan, K. Chu, J. Fang, C. Zhong, Y. Zhang, X. Ge, Y. Ding, F. Ren, J. Mater. Sci. 
+Technol. 80 (2021) 266–278 . 
+[3] Y. Zhang, L. Xiao, D. Zeng, X. Li, X. Zhou, G. Zhao, W. He, S. Li, Y. Xiao, X. Zhao, 
+S. Liu, Z. Cai, Corros. Sci. 206 (2022) 110515 . 
+[4] L. Han, F. Maccari, I.R. Souza Filho, N.J. Peter, Y. Wei, B. Gault, O. Gutﬂeisch, 
+Z. Li, D. Raabe, Nature 608 (2022) 310–316 . 
+[5] J.M. Munro, K. Latimer, M.K. Horton, S. Dwaraknath, K.A. Persson, npj Comput. 
+Mater. 6 (2020) 112 . 
+[6] M. de Jong, W. Chen, T. Angsten, A. Jain, R. Notestine, A. Gamst, M. Sluiter, 
+C. Krishna Ande, S. van der Zwaag, J.J. Plata, C. Toher, S. Curtarolo, G. Ceder, 
+K.A. Persson, M. Asta, Sci. Data. 2 (2015) 150 0 09 . 
+[7] M. Aykol, S.S. Dwaraknath, W. Sun, K.A. Persson, Sci. Adv. 4 (2018) 091101 . 
+[8] O.N. Senkov, S.I. Rao, T.M. Butler, T.I. Daboiku, K.J. Chaput, Int. J. Refract.Met. 
+Hard Mater. 92 (2020) 105321 . 
+[9] R. Madec, L. Portelette, B. Michel, J. Amodeo, Acta. Mater. 255 (2023) 119016 . 
+[10] Y. Cui, Q. Zhu, G. Xiao, W. Yang, Y. Liu, G.-H. Cao, Z. Ren, Sci. China Mater. 65 
+(2022) 494–500 . 
+[11] Y. Wang, B. Zhang, C. Zhang, J. Yin, M.J. Reece, J. Mater. Sci. Technol. 113 (2022) 
+40–47 . 
+[12] N. Yurchenko, E. Panina, Ł. Rogal, L. Shekhawat, S. Zherebtsov, N. Stepanov, 
+Mater. Res. Lett. 10 (2022) 78–87 . 
+[13] Q. Lu, J. Wang, H. Li, S. Jin, G. Sha, J. Lu, L. Wang, B. Jin, X. Lan, L. Li, K. Li, 
+Y. Du, Nat. Commun. 14 (2023) 2959 . 
+[14] H. Ding, S.S. Dwaraknath, L. Garten, P. Ndione, D. Ginley, K.A. Persson, ACS 
+Appl. Mater. Interfaces 8 (2016) 13086–13093 . 
+[15] C. Herzig, U. Köhler, S.V. Divinski, J. Appl. Phys. 85 (1999) 8119–8130 . 
+[16] H. Luo, J. Cao, Mater. Sci. Technol. 38 (2022) 730–733 . 
+[17] Y. Tan, C.L. Ma, A. Kasama, R. Tanaka, Y. Mishima, S. Hanada, J.M. Yang, Mater. 
+Sci. Eng. A 341 (2003) 282–288 . 
+[18] F.-Z. Dai, B. Wen, Y. Sun, H. Xiang, Y. Zhou, J. Mater. Sci. Technol. 43 (2020) 
+168–174 . 
+277
+
+## Page 16
+
+Y. Zhang, L. Xiao, Z. Cai et al. Journal of Materials Science & Technology 218 (2025) 263–278
+[19] H. Chen, H. Xiang, F.-Z. Dai, J. Liu, Y. Lei, J. Zhang, Y. Zhou, J. Mater. Sci. Technol. 
+35 (2019) 1700–1705 . 
+[20] S. Chaudhary, M. Sankar, V.V.S. Prasad, R.G. Baligidad, A .A . Gokhale, High Temp. 
+Mater. Process. 37 (2018) 749–759 . 
+[21] Q. Xu, C. Ma, W. Mi, Y. Wang, Y. Ma, Nat. Commun. 13 (2022) 1385 . 
+[22] Y. Wang, P. Wisesa, A. Balasubramanian, S. Dwaraknath, T. Mueller, Comput. 
+Mater. Sci. 187 (2021) 110100 . 
+[23] S. Thakur, P.S.R. Krishna, A.B. Shinde, R. Kumar, S.B. Roy, AIP Conf. Proc. 1832 
+(2017) 060012 . 
+[24] Y. Shi, X.-P. Chen, L. Xie, G.-A. Sun, L.-M. Fang, Acta Phys. Sin. 68 (2019) 116101 . 
+[25] J. Chen, Q. Hu, L. Fang, D. He, X. Chen, L. Xie, B. Chen, X. Li, X. Ni, C. Fan, 
+A. Liang, Rev. Sci. Instrum. 89 (2018) 053906 . 
+[26] L. Xie, X. Chen, L. Fang, G. Sun, C. Xie, B. Chen, H. Li, V.A. Ulyanov, V.A. Solovei, 
+M.R.J.N.-H. Kolkhidashvili, Nucl. Instrum. Meth. A 915 (2019) 31–35 . 
+[27] G. Sun, C. Zhang, B. Chen, J. Gong, S. Peng, Neutron News 27 (2016) 21–26 . 
+[28] L. Xie, X. Chen, L. Fang, G. Sun, C. Xie, B. Chen, H. Li, V.A. Ulyanov, V.A. Solovei, 
+M.R. Kolkhidashvili, A.P. Bulkin, S.I. Kalinin, Y. Wang, X. Wang, Nucl. Instrum. 
+Methods Phys. Res. A 915 (2019) 31–35 . 
+[29] C.G. Shull, J.S. Smart, Phys. Rev. 76 (1949) 1256–1257 . 
+[30] Y. Zhang, X. Zhao, S. Liu, W. Li, K. Zhou, L. Xiao, M. Song, Z. Cai, J. Mater. Sci. 
+Technol. 186 (2024) 207–218 . 
+[31] B. Du, Z. Hu, L. Sheng, C. Cui, J. Yang, Y. Zheng, X. Sun, J. Mater. Sci. Technol. 
+34 (2018) 1805–1816 . 
+[32] S.N. Kumaran, S.K. Sahoo, C. Haase, L.A. Barrales-Mora, L.S. Toth, Acta. Mater. 
+250 (2023) 118814 . 
+[33] G. Shang, W. Zheng, J. Wang, X.-G. Lu, Mater. Sci. Eng. A 846 (2022) 143294 . 
+[34] C. Yang, Y. Luan, D. Li, Y. Li, J. Mater. Sci. Technol. 35 (2019) 1298–1308 . 
+[35] X. Yan, C. Zhang, Y. Li, Y. Yi, Z. Cui, B. Han, J. Mater. Sci. Technol. 106 (2022) 
+257–269 . 
+[36] H. Yang, S. Tian, T. Gao, J. Nie, Z. You, G. Liu, H. Wang, X. Liu, Mater. Sci. Eng. 
+A 763 (2019) 138121 . 
+[37] S.G. Qu, H.S. Lou, X.Q. Li, T.R. Kuang, J.Y. Lou, Mater. Des. 86 (2015) 508–515 . 
+[38] V. Tuli, A. Claisse, L. Messina, P.A. Burr, J. Nucl. Mater. 548 (2021) 152867 . 
+[39] J. Chen, Y. Tang, F. Liu, J. Shu, Y. Liu, Z. Dong, Y. Liu, Metall. Mater. Trans. A 52 
+(2021) 270–283 . 
+[40] R. Lu, S. Zheng, J. Teng, J. Hu, D. Fu, J. Chen, G. Zhao, F. Jiang, H. Zhang, J. Mater. 
+Sci. Technol. 80 (2021) 150–162 . 
+[41] B. Cao, S.P. Joshi, K.T. Ramesh, Scr. Mater. 60 (2009) 619–622 . 
+[42] J.M. Zhang, Z.Y. Gao, J.Y. Zhuang, Z.Y. Zhong, Metall. Mater. Trans. A 30 (1999) 
+2701–2712 . 
+[43] W. Miller, F.J.S.m.e.m. Humphreys, Scr. Metall. Mater. 25 (1991) 33–38 . 
+[44] A. Misra, J.P. Hirth, R.G. Hoagland, Acta Mater. 53 (2005) 4 817–4 824 . 
+[45] Z.-Z. Jin, M. Zha, Z.-Y. Yu, P.-K. Ma, Y.-K. Li, J.-M. Liu, H.-L. Jia, H.-Y. Wang, J. 
+Alloys Compd. 833 (2020) 155004 . 
+[46] B. Li, S. Jiang, K. Zhang, Mater. Sci. Eng. A 556 (2012) 15–22 . 
+[47] R. Ma, X. Guo, Intermetallics 129 (2021) 107053 . 
+[48] C. Ye, L. Jia, Z. Jin, Y. Wang, W. Wang, H. Fu, H. Zhang, Mater. Des. 222 (2022) 
+111025 . 
+[49] T. Wang, B. Gwalani, M. Song, X. Ma, T. Liu, H. Das, J. Silverstein, S. Whalen, J. 
+Manuf. Process. 75 (2022) 814–825 . 
+[50] C. Biselli, D.G. Morris, Acta Mater. 44 (1996) 493–504 . 
+[51] G.K. Williamson, W.H. Hall, Acta Metall. 1 (1953) 22–31 . 
+[52] M.K. Alam, M.S. Hossain, N.M. Bahadur, S. Ahmed, J. Mol. Struct. 1306 (2024) 
+137820 . 
+[53] G. Gross, F. Razavi, R. Praus, H.-U. Habermeier, J. Magn. Magn. Mater. 211 
+(20 0 0) 22–27 . 
+[54] J. Gubicza, J. Szépvölgyi, I. Mohai, L. Zsoldos, T. Ungár, Mater. Sci. Eng. A 280 
+(20 0 0) 263–269 . 
+[55] A.W. Zhu, A. Csontos, E.A. Starke, Acta Mater. 47 (1999) 1713–1721 . 
+[56] B.Q. Han, D.C. Dunand, Mater. Sci. Eng. A 277 (20 0 0) 297–304 . 
+[57] T. Takahashi, D.C. Dunand, Mater. Sci. Eng. A 192–193 (1995) 195–203 . 
+[58] H.J. Frost, M.F.J. Ashby, J. Mech. Work. Technol. 9 (1984) 224–225 . 
+[59] T. Ungár, A. Borbély, G.R. Goren-Muginstein, S. Berger, A.R. Rosen, Nanostruct. 
+Mater. 11 (1999) 103–113 . 
+[60] T. Ungár, M. Victoria, P. Marmy, P. Hanák, G. Szenes, J. Nucl. Mater. 276 (20 0 0) 
+278–282 . 
+[61] K. Santra, P. Chatterjee, S.P. Sen Gupta, Sol. Energy Mater. Sol. Cells 57 (1999) 
+345–358 . 
+[62] H.-J. Kim, M. Niinomi, Mater. Sci. Eng. A 284 (20 0 0) 14–24 . 
+[63] M. Kumar, V.K. Vasudevan, Acta Mater. 44 (1996) 4 865–4 880 . 
+[64] U. Lagerpusch, V. Mohles, D. Baither, B. Anczykowski, E. Nembach, Acta Mater. 
+48 (20 0 0) 3647–3656 . 
+[65] Y. Zhao, H. Li, Y. Huang, J. Alloys Compd. 862 (2021) 158029 . 
+[66] C.C. Koch, Mater. Sci. Eng. A 244 (1998) 39–48 . 
+[67] J.L. De Mol Van Otterloo, J.T.M. De Hosson, Acta Mater. 45 (1997) 1225–
+1236 . 
+[68] Z. Zhang, H. Sheng, Z. Wang, B. Gludovatz, Z. Zhang, E.P. George, Q. Yu, 
+S.X. Mao, R.O. Ritchie, Nat. Commun. 8 (2017) 14390 . 
+[69] Y. Chen, D. Chen, X. An, Y. Zhang, Z. Zhou, S. Lu, P. Munroe, S. Zhang, X. Liao, 
+T. Zhu, Z. Xie, Acta Mater. 215 (2021) 117112 . 
+[70] B. Gwalani, J. Escobar, M. Song, J. Thomas, J. Silverstein, A.C. Chuang, D. Singh, 
+M.P. Brady, Y. Yamamoto, T.R. Watkins, A. Devaraj, Acta Mater. 263 (2024) 
+119494 . 
+[71] S. Mohammed, S. Gupta, D.J. Li, X.Q. Zeng, D.L. Chen, Materials 13 (2020) 4115 . 
+[72] X.Y. Zhong, S.C. Bali, T. Shoji, Corros. Sci. 115 (2017) 106–117 . 
+[73] X.Y. Zhong, S.C. Bali, T. Shoji, Corros. Sci. 118 (2017) 143–157 . 
+[74] Y.T. Zhu, Metall. Mater. Trans. A 52 (2021) 4715–4726 . 
+[75] T. Yang, Y.L. Zhao, L. Fan, J. Wei, J.H. Luan, W.H. Liu, C. Wang, Z.B. Jiao, J.J. Kai, 
+C.T. Liu, Acta Mater. 189 (2020) 47–59 . 
+[76] J.L. Gu, S.L. Yang, M.J. Gao, J. Bai, K. Liu, Addit. Manuf. 34 (2020) 101370 . 
+[77] Y. Zhang, S. Liu, X. Zhou, G. Zhao, J. Liu, H. Shen, Z. Cai, X. Zhao, L. Xiao, Corros. 
+Sci. 195 (2022) 109977 . 
+[78] H.J. Im, W.S. Choi, K. Ryou, J.B. Seol, T.H. Kang, W.-S. Ko, P.-P. Choi, Acta Mater. 
+214 (2021) 117011 . 
+[79] F. Sansoz, X. Ke, Acta Mater. 225 (2022) 117560 . 
+[80] W. Hu, L. Lin, C. Yang, J. Chem. Phys. 143 (2015) 124110 . 
+[81] D.J. Cole, N.D. Hine, J. Phys.-Condens. Mater. 28 (2016) 393001 . 
+[82] Y. Zhou, L. Liao, T. Guo, H. Bai, M. Zhao, C. Wan, L. Huang, L. Han, L. Qiao, 
+Y. You, C. Chen, R. Chen, Z. Zhou, X. Han, F. Pan, C. Song, Nat. Commun. 13 
+(2022) 3723 . 
+[83] L. Jiang, B. Rouxel, T. Langan, T. Dorin, Acta Mater. 206 (2021) 116634 . 
+[84] U. Bansal, M.P. Singh, S.K. Sinha, D.K. Sahu, S. Mondol, S.K. Makineni, A. Paul, 
+K. Chattopadhyay, Acta Mater. 259 (2023) 119254 . 
+[85] L. Huang, Q. An, L. Geng, S. Wang, S. Jiang, X. Cui, R. Zhang, F. Sun, Y. Jiao, 
+X. Chen, C. Wang, Adv. Mater. 33 (2021) 20 0 0688 . 
+[86] G. Li, J. Zhang, Y. Yang, Y. Wang, L. Wang, Y. Lu, J. Luan, G. Liu, J. Sun, Acta 
+Mater. 257 (2023) 119192 . 
+[87] W. Jiang, Y. Zhu, Y. Zhao, Front. Mater. 8 (2022) 792359 . 
+278

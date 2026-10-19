@@ -1,0 +1,1527 @@
+{
+  "document_id": "7797cffab85995d2",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Inconel 740H合金原位高温拉伸微裂纹萌生扩展研究",
+    "authors": [
+      "王晋",
+      "张跃飞",
+      "马晋遥",
+      "李吉学",
+      "张泽"
+    ],
+    "journal": "Acta Metallurgica Sinica",
+    "year": 2017,
+    "doi": "10.11900/0412.1961.2017.00218"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "研究了 750 ℃ 高温条件下镍基高温合金 Inconel 740 H 单轴拉伸变形过程中微观组织演变规律及微裂纹萌生与扩展机制",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Inconel 740 H (22 ℃ 原位拉伸样品)",
+      "canonical_name": "Inconel 740H",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution-treated and aged",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "introduction",
+              "quote": "同时保持 Cr 含量约为 25 % ( 质量分数 )",
+              "table": null,
+              "figure": null,
+              "chunk_id": "7797cffab85995d2:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 实验方法",
+          "quote": "实验所用镍基高温合金为热挤压状态 Inconel 740 H 管材 ， 并按照美国 SMC Inconel 740 H 合金产品手册推荐的热处理制度 ( 1150 ℃ 、 30 min 固溶处理 ， 水冷 ， 然后 800 ℃ 、 4 h 时效 ， 空冷 ) 进行热处理 。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "hot extrusion",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-extruded",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 实验方法",
+          "quote": "实验所用镍基高温合金为热挤压状态 Inconel 740 H 管材",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": 1150,
+        "time": "30 min",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "water cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-extruded",
+      "output_state": "solution-treated",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 实验方法",
+          "quote": "1150 ℃ 、 30 min 固溶处理 ， 水冷",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 800,
+        "time": "4 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution-treated",
+      "output_state": "solution-treated and aged",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 实验方法",
+          "quote": "然后 800 ℃ 、 4 h 时效 ， 空冷",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "in situ high temperature tensile test",
+      "parameters": {
+        "temperature_c": 22,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "tensile_rate": "1 mm/s",
+          "test_environment": "SEM in situ tensile stage"
+        }
+      },
+      "input_state": "solution-treated and aged",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "1 实验方法",
+          "quote": "分别在 22 ℃ 室温 (RT) 和 750 ℃ 高温 (HT) 下对 Inconel 740 H 镍基高温合金进行原位单轴拉伸测试 ， 拉伸测试速率均为 1 m m/s 。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "in situ high temperature tensile test",
+      "parameters": {
+        "temperature_c": 750,
+        "time": "30 min holding",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "tensile_rate": "1 mm/s",
+          "holding_time": "30 min",
+          "test_environment": "SEM in situ tensile stage"
+        }
+      },
+      "input_state": "solution-treated and aged",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "1 实验方法",
+          "quote": "在高温加载过程中 ， 采用分段逐级加温 ， 并在温度达到 750 ℃ 目标温度后保温 30 min ， 以减小样品标距段温度的波动性和不均匀性 ， 然后再进行拉伸载荷加载 。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "(NbTi)C",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "blocky",
+        "location": "intragranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "在晶粒内部随机分布着少量的块状碳化物 ， 而在晶界处分布着呈断续状的碳化物 ， 分别进行 EDS 分析可知 ， 分布于晶内的碳化物是 (NbTi)C ， 而晶界处的碳化物是 Cr 23 C 6",
+          "table": null,
+          "figure": "Fig. 3e",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Cr23C6",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "discontinuous",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "在晶粒内部随机分布着少量的块状碳化物 ， 而在晶界处分布着呈断续状的碳化物 ， 分别进行 EDS 分析可知 ， 分布于晶内的碳化物是 (NbTi)C ， 而晶界处的碳化物是 Cr 23 C 6",
+          "table": null,
+          "figure": "Fig. 3f",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "equiaxed grain microstructure",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average grain size 197 μm, grain size grade 1.5~2",
+        "morphology": "equiaxed, non-uniform, slight mixed grain",
+        "location": "gauge section",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "固溶时效后 Inconel 740 H 合金为等轴晶组织 ， 存在大量的孪晶组织 ， 晶粒尺寸不均匀 ， 存在轻度混晶现象 。 对样品标距段内的晶粒进行晶粒尺寸统计 ， 结果如图 3 b 所示 。 可见 ， 平均晶粒尺寸为 197 m m ， 晶粒度 为 1 . 5 ~ 2 级",
+          "table": null,
+          "figure": "Fig. 3a, 3b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "twin",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "parallel bundle lath-shaped or quadrilateral, terminating within grain",
+        "location": "intragranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "中等尺寸的晶粒内部存在大量孪晶 ， 孪晶以平行 “ 束集 ” 的板条状形式贯穿整个晶粒或者以四边形形式中止于晶粒内部",
+          "table": null,
+          "figure": "Fig. 3d",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "serrated grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "serrated",
+        "location": "grain boundary or twin boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "一些锯齿形碳化物随机分布在晶粒内部 ， 并靠近晶界或孪晶界 ， 如图 3 c 中箭头 T 所指 ， 这种锯齿形晶界对位错运动具有阻碍作用 ， 进而起到强化作用",
+          "table": null,
+          "figure": "Fig. 3c",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "slip band",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grains and twins",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3",
+          "quote": "当载荷达到 599 N 时 ， 如图 5 b 所示 ， 在晶粒和孪晶内出现明显的滑移带 (slipping band ， SB)",
+          "table": null,
+          "figure": "Fig. 5b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "ridge-like surface morphology",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "ridge",
+        "location": "grain boundary and twin boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3",
+          "quote": "并在未变形或少量变形的晶界和孪晶界处形成较为突显的 “ 凸脊 ” 形貌",
+          "table": null,
+          "figure": "Fig. 5b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_6",
+      "type": "Microstructure",
+      "name": "deformation band",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cross-shaped",
+        "location": "intragranular at specimen edge",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "2.3",
+          "quote": "在剪切力的作用下 ， 试样边缘的晶粒 G a 晶内形成交叉状的变形带 (deformat i on band ， D B )",
+          "table": null,
+          "figure": "Fig. 6a",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_7",
+      "type": "Microstructure",
+      "name": "slip band",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grains and twins",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "2.4",
+          "quote": "当载荷达到 354 N 时 ， 如图 7 b 所示 ， 在晶粒和孪晶内发生明显的滑移和多滑移变形 ， 晶界也发生明显的弯曲和滑移",
+          "table": null,
+          "figure": "Fig. 7b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_8",
+      "type": "Microstructure",
+      "name": "grain boundary bending and sliding",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "2.4",
+          "quote": "晶界也发生明显的弯曲和滑移 。 在试样变形过程中除了晶粒的滑移和孪生变形外 ， 晶界的滑移和变形也进一步增加了材料的塑性变形",
+          "table": null,
+          "figure": "Fig. 7b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_9",
+      "type": "Microstructure",
+      "name": "whitening at grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.4",
+          "quote": "在位错不断塞积的作用下 ， 在多处晶界处产生应力集中 ， 并诱使晶界边缘衬度发生转变 ， 出现 “ 白化 ” 现象",
+          "table": null,
+          "figure": "Fig. 8a",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "microcrack",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary, twin boundary and intragranular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3",
+          "quote": "垂直于拉伸 方向的微裂纹 crack a 在平行于拉伸方向 的晶界处萌生 ， 微裂纹 crack b 在三叉晶界处萌生",
+          "table": null,
+          "figure": "Fig. 5c",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "microcrack",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "2.4",
+          "quote": "位错在晶界处的塞积形成的应力集中 ， 诱使微裂纹 crack a 在三叉晶界处萌生",
+          "table": null,
+          "figure": "Fig. 7b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "property": "yield strength",
+      "value": 797,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 22,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "in situ SEM tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "22 和 750 ℃ 原位拉伸样品的有效截面 积 分别为 0 . 452 和 0 . 457 mm 2 ， 可计算得到样品的屈服强度和抗拉强度 。",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "property": "ultimate tensile strength",
+      "value": 1240,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 22,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "in situ SEM tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "22 和 750 ℃ 原位拉伸样品的有效截面 积 分别为 0 . 452 和 0 . 457 mm 2 ， 可计算得到样品的屈服强度和抗拉强度 。",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "property": "elongation",
+      "value": 31.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 22,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "in situ image measurement of gauge section (150× SEM)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "本实验中同 时结合原位图像测量方法 ， 直接测量放大 150 倍 的 SEM 像中标距段的变形量 ， 来计算断后延伸率",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "property": "yield strength",
+      "value": 761,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "in situ SEM tensile test"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "高温条件下 Inconel 740 H 合金的屈服强度和抗拉强度与室温条件下的力学性能相比均有所降低 ， 整体强度略有下降 ， 屈 服强度降低了 36 MPa ， 抗拉强度降低了 108 MPa",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "property": "ultimate tensile strength",
+      "value": 1132,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "in situ SEM tensile test"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "高温条件下 Inconel 740 H 合金的屈服强度和抗拉强度与室温条件下的力学性能相比均有所降低 ， 整体强度略有下降 ， 屈 服强度降低了 36 MPa ， 抗拉强度降低了 108 MPa",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "property": "elongation",
+      "value": 45.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "in situ image measurement of gauge section (150× SEM)"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "而断后延伸率却比室温时高出 14 . 6 % ， 塑性增加幅度较 大 。",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "property": "yield strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 22,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation pile-up induced grain boundary stress concentration",
+      "category": "crack nucleation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3 结论",
+          "quote": "在室温和高温变形过程中 ， 晶界在位错的塞积作用下产生应力集中而诱使微裂 纹萌生 ， 因此 ， 晶界是 Inconel 740 H 合金变形过程中最主要的裂纹萌生源",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "grain boundary weakening at high temperature",
+      "category": "grain boundary strength degradation",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3 结论",
+          "quote": "高温下 ， 合金的晶界相对强度弱化 ， 微裂纹倾向于晶界萌生",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "reduction of slip system activation energy at high temperature",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3 结论",
+          "quote": "在 750 ℃ 下 ， Inconel 740 H 合金滑移系的开启能量降低 ， 使更多的滑移系开动 ， 与此同时 ， 高温弱化了合金晶界 ， 使晶界具有弯曲和滑动的特性 ， 从而进一步增强了合金的塑性协调变形",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "precipitation strengthening by carbides",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "这种锯齿形晶界对位错运动具有阻碍作用 ， 进而起到强化作用",
+          "table": null,
+          "figure": "Fig. 3c",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "研究了 750 ℃ 高温条件下镍基高温合金 Inconel 740 H",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 实验方法",
+          "quote": "实验所用镍基高温合金为热挤压状态 Inconel 740 H 管材",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 实验方法",
+          "quote": "1150 ℃ 、 30 min 固溶处理 ， 水冷",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1 实验方法",
+          "quote": "然后 800 ℃ 、 4 h 时效 ， 空冷",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "1 实验方法",
+          "quote": "分别在 22 ℃ 室温 (RT) 和 750 ℃ 高温 (HT) 下对 Inconel 740 H 镍基高温合金进行原位单轴拉伸测试",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "1 实验方法",
+          "quote": "在温度达到 750 ℃ 目标温度后保温 30 min ， 以减小样品标距段温度的波动性和不均匀性 ， 然后再进行拉伸载荷加载",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "分布于晶内的碳化物是 (NbTi)C",
+          "table": null,
+          "figure": "Fig. 3e",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "晶界处的碳化物是 Cr 23 C 6",
+          "table": null,
+          "figure": "Fig. 3f",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "固溶时效后 Inconel 740 H 合金为等轴晶组织",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "中等尺寸的晶粒内部存在大量孪晶",
+          "table": null,
+          "figure": "Fig. 3d",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "一些锯齿形碳化物随机分布在晶粒内部 ， 并靠近晶界或孪晶界",
+          "table": null,
+          "figure": "Fig. 3c",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3",
+          "quote": "在晶粒和孪晶内出现明显的滑移带",
+          "table": null,
+          "figure": "Fig. 5b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3",
+          "quote": "在未变形或少量变形的晶界和孪晶界处形成较为突显的 “ 凸脊 ” 形貌",
+          "table": null,
+          "figure": "Fig. 5b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_6",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "2.3",
+          "quote": "试样边缘的晶粒 G a 晶内形成交叉状的变形带",
+          "table": null,
+          "figure": "Fig. 6a",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_7",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "2.4",
+          "quote": "在晶粒和孪晶内发生明显的滑移和多滑移变形",
+          "table": null,
+          "figure": "Fig. 7b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_8",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "2.4",
+          "quote": "晶界也发生明显的弯曲和滑移",
+          "table": null,
+          "figure": "Fig. 7b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_9",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.4",
+          "quote": "并诱使晶界边缘衬度发生转变 ， 出现 “ 白化 ” 现象",
+          "table": null,
+          "figure": "Fig. 8a",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3",
+          "quote": "垂直于拉伸 方向的微裂纹 crack a 在平行于拉伸方向 的晶界处萌生 ， 微裂纹 crack b 在三叉晶界处萌生",
+          "table": null,
+          "figure": "Fig. 5c",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_2",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "2.4",
+          "quote": "位错在晶界处的塞积形成的应力集中 ， 诱使微裂纹 crack a 在三叉晶界处萌生",
+          "table": null,
+          "figure": "Fig. 7b",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "22 和 750 ℃ 原位拉伸样品的有效截面 积 分别为 0 . 452 和 0 . 457 mm 2 ， 可计算得到样品的屈服强度和抗拉强度 。",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "22 和 750 ℃ 原位拉伸样品的有效截面 积 分别为 0 . 452 和 0 . 457 mm 2 ， 可计算得到样品的屈服强度和抗拉强度 。",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "本实验中同 时结合原位图像测量方法 ， 直接测量放大 150 倍 的 SEM 像中标距段的变形量 ， 来计算断后延伸率",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "高温条件下 Inconel 740 H 合金的屈服强度和抗拉强度与室温条件下的力学性能相比均有所降低",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "高温条件下 Inconel 740 H 合金的屈服强度和抗拉强度与室温条件下的力学性能相比均有所降低",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_25",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2",
+          "quote": "而断后延伸率却比室温时高出 14 . 6 % ， 塑性增加幅度较 大 。",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_26",
+      "source_id": "microstructure_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated and aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "这种锯齿形晶界对位错运动具有阻碍作用 ， 进而起到强化作用",
+          "table": null,
+          "figure": "Fig. 3c",
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_27",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "tested at 22 °C",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3 结论",
+          "quote": "晶界在位错的塞积作用下产生应力集中而诱使微裂 纹萌生",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_28",
+      "source_id": "mechanism_2",
+      "predicate": "PROMOTES",
+      "target_id": "defect_2",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3 结论",
+          "quote": "高温下 ， 合金的晶界相对强度弱化 ， 微裂纹倾向于晶界萌生",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_29",
+      "source_id": "mechanism_3",
+      "predicate": "INCREASES",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3 结论",
+          "quote": "在 750 ℃ 下 ， Inconel 740 H 合金滑移系的开启能量降低 ， 使更多的滑移系开动 ， 与此同时 ， 高温弱化了合金晶界 ， 使晶界具有弯曲和滑动的特性 ， 从而进一步增强了合金的塑性协调变形",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_30",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3 结论",
+          "quote": "高温 对合金晶界相对强度的弱化又导致微裂纹更易从 晶界处萌生和扩展 ， 降低了合金的屈服强度和抗拉 强度",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_31",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3 结论",
+          "quote": "高温 对合金晶界相对强度的弱化又导致微裂纹更易从 晶界处萌生和扩展 ， 降低了合金的屈服强度和抗拉 强度",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_32",
+      "source_id": "mechanism_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "microstructure_7",
+      "sample_id": "sample_1",
+      "material_state": "tested at 750 °C",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3 结论",
+          "quote": "在 750 ℃ 下 ， Inconel 740 H 合金滑移系的开启能量降低 ， 使更多的滑移系开动",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7797cffab85995d2:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

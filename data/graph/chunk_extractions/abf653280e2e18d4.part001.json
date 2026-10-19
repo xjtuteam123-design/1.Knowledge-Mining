@@ -1,0 +1,521 @@
+{
+  "document_id": "abf653280e2e18d4",
+  "chunk_id": "abf653280e2e18d4:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Study of γ' rafting under different stress states — A phase-field simulation considering viscoplasticity",
+    "authors": [
+      "Min Yang",
+      "Jun Zhang",
+      "Hua Wei",
+      "Yan Zhao",
+      "Weimin Gui",
+      "Haijun Su",
+      "Tao Jin",
+      "Lin Liu"
+    ],
+    "journal": "Journal of Alloys and Compounds",
+    "year": 2018,
+    "doi": "10.1016/j.jallcom.2018.07.317"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single-crystal superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Nickel-based single-crystal superalloys are among the most important high-temperature structural materials for manufacturing turbine blades",
+          "table": null,
+          "figure": null,
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "[001] single-crystal sample",
+      "canonical_name": "Ni-based single-crystal superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged at 1223 K (initial γ/γ' microstructure)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Three kinds of stress states, i.e., shear, monoclinic loading, and tension, are applied to the [001] single-crystal sample.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "abf653280e2e18d4:part:001"
+        },
+        {
+          "page": 4,
+          "section": "3.1. Initial morphology of γ' precipitates",
+          "quote": "Before the external stress is applied, the morphological evolution of γ'/γ phases during aging at 1223 K for 1 00000 s* was simulated.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 1223,
+        "time": "100000 s* (dimensionless time)",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "note": "simulated aging to establish initial γ/γ' microstructure"
+        }
+      },
+      "input_state": null,
+      "output_state": "aged at 1223 K (initial γ/γ' microstructure)",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Initial morphology of γ' precipitates",
+          "quote": "Before the external stress is applied, the morphological evolution of γ'/γ phases during aging at 1223 K for 1 00000 s* was simulated. The final morphology is shown in Fig. 3a. The volume fraction of γ' precipitates is approximately 55%.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "aged at 1223 K (initial γ/γ' microstructure)",
+      "attributes": {
+        "phase_fraction": 0.55,
+        "size": null,
+        "morphology": "cubic",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Initial morphology of γ' precipitates",
+          "quote": "The volume fraction of γ' precipitates is approximately 55%.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "aged at 1223 K (initial γ/γ' microstructure)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "channel",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Initial morphology of γ' precipitates",
+          "quote": "without the external stress, the equivalent stress in the γ matrix is relatively higher than that in the γ' precipitates, and the local stress concentration appears in the narrow γ channel.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "γ' rafting",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 100 MPa",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Morphological evolution of γ' precipitates for three stress states",
+          "quote": "For the external shear stress case, the cubic γ' precipitates are coarsened through the Ostwald ripening and mergence mechanisms, without significant directional coarsening, as shown in Fig. 4a.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "N-type rafting",
+      "sample_id": "sample_1",
+      "material_state": "creep under monoclinic loading 100 MPa",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "coarsened perpendicular to the [001] direction",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Morphological evolution of γ' precipitates for three stress states",
+          "quote": "For monoclinic loading applied at 15° deviation from the [001] direction, γ' precipitates coarsen along the direction perpendicular to the [001] direction, forming N-type rafting as shown in Fig. 4b.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "45°-type rafting",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 137 MPa",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rafted at approximately 45° relative to the shear stress axis",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2. Morphological evolution of γ' precipitates for three stress states",
+          "quote": "The rafting direction is apparently angled by approximately 45° relative to the shear stress axis, forming 45°-type rafting (Fig. 5a).",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "directional diffusion of γ'-forming elements driven by equivalent stress inhomogeneity",
+      "category": "diffusion",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 137 MPa",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "In 45°/C14-type rafting, the equivalent stress inhomogeneity in the γ channel induces a directional diffusion of γ'-forming elements into the low-equivalent-stress areas which are distributed along the diagonal directions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Ostwald ripening",
+      "category": "coarsening",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 100 MPa",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Morphological evolution of γ' precipitates for three stress states",
+          "quote": "For the external shear stress case, the cubic γ' precipitates are coarsened through the Ostwald ripening and mergence mechanisms, without significant directional coarsening, as shown in Fig. 4a.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "plastic strain accumulation in γ channels",
+      "category": "plasticity",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 137 MPa",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.3. Local stress and plastic strain fields",
+          "quote": "As the loading time increases, the plastic strain accumulates within the γ channels, and the equivalent plastic strain is the highest for the shear case, intermediate for the monoclinic loading, and the lowest for the tension case as shown in Fig. 8a2-c2.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Three kinds of stress states, i.e., shear, monoclinic loading, and tension, are applied to the [001] single-crystal sample.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "aged at 1223 K (initial γ/γ' microstructure)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Initial morphology of γ' precipitates",
+          "quote": "Before the external stress is applied, the morphological evolution of γ'/γ phases during aging at 1223 K for 1 00000 s* was simulated.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "aged at 1223 K (initial γ/γ' microstructure)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Initial morphology of γ' precipitates",
+          "quote": "The volume fraction of γ' precipitates is approximately 55%.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "aged at 1223 K (initial γ/γ' microstructure)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Initial morphology of γ' precipitates",
+          "quote": "without the external stress, the equivalent stress in the γ matrix is relatively higher than that in the γ' precipitates, and the local stress concentration appears in the narrow γ channel.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 100 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Morphological evolution of γ' precipitates for three stress states",
+          "quote": "For the external shear stress case, the cubic γ' precipitates are coarsened through the Ostwald ripening and mergence mechanisms, without significant directional coarsening, as shown in Fig. 4a.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "creep under monoclinic loading 100 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Morphological evolution of γ' precipitates for three stress states",
+          "quote": "For monoclinic loading applied at 15° deviation from the [001] direction, γ' precipitates coarsen along the direction perpendicular to the [001] direction, forming N-type rafting as shown in Fig. 4b.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 137 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2. Morphological evolution of γ' precipitates for three stress states",
+          "quote": "The rafting direction is apparently angled by approximately 45° relative to the shear stress axis, forming 45°-type rafting (Fig. 5a).",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "microstructure_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 137 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "In 45°/C14-type rafting, the equivalent stress inhomogeneity in the γ channel induces a directional diffusion of γ'-forming elements into the low-equivalent-stress areas which are distributed along the diagonal directions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 100 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Morphological evolution of γ' precipitates for three stress states",
+          "quote": "For the external shear stress case, the cubic γ' precipitates are coarsened through the Ostwald ripening and mergence mechanisms, without significant directional coarsening, as shown in Fig. 4a.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 137 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.3. Local stress and plastic strain fields",
+          "quote": "As the loading time increases, the plastic strain accumulates within the γ channels, and the equivalent plastic strain is the highest for the shear case, intermediate for the monoclinic loading, and the lowest for the tension case as shown in Fig. 8a2-c2.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_3",
+      "predicate": "CORRELATES_WITH",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "creep under shear stress 137 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.3. Local stress and plastic strain fields",
+          "quote": "This indicates that the 45° coarsening of γ' precipitates is along with high strain accumulations, which is consistent with the study of Touratier et al.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "abf653280e2e18d4:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

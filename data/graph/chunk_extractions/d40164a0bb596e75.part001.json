@@ -1,0 +1,1255 @@
+{
+  "document_id": "d40164a0bb596e75",
+  "chunk_id": "d40164a0bb596e75:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Developing a machine learning Ni-Co-Al ternary interatomic potential for temperature and strain-rate dependent mechanical behaviors of Ni-based single crystal superalloys",
+    "authors": [
+      "Zhijia Qin",
+      "Shirong Liang",
+      "Linli Zhu",
+      "Penghua Ying",
+      "Dongfeng Li",
+      "Ligang Sun"
+    ],
+    "journal": "Materials & Design",
+    "year": 2025,
+    "doi": "10.1016/j.matdes.2025.114535"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Ni-based single crystal (SX) superalloys, with excellent mechanical properties in high temperature, are widely used as the preferred materials in the aerospace field.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-Co-Al ternary alloy",
+      "material_category": "ternary alloy system",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "a machine learning potential (MLP) for the ternary Ni-Co-Al system is developed using neuroevolution potential (NEP) framework",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "gamma/gamma' cubic interface model",
+      "canonical_name": "Ni-Co-Al gamma/gamma' cubic model",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "equilibrated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.1 Atomistic models",
+          "quote": "As shown in Fig. 1a, the model size is about 28×28×28 nm. The volume fraction of 𝛾′ phase in the model is 72.9%, which is consistent with the experimental data (approximately 70%).",
+          "table": "Table 1",
+          "figure": "Fig. 1a",
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "gamma/gamma' layered model 1",
+      "canonical_name": "Ni-Co-Al gamma/gamma' layered model [100]/[010]/[001]",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "shock-loaded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.1 Atomistic models",
+          "quote": "Model 1 [100], p [010], p [001], p 28×28×28 72.9",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "gamma/gamma' layered model 2",
+      "canonical_name": "Ni-Co-Al gamma/gamma' layered model [100]/[010]/[001] free",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "shock-loaded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.1 Atomistic models",
+          "quote": "Model 2 [100], p [010], p [001], f 12.6×12 .6×35 .6 70",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "gamma/gamma' layered model 3",
+      "canonical_name": "Ni-Co-Al gamma/gamma' layered model [1-10]/[001]/[110]",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "shock-loaded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.1 Atomistic models",
+          "quote": "Model 3 [̄110], p [001], p [110], f 17.8×12 .5×35 .4 70",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "gamma/gamma' layered model 4",
+      "canonical_name": "Ni-Co-Al gamma/gamma' layered model [11-2]/[-110]/[111]",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "shock-loaded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.1 Atomistic models",
+          "quote": "Model 4 [11̄2], p [̄110], p [111], f 30.8×17 .8×35 .8 70",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "FCC-Ni",
+      "canonical_name": "Ni",
+      "alloy_system_id": null,
+      "material_state": "0 K",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "3.1.2 Basic properties predicted by NEP",
+              "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d40164a0bb596e75:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": "HCP-Co",
+      "canonical_name": "Co",
+      "alloy_system_id": null,
+      "material_state": "0 K",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "3.1.2 Basic properties predicted by NEP",
+              "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d40164a0bb596e75:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_8",
+      "original_name": "FCC-Al",
+      "canonical_name": "Al",
+      "alloy_system_id": null,
+      "material_state": "0 K",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "3.1.2 Basic properties predicted by NEP",
+              "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d40164a0bb596e75:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_9",
+      "original_name": "L12-Ni3Al",
+      "canonical_name": "Ni3Al",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "0 K",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "3.1.2 Basic properties predicted by NEP",
+              "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d40164a0bb596e75:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "3.1.2 Basic properties predicted by NEP",
+              "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d40164a0bb596e75:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "structure optimization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": "0 bar",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "time_step": "1 fs"
+        }
+      },
+      "input_state": "initial gamma/gamma' cubic model",
+      "output_state": "equilibrated",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.2 Simulation method",
+          "quote": "Structure optimization of the cubic model (Fig. 1a) was carried out under the periodic boundary conditions. Specifically, it was equilibrated for 200 ps with a time step of 1 fs under the NPT ensembles at various temperatures and 0 bar after energy minimization to minimize the artificial elastic stress field.",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "uniaxial tensile loading",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": "2.5e8 s-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "loading_direction": "x",
+          "alternative_strain_rates": "5e8 s-1 and 1e9 s-1"
+        }
+      },
+      "input_state": "equilibrated",
+      "output_state": "deformed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.2 Simulation method",
+          "quote": "After the NPT equilibration, tensile loading was applied along x-direction at a constant strain rate 𝜀̇=2.5×10 8 s−1. Besides, two other strain rates 5×108 s−1 and 1×109 s−1 were also applied to examine the strain rate effect.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "shock loading",
+      "parameters": {
+        "temperature_c": null,
+        "time": "2 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVE",
+          "shock_head": "z=0 to 1 nm rigid body"
+        }
+      },
+      "input_state": "initial layered model",
+      "output_state": "shock-loaded",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.2 Simulation method",
+          "quote": "Firstly, the region from 𝑧= 0 to 1 nm was set as a rigid body and used as a shock head. The shock head impacted the model at a certain velocity under the NVE ensemble for 2 ps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_3",
+      "sequence": 2,
+      "method": "free evolution",
+      "parameters": {
+        "temperature_c": null,
+        "time": "20 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVE"
+        }
+      },
+      "input_state": "shock-loaded",
+      "output_state": "post-shock",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.2 Simulation method",
+          "quote": "Then, the shock loading was removed and the free evolution continued for 20 ps under the NVE ensemble.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_1",
+      "material_state": "equilibrated",
+      "attributes": {
+        "phase_fraction": 0.271,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.1 Atomistic models",
+          "quote": "The volume fraction of 𝛾′ phase in the model is 72.9%, which is consistent with the experimental data (approximately 70%).",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_1",
+      "material_state": "equilibrated",
+      "attributes": {
+        "phase_fraction": 0.729,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.1 Atomistic models",
+          "quote": "The volume fraction of 𝛾′ phase in the model is 72.9%, which is consistent with the experimental data (approximately 70%).",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "L12-Ni3Al",
+      "sample_id": "sample_9",
+      "material_state": "0 K",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "gamma/gamma' phase boundary",
+      "sample_id": "sample_1",
+      "material_state": "equilibrated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma/gamma' interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "the lattice misfit-induced elastic stress fields and interfacial dislocation networks at 𝛾/𝛾′ phase boundaries (PBs) play a pivotal role.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_6",
+      "material_state": "0 K",
+      "property": "lattice constant (a0)",
+      "value": 3.521,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Å",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DFT"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_6",
+      "material_state": "0 K",
+      "property": "lattice constant (a0)",
+      "value": 3.515,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Å",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "NEP"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_6",
+      "material_state": "0 K",
+      "property": "bulk modulus (B0)",
+      "value": 199,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DFT"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "B0 199 204 212 223 75 74 181 185",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_6",
+      "material_state": "0 K",
+      "property": "bulk modulus (B0)",
+      "value": 204,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "NEP"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "B0 199 204 212 223 75 74 181 185",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_7",
+      "material_state": "0 K",
+      "property": "lattice constant (a0)",
+      "value": 2.501,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Å",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DFT"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_7",
+      "material_state": "0 K",
+      "property": "lattice constant (a0)",
+      "value": 2.476,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Å",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "NEP"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_8",
+      "material_state": "0 K",
+      "property": "lattice constant (a0)",
+      "value": 4.051,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Å",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DFT"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_8",
+      "material_state": "0 K",
+      "property": "lattice constant (a0)",
+      "value": 4.045,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Å",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "NEP"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_9",
+      "material_state": "0 K",
+      "property": "lattice constant (a0)",
+      "value": 3.569,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Å",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DFT"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_9",
+      "material_state": "0 K",
+      "property": "lattice constant (a0)",
+      "value": 3.564,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "Å",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "NEP"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "equilibrated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "Nickel-based superalloys derive their exceptional high-temperature mechanical properties primarily from precipitation strengthening, where the lattice misfit-induced elastic stress fields and interfacial dislocation networks at 𝛾/𝛾′ phase boundaries (PBs) play a pivotal role.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "Co is one of the main alloying elements with the highest content in third-generation low-cost SX superalloys. Yang et al. demonstrated that Co content significantly affects the stacking fault energy (SFE) of 𝛾phase [36].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "neuroevolution potential (NEP)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "interatomic potential for Ni-Co-Al ternary system",
+      "inputs": [
+        "radial descriptor",
+        "angular descriptor",
+        "atomic positions"
+      ],
+      "target": "site energy",
+      "dataset": "4124 Ni-Co-Al configurations (90% training, 10% testing)",
+      "validation": "DFT calculations, EAM potential comparison, UNEP-v1 comparison",
+      "metrics": {
+        "energy_rmse_training": "11.93 meV/atom",
+        "force_rmse_training": "63.27 meV/Å",
+        "virial_rmse_training": "35.66 meV/atom",
+        "force_rmse_Ni_Al_testing": "0.063 eV/Å"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1.1 NEP training",
+          "quote": "The RSMEs of energy, force, and virial are 11.93 meV/atom, 63.27 meV/Å and 35.66 meV/atom, respectively.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Ni-based single crystal (SX) superalloys, with excellent mechanical properties in high temperature, are widely used as the preferred materials in the aerospace field.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.2 Simulation method",
+          "quote": "Structure optimization of the cubic model (Fig. 1a) was carried out under the periodic boundary conditions.",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.2 Simulation method",
+          "quote": "After the NPT equilibration, tensile loading was applied along x-direction at a constant strain rate 𝜀̇=2.5×10 8 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_3",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.2 Simulation method",
+          "quote": "Firstly, the region from 𝑧= 0 to 1 nm was set as a rigid body and used as a shock head.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.1 Atomistic models",
+          "quote": "The volume fraction of 𝛾′ phase in the model is 72.9%",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "equilibrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2.1 Atomistic models",
+          "quote": "The volume fraction of 𝛾′ phase in the model is 72.9%",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_9",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_9",
+      "material_state": "0 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "interfacial dislocation networks at 𝛾/𝛾′ phase boundaries (PBs) play a pivotal role.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_6",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_6",
+      "material_state": "0 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_6",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_6",
+      "material_state": "0 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_7",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_7",
+      "material_state": "0 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_8",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_8",
+      "material_state": "0 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_9",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_9",
+      "sample_id": "sample_9",
+      "material_state": "0 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "a0 3.521 3.515 2.501 2.476 4.051 4.045 3.569 3.564",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "Nickel-based superalloys derive their exceptional high-temperature mechanical properties primarily from precipitation strengthening, where the lattice misfit-induced elastic stress fields and interfacial dislocation networks at 𝛾/𝛾′ phase boundaries (PBs) play a pivotal role.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_2",
+      "sample_id": "sample_6",
+      "material_state": "0 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.2 Basic properties predicted by NEP",
+          "quote": "the variation of atomic energy with respect to volume change is calculated for the face centered cubic (FCC) elemental models (FCC-Ni, HCP-Co and FCC-Al) and L12-Ni3Alat 0 K using DFT, NEP and EAM.",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "d40164a0bb596e75:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

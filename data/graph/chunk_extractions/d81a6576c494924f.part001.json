@@ -1,0 +1,285 @@
+{
+  "document_id": "d81a6576c494924f",
+  "chunk_id": "d81a6576c494924f:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Microstructure informatics: Using computer vision for the characterization of dendrite growth phenomena in Ni-base single crystal Superalloys",
+    "authors": [
+      "A.R. Richter",
+      "F. Scholz",
+      "G. Eggeler",
+      "J. Frenzel",
+      "P. Thome"
+    ],
+    "journal": "Materials Characterization",
+    "year": 2025,
+    "doi": "10.1016/j.matchar.2025.114878"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "competitive dendrite growth during directional solidification of single crystal Ni-base superalloys (SXs)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "CMSX-4 type superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "three experimental steps were taken working with a CMSX-4 type of alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4 SX bar",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "directionally solidified",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Acquisition of experimental data",
+          "quote": "The data collected in the present work were collected from a cylindrical bar of a single crystal superalloy of type CMSX-4, which was directionally solidified using a seeded Bridgman technique",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "seeded Bridgman technique",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "solidification direction": "[001]"
+        }
+      },
+      "input_state": "liquid",
+      "output_state": "directionally solidified single crystal",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Acquisition of experimental data",
+          "quote": "which was directionally solidified using a seeded Bridgman technique [15]. All microstructural details of the CMSX-4 seed crystal were determined [54]. The targeted [001] solidification direction was imposed parallel to the longitudinal z-direction of the cylindrical bar.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dendritic microstructure",
+      "sample_id": "sample_1",
+      "material_state": "directionally solidified",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "diameter 12 mm, length 120 mm",
+        "morphology": "dendritic",
+        "location": "bulk",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Acquisition of experimental data",
+          "quote": "The cylindrical SX-bar of a diameter of 12 mm and a length of 120 mm was obtained as described in [15], Fig. 1. Fig. 1a shows the dimensions of the cylindrical bar. Fig. 1b defines a xS,yS,zS-coordinate system, schematically illustrates a few dendrites in wire frame mode (black lines in cylinder)",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "crystal mosaicity",
+      "sample_id": "sample_1",
+      "material_state": "directionally solidified",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "orientation differences significantly smaller than 0.1°",
+        "morphology": null,
+        "location": "within single crystal",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Crystal mosaicity refers to small orientation differences which exist within a real single crystal [5]. In SXs mosaicity is related to the growth and deformation of dendrites during solidification [15–19]. These slightly misoriented regions are separated by low angle grain boundaries (LAGBs) which are associated with dislocation networks [17,20].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "YOLOv2 with AlexNet backbone",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "object detection of dendrite core positions",
+      "inputs": [
+        "optical micrographs"
+      ],
+      "target": "dendrite core positions",
+      "dataset": "76 cross sections, subdivided into 300x300 px subunits",
+      "validation": "detection rates compared against ground truth data",
+      "metrics": {
+        "detection_rate": ">99%"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The performance of different deep learning classification architectures (AlexNet, GoogleNet and MobileNetV2) in combination with a YOLOv2 subdetection network is investigated. The network hyper parameters were optimized to achieve detection rates > 99 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "YOLOv2 with GoogleNet backbone",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "object detection of dendrite core positions",
+      "inputs": [
+        "optical micrographs"
+      ],
+      "target": "dendrite core positions",
+      "dataset": "76 cross sections, subdivided into 300x300 px subunits",
+      "validation": "detection rates compared against ground truth data",
+      "metrics": {
+        "detection_rate": ">99%"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The performance of different deep learning classification architectures (AlexNet, GoogleNet and MobileNetV2) in combination with a YOLOv2 subdetection network is investigated. The network hyper parameters were optimized to achieve detection rates > 99 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "YOLOv2 with MobileNetV2 backbone",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "object detection of dendrite core positions",
+      "inputs": [
+        "optical micrographs"
+      ],
+      "target": "dendrite core positions",
+      "dataset": "76 cross sections, subdivided into 300x300 px subunits",
+      "validation": "detection rates compared against ground truth data",
+      "metrics": {
+        "detection_rate": ">99%"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The performance of different deep learning classification architectures (AlexNet, GoogleNet and MobileNetV2) in combination with a YOLOv2 subdetection network is investigated. The network hyper parameters were optimized to achieve detection rates > 99 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "directionally solidified",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Acquisition of experimental data",
+          "quote": "The cylindrical SX-bar of a diameter of 12 mm and a length of 120 mm was obtained as described in [15], Fig. 1.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "directionally solidified",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Crystal mosaicity refers to small orientation differences which exist within a real single crystal [5].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d81a6576c494924f:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,333 @@
+{
+  "document_id": "665ee2d32e2d7f28",
+  "chunk_id": "665ee2d32e2d7f28:part:001",
+  "paper_metadata": {
+    "title": "Studying the effects of Nb on high-temperature deformation in TiAl alloys using atomistic simulations",
+    "authors": [
+      "Anju Chandran",
+      "Hariprasath Ganesan",
+      "Christian J. Cyron"
+    ],
+    "journal": "Materials & Design",
+    "year": 2024,
+    "doi": "10.1016/j.matdes.2023.112596"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "TiAlNb alloy",
+      "material_category": "intermetallic",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Several pioneering experimental works showed improved mechanical properties of γ(TiAl)-based alloys containing Niobium (Nb).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665ee2d32e2d7f28:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "γ-TiAl",
+      "canonical_name": "TiAl",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-modeled",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1.2. Single phase models",
+          "quote": "The single-phase models of γ-TiAl (a = 3.950 Å, c/a = 1.048) and α2-Ti3Al (a = 5.740 Å, c/a = 0.815) were modeled with the Farkas binary potential [30], where such single phases represent the lamellae of the constituent intermetallic phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665ee2d32e2d7f28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "α2-Ti3Al",
+      "canonical_name": "Ti3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-modeled",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1.2. Single phase models",
+          "quote": "The single-phase models of γ-TiAl (a = 3.950 Å, c/a = 1.048) and α2-Ti3Al (a = 5.740 Å, c/a = 0.815) were modeled with the Farkas binary potential [30], where such single phases represent the lamellae of the constituent intermetallic phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665ee2d32e2d7f28:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "target temperature": "300K",
+          "heating rate": "3 K/ps",
+          "equilibration": "100 ps",
+          "timestep": "1 fs"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-modeled",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1.6. Simulated tension tests",
+          "quote": "Later, the simulation models were heated to the target temperature of 300K for single phase models, 700K and 900K for interface models, and 300K, 500K, 700K and 900K for MIAMs. The heating rate for all the considered models was 3 K/ps followed by thermal equilibration for 100 ps. The timestep size was 1 fs for models without Nb using the Zope, Farkas, and Kim potentials) and 0.1 fs for models with Nb using the Farkas' potential.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665ee2d32e2d7f28:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ-TiAl",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "TiAl",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "The interesting intermetallic phases for engineering applications are γ-TiAl (ordered face-centered tetragonal, L10, P4/mmm) and α2-Ti3Al (ordered hexagonal, D019, P63/mmc).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665ee2d32e2d7f28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "α2-Ti3Al",
+      "sample_id": "sample_2",
+      "material_state": "as-modeled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ti3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "The interesting intermetallic phases for engineering applications are γ-TiAl (ordered face-centered tetragonal, L10, P4/mmm) and α2-Ti3Al (ordered hexagonal, D019, P63/mmc).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665ee2d32e2d7f28:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "property": "ultimate tensile strength",
+      "value": 15.33,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": 1000000000.0,
+        "loading_mode": "uniaxial tension",
+        "orientation": "Z-direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Table 2",
+          "quote": "0.0 15.33 10.39",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "665ee2d32e2d7f28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-modeled",
+      "property": "ultimate tensile strength",
+      "value": 10.39,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": 1000000000.0,
+        "loading_mode": "uniaxial tension",
+        "orientation": "Z-direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Table 2",
+          "quote": "0.0 15.33 10.39",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "665ee2d32e2d7f28:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4. Conclusions",
+          "quote": "At low Nb concentrations, we obtained the novel insight that Nb assists in delaying the γ → α2 phase transformation to improve ductility, besides the widely reported solid-solution strengthening (dislocations pinned/retarded by Nb) and microstructure changes.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665ee2d32e2d7f28:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation hindering",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "3.2.1",
+          "quote": "This indicates a strengthening effect, where the Nb atoms hinder the propagating dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665ee2d32e2d7f28:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-modeled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

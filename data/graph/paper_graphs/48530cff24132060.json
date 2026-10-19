@@ -1,0 +1,3255 @@
+{
+  "document_id": "48530cff24132060",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Research progress on hot deformation behavior of high-strength β titanium alloy: flow behavior and constitutive model",
+    "authors": [
+      "Chang-Min Li",
+      "Liang Huang",
+      "Cheng-Lin Li",
+      "Song-Xiao Hui",
+      "Yang Yu",
+      "Ming-Jie Zhao",
+      "Shi-Qi Guo",
+      "Jian-Jun Li"
+    ],
+    "journal": "Rare Metals",
+    "year": 2022,
+    "doi": "10.1007/s12598-021-01861-7"
+  },
+  "alloy_systems": [
+    {
+      "id": "part1_alloy_system_1",
+      "name": "near β titanium alloy",
+      "material_category": "titanium alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "High-strength β titanium alloys represented by near β titanium alloy and metastable β titanium alloy are preferred materials for large-scale load-carrying structures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_alloy_system_2",
+      "name": "metastable β titanium alloy",
+      "material_category": "titanium alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "High-strength β titanium alloys represented by near β titanium alloy and metastable β titanium alloy are preferred materials for large-scale load-carrying structures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_alloy_system_1",
+      "name": "β titanium alloy",
+      "material_category": "titanium alloy",
+      "evidence": [
+        {
+          "page": "9-16",
+          "section": "All",
+          "quote": "Research progress on hot deformation behavior of high-strength β titanium alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "part1_sample_1",
+      "original_name": "Ti–55531",
+      "canonical_name": "Ti-5Al-5Mo-5V-3Cr-1Zr",
+      "alloy_system_id": "part1_alloy_system_2",
+      "material_state": "coarse β grains with lamellar α",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Typical high-strength β titanium alloy",
+          "quote": "Ti–5Al–5Mo–5V–3Cr–1Zr (Ti –55531) 4.950 803 1300 [ 31]",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        },
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3a shows coarse β grains with lamellar α in Ti–55531 alloy [ 35].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_sample_2",
+      "original_name": "Ti–55511",
+      "canonical_name": "Ti-5V-5Mo-1Cr-1Fe-5Al",
+      "alloy_system_id": "part1_alloy_system_2",
+      "material_state": "lamellar α phase + β matrix",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Fe",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Typical high-strength β titanium alloy",
+          "quote": "Ti–5V–5Mo–1Cr–1Fe–5Al (Ti –55511) 7.850 855 1100 [ 26]",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        },
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3c shows the lamellar α phase and β matrix in the Ti–55511 alloy, in which the fraction of lamellar α phase is 63.4% [ 41].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_sample_3",
+      "original_name": "Ti–7333",
+      "canonical_name": "Ti-7Mo-3Al-3Cr-3Nb",
+      "alloy_system_id": "part1_alloy_system_2",
+      "material_state": "single β phase (equiaxed grains)",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Typical high-strength β titanium alloy",
+          "quote": "Ti–7Mo–3Al–3Cr–3Nb (Ti –7333) 9.640 850 1400 [ 23]",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        },
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3d shows that the Ti–7333 alloy is composed of single β phase in the form of equiaxed grains with an average size of (119 ±76) μm[ 42].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_sample_4",
+      "original_name": "Ti–52244",
+      "canonical_name": null,
+      "alloy_system_id": null,
+      "material_state": "colony microstructure",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3.2 Dynamic softening effect",
+          "quote": "Figure 7 shows the ﬂow softening behavior of Ti–52244 alloy with different initial microstructures MA (equiaxed α and β matrix, Fig. 7a) and MB (colony microstructure, Fig. 7b) [ 43]",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_1",
+      "original_name": "Ti–52244",
+      "canonical_name": "Ti-52244",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3.3",
+          "quote": "Flow softening behavior of Ti –52244 alloy with different initial microstructures",
+          "table": null,
+          "figure": "7",
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_2",
+      "original_name": "Ti–55531",
+      "canonical_name": "Ti-55531",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3.3",
+          "quote": "measured and corrected stress –strain curves of Ti –55531 alloy at different temperatures",
+          "table": null,
+          "figure": "8",
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_3",
+      "original_name": "Ti–5553",
+      "canonical_name": "Ti-5553",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–5553 [ 73] 296.00 188.00 0.001 –10 600 –1100",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_4",
+      "original_name": "Ti–7333",
+      "canonical_name": "Ti-7333",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–7333 [ 39] 333.74 213.83 0.001 –10 770 –970",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_5",
+      "original_name": "Ti–1023",
+      "canonical_name": "Ti-1023",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–1023 [ 80] 322.00 160.00 0.001 –10 650 –900",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_6",
+      "original_name": "Ti–6554",
+      "canonical_name": "Ti-6554",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–6554 [ 34] 316.00 203.00 0.001 –1 690 –840",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_7",
+      "original_name": "Ti–555211",
+      "canonical_name": "Ti-555211",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–555211 [28] 476.00 222.00 0.001 –1 750 –950",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_8",
+      "original_name": "Ti–55511 (equiaxed)",
+      "canonical_name": "Ti-55511",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "equiaxed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (equiaxed) [ 74] 288.00 247.00 0.001 –10 800 –900",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_9",
+      "original_name": "Ti–55511 (thin lamellar)",
+      "canonical_name": "Ti-55511",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "thin lamellar",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (thin lamellar) [ 46] 382.75 – 0.100–0.001 700 –800",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_10",
+      "original_name": "Ti–55511 (thick lamellar)",
+      "canonical_name": "Ti-55511",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "thick lamellar",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (thick lamellar) [ 46] 432.28 – 0.100–0.001 700 –800",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_11",
+      "original_name": "TB8 (coarse grains)",
+      "canonical_name": "TB8",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "coarse grains",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB8 (coarse grains) [ 47] – 245.56 0.001 –1 850 –1000",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_12",
+      "original_name": "TB8 (fine grains)",
+      "canonical_name": "TB8",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "fine grains",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB8 ( ﬁne grains) [ 47] – 234.72 0.001 –1 850 –1000",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_13",
+      "original_name": "TB9",
+      "canonical_name": "TB9",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB9 [ 82] – 167.0 0.001 –10 800 –1000",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_14",
+      "original_name": "TB17",
+      "canonical_name": "TB17",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB17 [ 58] 538.40 397.4 0.001 –10 775 –905",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_15",
+      "original_name": "Ti–1300",
+      "canonical_name": "Ti-1300",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–1300 [ 78] 216.00 178.00 0.010 –10 800 –890",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_16",
+      "original_name": "Ti–4Al–1Sn–2Zr–5Mo–8V–2.5Cr",
+      "canonical_name": "Ti-4Al-1Sn-2Zr-5Mo-8V-2.5Cr",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Al",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": "Table 3",
+              "quote": "Ti–4Al–1Sn–2Zr–5Mo–8V–2.5Cr [ 83] 592.70 0.001 –1 780 –930",
+              "table": "3",
+              "figure": null,
+              "chunk_id": "48530cff24132060:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Sn",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": "Table 3",
+              "quote": "Ti–4Al–1Sn–2Zr–5Mo–8V–2.5Cr [ 83] 592.70 0.001 –1 780 –930",
+              "table": "3",
+              "figure": null,
+              "chunk_id": "48530cff24132060:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": "Table 3",
+              "quote": "Ti–4Al–1Sn–2Zr–5Mo–8V–2.5Cr [ 83] 592.70 0.001 –1 780 –930",
+              "table": "3",
+              "figure": null,
+              "chunk_id": "48530cff24132060:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": "Table 3",
+              "quote": "Ti–4Al–1Sn–2Zr–5Mo–8V–2.5Cr [ 83] 592.70 0.001 –1 780 –930",
+              "table": "3",
+              "figure": null,
+              "chunk_id": "48530cff24132060:part:002"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": "Table 3",
+              "quote": "Ti–4Al–1Sn–2Zr–5Mo–8V–2.5Cr [ 83] 592.70 0.001 –1 780 –930",
+              "table": "3",
+              "figure": null,
+              "chunk_id": "48530cff24132060:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 2.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": "Table 3",
+              "quote": "Ti–4Al–1Sn–2Zr–5Mo–8V–2.5Cr [ 83] 592.70 0.001 –1 780 –930",
+              "table": "3",
+              "figure": null,
+              "chunk_id": "48530cff24132060:part:002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_17",
+      "original_name": "Ti–6V–6Mo–6Fe–3Al (Ti–6663)",
+      "canonical_name": "Ti-6V-6Mo-6Fe-3Al",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "V",
+          "value": 6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": null,
+              "quote": "Ti–6V–6Mo–6Fe–3Al (Ti–6663) alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "48530cff24132060:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": null,
+              "quote": "Ti–6V–6Mo–6Fe–3Al (Ti–6663) alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "48530cff24132060:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": null,
+              "quote": "Ti–6V–6Mo–6Fe–3Al (Ti–6663) alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "48530cff24132060:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "11",
+              "section": null,
+              "quote": "Ti–6V–6Mo–6Fe–3Al (Ti–6663) alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "48530cff24132060:part:002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_18",
+      "original_name": "pure titanium",
+      "canonical_name": "Ti",
+      "alloy_system_id": null,
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "10",
+          "section": "3.4.1",
+          "quote": "pure titanium self-diffusion activation energy (153 kJ·mol −1)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "part1_process_1",
+      "sample_id": "part1_sample_1",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "furnace cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "coarse β grains with lamellar α",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Coarse β grains with lamellar α 950 °C/2 h ?furnace cooling [ 35]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_2",
+      "sample_id": "part1_sample_1",
+      "sequence": 1,
+      "method": "free forging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "equiaxed α phase + β matrix",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Equiaxed α phase?β matrix Free forging [ 40]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_3",
+      "sample_id": "part1_sample_2",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 750,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "lamellar α phase + β matrix",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Lamellar α phase?β matrix 750 °C/2 h ?air cooling [ 41]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_4",
+      "sample_id": "part1_sample_3",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 900,
+        "time": "30 min",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "water cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "single β phase",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Single β phase 900 °C/30 min ?water cooling [42]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "part1_microstructure_1",
+      "type": "Microstructure",
+      "name": "lamellar α phase",
+      "sample_id": "part1_sample_1",
+      "material_state": "coarse β grains with lamellar α",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "lamellar",
+        "location": "within coarse β grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3a shows coarse β grains with lamellar α in Ti–55531 alloy [ 35].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_2",
+      "type": "Microstructure",
+      "name": "equiaxed α phase",
+      "sample_id": "part1_sample_1",
+      "material_state": "equiaxed α phase + β matrix",
+      "attributes": {
+        "phase_fraction": 35,
+        "size": null,
+        "morphology": "equiaxed",
+        "location": "in β matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3b indicates the equiaxed α phase and β matrix in Ti–55531 alloy, in which the proportion of equiaxed α phase is 35% [ 40].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_3",
+      "type": "Microstructure",
+      "name": "lamellar α phase",
+      "sample_id": "part1_sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "attributes": {
+        "phase_fraction": 63.4,
+        "size": null,
+        "morphology": "lamellar",
+        "location": "in β matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3c shows the lamellar α phase and β matrix in the Ti–55511 alloy, in which the fraction of lamellar α phase is 63.4% [ 41].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_4",
+      "type": "Microstructure",
+      "name": "single β phase",
+      "sample_id": "part1_sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "119 ± 76 μm (average grain size)",
+        "morphology": "equiaxed grains",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3d shows that the Ti–7333 alloy is composed of single β phase in the form of equiaxed grains with an average size of (119 ±76) μm[ 42].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_5",
+      "type": "Microstructure",
+      "name": "colony microstructure",
+      "sample_id": "part1_sample_4",
+      "material_state": "colony microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "colony",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3.2 Dynamic softening effect",
+          "quote": "MB (colony microstructure, Fig. 7b) [ 43]",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "β phase region",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3.2",
+          "quote": "in the β phase region, the body-centered cubic has more slip systems and a higher diffusion coefﬁcient",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_2",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3.2",
+          "quote": "the close-packed hexagonal structure hinders the dislocation movement, which increases the deformation stored energy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_3",
+      "type": "Phase",
+      "name": "α phase",
+      "sample_id": "part2_sample_4",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "β grain boundaries with continuous and discontinuous α precipitates, and without α precipitates and intragranular α precipitates",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "part2_observation_1",
+      "sample_id": "part2_sample_1",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 537.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–52244 [ 81] 537.00 149.00 0.001 –1 810 –920",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_2",
+      "sample_id": "part2_sample_1",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 149.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–52244 [ 81] 537.00 149.00 0.001 –1 810 –920",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_3",
+      "sample_id": "part2_sample_2",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 275.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55531 [ 4] 275.00 148.00 0.010 –1 763 –843",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_4",
+      "sample_id": "part2_sample_2",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 148.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55531 [ 4] 275.00 148.00 0.010 –1 763 –843",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_5",
+      "sample_id": "part2_sample_3",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 296.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–5553 [ 73] 296.00 188.00 0.001 –10 600 –1100",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_6",
+      "sample_id": "part2_sample_3",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 188.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–5553 [ 73] 296.00 188.00 0.001 –10 600 –1100",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_7",
+      "sample_id": "part2_sample_4",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 333.74,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–7333 [ 39] 333.74 213.83 0.001 –10 770 –970",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_8",
+      "sample_id": "part2_sample_4",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 213.83,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–7333 [ 39] 333.74 213.83 0.001 –10 770 –970",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_9",
+      "sample_id": "part2_sample_5",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 322.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–1023 [ 80] 322.00 160.00 0.001 –10 650 –900",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_10",
+      "sample_id": "part2_sample_5",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 160.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–1023 [ 80] 322.00 160.00 0.001 –10 650 –900",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_11",
+      "sample_id": "part2_sample_6",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 316.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–6554 [ 34] 316.00 203.00 0.001 –1 690 –840",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_12",
+      "sample_id": "part2_sample_6",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 203.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–6554 [ 34] 316.00 203.00 0.001 –1 690 –840",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_13",
+      "sample_id": "part2_sample_7",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 476.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–555211 [28] 476.00 222.00 0.001 –1 750 –950",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_14",
+      "sample_id": "part2_sample_7",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 222.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–555211 [28] 476.00 222.00 0.001 –1 750 –950",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_15",
+      "sample_id": "part2_sample_8",
+      "material_state": "equiaxed",
+      "property": "apparent activation energy for deformation",
+      "value": 288.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (equiaxed) [ 74] 288.00 247.00 0.001 –10 800 –900",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_16",
+      "sample_id": "part2_sample_8",
+      "material_state": "equiaxed",
+      "property": "apparent activation energy for deformation",
+      "value": 247.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (equiaxed) [ 74] 288.00 247.00 0.001 –10 800 –900",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_17",
+      "sample_id": "part2_sample_9",
+      "material_state": "thin lamellar",
+      "property": "apparent activation energy for deformation",
+      "value": 382.75,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (thin lamellar) [ 46] 382.75 – 0.100–0.001 700 –800",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_18",
+      "sample_id": "part2_sample_10",
+      "material_state": "thick lamellar",
+      "property": "apparent activation energy for deformation",
+      "value": 432.28,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (thick lamellar) [ 46] 432.28 – 0.100–0.001 700 –800",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_19",
+      "sample_id": "part2_sample_11",
+      "material_state": "coarse grains",
+      "property": "apparent activation energy for deformation",
+      "value": 245.56,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB8 (coarse grains) [ 47] – 245.56 0.001 –1 850 –1000",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_20",
+      "sample_id": "part2_sample_12",
+      "material_state": "fine grains",
+      "property": "apparent activation energy for deformation",
+      "value": 234.72,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB8 ( ﬁne grains) [ 47] – 234.72 0.001 –1 850 –1000",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_21",
+      "sample_id": "part2_sample_13",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 167.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB9 [ 82] – 167.0 0.001 –10 800 –1000",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_22",
+      "sample_id": "part2_sample_14",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 538.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB17 [ 58] 538.40 397.4 0.001 –10 775 –905",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_23",
+      "sample_id": "part2_sample_14",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 397.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB17 [ 58] 538.40 397.4 0.001 –10 775 –905",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_24",
+      "sample_id": "part2_sample_15",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 216.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–1300 [ 78] 216.00 178.00 0.010 –10 800 –890",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_25",
+      "sample_id": "part2_sample_15",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 178.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–1300 [ 78] 216.00 178.00 0.010 –10 800 –890",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_26",
+      "sample_id": "part2_sample_16",
+      "material_state": null,
+      "property": "apparent activation energy for deformation",
+      "value": 592.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–4Al–1Sn–2Zr–5Mo–8V–2.5Cr [ 83] 592.70 0.001 –1 780 –930",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_27",
+      "sample_id": "part2_sample_18",
+      "material_state": null,
+      "property": "self-diffusion activation energy",
+      "value": 153.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "kJ·mol-1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": "3.4.1",
+          "quote": "pure titanium self-diffusion activation energy (153 kJ·mol −1)[ 47]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_28",
+      "sample_id": null,
+      "material_state": null,
+      "property": "strain rate sensitivity coefficient",
+      "value": 0.188,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.4.2",
+          "quote": "the m values increase from 0.188 at 800 °C to 0.226 at 900 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_29",
+      "sample_id": null,
+      "material_state": null,
+      "property": "strain rate sensitivity coefficient",
+      "value": 0.226,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 900,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.4.2",
+          "quote": "the m values increase from 0.188 at 800 °C to 0.226 at 900 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "part1_mechanism_1",
+      "name": "dynamic recrystallization (DRX)",
+      "category": "softening",
+      "sample_id": "part1_sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "The main softening mechanisms of single β phase alloy during hot deformation are DRX and dynamic recovery (DRV).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_2",
+      "name": "dynamic recovery (DRV)",
+      "category": "softening",
+      "sample_id": "part1_sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "The main softening mechanisms of single β phase alloy during hot deformation are DRX and dynamic recovery (DRV).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_3",
+      "name": "dislocation pile-up at α/β interface",
+      "category": "work hardening",
+      "sample_id": "part1_sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "This is mainly because the lamellar α phase hinders the dislocation movement in the ﬁrst stage. Many dislocation accumulation and entanglement are formed at the α/β interface, resulting in peak stress significantly higher than that of the equiaxed α phase [43].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_4",
+      "name": "lamellar bending/kinking",
+      "category": "softening",
+      "sample_id": "part1_sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "With the dislocation density increasing, the lamellar bending/kinking is responsible for the flow softening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_1",
+      "name": "deformation heating",
+      "category": "thermal effect",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3.3",
+          "quote": "the heat generated by plastic deformation is difﬁcult to dissipate, which leads to a signiﬁcant increase in the center temperature of the sample",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_2",
+      "name": "dynamic recovery",
+      "category": "softening mechanism",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "3.4.1",
+          "quote": "when the activation energy is close to the self-diffusion activation energy, DRV is the main softening mechanism",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_3",
+      "name": "dynamic recrystallization",
+      "category": "softening mechanism",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "3.4.1",
+          "quote": "In the DRX process, the LAGBs transform to the HAGBs by grain rotation and diffusion flow",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_4",
+      "name": "grain boundary sliding",
+      "category": "deformation mechanism",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "3.4.2",
+          "quote": "the high m value indicates that grain boundary sliding may be the main mechanism contributing to superplastic deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_5",
+      "name": "dislocation glide and climb",
+      "category": "deformation mechanism",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "Table 4",
+          "quote": "Dislocation glide and climb",
+          "table": "4",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "part2_ml_model_1",
+      "name": "artificial neural network (ANN)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "flow stress prediction",
+      "inputs": [
+        "deformation process parameters"
+      ],
+      "target": "flow stress",
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "16",
+          "section": "4.1",
+          "quote": "The artiﬁcial neural network model (ANN), which describes the mapping relationship between deformation process parameters and flow stress, can also be used to construct a constitutive relationship model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "part1_claim_1",
+      "source_id": "part1_alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "part1_sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "High-strength β titanium alloys represented by near β titanium alloy and metastable β titanium alloy are preferred materials for large-scale load-carrying structures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_2",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_microstructure_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "coarse β grains with lamellar α",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3a shows coarse β grains with lamellar α in Ti–55531 alloy [ 35].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_3",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_microstructure_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "equiaxed α phase + β matrix",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3b indicates the equiaxed α phase and β matrix in Ti–55531 alloy, in which the proportion of equiaxed α phase is 35% [ 40].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_4",
+      "source_id": "part1_sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_microstructure_3",
+      "sample_id": "part1_sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3c shows the lamellar α phase and β matrix in the Ti–55511 alloy, in which the fraction of lamellar α phase is 63.4% [ 41].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_5",
+      "source_id": "part1_sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_microstructure_4",
+      "sample_id": "part1_sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3d shows that the Ti–7333 alloy is composed of single β phase in the form of equiaxed grains with an average size of (119 ±76) μm[ 42].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_6",
+      "source_id": "part1_sample_4",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_microstructure_5",
+      "sample_id": "part1_sample_4",
+      "material_state": "colony microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3.2 Dynamic softening effect",
+          "quote": "MB (colony microstructure, Fig. 7b) [ 43]",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_7",
+      "source_id": "part1_sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "part1_process_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "coarse β grains with lamellar α",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Coarse β grains with lamellar α 950 °C/2 h ?furnace cooling [ 35]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_8",
+      "source_id": "part1_sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "part1_process_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "equiaxed α phase + β matrix",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Equiaxed α phase?β matrix Free forging [ 40]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_9",
+      "source_id": "part1_sample_2",
+      "predicate": "FABRICATED_BY",
+      "target_id": "part1_process_3",
+      "sample_id": "part1_sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Lamellar α phase?β matrix 750 °C/2 h ?air cooling [ 41]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_10",
+      "source_id": "part1_sample_3",
+      "predicate": "FABRICATED_BY",
+      "target_id": "part1_process_4",
+      "sample_id": "part1_sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Single β phase 900 °C/30 min ?water cooling [42]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_11",
+      "source_id": "part1_microstructure_4",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_1",
+      "sample_id": "part1_sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "The main softening mechanisms of single β phase alloy during hot deformation are DRX and dynamic recovery (DRV).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_12",
+      "source_id": "part1_microstructure_4",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_2",
+      "sample_id": "part1_sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "The main softening mechanisms of single β phase alloy during hot deformation are DRX and dynamic recovery (DRV).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_13",
+      "source_id": "part1_microstructure_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_3",
+      "sample_id": "part1_sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "This is mainly because the lamellar α phase hinders the dislocation movement in the ﬁrst stage. Many dislocation accumulation and entanglement are formed at the α/β interface, resulting in peak stress significantly higher than that of the equiaxed α phase [43].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_14",
+      "source_id": "part1_microstructure_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_4",
+      "sample_id": "part1_sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "With the dislocation density increasing, the lamellar bending/kinking is responsible for the flow softening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_1",
+      "source_id": "part2_phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part2_mechanism_5",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3.2",
+          "quote": "in the β phase region, the body-centered cubic has more slip systems and a higher diffusion coefﬁcient, so that the dislocation storage energy at the initial deformation stage is lower",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_2",
+      "source_id": "part2_mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "part2_observation_29",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "3.3.3",
+          "quote": "The softening effect caused by deformation heating is more signiﬁcant when the strain rate is higher, but the difference of measured and corrected curves decreases gradually with the increase in temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_3",
+      "source_id": "part2_mechanism_2",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "part2_mechanism_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "3.4.1",
+          "quote": "Therefore, the DRV needs a higher Q value for dislocation movement than the DRX. With the increase in strain, the inﬂuence of DRV on Q value decreases gradually, but the inﬂuence of DRX increases gradually",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_4",
+      "source_id": "part2_sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_7",
+      "sample_id": "part2_sample_4",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–7333 [ 39] 333.74 213.83 0.001 –10 770 –970",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_5",
+      "source_id": "part2_sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_8",
+      "sample_id": "part2_sample_4",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–7333 [ 39] 333.74 213.83 0.001 –10 770 –970",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_6",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_1",
+      "sample_id": "part2_sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–52244 [ 81] 537.00 149.00 0.001 –1 810 –920",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_7",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_2",
+      "sample_id": "part2_sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–52244 [ 81] 537.00 149.00 0.001 –1 810 –920",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_8",
+      "source_id": "part2_sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_3",
+      "sample_id": "part2_sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55531 [ 4] 275.00 148.00 0.010 –1 763 –843",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_9",
+      "source_id": "part2_sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_4",
+      "sample_id": "part2_sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55531 [ 4] 275.00 148.00 0.010 –1 763 –843",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_10",
+      "source_id": "part2_sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_5",
+      "sample_id": "part2_sample_3",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–5553 [ 73] 296.00 188.00 0.001 –10 600 –1100",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_11",
+      "source_id": "part2_sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_6",
+      "sample_id": "part2_sample_3",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–5553 [ 73] 296.00 188.00 0.001 –10 600 –1100",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_12",
+      "source_id": "part2_sample_5",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_9",
+      "sample_id": "part2_sample_5",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–1023 [ 80] 322.00 160.00 0.001 –10 650 –900",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_13",
+      "source_id": "part2_sample_5",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_10",
+      "sample_id": "part2_sample_5",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–1023 [ 80] 322.00 160.00 0.001 –10 650 –900",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_14",
+      "source_id": "part2_sample_6",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_11",
+      "sample_id": "part2_sample_6",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–6554 [ 34] 316.00 203.00 0.001 –1 690 –840",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_15",
+      "source_id": "part2_sample_6",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_12",
+      "sample_id": "part2_sample_6",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–6554 [ 34] 316.00 203.00 0.001 –1 690 –840",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_16",
+      "source_id": "part2_sample_7",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_13",
+      "sample_id": "part2_sample_7",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–555211 [28] 476.00 222.00 0.001 –1 750 –950",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_17",
+      "source_id": "part2_sample_7",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_14",
+      "sample_id": "part2_sample_7",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–555211 [28] 476.00 222.00 0.001 –1 750 –950",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_18",
+      "source_id": "part2_sample_8",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_15",
+      "sample_id": "part2_sample_8",
+      "material_state": "equiaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (equiaxed) [ 74] 288.00 247.00 0.001 –10 800 –900",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_19",
+      "source_id": "part2_sample_8",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_16",
+      "sample_id": "part2_sample_8",
+      "material_state": "equiaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (equiaxed) [ 74] 288.00 247.00 0.001 –10 800 –900",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_20",
+      "source_id": "part2_sample_9",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_17",
+      "sample_id": "part2_sample_9",
+      "material_state": "thin lamellar",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (thin lamellar) [ 46] 382.75 – 0.100–0.001 700 –800",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_21",
+      "source_id": "part2_sample_10",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_18",
+      "sample_id": "part2_sample_10",
+      "material_state": "thick lamellar",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–55511 (thick lamellar) [ 46] 432.28 – 0.100–0.001 700 –800",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_22",
+      "source_id": "part2_sample_11",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_19",
+      "sample_id": "part2_sample_11",
+      "material_state": "coarse grains",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB8 (coarse grains) [ 47] – 245.56 0.001 –1 850 –1000",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_23",
+      "source_id": "part2_sample_12",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_20",
+      "sample_id": "part2_sample_12",
+      "material_state": "fine grains",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB8 ( ﬁne grains) [ 47] – 234.72 0.001 –1 850 –1000",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_24",
+      "source_id": "part2_sample_13",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_21",
+      "sample_id": "part2_sample_13",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB9 [ 82] – 167.0 0.001 –10 800 –1000",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_25",
+      "source_id": "part2_sample_14",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_22",
+      "sample_id": "part2_sample_14",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB17 [ 58] 538.40 397.4 0.001 –10 775 –905",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_26",
+      "source_id": "part2_sample_14",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_23",
+      "sample_id": "part2_sample_14",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "TB17 [ 58] 538.40 397.4 0.001 –10 775 –905",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_27",
+      "source_id": "part2_sample_15",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_24",
+      "sample_id": "part2_sample_15",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–1300 [ 78] 216.00 178.00 0.010 –10 800 –890",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_28",
+      "source_id": "part2_sample_15",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_25",
+      "sample_id": "part2_sample_15",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–1300 [ 78] 216.00 178.00 0.010 –10 800 –890",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_29",
+      "source_id": "part2_sample_16",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_26",
+      "sample_id": "part2_sample_16",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Table 3",
+          "quote": "Ti–4Al–1Sn–2Zr–5Mo–8V–2.5Cr [ 83] 592.70 0.001 –1 780 –930",
+          "table": "3",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_30",
+      "source_id": "part2_sample_18",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_27",
+      "sample_id": "part2_sample_18",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "3.4.1",
+          "quote": "pure titanium self-diffusion activation energy (153 kJ·mol −1)[ 47]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_31",
+      "source_id": "part2_sample_4",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part2_phase_3",
+      "sample_id": "part2_sample_4",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Ti–7333 deformed at 600 °C to reduction of 4%, showing a global microstructure, b β grain boundaries with continuous and discontinuous α precipitates",
+          "table": null,
+          "figure": "11",
+          "chunk_id": "48530cff24132060:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "MA (equiaxed α and β matrix)",
+    "MB (colony microstructure)",
+    "Ti–52244 alloy",
+    "TC11 alloy",
+    "Ti–5Al–5Mo–5V–1Cr–1Fe alloy",
+    "Ti–5Al–5Mo–5V–3Cr–1Zr alloy",
+    "Ti–5Al–5Mo–5V–3Cr–0.5Fe alloy",
+    "Ti–5Al–5V–5Mo–3Cr alloy",
+    "Ti–5Al–2Sn–2Zr–4Mo–4Cr alloy",
+    "Ti–10V–2Fe–3Al alloy",
+    "Ti–15V–3Cr–3Sn–3Al alloy",
+    "Ti–3Al–5Mo–4Cr–2Zr–1Fe alloy",
+    "Ti–7333 alloy",
+    "Ti–1300 alloy",
+    "Ti–6246 alloy",
+    "Ti–55511 alloy",
+    "Ti555211 alloy",
+    "Ti55531 alloy",
+    "TB17 titanium alloy",
+    "TB8 titanium alloy",
+    "TC18 titanium alloy",
+    "Ti–15–3 titanium alloy",
+    "Ti–38–644 alloy",
+    "Ti–6Cr–5Mo–5V–4Al alloy",
+    "Ti–5Mo–5V–2Cr–3Al alloy",
+    "Ti–5Al–2Sn–2Zr–4Mo–4Cr alloy",
+    "dynamic recrystallization (DRX)",
+    "dynamic globularization",
+    "Johnson–Mehl–Avrami–Kolmogorov (JMAK)-DRX model",
+    "artificial neural network (ANN)",
+    "Zener–Hollomon parameter",
+    "Kocks–Mecking theory",
+    "Picu–Majorell theory",
+    "Ashby theory",
+    "genetic algorithm (GA)",
+    "Arrhenius model",
+    "critical stress model",
+    "grain size model",
+    "internal variable model",
+    "macroscopic–microscopic coupling model",
+    "work hardening",
+    "flow softening",
+    "α phase",
+    "β phase",
+    "α+β region",
+    "β single-phase region"
+  ],
+  "conflicts": [
+    {
+      "type": "merge_fallback",
+      "message": "Segment graphs were combined deterministically; aliases may remain duplicated."
+    }
+  ]
+}

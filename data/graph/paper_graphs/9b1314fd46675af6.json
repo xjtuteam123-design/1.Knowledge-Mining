@@ -1,0 +1,722 @@
+{
+  "type": "json_object",
+  "document_id": "9b1314fd46675af6",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Modeling Creep-Fatigue Deformation of Ni-Base Superalloys Using Crystal Viscoplasticity",
+    "authors": [
+      "R. W. Neu",
+      "D. J. Smith"
+    ],
+    "journal": "Journal of ASTM International",
+    "year": 2011,
+    "doi": "10.1520/JAI103674"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Neubase superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        },
+        {
+          "page": "11",
+          "section": null,
+          "quote": "Recently it has been observed /H2085126,27/H20852that creep in Ni-base superalloys when the stress remains below the macroscopic yield may be due to a diffusion-mediated reordering",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "directionally solidified Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Directionally Solidiﬁed and Polycrystalline Alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "polycrystalline Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "For DS and polycrystalline alloys, the grain interactions play a critical role in the deformation response.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Introduction",
+          "quote": "At 950° C, raft formation in CMSX-4 leads to increase in creep rate due to cutting of γ' [14].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "GTD-111",
+      "canonical_name": "GTD-111",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Specific Flow Rules and Evolution Equations",
+          "quote": "the hysteresis responses for four orientations predicted by the model using constants for GTD-111 at 871° C given in Ref 9 are shown in Fig. 6.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "IN100",
+      "canonical_name": "IN100",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Larger γ', particular the primary γ' in fine-grained polycrystalline alloys like IN100, are not coherent.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        },
+        {
+          "page": 9,
+          "section": "Alternative Evolution Equations",
+          "quote": "For IN100, it is a function of the volume fraction and size of the primary γ', the volume fraction and size of the secondary γ', and volume fraction and size of the tertiary γ', and the grain size.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "CM247LC",
+      "canonical_name": "CM247LC",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "high-temperature exposed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "Enhanced Models to Capture Additional Mechanisms and Microstructural Features",
+          "quote": "FIG. 9— Surface layers of CM247LC after high temperature exposure [21].",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "PWA 1480",
+      "canonical_name": "PWA 1480",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the uniaxial modulus varies from a minimum of 124 GPa in the /H20855001/H20856orientation and a maximum of 310 GPa in the /H20855111/H20856 orientation for PW A 1480",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (L12 ordered)",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": "50 to 70 % (typical hot-section superalloys)",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "primarily Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "One of the key microstructural features of Ni-base superalloys is the presence of small coherent L12 ordered (face-centered cubic (fcc)-like) precipitates γ' (primarily Ni3Al, depending on composition) embedded in fcc γ matrix, mostly Ni.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        },
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The amount of γ' in typical superalloys used in hot section components ranges from 50 to 70 %, which provides nearly uniform strength from room temperature to 800° C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma matrix (FCC)",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "mostly Ni",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "embedded in fcc γ matrix, mostly Ni.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "MC carbide",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "M is Ti, Cr, Ta, etc.",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Polycrystalline alloys also often contain carbides (MC and M23C6) where M is Ti, Cr, Ta, etc. that can help stabilize grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "M23C6 carbide",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "M is Ti, Cr, Ta, etc.",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Polycrystalline alloys also often contain carbides (MC and M23C6) where M is Ti, Cr, Ta, etc. that can help stabilize grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "raft structure",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "coarsened γ' particles with morphology depending on loading direction",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "One important mechanism is directional coarsening, which is also called rafting, that results in coarsened γ' particles with morphologies that depend on the direction of loading.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "gamma matrix",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "Explicit models of the /H9253matrix and the /H9253/H11032precipitates in single crystal Ni-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "gamma-prime precipitate",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The inﬂuence of the size and distribution of the /H9253/H11032particles has a ﬁrst order inﬂuence on the response",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "lattice curvature",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix channel",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Forest et al. /H2085130/H20852showed that lattice curvature in the matrix channel is one explanation for the strengthening of the /H9253-/H9253/H11032.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "property": "uniaxial modulus",
+      "value": 124.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "uniaxial",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the uniaxial modulus varies from a minimum of 124 GPa in the /H20855001/H20856orientation and a maximum of 310 GPa in the /H20855111/H20856 orientation for PW A 1480",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "property": "uniaxial modulus",
+      "value": 310.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "uniaxial",
+        "orientation": "[111]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the uniaxial modulus varies from a minimum of 124 GPa in the /H20855001/H20856orientation and a maximum of 310 GPa in the /H20855111/H20856 orientation for PW A 1480",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "directional coarsening (rafting)",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "One important mechanism is directional coarsening, which is also called rafting, that results in coarsened γ' particles with morphologies that depend on the direction of loading.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Orowan looping",
+      "category": "dislocation-particle interaction",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Particle cutting occurs at lower temperatures and Orowan looping occurs at higher temperatures with deformation confined to the γ channels or looping followed by γ' shearing after dislocation density in the matrix increases significantly [2,3].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "particle cutting",
+      "category": "dislocation-particle interaction",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Particle cutting occurs at lower temperatures and Orowan looping occurs at higher temperatures with deformation confined to the γ channels or looping followed by γ' shearing after dislocation density in the matrix increases significantly [2,3].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "diffusion-mediated microtwinning creep",
+      "category": "creep",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "creep in Ni-base superalloys when the stress remains below the macroscopic yield may be due to a diffusion-mediated reordering of the crystal structure that then promotes microtwinning leading to creep strain",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 950
+      },
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Introduction",
+          "quote": "At 950° C, raft formation in CMSX-4 leads to increase in creep rate due to cutting of γ' [14].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "DECREASES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 1100
+      },
+      "polarity": "negative",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Introduction",
+          "quote": "However, at 1100° C, raft formation leads to decrease in creep rate due to looping of γ'.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "phase_3",
+      "predicate": "STABILIZES",
+      "target_id": "microstructure_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Polycrystalline alloys also often contain carbides (MC and M23C6) where M is Ti, Cr, Ta, etc. that can help stabilize grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_5",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the uniaxial modulus varies from a minimum of 124 GPa in the /H20855001/H20856orientation and a maximum of 310 GPa in the /H20855111/H20856 orientation for PW A 1480",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_5",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "Explicit models of the /H9253matrix and the /H9253/H11032precipitates in single crystal Ni-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_5",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_6",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The inﬂuence of the size and distribution of the /H9253/H11032particles has a ﬁrst order inﬂuence on the response",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "microstructure_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "creep in Ni-base superalloys when the stress remains below the macroscopic yield may be due to a diffusion-mediated reordering of the crystal structure that then promotes microtwinning leading to creep strain",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_5",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "conditions": {
+        "orientation": "[001]"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the uniaxial modulus varies from a minimum of 124 GPa in the /H20855001/H20856orientation and a maximum of 310 GPa in the /H20855111/H20856 orientation for PW A 1480",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_5",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_5",
+      "material_state": "single crystal",
+      "conditions": {
+        "orientation": "[111]"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the uniaxial modulus varies from a minimum of 124 GPa in the /H20855001/H20856orientation and a maximum of 310 GPa in the /H20855111/H20856 orientation for PW A 1480",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "9b1314fd46675af6:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

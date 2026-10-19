@@ -1,0 +1,228 @@
+{
+  "document_id": "716b0b2699f4d83b",
+  "chunk_id": "716b0b2699f4d83b:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "On the correlation between Ta/W ratio and γ′-Ni3(Al,Ta) lattice ordering",
+    "authors": [
+      "M. Mostafaei",
+      "S.M. Abbasi"
+    ],
+    "journal": "Physica B: Physics of Condensed Matter",
+    "year": 2018,
+    "doi": "10.1016/j.physb.2018.07.004"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "Evolution of lattice characteristics in ordered γ′ and γ phases affected by Ta/W ratio was investigated in experimental Ni-base superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "716b0b2699f4d83b:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CM247 LC",
+      "canonical_name": "CM247 LC",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "direct aged",
+      "composition": [
+        {
+          "element": "Ta",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "4",
+              "section": "2. Materials and methods",
+              "quote": "the content of Ta as a strong γ' former element was increased from 2 to 8 wt%. The total Ta+W content (in wt%) was kept constant around 12 wt%.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "716b0b2699f4d83b:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "4",
+              "section": "2. Materials and methods",
+              "quote": "The total Ta+W content (in wt%) was kept constant around 12 wt%.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "716b0b2699f4d83b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Materials and methods",
+          "quote": "Ni-base superalloys were designed based on CM247 LC alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "716b0b2699f4d83b:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "vacuum induction melting (VIM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": "1e-5 bar",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "mold": "preheated alumina mold"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Materials and methods",
+          "quote": "The alloys were melted and cast in a vacuum induction melting (VIM) furnace under a 10 -5 bar vacuum into a preheated alumina mold.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "716b0b2699f4d83b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "direct aging",
+      "parameters": {
+        "temperature_c": 870,
+        "time": "20 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "direct aged",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2. Materials and methods",
+          "quote": "Direct aging heat treatment was performed at 870 °C/20 h according to the technical datasheet of Cannon-Muskegon Corporation [28].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "716b0b2699f4d83b:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "direct aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Materials and methods",
+          "quote": "Ni-base superalloys were designed based on CM247 LC alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "716b0b2699f4d83b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Materials and methods",
+          "quote": "The alloys were melted and cast in a vacuum induction melting (VIM) furnace under a 10 -5 bar vacuum into a preheated alumina mold.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "716b0b2699f4d83b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "direct aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2. Materials and methods",
+          "quote": "Direct aging heat treatment was performed at 870 °C/20 h according to the technical datasheet of Cannon-Muskegon Corporation [28].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "716b0b2699f4d83b:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

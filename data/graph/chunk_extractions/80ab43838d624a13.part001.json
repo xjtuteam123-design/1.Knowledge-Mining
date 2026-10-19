@@ -1,0 +1,314 @@
+{
+  "document_id": "80ab43838d624a13",
+  "chunk_id": "80ab43838d624a13:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Development of a Diffusion Mobility Database for Co-Based Superalloys",
+    "authors": [
+      "Greta Lindwall",
+      "Kil-Won Moon",
+      "Maureen Williams",
+      "Whitney Tso",
+      "Carelyn Campbell"
+    ],
+    "journal": "J. Phase Equilib. Diffus.",
+    "year": 2022,
+    "doi": "10.1007/s11669-022-01011-1"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Co-based superalloy",
+      "material_category": "Co-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Title",
+          "quote": "Development of a Diffusion Mobility Database for Co-Based Superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "80ab43838d624a13:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": null,
+      "canonical_name": "Co",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Co",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "4.1 Experimental Methods and Data Analysis",
+              "quote": "Table 2 Summary of diffusion couple end-members and homogenization conditions",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "80ab43838d624a13:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "4.1 Experimental Methods and Data Analysis",
+          "quote": "Table 2 Summary of diffusion couple end-members and homogenization conditions",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "80ab43838d624a13:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "4.1 Experimental Methods and Data Analysis",
+          "quote": "The end-member alloys were arc-melted from Co, Cr, Ni, and Ta elements, with purities in mass fraction of 99.9, 99.99, 99.9, and 99.95%, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "80ab43838d624a13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "homogenization",
+      "parameters": {
+        "temperature_c": 1320,
+        "time": "6 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "homogenized",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "4.1 Experimental Methods and Data Analysis",
+          "quote": "The homogenization conditions and measured compositions of the end-members are summarized in Table 2.",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "80ab43838d624a13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "homogenization",
+      "parameters": {
+        "temperature_c": 1250,
+        "time": "60 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "homogenized",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "4.1 Experimental Methods and Data Analysis",
+          "quote": "The homogenization conditions and measured compositions of the end-members are summarized in Table 2.",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "80ab43838d624a13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "diffusion annealing",
+      "parameters": {
+        "temperature_c": 900,
+        "time": "1300 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "homogenized",
+      "output_state": "diffusion annealed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "4.1 Experimental Methods and Data Analysis",
+          "quote": "The prepared diffusion couple stacks were annealed at 900, 1000 and 1200 °C for 1300, 260, and 160 h, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "80ab43838d624a13:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "self-diffusivity",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Co HCP/FCC -301,795-72.25*T This work",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "80ab43838d624a13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "self-diffusivity",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Co HCP/FCC -301,654-70.11*T [31]",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "80ab43838d624a13:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Co HCP/FCC -301,795-72.25*T This work",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "80ab43838d624a13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Co HCP/FCC -301,654-70.11*T [31]",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "80ab43838d624a13:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

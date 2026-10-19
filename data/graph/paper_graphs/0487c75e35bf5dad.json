@@ -1,0 +1,708 @@
+{
+  "document_id": "0487c75e35bf5dad",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A physics-based machine-learning approach for modeling the temperature-dependent yield strengths of medium- or high-entropy alloys",
+    "authors": [
+      "B. Steingrimsson",
+      "X. Fan",
+      "R. Feng",
+      "P.K. Liaw"
+    ],
+    "journal": "Applied Materials Today",
+    "year": 2023,
+    "doi": "10.1016/j.apmt.2023.101747"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "medium- or high-entropy alloy",
+      "material_category": "medium- or high-entropy alloy",
+      "evidence": []
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "refractory high-entropy alloy",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "N. Yurchenko, E. Panina, S. Zherebtsov, N. Stepanov, Design and characterization",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:002"
+        },
+        {
+          "page": 8,
+          "section": null,
+          "quote": "of eutectic refractory high entropy alloys, Materialia 16 (101057) (2021).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "MoNbTaVW",
+      "canonical_name": "MoNbTaVW",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "sample_2",
+      "original_name": "C0.25Hf0.25NbTaW0.5",
+      "canonical_name": "C0.25Hf0.25NbTaW0.5",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "C",
+          "value": 0.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atomic fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atomic fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atomic fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "sample_3",
+      "original_name": "MoNbSi0.75TaW",
+      "canonical_name": "MoNbSi0.75TaW",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Si",
+          "value": 0.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atomic fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "sample_4",
+      "original_name": "CrTaVW",
+      "canonical_name": "CrTaVW",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "sample_5",
+      "original_name": "AlMo0.5NbTa0.5TiZr",
+      "canonical_name": "AlMo0.5NbTa0.5TiZr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atomic fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atomic fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "sample_6",
+      "original_name": "Al0.2NbTaTiV",
+      "canonical_name": "Al0.2NbTaTiV",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": []
+    },
+    {
+      "id": "sample_7",
+      "original_name": "Al0.3NbTa0.8Ti1.4V0.2Zr1.3",
+      "canonical_name": "Al0.3NbTa0.8Ti1.4V0.2Zr1.3",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": []
+    },
+    {
+      "id": "sample_8",
+      "original_name": "HfMoNbTaTi",
+      "canonical_name": "HfMoNbTaTi",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": []
+    },
+    {
+      "id": "sample_9",
+      "original_name": "Hf0.25NbTaW0.5",
+      "canonical_name": "Hf0.25NbTaW0.5",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": []
+    },
+    {
+      "id": "sample_10",
+      "original_name": "NbTaTiW",
+      "canonical_name": "NbTaTiW",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": []
+    },
+    {
+      "id": "sample_11",
+      "original_name": "AlCrMoNbTi",
+      "canonical_name": "AlCrMoNbTi",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "annealed (20 hr at 1300°C)",
+      "composition": [],
+      "evidence": []
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_11",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1300,
+        "time": "20 hr",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.1. More on the comparison between break temperatures for YS vs. US",
+          "quote": "samples annealed for 20 hr. at 1,300 ◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Discussion",
+          "quote": "The FCC + BCC composition of C0.25Hf0.25NbTaW0.5",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Discussion",
+          "quote": "The FCC + BCC composition of C0.25Hf0.25NbTaW0.5",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_3",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Discussion",
+          "quote": "the BCC + silicide composition MoNbSi0.75TaW",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "silicide",
+      "sample_id": "sample_3",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Discussion",
+          "quote": "the BCC + silicide composition MoNbSi0.75TaW",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_4",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Discussion",
+          "quote": "the BCC + Laves composition CrTaVW",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "sample_4",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Discussion",
+          "quote": "the BCC + Laves composition CrTaVW",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_5",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Discussion",
+          "quote": "the BCC + B2 composition of AlMo0.5NbTa0.5TiZr",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_8",
+      "type": "Phase",
+      "name": "B2",
+      "sample_id": "sample_5",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Discussion",
+          "quote": "the BCC + B2 composition of AlMo0.5NbTa0.5TiZr",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "yield strength",
+      "value": 735,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1200,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. More on the comparison between break temperatures for YS vs. US",
+          "quote": "the YS of 735 MPa and the US of 943 MPa at T = 1,200 ◦C were both reported by [56]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "ultimate strength",
+      "value": 943,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1200,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. More on the comparison between break temperatures for YS vs. US",
+          "quote": "the YS of 735 MPa and the US of 943 MPa at T = 1,200 ◦C were both reported by [56]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0487c75e35bf5dad:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

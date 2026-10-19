@@ -1,0 +1,660 @@
+{
+  "document_id": "5db1cb15fa506837",
+  "chunk_id": "5db1cb15fa506837:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Laser alloying of aluminium with niobium",
+    "authors": [
+      "A. Almeida",
+      "M. Anjos",
+      "R. Vilar",
+      "R. Li",
+      "M.G.S. Ferreira",
+      "W.M. Steen"
+    ],
+    "journal": "Materials Science and Engineering A",
+    "year": 2001,
+    "doi": "10.1016/S0921-5093(00)01838-4"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Al-Nb alloy",
+      "material_category": "intermetallic-reinforced surface alloy",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "Laser alloying of Al with Nb powder produces very hard surface layers.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "laser alloyed layer",
+      "canonical_name": "Al-Nb",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "laser alloyed",
+      "composition": [
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "alloying addition",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Conclusions",
+              "quote": "Laser alloying of Al with Nb powder produces very hard surface layers.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5db1cb15fa506837:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "Laser alloying of Al with Nb powder produces very hard surface layers. However the distribution of Nb is not homogeneous and the alloyed layers tend to present undissolved Nb particles and pores.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "remelted surface layer",
+      "canonical_name": "Al-Nb",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "laser remelted",
+      "composition": [
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": 38.4,
+          "min_value": 38.4,
+          "max_value": 43.5,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Conclusions",
+              "quote": "After remelting the surface layers contain 38.4–43.5 wt.% Nb.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5db1cb15fa506837:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "After remelting the surface layers contain 38.4–43.5 wt.% Nb. Their structure consists of fine dendrites of Al3Nb intermetallic compound and a small volume fraction of interdendritic a-Al solid solution.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "laser alloying",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "alloying_powder": "Nb powder"
+        }
+      },
+      "input_state": "Al substrate",
+      "output_state": "laser alloyed layer",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "Laser alloying of Al with Nb powder produces very hard surface layers.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "laser remelting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "laser alloyed layer",
+      "output_state": "laser remelted surface layer",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "The structural characteristics of the surface layers are largely improved by laser remelting: most defects are eliminated and the material is homogenised.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Al3Nb",
+      "sample_id": "sample_1",
+      "material_state": "laser alloyed",
+      "attributes": {
+        "phase_fraction": "large volume fraction",
+        "size": null,
+        "morphology": "dendrites",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "The high hardness values of the Al–Nb alloys result from the large volume fraction of Al3Nb present in the structure and from the refinement of the microstructure resulting from the remelting treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Al3Nb",
+      "sample_id": "sample_2",
+      "material_state": "laser remelted",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "fine",
+        "morphology": "dendrites",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "Their structure consists of fine dendrites of Al3Nb intermetallic compound and a small volume fraction of interdendritic a-Al solid solution.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "alpha-Al",
+      "sample_id": "sample_2",
+      "material_state": "laser remelted",
+      "attributes": {
+        "phase_fraction": "small volume fraction",
+        "size": null,
+        "morphology": "interdendritic film",
+        "location": "interdendritic",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "Their structure consists of fine dendrites of Al3Nb intermetallic compound and a small volume fraction of interdendritic a-Al solid solution.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dendritic microstructure",
+      "sample_id": "sample_1",
+      "material_state": "laser alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "The high hardness values of the Al–Nb alloys result from the large volume fraction of Al3Nb present in the structure and from the refinement of the microstructure resulting from the remelting treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "refined microstructure",
+      "sample_id": "sample_2",
+      "material_state": "laser remelted",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "The high hardness values of the Al–Nb alloys result from the large volume fraction of Al3Nb present in the structure and from the refinement of the microstructure resulting from the remelting treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "undissolved Nb particles",
+      "sample_id": "sample_1",
+      "material_state": "laser alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "particles",
+        "location": null,
+        "composition": "Nb",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "However the distribution of Nb is not homogeneous and the alloyed layers tend to present undissolved Nb particles and pores.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "pores",
+      "sample_id": "sample_1",
+      "material_state": "laser alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "However the distribution of Nb is not homogeneous and the alloyed layers tend to present undissolved Nb particles and pores.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "laser alloyed",
+      "property": "hardness",
+      "value": null,
+      "min_value": 480,
+      "max_value": 650,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Vickers hardness"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "The laser alloyed layers present very high hardness that varies in the range 480–650 HV depending on the primary dendritic spacing and on the a-Al volume fraction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution softening",
+      "category": "deformation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "laser remelted",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "The Al solid solution is soft and ductile and contributes to better accommodation of the generated stresses stopping the propagation of microcracks that may develop in the intermetallic.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "intermetallic reinforcement",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "laser alloyed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "The high hardness values of the Al–Nb alloys result from the large volume fraction of Al3Nb present in the structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "microstructural refinement",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_2",
+      "material_state": "laser remelted",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "The high hardness values of the Al–Nb alloys result from the large volume fraction of Al3Nb present in the structure and from the refinement of the microstructure resulting from the remelting treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "laser alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "Laser alloying of Al with Nb powder produces very hard surface layers.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "laser remelted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "The structural characteristics of the surface layers are largely improved by laser remelting: most defects are eliminated and the material is homogenised.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "process_2",
+      "predicate": "SUPPRESSES",
+      "target_id": "defect_1",
+      "sample_id": "sample_2",
+      "material_state": "laser remelted",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "The structural characteristics of the surface layers are largely improved by laser remelting: most defects are eliminated and the material is homogenised.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "process_2",
+      "predicate": "SUPPRESSES",
+      "target_id": "defect_2",
+      "sample_id": "sample_2",
+      "material_state": "laser remelted",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Conclusions",
+          "quote": "The structural characteristics of the surface layers are largely improved by laser remelting: most defects are eliminated and the material is homogenised.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "phase_3",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "laser remelted",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "The Al solid solution is soft and ductile and contributes to better accommodation of the generated stresses stopping the propagation of microcracks that may develop in the intermetallic.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "laser alloyed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "The high hardness values of the Al–Nb alloys result from the large volume fraction of Al3Nb present in the structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "laser alloyed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "The high hardness values of the Al–Nb alloys result from the large volume fraction of Al3Nb present in the structure and from the refinement of the microstructure resulting from the remelting treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "microstructure_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_2",
+      "material_state": "laser remelted",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "the refinement of the microstructure resulting from the remelting treatment",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "laser alloyed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Discussion",
+          "quote": "The high hardness values of the Al–Nb alloys result from the large volume fraction of Al3Nb present in the structure and from the refinement of the microstructure resulting from the remelting treatment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5db1cb15fa506837:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

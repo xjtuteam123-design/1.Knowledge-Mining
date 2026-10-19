@@ -1,0 +1,500 @@
+{
+  "document_id": "e49690ddcb0746b9",
+  "chunk_id": "e49690ddcb0746b9:part:046",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Modeling Tensile, Compressive, and Cyclic Response of Inconel 718 Using a Crystal Plasticity Model Incorporating the Effects of Precipitates",
+    "authors": [
+      "Marko Knezevic",
+      "Saeede Ghorbanpour"
+    ],
+    "journal": "Proceedings of the 9th International Symposium on Superalloy 718 & Derivatives: Energy, Aerospace, and Industrial Applications, The Minerals, Metals & Materials Series",
+    "year": 2018,
+    "doi": "10.1007/978-3-319-89480-5_43"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 646,
+          "section": "Abstract",
+          "quote": "A comprehensive elasto-plastic polycrystal plasticity model is developed for Ni-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "IN718",
+      "canonical_name": "Inconel 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 646,
+          "section": "Abstract",
+          "quote": "the model is applied to an Inconel 718 (IN718) superalloy that was produced by additive manufacturing (AM).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "additive manufacturing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 646,
+          "section": "Abstract",
+          "quote": "an Inconel 718 (IN718) superalloy that was produced by additive manufacturing (AM).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 954,
+        "time": "1 h",
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": "fan cooling in argon to below 120 °C",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-built",
+      "output_state": "solution treated",
+      "evidence": [
+        {
+          "page": 649,
+          "section": "Material and Experiments",
+          "quote": "The solution HT was performed at 954 °C for 1 h, followed by fan cooling in argon to below 120 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "double aging heat treatment",
+      "parameters": {
+        "temperature_c": 718,
+        "time": "8 h",
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": "furnace cooling at a rate of 50 °C/h to 621 °C, then holding at 621 °C for 8 h, and finally air cooled to room temperature",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution treated",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 649,
+          "section": "Material and Experiments",
+          "quote": "Then, the double aging HT was performed, which consisted of holding at 718 °C for 8 h, followed by furnace cooling at a rate of 50 °C/h to 621 °C and holding at 621 °C for 8 h, and finally air cooled to room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ matrix",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "The chemical composition of the γ′ precipitate is Ni3(Al,Ti).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "diameter of 20–30 nm",
+        "morphology": "spherical",
+        "location": null,
+        "composition": "Ni3(Al,Ti)",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "The chemical composition of the γ′ precipitate is Ni3(Al,Ti). This γ′ precipitate is usually spherical in shape with a diameter of 20 – 30 nm when the material is heat treated according to AMS 5663",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ″",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "diameter 20-30 nm, thickness 5-6 nm",
+        "morphology": "disk shaped",
+        "location": null,
+        "composition": "Ni3Nb",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "The chemical composition of the γ″ precipitate is Ni 3Nb. These precipitates are disk shaped, wherein the atoms are arranged in a D0 22 structure. The diameter of the disks is 20 –30 nm, while their thickness is 5 –6 nm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "δ",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "attributes": {
+        "phase_fraction": "less than one weight percent",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ni3Nb",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "the alloy typically contains a small, less than one weight percent, fraction of coherent δ precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "property": "yield strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 649,
+          "section": "Material and Experiments",
+          "quote": "Figure 2 showed that the DMLS material has yield stress higher than the wrought.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "property": "yield strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "compression test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 649,
+          "section": "Material and Experiments",
+          "quote": "Samples in all build directions exhibited tension-compression (T-C) asymmetry.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitate shearing",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "Dislocations gliding on octahedral planes shear the γ′ and γ″ precipitates, since they are very small, nanoparticles, much smaller than the critical radius above which a dislocation would instead loop around the particle.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "The plastic deformation response, including flow stress, hardening rate, tension-compression asymmetry and temperature dependence of Ni-based superalloys depends on the precipitate volume fraction and morphologies.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "grain boundary sliding",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "the δ precipitates are known to deteriorate mechanical properties, unless they appear as spherical δ precipitates at grain boundaries, in which case they can prevent grain boundary sliding and improve the material ’s creep behavior",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "The chemical composition of the γ′ precipitate is Ni3(Al,Ti).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "The chemical composition of the γ″ precipitate is Ni 3Nb.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "the alloy typically contains a small, less than one weight percent, fraction of coherent δ precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "Dislocations gliding on octahedral planes shear the γ′ and γ″ precipitates, since they are very small, nanoparticles, much smaller than the critical radius above which a dislocation would instead loop around the particle.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "The plastic deformation response, including flow stress, hardening rate, tension-compression asymmetry and temperature dependence of Ni-based superalloys depends on the precipitate volume fraction and morphologies.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 647,
+          "section": "Introduction",
+          "quote": "the δ precipitates are known to deteriorate mechanical properties, unless they appear as spherical δ precipitates at grain boundaries, in which case they can prevent grain boundary sliding and improve the material ’s creep behavior",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e49690ddcb0746b9:part:046"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

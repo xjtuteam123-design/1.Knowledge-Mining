@@ -1,0 +1,1457 @@
+{
+  "document_id": "93724b26e7f105bc",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A crystal plasticity-based micromechanical model for precipitate shearing: Application to cyclic softening of polycrystalline Ni-based superalloys",
+    "authors": [
+      "Suketa Chaudhary",
+      "Bhargav Sudhalkar",
+      "Namit Pai",
+      "Mithun Palit",
+      "Zafir Alam",
+      "R. Sankarasubramanian",
+      "Indradev Samajdar",
+      "Anirban Patra"
+    ],
+    "journal": "International Journal of Fatigue",
+    "year": 2025,
+    "doi": "10.1016/j.ijfatigue.2024.108582"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The model is used to simulate cyclic deformation in two polycrystalline Ni-based superalloys, with different microstructures (in terms of the shape, size and volume fraction of precipitates), referred as Alloy 1 and Alloy 2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        },
+        {
+          "page": 5,
+          "section": "3. Application of the model",
+          "quote": "We have used the constitutive model to predict the low cycle fatigue behavior of two different polycrystalline Ni-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        },
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "Alloy 1 has a microstructure comprising primary (micron sized), secondary (≈250nm sized, cuboidal shaped) and tertiary (≈30nm sized) 𝛾′ precipitates, for which experimental microstructure and mechanical property characterization was performed in the present study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        },
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "Alloy 2 has a microstructure comprising spherical 𝛾′ precipitates, with an initial size of ≈25 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        },
+        {
+          "page": 16,
+          "section": "references",
+          "quote": "Inter. J. Fatigue 190 (2025) 108582",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:004"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Alloy 1",
+      "canonical_name": "Ni-14.68Cr-15.30Co-5.70Ti-2.80Mo-8.75Al (at.%)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-received",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 14.68,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 15.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 2.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 5.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 8.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The model is used to simulate cyclic deformation in two polycrystalline Ni-based superalloys, with different microstructures (in terms of the shape, size and volume fraction of precipitates), referred as Alloy 1 and Alloy 2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        },
+        {
+          "page": 5,
+          "section": "3.1.1. Material and experimental characterization",
+          "quote": "Alloy 1 is a PM-processed polycrystalline Ni-based superalloy manufactured by Defence Metallurgical Research Laboratory (India).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        },
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "Alloy 1 has a microstructure comprising primary (micron sized), secondary (≈250nm sized, cuboidal shaped) and tertiary (≈30nm sized) 𝛾′ precipitates, for which experimental microstructure and mechanical property characterization was performed in the present study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        },
+        {
+          "page": 16,
+          "section": "Fig. 12",
+          "quote": "Distribution of precipitate number density before and after cyclic deformation for (a) Alloy 1 to 44 cycles for 1.8% strain amplitude and 100 cycles for 0.9% strain amplitude",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "93724b26e7f105bc:part:004"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Alloy 2",
+      "canonical_name": "Nimonic-90",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solutionized and aged",
+      "composition": [
+        {
+          "element": "C",
+          "value": 0.37,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "Table 5",
+              "quote": "Elemental composition of Alloy 2. This was converted to atomic fraction from the wt.% given in Ref. [66]. Alloying element C Cr Co Mo Ti Al Mn Si Fe Ni Atomic fraction 0.37 22.75 13.44 1.78 2.67 3.92 0.04 0.37 1.47 53.19",
+              "table": "Table 5",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 22.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "Table 5",
+              "quote": "Elemental composition of Alloy 2. This was converted to atomic fraction from the wt.% given in Ref. [66]. Alloying element C Cr Co Mo Ti Al Mn Si Fe Ni Atomic fraction 0.37 22.75 13.44 1.78 2.67 3.92 0.04 0.37 1.47 53.19",
+              "table": "Table 5",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 13.44,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "Table 5",
+              "quote": "Elemental composition of Alloy 2. This was converted to atomic fraction from the wt.% given in Ref. [66]. Alloying element C Cr Co Mo Ti Al Mn Si Fe Ni Atomic fraction 0.37 22.75 13.44 1.78 2.67 3.92 0.04 0.37 1.47 53.19",
+              "table": "Table 5",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 1.78,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "Table 5",
+              "quote": "Elemental composition of Alloy 2. This was converted to atomic fraction from the wt.% given in Ref. [66]. Alloying element C Cr Co Mo Ti Al Mn Si Fe Ni Atomic fraction 0.37 22.75 13.44 1.78 2.67 3.92 0.04 0.37 1.47 53.19",
+              "table": "Table 5",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 2.67,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "Table 5",
+              "quote": "Elemental composition of Alloy 2. This was converted to atomic fraction from the wt.% given in Ref. [66]. Alloying element C Cr Co Mo Ti Al Mn Si Fe Ni Atomic fraction 0.37 22.75 13.44 1.78 2.67 3.92 0.04 0.37 1.47 53.19",
+              "table": "Table 5",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3.92,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "Table 5",
+              "quote": "Elemental composition of Alloy 2. This was converted to atomic fraction from the wt.% given in Ref. [66]. Alloying element C Cr Co Mo Ti Al Mn Si Fe Ni Atomic fraction 0.37 22.75 13.44 1.78 2.67 3.92 0.04 0.37 1.47 53.19",
+              "table": "Table 5",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 0.04,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "Table 5",
+              "quote": "Elemental composition of Alloy 2. This was converted to atomic fraction from the wt.% given in Ref. [66]. Alloying element C Cr Co Mo Ti Al Mn Si Fe Ni Atomic fraction 0.37 22.75 13.44 1.78 2.67 3.92 0.04 0.37 1.47 53.19",
+              "table": "Table 5",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Si",
+          "value": 0.37,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "Table 5",
+              "quote": "Elemental composition of Alloy 2. This was converted to atomic fraction from the wt.% given in Ref. [66]. Alloying element C Cr Co Mo Ti Al Mn Si Fe Ni Atomic fraction 0.37 22.75 13.44 1.78 2.67 3.92 0.04 0.37 1.47 53.19",
+              "table": "Table 5",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 1.47,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "Table 5",
+              "quote": "Elemental composition of Alloy 2. This was converted to atomic fraction from the wt.% given in Ref. [66]. Alloying element C Cr Co Mo Ti Al Mn Si Fe Ni Atomic fraction 0.37 22.75 13.44 1.78 2.67 3.92 0.04 0.37 1.47 53.19",
+              "table": "Table 5",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 53.19,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "Table 5",
+              "quote": "Elemental composition of Alloy 2. This was converted to atomic fraction from the wt.% given in Ref. [66]. Alloying element C Cr Co Mo Ti Al Mn Si Fe Ni Atomic fraction 0.37 22.75 13.44 1.78 2.67 3.92 0.04 0.37 1.47 53.19",
+              "table": "Table 5",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The model is used to simulate cyclic deformation in two polycrystalline Ni-based superalloys, with different microstructures (in terms of the shape, size and volume fraction of precipitates), referred as Alloy 1 and Alloy 2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        },
+        {
+          "page": 8,
+          "section": "3.2. Model predictions for Alloy 2",
+          "quote": "The model has been used to predict the cyclic deformation behavior of another polycrystalline Ni-based superalloy, Nimonic-90, and compared with the experimental data at different strain amplitudes [66]. This is referred as Alloy 2 in the following discussion and its elemental composition is given in Table 5.",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        },
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "Alloy 2 has a microstructure comprising spherical 𝛾′ precipitates, with an initial size of ≈25 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        },
+        {
+          "page": 11,
+          "section": "3.2.2. Prediction of low cycle fatigue behavior",
+          "quote": "The comparison of peak stress for the different strain amplitudes as a function of the number of cycles and 𝜖𝑐 with the corresponding experimental data from [66] is plotted for Alloy 2 in Fig. 10.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        },
+        {
+          "page": 16,
+          "section": "Fig. 12",
+          "quote": "(b) Alloy 2 to 200 cycles for 1.1% strain amplitude, 234 cycles for 0.85% strain amplitude and 400 cycles for 0.6% strain amplitude.",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "93724b26e7f105bc:part:004"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "matrix of Alloy 1",
+      "canonical_name": "Ni-14.68Cr-15.30Co-5.70Ti-2.80Mo-8.75Al (at.%)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-received",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 52.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "matrix",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 14.68,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "matrix",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 15.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "matrix",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 2.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "matrix",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 5.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "matrix",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 8.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "matrix",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 1",
+          "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "primary 𝛾′𝑝 of Alloy 1",
+      "canonical_name": "Ni-14.68Cr-15.30Co-5.70Ti-2.80Mo-8.75Al (at.%)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-received",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 61.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "precipitate",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 4.68,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "precipitate",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 10.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "precipitate",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.72,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "precipitate",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 9.71,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "precipitate",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 12.78,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "precipitate",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "93724b26e7f105bc:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 1",
+          "quote": "Elemental composition (in atomic fraction) of the matrix and primary 𝛾′𝑝 phase of the as-received Alloy 1 [33]. Al Mo Ti Cr Co Ni Matrix 8.75 2.80 5.70 14.68 15.30 52.80 Primary 𝛾′𝑝 12.78 0.72 9.71 4.68 10.30 61.90",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "powder metallurgy (PM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-received",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1.1. Material and experimental characterization",
+          "quote": "Alloy 1 is a PM-processed polycrystalline Ni-based superalloy manufactured by Defence Metallurgical Research Laboratory (India).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": 1080,
+        "time": "8 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_K": 1353
+        }
+      },
+      "input_state": null,
+      "output_state": "solutionized",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2.1. Model parameters",
+          "quote": "solutionizing treatments were applied at 1353 K for 8 h followed by aging at 973 K for 16 h [66].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 700,
+        "time": "16 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_K": 973
+        }
+      },
+      "input_state": "solutionized",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2.1. Model parameters",
+          "quote": "solutionizing treatments were applied at 1353 K for 8 h followed by aging at 973 K for 16 h [66].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "micron-sized",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Primary𝛾′p precipitates are micron-sized, while the cuboidal secondary",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        },
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "Alloy 1 has a microstructure comprising primary (micron sized), secondary (≈250nm sized, cuboidal shaped) and tertiary (≈30nm sized) 𝛾′ precipitates, for which experimental microstructure and mechanical property characterization was performed in the present study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma' secondary",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "200–300 nm",
+        "morphology": "cuboidal",
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "The size of the secondary 𝛾′s and tertiary 𝛾′t precipitates lies in the range of 200–300 nm and 10–30 nm, respectively [25,32,33].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        },
+        {
+          "page": 5,
+          "section": "3.1.1. Material and experimental characterization",
+          "quote": "The size of secondary 𝛾′𝑠 and tertiary 𝛾′𝑡 precipitates lie in the range of 200–300 nm and 10–30 nm, respectively [33].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma' tertiary",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "10–30 nm",
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "The size of the secondary 𝛾′s and tertiary 𝛾′t precipitates lies in the range of 200–300 nm and 10–30 nm, respectively [25,32,33].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        },
+        {
+          "page": 5,
+          "section": "3.1.1. Material and experimental characterization",
+          "quote": "The size of secondary 𝛾′𝑠 and tertiary 𝛾′𝑡 precipitates lie in the range of 200–300 nm and 10–30 nm, respectively [33].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "27.42 μm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1.1. Material and experimental characterization",
+          "quote": "The microstructure of this alloy consists of primary𝛾′𝑝 precipitates, cuboidal-shaped secondary 𝛾′𝑠 and tertiary 𝛾′𝑡 precipitates homogenized in the 𝛾 phase. The mean grain sizes of the 𝛾 phase and the primary 𝛾′𝑝 phase are 27.42 μm and 3.8 μm, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "primary gamma'",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "3.8 μm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1.1. Material and experimental characterization",
+          "quote": "The microstructure of this alloy consists of primary𝛾′𝑝 precipitates, cuboidal-shaped secondary 𝛾′𝑠 and tertiary 𝛾′𝑡 precipitates homogenized in the 𝛾 phase. The mean grain sizes of the 𝛾 phase and the primary 𝛾′𝑝 phase are 27.42 μm and 3.8 μm, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "25 nm",
+        "morphology": "spherical",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2.1. Model parameters",
+          "quote": "The undeformed microstructure of Alloy 2 consists of 𝛾′ precipitates with an average precipitate size of 25 nm, coherent in the 𝛾 matrix, which has an average grain size of 300±30 μm [66].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        },
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "Alloy 2 has a microstructure comprising spherical 𝛾′ precipitates, with an initial size of ≈25 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "91 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1.1. Material and experimental characterization",
+          "quote": "After shearing, the size of the secondary 𝛾′𝑠 precipitates reduces from ≈200–300 nm to ≈91 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_8",
+      "type": "Phase",
+      "name": "gamma-prime precipitate",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 16,
+          "section": "Fig. 12",
+          "quote": "Distribution of precipitate number density before and after cyclic deformation for (a) Alloy 1 to 44 cycles for 1.8% strain amplitude and 100 cycles for 0.9% strain amplitude",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "93724b26e7f105bc:part:004"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "property": "peak stress",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": "2e-3 s^-1",
+        "loading_mode": "strain-controlled, fully reversed (R=-1)",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "500 cycles",
+        "test_method": "low cycle fatigue"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.1.3. Prediction of low cycle fatigue behavior",
+          "quote": "The peak stress increased slightly from the 1st cycle to the 30th cycle for the 0.9% strain amplitude test, and up to the 10th cycle for the 1.8% strain amplitude test. Following this, a decrease in the peak stress was observed in both experiment and simulation results.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitate shearing",
+      "category": "microstructure evolution",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The physical mechanism for cyclic softening is generally attributed to the shearing of the precipitates due to the interaction between dislocations and precipitates [3,27].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        },
+        {
+          "page": 5,
+          "section": "3.1.1. Material and experimental characterization",
+          "quote": "Presumably, the phenomenon of precipitate shearing contributes to the changes observed in these microstructures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "strong-pair coupling",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The primary contributions to the strength of these alloys are due to the interactions of glide dislocations with 𝛾′ precipitates, which manifest in the form of strong-pair coupling, weak-pair coupling, and anomalous hardening due to cross slip from the {111} planes to {001} planes [ 18].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        },
+        {
+          "page": 11,
+          "section": "3.2.2. Prediction of low cycle fatigue behavior",
+          "quote": "It was predicted that the observed cyclic softening occurs due to a transition from strong pair coupling to weak pair coupling of the dislocation-precipitate interactions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "weak-pair coupling",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The primary contributions to the strength of these alloys are due to the interactions of glide dislocations with 𝛾′ precipitates, which manifest in the form of strong-pair coupling, weak-pair coupling, and anomalous hardening due to cross slip from the {111} planes to {001} planes [ 18].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        },
+        {
+          "page": 13,
+          "section": "4. Discussion",
+          "quote": "Given that the initial precipitate size was small, the weak pair coupling mechanism was present in this alloy from the beginning of deformation and the observed cyclic softening was primarily due to the reduction in precipitate size and its contribution to precipitate strengthening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "cyclic softening",
+      "category": "mechanical",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.1.3. Prediction of low cycle fatigue behavior",
+          "quote": "During the initial cycles, the size of the secondary 𝛾′𝑠 is still larger than the threshold precipitate size, 𝑑0𝑖, such that the reduction in the precipitate size leads to an increase in 𝜏𝛼𝑠𝑝 according to Eq. (2). Subsequently, the weak pair coupling mechanism becomes operative and 𝜏𝛼𝑤𝑝 decreases with a reduction in size of the 𝛾′𝑠 precipitates according to Eq. (3).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.1.3. Prediction of low cycle fatigue behavior",
+          "quote": "precipitate strengthening is still the dominant mechanism contributing to the overall strength of the superalloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The model is used to simulate cyclic deformation in two polycrystalline Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The model is used to simulate cyclic deformation in two polycrystalline Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The physical mechanism for cyclic softening is generally attributed to the shearing of the precipitates due to the interaction between dislocations and precipitates [3,27].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.1.3. Prediction of low cycle fatigue behavior",
+          "quote": "On further cyclic deformation, reduction of precipitate size occurs and the corresponding strengthening due to precipitates decreases, thus resulting in the observed cyclic softening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "Alloy 1 has a microstructure comprising primary (micron sized), secondary (≈250nm sized, cuboidal shaped) and tertiary (≈30nm sized) 𝛾′ precipitates, for which experimental microstructure and mechanical property characterization was performed in the present study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "Alloy 2 has a microstructure comprising spherical 𝛾′ precipitates, with an initial size of ≈25 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "Alloy 1 has a microstructure comprising primary (micron sized), secondary (≈250nm sized, cuboidal shaped) and tertiary (≈30nm sized) 𝛾′ precipitates, for which experimental microstructure and mechanical property characterization was performed in the present study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_6",
+      "sample_id": "sample_2",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4. Discussion",
+          "quote": "Alloy 2 has a microstructure comprising spherical 𝛾′ precipitates, with an initial size of ≈25 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "phase_6",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "4. Discussion",
+          "quote": "Given that the initial precipitate size was small, the weak pair coupling mechanism was present in this alloy from the beginning of deformation and the observed cyclic softening was primarily due to the reduction in precipitate size and its contribution to precipitate strengthening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "phase_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2.2. Prediction of low cycle fatigue behavior",
+          "quote": "It was predicted that the observed cyclic softening occurs due to a transition from strong pair coupling to weak pair coupling of the dislocation-precipitate interactions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PHASE",
+      "target_id": "phase_8",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {
+        "number_of_cycles": 44,
+        "strain_amplitude": "1.8%"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "Fig. 12",
+          "quote": "Distribution of precipitate number density before and after cyclic deformation for (a) Alloy 1 to 44 cycles for 1.8% strain amplitude and 100 cycles for 0.9% strain amplitude",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "93724b26e7f105bc:part:004"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

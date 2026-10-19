@@ -1,0 +1,983 @@
+{
+  "document_id": "ebf44a6f005a13b8",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Machine-learning-based intelligent framework for discovering refractory high-entropy alloys with improved high-temperature yield strength",
+    "authors": [
+      "Stephen A. Giles",
+      "Debasis Sengupta",
+      "Scott R. Broderick",
+      "Krishna Rajan"
+    ],
+    "journal": "npj Computational Materials",
+    "year": 2022,
+    "doi": "10.1038/s41524-022-00926-0"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "refractory high-entropy alloy (RHEA)",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": null,
+          "quote": "Refractory high-entropy alloys (RHEAs) show significant elevated-temperature yield strengths",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CrMoNbV",
+      "canonical_name": "CrMoNbV",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "experimental",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Experimental validation of machine learning model",
+          "quote": "The experimental data presented for CrMoNbV and NbTaTiV were taken from a recently published paper by Maresca et al.41",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "NbTaTiV",
+      "canonical_name": "NbTaTiV",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "experimental",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Experimental validation of machine learning model",
+          "quote": "The experimental data presented for CrMoNbV and NbTaTiV were taken from a recently published paper by Maresca et al.41",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "AlMo0.5NbTa0.5TiZr",
+      "canonical_name": "AlMo0.5NbTa0.5TiZr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "base alloy",
+      "composition": [
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Alloy discovery: known base alloys as a starting point",
+          "quote": "As a demonstration case, we first selected AlMo0.5NbTa0.5TiZr which already shows high yield strength at high-temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "Mo0.3NbTiV0.3Zr",
+      "canonical_name": "Mo0.3NbTiV0.3Zr",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "base alloy",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": 0.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": 0.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "we have chosen two additional base alloys, Mo0.3NbTiV0.3Zr and HfNbTaTiZr, which show high room temperature ductility.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "HfNbTaTiZr",
+      "canonical_name": "HfNbTaTiZr",
+      "alloy_system_id": "alloy_system_3",
+      "material_state": "base alloy",
+      "composition": [
+        {
+          "element": "Hf",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "HfNbTaTiZr also has a high ductility (33.3%) but a very poor yield strength at 25 °C (929 MPa).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "experimental",
+      "property": "yield strength",
+      "value": 224,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Experimental validation of machine learning model",
+          "quote": "Our model has a mean absolute error of 224 MPa for CrMoNbV and 147 MPa for NbTaTiV with respect to the experimental data.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "experimental",
+      "property": "yield strength",
+      "value": 147,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Experimental validation of machine learning model",
+          "quote": "Our model has a mean absolute error of 224 MPa for CrMoNbV and 147 MPa for NbTaTiV with respect to the experimental data.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_4",
+      "material_state": "base alloy",
+      "property": "yield strength",
+      "value": 1312,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Mo 0.3NbTiV0.3Zr has a moderate yield strength at 25 °C (1312 MPa) and a ductility of 49.3%53.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_4",
+      "material_state": "base alloy",
+      "property": "ductility",
+      "value": 49.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Mo 0.3NbTiV0.3Zr has a moderate yield strength at 25 °C (1312 MPa) and a ductility of 49.3%53.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_5",
+      "material_state": "base alloy",
+      "property": "yield strength",
+      "value": 929,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "HfNbTaTiZr also has a high ductility (33.3%) but a very poor yield strength at 25 °C (929 MPa) 54.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_5",
+      "material_state": "base alloy",
+      "property": "ductility",
+      "value": 33.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "HfNbTaTiZr also has a high ductility (33.3%) but a very poor yield strength at 25 °C (929 MPa) 54.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_5",
+      "material_state": "optimized",
+      "property": "yield strength",
+      "value": 1731,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "for HfNbTaTiZr, 80% improvement (increase from 962 MPa to 1731 MPa) was achieved at 25 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": null,
+      "material_state": "optimized",
+      "property": "yield strength",
+      "value": 344,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "36% improvement (252 MPa to 344 MPa) was obtained at 1000 °C by optimization of the elemental composition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": null,
+      "material_state": "predicted",
+      "property": "yield strength",
+      "value": 1457,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "machine learning prediction"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "At 25 °C the yield strengths are approximately normally distributed with a mean of 1457 MPa and a standard deviation of 175 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": null,
+      "material_state": "predicted",
+      "property": "yield strength",
+      "value": 1992,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "machine learning prediction"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The 25 °C optimal equiatomic 5-element alloy, AlMoTaTiZr, is predicted to have the highest room-temperature yield strength (1992 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": null,
+      "material_state": "predicted",
+      "property": "yield strength",
+      "value": 805,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "machine learning prediction"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "while the 1000 °C optimal alloy has a yield strength nearly as high (805 MPa) as the highest reported alloy, HfMoTaTiZr, which had a yield strength of 855 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "the ability of our model to predict yield strength for both single and multi-phase RHEAs well is indicative of the importance of these descriptors.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "interstitial strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Data collection and descriptor generation",
+          "quote": "It has been noted previously that interstitial elements (e.g., nitrogen and oxygen) can increase the yield strength by as much as 500 MPa at small concentrations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "random forest",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression",
+      "inputs": [
+        "test temperature",
+        "Ω",
+        "atomic size mismatch (δ)",
+        "tantalum modulus distortion (δGTa)",
+        "fractional composition of molybdenum (xMo)",
+        "base strength (σ0, min0.5)"
+      ],
+      "target": "yield strength",
+      "dataset": "RHEA yield strength data from Couzinie et al.38, 280 temperature-dependent yield strength values, final dataset 314 values",
+      "validation": "repeated k-fold cross-validation (5-fold, 1000 times)",
+      "metrics": {
+        "R2_CV": 0.895,
+        "MAE": 118,
+        "MAE_unit": "MPa",
+        "standard_deviation": 48
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Machine learning model development",
+          "quote": "The six descriptors chosen by the sequential feature selection (SFS) method are the test temperature, Ω, atomic size mismatch (δ), tantalum modulus distortion (δGTa), fractional composition of molybdenum (xMo), and a base strength, σ0, min0.5.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "STUDIES",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Experimental validation of machine learning model",
+          "quote": "The experimental data presented for CrMoNbV and NbTaTiV were taken from a recently published paper by Maresca et al.41",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "STUDIES",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Experimental validation of machine learning model",
+          "quote": "The experimental data presented for CrMoNbV and NbTaTiV were taken from a recently published paper by Maresca et al.41",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_3",
+      "predicate": "STUDIES",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Alloy discovery: known base alloys as a starting point",
+          "quote": "As a demonstration case, we first selected AlMo0.5NbTa0.5TiZr which already shows high yield strength at high-temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "experimental",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Experimental validation of machine learning model",
+          "quote": "Our model has a mean absolute error of 224 MPa for CrMoNbV and 147 MPa for NbTaTiV with respect to the experimental data.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "experimental",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Experimental validation of machine learning model",
+          "quote": "Our model has a mean absolute error of 224 MPa for CrMoNbV and 147 MPa for NbTaTiV with respect to the experimental data.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ebf44a6f005a13b8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Mo 0.3NbTiV0.3Zr has a moderate yield strength at 25 °C (1312 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Mo 0.3NbTiV0.3Zr has a moderate yield strength at 25 °C (1312 MPa) and a ductility of 49.3%53",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_5",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "HfNbTaTiZr also has a high ductility (33.3%) but a very poor yield strength at 25 °C (929 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_5",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "HfNbTaTiZr also has a high ductility (33.3%) but a very poor yield strength at 25 °C (929 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ebf44a6f005a13b8:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

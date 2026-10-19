@@ -1,0 +1,284 @@
+{
+  "document_id": "59311af3013b9cf4",
+  "chunk_id": "59311af3013b9cf4:part:001",
+  "paper_metadata": {
+    "title": "Composition optimization of Mo-based alloys with both high temperature strength and toughness based on machine learning",
+    "authors": [
+      "Jiaming Bao",
+      "Bing Bai",
+      "Yixuan Ke",
+      "Jin Gao",
+      "Xinfu He",
+      "Wen Yang"
+    ],
+    "journal": "Engineering Failure Analysis",
+    "year": 2025,
+    "doi": "10.1016/j.engfailanal.2025.109790"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mo-based alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Title",
+          "quote": "Composition optimization of Mo-based alloys with both high temperature strength and toughness based on machine learning",
+          "table": null,
+          "figure": null,
+          "chunk_id": "59311af3013b9cf4:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "SSJ3",
+      "canonical_name": "Mo-14Re-0.5La",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "5. Experimental verification",
+              "quote": "The main component of the sample is Mo-14Re with 0.5 wt% La added.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "59311af3013b9cf4:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Re",
+          "value": 14,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "5. Experimental verification",
+              "quote": "The main component of the sample is Mo-14Re with 0.5 wt% La added.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "59311af3013b9cf4:part:001"
+            }
+          ]
+        },
+        {
+          "element": "La",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 9,
+              "section": "5. Experimental verification",
+              "quote": "The main component of the sample is Mo-14Re with 0.5 wt% La added.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "59311af3013b9cf4:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 9,
+          "section": "5. Experimental verification",
+          "quote": "A part of SSJ3 small samples were prepared based on the existing materials in the laboratory. The sample size is shown in Fig. 5 . The main component of the sample is Mo-14Re with 0.5 wt% La added.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "59311af3013b9cf4:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "ultimate tensile strength",
+      "value": 721,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 6,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "5. Experimental verification",
+          "quote": "The tensile strength value and error range obtained in the room temperature test were 721 MPa ± 6 MPa, and the value predicted by the model was 717 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "59311af3013b9cf4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "ultimate tensile strength",
+      "value": 360,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 4,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "5. Experimental verification",
+          "quote": "The data and error range obtained from the test at high temperature of 800 ℃ were 360 MPa ± 4 MPa, and the value predicted by the model was 363 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "59311af3013b9cf4:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "Bayesian-optimized BP neural network",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression prediction of tensile strength and elongation from alloy composition",
+      "inputs": [
+        "C",
+        "O",
+        "N",
+        "Ti",
+        "Zr",
+        "Re",
+        "Hf",
+        "Ta",
+        "Ca",
+        "Cr",
+        "Fe",
+        "Al",
+        "Mg",
+        "S",
+        "Si",
+        "Sb",
+        "Cu",
+        "La2O3",
+        "ZrC",
+        "Mo"
+      ],
+      "target": "tensile strength (UTS) and elongation at 800 °C",
+      "dataset": "177 valid Mo-based alloy samples with 20 features",
+      "validation": "training and test set split; R2 on test set",
+      "metrics": {
+        "R2_tensile_strength": 0.83,
+        "R2_elongation": 0.78
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "a BPNN regression model optimized by Bayesian methods was developed based on a dataset of 177 Mo-based alloy samples with 38 compositions, focusing on tensile strength and elongation at elevated temperatures. The model achieved an R 2 value of 0.83",
+          "table": null,
+          "figure": null,
+          "chunk_id": "59311af3013b9cf4:part:001"
+        },
+        {
+          "page": 6,
+          "section": "3. Machine learning models and the corresponding implementation",
+          "quote": "the R 2 value of the model with tensile strength as the target value reached 0.83, and that of the model with elongation as the target value reached 0.78.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "59311af3013b9cf4:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "5. Experimental verification",
+          "quote": "the value predicted by the model was 717 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "59311af3013b9cf4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 800
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "5. Experimental verification",
+          "quote": "the value predicted by the model was 363 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "59311af3013b9cf4:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

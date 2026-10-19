@@ -1,0 +1,790 @@
+{
+  "document_id": "d236c0537ab0ac1f",
+  "chunk_id": "d236c0537ab0ac1f:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Z.S.",
+      "D.W.",
+      "M.Y.",
+      "W.G.",
+      "L.H.",
+      "X.Z.",
+      "Z.W."
+    ],
+    "journal": "Materials",
+    "year": 2021,
+    "doi": "10.3390/ma14041001"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "The crystallographic facets were also observed in the very high cycle fatigue of a nickel-based single-crystal superalloy tested at 1000◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "SLM IN718",
+      "canonical_name": "IN718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and double aged (STA)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "It should be noted that the SLM material is subjected to the same heat treatment specification (solution at 980 °C for 1 h and double aging at 720 °C for 8 h and then at 620 °C for 8 h, STA) traditionally used for the wrought materials",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "wrought IN718",
+      "canonical_name": "IN718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "wrought",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "in the wrought alloy during the hot forging process (Figure 4c)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": 980,
+        "time": "1 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-built SLM",
+      "output_state": "solution treated",
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "solution at 980 °C for 1 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "double aging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "first_aging_temperature_c": 720,
+          "first_aging_time": "8 h",
+          "second_aging_temperature_c": 620,
+          "second_aging_time": "8 h"
+        }
+      },
+      "input_state": "solution treated",
+      "output_state": "aged (STA)",
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "double aging at 720 °C for 8 h and then at 620 °C for 8 h, STA",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "hot forging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "wrought",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "Recrystallized grains with a small grain size of about 5 µm were formed in the wrought alloy during the hot forging process (Figure 4c).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rod or needle-like",
+        "location": "grain boundaries",
+        "composition": "Nb-rich",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the Nb-rich Laves and δ phases are prone to nucleate along the grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "delta phase",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rod or needle-like",
+        "location": "grain boundaries",
+        "composition": "Nb-rich",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the Nb-rich Laves and δ phases are prone to nucleate along the grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "columnar grain",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "attributes": {
+        "size": "about 10 µm in the plane perpendicular to the build direction",
+        "morphology": "coarse columnar, parallel to build direction",
+        "location": null
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "The grain size for the SLM material, however, was is about 10 µm in the plane perpendicular to the build direction, and it was larger in the plane with coarse columnar grains parallel to the build direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "recrystallized grain",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "attributes": {
+        "size": "about 5 µm",
+        "morphology": null,
+        "location": null
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "Recrystallized grains with a small grain size of about 5 µm were formed in the wrought alloy during the hot forging process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rod or needle-like",
+        "location": "grain boundaries",
+        "composition": "Nb-rich",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "more rod or needle-like Laves and δ phases can be observed in the wrought specimen after experiencing a long fatigue life of 10 9 cycle",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "delta phase",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rod or needle-like",
+        "location": "grain boundaries",
+        "composition": "Nb-rich",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "more rod or needle-like Laves and δ phases can be observed in the wrought specimen after experiencing a long fatigue life of 10 9 cycle (the corresponding during time is 14 h) than those in the same material before the fatigue test (Figure 3e). The majority of these precipitates are δ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Defect",
+      "name": "internal inclusion",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "attributes": {
+        "size": null,
+        "morphology": null,
+        "location": "internal",
+        "type": null
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the few internal inclusion and lack of fusion defects in the present SLM material",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Defect",
+      "name": "lack of fusion defect",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "attributes": {
+        "size": null,
+        "morphology": null,
+        "location": "internal",
+        "type": null
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the few internal inclusion and lack of fusion defects in the present SLM material",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Defect",
+      "name": "cavity",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "attributes": {
+        "size": null,
+        "morphology": null,
+        "location": "interface of Laves or δ phases and matrix along grain boundaries",
+        "type": null
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "Figure 9b shows the cavities in the interface of the Laves or δ phases and the matrix along the grain boundaries.",
+          "table": null,
+          "figure": "Figure 9b",
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_6",
+      "type": "Defect",
+      "name": "microcrack",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "attributes": {
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "type": null
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "A microcrack along the grain boundary is also observed in the wrought specimen (Figure 9d).",
+          "table": null,
+          "figure": "Figure 9d",
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary embrittlement",
+      "category": "embrittlement",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "The loss of coherent reinforcement between the brittle Laves or δ phases and the matrix under cyclic stress at elevated temperature can lead to grain boundary embrittlement and provide the crack propagation path",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "crack initiation from internal defects",
+      "category": "fatigue",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "All fatigue cracks are initiated from the internal defects (e.g., lack of fusion defects and inclusion) and the microstructure discontinuities (e.g., Laves phase and δ phase, or crystallographic facets), regardless of the fabrication processes",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "grain boundary blocking of crack propagation",
+      "category": "fatigue",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the blocking effect of grain boundaries decelerated the fatigue crack growth rate remarkably",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "Recrystallized grains with a small grain size of about 5 µm were formed in the wrought alloy during the hot forging process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "The grain size for the SLM material, however, was is about 10 µm in the plane perpendicular to the build direction, and it was larger in the plane with coarse columnar grains parallel to the build direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "more rod or needle-like Laves and δ phases can be observed in the wrought specimen after experiencing a long fatigue life of 10 9 cycle",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "more rod or needle-like Laves and δ phases can be observed in the wrought specimen after experiencing a long fatigue life of 10 9 cycle (the corresponding during time is 14 h) than those in the same material before the fatigue test (Figure 3e). The majority of these precipitates are δ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the Nb-rich Laves and δ phases are prone to nucleate along the grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the Nb-rich Laves and δ phases are prone to nucleate along the grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the few internal inclusion and lack of fusion defects in the present SLM material",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and double aged (STA)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the few internal inclusion and lack of fusion defects in the present SLM material",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "Figure 9b shows the cavities in the interface of the Laves or δ phases and the matrix along the grain boundaries.",
+          "table": null,
+          "figure": "Figure 9b",
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_6",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "A microcrack along the grain boundary is also observed in the wrought specimen (Figure 9d).",
+          "table": null,
+          "figure": "Figure 9d",
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "microstructure_2",
+      "predicate": "PROMOTES",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "Since the Nb-rich Laves and δ phases are prone to nucleate along the grain boundaries due to the lower activation energy barrier at elevated temperature, grain refinement can lead to the increase in the length and area of the grain boundaries, thereby promoting the Laves and δ phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "microstructure_2",
+      "predicate": "PROMOTES",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "Since the Nb-rich Laves and δ phases are prone to nucleate along the grain boundaries due to the lower activation energy barrier at elevated temperature, grain refinement can lead to the increase in the length and area of the grain boundaries, thereby promoting the Laves and δ phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "The loss of coherent reinforcement between the brittle Laves or δ phases and the matrix under cyclic stress at elevated temperature can lead to grain boundary embrittlement and provide the crack propagation path",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "phase_4",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "The loss of coherent reinforcement between the brittle Laves or δ phases and the matrix under cyclic stress at elevated temperature can lead to grain boundary embrittlement and provide the crack propagation path",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "mechanism_3",
+      "predicate": "DECREASES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the small grain size and the high fraction of HAGB and twin boundaries contribute to impeding the microstructural small fatigue crack propagation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d236c0537ab0ac1f:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

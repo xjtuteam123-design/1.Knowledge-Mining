@@ -1,0 +1,801 @@
+{
+  "document_id": "e84247792f96aecf",
+  "chunk_id": "e84247792f96aecf:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "High Strain Rate and High Temperature Behavior of Ti-6Al-4V Alloy Under Compressive Loading",
+    "authors": [
+      "Nitin B. Bhalerao",
+      "Suhas S. Joshi",
+      "N. K. Naik"
+    ],
+    "journal": "Journal of Engineering Materials and Technology",
+    "year": 2017,
+    "doi": "10.1115/1.4038671"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ti-6Al-4V alloy",
+      "material_category": "titanium alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the titanium alloy (grade 5) is a two-phase material, finds significant applications in aerospace, medical, marine fields",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ti-6Al-4V alloy work specimen",
+      "canonical_name": "Ti-6Al-4V",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-received",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "3. Specimen design",
+              "quote": "see Table 4 for the composition of the work specimen",
+              "table": "Table 4",
+              "figure": null,
+              "chunk_id": "e84247792f96aecf:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "Ti-6Al-4V alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "e84247792f96aecf:part:001"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "Ti-6Al-4V alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "e84247792f96aecf:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3. Specimen design",
+          "quote": "The work specimens of Φ 6 mm and length 6 mm were made from bars of Φ10 mm of Ti-6Al-4V alloy; see Table 4 for the composition of the work specimen.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "quasi-static specimen",
+      "canonical_name": "Ti-6Al-4V",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "untested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "for the quasi-static specimen, the average grain diameter is 2 µm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "specimen tested at 1450 s-1",
+      "canonical_name": "Ti-6Al-4V",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "deformed at 1450 s-1",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "the average grain diameters observed are 1.7 µm and 1.52 µm for the specimens tested at 1450 and 1850 s-1 strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "specimen tested at 1850 s-1",
+      "canonical_name": "Ti-6Al-4V",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "deformed at 1850 s-1",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "the average grain diameters observed are 1.7 µm and 1.52 µm for the specimens tested at 1450 and 1850 s-1 strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "split Hopkinson pressure bar (SHPB) compression",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": "997-1858 s-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-received",
+      "output_state": "deformed at high strain rate",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "A compressive Split Hopkinson Pressure Bar (SHPB) was used to evaluate the dynamic properties of Ti-6Al-4V alloy under various strain rates between 997 to 1898 s −1, and at temperatures between -10 °C and 320°C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "electro-polishing",
+      "parameters": {
+        "temperature_c": "-12 to -15",
+        "time": "18 s",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "voltage": "12 V",
+          "electrolyte": "85% methanol and 15% perfluoric acid solution"
+        }
+      },
+      "input_state": "deformed",
+      "output_state": "electro-polished",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "6. Microstructural study",
+          "quote": "Finally, the specimens were subjected to electro-polishing with 85% methanol and 15% perfluoric acid solution. The operating conditions during electro-polishing were set at: 12V, -12 to -15°C for 18 sy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "alpha phase",
+      "sample_id": "sample_2",
+      "material_state": "untested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "equiaxed",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "A white spot represents α phase having equi-axed structure",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "beta phase",
+      "sample_id": "sample_2",
+      "material_state": "untested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "surrounding alpha phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "black lines surrounding α phase represent β phase",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "grain",
+      "sample_id": "sample_2",
+      "material_state": "untested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "2 µm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "for the quasi-static specimen, the average grain diameter is 2 µm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "grain",
+      "sample_id": "sample_3",
+      "material_state": "deformed at 1450 s-1",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "1.7 µm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "the average grain diameters observed are 1.7 µm and 1.52 µm for the specimens tested at 1450 and 1850 s-1 strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "grain",
+      "sample_id": "sample_4",
+      "material_state": "deformed at 1850 s-1",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "1.52 µm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "the average grain diameters observed are 1.7 µm and 1.52 µm for the specimens tested at 1450 and 1850 s-1 strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high strain rate",
+      "property": "strain-rate sensitivity",
+      "value": 0.117,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": "8. Conclusions",
+          "quote": "The strain-rate-sensitivity of Ti-6Al-4V alloy is 0.117, while the temperature sensitivity is 0.55",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high strain rate",
+      "property": "temperature sensitivity",
+      "value": 0.55,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": "8. Conclusions",
+          "quote": "The strain-rate-sensitivity of Ti-6Al-4V alloy is 0.117, while the temperature sensitivity is 0.55",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high strain rate",
+      "property": "yield strength",
+      "value": 1309,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 7.67,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "SHPB"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "12",
+          "section": "7.5 Uncertainty analysis",
+          "quote": "The combined standard uncertainty for the room temperature testing of Ti-6Al -4V alloy is 7.67 MPa and the expanded uncertainty with confidence level of 95% is 15.26 MPa. On the other hand, in the high strain rate yield strength of 1309 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high strain rate",
+      "property": "yield strength",
+      "value": 1246,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 10.31,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "SHPB"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "12",
+          "section": "7.5 Uncertainty analysis",
+          "quote": "The combined standard uncertainty for the high temperature testing of Ti-6Al -4V alloy is 10.31 MPa and the expanded uncertainty with confidence level of 95% is 20.63 MPa. At the same time, in the high strain rate yield strength of 1246 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation generation and movement",
+      "category": "strain hardening",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high strain rate",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "7.4 Microstructural observation",
+          "quote": "It is observed that, with a rise in the strain rate, the yield strength of the material also increases. This rise in yield strength is due to the dislocation generation and its movement.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "thermal softening",
+      "category": "thermal effect",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high temperature",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "7.2 Stress-strain behavior of Ti-6Al-4V alloy at high and low temperature",
+          "quote": "It indicates that thermal softening occurs in high temperature regions of the specimen, and that the dislocations in the specimen tend to annihilate more rapidly than they generate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Ti-6Al-4V alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "5. Experimental study",
+          "quote": "This work on high strain-rate behavior of Ti-6Al-4V alloy was carried out at the strain rates varying between 997-1813 s-1. For this test SHPB set up was used.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "deformed at 1450 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "the average grain diameters observed are 1.7 µm and 1.52 µm for the specimens tested at 1450 and 1850 s-1 strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "sample_4",
+      "sample_id": "sample_4",
+      "material_state": "deformed at 1850 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "the average grain diameters observed are 1.7 µm and 1.52 µm for the specimens tested at 1450 and 1850 s-1 strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high strain rate",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "8. Conclusions",
+          "quote": "The strain-rate-sensitivity of Ti-6Al-4V alloy is 0.117, while the temperature sensitivity is 0.55",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high strain rate",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": "8. Conclusions",
+          "quote": "The strain-rate-sensitivity of Ti-6Al-4V alloy is 0.117, while the temperature sensitivity is 0.55",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high strain rate",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "7.5 Uncertainty analysis",
+          "quote": "The combined standard uncertainty for the room temperature testing of Ti-6Al -4V alloy is 7.67 MPa and the expanded uncertainty with confidence level of 95% is 15.26 MPa. On the other hand, in the high strain rate yield strength of 1309 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high strain rate",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "7.5 Uncertainty analysis",
+          "quote": "The combined standard uncertainty for the high temperature testing of Ti-6Al -4V alloy is 10.31 MPa and the expanded uncertainty with confidence level of 95% is 20.63 MPa. At the same time, in the high strain rate yield strength of 1246 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high strain rate",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "7.4 Microstructural observation",
+          "quote": "It is observed that, with a rise in the strain rate, the yield strength of the material also increases. This rise in yield strength is due to the dislocation generation and its movement.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed at high temperature",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "7.2 Stress-strain behavior of Ti-6Al-4V alloy at high and low temperature",
+          "quote": "It indicates that thermal softening occurs in high temperature regions of the specimen, and that the dislocations in the specimen tend to annihilate more rapidly than they generate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_3",
+      "material_state": "deformed at 1450 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "the average grain diameters observed are 1.7 µm and 1.52 µm for the specimens tested at 1450 and 1850 s-1 strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_4",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_4",
+      "material_state": "deformed at 1850 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "the average grain diameters observed are 1.7 µm and 1.52 µm for the specimens tested at 1450 and 1850 s-1 strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "untested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "7.4 Microstructural observation",
+          "quote": "for the quasi-static specimen, the average grain diameter is 2 µm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e84247792f96aecf:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

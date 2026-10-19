@@ -1,0 +1,1765 @@
+{
+  "document_id": "f1deba95d2a0f6dc",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "title": "Effect of refractory elements and Al on the high temperature oxidation of Ni-base superalloys and modelling of their oxidation resistance",
+    "authors": [
+      "Dae Won Yun",
+      "Seong Moon Seo",
+      "Hi Won Jeong",
+      "Young Soo Yoo"
+    ],
+    "journal": "Journal of Alloys and Compounds",
+    "year": 2017,
+    "doi": "10.1016/j.jallcom.2017.03.179"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Co-Cr-Al-W-Mo-Ta-Re-Ru superalloy",
+      "material_category": "Ni-base superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The oxidation resistance of Ni-Co-Cr-Al-W-Mo-Ta-Re-Ru alloys is evaluated by cyclic oxidation at 1 100 /C14 C and modelled using an arti ﬁcial neural network.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "A01",
+      "canonical_name": "Ni-6Co-5Cr-1.5Mo-6W-4.5Al-2Ta-3Ru",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "cyclic oxidized",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 5.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 1.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 4.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 2.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Re",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ru",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal. /C0 39.6",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "A02",
+      "canonical_name": "Ni-6Co-5Cr-1.5Mo-6W-6.5Al-2Ta-3Ru",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "cyclic oxidized",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 5.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 1.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 6.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 2.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Re",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ru",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal. /C0 6.8",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "A19",
+      "canonical_name": "Ni-6Co-5Cr-1.5Mo-6W-5.5Al-10Ta-3Re",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "cyclic oxidized",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 5.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 5.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 10.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Re",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ru",
+          "value": 0.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal. /C0 4.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "A42",
+      "canonical_name": "Ni-6Co-8Cr-1.5Mo-2W-5.5Al-2Ta-3Re-3Ru",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "cyclic oxidized",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 8.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 1.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 2.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 5.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 2.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Re",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ru",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal. /C0 8.2",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "A57",
+      "canonical_name": "Ni-6Co-5Cr-1.5Mo-6W-5.5Al-6Ta-3Re-3Ru",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "cyclic oxidized",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 5.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 1.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 5.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Re",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ru",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 2",
+              "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "f1deba95d2a0f6dc:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal. /C0 18.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "S_content": "<1 ppm"
+        }
+      },
+      "input_state": "raw materials",
+      "output_state": "ingot",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and methods",
+          "quote": "The samples were prepared by vacuum arc melting. Impurities that are detrimental to the oxidation resistance, such as S, are strictly controlled during the raw material selection and the melting process under 1 ppm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "electrical discharge cutting and micro-cutting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "disc_diameter_mm": 10,
+          "disc_thickness_mm": 3
+        }
+      },
+      "input_state": "ingot",
+      "output_state": "disc specimen",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and methods",
+          "quote": "From each ingot, the oxidation samples are prepared by electrical discharge cutting and micro-cutting to make discs with 10 mm diameters and 3 mm thicknesses.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "grinding and cleaning",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "SiC_grit": 1000,
+          "solvents": "acetone and ethanol"
+        }
+      },
+      "input_state": "disc specimen",
+      "output_state": "polished and cleaned specimen",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and methods",
+          "quote": "The samples were ground using SiC papers up to 1000-grit and cleaned in acetone and ethanol before the cyclic oxidation experiments.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "cyclic oxidation",
+      "parameters": {
+        "temperature_c": 1100,
+        "time": "50 cycles, each cycle: 60 min at 1100 °C + 30 min cooling to room temperature",
+        "pressure": null,
+        "atmosphere": "open air",
+        "cooling_method": "cooling in open air to room temperature",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "dwell_time_per_cycle_min": 60,
+          "cooling_time_min": 30,
+          "number_of_cycles": 50
+        }
+      },
+      "input_state": "polished specimen",
+      "output_state": "oxidized specimen",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and methods",
+          "quote": "One cycle of experiments in this study is composed of heating at 1 100 /C14 C for 60 min and cooling in open air for 30 min to room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "NiO",
+      "sample_id": "sample_1",
+      "material_state": "cyclic oxidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "outermost part of oxide scale",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "The outermost part of the oxide scale, which is presumably a NiO layer, is seemingly spalled during the cooling process.",
+          "table": null,
+          "figure": "Figure 6a",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "NiAl2O4",
+      "sample_id": "sample_1",
+      "material_state": "cyclic oxidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "discrete layer",
+        "location": "inner part of oxide scale",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "The typical oxide scale of specimen A41 with 2 wt% Cr consisted of a thick mixed oxide layer, a Ni-Cr spinel layer and a discrete NiAl2O4 layer.",
+          "table": null,
+          "figure": "Figure 6a",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "NiWO4",
+      "sample_id": "sample_1",
+      "material_state": "cyclic oxidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "white particles",
+        "location": "mixed oxide layer",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "In addition, the mixed oxide layer was composed of NiO, Ni-Cr spinels and NiWO4 particles, which appear as white particles (Fig. 6 (a)).",
+          "table": null,
+          "figure": "Figure 6a",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "NiAl2O4",
+      "sample_id": "sample_4",
+      "material_state": "cyclic oxidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "continuous layer",
+        "location": "inner part of oxide scale",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "In contrast, the oxide scale of specimen A42 with 8 wt% Cr consisted of a thin mixed oxide layer, a Ni-Cr spinel layer and a continuous NiAl2O4 layer.",
+          "table": null,
+          "figure": "Figure 6b",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "Al2O3",
+      "sample_id": "sample_3",
+      "material_state": "cyclic oxidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "continuous layer",
+        "location": "beneath or inside NiAl2O4 layer",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "In specimen A19 with 10 wt% Ta, the formation of NiO and NiWO4 was suppressed; moreover, CrTaO4 was found beneath or inside the NiAl2O4 layer (Fig. 10(c) and (d)).",
+          "table": null,
+          "figure": "Figure 10c, 10d",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "CrTaO4",
+      "sample_id": "sample_3",
+      "material_state": "cyclic oxidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "beneath or inside NiAl2O4 layer",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "In specimen A19 with 10 wt% Ta, the formation of NiO and NiWO4 was suppressed; moreover, CrTaO4 was found beneath or inside the NiAl2O4 layer (Fig. 10(c) and (d)).",
+          "table": null,
+          "figure": "Figure 10c, 10d",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "crack",
+      "sample_id": "sample_1",
+      "material_state": "cyclic oxidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "along mixed oxide layer",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "Cracks were observed along the mixed oxide layer, which aggravate spallation of the oxide scale.",
+          "table": null,
+          "figure": "Figure 7a, 7b",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "pore",
+      "sample_id": "sample_4",
+      "material_state": "cyclic oxidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "mixed oxide layer",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "Since this mixed oxide layer contains a large amount of pores, it is prone to cracking and spalling (Fig. 9 (d)).",
+          "table": null,
+          "figure": "Figure 9d",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "cyclic oxidized",
+      "property": "weight change",
+      "value": -39.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mg/cm2",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "open air",
+        "duration": "50 cycles (1 h dwell at 1100 °C per cycle)",
+        "test_method": "cyclic oxidation test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "A01 5.0 1.5 6.0 4.5 2.0 0.0 3.0 6.0 bal. /C0 39.6",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "cyclic oxidized",
+      "property": "weight change",
+      "value": -6.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mg/cm2",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "open air",
+        "duration": "50 cycles (1 h dwell at 1100 °C per cycle)",
+        "test_method": "cyclic oxidation test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "A02 5.0 1.5 6.0 6.5 2.0 0.0 3.0 6.0 bal. /C0 6.8",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "cyclic oxidized",
+      "property": "weight change",
+      "value": -4.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mg/cm2",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "open air",
+        "duration": "50 cycles (1 h dwell at 1100 °C per cycle)",
+        "test_method": "cyclic oxidation test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "A19 5.0 0.0 6.0 5.5 10.0 3.0 0.0 6.0 bal. /C0 4.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_4",
+      "material_state": "cyclic oxidized",
+      "property": "weight change",
+      "value": -8.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mg/cm2",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "open air",
+        "duration": "50 cycles (1 h dwell at 1100 °C per cycle)",
+        "test_method": "cyclic oxidation test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "A42 8.0 1.5 2.0 5.5 2.0 3.0 3.0 6.0 bal. /C0 8.2",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_5",
+      "material_state": "cyclic oxidized",
+      "property": "weight change",
+      "value": -18.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mg/cm2",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "open air",
+        "duration": "50 cycles (1 h dwell at 1100 °C per cycle)",
+        "test_method": "cyclic oxidation test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 2",
+          "quote": "A57 5.0 1.5 6.0 5.5 6.0 3.0 3.0 6.0 bal. /C0 18.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "protective NiAl2O4 layer formation",
+      "category": "oxidation protection",
+      "sample_id": "sample_2",
+      "material_state": "cyclic oxidized",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "The increase in the Al content promoted the formation of a protective NiAl2O4 layer, and it also reduced the formation of the mixed oxide layer, which is prone to spallation.",
+          "table": null,
+          "figure": "Figure 7c",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "volatile oxide species formation",
+      "category": "oxidation degradation",
+      "sample_id": "sample_1",
+      "material_state": "cyclic oxidized",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "Mo and Ru disturbed a barrier property of the oxide scale and promoted the formation of transient oxides by forming volatile oxide species such as MoO3 and RuO3 [9e12].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "oxygen getter effect",
+      "category": "oxidation protection",
+      "sample_id": "sample_3",
+      "material_state": "cyclic oxidized",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "Ta presumably acted as an oxygen getter similar to Cr, which promoted the formation of a continuous Al2O3 layer.",
+          "table": null,
+          "figure": "Figure 10d",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "artificial neural network (ANN)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression",
+      "inputs": [
+        "Cr content",
+        "Al content",
+        "Mo content",
+        "W content",
+        "Ta content",
+        "Re content",
+        "Ru content"
+      ],
+      "target": "weight change after 50 cycles",
+      "dataset": "62 alloy compositions designed by Box-Behnken method",
+      "validation": "comparison with experimental data",
+      "metrics": {
+        "multiple correlation coefficient R": 0.999
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The obtained model with a 7-10-1 architecture exhibits consistent prediction of the experimental data (R ¼ 0.999).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The oxidation resistance of Ni-Co-Cr-Al-W-Mo-Ta-Re-Ru alloys is evaluated by cyclic oxidation at 1 100 /C14 C and modelled using an arti ﬁcial neural network.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and methods",
+          "quote": "The samples were prepared by vacuum arc melting. Impurities that are detrimental to the oxidation resistance, such as S, are strictly controlled during the raw material selection and the melting process under 1 ppm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and methods",
+          "quote": "One cycle of experiments in this study is composed of heating at 1 100 /C14 C for 60 min and cooling in open air for 30 min to room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_4",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_4",
+      "material_state": "cyclic oxidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "In contrast, the oxide scale of specimen A42 with 8 wt% Cr consisted of a thin mixed oxide layer, a Ni-Cr spinel layer and a continuous NiAl2O4 layer.",
+          "table": null,
+          "figure": "Figure 6b",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "phase_4",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_4",
+      "material_state": "cyclic oxidized",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "The increase in the Al content promoted the formation of a protective NiAl2O4 layer, and it also reduced the formation of the mixed oxide layer, which is prone to spallation.",
+          "table": null,
+          "figure": "Figure 7c",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_4",
+      "sample_id": "sample_4",
+      "material_state": "cyclic oxidized",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "4. Conclusions",
+          "quote": "An increase in Cr and Al was bene ﬁcial to the oxidation resistance by promoting the formation of a protective NiAl 2O4 layer and by suppressing the formation of transient oxides such as NiO and NiWO4.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "cyclic oxidized",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "Mo and Ru disturbed a barrier property of the oxide scale and promoted the formation of transient oxides by forming volatile oxide species such as MoO3 and RuO3 [9e12].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "cyclic oxidized",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Microstructure of the oxide scale",
+          "quote": "The evaporation of Mo species deteriorated the stability of the protective oxide scale. This promoted the formation of oxide nodules.",
+          "table": null,
+          "figure": "Figure 8a, 8c, 8d",
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The obtained model with a 7-10-1 architecture exhibits consistent prediction of the experimental data (R ¼ 0.999).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f1deba95d2a0f6dc:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

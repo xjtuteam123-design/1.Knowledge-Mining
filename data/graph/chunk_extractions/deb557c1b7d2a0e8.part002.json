@@ -1,0 +1,331 @@
+{
+  "document_id": "deb557c1b7d2a0e8",
+  "chunk_id": "deb557c1b7d2a0e8:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Deep potential molecular dynamics study of the amorphization and mechanical properties of Cantor alloy under different cooling rates",
+    "authors": [
+      "W.Z.",
+      "J.S.",
+      "L.L.",
+      "H.Y.",
+      "S.G.",
+      "G.R.",
+      "Y.W."
+    ],
+    "journal": "npj Computational Materials",
+    "year": 2025,
+    "doi": "10.1038/s41524-025-01561-1"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Cantor alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The calculated results of B, G, m,a n dν for the 23 Cantor alloys with different structures are listed in Supplementary Table 5.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "deb557c1b7d2a0e8:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Cantor alloy solidified at 0.1 K/ps",
+      "canonical_name": "CrCoFeNiMn",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "crystalline",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mol%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 11,
+              "section": null,
+              "quote": "The simulated CrCoFeNiMn alloy is composed of 20 Cr, 20 Co, 20 Fe, 20 Ni, and 20 Mn with a molar percentage of 20% for each element",
+              "table": null,
+              "figure": null,
+              "chunk_id": "deb557c1b7d2a0e8:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mol%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 11,
+              "section": null,
+              "quote": "The simulated CrCoFeNiMn alloy is composed of 20 Cr, 20 Co, 20 Fe, 20 Ni, and 20 Mn with a molar percentage of 20% for each element",
+              "table": null,
+              "figure": null,
+              "chunk_id": "deb557c1b7d2a0e8:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mol%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 11,
+              "section": null,
+              "quote": "The simulated CrCoFeNiMn alloy is composed of 20 Cr, 20 Co, 20 Fe, 20 Ni, and 20 Mn with a molar percentage of 20% for each element",
+              "table": null,
+              "figure": null,
+              "chunk_id": "deb557c1b7d2a0e8:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mol%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 11,
+              "section": null,
+              "quote": "The simulated CrCoFeNiMn alloy is composed of 20 Cr, 20 Co, 20 Fe, 20 Ni, and 20 Mn with a molar percentage of 20% for each element",
+              "table": null,
+              "figure": null,
+              "chunk_id": "deb557c1b7d2a0e8:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mol%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 11,
+              "section": null,
+              "quote": "The simulated CrCoFeNiMn alloy is composed of 20 Cr, 20 Co, 20 Fe, 20 Ni, and 20 Mn with a molar percentage of 20% for each element",
+              "table": null,
+              "figure": null,
+              "chunk_id": "deb557c1b7d2a0e8:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "the element distribution of Cantor alloy solidiﬁed under high super-cooling rate of 100 K/ps does not show up Co segregation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "deb557c1b7d2a0e8:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "deep potential molecular dynamics solidification",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "cooling from 3000 K to 300 K at 0.1 K/ps",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "cooling_rate": "0.1 K/ps",
+          "initial_temperature": "3000 K",
+          "final_temperature": "300 K",
+          "supercell": "5x5x5x100 atoms",
+          "ensemble": "NPT then NVT"
+        }
+      },
+      "input_state": "liquid at 3000 K",
+      "output_state": "crystalline",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "DPMD simulations",
+          "quote": "The balanced structure was cooled to 300 K with 18 cooling rates R:0.1 K/ps, 1 K/ps, 2 K/ps ...",
+          "table": null,
+          "figure": null,
+          "chunk_id": "deb557c1b7d2a0e8:part:002"
+        },
+        {
+          "page": 11,
+          "section": "DPMD simulations",
+          "quote": "The equilibrium structure at 3000 K was gradually cooled down to the temperature of 300 K with these four chosen cooling rates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "deb557c1b7d2a0e8:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "crystalline phase",
+      "sample_id": "sample_1",
+      "material_state": "crystalline",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "the solidiﬁed Cantor alloy shows better ductility even being at crystalline state",
+          "table": null,
+          "figure": null,
+          "chunk_id": "deb557c1b7d2a0e8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "Co segregation",
+      "sample_id": "sample_1",
+      "material_state": "crystalline",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "the element distribution of Cantor alloy solidiﬁed under high super-cooling rate of 100 K/ps does not show up Co segregation. This indicates the Co segregation could be the main factor contributing to the high strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "deb557c1b7d2a0e8:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "crystalline",
+      "property": "kinetic fragility index",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "calculated from VRH bulk and shear modulus"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "Typically, higherm and larger ν values are regarded as indicators of better ductility in compression",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "deb557c1b7d2a0e8:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Co segregation induced strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "crystalline",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The low super-cooling rate could cause a decrease in the movement of Co atoms, leading to their segregation in the alloy and bringing a high strength capability of the material itself.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "deb557c1b7d2a0e8:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "defect_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "crystalline",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "This indicates the Co segregation could be the main factor contributing to the high strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "deb557c1b7d2a0e8:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

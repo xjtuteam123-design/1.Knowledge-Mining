@@ -1,0 +1,225 @@
+{
+  "document_id": "8903c659855ac236",
+  "chunk_id": "8903c659855ac236:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Zhao Chen",
+      "Xiaoli Wen",
+      "Weili Wang",
+      "Chaoshuai Guan",
+      "Liany Chen",
+      "Xin Lin",
+      "Haiou Yang",
+      "Zhangwei Zheng",
+      "Dezhi Ma",
+      "Haibin Wu",
+      "Wenhui Li",
+      "Nan Li"
+    ],
+    "journal": "Materials Characterization",
+    "year": 2025,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "TiB2/HEA",
+      "material_category": "high-entropy alloy composite",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "the ultra-increased ductility of TiB2/HEA shows strong dependences on relieving stress concentration caused by the deformation-induced twinning in the TiB2 nanoparticles and σ phase particles",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8903c659855ac236:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "TiB2/HEA",
+      "canonical_name": "TiB2/HEA",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [
+        {
+          "element": "TiB2",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": null,
+              "quote": "TiB2/HEA",
+              "table": null,
+              "figure": null,
+              "chunk_id": "8903c659855ac236:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "TiB2/HEA",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8903c659855ac236:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Ti-rich nanoparticles",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ti-rich",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "generation of Ti-rich nano-particles inside the grains",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8903c659855ac236:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "sigma phase",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": "Cr-rich",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "Cr-rich sigma phases at grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8903c659855ac236:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "TiB2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "TiB2 nanoparticles",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8903c659855ac236:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "strain hardening",
+      "category": "mechanical",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "The strain hardening mechanism of the TiB2/HEA during plastic deformation at CT is closely related to the initiation and propagation of SFs and DTs, nanoparticles and dislocations gliding.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8903c659855ac236:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "deformation-induced twinning",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "deformation-induced twinning in the TiB2 nanoparticles and σ phase particles",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8903c659855ac236:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "The strain hardening mechanism of the TiB2/HEA during plastic deformation at CT is closely related to the initiation and propagation of SFs and DTs, nanoparticles and dislocations gliding.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8903c659855ac236:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

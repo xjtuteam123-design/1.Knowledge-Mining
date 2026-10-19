@@ -1,0 +1,731 @@
+{
+  "document_id": "88f3ac87b383e5fa",
+  "chunk_id": "88f3ac87b383e5fa:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Chuan-Hui Zhang",
+      "Ni Lu",
+      "Liwu Jiang",
+      "Jin Wang"
+    ],
+    "journal": "Advanced Engineering Materials",
+    "year": 2025,
+    "doi": "10.1002/adem.202402338"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the γ 0 phase is a major source of strength in Ni-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "DZ411",
+      "canonical_name": "DZ411",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-simulated model",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": null,
+              "quote": "the Ni – Al– Co– Ti– Cr quinary LI-EAM potential is developed",
+              "table": null,
+              "figure": null,
+              "chunk_id": "88f3ac87b383e5fa:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": null,
+              "quote": "the Ni – Al– Co– Ti– Cr quinary LI-EAM potential is developed",
+              "table": null,
+              "figure": null,
+              "chunk_id": "88f3ac87b383e5fa:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": null,
+              "quote": "Co, Ti, and Cr are selected as three main strengthening elements in the DZ411 alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "88f3ac87b383e5fa:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": null,
+              "quote": "Co, Ti, and Cr are selected as three main strengthening elements in the DZ411 alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "88f3ac87b383e5fa:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": null,
+              "quote": "Co, Ti, and Cr are selected as three main strengthening elements in the DZ411 alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "88f3ac87b383e5fa:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Figure 7 illustrates the evolution of dislocation structures inside the DZ411 alloy during the tensile process.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics NPT relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "20 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT"
+        }
+      },
+      "input_state": "unrelaxed model",
+      "output_state": "relaxed model",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3 High-Temperature Fatigue Properties",
+          "quote": "Initially, after relaxing the system for 20 ps under the NPT ensemble, the alloy undergoes 15 cycles of tension– compression simulation along the z-axis with a strain amplitude of 8% and a strain rate of 0.0025 ps /C0 1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "cyclic tension-compression simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "strain amplitude 8%",
+        "strain_rate": "0.0025 ps^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "cycles": 15,
+          "direction": "z-axis"
+        }
+      },
+      "input_state": "relaxed model",
+      "output_state": "fatigue-tested model",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3 High-Temperature Fatigue Properties",
+          "quote": "the alloy undergoes 15 cycles of tension– compression simulation along the z-axis with a strain amplitude of 8% and a strain rate of 0.0025 ps /C0 1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (γ')",
+      "sample_id": "sample_1",
+      "material_state": "as-simulated model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the γ 0 phase is a major source of strength in Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "300 K elastic stage",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "At elevated temperatures above 1100 K, the dislocation density decreases, primarily due to dislocation climb, leading to a gradual transformation of the crystal structure from FCC to HCP.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": "sample_1",
+      "material_state": "300 K tensile",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma matrix, along (111) plane",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": "4 Conclusion",
+          "quote": "The results show that the alloy forms HCP structures in the γ matrix during room-temperature tensile process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "1200 K tensile",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma-prime phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "the strengthening element Ti promotes the formation of BCC structures in the γ 0 phase, which is used to ensure the stability of the alloy at high temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": "sample_1",
+      "material_state": "300 K tensile",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "phase interfaces and bulk",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "When the alloy reaches its UTS (strain rate of 10%), the dislocation density within the alloy peaks. A large variety of dislocations concentrate at the phase interfaces, and some also appear within the bulk of the alloy.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Defect",
+      "name": "Shockley dislocation",
+      "sample_id": "sample_1",
+      "material_state": "300 K tensile",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "As the applied stress gradually increases (strain rate of 4%), the dislocation loops within the alloy begin to break down, and an increasing number of green Shockley dislocations appear.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Defect",
+      "name": "disordered atomic structure",
+      "sample_id": "sample_1",
+      "material_state": "300 K cyclic fatigue",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "phase interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "the alloy undergoes partial fracture at the phase interface, accompanied by the emergence of a signiﬁcant number of disordered structures",
+          "table": null,
+          "figure": "Figure 9",
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "300 K tensile",
+      "property": "tensile strength",
+      "value": 12,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "8%",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the strength is ≈7.5 GPa at a strain rate of 8%, signiﬁcantly lower than the strength at room temperature (12 GPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "1100-1200 K tensile",
+      "property": "tensile strength",
+      "value": 7.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": "1100-1200",
+        "strain_rate": "8%",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the strength is ≈7.5 GPa at a strain rate of 8%, signiﬁcantly lower than the strength at room temperature (12 GPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "300 K tensile",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the dislocation line density inside the alloy has a direct impact on its tensile strength, which can be described by the Taylor relationship.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation climb",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "high temperature tensile",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "At elevated temperatures above 1100 K, the dislocation density decreases, primarily due to dislocation climb, leading to a gradual transformation of the crystal structure from FCC to HCP.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "FCC to HCP transformation",
+      "category": "phase transformation",
+      "sample_id": "sample_1",
+      "material_state": "300 K tensile",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "4 Conclusion",
+          "quote": "The results show that the alloy forms HCP structures in the γ matrix during room-temperature tensile process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "elastic deformation",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "high temperature fatigue",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "Under high-temperature fatigue loading, the primary deformation mode of the alloy is elastic deformation, and the differences in mechanical properties after multiple cycles of loading are small.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Figure 7 illustrates the evolution of dislocation structures inside the DZ411 alloy during the tensile process.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-simulated model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the γ 0 phase is a major source of strength in Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "300 K tensile",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "4 Conclusion",
+          "quote": "The results show that the alloy forms HCP structures in the γ matrix during room-temperature tensile process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "phase_4",
+      "predicate": "STABILIZES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "1200 K tensile",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "the strengthening element Ti promotes the formation of BCC structures in the γ 0 phase, which is used to ensure the stability of the alloy at high temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "microstructure_2",
+      "predicate": "FORMS",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "300 K tensile",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "an increasing number of green Shockley dislocations appear",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "300 K tensile",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "At room temperature, the internal dislocation line density of the DZ411 alloy gradually increases as the strain goes up, and the tensile strength also increases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "high temperature tensile",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "However, the internal dislocation density of the alloy remains at a lower level at high temperatures, resulting in signiﬁcantly lower tensile strength compared to room-temperature conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3",
+          "quote": "Initially, after relaxing the system for 20 ps under the NPT ensemble",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "fatigue-tested model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3",
+          "quote": "the alloy undergoes 15 cycles of tension– compression simulation along the z-axis with a strain amplitude of 8% and a strain rate of 0.0025 ps /C0 1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "88f3ac87b383e5fa:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "γ",
+    "γ/γ' interface"
+  ],
+  "conflicts": []
+}

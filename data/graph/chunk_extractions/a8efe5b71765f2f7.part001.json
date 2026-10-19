@@ -1,0 +1,1784 @@
+{
+  "document_id": "a8efe5b71765f2f7",
+  "chunk_id": "a8efe5b71765f2f7:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Microstructure evolution and fracture mechanism of Mo/Cu alloyed interface during plastic deformation",
+    "authors": [
+      "Bo Zhang",
+      "Yumeng Wang",
+      "Guoguang Li",
+      "Yunqi Lu",
+      "Wenlong Zhao",
+      "Xiaodi Wang",
+      "Yang Yang",
+      "Hong Xiao",
+      "Jinlong Du"
+    ],
+    "journal": "Journal of Materials Research and Technology",
+    "year": 2025,
+    "doi": "10.1016/j.jmrt.2025.08.028"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mo-Cu alloy",
+      "material_category": "immiscible binary alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Title",
+          "quote": "Microstructure evolution and fracture mechanism of Mo/Cu alloyed interface during plastic deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "high-temperature alloyed interface model",
+      "canonical_name": "Mo-Cu",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "high-temperature alloyed",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.2 Alloying simulation",
+              "quote": "the contact interface being Mo(100)//Cu(100)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "a8efe5b71765f2f7:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.2 Alloying simulation",
+              "quote": "the contact interface being Mo(100)//Cu(100)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "a8efe5b71765f2f7:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 The microstructure of the alloyed interface",
+          "quote": "the high-temperature alloyed interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "electric-field alloyed interface model",
+      "canonical_name": "Mo-Cu",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "electric-field alloyed",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.2 Alloying simulation",
+              "quote": "the contact interface being Mo(100)//Cu(100)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "a8efe5b71765f2f7:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.2 Alloying simulation",
+              "quote": "the contact interface being Mo(100)//Cu(100)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "a8efe5b71765f2f7:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 The microstructure of the alloyed interface",
+          "quote": "the electric-field alloyed interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "MD simulation relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "0.8 ns",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "boundary_conditions": "periodic"
+        }
+      },
+      "input_state": "initial model",
+      "output_state": "relaxed model",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Alloying simulation",
+          "quote": "The initial model underwent a 0.8 ns relaxation process to fully release the internal energy of the system.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "high-temperature alloying",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": "5 ns",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "boundary_conditions": "periodic"
+        }
+      },
+      "input_state": "relaxed model",
+      "output_state": "high-temperature alloyed interface",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Alloying simulation",
+          "quote": "the holding temperature of 1200 K and a holding duration of 5 ns. Under these high-temperature conditions, complete atomic diffusion occurred, forming a high-temperature alloyed interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "MD simulation relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "0.8 ns",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "boundary_conditions": "periodic"
+        }
+      },
+      "input_state": "initial model",
+      "output_state": "relaxed model",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Alloying simulation",
+          "quote": "The initial model underwent a 0.8 ns relaxation process to fully release the internal energy of the system.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "electric-field-assisted alloying",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": "5 ns",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "boundary_conditions": "periodic",
+          "electric_field": "applied during heating and holding stages"
+        }
+      },
+      "input_state": "relaxed model",
+      "output_state": "electric-field-assisted alloyed interface",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Alloying simulation",
+          "quote": "During the heating and holding stages, an additional electric field was applied using LAMMPS. Through the synergistic promotion of atomic diffusion by both high temperature and the electric field, an electric-field-assisted alloying interface was formed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "tensile loading (MD)",
+      "parameters": {
+        "temperature_c": 300,
+        "time": "0.3 ns",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": ">1e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "loading_direction": "perpendicular to interface (z-axis)"
+        }
+      },
+      "input_state": null,
+      "output_state": "fractured interface",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.3 Deformation simulation",
+          "quote": "The model was relaxed at 300 K for a duration of 0.3 ns. Subsequently, under NVT ensemble conditions, a velocity was imparted to the fixed rigid atomic layers to enable uniform loading in the specified direction at a strain rate exceeding 1 × 10 9 s 1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_2",
+      "sequence": 3,
+      "method": "tensile loading (MD)",
+      "parameters": {
+        "temperature_c": 300,
+        "time": "0.3 ns",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": ">1e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "loading_direction": "perpendicular to interface (z-axis)"
+        }
+      },
+      "input_state": null,
+      "output_state": "fractured interface",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.3 Deformation simulation",
+          "quote": "The model was relaxed at 300 K for a duration of 0.3 ns. Subsequently, under NVT ensemble conditions, a velocity was imparted to the fixed rigid atomic layers to enable uniform loading in the specified direction at a strain rate exceeding 1 × 10 9 s 1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "shear loading (MD)",
+      "parameters": {
+        "temperature_c": 300,
+        "time": "0.3 ns",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": ">1e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "loading_direction": "parallel to interface (y-axis)"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.3 Deformation simulation",
+          "quote": "When loaded parallel to the interface, the fixed rigid atomic layers move along the positive y-axis direction, resulting in deformation of the model box along the y and z axes.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_8",
+      "sample_id": "sample_2",
+      "sequence": 4,
+      "method": "shear loading (MD)",
+      "parameters": {
+        "temperature_c": 300,
+        "time": "0.3 ns",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": ">1e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "loading_direction": "parallel to interface (y-axis)"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.3 Deformation simulation",
+          "quote": "When loaded parallel to the interface, the fixed rigid atomic layers move along the positive y-axis direction, resulting in deformation of the model box along the y and z axes.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Mo side",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "blue atoms indicate BCC crystals",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Cu side",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "green atoms indicate FCC crystals",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "amorphous interface",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "the interface exhibited a layered structure consisting of crystalline-amorphous-crystalline regions",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Cu side",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "green atoms indicate FCC crystals",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "amorphous interface",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "an electric-field-assisted alloying interface was formed",
+          "table": null,
+          "figure": "Fig. 3(d)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dislocation pile-up",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "near amorphous interface on Cu side",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1",
+          "quote": "the dislocation density on the Cu side of the model increases, particularly near the amorphous interface, where the dislocation pile-up leads to stress concentration",
+          "table": null,
+          "figure": "Fig. 4(c)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "dislocation loop",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Cu side",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "As shown in Fig. 4 (e), only dislocation loops remain in Cu",
+          "table": null,
+          "figure": "Fig. 4(e)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "dislocation cell",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "network",
+        "location": "Cu region",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "severe dislocation entanglement occurs within the Cu, forming a network of dislocation cells",
+          "table": null,
+          "figure": "Fig. 7(e)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "stacking fault",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "intrinsic",
+        "location": "Cu region",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "The faults shown in the figure are all intrinsic stacking faults formed by the stacking of two layers of Cu atoms.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "Lomer-Cottrell lock",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "V-shaped",
+        "location": "Cu region",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2.2",
+          "quote": "an acute-angle V-shaped fixed structure forms, known as the Lomer-Cottrell lock (L-C lock)",
+          "table": null,
+          "figure": "Fig. 7(c)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_6",
+      "type": "Microstructure",
+      "name": "Hirth lock",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "obtuse angle",
+        "location": "Cu region",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2.2",
+          "quote": "Hirth locks form an obtuse angle with the Hirth dislocation as the central dislocation",
+          "table": null,
+          "figure": "Fig. 7(d)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "brittle fracture along grain boundaries",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "the alloyed interface experiences severe dislocation pile-up due to microstructure differences, exhibiting brittle fracture characteristics along the grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "property": "tensile strength",
+      "value": 9.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": ">1e9 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to interface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.1",
+          "quote": "the maximum stress achieved at the high-temperature alloyed interface was 9.7 GPa",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "property": "tensile strength",
+      "value": 10.33,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": ">1e9 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to interface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.1",
+          "quote": "at the electric-field alloyed interface, it reached 10.33 GPa, representing a 6.5 % increase compared to the high-temperature alloyed interface",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "property": "fracture strain",
+      "value": 0.377,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": ">1e9 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to interface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "compared to the high-temperature alloyed interface (tensile strength 9.7 GPa, shear strength 5.18 GPa, fracture strain 0.377 in tension)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        },
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "when the strain reaches ε = 0.377, the interface fractures completely",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "property": "fracture strain",
+      "value": 0.278,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": ">1e9 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "perpendicular to interface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the electric-field alloyed interface exhibits enhanced strength (tensile strength 10.33 GPa, shear strength 5.51 GPa) but reduced plasticity (fracture strain 0.278 in tension)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "property": "shear strength",
+      "value": 5.18,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": ">1e9 s^-1",
+        "loading_mode": "shear",
+        "orientation": "parallel to interface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the high-temperature alloyed interface (tensile strength 9.7 GPa, shear strength 5.18 GPa, fracture strain 0.377 in tension)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "property": "shear strength",
+      "value": 5.51,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": ">1e9 s^-1",
+        "loading_mode": "shear",
+        "orientation": "parallel to interface",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the electric-field alloyed interface exhibits enhanced strength (tensile strength 10.33 GPa, shear strength 5.51 GPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation pile-up",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "due to the significant difference in atomic arrangement between the amorphous interface and the FCC structure of Cu, a potential barrier forms, preventing dislocations from crossing the amorphous interface. This leads to dislocation pile-up at the interface, causing severe stress concentration.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation annihilation",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "The applied electric field accelerates processes such as dislocation slip, reaction, and annihilation, resulting in extensive dislocation annihilation within the interface and a more uniform stress distribution at the interface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "work hardening",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2.2",
+          "quote": "Both locking structures play identical roles, enhancing the work hardening ability through the pinning effect of the central dislocations.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "brittle fracture",
+      "category": "fracture mechanism",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Microstructure disparities lead to dislocation pile-up, ultimately resulting in brittle fracture along grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "forming a high-temperature alloyed interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "an electric-field-assisted alloying interface was formed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2",
+          "quote": "The initial model underwent a 0.8 ns relaxation process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "The relaxed model was subjected to the heat treatment process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "the holding temperature of 1200 K and a holding duration of 5 ns",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2",
+          "quote": "The initial model underwent a 0.8 ns relaxation process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "process_3",
+      "predicate": "PRODUCES",
+      "target_id": "process_4",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "During the heating and holding stages, an additional electric field was applied",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "Through the synergistic promotion of atomic diffusion by both high temperature and the electric field, an electric-field-assisted alloying interface was formed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "forming a high-temperature alloyed interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "process_4",
+      "predicate": "PRODUCES",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "an electric-field-assisted alloying interface was formed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "blue atoms indicate BCC crystals",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "green atoms indicate FCC crystals",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "the interface exhibited a layered structure consisting of crystalline-amorphous-crystalline regions",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "green atoms indicate FCC crystals",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "an electric-field-assisted alloying interface was formed",
+          "table": null,
+          "figure": "Fig. 3(d)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1",
+          "quote": "where the dislocation pile-up leads to stress concentration",
+          "table": null,
+          "figure": "Fig. 4(c)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "only dislocation loops remain in Cu",
+          "table": null,
+          "figure": "Fig. 4(e)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "forming a network of dislocation cells",
+          "table": null,
+          "figure": "Fig. 7(e)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "The faults shown in the figure are all intrinsic stacking faults",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2.2",
+          "quote": "known as the Lomer-Cottrell lock (L-C lock)",
+          "table": null,
+          "figure": "Fig. 7(c)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_6",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2.2",
+          "quote": "another immobile Hirth dislocation",
+          "table": null,
+          "figure": "Fig. 7(d)",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "exhibiting brittle fracture characteristics along the grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "phase_3",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.2",
+          "quote": "due to the significant difference in atomic arrangement between the amorphous interface and the FCC structure of Cu, a potential barrier forms, preventing dislocations from crossing the amorphous interface. This leads to dislocation pile-up at the interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "process_4",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "The applied electric field accelerates processes such as dislocation slip, reaction, and annihilation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_25",
+      "source_id": "microstructure_5",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2.2",
+          "quote": "Both locking structures play identical roles, enhancing the work hardening ability through the pinning effect of the central dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_26",
+      "source_id": "microstructure_6",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2.2",
+          "quote": "Both locking structures play identical roles, enhancing the work hardening ability through the pinning effect of the central dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_27",
+      "source_id": "microstructure_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Microstructure disparities lead to dislocation pile-up, ultimately resulting in brittle fracture along grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_28",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.1",
+          "quote": "the maximum stress achieved at the high-temperature alloyed interface was 9.7 GPa",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_29",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.1",
+          "quote": "at the electric-field alloyed interface, it reached 10.33 GPa",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_30",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "fracture strain 0.377 in tension",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_31",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "fracture strain 0.278 in tension",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_32",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "shear strength 5.18 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_33",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "shear strength 5.51 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_34",
+      "source_id": "sample_2",
+      "predicate": "COMPARED_WITH",
+      "target_id": "sample_1",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2.1",
+          "quote": "representing a 6.5 % increase compared to the high-temperature alloyed interface",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_35",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "high-temperature alloyed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Microstructure disparities lead to dislocation pile-up, ultimately resulting in brittle fracture along grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_36",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the electric-field alloyed interface exhibits enhanced strength (tensile strength 10.33 GPa, shear strength 5.51 GPa) but reduced plasticity (fracture strain 0.278 in tension), due to dislocation activity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_37",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "electric-field alloyed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "but reduced plasticity (fracture strain 0.278 in tension) compared to the high-temperature alloyed interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a8efe5b71765f2f7:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

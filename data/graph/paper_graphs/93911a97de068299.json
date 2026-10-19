@@ -1,0 +1,518 @@
+{
+  "document_id": "93911a97de068299",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Refractory high entropy alloy dataset with room temperature ductility screening",
+    "authors": [
+      "Andrew Detor",
+      "Scott Oppenheimer",
+      "Rebecca Casey",
+      "Cole Crawford"
+    ],
+    "journal": "Data in Brief",
+    "year": 2022,
+    "doi": "10.1016/j.dib.2022.108582"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "refractory high entropy alloy",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This dataset contains 82 unique refractory alloys experimentally synthesized via arc melting and subject to screening tests for hardness and room temperature ductility. Most compositions fall under the definition of high entropy or complex concentrated alloys, but simpler ternary compositions are also included.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "refractory complex concentrated alloy",
+      "material_category": "complex concentrated alloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Specifications Table",
+          "quote": "Specific subject area Refractory high entropy alloys (RHEA) and complex concentrated alloys (CCA).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "HfNbTaTiZr",
+      "canonical_name": "HfNbTaTiZr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-arc melted",
+      "composition": [
+        {
+          "element": "Hf",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 6,
+              "section": "Table 2",
+              "quote": "HfNbTaTiZr and MoNbTaW were tested three times to assess repeatability",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "93911a97de068299:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "2. Experimental Design, Materials and Methods",
+          "quote": "The materials shown in Fig. 2 are a notable ductile RHEA from the literature – equiatomic HfNbTaTiZr [3] – and a popular composition researched for high temperature strength – equiatomic MoNbTaW [4].",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "MoNbTaW",
+      "canonical_name": "MoNbTaW",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-arc melted",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 6,
+              "section": "Table 2",
+              "quote": "HfNbTaTiZr and MoNbTaW were tested three times to assess repeatability",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "93911a97de068299:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "2. Experimental Design, Materials and Methods",
+          "quote": "a popular composition researched for high temperature strength – equiatomic MoNbTaW [4]",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "TZM",
+      "canonical_name": "TZM",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-arc melted",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2. Experimental Design, Materials and Methods",
+          "quote": "We also tested two commercial refractory alloys (not in the current dataset) known to have viable low temperature ductility – C103 and TZM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "C103",
+      "canonical_name": "C103",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-arc melted",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2. Experimental Design, Materials and Methods",
+          "quote": "We also tested two commercial refractory alloys (not in the current dataset) known to have viable low temperature ductility – C103 and TZM.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": "2 min",
+        "pressure": "10 psi",
+        "atmosphere": "Argon",
+        "cooling_method": "water-cooled copper hearth",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "current": "600 A",
+          "remelting_cycles": 4
+        }
+      },
+      "input_state": "raw elemental stock",
+      "output_state": "as-arc melted coupon",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Experimental Design, Materials and Methods",
+          "quote": "After pulling vacuum and backfilling to 10psi Argon, a current of 600A is applied for 2 min at which point samples are flipped and remelted (again at 600A for 2min) a total of 4 times.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": "2 min",
+        "pressure": "10 psi",
+        "atmosphere": "Argon",
+        "cooling_method": "water-cooled copper hearth",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "current": "600 A",
+          "remelting_cycles": 4
+        }
+      },
+      "input_state": "raw elemental stock",
+      "output_state": "as-arc melted coupon",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Experimental Design, Materials and Methods",
+          "quote": "After pulling vacuum and backfilling to 10psi Argon, a current of 600A is applied for 2 min at which point samples are flipped and remelted (again at 600A for 2min) a total of 4 times.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": "2 min",
+        "pressure": "10 psi",
+        "atmosphere": "Argon",
+        "cooling_method": "water-cooled copper hearth",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "current": "600 A",
+          "remelting_cycles": 4
+        }
+      },
+      "input_state": "raw elemental stock",
+      "output_state": "as-arc melted coupon",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Experimental Design, Materials and Methods",
+          "quote": "After pulling vacuum and backfilling to 10psi Argon, a current of 600A is applied for 2 min at which point samples are flipped and remelted (again at 600A for 2min) a total of 4 times.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_4",
+      "sequence": 1,
+      "method": "arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": "2 min",
+        "pressure": "10 psi",
+        "atmosphere": "Argon",
+        "cooling_method": "water-cooled copper hearth",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "current": "600 A",
+          "remelting_cycles": 4
+        }
+      },
+      "input_state": "raw elemental stock",
+      "output_state": "as-arc melted coupon",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Experimental Design, Materials and Methods",
+          "quote": "After pulling vacuum and backfilling to 10psi Argon, a current of 600A is applied for 2 min at which point samples are flipped and remelted (again at 600A for 2min) a total of 4 times.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-arc melted",
+      "property": "ductility ranking",
+      "value": null,
+      "min_value": 4,
+      "max_value": 5,
+      "uncertainty": null,
+      "unit": "scale 0-5",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "video screening"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 2",
+          "quote": "HfNbTaTiZr 4, 4, 5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-arc melted",
+      "property": "ductility ranking",
+      "value": 1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "scale 0-5",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "video screening"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 2",
+          "quote": "MoNbTaW 1, 1, 1",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "as-arc melted",
+      "property": "ductility ranking",
+      "value": 5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "scale 0-5",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "video screening"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 2",
+          "quote": "TZM 5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_4",
+      "material_state": "as-arc melted",
+      "property": "ductility ranking",
+      "value": 5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "scale 0-5",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "video screening"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 2",
+          "quote": "C103 5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-arc melted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 2",
+          "quote": "HfNbTaTiZr 4, 4, 5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-arc melted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 2",
+          "quote": "MoNbTaW 1, 1, 1",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "as-arc melted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 2",
+          "quote": "TZM 5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_4",
+      "material_state": "as-arc melted",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 2",
+          "quote": "C103 5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "93911a97de068299:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

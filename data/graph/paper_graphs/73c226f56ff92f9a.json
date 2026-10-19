@@ -1,0 +1,1268 @@
+{
+  "document_id": "73c226f56ff92f9a",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A molecular dynamics study on mechanical performance and deformation mechanisms in nanotwinned NiCo-based alloys with nano-precipitates under high temperatures",
+    "authors": [
+      "Zihao Yu",
+      "Hongyu Wang",
+      "Ligang Sun",
+      "Zhihui Li",
+      "Linli Zhu"
+    ],
+    "journal": "Chinese Physics B",
+    "year": 2024,
+    "doi": "10.1088/1674-1056/ad6cca"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "NiCo-based alloy",
+      "material_category": "nanotwinned NiCo-based alloy with L12 nano-precipitates",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Introduction",
+          "quote": "the deformation behavior and mechanical properties of metallic materials at elevated temperatures have garnered significant attention",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        },
+        {
+          "page": "8",
+          "section": "Conclusions",
+          "quote": "The findings in this work could be helpful for the optimization of nanotwins and nano-precipitates to improve the high-temperature mechanical performance of NiCo-based alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "MD model with 30% L12 precipitates (NiCoCr substrate, Ni3Al precipitates, twin spacing 11.7 nm, precipitate diameter 6 nm)",
+      "canonical_name": "NiCoCr with Ni3Al L12 precipitates (30%)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": null,
+              "section": "Simulation method",
+              "quote": "the substrate is made up of Ni, Co, and Cr",
+              "table": null,
+              "figure": "Fig. 1",
+              "chunk_id": "73c226f56ff92f9a:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": null,
+              "section": "Simulation method",
+              "quote": "the substrate is made up of Ni, Co, and Cr",
+              "table": null,
+              "figure": "Fig. 1",
+              "chunk_id": "73c226f56ff92f9a:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": null,
+              "section": "Simulation method",
+              "quote": "the substrate is made up of Ni, Co, and Cr",
+              "table": null,
+              "figure": "Fig. 1",
+              "chunk_id": "73c226f56ff92f9a:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "precipitate",
+          "evidence": [
+            {
+              "page": null,
+              "section": "Simulation method",
+              "quote": "the diameter of the L12 precipitate (Ni3Al) is 6 nm",
+              "table": null,
+              "figure": null,
+              "chunk_id": "73c226f56ff92f9a:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "the nanotwinned NiCo-based alloys with 30% precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "MD model without nano-precipitates (nanotwinned NiCo-based alloy, twin spacing not specified)",
+      "canonical_name": "NiCoCr nanotwinned alloy without precipitates",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": null,
+              "section": "Results",
+              "quote": "nanotwinned NiCo-based alloys with and without nano-precipitates",
+              "table": null,
+              "figure": null,
+              "chunk_id": "73c226f56ff92f9a:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": null,
+              "section": "Results",
+              "quote": "nanotwinned NiCo-based alloys with and without nano-precipitates",
+              "table": null,
+              "figure": null,
+              "chunk_id": "73c226f56ff92f9a:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": null,
+              "section": "Results",
+              "quote": "nanotwinned NiCo-based alloys with and without nano-precipitates",
+              "table": null,
+              "figure": null,
+              "chunk_id": "73c226f56ff92f9a:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "nanotwinned NiCo-based alloys with and without nano-precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": "0 bar",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "software": "LAMMPS",
+          "potential": "NiCoCrFeAl five-element EAM potential developed by Farkas and Caro",
+          "atomic_number": "approximately 1110000",
+          "twin_space_nm": 11.7,
+          "precipitate_diameter_nm": 6,
+          "precipitate_volume_fraction": "30%",
+          "boundary_conditions": "periodic in three directions"
+        }
+      },
+      "input_state": "initial configuration with L12 precipitates at twin boundaries",
+      "output_state": "equilibrated structure",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "The MD simulations in this work are performed using the large-scale atomic/molecular massively parallel simulator (LAMMPS), in which the NiCoCrFeAl five-element EAM potential developed by Farkas and Caro is used",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": "0 bar",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperatures_K": [
+            823,
+            923,
+            1023,
+            1123,
+            1223,
+            1323
+          ],
+          "ensemble": "NPT",
+          "hold_time": "certain amount of time"
+        }
+      },
+      "input_state": "equilibrated structure",
+      "output_state": "equilibrated at target temperature",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "the temperatures are set as 823 K, 923 K, 1023 K, 1123 K, 1223 K, and 1323 K, respectively, and then held for a certain amount of time under the NPT with 0 bar pressure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "tensile test",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": "2e8 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "direction": "Z",
+          "tensile_loading": "engineering strain rate 2 × 10^8 s^-1"
+        }
+      },
+      "input_state": "equilibrated at target temperature",
+      "output_state": "deformed under tension",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "The simulation cells are subjected to tensile simulation along the Z direction. The engineering strain rate for loading is 2 × 10^8 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "details": "not fully specified; assumed similar to sample_1 except without precipitates"
+        }
+      },
+      "input_state": "initial configuration without precipitates",
+      "output_state": "equilibrated structure",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the variations of the flow stress with temperature for both nanotwinned NiCo-based alloys with and without nano-precipitates are plotted as curves II and III in Fig. 3, respectively",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperatures_K": [
+            823,
+            923,
+            1023,
+            1123,
+            1223,
+            1323
+          ]
+        }
+      },
+      "input_state": "equilibrated structure",
+      "output_state": "equilibrated at target temperature",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "the temperatures are set as 823 K, 923 K, 1023 K, 1123 K, 1223 K, and 1323 K, respectively, and then held for a certain amount of time under the NPT with 0 bar pressure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_2",
+      "sequence": 3,
+      "method": "tensile test",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": "2e8 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "direction": "Z"
+        }
+      },
+      "input_state": "equilibrated at target temperature",
+      "output_state": "deformed under tension",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "The simulation cells are subjected to tensile simulation along the Z direction. The engineering strain rate for loading is 2 × 10^8 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "L12 Ni3Al",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": "30%",
+        "size": "6 nm",
+        "morphology": "nano-precipitate",
+        "location": "at twin boundaries",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "the nanotwinned NiCo-based alloys with 30% precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "nanotwin",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "twin spacing 11.7 nm",
+        "morphology": "twin boundaries",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "The twin space is 11.7 nm,",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "twin boundary",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "single layer of red atoms",
+        "location": "between twins",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": null,
+          "section": "Figure 1 caption",
+          "quote": "a single layer of red atoms represents twin boundaries (TB)",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "stacking fault",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "multiple layers of red atoms",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the formation of stacking faults, exemplified by the multiple layers of red atoms",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "amorphous cluster",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "disordered atoms",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the transformation of FCC crystal atoms into disordered atoms, represented by the white amorphous clusters",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": null,
+          "section": "Figure 1 caption",
+          "quote": "the green signifies the FCC structure",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "yield stress",
+      "value": null,
+      "min_value": 4.5,
+      "max_value": 8.0,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "2e8 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "Z",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the yield stress of the nanotwinned NiCo-based alloys with nano-precipitates and the fraction of defect-forming atoms around the yielding point as functions of the temperatures (b)",
+          "table": null,
+          "figure": "Fig. 2(b)",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "elastic modulus",
+      "value": null,
+      "min_value": 120,
+      "max_value": 150,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "2e8 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "Z",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the elastic modulus and elastic limit strain of the nanotwinned NiCo-based alloys with nano-precipitates varying with the temperature in the MD simulations (a)",
+          "table": null,
+          "figure": "Fig. 2(a)",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "flow stress",
+      "value": null,
+      "min_value": 1.6,
+      "max_value": 2.6,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "2e8 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "Z",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation, mean flow stress in the range of 2% plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the mean flow stresses of the nanotwinned NiCo-based alloys with L12 nano-precipitates in the range of 2% plastic strain are calculated for different temperatures",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "dislocation density",
+      "value": null,
+      "min_value": 1.9,
+      "max_value": 2.4,
+      "uncertainty": null,
+      "unit": "10^13 cm^-2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "2e8 s^-1",
+        "loading_mode": "tensile",
+        "orientation": "Z",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation, mean dislocation density in the range of 2% plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the dislocation density in the range of 2% plastic strain is examined to obtain the mean dislocation density, presented as curve I in Fig. 3",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "wrapping mechanism",
+      "category": "dislocation-precipitate interaction",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "there are two main modes of interaction between dislocations and precipitates: the wrapping mechanism, and the cutting mechanism",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "cutting mechanism",
+      "category": "dislocation-precipitate interaction",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "there are two main modes of interaction between dislocations and precipitates: the wrapping mechanism, and the cutting mechanism",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "the nanotwinned NiCo-based alloys with 30% precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "nanotwinned NiCo-based alloys with and without nano-precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "the substrate is made up of Ni, Co, and Cr",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "The MD simulations in this work are performed using the large-scale atomic/molecular massively parallel simulator (LAMMPS)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "the temperatures are set as 823 K, 923 K, 1023 K, 1123 K, 1223 K, and 1323 K, respectively, and then held for a certain amount of time under the NPT with 0 bar pressure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "The simulation cells are subjected to tensile simulation along the Z direction. The engineering strain rate for loading is 2 × 10^8 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the variations of the flow stress with temperature for both nanotwinned NiCo-based alloys with and without nano-precipitates are plotted as curves II and III in Fig. 3, respectively",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "the temperatures are set as 823 K, 923 K, 1023 K, 1123 K, 1223 K, and 1323 K, respectively, and then held for a certain amount of time under the NPT with 0 bar pressure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_6",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "The simulation cells are subjected to tensile simulation along the Z direction. The engineering strain rate for loading is 2 × 10^8 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "the nanotwinned NiCo-based alloys with 30% precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Simulation method",
+          "quote": "The twin space is 11.7 nm,",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Figure 1 caption",
+          "quote": "a single layer of red atoms represents twin boundaries (TB)",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the formation of stacking faults, exemplified by the multiple layers of red atoms",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the transformation of FCC crystal atoms into disordered atoms, represented by the white amorphous clusters",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Figure 1 caption",
+          "quote": "the green signifies the FCC structure",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the yield stress of the nanotwinned NiCo-based alloys with nano-precipitates and the fraction of defect-forming atoms around the yielding point as functions of the temperatures (b)",
+          "table": null,
+          "figure": "Fig. 2(b)",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the elastic modulus and elastic limit strain of the nanotwinned NiCo-based alloys with nano-precipitates varying with the temperature in the MD simulations (a)",
+          "table": null,
+          "figure": "Fig. 2(a)",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the mean flow stresses of the nanotwinned NiCo-based alloys with L12 nano-precipitates in the range of 2% plastic strain are calculated for different temperatures",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the dislocation density in the range of 2% plastic strain is examined to obtain the mean dislocation density, presented as curve I in Fig. 3",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "there are two main modes of interaction between dislocations and precipitates: the wrapping mechanism, and the cutting mechanism",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "there are two main modes of interaction between dislocations and precipitates: the wrapping mechanism, and the cutting mechanism",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "This mechanism can increase the dislocation density within the twins to enhance the strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "This could lead to an overall increase in the dislocation density within the nanotwinned NiCo-based alloys, thus augmenting the flow stress and making the material stronger.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "microstructure_3",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": null,
+          "section": "Results",
+          "quote": "the increased generation of these defects leads to a lower yield stress in the alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "73c226f56ff92f9a:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "nano-precipitate",
+    "nanotwin",
+    "twin spacing"
+  ],
+  "conflicts": []
+}

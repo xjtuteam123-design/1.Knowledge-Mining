@@ -1,0 +1,853 @@
+{
+  "document_id": "e6d9e62834ea3d5a",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "SANS investigation of precipitation hardening of two-phase γ-TiAl alloys",
+    "authors": [
+      "P. Staron",
+      "U. Christoph",
+      "F. Appel",
+      "H. Clemens"
+    ],
+    "journal": "Applied Physics A: Materials Science & Processing",
+    "year": 2002,
+    "doi": "10.1007/s003390201870"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "two-phase γ-TiAl alloy",
+      "material_category": "titanium aluminide",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Two-phase titanium aluminide alloys are being considered as lightweight materials",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ti-48.5 at.% Al-0.37 at.% C",
+      "canonical_name": "Ti-48.5Al-0.37C",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "homogenized, quenched and aged",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Experimental",
+              "quote": "The investigated alloy was Ti-48 .5a t. % Al-0.37 at. %C",
+              "table": null,
+              "figure": null,
+              "chunk_id": "e6d9e62834ea3d5a:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 48.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Experimental",
+              "quote": "The investigated alloy was Ti-48 .5a t. % Al-0.37 at. %C",
+              "table": null,
+              "figure": null,
+              "chunk_id": "e6d9e62834ea3d5a:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.37,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Experimental",
+              "quote": "The investigated alloy was Ti-48 .5a t. % Al-0.37 at. %C",
+              "table": null,
+              "figure": null,
+              "chunk_id": "e6d9e62834ea3d5a:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "The investigated alloy was Ti-48 .5a t. % Al-0.37 at. %C , which was supplied by Krupp Corp., Germany.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "hot isostatic pressing",
+      "parameters": {
+        "temperature_c": 1185,
+        "time": "4 h",
+        "pressure": "140 MPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-supplied ingot",
+      "output_state": "hot isostatically pressed ingot",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "the ingot was subjected to hot isostatic pressing for 4 h at 1185 ◦C and 140 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "isothermal forging",
+      "parameters": {
+        "temperature_c": 1000,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "hot isostatically pressed ingot",
+      "output_state": "forged billet",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "and then isothermally forged at 1000 ◦C. A sample of dimensions 3 × 15 × 15 mm3 was cut from the forged billet.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "homogenization",
+      "parameters": {
+        "temperature_c": 1250,
+        "time": "4 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "oil quenching",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "forged billet",
+      "output_state": "as-quenched",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "The sample was homogenized for 4 hours at 1250◦C, followed by quenching in oil",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "ageing",
+      "parameters": {
+        "temperature_c": 750,
+        "time": "24 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-quenched",
+      "output_state": "aged 24 h at 750 °C",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "subsequently aged at 750 ◦C for 24 hours and 7 days",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "ageing",
+      "parameters": {
+        "temperature_c": 750,
+        "time": "7 d",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-quenched",
+      "output_state": "overaged 7 d at 750 °C",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "subsequently aged at 750 ◦C for 24 hours and 7 days",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "perovskite-type precipitate (L12 Ti3AlC)",
+      "sample_id": "sample_1",
+      "material_state": "aged 24 h at 750 °C",
+      "attributes": {
+        "phase_fraction": 1.5,
+        "size": "mean small-particle radius ~2 nm",
+        "morphology": "needle-like prolate ellipsoid, aspect ratio ~7",
+        "location": "throughout the matrix",
+        "composition": "long-range ordered Ti3AlC",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "TEM examination and diffraction analysis revealed perovskite-type precipitates with L1 2 crystal structure and a needle-like shape with an aspect ratio of about 7 after 24 h at 750 ◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "alpha2 phase",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "large inhomogeneities",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "scattering at large inhomogeneities, such as grains of α2 phase, oxides or nitrides, at small q",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma-TiAl matrix",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "null matrix",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "the resulting scattering length density of the matrix, ηm = −0.022 × 1010 cm−2, is extremely small. This is the reason, why γ-TiAl is said to be a ‘nullmatrix’",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "perovskite-type precipitate (L12 Ti3AlC)",
+      "sample_id": "sample_1",
+      "material_state": "overaged 7 d at 750 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "particle number density 6.1e15 cm-3",
+        "morphology": "prolate ellipsoid, aspect ratio ~7",
+        "location": "throughout the matrix",
+        "composition": "long-range ordered Ti3AlC",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "The overageing heat treatment (7 d/750 ◦C) leads to a significant coarsening of the precipitate dispersion (Fig. 3), the particle number density reduces to 6 .1 × 1015 cm−3.",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged 24 h at 750 °C",
+      "property": "yield strength",
+      "value": 878,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "The coarsening is accompanied by a reduction in yield strength from 878 MPa to 825 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "overaged 7 d at 750 °C",
+      "property": "yield strength",
+      "value": 825,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "The coarsening is accompanied by a reduction in yield strength from 878 MPa to 825 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation hardening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged 24 h at 750 °C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "leads to the formation of perovskite-type precipitates, significantly improving the high-temperature strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Ostwald ripening (precipitate coarsening)",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "overaged 7 d at 750 °C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "The overageing heat treatment (7 d/750 ◦C) leads to a significant coarsening of the precipitate dispersion",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "glide obstacle pinning of dislocations",
+      "category": "dislocation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged 24 h at 750 °C",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "introduction",
+          "quote": "Carbon rich precipitates of perovskite type form strong glide obstacles at which dislocations are effectively pinned.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Two-phase titanium aluminide alloys are being considered as lightweight materials",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "the ingot was subjected to hot isostatic pressing for 4 h at 1185 ◦C and 140 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "and then isothermally forged at 1000 ◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "The sample was homogenized for 4 hours at 1250◦C, followed by quenching in oil",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "subsequently aged at 750 ◦C for 24 hours and 7 days",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "subsequently aged at 750 ◦C for 24 hours and 7 days",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "aged 24 h at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Experimental",
+          "quote": "TEM examination and diffraction analysis revealed perovskite-type precipitates with L1 2 crystal structure and a needle-like shape with an aspect ratio of about 7 after 24 h at 750 ◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "scattering at large inhomogeneities, such as grains of α2 phase, oxides or nitrides, at small q",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "This is the reason, why γ-TiAl is said to be a ‘nullmatrix’",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "overaged 7 d at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "the particle number density reduces to 6 .1 × 1015 cm−3.",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged 24 h at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "The coarsening is accompanied by a reduction in yield strength from 878 MPa to 825 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "overaged 7 d at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "The coarsening is accompanied by a reduction in yield strength from 878 MPa to 825 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "aged 24 h at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "leads to the formation of perovskite-type precipitates, significantly improving the high-temperature strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "aged 24 h at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "introduction",
+          "quote": "Carbon rich precipitates of perovskite type form strong glide obstacles at which dislocations are effectively pinned.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged 24 h at 750 °C",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "followed by quenching, leads to the formation of perovskite-type precipitates, significantly improving the high-temperature strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "overaged 7 d at 750 °C",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "The coarsening is accompanied by a reduction in yield strength from 878 MPa to 825 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "process_5",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "overaged 7 d at 750 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "The overageing heat treatment (7 d/750 ◦C) leads to a significant coarsening of the precipitate dispersion",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e6d9e62834ea3d5a:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

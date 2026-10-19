@@ -1,0 +1,200 @@
+{
+  "document_id": "94f613b7c02f8644",
+  "chunk_id": "94f613b7c02f8644:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Metallurgical and Materials Transactions A",
+    "year": 2023,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Conclusions",
+          "quote": "Two cyclic softening mechanisms are present in Ni-based superalloys fatigue at elevated tempera- tures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "94f613b7c02f8644:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (gamma')",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Conclusions",
+          "quote": "shearing of c¢ precipitates into two halves by strong pair coupled super-dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "94f613b7c02f8644:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "gamma-prime precipitate shearing by strong pair coupled super-dislocations",
+      "category": "cyclic softening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Conclusions",
+          "quote": "The first softening mechanism, which occurs after multiple fatigue cycles, is the result of shearing of c¢ precipitates into two halves by strong pair coupled super-dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "94f613b7c02f8644:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "interaction of strong pair coupled super-dislocations with gamma/gamma-prime interface",
+      "category": "cyclic softening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Conclusions",
+          "quote": "The second softening mechanism, which happens after the first cycle, is likely caused by interaction of strong pair coupled super-dislocations with the c/c¢ interface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "94f613b7c02f8644:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "anomalous hardening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Conclusions",
+          "quote": "Anomalous hardening increases the critical stresses for shearing ofc¢ precipitates at elevated temperatures, which, in turn, promotes the transition of c¢ shearing to dislocation bowing around c¢ precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "94f613b7c02f8644:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "dislocation climb",
+      "category": "dislocation motion",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Conclusions",
+          "quote": "Dislocation climb enhances dislocation bowing around c¢ precipitates and the transition of c¢ shearing to bypass of c¢ precipitates by strong pair coupled super-dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "94f613b7c02f8644:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "thermal recovery of anomalous hardening",
+      "category": "recovery",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Results and discussion",
+          "quote": "This trend can be attributed to a reduction of anomalous hardening by thermal recov- ery after the temperature exceeds 973 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "94f613b7c02f8644:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_3",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_4",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Conclusions",
+          "quote": "Anomalous hardening increases the critical stresses for shearing ofc¢ precipitates at elevated temperatures, which, in turn, promotes the transition of c¢ shearing to dislocation bowing around c¢ precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "94f613b7c02f8644:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_5",
+      "predicate": "SUPPRESSES",
+      "target_id": "mechanism_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 973
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "Results and discussion",
+          "quote": "This trend can be attributed to a reduction of anomalous hardening by thermal recov- ery after the temperature exceeds 973 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "94f613b7c02f8644:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

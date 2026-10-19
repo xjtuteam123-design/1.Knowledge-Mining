@@ -1,0 +1,256 @@
+{
+  "document_id": "6d091f4e14a81ff5",
+  "chunk_id": "6d091f4e14a81ff5:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Role of elastic inhomogeneity in the development of cuboidal microstructures in Ni-based superalloys",
+    "authors": [
+      "M. Cottura",
+      "Y. Le Bouar",
+      "B. Appolaire",
+      "A. Finel"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2015,
+    "doi": "10.1016/j.actamat.2015.04.034"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Role of elastic inhomogeneity in the development of cuboidal microstructures in Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "AM1",
+      "canonical_name": "AM1 Ni-based superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "standard heat treatment",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Figure 1 caption",
+          "quote": "Scanning electron microscope observation of AM1 superalloy after a standard heat treatment [38].",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma' (L1_2)",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treatment",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The optimal microstructure is composed of a high volume fraction of strengthening c0 precipitates (L1 2) dispersed in a matrix of c phase (fcc solid solution) [1], as shown in Fig. 1 .",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma (fcc)",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treatment",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The optimal microstructure is composed of a high volume fraction of strengthening c0 precipitates (L1 2) dispersed in a matrix of c phase (fcc solid solution) [1], as shown in Fig. 1 .",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Ostwald ripening",
+      "category": "coarsening",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treatment",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3. Coarsening mechanisms",
+          "quote": "The first one is the Ostwald ripening, where large precipitates grow at the expense of smaller ones by exchanging solute in the matrix by diffusion.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "coagulation",
+      "category": "coarsening",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treatment",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3. Coarsening mechanisms",
+          "quote": "The second one is the coagulation of neighboring precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treatment",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Figure 1 caption",
+          "quote": "Scanning electron microscope observation of AM1 superalloy after a standard heat treatment [38].",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treatment",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The optimal microstructure is composed of a high volume fraction of strengthening c0 precipitates (L1 2) dispersed in a matrix of c phase (fcc solid solution) [1], as shown in Fig. 1 .",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treatment",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The optimal microstructure is composed of a high volume fraction of strengthening c0 precipitates (L1 2) dispersed in a matrix of c phase (fcc solid solution) [1], as shown in Fig. 1 .",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treatment",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3. Coarsening mechanisms",
+          "quote": "The first one is the Ostwald ripening, where large precipitates grow at the expense of smaller ones by exchanging solute in the matrix by diffusion.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "standard heat treatment",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3. Coarsening mechanisms",
+          "quote": "The second one is the coagulation of neighboring precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6d091f4e14a81ff5:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

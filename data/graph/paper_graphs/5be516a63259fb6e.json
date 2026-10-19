@@ -1,0 +1,2173 @@
+{
+  "document_id": "5be516a63259fb6e",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A molecular dynamic investigation of cyclic strengthening mechanism of Ni-based single crystal superalloy",
+    "authors": [
+      "Bin Xie",
+      "Jing Wang",
+      "Yongsheng Fan",
+      "Ruizhi Li"
+    ],
+    "journal": "Mechanics of Materials",
+    "year": 2025,
+    "doi": "10.1016/j.mechmat.2025.105312"
+  },
+  "alloy_systems": [
+    {
+      "id": "part1_alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Ni-based single crystal superalloys, as crucial materials in the aviation and aerospace industry, frequently encounter fatigue failure induced by cyclic loading, which is one of the primary failure modes.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_alloy_system_2",
+      "name": "Ni-Al alloy",
+      "material_category": "model alloy system",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "Considering the limitations of the potential function and the primary characteristics of Ni-based single crystal superalloys, the alloy has been simplified to the Ni/Ni3Al system.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "In this study, two typical feature models of Ni-based single crystal superalloy are constructed using MD method to investigate the evolution of dislocations under cyclic loading.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "part1_sample_1",
+      "original_name": "Model A",
+      "canonical_name": "Ni-Al (Ni/Ni3Al two-phase, half γ phase / half γ′ phase)",
+      "alloy_system_id": "part1_alloy_system_2",
+      "material_state": "as-constructed model",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Method",
+              "quote": "the alloy has been simplified to the Ni/Ni3Al system",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5be516a63259fb6e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Method",
+              "quote": "the alloy has been simplified to the Ni/Ni3Al system",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5be516a63259fb6e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "One model consisting of half γ phase and half γ′ phase (Fig. 1 (b), referred to as Model A in subsequent sections) focuses on the interaction mechanism between dislocations and the central region of the γ′ phase",
+          "table": null,
+          "figure": "Fig. 1(b)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_sample_2",
+      "original_name": "Model B",
+      "canonical_name": "Ni-Al (Ni/Ni3Al two-phase, 10 nm γ phase channel embedded in γ′ phase)",
+      "alloy_system_id": "part1_alloy_system_2",
+      "material_state": "as-constructed model",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Method",
+              "quote": "the alloy has been simplified to the Ni/Ni3Al system",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5be516a63259fb6e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Method",
+              "quote": "the alloy has been simplified to the Ni/Ni3Al system",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5be516a63259fb6e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the other model containing a 10 nm γ phase channel embedded within the γ′ phase (Fig. 1 (c), referred to as Model B in subsequent sections) emphasizes the interaction mechanism between dislocations and the γ phase channel regions",
+          "table": null,
+          "figure": "Fig. 1(c)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_1",
+      "original_name": "Model A",
+      "canonical_name": "Ni/Ni3Al",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "as-modelled",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "4. Conclusions",
+              "quote": "our results are based on atomic-scale simulations of the simplified Ni/Ni3Al system",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5be516a63259fb6e:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "4. Conclusions",
+              "quote": "our results are based on atomic-scale simulations of the simplified Ni/Ni3Al system",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5be516a63259fb6e:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.4",
+          "quote": "Model A, which includes a complete γ / γ ′ interface, exhibits higher structural strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_2",
+      "original_name": "Model B",
+      "canonical_name": "Ni/Ni3Al",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "as-modelled",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "4. Conclusions",
+              "quote": "our results are based on atomic-scale simulations of the simplified Ni/Ni3Al system",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5be516a63259fb6e:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "4. Conclusions",
+              "quote": "our results are based on atomic-scale simulations of the simplified Ni/Ni3Al system",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5be516a63259fb6e:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "For Model B, in addition to these stresses, there is an additional plastic stress generated by dislocation pile-up",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "part1_process_1",
+      "sample_id": "part1_sample_1",
+      "sequence": 1,
+      "method": "energy minimization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "method": "conjugate gradient (CG)"
+        }
+      },
+      "input_state": "as-constructed model",
+      "output_state": "relaxed model",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Method",
+          "quote": "After energy minimization by the conjugate gradient (CG) method",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_2",
+      "sample_id": "part1_sample_1",
+      "sequence": 2,
+      "method": "relaxation",
+      "parameters": {
+        "temperature_c": 0.01,
+        "time": "100000 timesteps (100 ps)",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVE",
+          "boundary_conditions": "free on all three axes",
+          "integration_time_step": "1e-15 s"
+        }
+      },
+      "input_state": "relaxed model",
+      "output_state": "equilibrated model",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Method",
+          "quote": "the simulations are run for 100,000 timesteps (100 ps, ps) without any applied load to ensure sufficient relaxation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_3",
+      "sample_id": "part1_sample_1",
+      "sequence": 3,
+      "method": "dislocation introduction",
+      "parameters": {
+        "temperature_c": 0.01,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "atom_translation": "0.5 b along Y direction above and below the dislocation line"
+        }
+      },
+      "input_state": "equilibrated model",
+      "output_state": "model with a perfect screw dislocation dissociated into Shockley partials",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Method",
+          "quote": "a perfect screw dislocation line is conducted by translating the atoms in the γ phase of model by 0.5 b and 0.5 b along Y direction for above and below the dislocation line, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_4",
+      "sample_id": "part1_sample_1",
+      "sequence": 4,
+      "method": "cyclic shear loading (MD)",
+      "parameters": {
+        "temperature_c": 0.01,
+        "time": "400 ps per cycle",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "maximum shear strain γyz = 2%",
+        "strain_rate": "±1e8 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVE",
+          "loading_half_cycle": "200 ps",
+          "unloading_half_cycle": "200 ps"
+        }
+      },
+      "input_state": "model with a perfect screw dislocation dissociated into Shockley partials",
+      "output_state": "cyclically loaded model",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Method",
+          "quote": "The shear strain rate, both for the loading and unloading processes, are independently set as ± 1 × 10 8 s 1 . A single simulation cycle lasts 400 ps, with the loading and unloading processes each occupying half of the cycle, and a maximum strain of γyz = 2%.",
+          "table": null,
+          "figure": "Fig. 1(f)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_5",
+      "sample_id": "part1_sample_2",
+      "sequence": 1,
+      "method": "energy minimization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "method": "conjugate gradient (CG)"
+        }
+      },
+      "input_state": "as-constructed model",
+      "output_state": "relaxed model",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Method",
+          "quote": "After energy minimization by the conjugate gradient (CG) method, the simulations are run for 100,000 timesteps",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_6",
+      "sample_id": "part1_sample_2",
+      "sequence": 2,
+      "method": "relaxation",
+      "parameters": {
+        "temperature_c": 0.01,
+        "time": "100000 timesteps (100 ps)",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVE",
+          "boundary_conditions": "free on all three axes",
+          "integration_time_step": "1e-15 s"
+        }
+      },
+      "input_state": "relaxed model",
+      "output_state": "equilibrated model",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Method",
+          "quote": "the simulations are run for 100,000 timesteps (100 ps, ps) without any applied load to ensure sufficient relaxation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_7",
+      "sample_id": "part1_sample_2",
+      "sequence": 3,
+      "method": "dislocation introduction",
+      "parameters": {
+        "temperature_c": 0.01,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "atom_translation": "0.5 b along Y direction above and below the dislocation line"
+        }
+      },
+      "input_state": "equilibrated model",
+      "output_state": "model with a perfect screw dislocation dissociated into Shockley partials",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Method",
+          "quote": "a perfect screw dislocation line is conducted by translating the atoms in the γ phase of model by 0.5 b and 0.5 b along Y direction for above and below the dislocation line, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_8",
+      "sample_id": "part1_sample_2",
+      "sequence": 4,
+      "method": "cyclic shear loading (MD)",
+      "parameters": {
+        "temperature_c": 0.01,
+        "time": "400 ps per cycle",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "maximum shear strain γyz = 2%",
+        "strain_rate": "±1e8 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVE",
+          "loading_half_cycle": "200 ps",
+          "unloading_half_cycle": "200 ps"
+        }
+      },
+      "input_state": "model with a perfect screw dislocation dissociated into Shockley partials",
+      "output_state": "cyclically loaded model",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Method",
+          "quote": "The shear strain rate, both for the loading and unloading processes, are independently set as ± 1 × 10 8 s 1 . A single simulation cycle lasts 400 ps, with the loading and unloading processes each occupying half of the cycle, and a maximum strain of γyz = 2%.",
+          "table": null,
+          "figure": "Fig. 1(f)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_process_1",
+      "sample_id": "part2_sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "loading": "cyclic loading",
+          "max_strain": "γyz = 2%",
+          "boundary_condition": "free boundary condition"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-modelled",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "two typical feature models of Ni-based single crystal superalloy are constructed using MD method to investigate the evolution of dislocations under cyclic loading",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_process_2",
+      "sample_id": "part2_sample_2",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "loading": "cyclic loading",
+          "max_strain": "γyz = 2%",
+          "boundary_condition": "free boundary condition"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-modelled",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "two typical feature models of Ni-based single crystal superalloy are constructed using MD method to investigate the evolution of dislocations under cyclic loading",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "part1_phase_1",
+      "type": "Phase",
+      "name": "γ phase (FCC)",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-constructed model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "half of model",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the primary characteristics are the Ni matrix (γ phase, face centered cubic)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_2",
+      "type": "Phase",
+      "name": "γ′ phase (Ni3Al, L12)",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-constructed model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "half of model",
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the regularly distributed embedded structure formed by γ′ phase, which is mainly composed of Ni3Al (L12 structure)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_3",
+      "type": "Phase",
+      "name": "γ phase (FCC)",
+      "sample_id": "part1_sample_2",
+      "material_state": "as-constructed model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "10 nm channel width",
+        "morphology": "channel embedded within γ′ phase",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the other model containing a 10 nm γ phase channel embedded within the γ′ phase",
+          "table": null,
+          "figure": "Fig. 1(c)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_4",
+      "type": "Phase",
+      "name": "γ′ phase (Ni3Al, L12)",
+      "sample_id": "part1_sample_2",
+      "material_state": "as-constructed model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "matrix embedding γ channel",
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the other model containing a 10 nm γ phase channel embedded within the γ′ phase",
+          "table": null,
+          "figure": "Fig. 1(c)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_1",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-constructed model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "⟨100⟩ network at γ/γ′ interface",
+        "location": "γ/γ′ interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Method",
+          "quote": "in both MD models, the γ′ phase is embedded in the γ phase by along the ⟨100⟩ directions, resulting in a ⟨100⟩ interfacial dislocation network at the γ/γ′ interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_2",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "part1_sample_2",
+      "material_state": "as-constructed model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "⟨100⟩ network at γ/γ′ interface",
+        "location": "γ/γ′ interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Method",
+          "quote": "in both MD models, the γ′ phase is embedded in the γ phase by along the ⟨100⟩ directions, resulting in a ⟨100⟩ interfacial dislocation network at the γ/γ′ interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_defect_1",
+      "type": "Defect",
+      "name": "Shockley partial dislocation",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dissociated from perfect screw dislocation",
+        "location": "γ phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Method",
+          "quote": "Due to the low stacking fault energy of the material (Xiong et al., 2017), the formed perfect dislocations rapidly dissociate into two Shockley partials",
+          "table": null,
+          "figure": "Fig. 1(d~e)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_defect_2",
+      "type": "Defect",
+      "name": "Lomer-Cottrell lock",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "lock structure from interfacial dislocation network decomposition",
+        "location": "γ/γ′ interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "some dislocations within the interfacial dislocation network undergo decomposition, forming Lomer–Cottrell lock structures, which can impede dislocation motion and strengthen the structure",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_defect_3",
+      "type": "Defect",
+      "name": "stacking fault",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "SFs bands",
+        "location": "γ phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "one arising from the decomposition of the interfacial dislocation network, which leads to the emergence of stacking faults (SFs) bands and Lomer-Cottrell lock",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_defect_4",
+      "type": "Defect",
+      "name": "stacking fault",
+      "sample_id": "part1_sample_2",
+      "material_state": "cyclically loaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "SFs bands",
+        "location": "γ phase channel",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the other stemming from the formation of SFs bands due to the decomposition of the emission dislocations within the γ phase channel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_defect_5",
+      "type": "Defect",
+      "name": "Shockley partial dislocation",
+      "sample_id": "part1_sample_2",
+      "material_state": "cyclically loaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dissociated from perfect screw dislocation",
+        "location": "γ phase channel",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Method",
+          "quote": "Due to the low stacking fault energy of the material (Xiong et al., 2017), the formed perfect dislocations rapidly dissociate into two Shockley partials",
+          "table": null,
+          "figure": "Fig. 1(d~e)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_defect_6",
+      "type": "Defect",
+      "name": "dislocation pile-up",
+      "sample_id": "part1_sample_2",
+      "material_state": "cyclically loaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "pile-up in channel",
+        "location": "γ phase channel",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2",
+          "quote": "due to the interaction and entanglement of some dislocation segments, it remains unable to leave the interface and piles up in the channel",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_1",
+      "type": "Phase",
+      "name": "γ′ phase",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "interface with γ phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.4",
+          "quote": "Model A, which includes a complete γ / γ ′ interface, exhibits higher structural strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_2",
+      "type": "Phase",
+      "name": "γ′ phase",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.4",
+          "quote": "dislocations clearly exhibit a tendency to form Orowan loops around the γ ′ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_1",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ/γ′ interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3",
+          "quote": "the interfacial dislocation network exhibits a strong adsorption effect on incoming dislocations in both typical feature models",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_defect_1",
+      "type": "Defect",
+      "name": "dislocation pile-up",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ phase channel",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "the plastic stress caused by dislocation pile-up in Model B under different emission positions is compared",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_defect_2",
+      "type": "Defect",
+      "name": "Lomer-Cottrell lock",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ phase channel",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "the formation of SFs bands and Lomer-Cottrell lock structures (highlighted in Fig. 7(b1) )",
+          "table": null,
+          "figure": "Fig. 7(b1)",
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_2",
+      "type": "Microstructure",
+      "name": "stacking fault band",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ phase channel",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "the formation of SFs bands from the decomposition of the emission dislocations moving within the γ phase channel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "part2_observation_1",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "property": "shear stress",
+      "value": 120.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "loading",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MD simulation"
+      },
+      "comparison_sample_id": "part2_sample_1",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "For the dislocation structure with the most significant hindering effect ( Fig. 7 (a)), the σ yz component of σ ∗ pile can reach up to 120 MPa.",
+          "table": null,
+          "figure": "Fig. 7(a)",
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "part1_mechanism_1",
+      "name": "dislocation absorption by stable link point formation at the γ/γ′ interface",
+      "category": "dislocation-interface interaction",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The dislocation absorption is driven by two primary mechanisms: the formation of stable link points at the γ/γ′ interface and the obstructive effect of the γ′ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_2",
+      "name": "obstructive effect of the γ′ phase",
+      "category": "precipitate obstruction",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "its further glide is impeded by the obstruction of the γ′ phase",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_3",
+      "name": "stress stratification at the γ/γ′ interface",
+      "category": "interface stress effect",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "a stress stratification phenomenon at the γ/γ′ interface is observed, hindering dislocation movement during loading and leading to dislocation trapping through cross-slip during unloading",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_4",
+      "name": "cross-slip within the γ/γ′ interface",
+      "category": "dislocation glide",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "as the dislocation nearly deviates from the γ/γ′ interface, it undergoes cross-slip within the γ/γ′ interface, as illustrated in Fig. 3 (e)",
+          "table": null,
+          "figure": "Fig. 3(e)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_5",
+      "name": "dislocation obstruction by the γ′ phase due to high potential energy",
+      "category": "precipitate obstruction",
+      "sample_id": "part1_sample_2",
+      "material_state": "cyclically loaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2",
+          "quote": "even in the absence of an interfacial dislocation network, the γ′ phase still impedes the dislocation motion due to the high potential energy",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_6",
+      "name": "dislocation entanglement",
+      "category": "dislocation interaction",
+      "sample_id": "part1_sample_2",
+      "material_state": "cyclically loaded",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2",
+          "quote": "the emission dislocation interacts and becomes entangled with these segments",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_7",
+      "name": "Lomer-Cottrell lock formation impeding dislocation motion",
+      "category": "dislocation locking",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "forming Lomer–Cottrell lock structures, which can impede dislocation motion and strengthen the structure",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_1",
+      "name": "dislocation adsorption at interfacial dislocation network",
+      "category": "dislocation-interface interaction",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3",
+          "quote": "the interfacial dislocation network exhibits a strong adsorption effect on incoming dislocations in both typical feature models",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_2",
+      "name": "cyclic strengthening by dislocation pile-up",
+      "category": "strengthening",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "as the hindering effect of dislocation pile-up on dislocation motion increases, σ ∗ pile also increases",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_3",
+      "name": "stress stratification at γ/γ′ interface",
+      "category": "interface stress effect",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "4. Conclusions",
+          "quote": "a stress stratification phenomenon is present at the γ / γ ′ interface, causing the trailing Shockley partial dislocation, decomposed from the emission perfect dislocation, to be stress-neutralized and unable to enter the γ ′ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_4",
+      "name": "Orowan looping",
+      "category": "dislocation-precipitate interaction",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.4",
+          "quote": "dislocations clearly exhibit a tendency to form Orowan loops around the γ ′ phase",
+          "table": null,
+          "figure": "Fig. 7(c2)",
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "part1_claim_1",
+      "source_id": "part1_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part1_sample_1",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "One model consisting of half γ phase and half γ′ phase (Fig. 1 (b), referred to as Model A in subsequent sections)",
+          "table": null,
+          "figure": "Fig. 1(b)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_2",
+      "source_id": "part1_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part1_sample_2",
+      "sample_id": "part1_sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the other model containing a 10 nm γ phase channel embedded within the γ′ phase (Fig. 1 (c), referred to as Model B in subsequent sections)",
+          "table": null,
+          "figure": "Fig. 1(c)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_3",
+      "source_id": "part1_sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "part1_alloy_system_2",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the alloy has been simplified to the Ni/Ni3Al system",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_4",
+      "source_id": "part1_sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "part1_alloy_system_2",
+      "sample_id": "part1_sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the alloy has been simplified to the Ni/Ni3Al system",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_5",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-constructed model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the primary characteristics are the Ni matrix (γ phase, face centered cubic)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_6",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-constructed model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the regularly distributed embedded structure formed by γ′ phase, which is mainly composed of Ni3Al (L12 structure)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_7",
+      "source_id": "part1_sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_3",
+      "sample_id": "part1_sample_2",
+      "material_state": "as-constructed model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the other model containing a 10 nm γ phase channel embedded within the γ′ phase",
+          "table": null,
+          "figure": "Fig. 1(c)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_8",
+      "source_id": "part1_sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_4",
+      "sample_id": "part1_sample_2",
+      "material_state": "as-constructed model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method",
+          "quote": "the other model containing a 10 nm γ phase channel embedded within the γ′ phase",
+          "table": null,
+          "figure": "Fig. 1(c)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_9",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_microstructure_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-constructed model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Method",
+          "quote": "resulting in a ⟨100⟩ interfacial dislocation network at the γ/γ′ interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_10",
+      "source_id": "part1_sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_microstructure_2",
+      "sample_id": "part1_sample_2",
+      "material_state": "as-constructed model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Method",
+          "quote": "resulting in a ⟨100⟩ interfacial dislocation network at the γ/γ′ interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_11",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_defect_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Method",
+          "quote": "the formed perfect dislocations rapidly dissociate into two Shockley partials",
+          "table": null,
+          "figure": "Fig. 1(d~e)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_12",
+      "source_id": "part1_sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_defect_5",
+      "sample_id": "part1_sample_2",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Method",
+          "quote": "the formed perfect dislocations rapidly dissociate into two Shockley partials",
+          "table": null,
+          "figure": "Fig. 1(d~e)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_13",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_defect_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "some dislocations within the interfacial dislocation network undergo decomposition, forming Lomer–Cottrell lock structures",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_14",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_defect_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "one arising from the decomposition of the interfacial dislocation network, which leads to the emergence of stacking faults (SFs) bands and Lomer-Cottrell lock",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_15",
+      "source_id": "part1_sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_defect_4",
+      "sample_id": "part1_sample_2",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the other stemming from the formation of SFs bands due to the decomposition of the emission dislocations within the γ phase channel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_16",
+      "source_id": "part1_sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_defect_6",
+      "sample_id": "part1_sample_2",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2",
+          "quote": "it remains unable to leave the interface and piles up in the channel",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_17",
+      "source_id": "part1_microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The dislocation absorption is driven by two primary mechanisms: the formation of stable link points at the γ/γ′ interface and the obstructive effect of the γ′ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_18",
+      "source_id": "part1_phase_2",
+      "predicate": "PROMOTES",
+      "target_id": "part1_mechanism_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "its further glide is impeded by the obstruction of the γ′ phase",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_19",
+      "source_id": "part1_microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_4",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "as the dislocation nearly deviates from the γ/γ′ interface, it undergoes cross-slip within the γ/γ′ interface, as illustrated in Fig. 3 (e)",
+          "table": null,
+          "figure": "Fig. 3(e)",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_20",
+      "source_id": "part1_microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "a stress stratification phenomenon at the γ/γ′ interface is observed, hindering dislocation movement during loading and leading to dislocation trapping through cross-slip during unloading",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_21",
+      "source_id": "part1_phase_4",
+      "predicate": "PROMOTES",
+      "target_id": "part1_mechanism_5",
+      "sample_id": "part1_sample_2",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2",
+          "quote": "even in the absence of an interfacial dislocation network, the γ′ phase still impedes the dislocation motion due to the high potential energy",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_22",
+      "source_id": "part1_defect_6",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_6",
+      "sample_id": "part1_sample_2",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2",
+          "quote": "due to the presence of a few dislocation segments at the right boundary of the γ′ phase, the emission dislocation interacts and becomes entangled with these segments",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_23",
+      "source_id": "part1_defect_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_7",
+      "sample_id": "part1_sample_1",
+      "material_state": "cyclically loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "forming Lomer–Cottrell lock structures, which can impede dislocation motion and strengthen the structure",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "5be516a63259fb6e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_1",
+      "source_id": "part2_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part2_phase_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.4",
+          "quote": "Model A, which includes a complete γ / γ ′ interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_2",
+      "source_id": "part2_sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part2_phase_2",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.4",
+          "quote": "dislocations clearly exhibit a tendency to form Orowan loops around the γ ′ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_3",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part2_microstructure_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3",
+          "quote": "the interfacial dislocation network exhibits a strong adsorption effect on incoming dislocations in both typical feature models",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_4",
+      "source_id": "part2_sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part2_defect_1",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "the plastic stress caused by dislocation pile-up in Model B",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_5",
+      "source_id": "part2_sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part2_defect_2",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "the formation of SFs bands and Lomer-Cottrell lock structures (highlighted in Fig. 7(b1) )",
+          "table": null,
+          "figure": "Fig. 7(b1)",
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_6",
+      "source_id": "part2_sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part2_microstructure_2",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "the formation of SFs bands from the decomposition of the emission dislocations moving within the γ phase channel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_7",
+      "source_id": "part2_microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part2_mechanism_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.3",
+          "quote": "the interfacial dislocation network exhibits a strong adsorption effect on incoming dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_8",
+      "source_id": "part2_defect_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part2_mechanism_2",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "as the hindering effect of dislocation pile-up on dislocation motion increases, σ ∗ pile also increases",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_9",
+      "source_id": "part2_phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part2_mechanism_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "4. Conclusions",
+          "quote": "a stress stratification phenomenon is present at the γ / γ ′ interface, causing the trailing Shockley partial dislocation to be stress-neutralized",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_10",
+      "source_id": "part2_phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part2_mechanism_4",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.4",
+          "quote": "dislocations clearly exhibit a tendency to form Orowan loops around the γ ′ phase",
+          "table": null,
+          "figure": "Fig. 7(c2)",
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_11",
+      "source_id": "part2_mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "part2_observation_1",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "as the hindering effect of dislocation pile-up on dislocation motion increases, σ ∗ pile also increases",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_12",
+      "source_id": "part2_sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_1",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4",
+          "quote": "the σ yz component of σ ∗ pile can reach up to 120 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_13",
+      "source_id": "part2_sample_1",
+      "predicate": "COMPARED_WITH",
+      "target_id": "part2_sample_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.4",
+          "quote": "Model A, which includes a complete γ / γ ′ interface, exhibits higher structural strength, reflected by a slightly higher stress amplitude at the same strain compared to Model B",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_14",
+      "source_id": "part2_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part2_process_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "two typical feature models of Ni-based single crystal superalloy are constructed using MD method",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_15",
+      "source_id": "part2_sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part2_process_2",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "two typical feature models of Ni-based single crystal superalloy are constructed using MD method",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_16",
+      "source_id": "part2_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part2_sample_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "two typical feature models of Ni-based single crystal superalloy are constructed using MD method",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_17",
+      "source_id": "part2_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part2_sample_2",
+      "sample_id": "part2_sample_2",
+      "material_state": "as-modelled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "two typical feature models of Ni-based single crystal superalloy are constructed using MD method",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5be516a63259fb6e:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [
+    {
+      "type": "merge_fallback",
+      "message": "Segment graphs were combined deterministically; aliases may remain duplicated."
+    }
+  ]
+}

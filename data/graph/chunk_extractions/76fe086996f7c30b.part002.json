@@ -1,0 +1,175 @@
+{
+  "document_id": "76fe086996f7c30b",
+  "chunk_id": "76fe086996f7c30b:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Predictive modeling of yield strength in refractory high-entropy alloys through temperature coefficient of resistance",
+    "authors": [
+      "Eun Soo Park",
+      "Jae Kwon Kim",
+      "Il Hwan Kim",
+      "Kook Noh Yoon"
+    ],
+    "journal": "Journal of Alloys and Compounds",
+    "year": 2025,
+    "doi": "10.1016/j.jallcom.2025.182004"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "WTaVTiCr refractory high-entropy alloy",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Conclusion",
+          "quote": "This study successfully developed and analyzed a series of RHEAs exhibiting significant solid solution strengthening effects. Additionally, a predictive methodology was introduced for estimating the σy of WTaVTiCr RHEAs through TCR measurements.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76fe086996f7c30b:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "WTaVTiCr RHEA",
+      "canonical_name": "WTaVTiCr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Experimental",
+          "quote": "The RHEA ingots were fabricated through the arc-melting technique, utilizing high purity elements with a purity level of 99.999 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76fe086996f7c30b:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ti-gettered Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "purity": "99.999%",
+          "sequence_of_addition": "Ta and W initially, then V, Ti, Cr",
+          "remelting": "more than five times, flipped"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Experimental",
+          "quote": "The RHEA ingots were fabricated through the arc-melting technique, utilizing high purity elements with a purity level of 99.999 %. The arc-melting process was performed under a Ti-gettered Ar atmosphere. It is worth noting that the boiling points of Ti (3560 K), V (3680 K), and Cr (2944 K) are comparatively lower than the melting point of W (3683 K). To address this, a mixture of Ta and W was initially prepared to decrease the overall melting point. Subsequently, V, Ti, and Cr were sequentially incorporated into the W-Ta alloys to minimize concentration errors resulting from the evaporation of these elements. To ensure a homogeneous distribution of the constituent elements, the buttons obtained from the initial melting process were remelted more than five times and flipped during each melting cycle. The final ingots were then rapidly solidified on the water-quenched copper hearth.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76fe086996f7c30b:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "compression test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Conclusion",
+          "quote": "The linear fitting equations are as follows: σy, compressive = 0.49/TCR + 836 (8) and σy, tensile = 0.23/TCR + 68 (9)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76fe086996f7c30b:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid solution strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Conclusion",
+          "quote": "This study successfully developed and analyzed a series of RHEAs exhibiting significant solid solution strengthening effects.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76fe086996f7c30b:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": 0.001,
+        "loading_mode": "compression"
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Conclusion",
+          "quote": "This study successfully developed and analyzed a series of RHEAs exhibiting significant solid solution strengthening effects.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76fe086996f7c30b:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

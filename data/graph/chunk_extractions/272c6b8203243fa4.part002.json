@@ -1,0 +1,186 @@
+{
+  "document_id": "272c6b8203243fa4",
+  "chunk_id": "272c6b8203243fa4:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "C.H. Ng",
+      "M.J. Bermingham",
+      "D. Kent",
+      "M.S. Dargusch"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2021,
+    "doi": "10.1016/j.msea.2021.141326"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "beta titanium alloy",
+      "material_category": "Ti alloy",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "enable production of fully β -stabilised alloys in the as-deposited condi - tion. Hence, AM can be an effective processing pathway for producing single phase β -alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "272c6b8203243fa4:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "as-deposited WAAM sample",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-deposited",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "Although the exposure time at or above 350 ◦C during multiple thermal cycles approached 15 min during WAAM, the exposure duration was too short to promote β -phase decomposition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "272c6b8203243fa4:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "wire arc additive manufacturing (WAAM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "exposure_time": ">=15 min at >=350 °C during multiple thermal cycles"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-deposited",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "Although the exposure time at or above 350 ◦C during multiple thermal cycles approached 15 min during WAAM, the exposure duration was too short to promote β -phase decomposition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "272c6b8203243fa4:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "β phase",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "was found from SEM, XRD, TEM and micro-hardness analyses. Although the exposure time at or above 350 ◦C during multiple thermal cycles approached 15 min during WAAM, the exposure duration was too short to promote β -phase decomposition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "272c6b8203243fa4:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "was found from SEM, XRD, TEM and micro-hardness analyses. Although the exposure time at or above 350 ◦C during multiple thermal cycles approached 15 min during WAAM, the exposure duration was too short to promote β -phase decomposition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "272c6b8203243fa4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "Although the exposure time at or above 350 ◦C during multiple thermal cycles approached 15 min during WAAM, the exposure duration was too short to promote β -phase decomposition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "272c6b8203243fa4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "process_1",
+      "predicate": "SUPPRESSES",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-deposited",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "the exposure duration was too short to promote β -phase decomposition. The study demonstrates that with knowledge of the processing conditions Time-Temperature-Transformation (TTT) diagrams can be employed to predict β -phase stability during AM processing",
+          "table": null,
+          "figure": null,
+          "chunk_id": "272c6b8203243fa4:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

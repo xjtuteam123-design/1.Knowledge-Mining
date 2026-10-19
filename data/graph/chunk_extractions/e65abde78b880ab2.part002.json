@@ -1,0 +1,456 @@
+{
+  "document_id": "e65abde78b880ab2",
+  "chunk_id": "e65abde78b880ab2:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Hao Li",
+      "Junjie Wang",
+      "Feng Liu",
+      "Xueyi Guo",
+      "Zean Wang",
+      "Dawei Yu",
+      "Qinghua Tian"
+    ],
+    "journal": "Journal of Materials Research and Technology",
+    "year": 2024,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The compressive strength of the residual superalloy was reduced to approximately 1/10 of the original DD5 superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "DD5 superalloy",
+      "canonical_name": "DD5",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "original",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The compressive strength of the residual superalloy was reduced to approximately 1/10 of the original DD5 superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "residual superalloy",
+      "canonical_name": "DD5",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "dealloyed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The dealloying process resulted in the generation of pores with a pore size distribution mainly in the range of 2–30 nm due to the Ni extraction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "residual superalloy particles",
+      "canonical_name": "DD5",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "ball-milled",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the residual superalloy particles with a particle size mainly in the range of 5–100 μm were obtained after ball milling at 3min, 1200 Hz.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "dealloying",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "medium": "molten Mg"
+        }
+      },
+      "input_state": "original",
+      "output_state": "dealloyed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The dealloying process using the molten Mg achieves the separation of the main element Ni as the Ni-rich alloy from the rare refractory metals in the residual superalloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_3",
+      "sequence": 2,
+      "method": "ball milling",
+      "parameters": {
+        "temperature_c": null,
+        "time": "3 min",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "frequency": "1200 Hz"
+        }
+      },
+      "input_state": "dealloyed",
+      "output_state": "ball-milled",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the residual superalloy particles with a particle size mainly in the range of 5–100 μm were obtained after ball milling at 3min, 1200 Hz.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "pore",
+      "sample_id": "sample_2",
+      "material_state": "dealloyed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "2–30 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The dealloying process resulted in the generation of pores with a pore size distribution mainly in the range of 2–30 nm due to the Ni extraction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "original",
+      "property": "compressive strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The compressive strength of the residual superalloy was reduced to approximately 1/10 of the original DD5 superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Ni extraction",
+      "category": "dealloying",
+      "sample_id": "sample_2",
+      "material_state": "dealloyed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The dealloying process resulted in the generation of pores with a pore size distribution mainly in the range of 2–30 nm due to the Ni extraction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "original",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The compressive strength of the residual superalloy was reduced to approximately 1/10 of the original DD5 superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "dealloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The dealloying process resulted in the generation of pores with a pore size distribution mainly in the range of 2–30 nm due to the Ni extraction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "ball-milled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the residual superalloy particles with a particle size mainly in the range of 5–100 μm were obtained after ball milling at 3min, 1200 Hz.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_2",
+      "material_state": "dealloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The dealloying process using the molten Mg achieves the separation of the main element Ni as the Ni-rich alloy from the rare refractory metals in the residual superalloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_3",
+      "material_state": "ball-milled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the residual superalloy particles with a particle size mainly in the range of 5–100 μm were obtained after ball milling at 3min, 1200 Hz.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "dealloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The dealloying process resulted in the generation of pores with a pore size distribution mainly in the range of 2–30 nm due to the Ni extraction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "ball-milled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the residual superalloy particles with a particle size mainly in the range of 5–100 μm were obtained after ball milling at 3min, 1200 Hz.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "dealloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The dealloying process resulted in the generation of pores with a pore size distribution mainly in the range of 2–30 nm due to the Ni extraction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "dealloyed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The dealloying process resulted in the generation of pores with a pore size distribution mainly in the range of 2–30 nm due to the Ni extraction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "original",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The compressive strength of the residual superalloy was reduced to approximately 1/10 of the original DD5 superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e65abde78b880ab2:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

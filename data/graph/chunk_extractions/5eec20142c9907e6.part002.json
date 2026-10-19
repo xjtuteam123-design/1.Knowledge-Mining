@@ -1,0 +1,814 @@
+{
+  "document_id": "5eec20142c9907e6",
+  "chunk_id": "5eec20142c9907e6:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": 2016,
+    "doi": "10.1038/nature19313"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Cu-Ta alloy",
+      "material_category": "nanocrystalline metal",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Methods",
+          "quote": "For the preparation of nanocrystalline (NC) Cu–10 at % Ta powder, the powder was generated through high-energy cryogenic mechanical alloying.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "NC Cu–10 at% Ta powder",
+      "canonical_name": "Cu-10 at.% Ta",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-milled",
+      "composition": [
+        {
+          "element": "Cu",
+          "value": 90,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Methods",
+          "quote": "The desired composition was obtained by loading elemental Cu and Ta powders (−325 mesh and 99.9% purity) into a hardened steel vial",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "as-received NC Cu–10 at% Ta ECAE processed at 700 °C",
+      "canonical_name": "Cu-10 at.% Ta",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-received",
+      "composition": [
+        {
+          "element": "Cu",
+          "value": 90,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "The primary microstructural characterization (Extended Data Fig. 2) of the as-received NC Cu–10 at% Ta ECAE processed at 700 °C revealed the presence of binary phases of Cu and Ta",
+          "table": null,
+          "figure": "Extended Data Fig. 2",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "cryogenic mechanical alloying",
+      "parameters": {
+        "temperature_c": -196,
+        "time": "4 h",
+        "pressure": null,
+        "atmosphere": "Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ball_to_powder_ratio": "5:1",
+          "milling_media": "440C stainless steel balls",
+          "vial": "hardened steel",
+          "equipment": "SPEX 8000 M shaker mill"
+        }
+      },
+      "input_state": "elemental Cu and Ta powders",
+      "output_state": "as-milled powder",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Methods",
+          "quote": "A SPEX 8000 M shaker mill was used to perform the milling at cryogenic temperature (verified to be about −196 °C) for 4 h (14.4 ks) using liquid nitrogen.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "equal-channel angular extrusion (ECAE)",
+      "parameters": {
+        "temperature_c": 700,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ar",
+        "cooling_method": null,
+        "deformation": "total strain of 460%",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "extrusion_rate": "25.5 mm/s",
+          "number_of_passes": 4,
+          "route": "BC",
+          "die_angle": "90°",
+          "billet_material": "Ni 201"
+        }
+      },
+      "input_state": "as-milled powder",
+      "output_state": "consolidated bulk",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Methods",
+          "quote": "The heated billets were dropped into the ECAE tooling as quickly as possible from the furnace and extruded at an extrusion rate of 25.5 mm s−1. This step was repeated four times following route ‘BC’21–23",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "creep test",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "air",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_fractions": "0.45, 0.50, 0.55, 0.60, 0.65 of yield stress at 873 K; 0.70, 0.75, 0.80 at 773 K; 0.70, 0.80, 0.90, 1.00 at 673 K"
+        }
+      },
+      "input_state": "as-received",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Mechanical characterization at creep conditions",
+          "quote": "The compression creep experiments were conducted in air at 873 K and with fractions of 0.45, 0.50, 0.55, 0.60 and 0.65 of the yield stress, at 773 K and with fractions of 0.70, 0.75 and 0.80 of the yield stress, and at 673 K and with fractions of 0.70, 0.80, 0.90 and 1.00 of the yield stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Cu",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average equiaxed grain diameter of 50 ± 17.5 nm",
+        "morphology": "equiaxed",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "The TEM characterization and precession diffraction data are illustrated in Extended Data Fig. 2, and demonstrate a high degree of randomness in the orientation relationship between the grains of NC Cu matrix with an average equiaxed grain diameter of 50 ± 17.5 nm.",
+          "table": null,
+          "figure": "Extended Data Fig. 2",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Ta",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average diameter of 32 ± 7.5 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "Extended Data Fig. 2 shows a histogram, taken from multiple images similar to Extended Data Fig. 2a, b, indicating that the Ta particle size distribution has an average diameter of 32 ± 7.5 nm.",
+          "table": null,
+          "figure": "Extended Data Fig. 2",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "Ta-rich nanocluster",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average diameter of 3.18 ± 0.86 nm",
+        "morphology": "spherical",
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "the processing route produces a wide range of Ta particle sizes, ranging from atomic nanoclusters (average diameter of 3.18 ± 0.86 nm) to much larger precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "nano-twins",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "within NC Cu grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "A lower-magnification bright-field TEM image (Extended Data Fig. 2c) provides more insight into the much smaller Ta-based particles (diameters of <32 nm) and the presence of nano-twins within the NC Cu grains.",
+          "table": null,
+          "figure": "Extended Data Fig. 2c",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "misfit lattice dislocations",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "interface between nanoclusters and Cu matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "The nanoclusters also have misfit lattice dislocations at the interface that are indicative of the misfit strain present, which was identified using inverse fast Fourier transform analysis (Extended Data Fig. 3).",
+          "table": null,
+          "figure": "Extended Data Fig. 3",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "MicrostructureFeature",
+      "name": "nanocrystalline grain",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "attributes": {
+        "size": "50 ± 17.5 nm",
+        "morphology": "equiaxed",
+        "location": "bulk",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "the as-received averaged grain sizes were still in a NC regime (Extended Data Fig. 2).",
+          "table": null,
+          "figure": "Extended Data Fig. 2",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "property": "misfit strain",
+      "value": 5.8,
+      "min_value": null,
+      "max_value": 11,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "inverse fast Fourier transform analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "On average, the misfit strain in the as-received sample is about 5.8%, but can be as high as 11%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "property": "threshold stress",
+      "value": 165,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "threshold stress correction from creep data"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Creep rate data as a function of applied load with and without threshold correction",
+          "quote": "a threshold stress of 165 MPa was deduced and subtracted from the applied stress",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation climb",
+      "category": "creep deformation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Theoretical deformation map",
+          "quote": "the rate-controlling creep deformation mechanism in the high stress and temperature regime was identified from the deformation map (Extended Data Fig. 5d) to be dislocation climb",
+          "table": null,
+          "figure": "Extended Data Fig. 5d",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Methods",
+          "quote": "For the preparation of nanocrystalline (NC) Cu–10 at % Ta powder, the powder was generated through high-energy cryogenic mechanical alloying.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "As-received microstructure . The primary microstructural characterization (Extended Data Fig. 2) of the as-received NC Cu–10 at% Ta ECAE processed at 700 °C",
+          "table": null,
+          "figure": "Extended Data Fig. 2",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-milled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Methods",
+          "quote": "The desired composition was obtained by loading elemental Cu and Ta powders (−325 mesh and 99.9% purity) into a hardened steel vial",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-milled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Methods",
+          "quote": "A SPEX 8000 M shaker mill was used to perform the milling at cryogenic temperature (verified to be about −196 °C) for 4 h (14.4 ks) using liquid nitrogen.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "as-milled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Methods",
+          "quote": "extruded at an extrusion rate of 25.5 mm s−1. This step was repeated four times following route ‘BC’21–23",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Methods",
+          "quote": "For consolidating the NC Cu–10 at% Ta powder to bulk, equal-channel angular extrusion (ECAE) was selected as the consolidation process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "The TEM characterization and precession diffraction data are illustrated in Extended Data Fig. 2, and demonstrate a high degree of randomness in the orientation relationship between the grains of NC Cu matrix with an average equiaxed grain diameter of 50 ± 17.5 nm.",
+          "table": null,
+          "figure": "Extended Data Fig. 2",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "Extended Data Fig. 2 shows a histogram, taken from multiple images similar to Extended Data Fig. 2a, b, indicating that the Ta particle size distribution has an average diameter of 32 ± 7.5 nm.",
+          "table": null,
+          "figure": "Extended Data Fig. 2",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "the processing route produces a wide range of Ta particle sizes, ranging from atomic nanoclusters (average diameter of 3.18 ± 0.86 nm) to much larger precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "A lower-magnification bright-field TEM image (Extended Data Fig. 2c) provides more insight into the much smaller Ta-based particles (diameters of <32 nm) and the presence of nano-twins within the NC Cu grains.",
+          "table": null,
+          "figure": "Extended Data Fig. 2c",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_2",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "The nanoclusters also have misfit lattice dislocations at the interface that are indicative of the misfit strain present, which was identified using inverse fast Fourier transform analysis (Extended Data Fig. 3).",
+          "table": null,
+          "figure": "Extended Data Fig. 3",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "the as-received averaged grain sizes were still in a NC regime (Extended Data Fig. 2).",
+          "table": null,
+          "figure": "Extended Data Fig. 2",
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "As-received microstructure",
+          "quote": "On average, the misfit strain in the as-received sample is about 5.8%, but can be as high as 11%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Creep rate data as a function of applied load with and without threshold correction",
+          "quote": "a threshold stress of 165 MPa was deduced and subtracted from the applied stress",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Mechanical characterization at creep conditions",
+          "quote": "The compression creep experiments were conducted in air at 873 K and with fractions of 0.45, 0.50, 0.55, 0.60 and 0.65 of the yield stress, at 773 K and with fractions of 0.70, 0.75 and 0.80 of the yield stress, and at 673 K and with fractions of 0.70, 0.80, 0.90 and 1.00 of the yield stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "phase_3",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Creep rate data as a function of applied load with and without threshold correction",
+          "quote": "The stress exponent value of five for threshold correction was deemed appropriate for this study, and corresponds to a dislocation-climb-based deformation mechanism whereby the threshold stress arises owing to the influence of dislocations in the creep process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Creep rate data as a function of applied load with and without threshold correction",
+          "quote": "The stress exponent values were computed to be between four and eight at various temperatures after threshold correction, indicating the absence of diffusional creep processes during creep.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5eec20142c9907e6:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

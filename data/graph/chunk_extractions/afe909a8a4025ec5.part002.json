@@ -1,0 +1,314 @@
+{
+  "document_id": "afe909a8a4025ec5",
+  "chunk_id": "afe909a8a4025ec5:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Mechanistic modelling of time-dependent fatigue crack growth",
+    "authors": [
+      "Chan"
+    ],
+    "journal": "Materials at High Temperatures",
+    "year": 2016,
+    "doi": "10.1080/09603409.2016.1163810"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Stress relaxation in Ni-based superalloys such as ME3 (Rene 104) and the NASA devel - oped LSHR alloy has been shown to depend on the tertiary gamma prime (γ′) size",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "ME3",
+      "canonical_name": "ME3",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The tertiary γ′ size for the ME3 material studied by Gabb et al.56,74 was ≈ 20–33 nm, while those of Dahal et al.73 was 42–60 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "LSHR disk alloy",
+      "canonical_name": "LSHR",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Dependence of the time-dependent crack growth rate, da/dt, of a LSHR disk superalloy on the tertiary gamma prime size.",
+          "table": null,
+          "figure": "10",
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Udimet 720 Li",
+      "canonical_name": "Udimet 720 Li",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "Concurrent oxidation and creep have been observed in Udimet 720 Li 30 at 650 °C under dwell fatigue crack growth testing at 0.25 Hz with a 120 s dwell at the peak stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "tertiary gamma prime",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "20–33 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The tertiary γ′ size for the ME3 material studied by Gabb et al.56,74 was ≈ 20–33 nm, while those of Dahal et al.73 was 42–60 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "property": "time-dependent crack growth rate (da/dt)",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mm/s",
+      "conditions": {
+        "temperature_c": 704,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Dependence of the time-dependent crack growth rate, da/dt, of a LSHR disk superalloy on the tertiary gamma prime size.",
+          "table": null,
+          "figure": "10",
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "crack-tip stress relaxation",
+      "category": "mechanical",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Stress relaxation at the crack tip reduces the da/dt response because the relaxed stress field is less likely to cause oxide fracture at the crack tip by decreasing the region where the critical stress for oxide fracture can be attained.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "oxidation-induced crack growth",
+      "category": "environmental degradation",
+      "sample_id": "sample_3",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "For Udimet 720 Li, dwell fatigue in air at elevated temperature results in enhanced time-dependent crack growth due to contributions from both creep and oxidation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "creep cavitation",
+      "category": "creep damage",
+      "sample_id": "sample_3",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "Creep crack growth involves the formation, growth and coalescence of creep cavities along grain boundaries located ahead of the crack tip",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The tertiary γ′ size for the ME3 material studied by Gabb et al.56,74 was ≈ 20–33 nm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Stress relaxation in Ni-based superalloys such as ME3 (Rene 104) and the NASA devel - oped LSHR alloy has been shown to depend on the tertiary gamma prime (γ′) size,32 as shown in Fig. 10, which in turn affects the time-dependent crack growth life.",
+          "table": null,
+          "figure": "10",
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Stress relaxation at the crack tip reduces the da/dt response",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "The enhanced crack growth during dwell fatigue of Udimet 720 Li originates from both the oxidation term (75%) and the creep term (25%).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_3",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "The enhanced crack growth during dwell fatigue of Udimet 720 Li originates from both the oxidation term (75%) and the creep term (25%).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "afe909a8a4025ec5:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

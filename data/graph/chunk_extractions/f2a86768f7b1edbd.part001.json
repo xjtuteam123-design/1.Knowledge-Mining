@@ -1,0 +1,1124 @@
+{
+  "document_id": "f2a86768f7b1edbd",
+  "chunk_id": "f2a86768f7b1edbd:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Investigation of the Micromechanical Behavior of a Ti68Nb7Ta3Zr4Mo18 (at.%) High-Entropy Alloy",
+    "authors": [
+      "Jin Wang",
+      "Qianli Ma",
+      "Hepeng Cheng",
+      "Hechun Yu",
+      "Suxiang Zhang",
+      "Huichao Shang",
+      "Guoqing Zhang",
+      "Wenbo Wang"
+    ],
+    "journal": "Materials",
+    "year": 2023,
+    "doi": "10.3390/ma16145126"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "refractory high-entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "In recent years, the properties of BCC phase high-entropy alloys with principal elements concentrated in refractory elements such as Ti, Zr, Ta, and Nb have been reported.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        },
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "Thus, this research focuses on an HEA with Ti, Nb, Ta, Zr, and Mo",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ti68Nb7Ta3Zr4Mo18 (at.%) HEA",
+      "canonical_name": "Ti68Nb7Ta3Zr4Mo18",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-constructed MD model",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": 68,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "Ti68Nb7Ta3Zr4Mo18 (at.%) high-entropy alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f2a86768f7b1edbd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "Ti68Nb7Ta3Zr4Mo18 (at.%) high-entropy alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f2a86768f7b1edbd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "Ti68Nb7Ta3Zr4Mo18 (at.%) high-entropy alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f2a86768f7b1edbd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "Ti68Nb7Ta3Zr4Mo18 (at.%) high-entropy alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f2a86768f7b1edbd:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 18,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "Ti68Nb7Ta3Zr4Mo18 (at.%) high-entropy alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f2a86768f7b1edbd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "LAMMPS was used to construct the BCC structural model as shown in Figure 2. The size of the model was 30a× 30a × 30a, and five kinds of atoms (Ti, Nb, Ta, Zr, and Mo) were randomly assigned in proportion to the model, which contained a total of 54,000 atoms.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics model construction",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "model_size": "30a×30a×30a",
+          "atom_count": 54000,
+          "boundary_conditions": "PPP",
+          "structure": "BCC"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-constructed MD model",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "LAMMPS was used to construct the BCC structural model as shown in Figure 2. The size of the model was 30a× 30a × 30a, and five kinds of atoms (Ti, Nb, Ta, Zr, and Mo) were randomly assigned in proportion to the model, which contained a total of 54,000 atoms. To avoid the scale effect, the X, Y, and Z directions of the model were set as periodic boundary conditions (P P P).",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "energy minimization (conjugate gradient)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "algorithm": "conjugate gradient (CG)"
+        }
+      },
+      "input_state": "as-constructed MD model",
+      "output_state": "relaxed model",
+      "evidence": [
+        {
+          "page": "3-4",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "Conjugate gradient methods (CG) were used to minimize the energy of the model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "NPT relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "50 fs",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT isothermal-isobaric"
+        }
+      },
+      "input_state": "relaxed model",
+      "output_state": "relaxed model",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "the model relaxed 50fs under isothermal and isobaric NPT",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "molecular dynamics tensile simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension to 0.35 strain along Y direction",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperatures_K": "77, 300, 700, 1000",
+          "strain_rates_s-1": "1e9, 5e9, 1e10, 3e10, 5e10",
+          "ensemble": "NVT"
+        }
+      },
+      "input_state": "relaxed model",
+      "output_state": "deformed/tensile-tested",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "Finally, the model was stretched by 0.35 strains along the Y direction at different temperatures (77, 300, 700, and 1000 K) and strain rates (1 × 109 s−1, 5 × 109 s−1, 1 × 1010 s−1, 3 × 1010 s−1, and 5 × 1010 s−1). The whole process is completed in an isothermal isovolumic ensemble NVT.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed MD model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "LAMMPS was used to construct the BCC structural model as shown in Figure 2.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        },
+        {
+          "page": "3",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "the main structure of the high-entropy alloy is BCC",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1, strain 0.2",
+      "attributes": {
+        "phase_fraction": "about 51%",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "At 0.2 strain, the FCC structure reaches its maximum content, accounting for about 51%.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "crisscross; twin boundary (single HCP layer), stacking faults (double HCP layer)",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "the initial BCC structure of the high-entropy alloy is transformed into an FCC structure, accompanied by a crisscross HCP structure and disordered white atoms.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "TiNb compound",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed MD model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "the first diffraction peak matches PDF-65-9438 well, and its phase is a TiNb compound",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "twin",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1, strain 0.2",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "When stretched to 0.2 strain, almost all of the BCC phase was transformed into the FCC phase, and twins appeared in the black line art of Figure 5e.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "cavity at grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "When the tensile load continues to be applied, the high-entropy alloy generates a cavity at the grain boundary and fractures, as shown in Figure 5f.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": "sample_1",
+      "material_state": "tension to ultimate strength",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "Shockley dislocation mainly; continuous long dislocation at low temperatures, discrete short dislocation at high temperatures",
+        "location": "within grain",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "It is clear that the main type of dislocation in the alloy is Shockley dislocation, which is a continuous long dislocation at low temperatures and a discrete short dislocation at high temperatures.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1",
+      "property": "elastic modulus",
+      "value": 116.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": "1e10 s-1",
+        "loading_mode": "tension",
+        "orientation": "Y direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1. Mechanical Properties",
+          "quote": "The elastic modulus E of the high-entropy alloy is 116.7 GPa at 300 K and the 1 × 1010 s−1 strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tension at 77 K, 1e9 s-1",
+      "property": "dislocation density",
+      "value": 4.6e+17,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "m-2",
+      "conditions": {
+        "temperature_c": -196,
+        "strain_rate": "1e9 s-1",
+        "loading_mode": "tension",
+        "orientation": "Y direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "At 77 K, the dislocation densities of 1 × 109 s−1 and 1 × 1010 s−1 are 4.6 × 1017 m−2 and 5 × 1017 m−2, respectively.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "tension at 77 K, 1e10 s-1",
+      "property": "dislocation density",
+      "value": 5e+17,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "m-2",
+      "conditions": {
+        "temperature_c": -196,
+        "strain_rate": "1e10 s-1",
+        "loading_mode": "tension",
+        "orientation": "Y direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "At 77 K, the dislocation densities of 1 × 109 s−1 and 1 × 1010 s−1 are 4.6 × 1017 m−2 and 5 × 1017 m−2, respectively.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "tension at 1000 K, 1e9 s-1",
+      "property": "dislocation density",
+      "value": 2.5e+16,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "m-2",
+      "conditions": {
+        "temperature_c": 726.85,
+        "strain_rate": "1e9 s-1",
+        "loading_mode": "tension",
+        "orientation": "Y direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "At 1000 K temperature, the dislocation densities of 1 × 109 s−1 and 1 × 1010 s−1 are 2.5 × 1016 m−2 and 1 × 1017 m−2, respectively.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "tension at 1000 K, 1e10 s-1",
+      "property": "dislocation density",
+      "value": 1e+17,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "m-2",
+      "conditions": {
+        "temperature_c": 726.85,
+        "strain_rate": "1e10 s-1",
+        "loading_mode": "tension",
+        "orientation": "Y direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "At 1000 K temperature, the dislocation densities of 1 × 109 s−1 and 1 × 1010 s−1 are 2.5 × 1016 m−2 and 1 × 1017 m−2, respectively.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary slip",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tension, high temperature and low strain rate",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "At high temperatures and low strain rates, grain boundary slip is the main deformation mechanism",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation slip",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tension, low temperature and high strain rate",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "at low temperatures and high strain rates, dislocation slip replaces grain boundary slip as the dominant deformation mechanism, which improves the strength of the alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "BCC to FCC phase transformation",
+      "category": "phase transformation",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "the initial BCC structure of the high-entropy alloy is transformed into an FCC structure, accompanied by a crisscross HCP structure and disordered white atoms.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "inverse Hall-Petch relationship",
+      "category": "strengthening/softening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tension, very small grain size",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Moreover, when the grain size is too small, the strength of the alloy decreases, which does not satisfy the fine grain strengthening theory and shows an inverse Hall–Petch relationship.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "high-temperature softening",
+      "category": "softening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tension at elevated temperature",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1. Mechanical Properties",
+          "quote": "With the increase in temperature, the elastic modulus and ultimate strength of the high-entropy alloy decrease obviously due to the softening effect of the high temperature.",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "a Ti68Nb7Ta3Zr4Mo18 (at.%) HEA was chosen and simulated",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed MD model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "LAMMPS was used to construct the BCC structural model as shown in Figure 2.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_1",
+      "material_state": "tension",
+      "conditions": {
+        "temperatures_K": "77, 300, 700, 1000",
+        "strain_rates_s-1": "1e9, 5e9, 1e10, 3e10, 5e10"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "the model was stretched by 0.35 strains along the Y direction at different temperatures (77, 300, 700, and 1000 K) and strain rates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed MD model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Potential Functions and Simulation Methods",
+          "quote": "the main structure of the high-entropy alloy is BCC",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1, strain 0.2",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": "1e10 s-1"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "At 0.2 strain, the FCC structure reaches its maximum content, accounting for about 51%.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "accompanied by a crisscross HCP structure and disordered white atoms",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1, strain 0.2",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "When stretched to 0.2 strain, almost all of the BCC phase was transformed into the FCC phase, and twins appeared",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "the high-entropy alloy generates a cavity at the grain boundary and fractures",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_2",
+      "sample_id": "sample_1",
+      "material_state": "tension to ultimate strength",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "the main type of dislocation in the alloy is Shockley dislocation",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1. Mechanical Properties",
+          "quote": "The elastic modulus E of the high-entropy alloy is 116.7 GPa at 300 K and the 1 × 1010 s−1 strain rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "defect_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tension at 77 K, 1e9 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "At 77 K, the dislocation densities of 1 × 109 s−1 and 1 × 1010 s−1 are 4.6 × 1017 m−2 and 5 × 1017 m−2, respectively.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "defect_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "tension at 77 K, 1e10 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "At 77 K, the dislocation densities of 1 × 109 s−1 and 1 × 1010 s−1 are 4.6 × 1017 m−2 and 5 × 1017 m−2, respectively.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "defect_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "tension at 1000 K, 1e9 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "At 1000 K temperature, the dislocation densities of 1 × 109 s−1 and 1 × 1010 s−1 are 2.5 × 1016 m−2 and 1 × 1017 m−2, respectively.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "defect_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "tension at 1000 K, 1e10 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "At 1000 K temperature, the dislocation densities of 1 × 109 s−1 and 1 × 1010 s−1 are 2.5 × 1016 m−2 and 1 × 1017 m−2, respectively.",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "phase_1",
+      "predicate": "TRANSFORMS_TO",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "tension at 300 K, 1e10 s-1",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Deformation Behavior",
+          "quote": "the initial BCC structure of the high-entropy alloy is transformed into an FCC structure",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "tension, high temperature and low strain rate",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "At high temperatures and low strain rates, grain boundary slip is the main deformation mechanism",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tension, low temperature and high strain rate",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "at low temperatures and high strain rates, dislocation slip replaces grain boundary slip as the dominant deformation mechanism, which improves the strength of the alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "mechanism_5",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tension at elevated temperature",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1. Mechanical Properties",
+          "quote": "the elastic modulus and ultimate strength of the high-entropy alloy decrease obviously due to the softening effect of the high temperature",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "f2a86768f7b1edbd:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

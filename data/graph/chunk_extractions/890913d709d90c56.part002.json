@@ -1,0 +1,254 @@
+{
+  "document_id": "890913d709d90c56",
+  "chunk_id": "890913d709d90c56:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Jin Wang",
+      "Ni Lu",
+      "Chuan-Hui Zhang"
+    ],
+    "journal": "Materials Today Communications",
+    "year": 2024,
+    "doi": "10.1016/j.mtcomm.2023.107664"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Zr-Al alloy",
+      "material_category": "intermetallic",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Fig. 5 shows the stress-strain curves of Zr3Al systems tested at different temperatures.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "890913d709d90c56:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Zr3Al",
+      "canonical_name": "Zr3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-simulated",
+      "composition": [
+        {
+          "element": "Zr",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atomic ratio",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Zr3Al",
+              "table": null,
+              "figure": null,
+              "chunk_id": "890913d709d90c56:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atomic ratio",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "Zr3Al",
+              "table": null,
+              "figure": null,
+              "chunk_id": "890913d709d90c56:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Fig. 5 shows the stress-strain curves of Zr3Al systems tested at different temperatures.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "890913d709d90c56:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2",
+          "quote": "we have hidden the atoms located at the lattice points (FCC structure).",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "890913d709d90c56:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "thermal disordering",
+      "category": "microstructural degradation",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2",
+          "quote": "heating metals to higher temperature causes a much greater amplitude of atomic vibrations compared to those at room temperature, increasing the probability of atoms breaking away from lattice sites.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "irradiation-induced cascade damage",
+      "category": "radiation damage",
+      "sample_id": "sample_1",
+      "material_state": "irradiated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "4",
+          "quote": "Irradiation induces cascade collisions between primary knock-on atoms (PKA) and surrounding atoms in the system, leading to the formation of larger vacancy clusters and interstitial atoms in Zr3Al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Fig. 5 shows the stress-strain curves of Zr3Al systems tested at different temperatures.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "890913d709d90c56:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2",
+          "quote": "we have hidden the atoms located at the lattice points (FCC structure).",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "890913d709d90c56:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2",
+          "quote": "heating metals to higher temperature causes a much greater amplitude of atomic vibrations compared to those at room temperature, increasing the probability of atoms breaking away from lattice sites.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "irradiated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "4",
+          "quote": "Irradiation induces cascade collisions between primary knock-on atoms (PKA) and surrounding atoms in the system, leading to the formation of larger vacancy clusters and interstitial atoms in Zr3Al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "890913d709d90c56:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "CLI-EAM potential",
+    "EAM",
+    "MEAM",
+    "Ovito",
+    "LAMMPS"
+  ],
+  "conflicts": []
+}

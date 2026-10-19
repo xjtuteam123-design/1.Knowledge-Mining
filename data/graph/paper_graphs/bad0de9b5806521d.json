@@ -1,0 +1,534 @@
+{
+  "document_id": "bad0de9b5806521d",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Strength vs temperature for refractory complex concentrated alloys (RCCAs): A critical comparison with refractory BCC elements and dilute alloys",
+    "authors": [
+      "D.B. Miracle",
+      "O.N. Senkov",
+      "C. Frey",
+      "S. Rao",
+      "T.M. Pollock"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2024,
+    "doi": "10.1016/j.actamat.2024.119692"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "refractory complex concentrated alloy (RCCA)",
+      "material_category": "refractory",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "To support the development of refractory complex, concentrated alloys (RCCAs), a clear understanding of the effect of temperature on strength is needed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "refractory BCC metal",
+      "material_category": "pure element",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Body-centered cubic (BCC) refractory metals and dilute refractory alloys show a strong temperature dependence of yield stress (σy) at low and high temperatures, with a relatively temperature-independent regime in between.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Cr [29]",
+      "canonical_name": "Cr",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "recrystallized",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Cr [29] 1907 156 970 118.2 8.21 Complex thermo-mechanical processing, ending with 71% reduction in area via swaging at 800◦C, followed by annealing at 1250◦C for 30 min. The material was completely recrystallized.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Mo [31]",
+      "canonical_name": "Mo",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Mo [31] 2623 55 716 128.2 5.59 Complex thermo-mechanical processing, ending with 50% reduction via cold swaging to 0.75 mm or 1.5 mm diameter wire. The 0.75 mm wire was annealed at 1100◦C or 1375◦C for 2hr, and the 1.5 mm wire was annealed at 1600◦C for 1 hr.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "thermo-mechanical processing",
+      "parameters": {
+        "temperature_c": 800,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "71% reduction in area via swaging",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "deformed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Complex thermo-mechanical processing, ending with 71% reduction in area via swaging at 800◦C",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1250,
+        "time": "30 min",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "deformed",
+      "output_state": "recrystallized",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "annealing at 1250◦C for 30 min. The material was completely recrystallized.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "thermo-mechanical processing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "50% reduction via cold swaging",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "cold swaged wire",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Complex thermo-mechanical processing, ending with 50% reduction via cold swaging to 0.75 mm or 1.5 mm diameter wire.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1100,
+        "time": "2 hr",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "cold swaged wire",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "The 0.75 mm wire was annealed at 1100◦C or 1375◦C for 2hr",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1375,
+        "time": "2 hr",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "cold swaged wire",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "The 0.75 mm wire was annealed at 1100◦C or 1375◦C for 2hr",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1600,
+        "time": "1 hr",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "cold swaged wire",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "the 1.5 mm wire was annealed at 1600◦C for 1 hr.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Microstructure",
+      "name": "equiaxed grain",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "95 μm",
+        "morphology": "equiaxed",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Equiaxed grains of 95 μm were produced.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "recrystallized",
+      "property": "yield strength",
+      "value": 970,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 156,
+        "strain_rate": 8.3e-05,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Cr [29] 1907 156 970 118.2 8.21 ... The initial strain rate was 8.3 × 10−5 / sec .",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "property": "yield strength",
+      "value": 716,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 55,
+        "strain_rate": 0.00067,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Mo [31] 2623 55 716 128.2 5.59 ... The initial strain rate was 6.7 × 10−4 / sec .",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "4.1.1",
+          "quote": "Classical solid solution hardening theories show an explicit influence of solute concentration on strength in dilute alloys [67,68].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "composite strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": "multi-phase",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 19,
+          "section": "4.1.6",
+          "quote": "A composite strengthening effect may operate in multi-phase RCCAs with larger particles, especially if one of the phases is an intermetallic compound.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "intermetallic covalent bonding contribution to shear modulus",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": "multi-phase",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 19,
+          "section": "4.1.6",
+          "quote": "Such phases may have μ(T) values significantly higher than expected from a rule-of mixtures approximation due to a significant component of covalent bonding that is often found in intermetallic compounds.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_2",
+      "predicate": "STUDIES",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Body-centered cubic (BCC) refractory metals and dilute refractory alloys show a strong temperature dependence of yield stress (σy) at low and high temperatures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Cr [29] 1907 156 970 118.2 8.21",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": "recrystallized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Equiaxed grains of 95 μm were produced.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": "recrystallized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Cr [29] 1907 156 970 118.2 8.21",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "bad0de9b5806521d:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

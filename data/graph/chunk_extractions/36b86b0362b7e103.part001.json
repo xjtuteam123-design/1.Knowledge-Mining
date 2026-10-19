@@ -1,0 +1,1411 @@
+{
+  "document_id": "36b86b0362b7e103",
+  "chunk_id": "36b86b0362b7e103:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Development of 3-Dimensional (3D) response surfaces to maximize yield strength and elongation of InterPulsed TIG welded thin high temperature alloy sheets for jet engine applications",
+    "authors": [
+      "Tushar Sonar",
+      "Visvalingam Balasubramanian",
+      "Sudersanan Malarvizhi",
+      "Thiruvenkatam Venkateswaran",
+      "Dhenuvakonda Sivakumar"
+    ],
+    "journal": "CIRP Journal of Manufacturing Science and Technology",
+    "year": 2020,
+    "doi": "10.1016/j.cirpj.2020.09.003"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Alloy 718 is a high temperature nickel base superalloy, broadly used in the aerospace sector due to its exceptional strength at elevated temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Alloy 718 base metal",
+      "canonical_name": "Alloy 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solutionized at 980 °C",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 55.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 17.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 21.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 0.04,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 3.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 4.96,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 0.93,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 0.44,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.43,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 0.017,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Si",
+          "value": 0.06,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": 0.003,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 0.001,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        },
+        {
+          "element": "S",
+          "value": 0.004,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Table 1",
+              "quote": "Base metal chemical composition (wt.-%). Ni Cr Fe Co Mo Nb Ti Al C Mn Si B Cu S 55.5 17.7 21.8 0.04 3.0 4.96 0.93 0.44 0.43 0.017 0.06 0.003 0.001 0.004",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "36b86b0362b7e103:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Material selection and specimen preparation",
+          "quote": "Rolled sheets (2 mm thickness) of Alloy 718 available in 980 °C solutionized state were selected for the present study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "InterPulsed TIG welded Alloy 718 joint - experiment 21",
+      "canonical_name": "Alloy 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-welded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "21 0 0 /C0 2 0 65 50 4 60 548 27.93 5.18",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "InterPulsed TIG welded Alloy 718 joint - experiment 24",
+      "canonical_name": "Alloy 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-welded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "24 0 0 0 2 65 50 12 70 536 31.5 7.68",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "InterPulsed TIG welded Alloy 718 joint - experiment 12",
+      "canonical_name": "Alloy 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-welded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "12 1 1 /C0 1 1 70 52.5 8 65 532 26.88 8.14",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "InterPulsed TIG welded Alloy 718 joint - experiment 17",
+      "canonical_name": "Alloy 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-welded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "17 /C0 2 0 0 0 55 50 12 60 380 8.14 6.63",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "solution annealing",
+      "parameters": {
+        "temperature_c": 980,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "rolled sheet",
+      "output_state": "solutionized at 980 °C",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Material selection and specimen preparation",
+          "quote": "Rolled sheets (2 mm thickness) of Alloy 718 available in 980 °C solutionized state were selected for the present study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "interpulsed TIG welding (IP-TIG)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "welding_current_a": 65,
+          "interpulse_current_a": 50,
+          "interpulse_frequency_khz": 4,
+          "welding_speed_mm_per_min": 60,
+          "joint_configuration": "square butt"
+        }
+      },
+      "input_state": "solutionized at 980 °C",
+      "output_state": "as-welded",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "21 0 0 /C0 2 0 65 50 4 60 548 27.93 5.18",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "interpulsed TIG welding (IP-TIG)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "welding_current_a": 65,
+          "interpulse_current_a": 50,
+          "interpulse_frequency_khz": 12,
+          "welding_speed_mm_per_min": 70,
+          "joint_configuration": "square butt"
+        }
+      },
+      "input_state": "solutionized at 980 °C",
+      "output_state": "as-welded",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "24 0 0 0 2 65 50 12 70 536 31.5 7.68",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_4",
+      "sequence": 1,
+      "method": "interpulsed TIG welding (IP-TIG)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "welding_current_a": 70,
+          "interpulse_current_a": 52.5,
+          "interpulse_frequency_khz": 8,
+          "welding_speed_mm_per_min": 65,
+          "joint_configuration": "square butt"
+        }
+      },
+      "input_state": "solutionized at 980 °C",
+      "output_state": "as-welded",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "12 1 1 /C0 1 1 70 52.5 8 65 532 26.88 8.14",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_5",
+      "sequence": 1,
+      "method": "interpulsed TIG welding (IP-TIG)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "welding_current_a": 55,
+          "interpulse_current_a": 50,
+          "interpulse_frequency_khz": 12,
+          "welding_speed_mm_per_min": 60,
+          "joint_configuration": "square butt"
+        }
+      },
+      "input_state": "solutionized at 980 °C",
+      "output_state": "as-welded",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "17 /C0 2 0 0 0 55 50 12 60 380 8.14 6.63",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "attributes": {
+        "phase_fraction": "5.18 %",
+        "size": null,
+        "morphology": "finer discrete morphology",
+        "location": "fusion zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        },
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "21 0 0 /C0 2 0 65 50 4 60 548 27.93 5.18",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "grain refinement",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "fusion zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "property": "yield strength",
+      "value": 548,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "transverse",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM E8M-05"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "21 0 0 /C0 2 0 65 50 4 60 548 27.93 5.18",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "as-welded",
+      "property": "yield strength",
+      "value": 536,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "transverse",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM E8M-05"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "24 0 0 0 2 65 50 12 70 536 31.5 7.68",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_4",
+      "material_state": "as-welded",
+      "property": "yield strength",
+      "value": 532,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "transverse",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM E8M-05"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "12 1 1 /C0 1 1 70 52.5 8 65 532 26.88 8.14",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_5",
+      "material_state": "as-welded",
+      "property": "yield strength",
+      "value": 380,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "transverse",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM E8M-05"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "17 /C0 2 0 0 0 55 50 12 60 380 8.14 6.63",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "property": "elongation",
+      "value": 27.93,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "transverse",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM E8M-05, 50 mm gauge length"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "21 0 0 /C0 2 0 65 50 4 60 548 27.93 5.18",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_3",
+      "material_state": "as-welded",
+      "property": "elongation",
+      "value": 31.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "transverse",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM E8M-05, 50 mm gauge length"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "24 0 0 0 2 65 50 12 70 536 31.5 7.68",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_4",
+      "material_state": "as-welded",
+      "property": "elongation",
+      "value": 26.88,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "transverse",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM E8M-05, 50 mm gauge length"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "12 1 1 /C0 1 1 70 52.5 8 65 532 26.88 8.14",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_5",
+      "material_state": "as-welded",
+      "property": "elongation",
+      "value": 8.14,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "transverse",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM E8M-05, 50 mm gauge length"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "17 /C0 2 0 0 0 55 50 12 60 380 8.14 6.63",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain refinement",
+      "category": "microstructural",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Laves phase morphology control",
+      "category": "microstructural",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "solutionized at 980 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Material selection and specimen preparation",
+          "quote": "Rolled sheets (2 mm thickness) of Alloy 718 available in 980 °C solutionized state were selected for the present study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "solutionized at 980 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Material selection and specimen preparation",
+          "quote": "Rolled sheets (2 mm thickness) of Alloy 718 available in 980 °C solutionized state were selected for the present study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "21 0 0 /C0 2 0 65 50 4 60 548 27.93 5.18",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "21 0 0 /C0 2 0 65 50 4 60 548 27.93 5.18",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_3",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "24 0 0 0 2 65 50 12 70 536 31.5 7.68",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_4",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_4",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "12 1 1 /C0 1 1 70 52.5 8 65 532 26.88 8.14",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_5",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": "sample_5",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "17 /C0 2 0 0 0 55 50 12 60 380 8.14 6.63",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "21 0 0 /C0 2 0 65 50 4 60 548 27.93 5.18",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "21 0 0 /C0 2 0 65 50 4 60 548 27.93 5.18",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "24 0 0 0 2 65 50 12 70 536 31.5 7.68",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_4",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "12 1 1 /C0 1 1 70 52.5 8 65 532 26.88 8.14",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_5",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_5",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "17 /C0 2 0 0 0 55 50 12 60 380 8.14 6.63",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "21 0 0 /C0 2 0 65 50 4 60 548 27.93 5.18",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_3",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "24 0 0 0 2 65 50 12 70 536 31.5 7.68",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_4",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "12 1 1 /C0 1 1 70 52.5 8 65 532 26.88 8.14",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_5",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_5",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 4",
+          "quote": "17 /C0 2 0 0 0 55 50 12 60 380 8.14 6.63",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "It is attributed to the grain refinement in FZ and substantial evolvement of laves phase in finer discrete morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

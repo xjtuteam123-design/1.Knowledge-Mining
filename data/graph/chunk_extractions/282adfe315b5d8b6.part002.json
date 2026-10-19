@@ -1,0 +1,869 @@
+{
+  "document_id": "282adfe315b5d8b6",
+  "chunk_id": "282adfe315b5d8b6:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Development of Ni-Mn-based alloys for fast epitaxial braze-repair",
+    "authors": [
+      "B. Laux",
+      "J. Rösler"
+    ],
+    "journal": "Int. J. Mat. Res. (formerly Z. Metallkd.)",
+    "year": 2010,
+    "doi": "10.3139/146.110312"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Mn-based braze alloy",
+      "material_category": "braze alloy",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "Ni – Mn and Ni – Al are eutectic systems",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        },
+        {
+          "page": "9",
+          "section": "Conclusions",
+          "quote": "The epitaxial brazing of single-crystalline nickel-based superalloys with Ni – Mn-based alloys was demonstrated.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "(PWA 1483: UTS(RT) & 1 100 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "alloy No. 1",
+      "canonical_name": "Ni-Mn-Cr-Al-Ti braze alloy No. 1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "brazed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "(1 1508C for alloy No. 1)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        },
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "formation of coarse primary c’ and fine secondary c’",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        },
+        {
+          "page": "9",
+          "section": "Conclusions",
+          "quote": "enhanced braze alloys containing Cr, Al and Ti were used",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "base material (PWA 1483)",
+      "canonical_name": "PWA 1483 Ni-based superalloy",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "base material",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "which is about 83 % of the base material’s strength (PWA 1483: UTS(RT) & 1 100 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "brazing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "hold_temperature_c": 1150,
+          "gap_width_um": 300
+        }
+      },
+      "input_state": "as-brazed gap",
+      "output_state": "brazed gap",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "a hold time above the solidus temperature of the braze alloy (1 1508C for alloy No. 1) was attached to the brazing cycle",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "solution annealing",
+      "parameters": {
+        "temperature_c": 1140,
+        "time": "6 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "above_solidus_of_braze": true
+        }
+      },
+      "input_state": "brazed gap",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "During 6 h hold time at 1 140 8C the spare braze material on top of the sample also partially liquefies, thus pores can be filled.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (Ni3(Al,Ti))",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cubic, fine",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "a large amount of fine, cubic c’ precipitates were observed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "primary gamma-prime (Ni3(Al,Ti))",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "coarse",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "a bi-disperse microstructure consisting of coarse primary c’ and fine secondary c’ formed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "bi-disperse gamma-prime microstructure",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "bi-disperse (coarse primary + fine secondary)",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "a bi-disperse microstructure consisting of coarse primary c’ and fine secondary c’ formed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "TiNi3",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "for higher amounts of Ti, the precipitation of the TiNi 3 phase is predicted",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "epitaxial solidification",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "braze gap",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "single phase solidification occurs, therefore, secondary phases, which serve as nucleation sites for stray grains, cannot form during solidification; the epitaxial solidification is not disturbed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "Mn-enriched residual liquid layer",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gap center",
+        "composition": "Mn-enriched",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "a liquid layer enriched with Mn remains in the center of the braze gap",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Defect",
+      "name": "porosity",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gap center and top side",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "As a result, porosity occurs predominantly in the center of the gaps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "gamma matrix",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "c’ (Ni3(Al, Ti)) precipitates out of c solid-solution",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "property": "tensile strength",
+      "value": 344.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 900,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "high temperature tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "the measured strength of 344 MPa can be doubled",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "property": "tensile strength",
+      "value": 675.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "room temperature tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "In the case of the three samples with the pore concentration on the top side, an average tensile strength of 675 MPa was recorded",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "property": "ultimate tensile strength",
+      "value": 917.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "room temperature tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "the ground samples reached an ultimate tensile strength of 917 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "base material",
+      "property": "ultimate tensile strength",
+      "value": 1100.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "room temperature tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "(PWA 1483: UTS(RT) & 1 100 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "gamma-prime precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "This is the main reason for the excellent high temperature properties of nickel-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "pore closure by residual liquid phase",
+      "category": "solidification",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "during this additional hold time, where a small amount of liquid phase still exists, pores forming during solidification are closed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "shrinkage-induced porosity",
+      "category": "solidification",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "accompanied by significant shrinkage induced by the phase transformation. As a result, porosity occurs predominantly in the center of the gaps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "Conclusions",
+          "quote": "The epitaxial brazing of single-crystalline nickel-based superalloys with Ni – Mn-based alloys was demonstrated.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_2",
+      "sample_id": "sample_2",
+      "material_state": "base material",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "which is about 83 % of the base material’s strength (PWA 1483: UTS(RT) & 1 100 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "During 6 h hold time at 1 140 8C the spare braze material on top of the sample also partially liquefies",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "a bi-disperse microstructure consisting of coarse primary c’ and fine secondary c’ formed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "a large amount of fine, cubic c’ precipitates were observed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "This is the main reason for the excellent high temperature properties of nickel-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "As a result, porosity occurs predominantly in the center of the gaps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "microstructure_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "This residual liquid layer solidifies until its solidus temperature is reached, accompanied by significant shrinkage induced by the phase transformation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "process_1",
+      "predicate": "SUPPRESSES",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "during this additional hold time, where a small amount of liquid phase still exists, pores forming during solidification are closed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "conditions": {
+        "temperature_c": 900
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "the measured strength of 344 MPa can be doubled",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "conditions": {
+        "temperature_c": 25
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "In the case of the three samples with the pore concentration on the top side, an average tensile strength of 675 MPa was recorded",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "conditions": {
+        "temperature_c": 25
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "the ground samples reached an ultimate tensile strength of 917 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "base material",
+      "conditions": {
+        "temperature_c": 25
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "(PWA 1483: UTS(RT) & 1 100 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "observation_3",
+      "predicate": "COMPARED_WITH",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "brazed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Results",
+          "quote": "which is about 83 % of the base material’s strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "282adfe315b5d8b6:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

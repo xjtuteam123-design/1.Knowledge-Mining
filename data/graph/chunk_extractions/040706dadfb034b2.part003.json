@@ -1,0 +1,179 @@
+{
+  "document_id": "040706dadfb034b2",
+  "chunk_id": "040706dadfb034b2:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Congqing Liu",
+      "Zizhuang Gu",
+      "Jun Wu",
+      "Yong He",
+      "Xun Dai",
+      "Jingjing Liao",
+      "Quan Li",
+      "Chao Sun",
+      "Baifeng Luan"
+    ],
+    "journal": "Journal of Alloys and Compounds",
+    "year": 2026,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mo-Re alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "Conclusions",
+          "quote": "This study elucidates the microstructural mechanisms governing the plastic deformation and texture evolution of a Mo-Re alloy under axial compression at 650 ℃ (strain range 10 – 60 %).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "040706dadfb034b2:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Mo-Re alloy",
+      "canonical_name": "Mo-Re alloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 14,
+          "section": "Conclusions",
+          "quote": "This study elucidates the microstructural mechanisms governing the plastic deformation and texture evolution of a Mo-Re alloy under axial compression at 650 ℃ (strain range 10 – 60 %).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "040706dadfb034b2:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "axial compression",
+      "parameters": {
+        "temperature_c": 650,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "10-60%",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "Conclusions",
+          "quote": "This study elucidates the microstructural mechanisms governing the plastic deformation and texture evolution of a Mo-Re alloy under axial compression at 650 ℃ (strain range 10 – 60 %).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "040706dadfb034b2:part:003"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "deformation kinking",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "Conclusions",
+          "quote": "The results demonstrate that deformation kinking, triggered by specific dislocation reactions, serves as the primary driver for lattice reorientation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "040706dadfb034b2:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "strain incompatibility",
+      "category": "failure mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "Conclusions",
+          "quote": "With these accommodation mechanisms exhausted, strain incompatibility intensifies at grain boundaries (particularly between distinct texture components), resulting in crack initiation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "040706dadfb034b2:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "process_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "Conclusions",
+          "quote": "The results demonstrate that deformation kinking, triggered by specific dislocation reactions, serves as the primary driver for lattice reorientation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "040706dadfb034b2:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "Conclusions",
+          "quote": "With these accommodation mechanisms exhausted, strain incompatibility intensifies at grain boundaries (particularly between distinct texture components), resulting in crack initiation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "040706dadfb034b2:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

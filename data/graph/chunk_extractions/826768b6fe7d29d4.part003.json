@@ -1,0 +1,261 @@
+{
+  "document_id": "826768b6fe7d29d4",
+  "chunk_id": "826768b6fe7d29d4:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A machine learning framework for multi-objective optimization design of high-temperature alloy steel",
+    "authors": [
+      "Cun Chen",
+      "Dandan Zang",
+      "Jingli Ren"
+    ],
+    "journal": "Materials Today Communications",
+    "year": 2025,
+    "doi": "10.1016/j.mtcomm.2025.113955"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "high-temperature alloy steel",
+      "material_category": "steel",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "A novel machine learning framework for multi-objective optimization design of high-temperature alloy steel is proposed, which involves NSGA-II, data augmentation and transfer learning.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "recommendation 1 for 600-700 C",
+      "canonical_name": "high-temperature alloy steel recommendation 1 (600-700 C)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "recommended composition and process parameters",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 15,
+          "section": "Table 8",
+          "quote": "10 recommendations for the test temperature between 600 °C and 700 °C. Number 1: Creep Rupture Time 233160.7 h, Tensile Strength 906.8 MPa, Test Temperature 633.2 °C",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "recommended composition and process parameters",
+      "property": "creep rupture time",
+      "value": 233160.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 633.2,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": "Table 8",
+          "quote": "Number 1: Creep Rupture Time 233160.7 h, Tensile Strength 906.8 MPa, Test Temperature 633.2 °C",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "recommended composition and process parameters",
+      "property": "tensile strength",
+      "value": 906.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 633.2,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": "Table 8",
+          "quote": "Number 1: Creep Rupture Time 233160.7 h, Tensile Strength 906.8 MPa, Test Temperature 633.2 °C",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "XGBoost optimized by PSO",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict tensile strength and creep rupture time",
+      "inputs": [],
+      "target": "tensile strength, creep rupture time",
+      "dataset": null,
+      "validation": "good generalization performance, predicted values close to actual values for a new set of 10 data points",
+      "metrics": {
+        "R2": "0.99 for tensile strength, 0.98 for creep rupture time"
+      },
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "The XGBoost model optimized by PSO shows excellent prediction performance for tensile strength and creep rupture time (the values of R2 are 0.99 and 0.98, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "NSGA-II",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "multi-objective optimization",
+      "inputs": [],
+      "target": "composition and process parameters",
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "During multi-objective optimization, a combination of Non-dominated Sorting Genetic Algorithm II and Simulated Annealing is introduced to traverse an immense search space of approximately 1.22 × 10^28.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "simulated annealing",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "multi-objective optimization",
+      "inputs": [],
+      "target": "composition and process parameters",
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "During multi-objective optimization, a combination of Non-dominated Sorting Genetic Algorithm II and Simulated Annealing is introduced to traverse an immense search space of approximately 1.22 × 10^28.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "recommended composition and process parameters",
+      "conditions": {
+        "temperature_c": 633.2
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "The XGBoost model optimized by PSO shows excellent prediction performance for tensile strength and creep rupture time (the values of R2 are 0.99 and 0.98, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "recommended composition and process parameters",
+      "conditions": {
+        "temperature_c": 633.2
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "The XGBoost model optimized by PSO shows excellent prediction performance for tensile strength and creep rupture time (the values of R2 are 0.99 and 0.98, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "recommended composition and process parameters",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "Table 8",
+          "quote": "10 recommendations for the test temperature between 600 °C and 700 °C.",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

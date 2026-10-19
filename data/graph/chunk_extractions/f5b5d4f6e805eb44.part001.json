@@ -1,0 +1,228 @@
+{
+  "document_id": "f5b5d4f6e805eb44",
+  "chunk_id": "f5b5d4f6e805eb44:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Microstructure-sensitive notch root analysis for dwell fatigue in Ni-base superalloys",
+    "authors": [
+      "Yustianto Tjiptowidjojo",
+      "Craig Przybyla",
+      "Mahesh Shenoy",
+      "David L. McDowell"
+    ],
+    "journal": "International Journal of Fatigue",
+    "year": 2009,
+    "doi": "10.1016/j.ijfatigue.2008.04.007"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "Ni-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f5b5d4f6e805eb44:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "IN 100",
+      "canonical_name": "IN 100",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "The microstructure attributes for Ni-base superalloy IN 100 are varied randomly within the range shown in Table 1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f5b5d4f6e805eb44:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "sizes and volume fractions of the Ni3Al c' precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f5b5d4f6e805eb44:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "c–c' Ni-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f5b5d4f6e805eb44:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "artificial neural network (ANN)",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "correlate macroscale internal state variable cyclic viscoplasticity model parameters with microstructure attributes",
+      "inputs": [
+        "mean grain size",
+        "volume fraction of primary gamma' precipitate",
+        "volume fraction of secondary gamma' precipitate",
+        "secondary gamma' precipitate size",
+        "volume fraction of tertiary gamma' precipitate",
+        "tertiary gamma' precipitate size"
+      ],
+      "target": "macroscopic viscoplastic model parameters",
+      "dataset": "150 microstructures generated within ranges of Table 1",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "An artificial neural network (ANN) is used to correlate the material parameters of a macroscale internal state variable cyclic viscoplasticity model with these microstructure attributes",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f5b5d4f6e805eb44:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "The microstructure attributes for Ni-base superalloy IN 100 are varied randomly within the range shown in Table 1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f5b5d4f6e805eb44:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "sizes and volume fractions of the Ni3Al c' precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f5b5d4f6e805eb44:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": null,
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "c–c' Ni-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f5b5d4f6e805eb44:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "abstract",
+          "quote": "An artificial neural network (ANN) is used to correlate the material parameters of a macroscale internal state variable cyclic viscoplasticity model with these microstructure attributes",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f5b5d4f6e805eb44:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

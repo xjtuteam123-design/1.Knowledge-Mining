@@ -1,0 +1,4772 @@
+{
+  "document_id": "ab9ec9388bb07e02",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Machine Learning-Based Strength Prediction for Refractory High-Entropy Alloys of the Al-Cr-Nb-Ti-V-Zr System",
+    "authors": [
+      "Denis Klimenko",
+      "Nikita Stepanov",
+      "Jia Li",
+      "Qihong Fang",
+      "Sergey Zherebtsov"
+    ],
+    "journal": "Materials",
+    "year": 2021,
+    "doi": "10.3390/ma14237213"
+  },
+  "alloy_systems": [
+    {
+      "id": "part1_alloy_system_1",
+      "name": "Al-Cr-Nb-Ti-V-Zr refractory high-entropy alloy",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Title",
+          "quote": "Machine Learning-Based Strength Prediction for Refractory High-Entropy Alloys of the Al-Cr-Nb-Ti-V-Zr System",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_alloy_system_2",
+      "name": "CrNbTiVZr alloy",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "the speciﬁc strength of a CrNbTiVZr alloy with a density of 6.57 g/cm3 was found to be higher than that for commercial nickel-based alloys [12,13]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_alloy_system_1",
+      "name": "high-entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "svr.rbf was trained and used for the prediction of the yield strength of HEAs at room at 20°C, 600°C or 800°C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part3_alloy_system_1",
+      "name": "Al-Cr-Nb-Ti-V-Zr refractory high-entropy alloy",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.1.3. CALPHAD Calculations",
+          "quote": "As a result, six model alloys were selected (Table 2).",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part4_alloy_system_1",
+      "name": "Al-Cr-Nb-Ti-V-Zr high-entropy alloy",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "Based on these concentrations, perspective areas of the composition space of Al-Cr-Nb-Ti-V-Zr high-entropy alloys were selected.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part5_alloy_system_1",
+      "name": "Al-Cr-Nb-Ti-V-Zr refractory high-entropy alloy",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": 17,
+          "section": "Conclusions",
+          "quote": "3. For the Al-Cr-Nb-Ti-V-Zr system, the content of aluminum, chromium and zirconium have the greatest influence on the specific yield strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "part1_sample_1",
+      "original_name": "Al13Cr12Nb20Ti20V35",
+      "canonical_name": "Al13Cr12Nb20Ti20V35",
+      "alloy_system_id": "part1_alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Al",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 12,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:001"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 35,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part3_sample_1",
+      "original_name": "A1",
+      "canonical_name": "Al14Cr1Nb10Ti45V25Zr5",
+      "alloy_system_id": "part3_alloy_system_1",
+      "material_state": "homogenized",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 14,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A1 14 1 10 45 25 5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A1 14 1 10 45 25 5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A1 14 1 10 45 25 5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 45,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A1 14 1 10 45 25 5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A1 14 1 10 45 25 5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A1 14 1 10 45 25 5",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_sample_2",
+      "original_name": "A2",
+      "canonical_name": "Al10Nb20Ti35V15Zr20",
+      "alloy_system_id": "part3_alloy_system_1",
+      "material_state": "homogenized",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A2 10 - 20 35 15 20",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A2 10 - 20 35 15 20",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 35,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A2 10 - 20 35 15 20",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A2 10 - 20 35 15 20",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A2 10 - 20 35 15 20",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_sample_3",
+      "original_name": "A3",
+      "canonical_name": "Al14Cr11Nb5Ti35V25Zr10",
+      "alloy_system_id": "part3_alloy_system_1",
+      "material_state": "homogenized",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 14,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A3 14 11 5 35 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 11,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A3 14 11 5 35 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A3 14 11 5 35 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 35,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A3 14 11 5 35 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A3 14 11 5 35 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A3 14 11 5 35 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_sample_4",
+      "original_name": "A4",
+      "canonical_name": "Al13Cr7Nb5Ti45V15Zr15",
+      "alloy_system_id": "part3_alloy_system_1",
+      "material_state": "homogenized",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A4 13 7 5 45 15 15",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A4 13 7 5 45 15 15",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A4 13 7 5 45 15 15",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 45,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A4 13 7 5 45 15 15",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A4 13 7 5 45 15 15",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A4 13 7 5 45 15 15",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_sample_5",
+      "original_name": "A5",
+      "canonical_name": "Al13Cr12Nb20Ti20V35",
+      "alloy_system_id": "part3_alloy_system_1",
+      "material_state": "homogenized",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A5 13 12 20 20 35 -",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 12,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A5 13 12 20 20 35 -",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A5 13 12 20 20 35 -",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A5 13 12 20 20 35 -",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 35,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A5 13 12 20 20 35 -",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_sample_6",
+      "original_name": "A6",
+      "canonical_name": "Al13Cr2Nb20Ti30V25Zr10",
+      "alloy_system_id": "part3_alloy_system_1",
+      "material_state": "homogenized",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A6 13 2 20 30 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A6 13 2 20 30 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A6 13 2 20 30 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A6 13 2 20 30 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A6 13 2 20 30 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 8,
+              "section": "Table 2",
+              "quote": "A6 13 2 20 30 25 10",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:003"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part4_sample_1",
+      "original_name": "A1",
+      "canonical_name": "Al14Cr1Nb10Ti45V25Zr5",
+      "alloy_system_id": "part4_alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 14,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A1 (Al14Cr1Nb10Ti45V25Zr5)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A1 (Al14Cr1Nb10Ti45V25Zr5)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A1 (Al14Cr1Nb10Ti45V25Zr5)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 45,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A1 (Al14Cr1Nb10Ti45V25Zr5)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A1 (Al14Cr1Nb10Ti45V25Zr5)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A1 (Al14Cr1Nb10Ti45V25Zr5)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "In the A1 (Al14Cr1Nb10Ti45V25Zr5) and A4 (Al13Cr7Nb5Ti45V15Zr15) alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_sample_2",
+      "original_name": "A2",
+      "canonical_name": "Al10Nb20Ti35V15Zr20",
+      "alloy_system_id": "part4_alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A2 (Al10Nb20Ti35V15Zr20)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A2 (Al10Nb20Ti35V15Zr20)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 35,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A2 (Al10Nb20Ti35V15Zr20)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A2 (Al10Nb20Ti35V15Zr20)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A2 (Al10Nb20Ti35V15Zr20)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "A2 (Al10Nb20Ti35V15Zr20)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_sample_3",
+      "original_name": "A3",
+      "canonical_name": "Al14Cr11Nb5Ti35V25Zr10",
+      "alloy_system_id": "part4_alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 14,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A3 (Al14Cr11Nb5Ti35V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 11,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A3 (Al14Cr11Nb5Ti35V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A3 (Al14Cr11Nb5Ti35V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 35,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A3 (Al14Cr11Nb5Ti35V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A3 (Al14Cr11Nb5Ti35V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A3 (Al14Cr11Nb5Ti35V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "A3 (Al14Cr11Nb5Ti35V25Zr10)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_sample_4",
+      "original_name": "A4",
+      "canonical_name": "Al13Cr7Nb5Ti45V15Zr15",
+      "alloy_system_id": "part4_alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A4 (Al13Cr7Nb5Ti45V15Zr15)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A4 (Al13Cr7Nb5Ti45V15Zr15)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A4 (Al13Cr7Nb5Ti45V15Zr15)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 45,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A4 (Al13Cr7Nb5Ti45V15Zr15)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A4 (Al13Cr7Nb5Ti45V15Zr15)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A4 (Al13Cr7Nb5Ti45V15Zr15)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "A4 (Al13Cr7Nb5Ti45V15Zr15)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_sample_5",
+      "original_name": "A5",
+      "canonical_name": "Al13Cr12Nb20Ti20V35",
+      "alloy_system_id": "part4_alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A5 (Al13Cr12Nb20Ti20V35)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 12,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A5 (Al13Cr12Nb20Ti20V35)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A5 (Al13Cr12Nb20Ti20V35)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A5 (Al13Cr12Nb20Ti20V35)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 35,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A5 (Al13Cr12Nb20Ti20V35)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "A5 (Al13Cr12Nb20Ti20V35)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_sample_6",
+      "original_name": "A6",
+      "canonical_name": "Al13Cr2Nb20Ti30V25Zr10",
+      "alloy_system_id": "part4_alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A6 (Al13Cr2Nb20Ti30V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A6 (Al13Cr2Nb20Ti30V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A6 (Al13Cr2Nb20Ti30V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A6 (Al13Cr2Nb20Ti30V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A6 (Al13Cr2Nb20Ti30V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 12,
+              "section": null,
+              "quote": "A6 (Al13Cr2Nb20Ti30V25Zr10)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:004"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "A6 (Al13Cr2Nb20Ti30V25Zr10)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part5_sample_1",
+      "original_name": "A1",
+      "canonical_name": null,
+      "alloy_system_id": null,
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A1\t553\t1070 *\t1316\t1409\t1093\t1011\t187\t631",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_sample_2",
+      "original_name": "A2",
+      "canonical_name": null,
+      "alloy_system_id": null,
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A2\t556\t1049 *\t1323\t1297\t1122\t937\t287\t390",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_sample_3",
+      "original_name": "A3",
+      "canonical_name": null,
+      "alloy_system_id": null,
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A3\t650\t1608\t1454\t1385\t1120\t556\t506",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_sample_4",
+      "original_name": "A4",
+      "canonical_name": null,
+      "alloy_system_id": null,
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A4\t552\t1337\t1306\t1096\t1016\t157\t392",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_sample_5",
+      "original_name": "A5",
+      "canonical_name": "Al13Cr12Nb20Ti20V35",
+      "alloy_system_id": "part5_alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Al",
+          "value": 13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 17,
+              "section": "Conclusions",
+              "quote": "One of the predicted alloys (A5: Al13Cr12Nb20Ti20V35) possesses an excellent combination of strength",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:005"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 12,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 17,
+              "section": "Conclusions",
+              "quote": "One of the predicted alloys (A5: Al13Cr12Nb20Ti20V35) possesses an excellent combination of strength",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:005"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 17,
+              "section": "Conclusions",
+              "quote": "One of the predicted alloys (A5: Al13Cr12Nb20Ti20V35) possesses an excellent combination of strength",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:005"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 17,
+              "section": "Conclusions",
+              "quote": "One of the predicted alloys (A5: Al13Cr12Nb20Ti20V35) possesses an excellent combination of strength",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:005"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 35,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 17,
+              "section": "Conclusions",
+              "quote": "One of the predicted alloys (A5: Al13Cr12Nb20Ti20V35) possesses an excellent combination of strength",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab9ec9388bb07e02:part:005"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 17,
+          "section": "Conclusions",
+          "quote": "One of the predicted alloys (A5: Al13Cr12Nb20Ti20V35) possesses an excellent combination of strength (1295 MPa at 20◦C, 1113 MPa at 600◦C and 898 MPa at 800◦C) and ductility (16.8% at 20◦C, 5.5% at 600◦C and >50% at 800◦C) in the interval 20–800◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_sample_6",
+      "original_name": "A6",
+      "canonical_name": null,
+      "alloy_system_id": null,
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A6\t489\t1290\t1353\t1048\t991\t509\t504",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "part3_process_1",
+      "sample_id": "part3_sample_1",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ti-gettered argon atmosphere",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "remelting_count": "five times",
+          "pure_metal_purity": "better than 99.9 wt.%"
+        }
+      },
+      "input_state": "pure metals",
+      "output_state": "as-cast ingot",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere. The measured compositions of the model alloys are listed in Table 3. The alloys were remelted five times to improve their homogeneity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_2",
+      "sample_id": "part3_sample_2",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ti-gettered argon atmosphere",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "remelting_count": "five times",
+          "pure_metal_purity": "better than 99.9 wt.%"
+        }
+      },
+      "input_state": "pure metals",
+      "output_state": "as-cast ingot",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere. The measured compositions of the model alloys are listed in Table 3. The alloys were remelted five times to improve their homogeneity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_3",
+      "sample_id": "part3_sample_3",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ti-gettered argon atmosphere",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "remelting_count": "five times",
+          "pure_metal_purity": "better than 99.9 wt.%"
+        }
+      },
+      "input_state": "pure metals",
+      "output_state": "as-cast ingot",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere. The measured compositions of the model alloys are listed in Table 3. The alloys were remelted five times to improve their homogeneity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_4",
+      "sample_id": "part3_sample_4",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ti-gettered argon atmosphere",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "remelting_count": "five times",
+          "pure_metal_purity": "better than 99.9 wt.%"
+        }
+      },
+      "input_state": "pure metals",
+      "output_state": "as-cast ingot",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere. The measured compositions of the model alloys are listed in Table 3. The alloys were remelted five times to improve their homogeneity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_5",
+      "sample_id": "part3_sample_5",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ti-gettered argon atmosphere",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "remelting_count": "five times",
+          "pure_metal_purity": "better than 99.9 wt.%"
+        }
+      },
+      "input_state": "pure metals",
+      "output_state": "as-cast ingot",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere. The measured compositions of the model alloys are listed in Table 3. The alloys were remelted five times to improve their homogeneity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_6",
+      "sample_id": "part3_sample_6",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ti-gettered argon atmosphere",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "remelting_count": "five times",
+          "pure_metal_purity": "better than 99.9 wt.%"
+        }
+      },
+      "input_state": "pure metals",
+      "output_state": "as-cast ingot",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere. The measured compositions of the model alloys are listed in Table 3. The alloys were remelted five times to improve their homogeneity.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_7",
+      "sample_id": "part3_sample_1",
+      "sequence": 2,
+      "method": "homogenization annealing",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": "10 h",
+        "pressure": "10^-2 torr",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "sealing": "sealed in vacuumed quartz tubes"
+        }
+      },
+      "input_state": "as-cast ingot",
+      "output_state": "homogenized",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h. After the homogenization annealing, samples for compression test and microstructure investigation were cut out using an electric discharge machine.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_8",
+      "sample_id": "part3_sample_2",
+      "sequence": 2,
+      "method": "homogenization annealing",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": "10 h",
+        "pressure": "10^-2 torr",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "sealing": "sealed in vacuumed quartz tubes"
+        }
+      },
+      "input_state": "as-cast ingot",
+      "output_state": "homogenized",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h. After the homogenization annealing, samples for compression test and microstructure investigation were cut out using an electric discharge machine.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_9",
+      "sample_id": "part3_sample_3",
+      "sequence": 2,
+      "method": "homogenization annealing",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": "10 h",
+        "pressure": "10^-2 torr",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "sealing": "sealed in vacuumed quartz tubes"
+        }
+      },
+      "input_state": "as-cast ingot",
+      "output_state": "homogenized",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h. After the homogenization annealing, samples for compression test and microstructure investigation were cut out using an electric discharge machine.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_10",
+      "sample_id": "part3_sample_4",
+      "sequence": 2,
+      "method": "homogenization annealing",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": "10 h",
+        "pressure": "10^-2 torr",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "sealing": "sealed in vacuumed quartz tubes"
+        }
+      },
+      "input_state": "as-cast ingot",
+      "output_state": "homogenized",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h. After the homogenization annealing, samples for compression test and microstructure investigation were cut out using an electric discharge machine.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_11",
+      "sample_id": "part3_sample_5",
+      "sequence": 2,
+      "method": "homogenization annealing",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": "10 h",
+        "pressure": "10^-2 torr",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "sealing": "sealed in vacuumed quartz tubes"
+        }
+      },
+      "input_state": "as-cast ingot",
+      "output_state": "homogenized",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h. After the homogenization annealing, samples for compression test and microstructure investigation were cut out using an electric discharge machine.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_12",
+      "sample_id": "part3_sample_6",
+      "sequence": 2,
+      "method": "homogenization annealing",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": "10 h",
+        "pressure": "10^-2 torr",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "sealing": "sealed in vacuumed quartz tubes"
+        }
+      },
+      "input_state": "as-cast ingot",
+      "output_state": "homogenized",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h. After the homogenization annealing, samples for compression test and microstructure investigation were cut out using an electric discharge machine.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "part3_phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "part3_sample_1",
+      "material_state": "homogenized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "All the program alloys crystallize through a single bcc phase field. However, at 1200 ◦C (heat treatment temperature, used in the current study) only A1and A5 alloys have a single bcc phase structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_phase_2",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "part3_sample_5",
+      "material_state": "homogenized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "All the program alloys crystallize through a single bcc phase field. However, at 1200 ◦C (heat treatment temperature, used in the current study) only A1and A5 alloys have a single bcc phase structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_phase_3",
+      "type": "Phase",
+      "name": "hexagonal C14 Laves phase",
+      "sample_id": "part3_sample_2",
+      "material_state": "homogenized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "In the rest of the alloys, a secondary hexagonal (C14) Laves phase was expected to appear between the solidus temperature and 1200 ◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_phase_4",
+      "type": "Phase",
+      "name": "hexagonal C14 Laves phase",
+      "sample_id": "part3_sample_4",
+      "material_state": "homogenized",
+      "attributes": {
+        "phase_fraction": 0.13,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "The fraction of the Laves phase was evaluated to be <0.1 in A6, and ~0.13 and 0.21 in the A4 and A3 alloys, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_phase_5",
+      "type": "Phase",
+      "name": "hexagonal C14 Laves phase",
+      "sample_id": "part3_sample_3",
+      "material_state": "homogenized",
+      "attributes": {
+        "phase_fraction": 0.21,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "The fraction of the Laves phase was evaluated to be <0.1 in A6, and ~0.13 and 0.21 in the A4 and A3 alloys, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_phase_6",
+      "type": "Phase",
+      "name": "hexagonal C14 Laves phase",
+      "sample_id": "part3_sample_6",
+      "material_state": "homogenized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "The fraction of the Laves phase was evaluated to be <0.1 in A6, and ~0.13 and 0.21 in the A4 and A3 alloys, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_phase_7",
+      "type": "Phase",
+      "name": "Zr3Al2",
+      "sample_id": "part3_sample_2",
+      "material_state": "homogenized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "A2 alloy, where some amount of Zr3Al2 phase formed at T < 840◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part4_phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "part4_sample_1",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "XRD analysis (Figure 9) suggests that the A4 alloys comprise of the bcc phase only.",
+          "table": null,
+          "figure": "Figure 9",
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_phase_2",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "part4_sample_2",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "The A5 and A2 alloys have additional tiny peaks due to the presence of the Laves phases.",
+          "table": null,
+          "figure": "Figure 9",
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_phase_3",
+      "type": "Phase",
+      "name": "Zr5Al3",
+      "sample_id": "part4_sample_3",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "Other model alloys contain, in addition to the bcc phase, more than one phase (Laves and hcp phases in A1; Laves and Zr 5Al3 in both A3 and A6).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_microstructure_1",
+      "type": "Microstructure",
+      "name": "dendritic microstructure",
+      "sample_id": "part4_sample_1",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": "~6%",
+        "size": null,
+        "morphology": "dendritic",
+        "location": "interdendritic areas",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "The alloys A1, A3, A5 and A6 rather have a dendritic microstructure with second phase(s) located in the interdendritic areas. ... The volume fraction of the second phase(s) was ~6% in A1, 41% in A3, 10% in A5 and 7% in A6.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_microstructure_2",
+      "type": "Microstructure",
+      "name": "grain",
+      "sample_id": "part4_sample_2",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "~100-200 µm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "Microstructures of the alloys A2 and A4 consist of grains ~100–200 µm in size with second phase(s) precipitations located mainly along grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "part1_observation_1",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "property": "yield strength",
+      "value": 1295,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_2",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "property": "elongation",
+      "value": 16.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_3",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "property": "yield strength",
+      "value": 898,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_4",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "property": "elongation",
+      "value": 50,
+      "min_value": 50,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_1",
+      "sample_id": "part4_sample_1",
+      "material_state": "heat-treated",
+      "property": "microhardness",
+      "value": 556,
+      "min_value": 540,
+      "max_value": 556,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "Four alloys (A1, A4, A5 and A2) have the microhardness values in a narrow interval 540–556 HV.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_2",
+      "sample_id": "part4_sample_3",
+      "material_state": "heat-treated",
+      "property": "microhardness",
+      "value": 650,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "The maximum and the minimum values of microhardness was observed in the A3 alloy (650 HV) and A6 alloy (489 HV), respectively (Table 4).",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_3",
+      "sample_id": "part4_sample_6",
+      "material_state": "heat-treated",
+      "property": "microhardness",
+      "value": 489,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "The maximum and the minimum values of microhardness was observed in the A3 alloy (650 HV) and A6 alloy (489 HV), respectively (Table 4).",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_4",
+      "sample_id": "part4_sample_2",
+      "material_state": "heat-treated",
+      "property": "yield strength",
+      "value": 1049,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "The yield strengths of the model alloys at 20◦C are in a range from 1049 MPa for the A2 alloy to 1608 MPa for the A3 alloy;",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_5",
+      "sample_id": "part4_sample_3",
+      "material_state": "heat-treated",
+      "property": "yield strength",
+      "value": 1608,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "The yield strengths of the model alloys at 20◦C are in a range from 1049 MPa for the A2 alloy to 1608 MPa for the A3 alloy;",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_6",
+      "sample_id": "part4_sample_2",
+      "material_state": "heat-treated",
+      "property": "yield strength",
+      "value": 1323,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "therefore the estimated strength values for the A1 and A2 alloys can be adopted as 1316 and 1323 MPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_7",
+      "sample_id": "part4_sample_1",
+      "material_state": "heat-treated",
+      "property": "yield strength",
+      "value": 1316,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "therefore the estimated strength values for the A1 and A2 alloys can be adopted as 1316 and 1323 MPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_8",
+      "sample_id": "part4_sample_5",
+      "material_state": "heat-treated",
+      "property": "elongation",
+      "value": 16.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "Ductility over 1% was observed in the A5 and A6 alloys (16.6 and 13.8, respectively);",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_9",
+      "sample_id": "part4_sample_6",
+      "material_state": "heat-treated",
+      "property": "elongation",
+      "value": 13.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": null,
+          "quote": "Ductility over 1% was observed in the A5 and A6 alloys (16.6 and 13.8, respectively);",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_10",
+      "sample_id": "part4_sample_3",
+      "material_state": "heat-treated",
+      "property": "yield strength",
+      "value": 1385,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "At 600◦C, the highest and the lowest values of the yield strengths were shown by the A3 and A6 alloys (1385 and 1048 MPa, respectively), similar to 20◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_11",
+      "sample_id": "part4_sample_6",
+      "material_state": "heat-treated",
+      "property": "yield strength",
+      "value": 1048,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "At 600◦C, the highest and the lowest values of the yield strengths were shown by the A3 and A6 alloys (1385 and 1048 MPa, respectively), similar to 20◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_12",
+      "sample_id": "part4_sample_1",
+      "material_state": "heat-treated",
+      "property": "elongation",
+      "value": 17.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "yet only the A1 and A5 alloys had a ductility over 5% (17.2% and 5.5%, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_13",
+      "sample_id": "part4_sample_5",
+      "material_state": "heat-treated",
+      "property": "elongation",
+      "value": 5.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "yet only the A1 and A5 alloys had a ductility over 5% (17.2% and 5.5%, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_14",
+      "sample_id": "part4_sample_3",
+      "material_state": "heat-treated",
+      "property": "yield strength",
+      "value": 556,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "Only three model alloys (A3, A5 and A6) showed yield strength more than 300 MPa (556, 898 and 509 MPa, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_15",
+      "sample_id": "part4_sample_5",
+      "material_state": "heat-treated",
+      "property": "yield strength",
+      "value": 898,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "Only three model alloys (A3, A5 and A6) showed yield strength more than 300 MPa (556, 898 and 509 MPa, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_observation_16",
+      "sample_id": "part4_sample_6",
+      "material_state": "heat-treated",
+      "property": "yield strength",
+      "value": 509,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "Only three model alloys (A3, A5 and A6) showed yield strength more than 300 MPa (556, 898 and 509 MPa, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_1",
+      "sample_id": "part5_sample_5",
+      "material_state": null,
+      "property": "yield strength",
+      "value": 1295,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 17,
+          "section": "Conclusions",
+          "quote": "One of the predicted alloys (A5: Al13Cr12Nb20Ti20V35) possesses an excellent combination of strength (1295 MPa at 20◦C, 1113 MPa at 600◦C and 898 MPa at 800◦C)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_2",
+      "sample_id": "part5_sample_5",
+      "material_state": null,
+      "property": "yield strength",
+      "value": 1113,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 17,
+          "section": "Conclusions",
+          "quote": "One of the predicted alloys (A5: Al13Cr12Nb20Ti20V35) possesses an excellent combination of strength (1295 MPa at 20◦C, 1113 MPa at 600◦C and 898 MPa at 800◦C)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_3",
+      "sample_id": "part5_sample_5",
+      "material_state": null,
+      "property": "yield strength",
+      "value": 898,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 17,
+          "section": "Conclusions",
+          "quote": "One of the predicted alloys (A5: Al13Cr12Nb20Ti20V35) possesses an excellent combination of strength (1295 MPa at 20◦C, 1113 MPa at 600◦C and 898 MPa at 800◦C)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_4",
+      "sample_id": "part5_sample_5",
+      "material_state": null,
+      "property": "elongation",
+      "value": 16.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 17,
+          "section": "Conclusions",
+          "quote": "and ductility (16.8% at 20◦C, 5.5% at 600◦C and >50% at 800◦C) in the interval 20–800◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_5",
+      "sample_id": "part5_sample_5",
+      "material_state": null,
+      "property": "elongation",
+      "value": 5.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 17,
+          "section": "Conclusions",
+          "quote": "and ductility (16.8% at 20◦C, 5.5% at 600◦C and >50% at 800◦C) in the interval 20–800◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_6",
+      "sample_id": "part5_sample_5",
+      "material_state": null,
+      "property": "elongation",
+      "value": null,
+      "min_value": 50,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 17,
+          "section": "Conclusions",
+          "quote": "and ductility (16.8% at 20◦C, 5.5% at 600◦C and >50% at 800◦C) in the interval 20–800◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_7",
+      "sample_id": "part5_sample_1",
+      "material_state": null,
+      "property": "microhardness",
+      "value": 553,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A1\t553\t1070 *\t1316\t1409\t1093\t1011\t187\t631",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_8",
+      "sample_id": "part5_sample_2",
+      "material_state": null,
+      "property": "microhardness",
+      "value": 556,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A2\t556\t1049 *\t1323\t1297\t1122\t937\t287\t390",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_9",
+      "sample_id": "part5_sample_3",
+      "material_state": null,
+      "property": "microhardness",
+      "value": 650,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A3\t650\t1608\t1454\t1385\t1120\t556\t506",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_10",
+      "sample_id": "part5_sample_4",
+      "material_state": null,
+      "property": "microhardness",
+      "value": 552,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A4\t552\t1337\t1306\t1096\t1016\t157\t392",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_11",
+      "sample_id": "part5_sample_5",
+      "material_state": null,
+      "property": "microhardness",
+      "value": 540,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A5\t540\t1295\t1177\t1113\t874\t898\t468",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    },
+    {
+      "id": "part5_observation_12",
+      "sample_id": "part5_sample_6",
+      "material_state": null,
+      "property": "microhardness",
+      "value": 489,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "A6\t489\t1290\t1353\t1048\t991\t509\t504",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "part3_mechanism_1",
+      "name": "solid solution hardening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.1. Machine Learning Prediction of Composition-Properties Relationships in Alloys of the Al-Cr-Nb-Ti-V-Zr System",
+          "quote": "Chromium and zirconium have the largest and smallest atomic radii (129 and 160 picometers) and it can be assumed that these elements make the main contribution to hardening due to solid solution hardening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part4_mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "it can be assumed that its main contribution to strengthening is associated with the formation of secondary phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "part1_ml_model_1",
+      "name": "support-vector machine",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "yield strength prediction over a wide temperature range (20–800 °C)",
+      "inputs": [
+        "δ",
+        "VEC",
+        "ΔHmix"
+      ],
+      "target": "yield strength",
+      "dataset": "dataset of 30 alloys at room temperature, 35 alloys at 600 °C and 33 alloys at 800 °C from Al-Cr-Nb-Ti-V-Zr system",
+      "validation": null,
+      "metrics": {
+        "average_prediction_error_at_20C": "11%",
+        "average_prediction_error_at_600C": "13.5%",
+        "average_prediction_error_at_800C": ">20%"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The yield strength prediction in a wide range of temperatures (20–800◦C) was made using a surrogate model based on a support-vector machine algorithm. The yield strength at 20◦C and 600◦C was predicted quite precisely (the average prediction error was 11% and 13.5%, respectively) with a decrease in the precision to slightly higher than 20% at 800◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_ml_model_1",
+      "name": "support vector regression with radial basis function kernel",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "yield strength prediction of high-entropy alloys",
+      "inputs": [
+        "atomic size mismatch δ",
+        "valence electron concentration (VEC)",
+        "enthalpy of mixing (ΔHmix)",
+        "electronegativity difference Δχ",
+        "configurational entropy ΔSmix",
+        "work function φ",
+        "shear modulus μ",
+        "shear modulus difference Δμ",
+        "γ parameter",
+        "Λ parameter",
+        "Ω parameter"
+      ],
+      "target": "yield strength",
+      "dataset": "30–35 alloys depending on temperature",
+      "validation": "train/test split with training dataset sizes varied from 0.3 to 0.9 of the full dataset; bootstrap with replacement using 50 datasets of size 0.7; cross-validation",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "svr.rbf was trained and used for the prediction of the yield strength of HEAs at room at 20°C, 600°C or 800°C. A cross-validation approach was also used for pretesting of the svr.rbf algorithm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Since the size of the initial dataset was rather small (30–35 alloys, depending on temperature), it was important to choose the optimal ratio of the new-forming training and test datasets in all used algorithms to attain the best accuracy of the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "The optimal size of the training dataset was defined at 0.7 of the whole initial datasets.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "A total of 50 bootstrap datasets with a size of 0.7 of the initial datasets, each created by choosing random alloys from the initial dataset",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_ml_model_2",
+      "name": "ridge regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "yield strength prediction of high-entropy alloys",
+      "inputs": [
+        "atomic size mismatch δ",
+        "valence electron concentration (VEC)",
+        "enthalpy of mixing (ΔHmix)",
+        "electronegativity difference Δχ",
+        "configurational entropy ΔSmix",
+        "work function φ",
+        "shear modulus μ",
+        "shear modulus difference Δμ",
+        "γ parameter",
+        "Λ parameter",
+        "Ω parameter"
+      ],
+      "target": "yield strength",
+      "dataset": "30–35 alloys depending on temperature",
+      "validation": "train/test split; bootstrap with replacement using 50 datasets of size 0.7",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "seven well-known machine learning algorithms [68], such as a ridge regression algorithm (rid), support vector regressions with a linear kernel (svr.lin), a polynomial kernel (svr.poly), and a radial basis function kernel (svr.rbf), a regression tree algorithm (tree) and a k-nearest neighbor algorithm (knn) were compared.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Among two algorithms showing the minimum prediction error (svr.rbf and rid; Figure 4), svr.rbf was trained and used for the prediction of the yield strength of HEAs at room at 20°C, 600°C or 800°C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part5_ml_model_1",
+      "name": "support-vector machine",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of yield strength",
+      "inputs": [
+        "Al-Cr-Nb-Ti-V-Zr alloy composition"
+      ],
+      "target": "yield strength",
+      "dataset": "Al-Cr-Nb-Ti-V-Zr system alloys",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 17,
+          "section": "Conclusions",
+          "quote": "2. The surrogate model based on a support-vector machine algorithm for the prediction of the yield strength showed good accuracy at 20◦C and 600◦C (the error of prediction was less than 20% for all alloys except one).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        },
+        {
+          "page": 16,
+          "section": null,
+          "quote": "In this work, only alloys of the Al-Cr-Nb-Ti-V-Zr system were used to train the surrogate model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:005"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "part1_claim_1",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_1",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 20
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_2",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_2",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 20
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_3",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_3",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 800
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_4",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_4",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 800
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_5",
+      "source_id": "part1_ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "part1_observation_1",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 20
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "An Al13Cr12Nb20Ti20V35 alloy with an excellent combination of ductility and yield strength at 20◦C (16.6% and 1295 MPa, respectively) and at 800◦C (more 50% and 898 MPa, respectively) was produced based on the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_1",
+      "source_id": "part3_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part3_sample_1",
+      "sample_id": "part3_sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.1.3. CALPHAD Calculations",
+          "quote": "As a result, six model alloys were selected (Table 2).",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_2",
+      "source_id": "part3_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part3_sample_2",
+      "sample_id": "part3_sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.1.3. CALPHAD Calculations",
+          "quote": "As a result, six model alloys were selected (Table 2).",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_3",
+      "source_id": "part3_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part3_sample_3",
+      "sample_id": "part3_sample_3",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.1.3. CALPHAD Calculations",
+          "quote": "As a result, six model alloys were selected (Table 2).",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_4",
+      "source_id": "part3_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part3_sample_4",
+      "sample_id": "part3_sample_4",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.1.3. CALPHAD Calculations",
+          "quote": "As a result, six model alloys were selected (Table 2).",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_5",
+      "source_id": "part3_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part3_sample_5",
+      "sample_id": "part3_sample_5",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.1.3. CALPHAD Calculations",
+          "quote": "As a result, six model alloys were selected (Table 2).",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_6",
+      "source_id": "part3_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part3_sample_6",
+      "sample_id": "part3_sample_6",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.1.3. CALPHAD Calculations",
+          "quote": "As a result, six model alloys were selected (Table 2).",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_7",
+      "source_id": "part3_sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "part3_sample_1",
+      "sample_id": "part3_sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Table 2",
+          "quote": "A1 14 1 10 45 25 5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_8",
+      "source_id": "part3_sample_2",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "part3_sample_2",
+      "sample_id": "part3_sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Table 2",
+          "quote": "A2 10 - 20 35 15 20",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_9",
+      "source_id": "part3_sample_3",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "part3_sample_3",
+      "sample_id": "part3_sample_3",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Table 2",
+          "quote": "A3 14 11 5 35 25 10",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_10",
+      "source_id": "part3_sample_4",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "part3_sample_4",
+      "sample_id": "part3_sample_4",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Table 2",
+          "quote": "A4 13 7 5 45 15 15",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_11",
+      "source_id": "part3_sample_5",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "part3_sample_5",
+      "sample_id": "part3_sample_5",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Table 2",
+          "quote": "A5 13 12 20 20 35 -",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_12",
+      "source_id": "part3_sample_6",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "part3_sample_6",
+      "sample_id": "part3_sample_6",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Table 2",
+          "quote": "A6 13 2 20 30 25 10",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_13",
+      "source_id": "part3_sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "part3_process_1",
+      "sample_id": "part3_sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_14",
+      "source_id": "part3_sample_2",
+      "predicate": "FABRICATED_BY",
+      "target_id": "part3_process_2",
+      "sample_id": "part3_sample_2",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_15",
+      "source_id": "part3_sample_3",
+      "predicate": "FABRICATED_BY",
+      "target_id": "part3_process_3",
+      "sample_id": "part3_sample_3",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_16",
+      "source_id": "part3_sample_4",
+      "predicate": "FABRICATED_BY",
+      "target_id": "part3_process_4",
+      "sample_id": "part3_sample_4",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_17",
+      "source_id": "part3_sample_5",
+      "predicate": "FABRICATED_BY",
+      "target_id": "part3_process_5",
+      "sample_id": "part3_sample_5",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_18",
+      "source_id": "part3_sample_6",
+      "predicate": "FABRICATED_BY",
+      "target_id": "part3_process_6",
+      "sample_id": "part3_sample_6",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The model alloys were produced by vacuum arc melting, using proper mixtures of pure metals with purities of better than 99.9 wt.%, in a Ti-gettered argon atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_19",
+      "source_id": "part3_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part3_process_7",
+      "sample_id": "part3_sample_1",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_20",
+      "source_id": "part3_sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part3_process_8",
+      "sample_id": "part3_sample_2",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_21",
+      "source_id": "part3_sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part3_process_9",
+      "sample_id": "part3_sample_3",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_22",
+      "source_id": "part3_sample_4",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part3_process_10",
+      "sample_id": "part3_sample_4",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_23",
+      "source_id": "part3_sample_5",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part3_process_11",
+      "sample_id": "part3_sample_5",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_24",
+      "source_id": "part3_sample_6",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part3_process_12",
+      "sample_id": "part3_sample_6",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "2.2. Experiment",
+          "quote": "The obtained ingots were then sealed in vacuumed (10−2 torr) quartz tubes and soaked at 1200◦C for 10 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_25",
+      "source_id": "part3_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part3_phase_1",
+      "sample_id": "part3_sample_1",
+      "material_state": "homogenized",
+      "conditions": {
+        "temperature_c": 1200
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "However, at 1200 ◦C (heat treatment temperature, used in the current study) only A1and A5 alloys have a single bcc phase structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_26",
+      "source_id": "part3_sample_5",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part3_phase_2",
+      "sample_id": "part3_sample_5",
+      "material_state": "homogenized",
+      "conditions": {
+        "temperature_c": 1200
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "However, at 1200 ◦C (heat treatment temperature, used in the current study) only A1and A5 alloys have a single bcc phase structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_27",
+      "source_id": "part3_sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part3_phase_3",
+      "sample_id": "part3_sample_2",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "In the rest of the alloys, a secondary hexagonal (C14) Laves phase was expected to appear between the solidus temperature and 1200 ◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_28",
+      "source_id": "part3_sample_4",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part3_phase_4",
+      "sample_id": "part3_sample_4",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "The fraction of the Laves phase was evaluated to be <0.1 in A6, and ~0.13 and 0.21 in the A4 and A3 alloys, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_29",
+      "source_id": "part3_sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part3_phase_5",
+      "sample_id": "part3_sample_3",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "The fraction of the Laves phase was evaluated to be <0.1 in A6, and ~0.13 and 0.21 in the A4 and A3 alloys, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_30",
+      "source_id": "part3_sample_6",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part3_phase_6",
+      "sample_id": "part3_sample_6",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "The fraction of the Laves phase was evaluated to be <0.1 in A6, and ~0.13 and 0.21 in the A4 and A3 alloys, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_31",
+      "source_id": "part3_sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part3_phase_7",
+      "sample_id": "part3_sample_2",
+      "material_state": "homogenized",
+      "conditions": {
+        "temperature_c": 840
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.2. Comparison between the Predicted and Actual Structure of Al-Cr-Nb-Ti-V-Zr Alloys",
+          "quote": "A2 alloy, where some amount of Zr3Al2 phase formed at T < 840◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part4_claim_1",
+      "source_id": "part4_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part4_phase_1",
+      "sample_id": "part4_sample_1",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "XRD analysis (Figure 9) suggests that the A4 alloys comprise of the bcc phase only.",
+          "table": null,
+          "figure": "Figure 9",
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_claim_2",
+      "source_id": "part4_sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part4_phase_2",
+      "sample_id": "part4_sample_2",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "The A5 and A2 alloys have additional tiny peaks due to the presence of the Laves phases.",
+          "table": null,
+          "figure": "Figure 9",
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_claim_3",
+      "source_id": "part4_sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part4_phase_3",
+      "sample_id": "part4_sample_3",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "Laves and Zr 5Al3 in both A3 and A6",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_claim_4",
+      "source_id": "part4_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part4_microstructure_1",
+      "sample_id": "part4_sample_1",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "The alloys A1, A3, A5 and A6 rather have a dendritic microstructure with second phase(s) located in the interdendritic areas.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_claim_5",
+      "source_id": "part4_sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part4_microstructure_2",
+      "sample_id": "part4_sample_2",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "Microstructures of the alloys A2 and A4 consist of grains ~100–200 µm in size with second phase(s) precipitations located mainly along grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    },
+    {
+      "id": "part4_claim_6",
+      "source_id": "part4_mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part4_observation_2",
+      "sample_id": "part4_sample_3",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "it can be assumed that its main contribution to strengthening is associated with the formation of secondary phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:004"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [
+    {
+      "id": "conflict_1",
+      "description": "CALPHAD predicted a single bcc phase for A4, but did not predict the Zr5Al3 phase in A3, whereas experimental XRD indicated A4 is single-phase bcc and A3 contains Zr5Al3.",
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "However, CALPHAD did not predict the single-phase condition in the A4 alloy as well as the appearance of the Zr5Al3 phase in A3.",
+          "table": null,
+          "figure": null
+        }
+      ]
+    },
+    {
+      "type": "merge_fallback",
+      "message": "Segment graphs were combined deterministically; aliases may remain duplicated."
+    }
+  ]
+}

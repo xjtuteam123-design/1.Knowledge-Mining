@@ -1,0 +1,905 @@
+{
+  "document_id": "06de421c56f19c3c",
+  "chunk_id": "06de421c56f19c3c:part:005",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A Comparative Corrosion Study on Traditional and Sintered 7075 Al Alloys",
+    "authors": [
+      "S. Ngai",
+      "T. L. Ngai",
+      "F. Zheng",
+      "W. Y. Chen"
+    ],
+    "journal": "High Performance Structural Materials",
+    "year": 2018,
+    "doi": "10.1007/978-981-13-0104-9_6"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Al-Zn-Mg-Cu alloy",
+      "material_category": "precipitation-hardenable aluminum alloy",
+      "evidence": [
+        {
+          "page": 61,
+          "section": "Introduction",
+          "quote": "The outstanding high strength 7075 aluminum alloy (Al–Zn–Mg–Cu) has been widely used in aerospace industry [6].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "7075-T6 bulk",
+      "canonical_name": "Al-Zn-Mg-Cu 7075",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "T6 bulk",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 63,
+          "section": "Results and Discussion",
+          "quote": "Figure 2a shows typical microstructure of the 7075-T6 bulk material (plain view).",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "melt-spun 7075 ribbon",
+      "canonical_name": "Al-Zn-Mg-Cu 7075",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "melt-spun ribbon",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 61,
+          "section": "Introduction",
+          "quote": "In this study, 7075 ribbons were obtained by melt-spinning.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "7075 sintered at 500 °C",
+      "canonical_name": "Al-Zn-Mg-Cu 7075",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "sintered at 500 °C",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 63,
+          "section": "Results and Discussion",
+          "quote": "Figure 2b shows microstructure of the 7075 sample sintered at 500 °C.",
+          "table": null,
+          "figure": "Fig. 2b",
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "melt spinning",
+      "parameters": {
+        "temperature_c": 750,
+        "time": null,
+        "pressure": "2.0 × 10−3 Pa (vacuum)",
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "wheel_diameter_mm": 230,
+          "wheel_speed_rpm": 2500,
+          "crucible_gas_pressure_mbar": 250,
+          "nozzle_diameter_mm": 1.0,
+          "nozzle_wheel_distance_mm": 2.25,
+          "angle_deg": 3,
+          "ribbon_thickness_um": 40,
+          "ribbon_width_mm": "1.8–2.0",
+          "ribbon_length_mm": "70–1000"
+        }
+      },
+      "input_state": null,
+      "output_state": "melt-spun ribbon",
+      "evidence": [
+        {
+          "page": 61,
+          "section": "Experimental",
+          "quote": "Melt-spinning 7075 ribbons were produced under vacuum (2.0 × 10−3 Pa) by using a WK-II melt-spinning machine (Physcience Opto-electronics Co., Ltd., Beijing), having a copper wheel with a diameter of 230 mm rotating at 2500 r.p.m.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "cutting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "chip_size_mm": "2 × 3 × 0.1"
+        }
+      },
+      "input_state": "melt-spun ribbon",
+      "output_state": "chips",
+      "evidence": [
+        {
+          "page": 62,
+          "section": "Experimental",
+          "quote": "The rapidly solidified ribbons were cut into small chips of about 2 mm × 3 mm × 0.1 mm in size.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 3,
+      "method": "spark plasma sintering (SPS)",
+      "parameters": {
+        "temperature_c": 500,
+        "time": "15 min (soaking)",
+        "pressure": "30 MPa (uniaxial)",
+        "atmosphere": "vacuum (1 × 10−3 Pa)",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "heating_rate_c_per_min": 50,
+          "mold_diameter_mm": 20,
+          "sample_mass_g": 6
+        }
+      },
+      "input_state": "chips",
+      "output_state": "sintered compact",
+      "evidence": [
+        {
+          "page": 62,
+          "section": "Experimental",
+          "quote": "About 6 g of this chips was placed into a 20 mm diameter graphite mold and sintered at 450, 500 and 520 °C under vacuum (1 × 10−3 Pa) by using a Dr. Sinter Type SPS-825 spark plasma sintering apparatus",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "dendritic structure",
+      "sample_id": "sample_2",
+      "material_state": "melt-spun ribbon",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dendritic",
+        "location": "free-side of ribbon",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 63,
+          "section": "Results and Discussion",
+          "quote": "Figure 1 is SEM micrographs showing dendritic structure on the free-side of the melt-spun 7075 ribbon.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Microstructure",
+      "name": "columnar grain structure",
+      "sample_id": "sample_2",
+      "material_state": "melt-spun ribbon",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "columnar",
+        "location": "transition zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 63,
+          "section": "Results and Discussion",
+          "quote": "the wheel-side (chill side) of the ribbon is a thin featureless zone and it connected to the free-side with a transition zone consist of columnar grain structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Microstructure",
+      "name": "intermetallic particles",
+      "sample_id": "sample_1",
+      "material_state": "T6 bulk",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "irregular shaped",
+        "location": "aligned along lines in the rolling direction",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 63,
+          "section": "Results and Discussion",
+          "quote": "Irregular shaped intermetallic particles can be seen clearly aligned along lines in the rolling direction.",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Defect",
+      "name": "pores",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 63,
+          "section": "Results and Discussion",
+          "quote": "After sintered at 500 °C for 15 min, a sintered compact with a relative density of 98.6% was obtained, only limited number of pores can be observed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "T6 bulk",
+      "property": "hardness",
+      "value": 171.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 3.8,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Vickers hardness, load 100 g"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 64,
+          "section": "Results and Discussion",
+          "quote": "7075-T6 Bulk 171.3 ± 3.8",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "property": "hardness",
+      "value": 84.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 2.2,
+      "unit": "HV",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Vickers hardness, load 100 g"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 64,
+          "section": "Results and Discussion",
+          "quote": "7075 Sintered 84.6 ± 2.2",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "T6 bulk",
+      "property": "density",
+      "value": 2.81,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "g/cm3",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Archimedes method"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 64,
+          "section": "Results and Discussion",
+          "quote": "7075-T6 Bulk 171.3 ± 3.8 2.81",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "property": "density",
+      "value": 2.77,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.13,
+      "unit": "g/cm3",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Archimedes method"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 64,
+          "section": "Results and Discussion",
+          "quote": "7075 Sintered 84.6 ± 2.2 2.77 ± 0.13",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "T6 bulk",
+      "property": "corrosion potential (Ecorr)",
+      "value": -0.71,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.03,
+      "unit": "V vs SCE",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "air, 0.1 M NaCl solution",
+        "duration": "OCP measured after 8 ks hold",
+        "test_method": "potentiodynamic polarization, scan rate 0.2 mV/s"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 64,
+          "section": "Results and Discussion",
+          "quote": "7075-T6 Bulk 171.3 ± 3.8 2.81 −0.71 ± 0.03 −0.73 ± 0.02 3.52 ± 1.85",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "property": "corrosion potential (Ecorr)",
+      "value": -0.74,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.01,
+      "unit": "V vs SCE",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "air, 0.1 M NaCl solution",
+        "duration": null,
+        "test_method": "potentiodynamic polarization, scan rate 0.2 mV/s"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 64,
+          "section": "Results and Discussion",
+          "quote": "7075 Sintered 84.6 ± 2.2 2.77 ± 0.13 −0.74 ± 0.01",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "T6 bulk",
+      "property": "open circuit potential (OCP)",
+      "value": -0.73,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.02,
+      "unit": "V vs SCE",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "air, 0.1 M NaCl solution",
+        "duration": "8 ks",
+        "test_method": "open circuit potential measurement"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 64,
+          "section": "Results and Discussion",
+          "quote": "7075-T6 Bulk 171.3 ± 3.8 2.81 −0.71 ± 0.03 −0.73 ± 0.02 3.52 ± 1.85",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "T6 bulk",
+      "property": "corrosion current density (Icorr)",
+      "value": 3.52,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 1.85,
+      "unit": "×10−6 A/cm2",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "air, 0.1 M NaCl solution",
+        "duration": null,
+        "test_method": "Tafel extrapolation from potentiodynamic polarization"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 64,
+          "section": "Results and Discussion",
+          "quote": "7075-T6 Bulk 171.3 ± 3.8 2.81 −0.71 ± 0.03 −0.73 ± 0.02 3.52 ± 1.85",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "property": "corrosion current density (Icorr)",
+      "value": 6.09,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 2.15,
+      "unit": "×10−6 A/cm2",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "air, 0.1 M NaCl solution",
+        "duration": null,
+        "test_method": "Tafel extrapolation from potentiodynamic polarization"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 64,
+          "section": "Results and Discussion",
+          "quote": "7075 Sintered 84.6 ± 2.2 2.77 ± 0.13 −0.74 ± 0.01 – 6.09 ± 2.15",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "T6 bulk",
+      "property": "pit/pore area ratio",
+      "value": 0.12,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.03,
+      "unit": "area fraction",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "0.1 M NaCl solution",
+        "duration": "7 days",
+        "test_method": "immersion test, image analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 66,
+          "section": "Results and Discussion",
+          "quote": "7075-T6 Bulk 0.12 ± 0.03 –– 0.19 ± 0.01 ––",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "property": "pit/pore area ratio",
+      "value": 0.07,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.03,
+      "unit": "area fraction",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "0.1 M NaCl solution",
+        "duration": "7 days",
+        "test_method": "immersion test, image analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 66,
+          "section": "Results and Discussion",
+          "quote": "7075 Sintered 0.07 ± 0.03 0.13 ± 0.06 0.80 ± 0.06 0.09 ± 0.03 0.21 ± 0.06 0.70 ± 0.06",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "property": "cathodic protection zone (CPZ) area ratio",
+      "value": 0.13,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.06,
+      "unit": "area fraction",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "0.1 M NaCl solution",
+        "duration": "7 days",
+        "test_method": "immersion test, image analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 66,
+          "section": "Results and Discussion",
+          "quote": "7075 Sintered 0.07 ± 0.03 0.13 ± 0.06 0.80 ± 0.06 0.09 ± 0.03 0.21 ± 0.06 0.70 ± 0.06",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "property": "general corrosion (GC) area ratio",
+      "value": 0.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.06,
+      "unit": "area fraction",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "0.1 M NaCl solution",
+        "duration": "7 days",
+        "test_method": "immersion test, image analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 66,
+          "section": "Results and Discussion",
+          "quote": "7075 Sintered 0.07 ± 0.03 0.13 ± 0.06 0.80 ± 0.06 0.09 ± 0.03 0.21 ± 0.06 0.70 ± 0.06",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_14",
+      "sample_id": "sample_1",
+      "material_state": "T6 bulk",
+      "property": "pit/pore area ratio",
+      "value": 0.19,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.01,
+      "unit": "area fraction",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "0.6 M NaCl solution",
+        "duration": "7 days",
+        "test_method": "immersion test, image analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 66,
+          "section": "Results and Discussion",
+          "quote": "7075-T6 Bulk 0.12 ± 0.03 –– 0.19 ± 0.01 ––",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_15",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "property": "pit/pore area ratio",
+      "value": 0.09,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.03,
+      "unit": "area fraction",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "0.6 M NaCl solution",
+        "duration": "7 days",
+        "test_method": "immersion test, image analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 66,
+          "section": "Results and Discussion",
+          "quote": "7075 Sintered 0.07 ± 0.03 0.13 ± 0.06 0.80 ± 0.06 0.09 ± 0.03 0.21 ± 0.06 0.70 ± 0.06",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_16",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "property": "cathodic protection zone (CPZ) area ratio",
+      "value": 0.21,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.06,
+      "unit": "area fraction",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "0.6 M NaCl solution",
+        "duration": "7 days",
+        "test_method": "immersion test, image analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 66,
+          "section": "Results and Discussion",
+          "quote": "7075 Sintered 0.07 ± 0.03 0.13 ± 0.06 0.80 ± 0.06 0.09 ± 0.03 0.21 ± 0.06 0.70 ± 0.06",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "observation_17",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "property": "general corrosion (GC) area ratio",
+      "value": 0.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.06,
+      "unit": "area fraction",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "0.6 M NaCl solution",
+        "duration": "7 days",
+        "test_method": "immersion test, image analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 66,
+          "section": "Results and Discussion",
+          "quote": "7075 Sintered 0.07 ± 0.03 0.13 ± 0.06 0.80 ± 0.06 0.09 ± 0.03 0.21 ± 0.06 0.70 ± 0.06",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_3",
+      "predicate": "HAS_DEFECT",
+      "target_id": "phase_4",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 63,
+          "section": "Results and Discussion",
+          "quote": "only limited number of pores can be observed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_4",
+      "predicate": "DEGRADES",
+      "target_id": "observation_9",
+      "sample_id": "sample_3",
+      "material_state": "sintered at 500 °C",
+      "conditions": {
+        "atmosphere": "0.1 M NaCl solution"
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 65,
+          "section": "Results and Discussion",
+          "quote": "The lower corrosion resistant of the sintered 7075 alloy is because of the existence of porosity, since NaCl solution can penetrated into the surface pores and corroded the sub-surface grains just below the sintered alloy surface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "COMPARED_WITH",
+      "target_id": "sample_3",
+      "sample_id": "sample_1",
+      "material_state": "T6 bulk vs sintered at 500 °C",
+      "conditions": {
+        "atmosphere": "0.1 M NaCl solution"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 64,
+          "section": "Results and Discussion",
+          "quote": "when immersed in 0.1 M NaCl solution, the sintered sample showed a drop of 0.03 V (versus SCE) compared to the Ecorr of the bulk sample.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06de421c56f19c3c:part:005"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

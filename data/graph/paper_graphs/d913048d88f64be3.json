@@ -1,0 +1,1717 @@
+{
+  "document_id": "d913048d88f64be3",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Physics-assisted machine-learning approach for modeling the temperature-dependent ultimate strengths of superalloys, with comparison to medium- and high-entropy alloys",
+    "authors": [
+      "B. Steingrimsson",
+      "X. Fan",
+      "B.M. Adam",
+      "P.K. Liaw"
+    ],
+    "journal": "Materials Chemistry and Physics",
+    "year": 2025,
+    "doi": "10.1016/j.matchemphys.2025.130618"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Ni-based superalloys consist of γ phases with face-centered-cubic (FCC) structures and of γ′ phases with ordered FCC structures with L1₂-type ordering.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Not all superalloys are γ ′ strength - ened.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Fe-Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results",
+          "quote": "But in the case of Ni-based and Fe–Ni-based superalloys, the FCC matrices may exhibit favorable characteristics for precipitation of uniquely effective strengthening phases [9,22].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Nimonic 75 (Bar) Fe – Ni-base (solid sol.)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "Co-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results",
+          "quote": "In the case of Co-based superalloys, there may be a tendency towards the transformation of the FCC matrix phase to stable lower-temperature phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Udimet L-605 Co-base (solid sol.)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_4",
+      "name": "medium-entropy alloy (MEA)",
+      "material_category": "medium-entropy alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The bilinear-log model and the associated trilinear-log model are capable of predicting the temperature-dependent ultimate strengths of superalloys, medium-entropy alloys (MEAs), and high-entropy alloys (HEAs).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_5",
+      "name": "high-entropy alloy (HEA)",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The bilinear-log model and the associated trilinear-log model are capable of predicting the temperature-dependent ultimate strengths of superalloys, medium-entropy alloys (MEAs), and high-entropy alloys (HEAs).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_6",
+      "name": "refractory BCC HEA",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results",
+          "quote": "For comparison of corresponding yield strengths with other models, such as the model of Maresca and Curtin for single-phase refractory BCC HEAs [20,21] to that of the bilinear log model, for the case of MoNbTaVW, refer to Supplementary Fig. S114.",
+          "table": null,
+          "figure": "S114",
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_7",
+      "name": "refractory multi-principal element alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "With that said, Jones et al. present analysis of similar phenomenon, referred to as „ strength plateau “ with respect to temperature, for the case of the MoNbTi refractory MEA [ 38 ].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_8",
+      "name": "refractory high-entropy alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "In Ref. [ 40 ], Baruffi, Maresca, and Curtin further state that no theories to date [ 41 – 44 ] fully capture the approximate plateau in yield strength versus temperature at intermediate temperatures, that is frequently observed in BCC refractory HEAs.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Inconel 625 hot-rolled, solution-treated rod",
+      "canonical_name": "Inconel 625",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "hot-rolled and solution-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Results",
+          "quote": "the Inconel 625 hot-rolled, solution-treated rod, and the Inconel 803 sheet, yield very good match to the bilinear-log model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Nimonic 263 bar",
+      "canonical_name": "Nimonic 263",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "bar",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Results",
+          "quote": "the Nimonic 263 bar, the Inconel 625 hot-rolled, solution-treated rod, and the Inconel 803 sheet, yield very good match to the bilinear-log model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Inconel 803 sheet",
+      "canonical_name": "Inconel 803",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "sheet",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Results",
+          "quote": "the Nimonic 263 bar, the Inconel 625 hot-rolled, solution-treated rod, and the Inconel 803 sheet, yield very good match to the bilinear-log model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "MoNbTaVW",
+      "canonical_name": "MoNbTaVW",
+      "alloy_system_id": "alloy_system_6",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results",
+          "quote": "for the case of MoNbTaVW, refer to Supplementary Fig. S114",
+          "table": null,
+          "figure": "S114",
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "Hastelloy X (Plate)",
+      "canonical_name": "Hastelloy X",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "plate",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Hastelloy X (Plate)",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "Haynes 282 (Plate)",
+      "canonical_name": "Haynes 282",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "plate",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Haynes 282 (Plate)",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": "Inconel X750",
+      "canonical_name": "Inconel X750",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Inconel X750",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_8",
+      "original_name": "Co–36Ni–12Al–2Ti–4Ta–1W–2Cr",
+      "canonical_name": "Co-36Ni-12Al-2Ti-4Ta-1W-2Cr",
+      "alloy_system_id": "alloy_system_3",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 36,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Introduction",
+              "quote": "Co – 36Ni – 12Al – 2Ti – 4Ta – 1W – 2Cr",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d913048d88f64be3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 12,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Introduction",
+              "quote": "Co – 36Ni – 12Al – 2Ti – 4Ta – 1W – 2Cr",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d913048d88f64be3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Introduction",
+              "quote": "Co – 36Ni – 12Al – 2Ti – 4Ta – 1W – 2Cr",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d913048d88f64be3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Introduction",
+              "quote": "Co – 36Ni – 12Al – 2Ti – 4Ta – 1W – 2Cr",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d913048d88f64be3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Introduction",
+              "quote": "Co – 36Ni – 12Al – 2Ti – 4Ta – 1W – 2Cr",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d913048d88f64be3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Introduction",
+              "quote": "Co – 36Ni – 12Al – 2Ti – 4Ta – 1W – 2Cr",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d913048d88f64be3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Introduction",
+              "quote": "Co – 36Ni – 12Al – 2Ti – 4Ta – 1W – 2Cr",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d913048d88f64be3:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "The composition yielding the best performance, Co – 36Ni – 12Al – 2Ti – 4Ta – 1W – 2Cr, possessed the highest γ′ solvus temperature of 1266.5°C without the precipitation of any deleterious phases",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_9",
+      "original_name": "Nimonic 90",
+      "canonical_name": "Nimonic 90",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "72 Nimonic 90 Ni-base (precipit. hard.) 1310 787.6 1.34e-02 3128 0.2762 105,305",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_10",
+      "original_name": "Nimonic 86 (Bar)",
+      "canonical_name": "Nimonic 86",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "bar",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "74 Nimonic 86 (Bar) Ni-base (solid solution type) 1357 664.1 5.99e-30 470 0.0222 5961",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_11",
+      "original_name": "Nimonic 86 (Sheet)",
+      "canonical_name": "Nimonic 86",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "sheet",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "75 Nimonic 86 (Sheet) Ni-base (solid solution type) 1357 757.8 4.60e-04 84 0.14096 17,955",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_12",
+      "original_name": "Nimonic 81",
+      "canonical_name": "Nimonic 81",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "76 Nimonic 81 Ni-base (extruded rolled) 1305 696.4 3.02e-04 242 0.00275 1518",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_13",
+      "original_name": "Nimonic 80a",
+      "canonical_name": "Nimonic 80a",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "80 Nimonic 80a Ni-base (precipit. hard.) 1320 713.2 2.48e-03 1639 0.1560 65,282",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_14",
+      "original_name": "Nimonic 75 (Bar)",
+      "canonical_name": "Nimonic 75",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "bar",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "85 Nimonic 75 (Bar) Fe – Ni-base (solid sol.) 1340 588.4 1.14e-02 727 0.1413 28,337",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_15",
+      "original_name": "Nimonic 75 (Sheet)",
+      "canonical_name": "Nimonic 75",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "sheet",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "86 Nimonic 75 (Sheet) Fe – Ni-base (solid sol.) 1340 642.5 6.34e-03 644 0.09465 25,225",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_16",
+      "original_name": "Nimonic PK33 (Bar, A)",
+      "canonical_name": "Nimonic PK33",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "bar",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "87 Nimonic PK33 (Bar, A) Ni-base (vacuum processed) 1300 772.1 4.85e-03 1204 0.0813 34,148",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_17",
+      "original_name": "Nimonic PK33 (Sheet, B)",
+      "canonical_name": "Nimonic PK33",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "sheet",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "88 Nimonic PK33 (Sheet, B) Ni-base (vacuum processed) 1300 777.4 2.79e-03 1088 0.1160 53,831",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_18",
+      "original_name": "Nimonic PK33 (Plain Sht)",
+      "canonical_name": "Nimonic PK33",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "sheet",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "89 Nimonic PK33 (Plain Sht) Ni-base (vacuum processed) 1300 786.5 6.39e-03 1958 0.2002 86,492",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_19",
+      "original_name": "Nimonic PK33 (Weld Sht)",
+      "canonical_name": "Nimonic PK33",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "sheet",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "90 Nimonic PK33 (Weld Sht) Ni-base (vacuum processed) 1300 856 5.66e-04 391 0.1732 52,846",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_20",
+      "original_name": "Nimonic PE16 (Bar, A)",
+      "canonical_name": "Nimonic PE16",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "bar",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "91 Nimonic PE16 (Bar, A) Fe – Ni-base (precipit. hard.) 1310 751.9 2.45e-03 753 0.1362 29,316",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_21",
+      "original_name": "Nimonic PE16 (Bar, B)",
+      "canonical_name": "Nimonic PE16",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "bar",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "92 Nimonic PE16 (Bar, B) Fe – Ni-base (precipit. hard.) 1310 865.8 2.16e-03 872 0.1234 29,070",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_22",
+      "original_name": "Nimonic PE16 (Sht, C)",
+      "canonical_name": "Nimonic PE16",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "sheet",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "93 Nimonic PE16 (Sht, C) Fe – Ni-base (precipit. hard.) 1310 722.7 2.54e-03 553 0.1921 51,067",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_23",
+      "original_name": "Nimonic PE16 (Sht, D)",
+      "canonical_name": "Nimonic PE16",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "sheet",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "94 Nimonic PE16 (Sht, D) Fe – Ni-base (precipit. hard.) 1310 662.7 5.63e-04 312 0.0163 7822",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_24",
+      "original_name": "Nimonic PE11",
+      "canonical_name": "Nimonic PE11",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "95 Nimonic PE11 Fe – Ni-base (precipit. hard.) 1280 629.8 9.66e-05 96 0.00163 1379",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_25",
+      "original_name": "Rene 41",
+      "canonical_name": "Rene 41",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "97 Rene 41 Ni-base (precipit. hard.) 1316 734.8 1.37e-03 1006 0.34117 100,711",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_26",
+      "original_name": "Udimet D-979",
+      "canonical_name": "Udimet D-979",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "98 Udimet D-979 Fe – Ni-base (precipit. hard.) 1280 640.8 1.42e-03 1412 0.04489 42,875",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_27",
+      "original_name": "Udimet 720",
+      "canonical_name": "Udimet 720",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "99 Udimet 720 Ni-base (precipit. hard.) 1198 692.9 1.65e-04 220 0.01420 14,620",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_28",
+      "original_name": "Udimet L-605",
+      "canonical_name": "Udimet L-605",
+      "alloy_system_id": "alloy_system_3",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "100 Udimet L-605 Co-base (solid sol.) 1330 658.9 5.28e-04 191 0.04686 20,751",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_29",
+      "original_name": "Udimet 520",
+      "canonical_name": "Udimet 520",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "101 Udimet 520 Ni-base (precipit. hard.) 1371 764.2 1.61e-03 1715 0.045533 106,940",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_30",
+      "original_name": "Udimet 188",
+      "canonical_name": "Udimet 188",
+      "alloy_system_id": "alloy_system_3",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "102 Udimet 188 Co-base 1300 763.3 3.95e-03 477 0.06867 16,877",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_31",
+      "original_name": "Udimet R-41",
+      "canonical_name": "Udimet R-41",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "103 Udimet R-41 Ni – Cr alloy (precipit. hard.) 1232 740.0 1.81e-03 2238 0.0723 62,860",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_32",
+      "original_name": "Waspaloy",
+      "canonical_name": "Waspaloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "104 Waspaloy Ni-base (precipit. hard.) 1330 674.5 5.78e-03 1516 0.0873 57,648",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_33",
+      "original_name": "MoNbTi MEA",
+      "canonical_name": "MoNbTi",
+      "alloy_system_id": "alloy_system_4",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "With that said, Jones et al. present analysis of similar phenomenon, referred to as „ strength plateau “ with respect to temperature, for the case of the MoNbTi refractory MEA [ 38 ].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_34",
+      "original_name": "MoNbTaVW",
+      "canonical_name": "MoNbTaVW",
+      "alloy_system_id": "alloy_system_5",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The HEA composition MoNbTaVW exhibits the least decline in UTS with increasing temperatures, according to Supplemen - tary Fig. S115 , but shows only modest low-to-medium temperature strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_35",
+      "original_name": "HfMoNbTaW",
+      "canonical_name": "HfMoNbTaW",
+      "alloy_system_id": "alloy_system_5",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Jones et al. note that a recent study has reported on the impressively high and broad strength plateau of HfMoNbTaW and provided an accompanying Arrhenius-based model for screw and edge motion that supports the argument that the plateau results from a transition from screw-to edge-dislocation activity [ 38 , 46 ].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma (γ)",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Ni-based superalloys consist of γ phases with face-centered-cubic (FCC) structures and of γ′ phases with ordered FCC structures with L1₂-type ordering.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime (γ′)",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Ni-based superalloys consist of γ phases with face-centered-cubic (FCC) structures and of γ′ phases with ordered FCC structures with L1₂-type ordering.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ' phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "As noted in the Introduction, the Ni-based superalloys consist of γ phase with FCC structure and of γ ′ phase with ordered FCC structure with L1 2 -type ordering.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "γ'' phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ni3X, X = Nb or V",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "The γ ″ phase is found in Ni-based superalloys, such as Inconel 718, which feature a significant contribution of Niobium or Vanadium. The stoichiometry of the γ ″ phase is Ni 3 X with X = Nb or V.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_33",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "they simulate the slide mechanisms of screw and edge dislocations at elevated temperature and low stress levels in the MoNbTi MEA, which has a body-centered cubic (BCC), random solid solution structure [ 38 ].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "hot-rolled and solution-treated",
+      "property": "ultimate tensile strength",
+      "value": 684.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Inconel 625 Ni-base (solid sol.) 1290 684.8",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_5",
+      "material_state": "plate",
+      "property": "ultimate tensile strength",
+      "value": 719.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Hastelloy X (Plate) Ni-base (solid sol.) 1260 719.1",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_6",
+      "material_state": "plate",
+      "property": "ultimate tensile strength",
+      "value": 800.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Haynes 282 (Plate) Ni-base (γ‘-strengthened) 1300 800.2",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_7",
+      "material_state": null,
+      "property": "ultimate tensile strength",
+      "value": 1258,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Inconel X750 Ni-base (precipit. hard.) 1393 1258.0",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_9",
+      "material_state": null,
+      "property": "solvus temperature",
+      "value": 1310,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "72 Nimonic 90 Ni-base (precipit. hard.) 1310 787.6 1.34e-02 3128 0.2762 105,305",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_9",
+      "material_state": null,
+      "property": "Tbreak",
+      "value": 787.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "72 Nimonic 90 Ni-base (precipit. hard.) 1310 787.6 1.34e-02 3128 0.2762 105,305",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_9",
+      "material_state": null,
+      "property": "MSE: Two exponentials (log)",
+      "value": 0.0134,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa^2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "72 Nimonic 90 Ni-base (precipit. hard.) 1310 787.6 1.34e-02 3128 0.2762 105,305",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_9",
+      "material_state": null,
+      "property": "MSE: Single exponential (log)",
+      "value": 0.2762,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa^2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "72 Nimonic 90 Ni-base (precipit. hard.) 1310 787.6 1.34e-02 3128 0.2762 105,305",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_9",
+      "material_state": null,
+      "property": "MSE: Single exponential (linear)",
+      "value": 105305,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa^2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "72 Nimonic 90 Ni-base (precipit. hard.) 1310 787.6 1.34e-02 3128 0.2762 105,305",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_33",
+      "material_state": null,
+      "property": "strength plateau temperature range",
+      "value": null,
+      "min_value": 900,
+      "max_value": 1300,
+      "uncertainty": null,
+      "unit": "K",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "Indeed, a „ strength plateau “ was also identified in the intermediate temperature regime of 900 K – 1300 K, for the MoNbTi MEA.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_34",
+      "material_state": null,
+      "property": "maximum service temperature",
+      "value": 1630,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The MoNbTaW and MoNbTaVW refractory BCC HEAs have been shown to possess exceptional strengths at temperatures up to ~1630 ◦ C [ 44 , 55 ], far above the limits of ~830 ◦ C for the existing superalloys [ 12 ].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The γ′ and γ′′ phases can result in precipitation strengthening in Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "superior high-temperature properties, such as rupture strength, creep resistance and high-temperature strength, are, in general, influenced by solution strengthening, precipitation strengthening, and other multiple strengthening mechanisms",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "anti-phase boundary (APB) strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "γ′ phase can be responsible for anti-phase boundary (APB) strengthening",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "diffusional creep",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results",
+          "quote": "The drop-off after 0.5–0.6 T/Ts in Figs. 2–4 means that the Nimonic 263, Inconel 625 and Inconel 803 superalloys are now entering a diffusional creep regime",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.3",
+          "quote": "Then, chemically-controlled (non-Hall-Petch) strengthening in MEAs or HEAs predominantly involves strengthening of a random solid solution with 100 % solute concentration in the average matrix [64].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_6",
+      "name": "Orowan looping",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4",
+          "quote": "In general, the shearing mechanism is operational, when the precipitate is smaller than a critical size, while the Orowan looping is dominant, when the precipitate is larger than the critical size [87].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_7",
+      "name": "shearing",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4",
+          "quote": "In general, the shearing mechanism is operational, when the precipitate is smaller than a critical size, while the Orowan looping is dominant, when the precipitate is larger than the critical size [87].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_8",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4",
+          "quote": "In this context, it is worth noting that precipitation strengthening primarily addresses shearing and Orowan looping mechanisms.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "bilinear-log model",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict the temperature-dependent ultimate tensile strength",
+      "inputs": [
+        "temperature"
+      ],
+      "target": "ultimate tensile strength",
+      "dataset": "104 superalloy configurations",
+      "validation": null,
+      "metrics": {
+        "MSE_log": 0.0037,
+        "MSE_linear": 909,
+        "MSE_log_single_exp": 0.1164,
+        "MSE_linear_single_exp": 41713,
+        "MSE_log_Maresca_MoNbTaVW": 0.08037,
+        "MSE_linear_Maresca_MoNbTaVW": 32285
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Results",
+          "quote": "Table 1 indicates that, across these 104 superalloy configurations, the bilinear log model resulted in MSE of 0.00370, in the logarithmic domain, compared to the MSE of 0.1164 for the single-exponent model. In the linear domain, however, the bilinear log model produced MSE of 909 MPa², averaged across these 104 configurations, compared to the MSE of 41,713 MPa² for model comprising a single-exponent.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        },
+        {
+          "page": 3,
+          "section": "Results",
+          "quote": "MSE of 0.08037 in the logarithm domain and of 32,285 MPa² in the linear domain for the model by Maresca and Curtin",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Ni-based superalloys consist of γ phases with face-centered-cubic (FCC) structures and of γ′ phases with ordered FCC structures with L1₂-type ordering. Impressive high-temperature properties of superalloys arise due to their unique sub-crystal-scale matrix/precipitate microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The comprehensive properties of Ni-based superalloys, such as rupture strength, creep resistance and high-temperature strength, are, in general, influenced by solution strengthening, precipitation strengthening, and other multiple strengthening mechanisms",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "hot-rolled and solution-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Results",
+          "quote": "the Inconel 625 hot-rolled, solution-treated rod, and the Inconel 803 sheet, yield very good match to the bilinear-log model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "alloy_system_6",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_4",
+      "sample_id": "sample_4",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results",
+          "quote": "for the case of MoNbTaVW, refer to Supplementary Fig. S114",
+          "table": null,
+          "figure": "S114",
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_8",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_8",
+      "sample_id": "sample_8",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "The composition yielding the best performance, Co – 36Ni – 12Al – 2Ti – 4Ta – 1W – 2Cr,",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_5",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "mechanism_6",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4",
+          "quote": "In general, the shearing mechanism is operational, when the precipitate is smaller than a critical size, while the Orowan looping is dominant, when the precipitate is larger than the critical size [87].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d913048d88f64be3:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

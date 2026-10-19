@@ -1,0 +1,259 @@
+{
+  "document_id": "4e59380c3728303f",
+  "chunk_id": "4e59380c3728303f:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Temperature-induced enhancement of tensile strength of perforated Ti-6Al-4V sheet revealed through mechanical-thermal coupling quasi-static tension",
+    "authors": [
+      "Shuai Tong",
+      "Zhichao Ma",
+      "Yang Sun",
+      "Chaofan Li",
+      "Hongwei Zhao",
+      "Luquan Ren",
+      "Chuliang Yan"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2022,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ti-6Al-4V alloy",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Through uniaxial static tensile tests and finite element analysis of solid and perforated Ti – 6Al – 4V specimens under mechanical-thermal coupling conditions, the temperature-induced enhancement of tensile strength and structural stiffness of perforated specimens was experimentally verified.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "specimen ii",
+      "canonical_name": "Ti-6Al-4V",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the fracture morphology of specimen ii with only a single hole fracture mechanism",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Defect",
+      "name": "pit",
+      "sample_id": "sample_1",
+      "material_state": "room temperature",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "fracture surface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The fracture surface at RT had obvious pits.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Defect",
+      "name": "crack",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "There were a few cracks and the trend of crack propagation at 180 °C and 340 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "thermal stress concentration reduction",
+      "category": "thermal",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the existence of holes at elevated temperatures could reduce the thermal stress concentration.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "crack initiation and propagation inhibition",
+      "category": "mechanical",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The crack propagation paths were effectively inhabited by the prefabricated holes at a temperature in a range from 180 °C to 500 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "The fracture surface at RT had obvious pits.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "There were a few cracks and the trend of crack propagation at 180 °C and 340 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "phase_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the holes at RT could be regarded as an initial defect, which promoted the failure process of the specimen subjected to uniaxial tensile stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "It was speculated that the holes in the specimen could reduce the thermal stress concentration, restrain the crack initiation and propagation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "property_observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "It was speculated that the holes in the specimen could reduce the thermal stress concentration, restrain the crack initiation and propagation, reduce the stress of the gauge segment of the specimen, and improve the tensile strength and structural stiffness of the specimen.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e59380c3728303f:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

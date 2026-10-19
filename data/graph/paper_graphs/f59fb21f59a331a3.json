@@ -1,0 +1,2403 @@
+{
+  "document_id": "f59fb21f59a331a3",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Prediction of tensile behaviour of hybrid laser arc welded Inconel 617 alloy using machine learning models",
+    "authors": [
+      "G. Pramod Kumar",
+      "K. R. Balasubramanian",
+      "Ravi Kumar Kottala",
+      "Bharat Kumar Chigilipalli",
+      "K. V. Phani Prabhakar"
+    ],
+    "journal": "International Journal on Interactive Design and Manufacturing (IJIDeM)",
+    "year": 2025,
+    "doi": "10.1007/s12008-024-01888-x"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy Inconel 617",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Nickel-based Inconel 617 consists of γ’ precipitates and carbides include M23C6, M6C, as well as MX, contributes strongly to hardening of material.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "Hybrid laser arc welding techniques were developed for welding of Inconel 617 alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-Cr-Co-Mo filler wire ERNiCrCoMo-1",
+      "material_category": "nickel-based filler metal",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 Experimentation",
+          "quote": "a 1.2 mm diameter ﬁller wire ERNiCrCoMo-1 was used.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Inconel 617 BM",
+      "canonical_name": "Inconel 617 (Ni-22.09Cr-11.62Co-8.32Mo-1.07Al-0.318Ti-0.065C-0.093Mn-0.001S-0.006P, wt.%, Ni balance)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "base metal",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 22.09,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 8.32,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 11.62,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 2.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 1.07,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 0.318,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.065,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 0.093,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "S",
+          "value": 0.001,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "P",
+          "value": 0.006,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "BM 22.09 8.32 11.62 2.05 1.07 0.318 0.065 0.093 0.001 0.006 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Composition of elements in the Inconel 617 base material and the corresponding ﬁller wire (wt. %)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 2,
+          "section": "2 Experimentation",
+          "quote": "A chemical analysis of the base metal (BM) and ﬁller wire was carried out in accordance with ASTM E1473 using optical emission spectrometry (OEM) test.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "The base metal shows superior tensile properties than the weld joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "ERNiCrCoMo-1 filler wire",
+      "canonical_name": "ERNiCrCoMo-1 (Ni-22.50Cr-11.30Co-8.80Mo-1.30Al-0.50Ti-0.060C-0.40Mn-0.001S-0.004P, wt.%, Ni balance)",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "filler wire",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 22.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 8.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 11.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 1.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.06,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 0.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "S",
+          "value": 0.001,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "P",
+          "value": 0.004,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f59fb21f59a331a3:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "Filler wire 22.50 8.80 11.30 0.50 1.30 0.50 0.060 0.40 0.001 0.004 Balance",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "HLAW joint WFR 10 m/min",
+      "canonical_name": "Inconel 617 HLAW joint with ERNiCrCoMo-1 filler",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "welded joint",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 Experimentation",
+          "quote": "The laser power was set at 3.5 kW, while the speed of the welding torch was set to 0.8 m/min. A 20 l/min ﬂow rate of 100% helium shielding gas was employed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 3,
+          "section": "2 Experimentation",
+          "quote": "From Eqs. (1)&( 2), the total heat input for the 10 m/min and 11 m/min wire feed rate welded joints are 0.516 kJ/mm and 0.615 kJ/mm, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "HLAW joint WFR 11 m/min",
+      "canonical_name": "Inconel 617 HLAW joint with ERNiCrCoMo-1 filler",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "welded joint",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 Experimentation",
+          "quote": "The laser power was set at 3.5 kW, while the speed of the welding torch was set to 0.8 m/min. A 20 l/min ﬂow rate of 100% helium shielding gas was employed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 3,
+          "section": "2 Experimentation",
+          "quote": "From Eqs. (1)&( 2), the total heat input for the 10 m/min and 11 m/min wire feed rate welded joints are 0.516 kJ/mm and 0.615 kJ/mm, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "weld zone of HLAW joint",
+      "canonical_name": "Inconel 617 HLAW joint with ERNiCrCoMo-1 filler",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "welded joint",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": "10.2 Fractographic investigation of tensile specimens",
+          "quote": "The tensile studies revealed that the fractures occurred within the weld zone due to high welding residual stresses and metallurgical change caused by welding heat input.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "electric discharge machining (EDM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "plate_dimensions": "150 × 120 × 10 mm and 300 × 120 × 10 mm"
+        }
+      },
+      "input_state": "Inconel 617 plate",
+      "output_state": "Inconel 617 plate coupon",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 Experimentation",
+          "quote": "The plates are extracted using EDM process in 150 × 120 × 10 mm were used for HLAW with wire feed rate (WFR) of 10 m/min, and 300 × 120 × 10 mm plates were utilized for HLAW with a WFR of 11 m/min.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "hybrid laser arc welding (HLAW)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "100% helium shielding gas, 20 l/min",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 3500,
+        "scan_speed": "0.8 m/min",
+        "layer_thickness": null,
+        "other": {
+          "wire_feed_rate": "10 m/min",
+          "heat_input": "0.516 kJ/mm",
+          "laser_wavelength": "10.6 μm",
+          "focal_distance": "300 mm",
+          "laser_spot_size": "180 μm",
+          "root_gap": "0.2 mm",
+          "edge_angle": "20°",
+          "root_face": "1.5 mm",
+          "torch_angle": "60°",
+          "standoff": "17 mm",
+          "gap_between_sources": "2 mm",
+          "welding_position": "butt configuration",
+          "filler_wire_diameter": "1.2 mm"
+        }
+      },
+      "input_state": "Inconel 617 plate",
+      "output_state": "as-welded joint",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 Experimentation",
+          "quote": "Figure 2a and b show the HLAW process, which included a Y -shaped edge with a 20° angle and a 1.5 mm root face, with a 0.2 mm root gap for a WFR of 10 m/min and while no gap is employed at a WFR of 11 m/min.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 3,
+          "section": "2 Experimentation",
+          "quote": "From Eqs. (1)&( 2), the total heat input for the 10 m/min and 11 m/min wire feed rate welded joints are 0.516 kJ/mm and 0.615 kJ/mm, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_4",
+      "sequence": 1,
+      "method": "hybrid laser arc welding (HLAW)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "100% helium shielding gas, 20 l/min",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 3500,
+        "scan_speed": "0.8 m/min",
+        "layer_thickness": null,
+        "other": {
+          "wire_feed_rate": "11 m/min",
+          "heat_input": "0.615 kJ/mm",
+          "laser_wavelength": "10.6 μm",
+          "focal_distance": "300 mm",
+          "laser_spot_size": "180 μm",
+          "root_gap": "no gap",
+          "edge_angle": "20°",
+          "root_face": "1.5 mm",
+          "torch_angle": "60°",
+          "standoff": "17 mm",
+          "gap_between_sources": "2 mm",
+          "welding_position": "butt configuration",
+          "filler_wire_diameter": "1.2 mm"
+        }
+      },
+      "input_state": "Inconel 617 plate",
+      "output_state": "as-welded joint",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 Experimentation",
+          "quote": "Figure 2a and b show the HLAW process, which included a Y -shaped edge with a 20° angle and a 1.5 mm root face, with a 0.2 mm root gap for a WFR of 10 m/min and while no gap is employed at a WFR of 11 m/min.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 3,
+          "section": "2 Experimentation",
+          "quote": "From Eqs. (1)&( 2), the total heat input for the 10 m/min and 11 m/min wire feed rate welded joints are 0.516 kJ/mm and 0.615 kJ/mm, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_3",
+      "sequence": 2,
+      "method": "tensile testing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "standard": "ASTM-E8M 2009"
+        }
+      },
+      "input_state": "as-welded joint",
+      "output_state": "fractured tensile specimen",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 Experimentation",
+          "quote": "Tensile specimens are made from the welded sample in accordance with the ASTM-E8M, 2009 standard, as illustrated in Fig. 3a and b.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (γ')",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Nickel-based Inconel 617 consists of γ’ precipitates and carbides include M23C6, M6C, as well as MX, contributes strongly to hardening of material.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "M23C6",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Nickel-based Inconel 617 consists of γ’ precipitates and carbides include M23C6, M6C, as well as MX, contributes strongly to hardening of material.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "M6C",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Nickel-based Inconel 617 consists of γ’ precipitates and carbides include M23C6, M6C, as well as MX, contributes strongly to hardening of material.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "MX",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Nickel-based Inconel 617 consists of γ’ precipitates and carbides include M23C6, M6C, as well as MX, contributes strongly to hardening of material.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dendritic microstructure",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dendritic",
+        "location": "weld zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 Experimentation",
+          "quote": "In the fusion zone, there were no cracks or ﬂaws can be attributed to the faster cooling rate, resulting in the formation of a more reﬁned microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "dimple",
+      "sample_id": "sample_3",
+      "material_state": "tested tensile specimen",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dimple network",
+        "location": "fracture surface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "10.2 Fractographic investigation of tensile specimens",
+          "quote": "A deep voids with the presence of dimple network for the hybrid laser arc weldments fractography images which indicate the ductile mode of failure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "refined grain",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "refined",
+        "location": "fusion zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2 Experimentation",
+          "quote": "In the fusion zone, there were no cracks or ﬂaws can be attributed to the faster cooling rate, resulting in the formation of a more reﬁned microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "equiaxed dimples",
+      "sample_id": "sample_5",
+      "material_state": "welded joint",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "equiaxed",
+        "location": "fracture surface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "The fracture surfaces of the tensile specimens exhibited a significant presence of equiaxed dimples. Notably, the number of these dimples increases as the temperature increases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "ultimate tensile strength",
+      "value": 814,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The base metal shows superior tensile strength (814 MPa) than the weld joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "ultimate tensile strength",
+      "value": 650,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "ultimate tensile strength",
+      "value": 610,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "ultimate tensile strength",
+      "value": 542,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "yield strength (0.2%)",
+      "value": 354,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "yield strength (0.2%)",
+      "value": 280,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "yield strength (0.2%)",
+      "value": 245,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "yield strength (0.2%)",
+      "value": 221,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "elongation",
+      "value": 60.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "elongation",
+      "value": 71.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "elongation",
+      "value": 55.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "elongation",
+      "value": 65.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "BM 814 650 610 542 354 280 245 221 60.5 71.2 55.0 65.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "ultimate tensile strength",
+      "value": 802,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_14",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "ultimate tensile strength",
+      "value": 614,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_15",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "ultimate tensile strength",
+      "value": 590,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_16",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "ultimate tensile strength",
+      "value": 538,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The maximum high-temperature tensile strength of weld joints is 538 MPa was achieved at the heat input of 0.516 kJ/mm and temperature of 750 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "Due to lower heat input and faster cooling rate the maximum high-temperature tensile strength of 538 MPa was achieved at the WFR of 10 m/min and temperature of 750 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_17",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "yield strength (0.2%)",
+      "value": 433,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_18",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "yield strength (0.2%)",
+      "value": 299,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_19",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "yield strength (0.2%)",
+      "value": 286,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_20",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "yield strength (0.2%)",
+      "value": 248,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_21",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "elongation",
+      "value": 44.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_22",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "elongation",
+      "value": 40.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_23",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "elongation",
+      "value": 34.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_24",
+      "sample_id": "sample_3",
+      "material_state": "welded joint",
+      "property": "elongation",
+      "value": 37.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "10 802 614 590 538 433 299 286 248 44.0 40.0 34.0 37.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_25",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "ultimate tensile strength",
+      "value": 787,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_26",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "ultimate tensile strength",
+      "value": 581,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_27",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "ultimate tensile strength",
+      "value": 576,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_28",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "ultimate tensile strength",
+      "value": 520,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_29",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "yield strength (0.2%)",
+      "value": 387,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_30",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "yield strength (0.2%)",
+      "value": 286,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_31",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "yield strength (0.2%)",
+      "value": 264,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_32",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "yield strength (0.2%)",
+      "value": 240,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_33",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "elongation",
+      "value": 40.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_34",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "elongation",
+      "value": 33.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_35",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "elongation",
+      "value": 36.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_36",
+      "sample_id": "sample_4",
+      "material_state": "welded joint",
+      "property": "elongation",
+      "value": 34.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 2",
+          "quote": "11 787 581 576 520 387 286 264 240 40.0 33.5 36.0 34.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "ductile fracture",
+      "category": "fracture mechanism",
+      "sample_id": "sample_5",
+      "material_state": "welded joint",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "Consequently, the fractures of all the weldments are in ductile mode.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "heat activation of dislocations",
+      "category": "deformation mechanism",
+      "sample_id": "sample_5",
+      "material_state": "welded joint",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "10.3.2 Machine learning models for prediction of tensile properties",
+          "quote": "This is commonly associated to heat activation of dislocations within the crystal structure of the material, which allows plastic deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "linear regression (LR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of room and high temperature tensile strength of HLAW Inconel 617 joints",
+      "inputs": [
+        "wire feed rate",
+        "working temperature"
+      ],
+      "target": "tensile strength (UTS, YS, %EL)",
+      "dataset": "12 experimental tensile tests on HLAW joints",
+      "validation": "training and validation stages",
+      "metrics": {
+        "UTS_R2": -4.208,
+        "UTS_RMSE": 0.0465,
+        "elongation_R2": -0.05716,
+        "elongation_RMSE": 0.05454,
+        "yield_strength_R2": 0.6841,
+        "yield_strength_RMSE": 0.05036
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This works deals with the application of various regression analysis methods like Linear Regression (LR), Decision Tree Regression (DTR), Random Forest Regression (RFR), Polynomial Regression (PR), Gaussian Process Regression (GPR) and Support V ector Regression (SVR) were used for predicting the room and high temperature tensile behaviour of hybrid laser arc welded Inconel 617 alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 11,
+          "section": null,
+          "quote": "Table 3 Statistical indices values of ultimate tensile strength based machine learning model\nModel R 2 RMSE\nLR − 4.208 0.0465",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "decision tree regression (DTR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of room and high temperature tensile strength of HLAW Inconel 617 joints",
+      "inputs": [
+        "wire feed rate",
+        "working temperature"
+      ],
+      "target": "tensile strength (UTS, YS, %EL)",
+      "dataset": "12 experimental tensile tests on HLAW joints",
+      "validation": "training and validation stages",
+      "metrics": {
+        "UTS_R2": -12.25,
+        "UTS_RMSE": 0.0554,
+        "elongation_R2": -4,
+        "elongation_RMSE": 0.1186,
+        "yield_strength_R2": 0.6772,
+        "yield_strength_RMSE": 0.05091
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This works deals with the application of various regression analysis methods like Linear Regression (LR), Decision Tree Regression (DTR), Random Forest Regression (RFR), Polynomial Regression (PR), Gaussian Process Regression (GPR) and Support V ector Regression (SVR) were used for predicting the room and high temperature tensile behaviour of hybrid laser arc welded Inconel 617 alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 11,
+          "section": null,
+          "quote": "Table 3 Statistical indices values of ultimate tensile strength based machine learning model\nModel R 2 RMSE\nDTR − 12.25 0.0554",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "random forest regression (RFR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of room and high temperature tensile strength of HLAW Inconel 617 joints",
+      "inputs": [
+        "wire feed rate",
+        "working temperature"
+      ],
+      "target": "tensile strength (UTS, YS, %EL)",
+      "dataset": "12 experimental tensile tests on HLAW joints",
+      "validation": "training and validation stages",
+      "metrics": {
+        "UTS_R2": -217.75,
+        "UTS_RMSE": 0.3018,
+        "elongation_R2": -3.091,
+        "elongation_RMSE": 0.1073,
+        "yield_strength_R2": 0.9031,
+        "yield_strength_RMSE": 0.00741
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This works deals with the application of various regression analysis methods like Linear Regression (LR), Decision Tree Regression (DTR), Random Forest Regression (RFR), Polynomial Regression (PR), Gaussian Process Regression (GPR) and Support V ector Regression (SVR) were used for predicting the room and high temperature tensile behaviour of hybrid laser arc welded Inconel 617 alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 11,
+          "section": null,
+          "quote": "Table 3 Statistical indices values of ultimate tensile strength based machine learning model\nModel R 2 RMSE\nRFR − 217.75 0.3018",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_4",
+      "name": "polynomial regression (PR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of room and high temperature tensile strength of HLAW Inconel 617 joints",
+      "inputs": [
+        "wire feed rate",
+        "working temperature"
+      ],
+      "target": "tensile strength (UTS, YS, %EL)",
+      "dataset": "12 experimental tensile tests on HLAW joints",
+      "validation": "training and validation stages",
+      "metrics": {
+        "UTS_R2": 0.99,
+        "UTS_RMSE": 0.0051,
+        "elongation_R2": 0.999,
+        "elongation_RMSE": 0.000364,
+        "yield_strength_R2": 0.9999,
+        "yield_strength_RMSE": 7.99e-05
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The statistical performance factors of the models reveal the superior performance of PR model was found better than LR, DTR, RFR, SVR, and GPR in predicting the tensile strength of joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 11,
+          "section": null,
+          "quote": "PR 0.99 0.0051",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_5",
+      "name": "gaussian process regression (GPR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of room and high temperature tensile strength of HLAW Inconel 617 joints",
+      "inputs": [
+        "wire feed rate",
+        "working temperature"
+      ],
+      "target": "tensile strength (UTS, YS, %EL)",
+      "dataset": "12 experimental tensile tests on HLAW joints",
+      "validation": "training and validation stages",
+      "metrics": {
+        "UTS_R2": -28776.62,
+        "UTS_RMSE": 3.462,
+        "elongation_R2": -12.672,
+        "elongation_RMSE": 0.1961,
+        "yield_strength_R2": 0.3488,
+        "yield_strength_RMSE": 0.0723
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This works deals with the application of various regression analysis methods like Linear Regression (LR), Decision Tree Regression (DTR), Random Forest Regression (RFR), Polynomial Regression (PR), Gaussian Process Regression (GPR) and Support V ector Regression (SVR) were used for predicting the room and high temperature tensile behaviour of hybrid laser arc welded Inconel 617 alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 11,
+          "section": null,
+          "quote": "GPR − 28,776.62 3.462",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_6",
+      "name": "support vector regression (SVR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of room and high temperature tensile strength of HLAW Inconel 617 joints",
+      "inputs": [
+        "wire feed rate",
+        "working temperature"
+      ],
+      "target": "tensile strength (UTS, YS, %EL)",
+      "dataset": "12 experimental tensile tests on HLAW joints",
+      "validation": "training and validation stages",
+      "metrics": {
+        "UTS_R2": -612.309,
+        "UTS_RMSE": 0.5054,
+        "elongation_R2": -4.5156,
+        "elongation_RMSE": 0.12459,
+        "yield_strength_R2": 0.6603,
+        "yield_strength_RMSE": 0.05223
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This works deals with the application of various regression analysis methods like Linear Regression (LR), Decision Tree Regression (DTR), Random Forest Regression (RFR), Polynomial Regression (PR), Gaussian Process Regression (GPR) and Support V ector Regression (SVR) were used for predicting the room and high temperature tensile behaviour of hybrid laser arc welded Inconel 617 alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:001"
+        },
+        {
+          "page": 11,
+          "section": null,
+          "quote": "SVR − 612.309 0.5054",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "relations": [],
+  "chunk_id": "paper"
+}

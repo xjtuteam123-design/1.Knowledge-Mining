@@ -1,0 +1,100 @@
+{
+  "document_id": "15077edb3d9a9b18",
+  "chunk_id": "15077edb3d9a9b18:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Predicting creep-fatigue and thermomechanical fatigue life of Ni-base superalloys using a probabilistic physics-guided neural network",
+    "authors": [
+      "R Acharya",
+      "A N Caputo",
+      "R W Neu"
+    ],
+    "journal": "Fatigue Fract Eng Mater Struct",
+    "year": 2023,
+    "doi": "10.1111/ffe.13948"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "Conclusions",
+          "quote": "for a single class of materials, in this case, directionally-solidified and single-crystal Ni-base superalloys with similar chemistries and heat treatments typically used for gas turbine blades and vanes.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "probabilistic physics-guided neural network (PPgNN)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict cycles to failure under thermomechanical fatigue and creep-fatigue test conditions",
+      "inputs": [
+        "linear in-phase (IP) thermomechanical fatigue loading",
+        "linear out-of-phase (OP) thermomechanical fatigue loading",
+        "temperature",
+        "dwell"
+      ],
+      "target": "cycles to failure",
+      "dataset": "fatigue data data-mined from multiple sources in the open literature for directionally-solidified and single-crystal Ni-base superalloys (Zenodo doi:10.5281/zenodo.7476962)",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 16,
+          "section": "Conclusions",
+          "quote": "This paper demonstrates the use of a probabilistic physics-guided neural network (PPgNN) for developing a robust model to predict the cycles to failure under an extraordinary wide range of thermomechanical fatigue and creep-fatigue test conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:003"
+        },
+        {
+          "page": 16,
+          "section": "Conclusions",
+          "quote": "The model captures the essential life behaviors typically observed such as a cross-over in IP and OP TMF, reduced life with increasing temperature or added dwells",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:003"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "STUDIES",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "Conclusions",
+          "quote": "for a single class of materials, in this case, directionally-solidified and single-crystal Ni-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

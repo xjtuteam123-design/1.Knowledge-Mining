@@ -1,0 +1,139 @@
+{
+  "document_id": "9223e902e0b37f92",
+  "chunk_id": "9223e902e0b37f92:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Zijun Qin",
+      "Weifu Li",
+      "Zi Wang",
+      "Junlong Pan",
+      "Zexin Wang",
+      "Zihang Li",
+      "Guowei Wang",
+      "Jun Pan",
+      "Feng Liu",
+      "Lan Huang",
+      "Liming Tan",
+      "Lina Zhang",
+      "Hua Han",
+      "Hong Chen",
+      "Liang Jiang"
+    ],
+    "journal": "journal of materials research and technology",
+    "year": 2022,
+    "doi": "10.1016/j.jmrt.2022.10.032"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "Conclusions",
+          "quote": "Built a Ni-based superalloys database on the composition information, heat treatment schedule and the characteristics of g0 precipitation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9223e902e0b37f92:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "high entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "3.6. The applicability of the method for other alloy systems",
+          "quote": "By using the high-throughput method, reasonably designing the diffusion-multiple such as AlCoCrFe HEA, supplemented by rapid characterization and deep learning methods, numerous precipitation characteristics of HEAs in pseudo ternary alloy systems could be quickly collect.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9223e902e0b37f92:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "UNet 3+",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "identifying the gamma prime precipitation (image segmentation)",
+      "inputs": null,
+      "target": null,
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "12",
+          "section": "Conclusions",
+          "quote": "Proposed to utilize deep learning model (UNet 3 þ) for identifying the g0 precipitation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9223e902e0b37f92:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "back-propagation neural network (BP-NN)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predicting volume fraction, average size and size distribution of gamma prime precipitation",
+      "inputs": [
+        "composition",
+        "heat treatment schedule"
+      ],
+      "target": "volume fraction, average size and size distribution of gamma prime precipitation",
+      "dataset": "Ni-based superalloys database",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "12",
+          "section": "Conclusions",
+          "quote": "Established several BP-NN models to accurately predict the volume fraction, average size and size distribution of g0 precipitation according to composition and heat treatment schedule.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9223e902e0b37f92:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_2",
+      "predicate": "PREDICTS",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "Conclusions",
+          "quote": "Established several BP-NN models to accurately predict the volume fraction, average size and size distribution of g0 precipitation according to composition and heat treatment schedule.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9223e902e0b37f92:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

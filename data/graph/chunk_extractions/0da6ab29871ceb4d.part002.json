@@ -1,0 +1,301 @@
+{
+  "document_id": "0da6ab29871ceb4d",
+  "chunk_id": "0da6ab29871ceb4d:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Metals",
+    "year": 2025,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": null,
+          "section": null,
+          "quote": "SLM-GH3536 alloy and forged alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "SLM-GH3536",
+      "canonical_name": "GH3536",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the SLM-GH3536 alloy exhibits good isotropy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "forged alloy",
+      "canonical_name": "GH3536",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "forged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the tensile strength of the SLM-GH3536 alloy is lower than that of the forged alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "carbide",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "continuous along grain boundaries at low temperature; granular after high-temperature exposure",
+        "location": "grain boundaries and within grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the continuous carbides along the grain boundaries cause separation of adjacent crystals",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        },
+        {
+          "page": "8",
+          "section": "Conclusions",
+          "quote": "At elevated temperatures, the continuous carbides gradually disappeared, while a significant number of granular carbides precipitated at the grain boundaries and within the grains.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma matrix",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Carbides at the grain boundaries, as hard phases, exhibit higher yield strength and lower fracture toughness compared to the γ-matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "tensile strength",
+      "value": 600,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "X and Z directions",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "notched tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.2. Tensile Properties of Notched Specimens",
+          "quote": "As the testing temperature increases from 650 °C to 1000 °C, the tensile strength decreases from 600 MPa to 180 MPa.",
+          "table": null,
+          "figure": "Figure 8",
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "tensile strength",
+      "value": 180,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "X and Z directions",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "notched tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.2. Tensile Properties of Notched Specimens",
+          "quote": "As the testing temperature increases from 650 °C to 1000 °C, the tensile strength decreases from 600 MPa to 180 MPa.",
+          "table": null,
+          "figure": "Figure 8",
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "carbide coarsening inducing stress concentration",
+      "category": "microstructural degradation",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The coarsened carbide particles exacerbate stress concentration near the grain boundaries, leading to localized plastic deformation instability, which directly triggers cracking and severely impairs the plastic deformation capability at high temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the coarsening of carbide particles further impairs the notched tensile performance.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "It is hypothesized that under tensile loading, the continuous carbides along the grain boundaries cause separation of adjacent crystals, leading to the formation of secondary cracks.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "SLM-GH3536 alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "forged alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0da6ab29871ceb4d:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

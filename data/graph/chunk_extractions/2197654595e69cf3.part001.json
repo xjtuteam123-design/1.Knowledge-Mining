@@ -1,0 +1,1718 @@
+{
+  "document_id": "2197654595e69cf3",
+  "chunk_id": "2197654595e69cf3:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Creep prediction model for nickel-based single-crystal superalloys considering precipitation of TCP phase",
+    "authors": [
+      "Xiao-Yan Wang",
+      "Jia-Jia Wang",
+      "Cheng-Jiang Zhang",
+      "Wen-Wei Tong",
+      "Bo Jiang",
+      "Guang-Xian Lu",
+      "Zhi-Xun Wen",
+      "Tao Feng"
+    ],
+    "journal": "Rare Metals",
+    "year": 2021,
+    "doi": "10.1007/s12598-020-01670-4"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single-crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The microstructure of nickel-based single-crystal (SC) superalloys has a pivotal inflence on their creep properties.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "DD6",
+      "canonical_name": "Ni-3.5Cr-7Co-2Mo-6.5W-7.5Ta-4.8Re-0.5Nb-0.1Hf-5.6Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated (solution + aging)",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 3.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Table 1",
+              "quote": "Cr Co Mo W Ta Re Nb Hf Al Ni\n3.5 7 2 6.5 7.5 4.8 0.5 0.1 5.6 Bal",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "2197654595e69cf3:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 6.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 7.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Re",
+          "value": 4.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5.6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Material preparation",
+          "quote": "The material used herein was a nickel-based SC superalloy, with the chemical composition shown in Table 1. All specimens were taken from an [001]-oriented bar prepared by directional solidification.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "directional solidification",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "orientation": "[001]",
+          "orientation_angle_max_deg": 10
+        }
+      },
+      "input_state": null,
+      "output_state": "as-directionally-solidified",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Material preparation",
+          "quote": "All specimens were taken from an [001]-oriented bar prepared by directional solidification. The orientation was measured by Laue X-ray back-scatter to ensure that the orientation angle was within 10°.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "steps": "1280 °C×2h → 1300 °C×2h → 1310 °C×6h → 1315 °C×16h"
+        }
+      },
+      "input_state": "as-directionally-solidified",
+      "output_state": "solution-treated",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Material preparation",
+          "quote": "the solution treatment, including 1280 °C × 2 h → 1300 °C × 2 h → 1310 °C × 6 h → 1315 °C × 16 h/AC (air cooling)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "first aging",
+      "parameters": {
+        "temperature_c": 1080,
+        "time": "4 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution-treated",
+      "output_state": "first-aged",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Material preparation",
+          "quote": "the first aging, including 1080 °C × 4 h/AC",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "secondary aging",
+      "parameters": {
+        "temperature_c": 870,
+        "time": "24 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "first-aged",
+      "output_state": "heat-treated (solution + aging)",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Material preparation",
+          "quote": "and the secondary aging, including 870 °C × 24 h/AC.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 980,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 200
+        }
+      },
+      "input_state": "heat-treated (solution + aging)",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Experimental Methods",
+          "quote": "The test temperatures were selected as 980, 1050, and 1100 °C ... which were 200/250/300 MPa at 980 °C, 160/180/200 MPa at 1050 °C, and 140/170/200 MPa at 1100 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_1",
+      "sequence": 6,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 980,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 250
+        }
+      },
+      "input_state": "heat-treated (solution + aging)",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Experimental Methods",
+          "quote": "which were 200/250/300 MPa at 980 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_1",
+      "sequence": 7,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 980,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 300
+        }
+      },
+      "input_state": "heat-treated (solution + aging)",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Experimental Methods",
+          "quote": "which were 200/250/300 MPa at 980 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_8",
+      "sample_id": "sample_1",
+      "sequence": 8,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 1050,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 160
+        }
+      },
+      "input_state": "heat-treated (solution + aging)",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Experimental Methods",
+          "quote": "160/180/200 MPa at 1050 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_9",
+      "sample_id": "sample_1",
+      "sequence": 9,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 1050,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 180
+        }
+      },
+      "input_state": "heat-treated (solution + aging)",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Experimental Methods",
+          "quote": "160/180/200 MPa at 1050 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_10",
+      "sample_id": "sample_1",
+      "sequence": 10,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 1050,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 200
+        }
+      },
+      "input_state": "heat-treated (solution + aging)",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Experimental Methods",
+          "quote": "160/180/200 MPa at 1050 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_11",
+      "sample_id": "sample_1",
+      "sequence": 11,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 1100,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 140
+        }
+      },
+      "input_state": "heat-treated (solution + aging)",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Experimental Methods",
+          "quote": "140/170/200 MPa at 1100 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_12",
+      "sample_id": "sample_1",
+      "sequence": 12,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 1100,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 170
+        }
+      },
+      "input_state": "heat-treated (solution + aging)",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Experimental Methods",
+          "quote": "140/170/200 MPa at 1100 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_13",
+      "sample_id": "sample_1",
+      "sequence": 13,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 1100,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 200
+        }
+      },
+      "input_state": "heat-treated (solution + aging)",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2 Experimental Methods",
+          "quote": "140/170/200 MPa at 1100 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma' (Ni3Al)",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated (solution + aging)",
+      "attributes": {
+        "phase_fraction": "> 65 vol%",
+        "size": "0.4–0.6 µm",
+        "morphology": "cubic particles",
+        "location": "dispersed in gamma matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Material preparation",
+          "quote": "There is a high content (>65 vol%) of the γ' strengthening phase dispersed in the γ matrix phase, which has a size of ~0.4–0.6 µm, and no TCP phase precipitates are present.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma matrix",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated (solution + aging)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Co, Cr, W, Re rich",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Material preparation",
+          "quote": "dispersed in the γ matrix phase",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "TCP phase",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "needle-like, flake-like, granular after spheroidization",
+        "location": "dendritic core region",
+        "composition": "Re, Mo, Cr, W rich",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Evolution of TCP phase during creep",
+          "quote": "there was an extremely small amount of TCP phase separated in the dendritic core region",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "rafted gamma/gamma' microstructure",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "N-type rafting perpendicular to stress; labyrinth pattern; topological inversion to elliptical irregular structure",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Evolution of TCP phase during creep",
+          "quote": "Rafting perpendicular to the direction of the stress (N-type raft) occurred ... the γ/γ' microstructure exhibited a 'maze' pattern ... approximately elliptical irregular structure.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "wave-like gamma/gamma' structure near cracks",
+      "sample_id": "sample_1",
+      "material_state": "crept to fracture",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "wave-like, topological inversion",
+        "location": "near microcracks",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Effects of TCP phase on creep properties",
+          "quote": "The γ/γ' two-phase microstructure near the micro-cracks appears as a 'wave-like' structure, and a topological inversion phenomenon can be observed.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "microcrack",
+      "sample_id": "sample_1",
+      "material_state": "crept to fracture",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "zigzag propagation path, perpendicular to stress direction",
+        "location": "near TCP phase, internal inclusions",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Effects of TCP phase on creep properties",
+          "quote": "A number of micro-cracks perpendicular to the direction of the stress can be distinctly observed. These micro-cracks often nucleate from the internal inclusions or microstructure defects ... a crack that extends with a roughly zigzag shape.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "steady creep rate",
+      "value": 8.21e-05,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 980,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "980 200 8.21 × 10–5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep fracture strain",
+      "value": 45.22,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 980,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "980 200 ... 45.22 ... 978.5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep life",
+      "value": 978.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 980,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "980 200 8.21 × 10–5 45.22 978.5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "steady creep rate",
+      "value": 8.96e-05,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 980,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "980 250 8.96 × 10–5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep life",
+      "value": 313.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 980,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "980 250 ... 313.5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "steady creep rate",
+      "value": 0.000113,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 980,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "980 300 1.13 × 10–4",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep life",
+      "value": 123.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 980,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "980 300 ... 123.7",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "steady creep rate",
+      "value": 5.33e-05,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1050,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1050 160 5.33 × 10–5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep life",
+      "value": 295.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 1050,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1050 160 ... 295.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "steady creep rate",
+      "value": 8.74e-05,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1050,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1050 180 8.74 × 10–5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep life",
+      "value": 159.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 1050,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1050 180 ... 159.5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "steady creep rate",
+      "value": 0.000255,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1050,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1050 200 2.55 × 10–4",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep life",
+      "value": 92.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 1050,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1050 200 ... 92.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_14",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "steady creep rate",
+      "value": 0.000289,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1100 140 2.89 × 10–4",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_15",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep life",
+      "value": 123.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1100 140 ... 123.0",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_16",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "steady creep rate",
+      "value": 0.000313,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1100 170 3.13 × 10–4",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_17",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep life",
+      "value": 42.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1100 170 ... 42.8",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_18",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "steady creep rate",
+      "value": 0.000411,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1100 200 4.11 × 10–4",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_19",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep life",
+      "value": 17.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "1100 200 ... 17.6",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated (solution + aging)",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2",
+          "quote": "The precipitation of the TCP phase causes the consumption of the main solid solution strengthening elements Re and W in the γ phase, weakens the solid solution strengthening effect of the two phases",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation pile-up at TCP/gamma' interface",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 Introduction",
+          "quote": "dislocations have difficulty climbing or cutting the TCP phase so they accumulate at the TCP/γ' phase interface, causing stress concentration in the vicinity as well as crack initiation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "crack nucleation at TCP phase",
+      "category": "damage",
+      "sample_id": "sample_1",
+      "material_state": "crept to fracture",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2",
+          "quote": "the creep crack nucleates from the TCP phase, and after the crack nucleates, its propagation path coincides with the growth direction of the TCP phase",
+          "table": null,
+          "figure": "Fig. 9d",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1",
+          "quote": "The material used herein was a nickel-based SC superalloy, with the chemical composition shown in Table 1.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Table 1",
+          "quote": "Cr Co Mo W Ta Re Nb Hf Al Ni 3.5 7 2 6.5 7.5 4.8 0.5 0.1 5.6 Bal",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1",
+          "quote": "All specimens were taken from an [001]-oriented bar prepared by directional solidification.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1",
+          "quote": "the solution treatment, including 1280 °C × 2 h → 1300 °C × 2 h → 1310 °C × 6 h → 1315 °C × 16 h/AC",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1",
+          "quote": "the first aging, including 1080 °C × 4 h/AC",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1",
+          "quote": "the secondary aging, including 870 °C × 24 h/AC",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated (solution + aging)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1",
+          "quote": "There is a high content (>65 vol%) of the γ' strengthening phase dispersed in the γ matrix phase",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1",
+          "quote": "there was an extremely small amount of TCP phase separated in the dendritic core region",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1",
+          "quote": "Rafting perpendicular to the direction of the stress (N-type raft) occurred",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "crept to fracture",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2",
+          "quote": "A number of micro-cracks perpendicular to the direction of the stress can be distinctly observed.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {
+        "temperature_c": 980,
+        "stress_MPa": 200
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 2",
+          "quote": "980 200 8.21 × 10–5",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "phase_3",
+      "predicate": "DEGRADES",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1",
+          "quote": "a large amount of rafted γ' phase was cut off, the raft structure is destroyed, and the material became damaged, which is an important mechanism for the degradation of the creep properties due to the precipitation of the TCP phase",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1",
+          "quote": "the TCP phase ... accumulates at the TCP/γ' phase interface, causing stress concentration in the vicinity as well as crack initiation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "crept to fracture",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2",
+          "quote": "the creep crack nucleates from the TCP phase",
+          "table": null,
+          "figure": "Fig. 9d",
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1",
+          "quote": "causing stress concentration in the vicinity as well as crack initiation, which is the main reason for the reduction in creep life",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

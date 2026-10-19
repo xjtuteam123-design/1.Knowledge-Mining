@@ -1,0 +1,237 @@
+{
+  "document_id": "0c20c83cec7271cf",
+  "chunk_id": "0c20c83cec7271cf:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "T.K. Tsao",
+      "A.C. Yeh",
+      "H. Murakami",
+      "J.W. Yeh",
+      "K. Kakehi",
+      "C.M. Kuo",
+      "S.R. Jian"
+    ],
+    "journal": "Scientific Reports",
+    "year": 2017,
+    "doi": "10.1038/s41598-017-13026-7"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "References",
+          "quote": "Nabarro, F . R. N. & de Villiers, F . L. Physics of creep and creep-resistant alloys (CRC press, 1995).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c20c83cec7271cf:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": null,
+      "sequence": 1,
+      "method": "solution heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "solution-treated",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Methods",
+          "quote": "samples were subjected to indentation after the solution-heat-treatment process stated above, and then followed by an annealing at 900 °C for 50 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c20c83cec7271cf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": null,
+      "sequence": 2,
+      "method": "indentation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution-treated",
+      "output_state": "indented",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Methods",
+          "quote": "samples were subjected to indentation after the solution-heat-treatment process stated above, and then followed by an annealing at 900 °C for 50 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c20c83cec7271cf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": null,
+      "sequence": 3,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 900,
+        "time": "50 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "purpose": "strain aging to assist measuring compositions of gamma and gamma-prime phases"
+        }
+      },
+      "input_state": "indented",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Methods",
+          "quote": "samples were subjected to indentation after the solution-heat-treatment process stated above, and then followed by an annealing at 900 °C for 50 h.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c20c83cec7271cf:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": null,
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Methods",
+          "quote": "MDI Jade software was used to deconvolute the {200} lattice reflection and determine the peak positions of γ and γ′ for calculating the lattice misfit (δ).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c20c83cec7271cf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma-prime",
+      "sample_id": null,
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Methods",
+          "quote": "MDI Jade software was used to deconvolute the {200} lattice reflection and determine the peak positions of γ and γ′ for calculating the lattice misfit (δ).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c20c83cec7271cf:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "cellular growth of gamma-prime",
+      "category": "microstructural evolution",
+      "sample_id": null,
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Methods",
+          "quote": "Therefore, cellular growth of γ′ would occur and resulted in the coarsened γ/γ′ morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c20c83cec7271cf:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES",
+      "target_id": "phase_2",
+      "sample_id": null,
+      "material_state": "aged",
+      "conditions": {
+        "temperature_c": 900,
+        "time": "50 h"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Methods",
+          "quote": "Therefore, cellular growth of γ′ would occur and resulted in the coarsened γ/γ′ morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0c20c83cec7271cf:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

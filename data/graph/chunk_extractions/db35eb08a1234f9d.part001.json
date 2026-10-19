@@ -1,0 +1,1841 @@
+{
+  "document_id": "db35eb08a1234f9d",
+  "chunk_id": "db35eb08a1234f9d:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Comparison of prediction methods for low-cycle fatigue life of HIP superalloys at elevated temperatures for turbopump reliability",
+    "authors": [
+      "Keum-Oh Lee",
+      "Keun-Ho Bae",
+      "Soon-Bok Lee"
+    ],
+    "journal": "Materials Science and Engineering A",
+    "year": 2009,
+    "doi": "10.1016/j.msea.2009.04.044"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "five kinds of Ni-based superalloys (Inconel 718 HIP, Inconel 718 HIP and heat treated, MAR-M-247 HIP, MAR-M-247 HIP and heat treated and Rene 95 HIP) were investigated at elevated temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Inconel 718 HIP",
+      "canonical_name": "Inconel 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-HIP",
+      "composition": [
+        {
+          "element": "C",
+          "value": 0.08,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 52.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 19,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 0.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 0.15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 18.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Five kinds of HIP materials (Inconel 718 as-HIP, Inconel 718 HIP and heat treated, MAR-M-247 as-HIP, MAR-M-247 HIP and heat treated, and Rene 95 as-HIP) have been tested in this study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Inconel 718 HIP and heat treated",
+      "canonical_name": "Inconel 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat treated",
+      "composition": [
+        {
+          "element": "C",
+          "value": 0.08,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 52.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 19,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 0.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 0.15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 18.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Inconel 718 0.08 – – – – – – 52.5 19 3 0.5 0.9 5.1 0.15 18.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Five kinds of HIP materials (Inconel 718 as-HIP, Inconel 718 HIP and heat treated, MAR-M-247 as-HIP, MAR-M-247 HIP and heat treated, and Rene 95 as-HIP) have been tested in this study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "MAR-M-247 HIP",
+      "canonical_name": "MAR-M-247",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-HIP",
+      "composition": [
+        {
+          "element": "C",
+          "value": 0.15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": 0.015,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 0.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 1.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 59,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 8.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 5.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Five kinds of HIP materials (Inconel 718 as-HIP, Inconel 718 HIP and heat treated, MAR-M-247 as-HIP, MAR-M-247 HIP and heat treated, and Rene 95 as-HIP) have been tested in this study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "MAR-M-247 HIP and heat treated",
+      "canonical_name": "MAR-M-247",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat treated",
+      "composition": [
+        {
+          "element": "C",
+          "value": 0.15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": 0.015,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 0.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 1.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 59,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 8.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 5.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "MAR-M-247 0.15 0.015 0.05 10 3 1.5 10 59 8.25 0.7 5.5 1 – 0.1 0.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Five kinds of HIP materials (Inconel 718 as-HIP, Inconel 718 HIP and heat treated, MAR-M-247 as-HIP, MAR-M-247 HIP and heat treated, and Rene 95 as-HIP) have been tested in this study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "Rene 95 HIP",
+      "canonical_name": "Rene 95",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-HIP",
+      "composition": [
+        {
+          "element": "C",
+          "value": 0.16,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": 0.01,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 0.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 3.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 61,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 14,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 3.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 2.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 3.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": null,
+          "min_value": null,
+          "max_value": 0.3,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "Table 1",
+              "quote": "Rene 95 0.16 0.01 0.05 3.5 – – 8 61 14 3.5 3.5 2.5 3.5 – <0.3",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "db35eb08a1234f9d:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Five kinds of HIP materials (Inconel 718 as-HIP, Inconel 718 HIP and heat treated, MAR-M-247 as-HIP, MAR-M-247 HIP and heat treated, and Rene 95 as-HIP) have been tested in this study.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "hot isostatic pressing (HIP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "powder",
+      "output_state": "as-HIP",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Three kinds of Ni-based superalloys (Inconel 718, MAR-M-247, and Rene 95) have been used and fabricated through a hot isostatic press (HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "hot isostatic pressing (HIP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "powder",
+      "output_state": "as-HIP",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Three kinds of Ni-based superalloys (Inconel 718, MAR-M-247, and Rene 95) have been used and fabricated through a hot isostatic press (HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-HIP",
+      "output_state": "heat treated",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "To find the difference in properties due to heat treatment, tests were also performed with heat treated Inconel 718 and heat treated MAR-M-247.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "hot isostatic pressing (HIP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "powder",
+      "output_state": "as-HIP",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Three kinds of Ni-based superalloys (Inconel 718, MAR-M-247, and Rene 95) have been used and fabricated through a hot isostatic press (HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_4",
+      "sequence": 1,
+      "method": "hot isostatic pressing (HIP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "powder",
+      "output_state": "as-HIP",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Three kinds of Ni-based superalloys (Inconel 718, MAR-M-247, and Rene 95) have been used and fabricated through a hot isostatic press (HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_4",
+      "sequence": 2,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-HIP",
+      "output_state": "heat treated",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "To find the difference in properties due to heat treatment, tests were also performed with heat treated Inconel 718 and heat treated MAR-M-247.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_5",
+      "sequence": 1,
+      "method": "hot isostatic pressing (HIP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "powder",
+      "output_state": "as-HIP",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Three kinds of Ni-based superalloys (Inconel 718, MAR-M-247, and Rene 95) have been used and fabricated through a hot isostatic press (HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "prior particle boundary (PPB)",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "decorated with oxides and MC carbides",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "4. Tensile and low-cycle fatigue test results",
+          "quote": "The study of Appa Rao et al. [11] showed similar tendencies on HIPed alloy 718 and inferred the gradual decrease in ductility of the alloy at elevated temperature was due to the persistence prior particle boundaries (PPBs) decorated with highly stable and brittle oxides and MC carbides.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "twin",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "4. Tensile and low-cycle fatigue test results",
+          "quote": "Some researchers explained that twins form as the results of annealing following plastic deformation [11,17] and the presence of twins in the HIPed alloy is found to be a desirable microstructural feature for improvement of mechanical properties.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary embrittlement",
+      "category": "embrittlement",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "4. Tensile and low-cycle fatigue test results",
+          "quote": "Bricknell [15] showed that elevated temperature tensile behavior of rapidly solidified and HIP processed Rene 80 alloy gave the lowest ductility values in the temperature range of 800–1000 °C and has been attributed to the grain boundary embrittlement.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "environmental oxidation assisted embrittlement",
+      "category": "embrittlement",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "4. Tensile and low-cycle fatigue test results",
+          "quote": "Prakash et al. [16] have suggested that the ductility of a superalloy Nimonic APK 1 HIPed at different temperatures gradually decreased with increasing temperature and attains a lowest value at 760 °C due to the embrittlement associated with the environmental oxidation affecting adversely the inter-particle bonding.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "five kinds of Ni-based superalloys (Inconel 718 HIP, Inconel 718 HIP and heat treated, MAR-M-247 HIP, MAR-M-247 HIP and heat treated and Rene 95 HIP) were investigated at elevated temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "five kinds of Ni-based superalloys (Inconel 718 HIP, Inconel 718 HIP and heat treated, MAR-M-247 HIP, MAR-M-247 HIP and heat treated and Rene 95 HIP) were investigated at elevated temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "five kinds of Ni-based superalloys (Inconel 718 HIP, Inconel 718 HIP and heat treated, MAR-M-247 HIP, MAR-M-247 HIP and heat treated and Rene 95 HIP) were investigated at elevated temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_4",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "five kinds of Ni-based superalloys (Inconel 718 HIP, Inconel 718 HIP and heat treated, MAR-M-247 HIP, MAR-M-247 HIP and heat treated and Rene 95 HIP) were investigated at elevated temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_5",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "five kinds of Ni-based superalloys (Inconel 718 HIP, Inconel 718 HIP and heat treated, MAR-M-247 HIP, MAR-M-247 HIP and heat treated and Rene 95 HIP) were investigated at elevated temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-HIP",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Three kinds of Ni-based superalloys (Inconel 718, MAR-M-247, and Rene 95) have been used and fabricated through a hot isostatic press (HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "as-HIP",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Three kinds of Ni-based superalloys (Inconel 718, MAR-M-247, and Rene 95) have been used and fabricated through a hot isostatic press (HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_2",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "To find the difference in properties due to heat treatment, tests were also performed with heat treated Inconel 718 and heat treated MAR-M-247.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_3",
+      "material_state": "as-HIP",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Three kinds of Ni-based superalloys (Inconel 718, MAR-M-247, and Rene 95) have been used and fabricated through a hot isostatic press (HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_4",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": "sample_4",
+      "material_state": "as-HIP",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Three kinds of Ni-based superalloys (Inconel 718, MAR-M-247, and Rene 95) have been used and fabricated through a hot isostatic press (HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_4",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_6",
+      "sample_id": "sample_4",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "To find the difference in properties due to heat treatment, tests were also performed with heat treated Inconel 718 and heat treated MAR-M-247.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_5",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_7",
+      "sample_id": "sample_5",
+      "material_state": "as-HIP",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Materials and testing methods",
+          "quote": "Three kinds of Ni-based superalloys (Inconel 718, MAR-M-247, and Rene 95) have been used and fabricated through a hot isostatic press (HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "microstructure_1",
+      "predicate": "DEGRADES",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "4. Tensile and low-cycle fatigue test results",
+          "quote": "The study of Appa Rao et al. [11] showed similar tendencies on HIPed alloy 718 and inferred the gradual decrease in ductility of the alloy at elevated temperature was due to the persistence prior particle boundaries (PPBs) decorated with highly stable and brittle oxides and MC carbides.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "microstructure_2",
+      "predicate": "IMPROVES",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "4. Tensile and low-cycle fatigue test results",
+          "quote": "As in the case of grain boundaries the twin boundaries can act as obstacles to the dislocation motion and thereby improve strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db35eb08a1234f9d:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,224 @@
+{
+  "document_id": "2197654595e69cf3",
+  "chunk_id": "2197654595e69cf3:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Creep prediction model for nickel-based single-crystal superalloys considering precipitation",
+    "authors": [
+      "X.-Y. Wang"
+    ],
+    "journal": "Rare Met.",
+    "year": null,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single-crystal superalloy",
+      "material_category": "nickel-based single-crystal superalloy",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "the uniaxial tensile curves for the nickel-based SC superalloys with different TCP phase volume fractions are basically the same",
+          "table": null,
+          "figure": "Fig. 10a",
+          "chunk_id": "2197654595e69cf3:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "nickel-based SC superalloy containing 4.8 wt% Re",
+      "canonical_name": "Ni-based single-crystal superalloy with 4.8 wt% Re",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Re",
+          "value": 4.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "10",
+              "section": null,
+              "quote": "predicted the creep performance of the nickel-based SC superalloy that contained 4.8 wt% Re well",
+              "table": null,
+              "figure": null,
+              "chunk_id": "2197654595e69cf3:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "12",
+          "section": "Conclusion",
+          "quote": "a creep performance prediction model for the nickel-based SC superalloy that contains 4.8 wt% Re is established",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "TCP phase",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "needle-like",
+        "morphology": "needle-like, spheroidizes at late creep stage",
+        "location": "dendritic stem region, along [110] orientation on {111} crystal plane",
+        "composition": "rich in matrix phase forming elements",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Conclusion",
+          "quote": "During the high-temperature creep process, the needle-like brittle TCP phase precipitates along the [110] orientation on the {111} crystal plane in the dendritic stem region",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "regular raft-like structure (destroyed by TCP)",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Conclusion",
+          "quote": "cuts the c0 strengthening phase, and destroys the regular raft-like structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "yield strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "within 5%",
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "the yield stress decreases with an increase in the volume fraction u of the TCP phase",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "2197654595e69cf3:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Conclusion",
+          "quote": "The TCP phase is rich in matrix phase forming elements, which weakens the solid solution strengthening effect and causes the dissolution of adjacent matrix phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Conclusion",
+          "quote": "The TCP phase is rich in matrix phase forming elements, which weakens the solid solution strengthening effect",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Conclusion",
+          "quote": "The TCP phase is rich in matrix phase forming elements, which weakens the solid solution strengthening effect and causes the dissolution of adjacent matrix phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2197654595e69cf3:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

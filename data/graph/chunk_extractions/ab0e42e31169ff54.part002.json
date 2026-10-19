@@ -1,0 +1,981 @@
+{
+  "document_id": "ab0e42e31169ff54",
+  "chunk_id": "ab0e42e31169ff54:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": null,
+    "doi": "10.1016/j.jallcom.2018.10.031"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "polycrystalline Ni-base superalloy",
+      "evidence": [
+        {
+          "page": 18,
+          "section": "4. Discussion",
+          "quote": "For many polycrystalline Ni-base superalloys, understanding and controlling the cooling processes from above the solvus temperature plays an important role in modifying and altering the microstructure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "RRHT3",
+      "canonical_name": "RRHT3 Ni-base superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "continuously cooled (1 °C/s)",
+      "composition": [
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 18,
+              "section": "4. Discussion",
+              "quote": "it is likely that this difference can be attributed to the higher Co content in RRHT3 alloy",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab0e42e31169ff54:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "The microstructure of the reference RRHT3 and RRHT4 samples both exhibit characteristically small grain boundary serrations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "RRHT4",
+      "canonical_name": "RRHT4 Ni-base superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "continuously cooled (1 °C/s)",
+      "composition": [
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 18,
+              "section": "4. Discussion",
+              "quote": "Despite the difference in Co levels between these two alloys, the development of the microstructure is consistent and follows the same phenomena.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ab0e42e31169ff54:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "The same trend was observed in the samples of RRHT4 where an amplitude and wavelength of 0.53 µm and 1.64 µm, respectively, was measured in the continuously cooled specimen.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "continuous cooling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "continuous cooling at 1 °C/s from above γ′ solvus",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "initial_cooling_rate": "1 °C/s"
+        }
+      },
+      "input_state": "super-solvus solution treated",
+      "output_state": "continuously cooled (1 °C/s)",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "1˚C/s / 1135°C 0.49 1.68 0.53 1.64",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "two-step cooling",
+      "parameters": {
+        "temperature_c": 1135,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "initial cooling 0.1 °C/s to 1135 °C then 1 °C/s",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "initial_cooling_rate": "0.1 °C/s",
+          "transition_temperature_c": 1135,
+          "final_cooling_rate": "1 °C/s"
+        }
+      },
+      "input_state": "super-solvus solution treated",
+      "output_state": "two-step cooled (0.1 °C/s initial)",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "0.1˚C/s / 1135°C 0.77 2.4 0.79 2.69",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "two-step cooling",
+      "parameters": {
+        "temperature_c": 1135,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "initial cooling 0.01 °C/s to 1135 °C then 1 °C/s",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "initial_cooling_rate": "0.01 °C/s",
+          "transition_temperature_c": 1135,
+          "final_cooling_rate": "1 °C/s"
+        }
+      },
+      "input_state": "super-solvus solution treated",
+      "output_state": "two-step cooled (0.01 °C/s initial)",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "0.01˚C/s / 1135°C 1.13 3.76 1.52 4.67",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "continuous cooling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "continuous cooling at 1 °C/s from above γ′ solvus",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "initial_cooling_rate": "1 °C/s"
+        }
+      },
+      "input_state": "super-solvus solution treated",
+      "output_state": "continuously cooled (1 °C/s)",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "1˚C/s / 1135°C 0.49 1.68 0.53 1.64",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "two-step cooling",
+      "parameters": {
+        "temperature_c": 1135,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "initial cooling 0.1 °C/s to 1135 °C then 1 °C/s",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "initial_cooling_rate": "0.1 °C/s",
+          "transition_temperature_c": 1135,
+          "final_cooling_rate": "1 °C/s"
+        }
+      },
+      "input_state": "super-solvus solution treated",
+      "output_state": "two-step cooled (0.1 °C/s initial)",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "0.1˚C/s / 1135°C 0.77 2.4 0.79 2.69",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "two-step cooling",
+      "parameters": {
+        "temperature_c": 1135,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "initial cooling 0.01 °C/s to 1135 °C then 1 °C/s",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "initial_cooling_rate": "0.01 °C/s",
+          "transition_temperature_c": 1135,
+          "final_cooling_rate": "1 °C/s"
+        }
+      },
+      "input_state": "super-solvus solution treated",
+      "output_state": "two-step cooled (0.01 °C/s initial)",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "0.01˚C/s / 1135°C 1.13 3.76 1.52 4.67",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "continuously cooled (1 °C/s)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "grain boundary γ′ average 0.5 µm; secondary γ′ average 0.23 µm",
+        "morphology": "irregular cuboidal secondary γ′; coarser grain boundary precipitates",
+        "location": "grain boundary and matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 18,
+          "section": "4. Discussion",
+          "quote": "the larger average size of grain boundary γ′ precipitates observed in RRHT3 and RRHT4 which were measured to be 0.5 µm and 0.65 µm, respectively. Compared to the average size of the secondary γ′ of 0.23 µm for RRHT3 and 0.24 µm for RRHT4",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "attributes": {
+        "phase_fraction": "grain boundary γ′ 6.5%; secondary γ′ 48%",
+        "size": "grain boundary γ′ 1.38 µm; secondary γ′ 0.17 µm",
+        "morphology": null,
+        "location": "grain boundary and matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 21,
+          "section": "5. Conclusions",
+          "quote": "As the size of the grain boundary γ′ precipitates in RRHT3 alloy increased from 0.5 µm to 1.38 µm, the size of the secondary γ′ precipitates reduced from 0.23 µm to 0.17 µm. The increase of the volume fraction of the grain boundary γ′ precipitates from 3.5% to 6.5% was coupled with the decrease of the volume fraction of the secondary γ′ from 52.5% to 48%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "serrated grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "continuously cooled (1 °C/s)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average amplitude 0.49 µm; average wavelength 1.68 µm",
+        "morphology": "small serrations",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "the continuously cooled sample of RRHT3 was found to possess an average amplitude of the serrated grain boundary of 0.49 µm coupled with an average wavelength of 1.68 µm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "serrated grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.1 °C/s initial)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average amplitude 0.77 µm; average wavelength 2.4 µm",
+        "morphology": "pronounced serrations",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "Application of the two-step cooling with 0.1˚C/s as the initial cooling in the RRHT3 caused the amplitude of the serrations to increase to 0.77 µm with an average wavelength of 2.4 µm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "serrated grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average amplitude 1.13 µm; average wavelength 3.76 µm",
+        "morphology": "pronounced serrations",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "Reducing the initial cooling rate further to 0.01˚C/s served to further increase the average amplitude of serrations to 1.13 µm with a corresponding average wavelength of 3.76 µm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "serrated grain boundary",
+      "sample_id": "sample_2",
+      "material_state": "continuously cooled (1 °C/s)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average amplitude 0.53 µm; average wavelength 1.64 µm",
+        "morphology": "small serrations",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "an amplitude and wavelength of 0.53 µm and 1.64 µm, respectively, was measured in the continuously cooled specimen",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "serrated grain boundary",
+      "sample_id": "sample_2",
+      "material_state": "two-step cooled (0.1 °C/s initial)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average amplitude 0.79 µm; average wavelength 2.69 µm",
+        "morphology": "pronounced serrations",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "Reducing the initial cooling rate to 0.1˚C/s increased the average amplitude to 0.79 µm and wavelength to 2.69 µm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_6",
+      "type": "Microstructure",
+      "name": "serrated grain boundary",
+      "sample_id": "sample_2",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average amplitude 1.52 µm; average wavelength 4.67 µm",
+        "morphology": "pronounced serrations",
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "The average amplitude and wavelength reached 1.52 µm and 4.67 µm, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary sliding inhibition",
+      "category": "mechanical",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 18,
+          "section": "4. Discussion",
+          "quote": "the serrated grain boundary structure is likely to inhibit grain boundary sliding mechanisms",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "heterogeneous nucleation",
+      "category": "phase transformation",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 19,
+          "section": "4. Discussion",
+          "quote": "the initial cooling rate was intentionally limited to allow for heterogeneous nucleation of a limited number density of γ′ precipitates along grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "continuously cooled (1 °C/s)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "The microstructure of the reference RRHT3 and RRHT4 samples both exhibit characteristically small grain boundary serrations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "continuously cooled (1 °C/s)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 18,
+          "section": "4. Discussion",
+          "quote": "Despite the difference in Co levels between these two alloys, the development of the microstructure is consistent and follows the same phenomena.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "continuously cooled (1 °C/s)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "1˚C/s / 1135°C 0.49 1.68 0.53 1.64",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.1 °C/s initial)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "0.1˚C/s / 1135°C 0.77 2.4 0.79 2.69",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "0.01˚C/s / 1135°C 1.13 3.76 1.52 4.67",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_2",
+      "material_state": "continuously cooled (1 °C/s)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "1˚C/s / 1135°C 0.49 1.68 0.53 1.64",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_5",
+      "sample_id": "sample_2",
+      "material_state": "two-step cooled (0.1 °C/s initial)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "0.1˚C/s / 1135°C 0.77 2.4 0.79 2.69",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_6",
+      "sample_id": "sample_2",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3. Results",
+          "quote": "0.01˚C/s / 1135°C 1.13 3.76 1.52 4.67",
+          "table": "Table V",
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "continuously cooled (1 °C/s)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 18,
+          "section": "4. Discussion",
+          "quote": "the larger average size of grain boundary γ′ precipitates observed in RRHT3 and RRHT4 which were measured to be 0.5 µm and 0.65 µm, respectively. Compared to the average size of the secondary γ′ of 0.23 µm for RRHT3 and 0.24 µm for RRHT4",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 21,
+          "section": "5. Conclusions",
+          "quote": "As the size of the grain boundary γ′ precipitates in RRHT3 alloy increased from 0.5 µm to 1.38 µm, the size of the secondary γ′ precipitates reduced from 0.23 µm to 0.17 µm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "continuously cooled (1 °C/s)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "the continuously cooled sample of RRHT3 was found to possess an average amplitude of the serrated grain boundary of 0.49 µm coupled with an average wavelength of 1.68 µm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.1 °C/s initial)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "Application of the two-step cooling with 0.1˚C/s as the initial cooling in the RRHT3 caused the amplitude of the serrations to increase to 0.77 µm with an average wavelength of 2.4 µm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "Reducing the initial cooling rate further to 0.01˚C/s served to further increase the average amplitude of serrations to 1.13 µm with a corresponding average wavelength of 3.76 µm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_2",
+      "material_state": "continuously cooled (1 °C/s)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "an amplitude and wavelength of 0.53 µm and 1.64 µm, respectively, was measured in the continuously cooled specimen",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_2",
+      "material_state": "two-step cooled (0.1 °C/s initial)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "Reducing the initial cooling rate to 0.1˚C/s increased the average amplitude to 0.79 µm and wavelength to 2.69 µm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_6",
+      "sample_id": "sample_2",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3. Results",
+          "quote": "The average amplitude and wavelength reached 1.52 µm and 4.67 µm, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "process_3",
+      "predicate": "PROMOTES",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 19,
+          "section": "4. Discussion",
+          "quote": "The slowest initial cooling rate of 0.01˚C/s enabled the grain boundary γ′ precipitates for both RRHT3 and RRHT4 more time to grow before reaching the transition temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "phase_2",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 21,
+          "section": "5. Conclusions",
+          "quote": "Nucleation and growth of coarse grain boundary γ′ precipitates induce the formation of serrated grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "microstructure_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 18,
+          "section": "4. Discussion",
+          "quote": "the serrated grain boundary structure is likely to inhibit grain boundary sliding mechanisms",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "process_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "two-step cooled (0.01 °C/s initial)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 19,
+          "section": "4. Discussion",
+          "quote": "the initial cooling rate was intentionally limited to allow for heterogeneous nucleation of a limited number density of γ′ precipitates along grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab0e42e31169ff54:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

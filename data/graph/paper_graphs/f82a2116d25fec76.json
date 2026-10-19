@@ -1,0 +1,1330 @@
+{
+  "document_id": "f82a2116d25fec76",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Interaction between the edge dislocation dipole pair and interfacial misfit dislocation network in Ni-based single crystal superalloys",
+    "authors": [
+      "Zhiwei Zhang",
+      "Qiang Fu",
+      "Jun Wang",
+      "Rong Yang",
+      "Pan Xiao",
+      "Fujiu Ke",
+      "Chunsheng Lu"
+    ],
+    "journal": "International Journal of Solids and Structures",
+    "year": 2021,
+    "doi": "10.1016/j.ijsolstr.2021.111128"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Title",
+          "quote": "Interaction between the edge dislocation dipole pair and interfacial misfit dislocation network in Ni-based single crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        },
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "interaction mechanisms have been investigated between EDD pairs and IMD network in Ni-based single crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni/Ni3Al heterogeneous interfacial model",
+      "canonical_name": "Ni/Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-constructed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+              "quote": "a heterogeneous interfacial model of Ni/Ni3Al is constructed for Ni-based single crystal superalloys, which only consists of pure Ni matrix and Ni3Al precipitate without considering alloying elements such as Ta, Re and Co.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f82a2116d25fec76:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "Ni3Al precipitate",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+              "quote": "a heterogeneous interfacial model of Ni/Ni3Al is constructed for Ni-based single crystal superalloys, which only consists of pure Ni matrix and Ni3Al precipitate without considering alloying elements such as Ta, Re and Co.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f82a2116d25fec76:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+          "quote": "a heterogeneous interfacial model of Ni/Ni3Al is constructed for Ni-based single crystal superalloys, which only consists of pure Ni matrix and Ni3Al precipitate without considering alloying elements such as Ta, Re and Co.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        },
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "Lx = 28.9 nm indicates the size of Ni/Ni 3Al sub- strate in the [11 2]-direction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": 1,
+        "time": "2 fs time step; relaxation 50 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "potential": "embedded-atom method potential for Ni-Al system developed by Mishin (2004)",
+          "time_step": "2 fs",
+          "relaxation_time": "50 ps",
+          "temperature_control": "1 K"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-constructed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Molecular dynamics simulations",
+          "quote": "Simulations were carried out by integrating Newton’s equations of motion for all atoms with a time step of 2 fs. At the start of simulations, initial configurations were energetically minimized by relaxing all samples for 50 ps. Temperature was controlled at 1 K during simulations to avoid thermal effects.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Ni matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "These alloys mainly consist of Ni matrix with face-centered cubic (FCC) structure and dispersion precipitates of Ni3Al with L1 2 structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "L12",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dispersion precipitates",
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "These alloys mainly consist of Ni matrix with face-centered cubic (FCC) structure and dispersion precipitates of Ni3Al with L1 2 structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "interfacial misfit dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "regular quadrilateral network",
+        "location": "(110) interface of Ni/Ni3Al",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+          "quote": "After energy minimization, to accommodate the misfit strain due to lattice difference between the two phases, a regular quadrilateral IMD network was formed on the (110) interface of Ni/Ni3Al as shown in Fig. 1b.",
+          "table": null,
+          "figure": "Fig. 1b",
+          "chunk_id": "f82a2116d25fec76:part:001"
+        },
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "the IMD network has an ability to impede, accommodate and pile up EDD pairs in Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "Ni3Al",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "excitation and propagation of new 1/6 h112 i Shockley dislocations in Ni3Al precipitate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "perfect EDD pairs have firstly been constructed in Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "interfacial misfit dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Ni/Ni3Al interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "the IMD network has an ability to impede, accommodate and pile up EDD pairs in Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Defect",
+      "name": "extended dislocation dipole (EDD) pair",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Ni matrix above Ni/Ni3Al interface",
+        "composition": "four 1/6<112> Shockley dislocations and two stacking faults",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "EDD pairs piling up, merging and collapsing by themselves above Ni/Ni 3Al interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "stiffness",
+      "value": 7169.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "N m^-1",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "stiffness",
+      "value": 8498.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "N m^-1",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "stiffness",
+      "value": 10703.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "N m^-1",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "stimulating period",
+      "value": 157.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ps",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "the stimulating period of EDD pairs decreases from 157.5 to 26 ps as the loading rate increases from 1 to 10 m s^-1 (see Table 1).",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "stimulating period",
+      "value": 26.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ps",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 1",
+          "quote": "10 10703.3 26.0 [11.8]",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "property": "stimulating period of EDD pairs",
+      "value": 144.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ps",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "theoretical model prediction; loading rate 1 m/s"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "the stimulating periods of EDD pairs for loading rates of 1, 5 and 10 m s /C0 1 are derived as 144.7, 26.6, and 11.8 ps, respectively",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "property": "stimulating period of EDD pairs",
+      "value": 26.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ps",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "theoretical model prediction; loading rate 5 m/s"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "the stimulating periods of EDD pairs for loading rates of 1, 5 and 10 m s /C0 1 are derived as 144.7, 26.6, and 11.8 ps, respectively",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "property": "stimulating period of EDD pairs",
+      "value": 11.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ps",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "theoretical model prediction; loading rate 10 m/s"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "the stimulating periods of EDD pairs for loading rates of 1, 5 and 10 m s /C0 1 are derived as 144.7, 26.6, and 11.8 ps, respectively",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "property": "stimulating period of EDD pairs",
+      "value": 157.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ps",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics nanoindentation simulation; loading rate 1 m/s"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "The stimulating period of EDD pairs decreases from 157.5 to 26 ps as the loading rate increases from 1 to 10 m s /C0 1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "property": "stimulating period of EDD pairs",
+      "value": 26.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ps",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics nanoindentation simulation; loading rate 10 m/s"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "The stimulating period of EDD pairs decreases from 157.5 to 26 ps as the loading rate increases from 1 to 10 m s /C0 1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "interfacial misfit dislocation network strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.1 Interaction between EDD pair and IMD network",
+          "quote": "It is shown that the IMD network can effectively impede, accommodate and pile up EDD pairs in Ni matrix, which has a positive effect on the mechanical properties of superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation pinning",
+      "category": "dislocation interaction",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "The interaction between EDD pairs and IMD network leads to generation of dislocation pinning locks in an interfacial network",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation blocking and absorption by interfacial misfit dislocation network",
+      "category": "interface strengthening",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "the IMD network has a good ability to block motion of dislocations and absorb matrix dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "dislocation decomposition and nucleation of Shockley dislocations in Ni3Al",
+      "category": "dislocation reaction",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "It also results in decomposition of dislocations belonging to the IMD network, which induces excitation and propagation of new 1/6 h112 i Shockley dislocations in Ni3Al precipitate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+          "quote": "a heterogeneous interfacial model of Ni/Ni3Al is constructed for Ni-based single crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        },
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "Lx = 28.9 nm indicates the size of Ni/Ni 3Al sub- strate in the [11 2]-direction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "These alloys mainly consist of Ni matrix with face-centered cubic (FCC) structure and dispersion precipitates of Ni3Al with L1 2 structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "These alloys mainly consist of Ni matrix with face-centered cubic (FCC) structure and dispersion precipitates of Ni3Al with L1 2 structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+          "quote": "After energy minimization, to accommodate the misfit strain due to lattice difference between the two phases, a regular quadrilateral IMD network was formed on the (110) interface of Ni/Ni3Al as shown in Fig. 1b.",
+          "table": null,
+          "figure": "Fig. 1b",
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "the stimulating period of EDD pairs decreases from 157.5 to 26 ps as the loading rate increases from 1 to 10 m s^-1 (see Table 1).",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 1",
+          "quote": "10 10703.3 26.0 [11.8]",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.1 Interaction between EDD pair and IMD network",
+          "quote": "It is shown that the IMD network can effectively impede, accommodate and pile up EDD pairs in Ni matrix, which has a positive effect on the mechanical properties of superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.1 Interaction between EDD pair and IMD network",
+          "quote": "This ability is helpful to improve the mechanical properties of Ni-based single crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Molecular dynamics simulations",
+          "quote": "Simulations were carried out by integrating Newton’s equations of motion for all atoms with a time step of 2 fs. At the start of simulations, initial configurations were energetically minimized by relaxing all samples for 50 ps. Temperature was controlled at 1 K during simulations to avoid thermal effects.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "excitation and propagation of new 1/6 h112 i Shockley dislocations in Ni3Al precipitate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "perfect EDD pairs have firstly been constructed in Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "the IMD network has an ability to impede, accommodate and pile up EDD pairs in Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "EDD pairs piling up, merging and collapsing by themselves above Ni/Ni 3Al interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "The interaction between EDD pairs and IMD network leads to generation of dislocation pinning locks in an interfacial network",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "the IMD network has a good ability to block motion of dislocations and absorb matrix dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "It also results in decomposition of dislocations belonging to the IMD network, which induces excitation and propagation of new 1/6 h112 i Shockley dislocations in Ni3Al precipitate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {
+        "loading_rate": "1 m/s",
+        "method": "theoretical model"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "the stimulating periods of EDD pairs for loading rates of 1, 5 and 10 m s /C0 1 are derived as 144.7, 26.6, and 11.8 ps, respectively",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {
+        "loading_rate": "5 m/s",
+        "method": "theoretical model"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "the stimulating periods of EDD pairs for loading rates of 1, 5 and 10 m s /C0 1 are derived as 144.7, 26.6, and 11.8 ps, respectively",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {
+        "loading_rate": "10 m/s",
+        "method": "theoretical model"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "the stimulating periods of EDD pairs for loading rates of 1, 5 and 10 m s /C0 1 are derived as 144.7, 26.6, and 11.8 ps, respectively",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {
+        "loading_rate": "1 m/s",
+        "method": "molecular dynamics nanoindentation"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "The stimulating period of EDD pairs decreases from 157.5 to 26 ps as the loading rate increases from 1 to 10 m s /C0 1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {
+        "loading_rate": "10 m/s",
+        "method": "molecular dynamics nanoindentation"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "5. Conclusions",
+          "quote": "The stimulating period of EDD pairs decreases from 157.5 to 26 ps as the loading rate increases from 1 to 10 m s /C0 1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_25",
+      "source_id": "observation_6",
+      "predicate": "DECREASES",
+      "target_id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {
+        "loading_rate": "1 m/s"
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "It is seen that, at a loading rate of 1 m s /C0 1, the theoretical prediction value is consistent with simulation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_26",
+      "source_id": "sample_1",
+      "predicate": "COMPARED_WITH",
+      "target_id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {
+        "loading_rate": "10 m/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "theoretical values are lower than that of simulating results at loading rates of 5 and 10 m s /C0 1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [
+    {
+      "id": "conflict_1",
+      "subject": "stimulating period of EDD pairs at loading rate 5 m/s",
+      "claim_1": "theoretical prediction 26.6 ps (observation_7)",
+      "claim_2": "simulated value higher than theoretical (source reports theoretical values lower than simulation at 5 and 10 m/s but simulation value not numerically given)",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "theoretical values are lower than that of simulating results at load- ing rates of 5 and 10 m s /C0 1",
+          "table": "Table 1",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "conflict_2",
+      "subject": "stimulating period of EDD pairs at loading rate 10 m/s",
+      "claim_1": "theoretical prediction 11.8 ps (observation_8)",
+      "claim_2": "simulated value 26 ps (observation_10), higher than theoretical",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2. Theoretical model of loading rates",
+          "quote": "theoretical values are lower than that of simulating results at load- ing rates of 5 and 10 m s /C0 1",
+          "table": "Table 1",
+          "figure": null
+        }
+      ]
+    }
+  ],
+  "chunk_id": "paper"
+}

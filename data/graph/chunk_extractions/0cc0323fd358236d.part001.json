@@ -1,0 +1,123 @@
+{
+  "document_id": "0cc0323fd358236d",
+  "chunk_id": "0cc0323fd358236d:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "High temperature brittle intergranular cracking in high strength nickel alloys undoped and doped with S, Zr, and/or B—II. Solute segregation analysis",
+    "authors": [
+      "J. Kameda",
+      "A. J. Bevolo"
+    ],
+    "journal": "Acta Metallurgica et Materialia",
+    "year": 1993,
+    "doi": "10.1016/0956-7151(93)90082-4"
+  },
+  "alloy_systems": [],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "S-induced intergranular decohesion",
+      "category": "embrittlement",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "4.1 Mechanisms of local S enrichment and high temperature brittle intergranular cracking",
+          "quote": "The S fluxes from crack surfaces and sulfides to the crack tip facilitate locally intergranular decohesion [Fig. 17(c)].",
+          "table": null,
+          "figure": "17",
+          "chunk_id": "0cc0323fd358236d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "S surface segregation",
+      "category": "segregation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The alloys with low S, and high S and B showed more strongly S segregation on high temperature fracture surfaces, which was much greater compared with at grain boundaries, than with high S, and high S and Zr.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0cc0323fd358236d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "S diffusion at grain boundaries and on crack surfaces",
+      "category": "diffusion",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "it was shown that the HT brittle intergranular cracking is controlled by S diffusion at grain boundaries and on crack surfaces.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0cc0323fd358236d:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4. Discussion",
+          "quote": "it has been shown [1] that the activation energies relevant to HT brittle cracking are highly correlated with for S diffusion at grain boundaries and on crack surfaces.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0cc0323fd358236d:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "4.1 Mechanisms of local S enrichment and high temperature brittle intergranular cracking",
+          "quote": "It must also be emphasized that the strong tendency of S segregation on free surfaces becomes an important factor for HT brittle cracking because a crack as free surfaces becomes a supplying source of embrittling S.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0cc0323fd358236d:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

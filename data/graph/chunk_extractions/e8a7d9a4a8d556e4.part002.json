@@ -1,0 +1,230 @@
+{
+  "document_id": "e8a7d9a4a8d556e4",
+  "chunk_id": "e8a7d9a4a8d556e4:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Dynamic Strain Aging During the Creep and Tensile Testing of a Molybdenum-Titanium-Carbon Alloy",
+    "authors": [
+      "Peter L. Raffo"
+    ],
+    "journal": "NASA Technical Note",
+    "year": 1969,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mo-Ti-C alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": "22",
+          "section": "CONCLUSIONS",
+          "quote": "A study of creep and dynamic strain aging in a Mo-Ti-C alloy led to the following conclusions :",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Mo-Ti-C alloy",
+      "canonical_name": "Mo-Ti-C",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "22",
+          "section": "Retardation of Recovery in Mo-Ti-C Alloy",
+          "quote": "This retardation of recovery may also account for the small increase in the creep strength of molybdenum conferred by titanium and carbon above 2400' F (1588 K).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "carbide precipitate",
+      "sample_id": "sample_1",
+      "material_state": "during creep and tensile testing",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "on dislocations",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "22",
+          "section": "CONCLUSIONS",
+          "quote": "Precipitation during deformation has two main effects. The first is associated with the decrease in the mobile dislocation density due to pinning by the carbide precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        },
+        {
+          "page": "21",
+          "section": null,
+          "quote": "The particle spacing in figure 11 is significantly smaller than this, indicating that these dislocations are pinned.",
+          "table": null,
+          "figure": "figure 11",
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation on dislocations",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "during creep and tensile testing",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "22",
+          "section": "CONCLUSIONS",
+          "quote": "The strengthening effects during the creep and short time tensile tests of a Mo-Ti-C alloy are directly related to precipitation during plastic deformation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation pinning",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "during creep and tensile testing",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "21",
+          "section": null,
+          "quote": "The particle spacing in figure 11 is significantly smaller than this, indicating that these dislocations are pinned.",
+          "table": null,
+          "figure": "figure 11",
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "retardation of recovery",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "during creep and tensile testing",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "22",
+          "section": "Retardation of Recovery in Mo-Ti-C Alloy",
+          "quote": "It appears that the precipitation during the creep and tensile tests may also retard recovery by perhaps pinning dislocation networks or some other portion of the dislocation substructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "Ti-C cluster pinning of dislocation network",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "high temperature creep",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "22",
+          "section": "Retardation of Recovery in Mo-Ti-C Alloy",
+          "quote": "This may occur by clusters of titanium and carbon atoms pinning the dislocation network.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "during creep and tensile testing",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "22",
+          "section": "CONCLUSIONS",
+          "quote": "The first is associated with the decrease in the mobile dislocation density due to pinning by the carbide precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "during creep and tensile testing",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "22",
+          "section": "Retardation of Recovery in Mo-Ti-C Alloy",
+          "quote": "It appears that the precipitation during the creep and tensile tests may also retard recovery by perhaps pinning dislocation networks or some other portion of the dislocation substructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_4",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "high temperature creep",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "22",
+          "section": "Retardation of Recovery in Mo-Ti-C Alloy",
+          "quote": "This may occur by clusters of titanium and carbon atoms pinning the dislocation network. These clusters would then be too small to be observed by transmission electron microscopy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e8a7d9a4a8d556e4:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

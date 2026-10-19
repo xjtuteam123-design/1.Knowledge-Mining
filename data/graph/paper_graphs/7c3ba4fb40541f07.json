@@ -1,0 +1,1001 @@
+{
+  "document_id": "7c3ba4fb40541f07",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Role of coherency loss on rafting behavior of Ni-based superalloys",
+    "authors": [
+      "Muhammad Adil Ali",
+      "Johannes V. Görler",
+      "Ingo Steinbach"
+    ],
+    "journal": "Computational Materials Science",
+    "year": 2020,
+    "doi": "10.1016/j.commatsci.2019.109279"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Role of coherency loss on rafting of superalloys under high temperature low stress creep conditions is investigated by phase-field crystal plasticity simulations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-Al superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "For computational feasibility, a Ni-Al binary system is considered in the phase-field model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "CMSX-4 Ni-based single-crystal superalloy",
+      "material_category": "Ni-based single-crystal superalloy",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The phenomenological crystal plasticity model is employed for creep simulations of CMSX-4 at the temperature of 950 °C and external stress of 350MPa in the [100] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni-based superalloy (model)",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as heat treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Single crystal Ni-based superalloy blades are key components in aero engines and stationary turbines because of their exceptional mechanical properties and extraordinary corrosion resistance at high temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Ni-Al binary system (simulated gamma/gamma' microstructure)",
+      "canonical_name": "Ni-Al",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "simulated gamma/gamma' microstructure",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 6,
+              "section": "3. Results and discussion",
+              "quote": "a Ni-Al binary system is considered in the phase-field model",
+              "table": null,
+              "figure": null,
+              "chunk_id": "7c3ba4fb40541f07:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "solute",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 6,
+              "section": "3. Results and discussion",
+              "quote": "a Ni-Al binary system is considered in the phase-field model",
+              "table": null,
+              "figure": null,
+              "chunk_id": "7c3ba4fb40541f07:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The simulation domain incorporates 3.81 μm in each direction, discretized in 128 nodes.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_3",
+      "material_state": "crept at 950 C and 350 MPa",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The phenomenological crystal plasticity model is employed for creep simulations of CMSX-4 at the temperature of 950 °C and external stress of 350MPa in the [100] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as heat treated",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ′ in the as heat treated material is coherent with γ phase across the interface with negative lattice misfit",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 950,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 350
+        }
+      },
+      "input_state": "as heat treated",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Results",
+          "quote": "Evolution of microstructure during creep at 950°C and 350MPa.",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "phase-field simulation",
+      "parameters": {
+        "temperature_c": 950,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "simulation_box_nm": "32x16x32",
+          "grid_size_nm": 30,
+          "boundary_conditions": "periodic",
+          "applied_stress_MPa": 350,
+          "loading_direction": "[100]"
+        }
+      },
+      "input_state": "supersaturated gamma-phase matrix",
+      "output_state": "rafted gamma/gamma' microstructure",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "Here, a 32x16x32 simulation box with the grid size of 30nm is chosen and periodic boundary conditions are applied.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ′ (L12)",
+      "sample_id": "sample_1",
+      "material_state": "as heat treated",
+      "attributes": {
+        "phase_fraction": 0.7,
+        "size": "edge length 450 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The volume fraction of the γ′ in technical superalloys is as high as 70% or above with an edge length of the cubic precipitates of typically 450nm, separated by the γ channels of width 20nm to 70nm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ (FCC)",
+      "sample_id": "sample_1",
+      "material_state": "as heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "channel",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "This microstructure is composed of a high volume fraction of ordered L12-precipitates γ′, dispersed in the FCC-matrix γ",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "raft structure",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "plate-like",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Results",
+          "quote": "Evolution of microstructure during creep at 950°C and 350MPa. The γ′ and γ phase is shown in orange and blue, respectively. Fig. (a) displays the initial microstructure and (b)-(d) represent the crept microstructure up to 1% net creep strain.",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma' (L12)",
+      "sample_id": "sample_2",
+      "material_state": "simulated gamma/gamma' microstructure",
+      "attributes": {
+        "phase_fraction": "55%",
+        "size": "side length 400 nm",
+        "morphology": "cuboidal",
+        "location": "gamma matrix",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The volume fraction of γ' phase is 55%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "gamma (FCC)",
+      "sample_id": "sample_2",
+      "material_state": "simulated gamma/gamma' microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix channels",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The four anti-phase domains of γ' precipitates are introduced in the simulation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "rafted microstructure",
+      "sample_id": "sample_2",
+      "material_state": "rafted gamma/gamma' microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "N-type rafting",
+        "location": "gamma matrix channels",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "After further coalescence and directional coarsening of merged γ' precipitates, the microstructure is significantly rafted",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "anti-phase domain",
+      "sample_id": "sample_2",
+      "material_state": "simulated gamma/gamma' microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma' precipitates",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The four anti-phase domains of γ' precipitates are introduced in the simulation by randomly assigning the numbers from 0 to 3",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "slip band",
+      "sample_id": "sample_2",
+      "material_state": "rafted gamma/gamma' microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma channels",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3. Results and discussion",
+          "quote": "Formation of slip bands occurs in the ⟨110⟩ direction, which hinder the further growth of precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "crept at 950 C and 350 MPa",
+      "property": "creep strain",
+      "value": 0.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 950,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[100]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "crystal plasticity simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3. Results and discussion",
+          "quote": "the effective creep curve of the microstructure fits the experimental one up to the onset of damage at about 0.8 % strain",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "coherency loss",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The role of coherency loss on rafting of superalloys under high temperature low stress creep conditions is investigated by phase-field crystal plasticity simulations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "rafting",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The phenomenon, called 'rafting', is additionally be supported by plastic flow of material.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "plastic deformation accelerated rafting",
+      "category": "microstructure evolution",
+      "sample_id": "sample_2",
+      "material_state": "rafted gamma/gamma' microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "4. Summary and conclusion",
+          "quote": "the plastic deformation significantly accelerated the conversion of cuboidal morphology to a rafted one",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "Ostwald ripening",
+      "category": "coarsening",
+      "sample_id": "sample_2",
+      "material_state": "rafted gamma/gamma' microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3. Results and discussion",
+          "quote": "Further coarsening of the γ' precipitates is assisted by Ostwald ripening process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "diffusion-controlled phase transformation",
+      "category": "phase transformation",
+      "sample_id": "sample_2",
+      "material_state": "simulated gamma/gamma' microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The interplay between diffusion controlled phase transformation and plasticity is of central interest.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Single crystal Ni-based superalloy blades are key components in aero engines and stationary turbines because of their exceptional mechanical properties and extraordinary corrosion resistance at high temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ′ in the as heat treated material is coherent with γ phase across the interface with negative lattice misfit",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {
+        "stress_MPa": 350,
+        "temperature_c": 950
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Results",
+          "quote": "Evolution of microstructure during creep at 950°C and 350MPa.",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "This microstructure is composed of a high volume fraction of ordered L12-precipitates γ′, dispersed in the FCC-matrix γ",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "This microstructure is composed of a high volume fraction of ordered L12-precipitates γ′, dispersed in the FCC-matrix γ",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {
+        "stress_MPa": 350,
+        "temperature_c": 950
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Results",
+          "quote": "Evolution of microstructure during creep at 950°C and 350MPa. The γ′ and γ phase is shown in orange and blue, respectively. Fig. (a) displays the initial microstructure and (b)-(d) represent the crept microstructure up to 1% net creep strain.",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Additionally, plastic deformation in the channels causes coherency loss and accommodates the misfit, which favors rafting",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The plastic strain generated during creep deformation decreases the misfit stresses and the disjoining potential and allows precipitates to close the channel between each other if there is a positive driving force for γ to γ′ transformation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "alloy_system_2",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "For computational feasibility, a Ni-Al binary system is considered in the phase-field model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "alloy_system_3",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The phenomenological crystal plasticity model is employed for creep simulations of CMSX-4 at the temperature of 950 °C and external stress of 350MPa in the [100] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_2",
+      "material_state": "simulated gamma/gamma' microstructure",
+      "conditions": {
+        "temperature_c": 950,
+        "stress_MPa": 350
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The phenomenological crystal plasticity model is employed for creep simulations of CMSX-4 at the temperature of 950 °C and external stress of 350MPa in the [100] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "simulated gamma/gamma' microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The volume fraction of γ' phase is 55%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": "simulated gamma/gamma' microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The four anti-phase domains of γ' precipitates are introduced in the simulation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "rafted gamma/gamma' microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "simulated",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "After further coalescence and directional coarsening of merged γ' precipitates, the microstructure is significantly rafted",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_2",
+      "material_state": "simulated gamma/gamma' microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "simulated",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The four anti-phase domains of γ' precipitates are introduced in the simulation by randomly assigning the numbers from 0 to 3",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_2",
+      "material_state": "rafted gamma/gamma' microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "simulated",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3. Results and discussion",
+          "quote": "Formation of slip bands occurs in the ⟨110⟩ direction, which hinder the further growth of precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "mechanism_3",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "rafted gamma/gamma' microstructure",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "4. Summary and conclusion",
+          "quote": "the plastic deformation significantly accelerated the conversion of cuboidal morphology to a rafted one",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "microstructure_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "crept at 950 C and 350 MPa",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The decrease in internal stress has a direct influence on the creep strain increment which lower the creep rate during the simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "mechanism_4",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "rafted gamma/gamma' microstructure",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3. Results and discussion",
+          "quote": "Further coarsening of the γ' precipitates is assisted by Ostwald ripening process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7c3ba4fb40541f07:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

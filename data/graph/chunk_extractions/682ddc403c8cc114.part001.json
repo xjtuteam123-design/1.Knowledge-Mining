@@ -1,0 +1,897 @@
+{
+  "document_id": "682ddc403c8cc114",
+  "chunk_id": "682ddc403c8cc114:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "An explainable machine learning model for superalloys creep life prediction coupling with physical metallurgy models and CALPHAD",
+    "authors": [
+      "Yuyu Huang",
+      "Jide Liu",
+      "Chongwei Zhu",
+      "Xinguang Wang",
+      "Yizhou Zhou",
+      "Xiaofeng Sun",
+      "Jinguo Li"
+    ],
+    "journal": "Computational Materials Science",
+    "year": 2023,
+    "doi": "10.1016/j.commatsci.2023.112283"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "a machine learning model for Ni-based single crystal creep life prediction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "DD419",
+      "canonical_name": "DD419",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Re",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 9.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 5.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 6.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 6.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 6.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Compositions of the engineering-applied single crystal superalloys. Alloys Re Co Al Ti W Mo Cr Ta Hf Ni DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "DD5",
+      "canonical_name": "DD5",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Re",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 7.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 1.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 6.45,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Compositions of the engineering-applied single crystal superalloys. Alloys Re Co Al Ti W Mo Cr Ta Hf Ni DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "DD98M",
+      "canonical_name": "DD98M",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Re",
+          "value": 0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 4.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 6.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 5.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 6.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 3",
+              "quote": "DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "682ddc403c8cc114:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Compositions of the engineering-applied single crystal superalloys. Alloys Re Co Al Ti W Mo Cr Ta Hf Ni DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "Random Forest",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression",
+      "inputs": [
+        "lattice misfit (LM, %)",
+        "effective diffusion coefficient (EDC, m2/s)",
+        "volume fraction of γ′ phase (Vγ′, %)",
+        "solvus temperature of γ′ phase (Tγ′, °C)",
+        "anti-phase boundary energy (APBE, mJ/m2)",
+        "shear modulus (SM, GPa)",
+        "stacking fault energy (SFE, mJ/m2)",
+        "width of γ channel (Dγ, nm)"
+      ],
+      "target": "creep life (h)",
+      "dataset": "596 sets of Nickel-based single crystal superalloy creep life data collected from published literatures and patents",
+      "validation": "ten-fold cross validation",
+      "metrics": {
+        "R2": 0.945
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.5 Machine learning algorithm and model training",
+          "quote": "As a bagging integrated algorithm based on decision trees, Random Forest algorithm [35] was employed to fit the creep data here.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        },
+        {
+          "page": 4,
+          "section": "3.2 Model accuracy evaluation",
+          "quote": "the model guided by physical metallurgy had the best prediction accuracy with R2 of 0.945",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "Random Forest",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression",
+      "inputs": [
+        "14 alloy composition features",
+        "test temperature",
+        "test stress"
+      ],
+      "target": "creep life (h)",
+      "dataset": "596 sets of Nickel-based single crystal superalloy creep life data collected from published literatures and patents",
+      "validation": "ten-fold cross validation",
+      "metrics": {
+        "R2": 0.846
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Model accuracy evaluation",
+          "quote": "Their R2 values were 0.945, 0.906 and 0.846, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "Random Forest",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression",
+      "inputs": [
+        "principal components"
+      ],
+      "target": "creep life (h)",
+      "dataset": "596 sets of Nickel-based single crystal superalloy creep life data collected from published literatures and patents",
+      "validation": "ten-fold cross validation",
+      "metrics": {
+        "R2": 0.906
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Model accuracy evaluation",
+          "quote": "Their R2 values were 0.945, 0.906 and 0.846, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Compositions of the engineering-applied single crystal superalloys. Alloys Re Co Al Ti W Mo Cr Ta Hf Ni DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Compositions of the engineering-applied single crystal superalloys. Alloys Re Co Al Ti W Mo Cr Ta Hf Ni DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Compositions of the engineering-applied single crystal superalloys. Alloys Re Co Al Ti W Mo Cr Ta Hf Ni DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Compositions of the engineering-applied single crystal superalloys. Alloys Re Co Al Ti W Mo Cr Ta Hf Ni DD419 3 9.5 5.5 1 6.5 0.6 6.5 6.5 0.1 Bal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_2",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Compositions of the engineering-applied single crystal superalloys. Alloys Re Co Al Ti W Mo Cr Ta Hf Ni DD5 3 7.5 6 0 5 1.5 7 6.45 0.1 Bal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_3",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 3",
+          "quote": "Compositions of the engineering-applied single crystal superalloys. Alloys Re Co Al Ti W Mo Cr Ta Hf Ni DD98M 0 4.5 6.8 0 6 2 5.5 6.5 0 Bal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

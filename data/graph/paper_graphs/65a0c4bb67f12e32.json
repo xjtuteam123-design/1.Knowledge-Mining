@@ -1,0 +1,556 @@
+{
+  "document_id": "65a0c4bb67f12e32",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "First-principles study of Ni/Ni3Al interface strengthening by alloying elements",
+    "authors": [
+      "Xiu-Fang Gong",
+      "Gong Xian Yang",
+      "You Heng Fu",
+      "Yi Qun Xie",
+      "Jun Zhuang",
+      "Xi-Jing Ning"
+    ],
+    "journal": "Computational Materials Science",
+    "year": 2009,
+    "doi": "10.1016/j.commatsci.2009.08.008"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-base superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "abstract",
+          "quote": "The strengthening effects induced by alloying elements (Re, Ru, Cr, Co, Mo, W, Ta) on Ni/Ni 3Al interface in single crystal Ni-based superalloys are investigated in terms of Grifﬁth work using ﬁrst-principles density functional theory.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "No-add model",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "unalloyed interfacial supercell",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Site preference of alloying elements and Griffith work",
+          "quote": "The No-add model in Fig. 2 represents Ni/Ni3Al interfaces free of alloying atoms.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Re-Al(3) model",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "Re-substituted at Al(3) interfacial site",
+      "composition": [
+        {
+          "element": "Re",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atoms per supercell",
+          "role": "nominal",
+          "applies_to": "supercell",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Method and computational model",
+              "quote": "For the sake of the symmetry in our calculations, the supercell is doped with two alloying atom, i.e., one alloying atom for each interface.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "65a0c4bb67f12e32:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1 Electronic structures of Ni/Ni 3Al interface",
+          "quote": "In the case of replacing Al by Re at (0 0 1) c0 , Fig. 5b illustrates a strong electronic interaction between Re and Ni atoms",
+          "table": null,
+          "figure": "Fig. 5b",
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Griffith work calculation for Re",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "Re substitution at Al(3) site",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Site preference of alloying elements and Griffith work",
+          "quote": "The best strengthening effect on the Ni/Ni 3Al interface is achieved by the Re substitution with an increase of 0.983 J/m 2 in rupture strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "Co-Al(3) model",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "Co-substituted at Al(3) interfacial site",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1 Electronic structures of Ni/Ni 3Al interface",
+          "quote": "For the case where Al(3) atom is replaced by Co atom at (0 0 1) c0 layer, the contour plot of valence charge density is similar to that of Re–Al(3) model.",
+          "table": null,
+          "figure": "Fig. 5d",
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "first-principles density functional theory calculation (VASP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "code": "VASP",
+          "exchange_correlation": "generalized gradient approximation (PW91)",
+          "k_point_grid": "4x4x2 Monkhorst-Pack",
+          "force_convergence": "<0.01 eV/Angstrom",
+          "supercell_atoms": 64
+        }
+      },
+      "input_state": "ideal Ni/Ni3Al interface supercell without alloying elements",
+      "output_state": "relaxed No-add supercell",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method and computational model",
+          "quote": "The first-principles calculations presented in this paper are performed using the ab initio program VASP [19].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "first-principles density functional theory calculation (VASP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "substitution_site": "Al(3)",
+          "dopant": "Re",
+          "alloying_atoms_per_supercell": 2
+        }
+      },
+      "input_state": "Ni/Ni3Al supercell with Re substituted at Al sites",
+      "output_state": "relaxed Re-Al(3) supercell",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method and computational model",
+          "quote": "In order to investigate the effect of alloying element on the strength and toughness of Ni/Ni 3Al interface, seven interfacial models with alloying elements, i.e., Ni(1), Ni(2), Al(3), Ni(4), Ni(5), Al(6) and Ni(7), are constructed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-Ni",
+      "sample_id": "sample_1",
+      "material_state": "unalloyed interfacial supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma matrix block",
+        "composition": "disordered fcc solid solution based on Ni",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "cuboidal c0 phase (Ll2, ordered fcc, Ni3Al based) precipitates coherently embedded in the c matrix phase (disordered fcc, solid solution based on Ni)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma'-Ni3Al",
+      "sample_id": "sample_1",
+      "material_state": "unalloyed interfacial supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": "gamma-prime block",
+        "composition": "Ll2 ordered fcc, Ni3Al based",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "cuboidal c0 phase (Ll2, ordered fcc, Ni3Al based) precipitates coherently embedded in the c matrix phase (disordered fcc, solid solution based on Ni)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Microstructure",
+      "name": "coherent (002) interface",
+      "sample_id": "sample_1",
+      "material_state": "unalloyed interfacial supercell",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "coherent gamma/gamma-prime interface layer",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method and computational model",
+          "quote": "The (0 0 2) atomic layer is regarded as the coherent interface of the c-Ni and c0-Ni3Al blocks based on the experimental result reported by Harada et al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "Re substitution at Al(3) site",
+      "property": "rupture strength",
+      "value": 0.983,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "J/m^2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Griffith work calculation (first-principles)"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Site preference of alloying elements and Griffith work",
+          "quote": "The best strengthening effect on the Ni/Ni 3Al interface is achieved by the Re substitution with an increase of 0.983 J/m 2 in rupture strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "interfacial strengthening by strong Re-Ni electronic interaction",
+      "category": "interfacial bonding",
+      "sample_id": "sample_2",
+      "material_state": "Re-substituted at Al(3) interfacial site",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1 Electronic structures of Ni/Ni 3Al interface",
+          "quote": "Fig. 5b illustrates a strong electronic interaction between Re and Ni atoms within the FNN separation, which cause the (0 0 2) c/c0 layer and c0-Ni3Al block to become one whole block. Thus for cleavage along the (0 0 1) atomic layer in the c0-Ni3Al block of Al(3) models, a larger force is required",
+          "table": null,
+          "figure": "Fig. 5b",
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "unalloyed interfacial supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Site preference of alloying elements and Griffith work",
+          "quote": "The No-add model in Fig. 2 represents Ni/Ni3Al interfaces free of alloying atoms.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "unalloyed interfacial supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "cuboidal c0 phase (Ll2, ordered fcc, Ni3Al based) precipitates coherently embedded in the c matrix phase (disordered fcc, solid solution based on Ni)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "unalloyed interfacial supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "cuboidal c0 phase (Ll2, ordered fcc, Ni3Al based) precipitates coherently embedded in the c matrix phase (disordered fcc, solid solution based on Ni)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "unalloyed interfacial supercell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method and computational model",
+          "quote": "The first-principles calculations presented in this paper are performed using the ab initio program VASP [19].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "Re-substituted at Al(3) interfacial site",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Method and computational model",
+          "quote": "In order to investigate the effect of alloying element on the strength and toughness of Ni/Ni 3Al interface, seven interfacial models with alloying elements, i.e., Ni(1), Ni(2), Al(3), Ni(4), Ni(5), Al(6) and Ni(7), are constructed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "Re-substituted at Al(3) interfacial site",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1 Electronic structures of Ni/Ni 3Al interface",
+          "quote": "Fig. 5b illustrates a strong electronic interaction between Re and Ni atoms within the FNN separation, which cause the (0 0 2) c/c0 layer and c0-Ni3Al block to become one whole block.",
+          "table": null,
+          "figure": "Fig. 5b",
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "Re substitution at Al(3) site",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Site preference of alloying elements and Griffith work",
+          "quote": "The best strengthening effect on the Ni/Ni 3Al interface is achieved by the Re substitution with an increase of 0.983 J/m 2 in rupture strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "Re substitution at Al(3) site",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1 Electronic structures of Ni/Ni 3Al interface",
+          "quote": "Thus for cleavage along the (0 0 1) atomic layer in the c0-Ni3Al block of Al(3) models, a larger force is required to be imposed to the Ni/Ni 3Al interface, which then leads to signiﬁcant increase of the Grifﬁth work, as shown in Fig. 4c.",
+          "table": null,
+          "figure": "Fig. 4c",
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "Re substitution at Al(3) site",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1 Site preference of alloying elements and Griffith work",
+          "quote": "The best strengthening effect on the Ni/Ni 3Al interface is achieved by the Re substitution with an increase of 0.983 J/m 2 in rupture strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_4",
+      "sample_id": "sample_4",
+      "material_state": "Co-substituted at Al(3) interfacial site",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1 Electronic structures of Ni/Ni 3Al interface",
+          "quote": "For the case where Al(3) atom is replaced by Co atom at (0 0 1) c0 layer, the contour plot of valence charge density is similar to that of Re–Al(3) model.",
+          "table": null,
+          "figure": "Fig. 5d",
+          "chunk_id": "65a0c4bb67f12e32:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "Ni(1) model",
+    "Ni(2) model",
+    "Ni(4) model",
+    "Ni(5) model",
+    "Al(6) model",
+    "Ni(7) model"
+  ],
+  "conflicts": []
+}

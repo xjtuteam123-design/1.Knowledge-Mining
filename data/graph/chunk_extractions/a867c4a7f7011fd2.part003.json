@@ -1,0 +1,183 @@
+{
+  "document_id": "a867c4a7f7011fd2",
+  "chunk_id": "a867c4a7f7011fd2:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Bharat Gwalani",
+      "Shivakant Shukla",
+      "Donovan Leonard",
+      "Jonathan D. Poplawsky",
+      "Dean T. Pierce",
+      "Libor Kovarik",
+      "Govindarajan Muralidharan",
+      "Arun Devaraj"
+    ],
+    "journal": "Journal of Alloys and Compounds",
+    "year": 2021,
+    "doi": "10.1016/j.jallcom.2021.161207"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the phase stability of the η phase in this e xperimental alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a867c4a7f7011fd2:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "ex perimental alloy",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the phase stability of the η phase in this e xperimental alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a867c4a7f7011fd2:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma prime (γ′)",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "one approach predicting γ′ as the eq uilibrium phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a867c4a7f7011fd2:part:003"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "eta phase (η)",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the other approach predicting η phase as the eq uilibrium phase at 90 0 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a867c4a7f7011fd2:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 900
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "one approach predicting γ′ as the eq uilibrium phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a867c4a7f7011fd2:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": 900
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the other approach predicting η phase as the eq uilibrium phase at 90 0 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "a867c4a7f7011fd2:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [
+    {
+      "id": "conflict_1",
+      "type": "contradictory_claim",
+      "description": "Two thermodynamic calculation approaches predict different equilibrium phases (γ′ vs η) at 900 °C.",
+      "involved_ids": [
+        "phase_1",
+        "phase_2"
+      ],
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Discrepancies wer e observed between the results from the two calculation approaches in the predict ed stabilities of the γ′ and η phase as a function of temper ature, with one approach predicting γ′ as the eq uilibrium phase and the o ther approach predicting η phase as the eq uilibrium phase at 90 0 °C.",
+          "table": null,
+          "figure": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "document_id": "d4d3d5a684239390",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "An improved methodology for determining tensile design strengths of Alloy 617",
+    "authors": [
+      "Woo-Gon Kim",
+      "Song-Nan Yin",
+      "Ji-Yeon Park",
+      "Sung-Deok Hong",
+      "Yong-Wan Kim"
+    ],
+    "journal": "Journal of Mechanical Science and Technology",
+    "year": 2012,
+    "doi": "10.1007/s12206-011-1024-5"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "their materials have potential for use in nickel-based superalloys such as Alloy 617, Haynes 230, Hastelloy-X and Alloy 800H.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Alloy 617",
+      "canonical_name": "Alloy 617",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested in air (multi-product-form tensile database)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3.1 Collection of YS and UTS data",
+          "quote": "Tensile strength data of Alloy 617 tested in air were collected through world-wide literature surveys, manufacturing companies, and a KAERI effort: Sham et al. [11], European Alloy-DB (EC-JRC) data [13], KAERI data [14], Inco Alloy [15], and Haynes Alloy [16].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        },
+        {
+          "page": "9",
+          "section": "Conclusions",
+          "quote": "In establishing the tensile de sign strengths of temperature trend for Alloy 617",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested in air (multi-product-form tensile database)",
+      "property": "yield strength",
+      "value": 240,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "specification minimum value per ASME Section II, Part D"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.2 Analysis of ASME method",
+          "quote": "using a specific minimum room temperature YS of 240 MPa and a minimum room temperature UTS of 655 MPa [12]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tested in air (multi-product-form tensile database)",
+      "property": "ultimate tensile strength",
+      "value": 655,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "specification minimum value per ASME Section II, Part D"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.2 Analysis of ASME method",
+          "quote": "using a specific minimum room temperature YS of 240 MPa and a minimum room temperature UTS of 655 MPa [12]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dynamic strain ageing (DSA)",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tested in air (multi-product-form tensile database)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.3 Conservative lower bound curves",
+          "quote": "This is attributed to a dynamic strain ageing (DSA) phenomenon increasing strengths by obstacles to the movement of dislocations during strain. This DSA phenomenon has been well known to be generated at specific temperature ranges for solid solution alloys like austenitic stainless steels [17]. It is thus believed that the DSA was generated at this temperature range for Alloy 617 which is a solid solution alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation cross-slip and climb recovery",
+      "category": "softening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tested in air (multi-product-form tensile database)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.3 Conservative lower bound curves",
+          "quote": "in the higher temperature ranges of T >1100 K for the YS and T >1000 K for the UTS, their strengths were rapidly reduced with increasing temperatures. The reason for this is that the density of dislocations was reduced significantly by a crossing slip or a climb of the dislocations at this higher temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "tested in air (multi-product-form tensile database)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Among these, Alloy 617 is a prime candidate material due to its superior creep resistance above 800°C compared with other potential superalloys [4-6].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested in air (multi-product-form tensile database)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.2 Analysis of ASME method",
+          "quote": "using a specific minimum room temperature YS of 240 MPa and a minimum room temperature UTS of 655 MPa [12]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tested in air (multi-product-form tensile database)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.2 Analysis of ASME method",
+          "quote": "using a specific minimum room temperature YS of 240 MPa and a minimum room temperature UTS of 655 MPa [12]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested in air (multi-product-form tensile database)",
+      "conditions": {
+        "temperature_range": "T<1100 K for YS"
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.3 Conservative lower bound curves",
+          "quote": "in the lower temperature ranges of T<1100 K for the YS and T<1000 K for the UTS, the YS and UTS were not reduced and steady regardless of increasing temperatures. This is attributed to a dynamic strain ageing (DSA) phenomenon increasing strengths by obstacles to the movement of dislocations during strain.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested in air (multi-product-form tensile database)",
+      "conditions": {
+        "temperature_range": "T>1100 K"
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.3 Conservative lower bound curves",
+          "quote": "in the higher temperature ranges of T >1100 K for the YS and T >1000 K for the UTS, their strengths were rapidly reduced with increasing temperatures. The reason for this is that the density of dislocations was reduced significantly by a crossing slip or a climb of the dislocations at this higher temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "Conclusions",
+          "quote": "In establishing the tensile de sign strengths of temperature trend for Alloy 617",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d4d3d5a684239390:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "YS",
+    "UTS",
+    "2-step polynomial fit",
+    "2-step exponential fit",
+    "95% lower bound curve"
+  ],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

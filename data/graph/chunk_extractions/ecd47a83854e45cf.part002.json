@@ -1,0 +1,210 @@
+{
+  "document_id": "ecd47a83854e45cf",
+  "chunk_id": "ecd47a83854e45cf:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Hui Chang",
+      "Tuanwei Zhang",
+      "Zhiqiang Li",
+      "Jinyao Ma",
+      "Jianjun Wang",
+      "Dan Zhao",
+      "Shengguo Ma",
+      "Zhihua Wang"
+    ],
+    "journal": "Materials & Design",
+    "year": 2024,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "CrCoNi medium-entropy alloy",
+      "material_category": "medium-entropy alloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The volume fraction results of CrCoNi and CrCoNiSi0.3 MEAs under various loading conditions are presented in Table 2.",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ecd47a83854e45cf:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CrCoNi",
+      "canonical_name": "CrCoNi",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "quasi-static tension at cryogenic temperature",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The DTs volume fraction increases significantly with decreasing temperature from 298 K to 77 K for the CrCoNi and CrCoNiSi0.3 MEAs under both quasi-static and dynamic tension.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ecd47a83854e45cf:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": "sample_1",
+      "material_state": "quasi-static tension at cryogenic temperature",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the (10 1 1) diffraction peak occurs in the CrCoNi MEA, and its intensity increases in the CrCoNiSi0.3 MEA, indicating an increase in the volume fraction of HCP phase.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ecd47a83854e45cf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "deformation twin",
+      "sample_id": "sample_1",
+      "material_state": "quasi-static tension at cryogenic temperature",
+      "attributes": {
+        "phase_fraction": 9.3,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "CrCoNi 77 10 3 25.6 36.3 9.3",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "ecd47a83854e45cf:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "deformation twinning",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "quasi-static tension at cryogenic temperature",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "A decreased SFE at cryogenic temperature activates more DTs, multiple twinning, and large-scale HCP transitions, thus increasing the strain hardening capacity and strength of the CrCoNiSi0.3 MEA at cryogenic temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ecd47a83854e45cf:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "quasi-static tension at cryogenic temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "A decreased SFE at cryogenic temperature activates more DTs, multiple twinning, and large-scale HCP transitions, thus increasing the strain hardening capacity and strength of the CrCoNiSi0.3 MEA at cryogenic temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ecd47a83854e45cf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_1",
+      "predicate": "CORRELATES_WITH",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "quasi-static tension at cryogenic temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the (10 1 1) diffraction peak occurs in the CrCoNi MEA, and its intensity increases in the CrCoNiSi0.3 MEA, indicating an increase in the volume fraction of HCP phase.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ecd47a83854e45cf:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

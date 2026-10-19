@@ -1,0 +1,411 @@
+{
+  "document_id": "af913bdd45129484",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Producing Ni-base superalloys single crystal by selective electron beam melting",
+    "authors": [
+      "Edouard Chauvet",
+      "Catherine Tassin",
+      "Jean-Jacques Blandin",
+      "Rémy Dendievel",
+      "Guilhem Martin"
+    ],
+    "journal": "Scripta Materialia",
+    "year": 2018,
+    "doi": "10.1016/j.scriptamat.2018.03.041"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "Ni-base superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The studied alloy is a non weldable Ni-Co-Cr-Mo-Al-Ti-B Ni-based superalloy containing significant amounts of Cr, Co and Mo with Ti + Al wt% = 8.6.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "as-built sample",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": null,
+              "quote": "containing significant amounts of Cr, Co and Mo with Ti + Al wt% = 8.6",
+              "table": null,
+              "figure": null,
+              "chunk_id": "af913bdd45129484:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "The studied alloy is a non weldable Ni-Co-Cr-Mo-Al-Ti-B Ni-based superalloy containing significant amounts of Cr, Co and Mo with Ti + Al wt% = 8.6. The exact chemical composition cannot be indicated for industrial confidentiality reasons.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "selective electron beam melting (S-EBM)",
+      "parameters": {
+        "temperature_c": 1020,
+        "time": null,
+        "pressure": "2.10−3 mbar",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": "50 μm",
+        "other": {
+          "accelerating_voltage": "60 kV",
+          "beam_power": "225–600 W",
+          "scan_speed": "500–1500 mm/s",
+          "linear_energy": "0.3–0.6 J/mm",
+          "focus_offset": "20 mA",
+          "line_offset": "0.1 mm",
+          "scanning_strategy": "snake-line, rotated 90° per layer"
+        }
+      },
+      "input_state": "prealloyed powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "The prealloyed powders were used into an ARCAM A1 EBM machine operating at 60 kV accelerating voltage under a controlled pressure of 2.10−3 mbar. The powder was deposited by 50 μm thick layers on a stainless steel plate, then slightly sintered with a defocused beam and finally selectively melted according to the input CAD geometry. The operating temperature was ~1020 °C. Samples with dimensions of 23 × 23 × 30 mm melted in manual mode",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        },
+        {
+          "page": "2",
+          "section": null,
+          "quote": "varying the scan speed (v = 500–1500 mm/s) and beam power (P = 225–600 W). ... using linear energies (El = P/v) between 0.3 and 0.6 J/mm. ... focus offset (20 mA) ... snake-line way with a line offset of 0.1 mm ... rotated by 90° after every layer.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "in FCC metals, the preferential grain growth directions are the ⟨001⟩ directions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "columnar grain",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "size": "~100 μm to several millimeters",
+        "morphology": "columnar",
+        "location": "central region",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "Columnar grains growing epitaxially along the build direction across several layers were found in the central region, see Fig. 2a–c.",
+          "table": null,
+          "figure": "Fig. 2a–c",
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "single crystal",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "size": "2 cm3",
+        "morphology": null,
+        "location": "upper central part",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": null,
+          "quote": "no grain boundaries can be seen in the upper central part",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "af913bdd45129484:part:001"
+        },
+        {
+          "page": "3",
+          "section": null,
+          "quote": "coalesce leading to a 2 cm3 single crystal",
+          "table": null,
+          "figure": "Fig. 4c–d",
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "dendritic microstructure",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "size": null,
+        "morphology": "dendritic",
+        "location": "last melted layer",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "Primary dendrite trunks can be easily seen in this last melted zone as shown in Fig. 1c.",
+          "table": null,
+          "figure": "Fig. 1c",
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "primary dendrite arm spacing (PDAS)",
+      "value": null,
+      "min_value": 10,
+      "max_value": 30,
+      "uncertainty": null,
+      "unit": "μm",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "intercept method"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "Primary dendrite arm spacing (PDAS), estimated by the intercept method, was found to vary between ~10 and 30μm depending on the linear energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "melt pool depth",
+      "value": null,
+      "min_value": 150,
+      "max_value": 600,
+      "uncertainty": null,
+      "unit": "μm",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "microstructural characterization"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "melt pool depths varying between 150 μm (El = 0.3 J/mm) and 600 μm (El = 0.6 J/mm)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "bulk density",
+      "value": 99.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "high bulk density (N99.5%, no lack-of-fusion defects)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "competitive grain growth",
+      "category": "solidification",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": null,
+          "quote": "a competitive grain growth occurs and intensifies leading to the disappearance of the misoriented grains",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "epitaxial growth",
+      "category": "solidification",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "Selected to promote epitaxial growth along the building direction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": null,
+          "quote": "competitive grain growth is exacerbated until a single orientation grows at the expense of the others",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "samples with dimensions of 23 × 23 × 30 mm melted in manual mode",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af913bdd45129484:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,620 @@
+{
+  "document_id": "5efbb3827fba5927",
+  "chunk_id": "5efbb3827fba5927:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Modeling of the Effect of Secondary Orientation on the Micro Deformation Behavior of Ni-Based Single Crystal Superalloys",
+    "authors": [
+      "Wencong Wei",
+      "Jinxia Song",
+      "Jiawei Zhang",
+      "Shijin Nie",
+      "Lin Li",
+      "Chengbo Xiao",
+      "Furong Liu"
+    ],
+    "journal": "Metals",
+    "year": 2022,
+    "doi": "10.3390/met12020217"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "In this paper, a supercell modeling of secondary orientation was established using 90 cubic mosaic units made up of γ’ phase embedded inγ matrix, in accordance with an actual structure of Ni-based single crystal superalloys (NSCS).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "NSCS MD supercell model",
+      "canonical_name": "Ni-based single crystal superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-modeled",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Models and Methods",
+              "quote": "The main component of theγ phase is Ni, which is a Face-Centered Cubic (FCC) structure, and the lattice constant is 0.352 nm; theγ′ phase is a stable and ordered intermetallic compound (Ni3Al) precipitated from theγ matrix",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5efbb3827fba5927:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Models and Methods",
+              "quote": "theγ′ phase is a stable and ordered intermetallic compound (Ni3Al) precipitated from theγ matrix",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5efbb3827fba5927:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Models and Methods",
+          "quote": "a novel mosaic structure model was developed in this paper to imitate the structure of NSCS, which consists of 90 basic units, with each unit made up of aγ’ (6× 6× 6 lattices) embedded inγ (7× 7× 7 lattices) supercells.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "uniaxial tensile",
+        "strain_rate": "elevated strain",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "software": "LAMMPS",
+          "potential": "EAM potential function",
+          "ensemble": "NPT",
+          "time_step_fs": 1,
+          "run_steps": 50000,
+          "boundary_conditions": "periodic in X and Y, non-periodic in Z"
+        }
+      },
+      "input_state": "as-modeled",
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Models and Methods",
+          "quote": "MD simulations were carried out with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) software (Version 21 Jul 2020) using an EAM potential function",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "uniaxial tensile",
+      "parameters": {
+        "temperature_c": 1030,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "uniaxial tension",
+        "strain_rate": "elevated strain",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range": "300–1030 K",
+          "ensemble": "NPT"
+        }
+      },
+      "input_state": "as-modeled",
+      "output_state": "deformed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Models and Methods",
+          "quote": "The temperature was maintained at 300 K and then increased to 1030 K; the tensile process was loaded by an elevated strain. The uniaxial stretching process was carried out in NPT (constant-pressure, constant-temperature) ensemble.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "attributes": {
+        "phase_fraction": "65 vol.% γ'",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Models and Methods",
+          "quote": "The main component of theγ phase is Ni, which is a Face-Centered Cubic (FCC) structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Ni3Al",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cubic",
+        "location": "embedded in γ matrix",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Models and Methods",
+          "quote": "theγ′ phase is a stable and ordered intermetallic compound (Ni3Al) precipitated from theγ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ' phase",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled",
+      "attributes": {
+        "phase_fraction": "65%",
+        "size": null,
+        "morphology": "cubic",
+        "location": "embedded in γ matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Models and Methods",
+          "quote": "a basic unit contains 1698 atoms with a 65% volume fraction ofγ’ phase embedded inγ phase, in line with the actual situation of NSCS.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "slip band",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "band",
+        "location": "within γ matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2. Evolution of Microstructure during Stretching",
+          "quote": "the appearance of some slip bands",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "void",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "spherical/irregular",
+        "location": "near dislocations/slip bands",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2. Evolution of Microstructure during Stretching",
+          "quote": "when ε = 13.5%, some initial microvoids start to form and it can be observed slightly. Then, voids will spread around and expand rapidly, resulting in the ﬁnal fracture of the material.",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Evolution of Microstructure during Stretching",
+          "quote": "the stress reaches 1 GPa, these models with the secondary orientations of 34 ◦ and 63◦ have more HCP and amorphous phases",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "amorphous",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Evolution of Microstructure during Stretching",
+          "quote": "the stress reaches 1 GPa, these models with the secondary orientations of 34 ◦ and 63◦ have more HCP and amorphous phases",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "tensile strength",
+      "value": null,
+      "min_value": 1.5,
+      "max_value": 2.0,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 1030,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tensile",
+        "orientation": "secondary orientation 18° and 45° (peak)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1. Effect of Secondary Orientation on Tensile Mechanical Properties",
+          "quote": "The value of the peak is as 1.5~2 times big as that of the trough on average.",
+          "table": null,
+          "figure": "Figure 2b",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield strength",
+      "value": null,
+      "min_value": 1.5,
+      "max_value": 2.0,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 1030,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tensile",
+        "orientation": "secondary orientation 18° and 45° (peak)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1. Effect of Secondary Orientation on Tensile Mechanical Properties",
+          "quote": "The value of the peak is as 1.5~2 times big as that of the trough on average.",
+          "table": null,
+          "figure": "Figure 2b",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "elastic modulus",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1030,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tensile",
+        "orientation": "varies with secondary orientation",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1. Effect of Secondary Orientation on Tensile Mechanical Properties",
+          "quote": "the ﬂuctuation characteristic around these secondary orientation angles above are also found in the elongation and elastic modulus, as shown in Figure 2c,d.",
+          "table": null,
+          "figure": "Figure 2d",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "octahedral slip system activation",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Evolution of Microstructure during Stretching",
+          "quote": "the models with secondary orientations of 34 ◦ and 63◦ activate the slip system easier, leading to premature failure and a decrease in tensile strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation merging",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3. Evolution of Dislocations during Stretching",
+          "quote": "The merging mechanism between two different dislocations is found as follows: (i) Shockley + Hirth = Stair-rod: 1/6<11-2> + 1/3<001> = 1/6<110> (the yellow arrows); (ii) Shockley + Frank = Perfect: 1/6<11-2> + 1/3<111> = 1/2<110> (the orange arrows).",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "solid solution strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3. Evolution of Dislocations during Stretching",
+          "quote": "Since the stair-rod dislocation generally causes the material hardening [41] (Figure 8a), low tensile properties are therefore obtained for the structures with the secondary orientations of 34◦ and 63◦.",
+          "table": null,
+          "figure": "Figure 8a",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {
+        "temperature_c": 1030,
+        "loading_mode": "uniaxial tensile"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1. Effect of Secondary Orientation on Tensile Mechanical Properties",
+          "quote": "The value of the peak is as 1.5~2 times big as that of the trough on average.",
+          "table": null,
+          "figure": "Figure 2b",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {
+        "temperature_c": 1030,
+        "loading_mode": "uniaxial tensile"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1. Effect of Secondary Orientation on Tensile Mechanical Properties",
+          "quote": "The value of the peak is as 1.5~2 times big as that of the trough on average.",
+          "table": null,
+          "figure": "Figure 2b",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {
+        "secondary_orientation": "34° and 63°"
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2. Evolution of Microstructure during Stretching",
+          "quote": "the models with secondary orientations of 34 ◦ and 63◦ activate the slip system easier, leading to premature failure and a decrease in tensile strength, as plotted in Figure 2.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {
+        "strain": "0.2%–12%"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2. Evolution of Microstructure during Stretching",
+          "quote": "when ε = 0.2%, the ordered FCC structure begins to transform into a small part of HCP or amorphous structure together with the appearance of some slip bands",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {
+        "strain": "13.5%–14.5%"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2. Evolution of Microstructure during Stretching",
+          "quote": "when ε = 13.5%, some initial microvoids start to form and it can be observed slightly. Then, voids will spread around and expand rapidly, resulting in the ﬁnal fracture of the material.",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "5efbb3827fba5927:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

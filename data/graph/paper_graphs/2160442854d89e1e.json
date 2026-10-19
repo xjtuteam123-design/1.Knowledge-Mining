@@ -1,0 +1,1278 @@
+{
+  "type": "json_object",
+  "document_id": "2160442854d89e1e",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Twin formation through repeated dislocation impingement on phase boundary in Ni-based superalloys using atomistic simulations",
+    "authors": [
+      "Sagar Chandra",
+      "Mahendra K. Samal",
+      "Vivek M. Chavan"
+    ],
+    "journal": "Journal of Materials Research",
+    "year": 2025,
+    "doi": "10.1557/s43578-025-01687-4"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Article",
+          "quote": "Twin formation through repeated dislocation impingement on phase boundary in Ni-based superalloys using atomistic simulations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        },
+        {
+          "page": "8",
+          "section": null,
+          "quote": "alternative pathway for the formation of twins in γ ′ phase of γ ′-strengthened Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "γ-γ′ composite system (γ-γ′ system)",
+      "canonical_name": "Ni3Al precipitate in Ni matrix (γ−γ′ composite)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "MD simulation cell after hybrid MD/MC equilibration; plastically deformed by shear loading",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "γ matrix and γ′ precipitate (FCC vs L12)",
+          "evidence": [
+            {
+              "page": "11",
+              "section": "Computational methodology",
+              "quote": "The composite system contains both the γ (FCC Ni) and γ ′ (L12 Ni3Al)",
+              "table": null,
+              "figure": "7",
+              "chunk_id": "2160442854d89e1e:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "γ matrix solid solution (~12.0% Al) and γ′ Ni3Al",
+          "evidence": [
+            {
+              "page": "11",
+              "section": "Computational methodology",
+              "quote": "The γ matrix contains ≈ 12.0 % Al atoms in solid solution of Ni",
+              "table": null,
+              "figure": "7",
+              "chunk_id": "2160442854d89e1e:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "the γ matrix (Ni) and γ ′ ( Ni3Al) precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        },
+        {
+          "page": "11",
+          "section": "Computational methodology",
+          "quote": "The composite system contains both the γ (FCC Ni) and γ ′ (L12 Ni3Al) and contains approximately 10 million atoms.",
+          "table": null,
+          "figure": "7",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "static relaxation (conjugate-gradient minimization)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "tolerance_ev": "1e-7",
+          "max_iterations": 20000
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Computational methodology",
+          "quote": "After performing static relaxation using conjugate-gradient minimization scheme",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "hybrid MD/MC equilibration",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "md_runs_between_mc": "500",
+          "temperature_K": 900,
+          "Al_exchange_percent": 4,
+          "trial_exchanges_per_mc_cycle": 1000,
+          "thermostat": "Nose-Hoover"
+        }
+      },
+      "input_state": null,
+      "output_state": "coherent γ−γ′ interface",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Computational methodology",
+          "quote": "after every 500 MD runs at a temperature of 900 K using Nose–Hoover thermostat and barostat [83], MC exchanges for 4% Al atoms are performed",
+          "table": null,
+          "figure": "7",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "dynamic relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "100 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_K": 900,
+          "thermostat": "Nose-Hoover",
+          "barostat": "Nose-Hoover"
+        }
+      },
+      "input_state": null,
+      "output_state": "final thermodynamic equilibrium",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "Computational methodology",
+          "quote": "dynamic relaxation at a temperature of 900 K is performed using Nose–Hoover thermostat and barostat [83] for 100 picoseconds",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "molecular dynamics simulation (stress-controlled shear loading)",
+      "parameters": {
+        "temperature_c": 626.85,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "750 MPa applied shear stress",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_shear_stress_mpa": 750,
+          "temperature_K": 900,
+          "stress_increment_MPa": 50,
+          "ensemble": "NVT",
+          "timestep_fs": 1
+        }
+      },
+      "input_state": "unperturbed γ−γ′ system",
+      "output_state": "plastically deformed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Figure 1 caption",
+          "quote": "The applied shear stress is 750 MPa at 900 K temperature.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "2160442854d89e1e:part:001"
+        },
+        {
+          "page": "9",
+          "section": null,
+          "quote": "A temperature of 900 K and applied shear stress of 750 MPa/975 MPa is utilized in MD simulations reported above.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "molecular dynamics simulation (stress-controlled shear loading)",
+      "parameters": {
+        "temperature_c": 626.85,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "975 MPa applied shear stress",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_shear_stress_mpa": 975,
+          "temperature_K": 900,
+          "stress_increment_MPa": 50,
+          "ensemble": "NVT",
+          "timestep_fs": 1
+        }
+      },
+      "input_state": "unperturbed γ−γ′ system",
+      "output_state": "plastically deformed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Atomistic simulation results",
+          "quote": "The applied shear stress is 975 MPa and deformation temperature is 900 K",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "2160442854d89e1e:part:001"
+        },
+        {
+          "page": "9",
+          "section": null,
+          "quote": "A temperature of 900 K and applied shear stress of 750 MPa/975 MPa is utilized in MD simulations reported above.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_1",
+      "sequence": 6,
+      "method": "molecular dynamics simulation (stress-controlled shear loading)",
+      "parameters": {
+        "temperature_c": 26.85,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "1500 MPa applied shear stress",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_K": 300,
+          "shear_stress_MPa": 1500,
+          "stress_increment_MPa": 50,
+          "timestep_fs": 1
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "At 300 K deformation temperature, the applied shear stress has to be increased to 1500 MPa to enable the absorption of fourth dislocation in the boundary.",
+          "table": null,
+          "figure": "6",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "L12-ordered Ni3Al (γ′)",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "precipitate",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ ′ precipitates (L12 structure) embedded coherently in the γ (FCC structure) Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        },
+        {
+          "page": "11",
+          "section": "Computational methodology",
+          "quote": "precipitate γ ′ phase (L12 Ni3Al) is on the right as shown in (a)",
+          "table": null,
+          "figure": "7",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "FCC Ni (γ matrix)",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": "Ni with ≈ 12.0% Al in solid solution",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ (FCC structure) Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        },
+        {
+          "page": "11",
+          "section": "Computational methodology",
+          "quote": "The composite system contains both the γ (FCC Ni) and γ ′ (L12 Ni3Al)",
+          "table": null,
+          "figure": "7",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Defect",
+      "name": "complex stacking fault (CSF)",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "in γ′ precipitate",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "the partial sweeps in the precipitate leaving behind CSF attached to the interface",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "2160442854d89e1e:part:001"
+        },
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the energy of CSF is 204.6 mJ/ m 2",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Defect",
+      "name": "twin",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "in γ′ precipitate",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "a twin is formed in the precipitate",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Defect",
+      "name": "Shockley partial dislocation loop",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 300 K",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "partial dislocation loop",
+        "location": "emitted from γ−γ′ interface into γ matrix on [-111] plane",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "a dislocation loop is emitted from the interface into the matrix on [¯111] plane",
+          "table": null,
+          "figure": "6",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "phase boundary (γ−γ′ interface)",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ−γ′ interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "they may also exist in the form of phase boundaries between the γ matrix (Ni) and γ ′ ( Ni3Al) precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "dislocation pile-up",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ side of γ−γ′ interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "aggregation of matrix dislocations on the γ side of the γ − γ ′ interface preceding the onset of twinning in γ ′ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "anti-phase boundary (APB)",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 900 K",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ′ phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the energy of CSF is 204.6 mJ/ m 2 and that of APB is 252.0 mJ/ m 2",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "superlattice extrinsic stacking fault (SESF)",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 900 K",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ′ phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "the precursor to pseudo (true)-twin formation is the formation of SESF through CSF",
+          "table": null,
+          "figure": "6",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "pseudo-twin",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 900 K",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ′ phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the twin observed in Fig. 2 and Fig. 3 is rather a pseudo-twin and thermally activated re-ordering is required to convert it into a true-twin",
+          "table": null,
+          "figure": "2",
+          "chunk_id": "2160442854d89e1e:part:002"
+        },
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the twin observed in Fig. 2 and Fig. 3 is rather a pseudo-twin and thermally activated re-ordering is required to convert it into a true-twin",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "MD simulation cell",
+      "property": "complex stacking fault energy",
+      "value": 204.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m^2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "atomistic simulation (generalized fault energy profile)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the energy of CSF is 204.6 mJ/ m 2",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "MD simulation cell",
+      "property": "anti-phase boundary energy",
+      "value": 252.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m^2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "atomistic simulation (generalized fault energy profile)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "that of APB is 252.0 mJ/ m 2",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "repeated dislocation impingement on phase boundary",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Introduction",
+          "quote": "a mechanism of twin formation assisted by continuous impingement of 1/2⟨110 ⟩ matrix dislocations on the γ − γ ′ interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Shockley partial nucleation",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Atomistic simulation results",
+          "quote": "nucleation of 1/6[¯12 ¯1] partial is observed from the interface into the γ ′ phase",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "stress-concentration-triggered Shockley partial nucleation",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 900 K",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the rate-limiting process envisaged in this work is the nucleation of 1/6⟨112 ⟩ partial on adjacent { 1 1 1} plane in the γ ′ phase that converts the CSF to SESF and this process is triggered by the prevalence of stress concentration ahead of multiple matrix dislocations impinging the boundary",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "thermally activated atomic reordering",
+      "category": "diffusion-controlled mechanism",
+      "sample_id": "sample_1",
+      "material_state": "annealed/equilibrated (with vacancies, higher temperature)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "thermally activated atomic reordering then converts this high-energy CSF to SESF",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ ′ ( Ni3Al) precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ (FCC structure) Ni matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "leaving behind CSF attached to the interface",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "a twin is formed in the precipitate",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "phase boundaries between the γ matrix (Ni) and γ ′ ( Ni3Al) precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "aggregation of matrix dislocations on the γ side of the γ − γ ′ interface preceding the onset of twinning in γ ′ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "microstructure_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Introduction",
+          "quote": "a pileup of matrix dislocations at the γ − γ ′ interface prior to onset of deformation twinning in the precipitate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Atomistic simulation results",
+          "quote": "nucleation of Shockley partial into the γ ′ phase is a high energy process which is facilitated by local stress concentration at the interface arising due to continuous impingement of matrix dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_2",
+      "predicate": "PROMOTES",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "Absorption of next matrix dislocation leads to nucleation of yet another Bδ partial on adjacent {1 1 1} plane which nucleates the twin embryo in γ ′ phase",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_2",
+      "predicate": "FORMS",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "plastically deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Atomistic simulation results",
+          "quote": "it creates a SESF in the precipitate",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "2160442854d89e1e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Computational methodology",
+          "quote": "The composite system contains both the γ (FCC Ni) and γ ′ (L12 Ni3Al)",
+          "table": null,
+          "figure": "7",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "MD simulation cell after hybrid MD/MC equilibration",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Computational methodology",
+          "quote": "precipitate γ ′ phase (L12 Ni3Al) is on the right as shown in (a)",
+          "table": null,
+          "figure": "7",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "MD simulation cell after hybrid MD/MC equilibration",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Computational methodology",
+          "quote": "The composite system contains both the γ (FCC Ni) and γ ′ (L12 Ni3Al)",
+          "table": null,
+          "figure": "7",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 900 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "that of APB is 252.0 mJ/ m 2",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 900 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "the precursor to pseudo (true)-twin formation is the formation of SESF through CSF",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 900 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the twin observed in Fig. 2 and Fig. 3 is rather a pseudo-twin",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "phase_5",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 300 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "a dislocation loop is emitted from the interface into the matrix on [¯111] plane",
+          "table": null,
+          "figure": "6",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "phase_3",
+      "predicate": "FORMS",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 900 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "the precursor to pseudo (true)-twin formation is the formation of SESF through CSF",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "microstructure_4",
+      "predicate": "FORMS",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 900 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "the precursor to pseudo (true)-twin formation is the formation of SESF through CSF",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "mechanism_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded at 900 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the nucleation of 1/6⟨112 ⟩ partial on adjacent { 1 1 1} plane in the γ ′ phase that converts the CSF to SESF",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "microstructure_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "shear-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "this process is triggered by the prevalence of stress concentration ahead of multiple matrix dislocations impinging the boundary",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "MD simulation cell",
+      "conditions": {
+        "test_method": "atomistic simulation (generalized fault energy profile)"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the energy of CSF is 204.6 mJ/ m 2",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "MD simulation cell",
+      "conditions": {
+        "test_method": "atomistic simulation (generalized fault energy profile)"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "that of APB is 252.0 mJ/ m 2",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "observation_1",
+      "predicate": "COMPARED_WITH",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "MD simulation cell",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "it is energetically more favorable for the γ ′ phase to deform via formation of CSFs as has been observed in this work",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2160442854d89e1e:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

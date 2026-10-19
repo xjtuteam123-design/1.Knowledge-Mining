@@ -1,0 +1,645 @@
+{
+  "document_id": "f82a2116d25fec76",
+  "chunk_id": "f82a2116d25fec76:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Interaction between the edge dislocation dipole pair and interfacial misfit dislocation network in Ni-based single crystal superalloys",
+    "authors": [
+      "Zhiwei Zhang",
+      "Qiang Fu",
+      "Jun Wang",
+      "Rong Yang",
+      "Pan Xiao",
+      "Fujiu Ke",
+      "Chunsheng Lu"
+    ],
+    "journal": "International Journal of Solids and Structures",
+    "year": 2021,
+    "doi": "10.1016/j.ijsolstr.2021.111128"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Title",
+          "quote": "Interaction between the edge dislocation dipole pair and interfacial misfit dislocation network in Ni-based single crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni/Ni3Al heterogeneous interfacial model",
+      "canonical_name": "Ni/Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-constructed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+              "quote": "a heterogeneous interfacial model of Ni/Ni3Al is constructed for Ni-based single crystal superalloys, which only consists of pure Ni matrix and Ni3Al precipitate without considering alloying elements such as Ta, Re and Co.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f82a2116d25fec76:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "Ni3Al precipitate",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+              "quote": "a heterogeneous interfacial model of Ni/Ni3Al is constructed for Ni-based single crystal superalloys, which only consists of pure Ni matrix and Ni3Al precipitate without considering alloying elements such as Ta, Re and Co.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f82a2116d25fec76:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+          "quote": "a heterogeneous interfacial model of Ni/Ni3Al is constructed for Ni-based single crystal superalloys, which only consists of pure Ni matrix and Ni3Al precipitate without considering alloying elements such as Ta, Re and Co.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": 1,
+        "time": "2 fs time step; relaxation 50 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "potential": "embedded-atom method potential for Ni-Al system developed by Mishin (2004)",
+          "time_step": "2 fs",
+          "relaxation_time": "50 ps",
+          "temperature_control": "1 K"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-constructed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Molecular dynamics simulations",
+          "quote": "Simulations were carried out by integrating Newton’s equations of motion for all atoms with a time step of 2 fs. At the start of simulations, initial configurations were energetically minimized by relaxing all samples for 50 ps. Temperature was controlled at 1 K during simulations to avoid thermal effects.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "Ni matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "These alloys mainly consist of Ni matrix with face-centered cubic (FCC) structure and dispersion precipitates of Ni3Al with L1 2 structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "L12",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dispersion precipitates",
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "These alloys mainly consist of Ni matrix with face-centered cubic (FCC) structure and dispersion precipitates of Ni3Al with L1 2 structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "interfacial misfit dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "regular quadrilateral network",
+        "location": "(110) interface of Ni/Ni3Al",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+          "quote": "After energy minimization, to accommodate the misfit strain due to lattice difference between the two phases, a regular quadrilateral IMD network was formed on the (110) interface of Ni/Ni3Al as shown in Fig. 1b.",
+          "table": null,
+          "figure": "Fig. 1b",
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "stiffness",
+      "value": 7169.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "N m^-1",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "stiffness",
+      "value": 8498.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "N m^-1",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "stiffness",
+      "value": 10703.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "N m^-1",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "stimulating period",
+      "value": 157.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ps",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "the stimulating period of EDD pairs decreases from 157.5 to 26 ps as the loading rate increases from 1 to 10 m s^-1 (see Table 1).",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "property": "stimulating period",
+      "value": 26.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "ps",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 1",
+          "quote": "10 10703.3 26.0 [11.8]",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "interfacial misfit dislocation network strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.1 Interaction between EDD pair and IMD network",
+          "quote": "It is shown that the IMD network can effectively impede, accommodate and pile up EDD pairs in Ni matrix, which has a positive effect on the mechanical properties of superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+          "quote": "a heterogeneous interfacial model of Ni/Ni3Al is constructed for Ni-based single crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "These alloys mainly consist of Ni matrix with face-centered cubic (FCC) structure and dispersion precipitates of Ni3Al with L1 2 structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "These alloys mainly consist of Ni matrix with face-centered cubic (FCC) structure and dispersion precipitates of Ni3Al with L1 2 structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 IMD network of Ni/Ni3Al heterogeneous interface",
+          "quote": "After energy minimization, to accommodate the misfit strain due to lattice difference between the two phases, a regular quadrilateral IMD network was formed on the (110) interface of Ni/Ni3Al as shown in Fig. 1b.",
+          "table": null,
+          "figure": "Fig. 1b",
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "Corresponding values of average stiffness of Ni/Ni3Al substrate are 7169.0, 8498.6 and 10703.3 N m^-1 for loading rates of 1, 5 and 10 m s^-1, respectively.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3 Influence of loading rates",
+          "quote": "the stimulating period of EDD pairs decreases from 157.5 to 26 ps as the loading rate increases from 1 to 10 m s^-1 (see Table 1).",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Table 1",
+          "quote": "10 10703.3 26.0 [11.8]",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.1 Interaction between EDD pair and IMD network",
+          "quote": "It is shown that the IMD network can effectively impede, accommodate and pile up EDD pairs in Ni matrix, which has a positive effect on the mechanical properties of superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.1 Interaction between EDD pair and IMD network",
+          "quote": "This ability is helpful to improve the mechanical properties of Ni-based single crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Molecular dynamics simulations",
+          "quote": "Simulations were carried out by integrating Newton’s equations of motion for all atoms with a time step of 2 fs. At the start of simulations, initial configurations were energetically minimized by relaxing all samples for 50 ps. Temperature was controlled at 1 K during simulations to avoid thermal effects.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f82a2116d25fec76:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

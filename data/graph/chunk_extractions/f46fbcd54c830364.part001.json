@@ -1,0 +1,291 @@
+{
+  "document_id": "f46fbcd54c830364",
+  "chunk_id": "f46fbcd54c830364:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Highly interpretable machine learning framework for prediction of mechanical properties of nickel based superalloys",
+    "authors": [
+      "Nikhil Khatavkar",
+      "Abhishek Kumar Singh"
+    ],
+    "journal": "Physical Review Materials",
+    "year": 2022,
+    "doi": "10.1103/PhysRevMaterials.6.123603"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Nickel-based superalloys are used commercially in aircraft turbines, power plants, and space launch vehicles.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "Gaussian process regression (GPR) with quadratic kernel",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "yield strength prediction",
+      "inputs": [],
+      "target": "yield strength",
+      "dataset": "database of Ni-based superalloys (349 YS values)",
+      "validation": "90:10 train/test split",
+      "metrics": {
+        "R2_train": 0.97,
+        "R2_test": 0.95,
+        "rmse_train": 0.11,
+        "rmse_test": 0.12
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results",
+          "quote": "The GPR model with a quadratic kernel delivers highly accurate predictions for YS on the training and test data with R2 of 0.97/0.95 (train/test data) and rmse of 0.11 /0.11.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        },
+        {
+          "page": "5",
+          "section": "Table I",
+          "quote": "YS 0.96 /0.92 0.12 /0.13 0.59 /0.71 0.38 /0.38 0.97/0.95 0.11 /0.12 0.98/0.92 0.18 /0.19",
+          "table": "TABLE I",
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "Gaussian process regression (GPR) with quadratic kernel",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "ultimate tensile strength prediction",
+      "inputs": [],
+      "target": "ultimate tensile strength",
+      "dataset": "database of Ni-based superalloys (248 UTS values)",
+      "validation": "90:10 train/test split",
+      "metrics": {
+        "R2_train": 0.99,
+        "R2_test": 0.98,
+        "rmse_train": 0.04,
+        "rmse_test": 0.06
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table I",
+          "quote": "UTS 0.98 /0.98 0.07 /0.08 0.58 /0.60 0.33 /0.33 0.99/0.98 0.04 /0.06 0.89/0.89 0.17 /0.17",
+          "table": "TABLE I",
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "Gaussian process regression (GPR) with quadratic kernel",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "creep rupture life prediction",
+      "inputs": [],
+      "target": "creep rupture life",
+      "dataset": "database of Ni-based superalloys (383 creep rupture life values)",
+      "validation": "90:10 train/test split",
+      "metrics": {
+        "R2_train": 0.99,
+        "R2_test": 0.77,
+        "rmse_train": 0.04,
+        "rmse_test": 0.67
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table I",
+          "quote": "Creep 0.95/0.92 0.17 /0.19 0.52/0.48 1.24 /1.26 0.99 /0.77 0.04 /0.67 0.98 /0.96 0.22 /0.37",
+          "table": "TABLE I",
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_4",
+      "name": "Gaussian process regression (GPR) with Matern kernel",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "fatigue life prediction with stress",
+      "inputs": [],
+      "target": "fatigue life with stress",
+      "dataset": "database of Ni-based superalloys (318 fatigue life with stress values)",
+      "validation": "90:10 train/test split",
+      "metrics": {
+        "R2_train": 0.96,
+        "R2_test": 0.96,
+        "rmse_train": 0.32,
+        "rmse_test": 0.32
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table I",
+          "quote": "Fatigue stress 0.96/0.96 0.32 /0.32 0.84/0.78 1.51 /1.51 0.99 /0.88 0.11 /1.10 0.98 /0.90 1.01 /1.04",
+          "table": "TABLE I",
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_5",
+      "name": "Gaussian process regression (GPR) with quadratic kernel",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "fatigue life prediction with strain",
+      "inputs": [],
+      "target": "fatigue life with strain",
+      "dataset": "database of Ni-based superalloys (384 fatigue life with strain values)",
+      "validation": "90:10 train/test split",
+      "metrics": {
+        "R2_train": 0.96,
+        "R2_test": 0.96,
+        "rmse_train": 0.44,
+        "rmse_test": 0.4
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table I",
+          "quote": "Fatigue strain 0.95/0.92 0.22 /0.22 0.52/0.56 1.54 /1.56 0.96 /0.96 0.44 /0.40 0.92 /0.92 0.63 /0.61",
+          "table": "TABLE I",
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "we propose a method for mechanical property prediction of Ni-based superalloys by learning from past experimental results using machine learning (ML).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Five highly accurate ML models are developed to predict yield strength (YS), ultimate tensile strength (UTS), creep rupture life, fatigue life with stress, and strain values.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Five highly accurate ML models are developed to predict yield strength (YS), ultimate tensile strength (UTS), creep rupture life, fatigue life with stress, and strain values.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "alloy_system_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_4",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Five highly accurate ML models are developed to predict yield strength (YS), ultimate tensile strength (UTS), creep rupture life, fatigue life with stress, and strain values.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "alloy_system_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_5",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Five highly accurate ML models are developed to predict yield strength (YS), ultimate tensile strength (UTS), creep rupture life, fatigue life with stress, and strain values.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

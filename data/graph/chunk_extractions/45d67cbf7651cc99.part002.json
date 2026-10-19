@@ -1,0 +1,152 @@
+{
+  "document_id": "45d67cbf7651cc99",
+  "chunk_id": "45d67cbf7651cc99:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": null,
+    "doi": "10.1016/j.jallcom.2019.07.357"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "CoCrFeMnNi high-entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": "18",
+          "section": "Conclusions",
+          "quote": "The Hall-Petch relationships for CoCrFeMnNi high -entropy alloys (HEAs) were well fitted in large temperature range (from 77 K to ~873 K).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "45d67cbf7651cc99:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CoCrFeMnNi HEA",
+      "canonical_name": "CoCrFeMnNi",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "18",
+          "section": "Conclusions",
+          "quote": "Superior strength and ductility for CoCrFeMnNi H EAs were achieved by refining grain size and decreasing temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "45d67cbf7651cc99:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Hall-Petch strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "18",
+          "section": "Conclusions",
+          "quote": "The Hall-Petch relationships for CoCrFeMnNi high -entropy alloys (HEAs) were well fitted in large temperature range (from 77 K to ~873 K).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "45d67cbf7651cc99:part:002"
+        },
+        {
+          "page": "18",
+          "section": "Conclusions",
+          "quote": "The Hall-Petch slope and friction stress of the CoCrFeMnNi HEAs have a negative relation with temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "45d67cbf7651cc99:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "grain-boundary strengthening by grain refinement",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "18",
+          "section": "Conclusions",
+          "quote": "Superior strength and ductility for CoCrFeMnNi H EAs were achieved by refining grain size and decreasing temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "45d67cbf7651cc99:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {
+        "temperature_c": {
+          "min": 77,
+          "max": 873
+        }
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "18",
+          "section": "Conclusions",
+          "quote": "The Hall-Petch relationships for CoCrFeMnNi high -entropy alloys (HEAs) were well fitted in large temperature range (from 77 K to ~873 K).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "45d67cbf7651cc99:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "DECREASES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "18",
+          "section": "Conclusions",
+          "quote": "The Hall-Petch slope and friction stress of the CoCrFeMnNi HEAs have a negative relation with temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "45d67cbf7651cc99:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "athermal contribution"
+  ],
+  "conflicts": []
+}

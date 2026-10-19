@@ -1,0 +1,177 @@
+{
+  "document_id": "9159e2b414207886",
+  "chunk_id": "9159e2b414207886:part:011",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Advanced Engineering Materials",
+    "year": null,
+    "doi": "10.1002/adem.200310083"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Waspaloy (Ni-base superalloy)",
+      "material_category": "nickel-base superalloy",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "CONTENT WOULD BE ONE OPTION TO ALLEVIATE THIS PROBLEM AS OUTLINED IN CHAPTER 2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:011"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Waspaloy",
+      "canonical_name": "Waspaloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "If the material is aged according to specifications the alloying elements are substitutionaly dissolved in the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:011"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 760,
+        "time": "4 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "In contrast, hardened alloys such as Inconel 706 exhibit good manufacturability and creep strength at 700 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:011"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma' (Ni3(Al,Ti))",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": "~20-40%",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "How-ever, considerable alloys such as Waspaloy, Nimonic 263, and Udimet 500 contain large amounts of titanium, so that ingot size is limited due to freckle formation upon remelting.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:011"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "gamma' precipitation strengthening",
+      "category": "precipitation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "If the material is aged according to specifications the alloying elements are substitutionaly dissolved in the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:011"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "However, considerable alloys such as Waspaloy, Nimonic 263, and Udimet 500 contain large amounts of titanium, so that ingot size is limited due to freckle formation upon remelting.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:011"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "If the material is aged according to specifications the alloying elements are substitutionaly dissolved in the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9159e2b414207886:part:011"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

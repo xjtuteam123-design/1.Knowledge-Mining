@@ -1,0 +1,239 @@
+{
+  "document_id": "554d6ee266b2d908",
+  "chunk_id": "554d6ee266b2d908:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Evaluation of High-Vacuum Annealing and Hot Isostatic Pressing on the Microstructure and Properties of an Additively Manufactured Niobium Alloy",
+    "authors": [
+      "Fietek",
+      "Brizes",
+      "Milner"
+    ],
+    "journal": null,
+    "year": null,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb-Hf alloy",
+      "material_category": null,
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "intergranular embrittlement of C-103",
+          "table": null,
+          "figure": null,
+          "chunk_id": "554d6ee266b2d908:part:002"
+        },
+        {
+          "page": 12,
+          "section": null,
+          "quote": "ASTM International, B654: Standard Speciﬁcation for Niobium-Hafnium Alloy Foil, Sheet, Strip, and Plate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "554d6ee266b2d908:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "C-103",
+      "canonical_name": "C-103",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-printed",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 11,
+              "section": null,
+              "quote": "as-printed material",
+              "table": null,
+              "figure": null,
+              "chunk_id": "554d6ee266b2d908:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 11,
+              "section": null,
+              "quote": "Hf oxide precipitates",
+              "table": null,
+              "figure": null,
+              "chunk_id": "554d6ee266b2d908:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "as-printed material",
+          "table": null,
+          "figure": null,
+          "chunk_id": "554d6ee266b2d908:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Hf oxide",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "Hf oxide precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "554d6ee266b2d908:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "grain boundary length in the BD is longer than in the TD",
+          "table": null,
+          "figure": null,
+          "chunk_id": "554d6ee266b2d908:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dispersion strengthening",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "CONCLUSION",
+          "quote": "indicating that the as-printed material benefits from dispersion strengthening from very fine oxides throughout the bulk.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "554d6ee266b2d908:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "intergranular embrittlement",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "congregation of Hf oxides at the grain boundaries creates an additional effect of intergranular embrittlement of C-103",
+          "table": null,
+          "figure": null,
+          "chunk_id": "554d6ee266b2d908:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "phase_1",
+      "predicate": "FORMS",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "CONCLUSION",
+          "quote": "indicating that the as-printed material benefits from dispersion strengthening from very fine oxides throughout the bulk.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "554d6ee266b2d908:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "microstructure_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "as-printed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "congregation of Hf oxides at the grain boundaries creates an additional effect of intergranular embrittlement of C-103",
+          "table": null,
+          "figure": null,
+          "chunk_id": "554d6ee266b2d908:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

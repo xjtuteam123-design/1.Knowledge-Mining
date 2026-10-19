@@ -1,0 +1,357 @@
+{
+  "type": "json_object",
+  "document_id": "8f49344ecd1760e9",
+  "chunk_id": "8f49344ecd1760e9:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "AIAA Journal",
+    "year": null,
+    "doi": "10.2514/1.J050815"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "nickel-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "The VPS process is effective for increasing the strength and temperature capability of a thin-walled component initially fabricated from a wrought nickel-based alloy allowing a metallic thermostructural panel to be a viable material option for the combustor of a scramjet engine.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "X-750",
+      "canonical_name": "X-750",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "The VPS panel showed improved temperature capability, surviving to a temperature 478/.0014C higher than the X-750 panel without enhanced strengthening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "altered X-750 alloy",
+      "canonical_name": "X-750",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "strengthened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "The range of aging treatments allowed for determination of appropriate aging treatments to maximize yield strength for the altered X-750 alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": null,
+      "method": "vapor phase strengthening (VPS)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "wrought",
+      "output_state": "strengthened",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "The VPS process is effective for increasing the strength and temperature capability of a thin-walled component initially fabricated from a wrought nickel-based alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": null,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "The range of aging treatments allowed for determination of appropriate aging treatments to maximize yield strength for the altered X-750 alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "sigma phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "stabilized by Cr and Mo in alloy 625 as Al concentration increases",
+        "identification_status": "proposed"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the combination of chromium and molybdenum in alloy 625 stabilizes a brittle sigma phase as the aluminum concentration is increased",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "strengthened",
+      "property": "yield strength",
+      "value": 340,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 20,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "Tensile tests showed an improvement in room temperature yield strength of up to 340% with the new VPS process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "strengthened",
+      "property": "temperature capability",
+      "value": 478,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "degC",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "high heat flux torch testing with active water cooling"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "The VPS panel showed improved temperature capability, surviving to a temperature 478/.0014C higher than the X-750 panel without enhanced strengthening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "strengthened",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "The range of aging treatments allowed for determination of appropriate aging treatments to maximize yield strength for the altered X-750 alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_2",
+      "material_state": "strengthened",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "The VPS process is effective for increasing the strength and temperature capability of a thin-walled component initially fabricated from a wrought nickel-based alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "strengthened",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "The VPS process is effective for increasing the strength and temperature capability of a thin-walled component initially fabricated from a wrought nickel-based alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "strengthened",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "Tensile tests showed an improvement in room temperature yield strength of up to 340% with the new VPS process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "strengthened",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "The VPS panel showed improved temperature capability, surviving to a temperature 478/.0014C higher than the X-750 panel without enhanced strengthening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "process_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "strengthened",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "V. Conclusions",
+          "quote": "Tensile tests showed an improvement in room temperature yield strength of up to 340% with the new VPS process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f49344ecd1760e9:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "alloy 625"
+  ],
+  "conflicts": []
+}

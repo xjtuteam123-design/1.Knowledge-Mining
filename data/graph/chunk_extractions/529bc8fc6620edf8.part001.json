@@ -1,0 +1,747 @@
+{
+  "document_id": "529bc8fc6620edf8",
+  "chunk_id": "529bc8fc6620edf8:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Phase Field Simulation of the Collapse of the Rafted Structure in Ni-Based Superalloys",
+    "authors": [
+      "Toshiya Tanimoto",
+      "Yuhki Tsukada",
+      "Yoshinori Murata",
+      "Toshiyuki Koyama"
+    ],
+    "journal": "Defect and Diffusion Forum",
+    "year": 2012,
+    "doi": "10.4028/www.scientific.net/DDF.326-328.446"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Microstructural evolution in single crystal Ni-bas ed superalloys is investigated by the phase field simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal, gamma/gamma' two-phase (simulated)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "In the late stage of creep in a practical SC Ni-based supp eralloy, CMSX-4, the rafted structure is found to collapse",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        },
+        {
+          "page": "3",
+          "section": "Results and Discussion",
+          "quote": "Elastic constant of the CMSX-4 alloy at 1273 K is used according to the value in [14].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "phase field simulation of aging/coarsening",
+      "parameters": {
+        "temperature_c": 1273,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "gamma_prime_volume_fraction": "60%",
+          "lattice_misfit": "-0.003",
+          "grid": "2D, periodic boundary conditions",
+          "simulation_steps": "50000-3000000"
+        }
+      },
+      "input_state": "supersaturated solid solution with random noise",
+      "output_state": "cuboidal gamma' coarsened microstructure",
+      "evidence": [
+        {
+          "page": "3-4",
+          "section": "Results and Discussion",
+          "quote": "2D phase field simulation at 1273 K was performed by solving Eqs. (15) and (16) numerically using the conventional difference method under periodic b oundary conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        },
+        {
+          "page": "4",
+          "section": "Results and Discussion",
+          "quote": "First simulation is started from the supersaturated solid solution with a random noise of the field var iables ( f,φι).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "phase field simulation of creep",
+      "parameters": {
+        "temperature_c": 1273,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "external tensile stress 160 MPa along [01]",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "plastic_strain": "0.0075",
+          "lattice_misfit": "-0.003"
+        }
+      },
+      "input_state": "cuboidal coarsened gamma' microstructure",
+      "output_state": "rafted structure",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and Discussion",
+          "quote": "Secondly, creep condition is simulated by introducing an exte rnal tensile stress of 160 MPa along the [01] direction to the microstructure of Fig. 1 (d).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "phase field simulation of raft collapse",
+      "parameters": {
+        "temperature_c": 1273,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "external tensile stress 160 MPa along [01]",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "lattice_misfit": "locally changed from -0.003 to -0.001",
+          "gamma_prime_volume_fraction": "70%"
+        }
+      },
+      "input_state": "rafted structure from SEM micrograph",
+      "output_state": "collapsed rafted structure with isolated gamma phase",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "the simulation of the collapse process of the rafted structure is carried out by changing th e lattice misfit from ε00 =-0.003 to ε00 =-0.001 locally at arbitrary place.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_1",
+      "material_state": "simulated coarsening at 1273 K",
+      "attributes": {
+        "phase_fraction": "0.60",
+        "size": null,
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and Discussion",
+          "quote": "It is found that the γ’ phase changes to cuboidal shape and arranges along the <10> crystallographic direction of the γ matrix with simulation time.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_1",
+      "material_state": "simulated coarsening at 1273 K",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and Discussion",
+          "quote": "The γ’ phase is expressed as white area and the γ phase is black area in Fig. 1.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "rafted structure",
+      "sample_id": "sample_1",
+      "material_state": "simulated creep at 1273 K under 160 MPa",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "plate shape normal to stress direction",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "It is observe d that the cuboidal γ’ phase coarsens toward the direction normal to the external stress, that is, t he rafted structure is formed.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "collapsed rafted structure",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "gamma' coarsened toward both [10] and [01], gamma isolated",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "it is found that the γ’ phase coarsens toward not only the rafting direction ([10]) but also locally the direction parallel to the applied stress ([01]) direction. As a result, the γ phase is isolated",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "coherent interface",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "region where gamma' coarsened toward [01]",
+        "composition": "lattice misfit -0.003",
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "the region where the γ’ phase coarsened toward the [01] direction is the coherent interface with ε00 =-0.003.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "semicoherent interface",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "lattice misfit -0.001",
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "Thus, ε00 =-0.001 corresponds to the semicoherent interface which relaxes elastic st rain energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "elastic anisotropy driven coarsening",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "simulated coarsening at 1273 K",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and Discussion",
+          "quote": "It is found that the γ’ phase changes to cuboidal shape and arranges along the <10> crystallographic direction of the γ matrix with simulation time. This variation is due to elastic anisotropy.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "elastic strain energy relief by rafting",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "simulated creep at 1273 K under 160 MPa",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "This morphological evolution relieves the elastic strain energy accumulated by the anisotropy of the plastic strain.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "inhomogeneous lattice misfit induced local coarsening",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "the morphology of Ni-based superalloys changes due to the decrease of the elastic strain e nergy caused by inhomogeneous lattice misfit, resulting in a collapse of the rafted structure.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "In the late stage of creep in a practical SC Ni-based supp eralloy, CMSX-4, the rafted structure is found to collapse",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated coarsening at 1273 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and Discussion",
+          "quote": "First simulation is started from the supersaturated solid solution with a random noise of the field var iables ( f,φι).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated creep at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and Discussion",
+          "quote": "Secondly, creep condition is simulated by introducing an exte rnal tensile stress of 160 MPa along the [01] direction to the microstructure of Fig. 1 (d).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "the simulation of the collapse process of the rafted structure is carried out by changing th e lattice misfit from ε00 =-0.003 to ε00 =-0.001 locally at arbitrary place.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated coarsening at 1273 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and Discussion",
+          "quote": "It is found that the γ’ phase changes to cuboidal shape and arranges along the <10> crystallographic direction of the γ matrix with simulation time.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated coarsening at 1273 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and Discussion",
+          "quote": "The γ’ phase is expressed as white area and the γ phase is black area in Fig. 1.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated creep at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "It is observe d that the cuboidal γ’ phase coarsens toward the direction normal to the external stress, that is, t he rafted structure is formed.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "As a result, the γ phase is isolated, which is consistent with the morphological change observed in CMSX-4.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "the region where the γ’ phase coarsened toward the [01] direction is the coherent interface with ε00 =-0.003.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "Thus, ε00 =-0.001 corresponds to the semicoherent interface which relaxes elastic st rain energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated coarsening at 1273 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and Discussion",
+          "quote": "It is found that the γ’ phase changes to cuboidal shape and arranges along the <10> crystallographic direction of the γ matrix with simulation time. This variation is due to elastic anisotropy.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated creep at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "It is observe d that the cuboidal γ’ phase coarsens toward the direction normal to the external stress, that is, t he rafted structure is formed.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "process_3",
+      "predicate": "PRODUCES",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "it is found that the γ’ phase coarsens toward not only the rafting direction ([10]) but also locally the direction parallel to the applied stress ([01]) direction.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated creep at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "This morphological evolution relieves the elastic strain energy accumulated by the anisotropy of the plastic strain.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "the morphology of Ni-based superalloys changes due to the decrease of the elastic strain e nergy caused by inhomogeneous lattice misfit, resulting in a collapse of the rafted structure.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "mechanism_3",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "the inhomogeneous lattice misfit produces the local coarsening toward the [01] direction of the γ’ phase resulting in the collapse of the rafted structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "microstructure_4",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated raft collapse at 1273 K under 160 MPa",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results and Discussion",
+          "quote": "Thus, ε00 =-0.001 corresponds to the semicoherent interface which relaxes elastic st rain energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "529bc8fc6620edf8:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

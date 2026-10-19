@@ -1,0 +1,1054 @@
+{
+  "document_id": "71efa7190ed0bd13",
+  "chunk_id": "71efa7190ed0bd13:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Mechanistic Modeling of Cyclic Softening and Slip Localization in Ni-Based Superalloys",
+    "authors": [
+      "Kwai S. Chan"
+    ],
+    "journal": "Metallurgical and Materials Transactions A",
+    "year": 2021,
+    "doi": "10.1007/s11661-021-06187-8"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Ni-based superalloys are typically strengthened with ordered fcc c0 precipitates (L1 2 structure) which impart a number of hardening mechanisms",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Alloy 720 Li",
+      "canonical_name": "Alloy 720 Li",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "Alloy 720 Li [21] 25 0.7 11 d1 = 1000 f1 = 0.18 [21] 400 d2 = 120 f2 = 0.29 [29] 650 d3 =5 0",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "NIMONIC 80A",
+      "canonical_name": "NIMONIC 80A",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC 80A [15,16] 25 0.05 60 13 f = 0.19 0.51 0.89",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "NIMONIC 90",
+      "canonical_name": "NIMONIC 90",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC 90 [17] 25 0.8 300 4.6 f = 0.089",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "NIMONIC 115",
+      "canonical_name": "NIMONIC 115",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC 115 [20] 24 0.13 275 d1 = 770 f = 0.4 d3 =1 0",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "NIMONIC PE16",
+      "canonical_name": "NIMONIC PE16",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC PE16 [18,19] 25 0.57 30 12.5 f = 0.07 21 30 f = 0.07",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "Waspaloy[14]",
+      "canonical_name": "Waspaloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "Waspaloy[14] 25 0.15 125 5 to 8 N.A. 0.3 25 0.06 16 90 to 300 f = 0.27 [30] 0.12 1",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": "Waspaloy[13]",
+      "canonical_name": "Waspaloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "Waspaloy[13] 25 0.24 125 8 N.A. 0.5 0.83 25 0.24 90 f = 0.27 [30] 0.5 0.83",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (L1 2)",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "primary 1000 nm, secondary 120 nm, tertiary 5 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "Alloy 720 Li [21] 25 0.7 11 d1 = 1000 f1 = 0.18 [21] 400 d2 = 120 f2 = 0.29 [29] 650 d3 =5 0",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma-prime (L1 2)",
+      "sample_id": "sample_2",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": 0.19,
+        "size": "13 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC 80A [15,16] 25 0.05 60 13 f = 0.19 0.51 0.89",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma-prime (L1 2)",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": 0.089,
+        "size": "4.6 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC 90 [17] 25 0.8 300 4.6 f = 0.089",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "gamma-prime (L1 2)",
+      "sample_id": "sample_4",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": 0.4,
+        "size": "770 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC 115 [20] 24 0.13 275 d1 = 770 f = 0.4 d3 =1 0",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "gamma-prime (L1 2)",
+      "sample_id": "sample_5",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": 0.07,
+        "size": "12.5, 21, and 30 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC PE16 [18,19] 25 0.57 30 12.5 f = 0.07 21 30 f = 0.07",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "gamma-prime (L1 2)",
+      "sample_id": "sample_6",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": 0.27,
+        "size": "5 to 8 nm (coarse-grained); 90 to 300 nm (fine-grained)",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "Waspaloy[14] 25 0.15 125 5 to 8 N.A. 0.3 25 0.06 16 90 to 300 f = 0.27 [30] 0.12 1",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "gamma-prime (L1 2)",
+      "sample_id": "sample_7",
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": 0.27,
+        "size": "8 nm; 90 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "Waspaloy[13] 25 0.24 125 8 N.A. 0.5 0.83 25 0.24 90 f = 0.27 [30] 0.5 0.83",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "heat-treated",
+      "property": "cyclic strain hardening exponent n1",
+      "value": 0.0452,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "stress amplitude vs cumulative plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "II",
+          "quote": "Regression analyses showed that n1 = 0.0452 in the cyclic hardening regime, while n2 = /C0 0.0443 in the cyclic softening regime.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "heat-treated",
+      "property": "cyclic strain softening exponent n2",
+      "value": -0.0443,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "stress amplitude vs cumulative plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "II",
+          "quote": "Regression analyses showed that n1 = 0.0452 in the cyclic hardening regime, while n2 = /C0 0.0443 in the cyclic softening regime.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "heat-treated",
+      "property": "goodness of fit r2",
+      "value": 93.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "pct",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "regression analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "II",
+          "quote": "The goodness of ﬁt was, shown as r2 in Figure 2, was greater than 93.7 pct for NIMONIC 80A.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "property": "cyclic strain hardening exponent n1",
+      "value": 0.0284,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "stress amplitude vs cumulative plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "II",
+          "quote": "For NIMONIC 90 [17] with small c0 (4.6 nm), the cyclic stress response curve shows a cyclic hardening regime with n1 = 0.0284 at low fatigue cycles and a cyclic softening regime with n2 = /C0 0.0288 at high fatigue cycles with a goodness of ﬁt, r2, better than 92 pct, as shown in Figure 3(a).",
+          "table": null,
+          "figure": "Fig. 3(a)",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "property": "cyclic strain softening exponent n2",
+      "value": -0.0288,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "stress amplitude vs cumulative plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "II",
+          "quote": "For NIMONIC 90 [17] with small c0 (4.6 nm), the cyclic stress response curve shows a cyclic hardening regime with n1 = 0.0284 at low fatigue cycles and a cyclic softening regime with n2 = /C0 0.0288 at high fatigue cycles with a goodness of ﬁt, r2, better than 92 pct, as shown in Figure 3(a).",
+          "table": null,
+          "figure": "Fig. 3(a)",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "property": "goodness of fit r2",
+      "value": 92,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "pct",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "regression analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "II",
+          "quote": "For NIMONIC 90 [17] with small c0 (4.6 nm), the cyclic stress response curve shows a cyclic hardening regime with n1 = 0.0284 at low fatigue cycles and a cyclic softening regime with n2 = /C0 0.0288 at high fatigue cycles with a goodness of ﬁt, r2, better than 92 pct, as shown in Figure 3(a).",
+          "table": null,
+          "figure": "Fig. 3(a)",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_4",
+      "material_state": "heat-treated",
+      "property": "cyclic strain hardening exponent n1",
+      "value": 0.0099,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "stress amplitude vs cumulative plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "II",
+          "quote": "For NIMONIC 115 [20] with large c0 (770 nm), the cyclic stress response curve shown in Figure 3(b) shows that the cyclic hardening with n1 = 0.0099 at low fatigue cycles with an r2 of 80 pct and a cyclic saturation regime with n2 = 0 at high fatigue cycles.",
+          "table": null,
+          "figure": "Fig. 3(b)",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_4",
+      "material_state": "heat-treated",
+      "property": "goodness of fit r2",
+      "value": 80,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "pct",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "regression analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "II",
+          "quote": "For NIMONIC 115 [20] with large c0 (770 nm), the cyclic stress response curve shown in Figure 3(b) shows that the cyclic hardening with n1 = 0.0099 at low fatigue cycles with an r2 of 80 pct and a cyclic saturation regime with n2 = 0 at high fatigue cycles.",
+          "table": null,
+          "figure": "Fig. 3(b)",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_5",
+      "material_state": "heat-treated",
+      "property": "cyclic strain hardening exponent n1 range",
+      "value": null,
+      "min_value": 0.0297,
+      "max_value": 0.0708,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "stress amplitude vs cumulative plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "II",
+          "quote": "In all cases, the cyclic stress response curves of PE16 are similar to that of NIMONIC 90, exhibiting a cyclic hardening regime (n1 = 0.0297 to 0.0708) at low fatigue cycles and a cyclic softening regime ( n2 = /C0 0.042 to – 0.0233) at high fatigue cycles.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_5",
+      "material_state": "heat-treated",
+      "property": "cyclic strain softening exponent n2 range",
+      "value": null,
+      "min_value": -0.042,
+      "max_value": -0.0233,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "stress amplitude vs cumulative plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "II",
+          "quote": "In all cases, the cyclic stress response curves of PE16 are similar to that of NIMONIC 90, exhibiting a cyclic hardening regime (n1 = 0.0297 to 0.0708) at low fatigue cycles and a cyclic softening regime ( n2 = /C0 0.042 to – 0.0233) at high fatigue cycles.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_5",
+      "material_state": "heat-treated",
+      "property": "goodness of fit r2",
+      "value": 99,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "pct",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "regression analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "II",
+          "quote": "The r2 values for all three c0 sizes of PE 16 are better than 99 pct, as shown in Figure 4.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_6",
+      "material_state": "heat-treated",
+      "property": "cyclic strain hardening exponent n1 range",
+      "value": null,
+      "min_value": 0.116,
+      "max_value": 0.121,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "stress amplitude vs cumulative plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "II",
+          "quote": "For both microstructures, a relatively small cyclic hardening regime ( n1 = 0.116 to 0.121) was observed at low fatigue cycles (<20 cycles) and an extended cyclic softening regime ( n2 = /C0 0.0319 to /C0 0.0233) was observed from low to high fatigue cycles (20 to 10 4 cycles).",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_6",
+      "material_state": "heat-treated",
+      "property": "cyclic strain softening exponent n2 range",
+      "value": null,
+      "min_value": -0.0319,
+      "max_value": -0.0233,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "cyclic",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "stress amplitude vs cumulative plastic strain"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "II",
+          "quote": "For both microstructures, a relatively small cyclic hardening regime ( n1 = 0.116 to 0.121) was observed at low fatigue cycles (<20 cycles) and an extended cyclic softening regime ( n2 = /C0 0.0319 to /C0 0.0233) was observed from low to high fatigue cycles (20 to 10 4 cycles).",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_14",
+      "sample_id": "sample_6",
+      "material_state": "heat-treated",
+      "property": "goodness of fit r2 for cyclic hardening",
+      "value": 95,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "pct",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "regression analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "II",
+          "quote": "The r2 values were better than 95 and 93 pct for cyclic hardening and cyclic softening, respectively.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_15",
+      "sample_id": "sample_6",
+      "material_state": "heat-treated",
+      "property": "goodness of fit r2 for cyclic softening",
+      "value": 93,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "pct",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "regression analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "II",
+          "quote": "The r2 values were better than 95 and 93 pct for cyclic hardening and cyclic softening, respectively.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "shearing of gamma-prime precipitates by dislocations",
+      "category": "cyclic softening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "III",
+          "quote": "Cyclic softening of Ni-based superalloys has been attributed to shearing of c0 precipitates,[12–19] while cyclic saturation has been attributed to bowing of c0 by dislocations.[13]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "bowing of dislocations around gamma-prime precipitates",
+      "category": "cyclic saturation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "III",
+          "quote": "Cyclic softening of Ni-based superalloys has been attributed to shearing of c0 precipitates,[12–19] while cyclic saturation has been attributed to bowing of c0 by dislocations.[13]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "slip localization",
+      "category": "fatigue",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "III",
+          "quote": "TEM studies of fatigued Ni-based alloys have shown convincingly that shearing of c0 precipitates is the dominant mechanism responsible for cyclic softening and slip localization in Ni-based alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "Alloy 720 Li [21] 25 0.7 11 d1 = 1000 f1 = 0.18 [21] 400 d2 = 120 f2 = 0.29 [29] 650 d3 =5 0",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_2",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC 80A [15,16] 25 0.05 60 13 f = 0.19 0.51 0.89",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_3",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC 90 [17] 25 0.8 300 4.6 f = 0.089",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_4",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_4",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC 115 [20] 24 0.13 275 d1 = 770 f = 0.4 d3 =1 0",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_5",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": "sample_5",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "NIMONIC PE16 [18,19] 25 0.57 30 12.5 f = 0.07 21 30 f = 0.07",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_6",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_6",
+      "sample_id": "sample_6",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "Waspaloy[14] 25 0.15 125 5 to 8 N.A. 0.3 25 0.06 16 90 to 300 f = 0.27 [30] 0.12 1",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_7",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_7",
+      "sample_id": "sample_7",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table I",
+          "quote": "Waspaloy[13] 25 0.24 125 8 N.A. 0.5 0.83 25 0.24 90 f = 0.27 [30] 0.5 0.83",
+          "table": "Table I",
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "III",
+          "quote": "Cyclic softening of Ni-based superalloys has been attributed to shearing of c0 precipitates,[12–19] while cyclic saturation has been attributed to bowing of c0 by dislocations.[13]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "III",
+          "quote": "TEM studies of fatigued Ni-based alloys have shown convincingly that shearing of c0 precipitates is the dominant mechanism responsible for cyclic softening and slip localization in Ni-based alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71efa7190ed0bd13:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

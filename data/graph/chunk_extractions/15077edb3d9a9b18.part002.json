@@ -1,0 +1,243 @@
+{
+  "document_id": "15077edb3d9a9b18",
+  "chunk_id": "15077edb3d9a9b18:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Predicting creep-fatigue and thermomechanical fatigue life of Ni-base superalloys using a physics-guided neural network",
+    "authors": [],
+    "journal": "Fatigue & Fracture of Engineering Materials & Structures",
+    "year": 2023,
+    "doi": "10.1111/ffe.13948"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": null,
+          "section": null,
+          "quote": "provides a comprehensive picture of the performance of existing SX and DS superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime precipitate",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "possibly other secondary microstructural influences such as the γ0 precipitate volume fraction and morphology were not included in the present work",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "property": "mean square error (MSE)",
+      "value": 0.188,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.041,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "20%/80% random test/train split, averaged over 10 trainings"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "the model was trained 10 times using a randomly selected 20%/80% test train split each time and then evaluated with MSE each time with an average result of 0.188 ± 0.041",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": null,
+      "material_state": null,
+      "property": "mean square error (MSE)",
+      "value": 0.168,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.011,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "all data training, averaged over 10 predictions"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The average MSE of 10 predictions from the model trained with all data is 0.168 ± 0.011.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": null,
+      "material_state": null,
+      "property": "mean square error (MSE)",
+      "value": 0.186,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.025,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "five-fold cross validation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "The model was evaluated with five-fold cross validation using the metric MSE from Equation 12 to score the accuracy of model for each tested fold that resulted in an average cross validation score of 0.186 ± 0.025.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "oxidation-fatigue interaction",
+      "category": "environmental degradation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "compressive dwells continue to be detrimental at low strain ranges, resulting in a steeper strain-life curve, which likely related to an oxidation-fatigue interaction consistent with what has been observed experimentally.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "physics-guided neural network",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict creep-fatigue and thermomechanical fatigue life",
+      "inputs": [
+        "temperature",
+        "strain rate",
+        "cyclic frequency",
+        "dwell time",
+        "strain range",
+        "in-phase/out-of-phase",
+        "maximum temperature",
+        "minimum temperature"
+      ],
+      "target": "fatigue life (log10 N)",
+      "dataset": "comprehensive literature-extracted fatigue database for SX and DS Ni-base superalloys",
+      "validation": "20%/80% test/train split, five-fold cross validation, multiple random-weight trainings",
+      "metrics": {
+        "MSE": "0.188 ± 0.041",
+        "MSE_full_data": "0.168 ± 0.011",
+        "MSE_kfold_cv": "0.186 ± 0.025"
+      },
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "the model was trained 10 times using a randomly selected 20%/80% test train split each time and then evaluated with MSE each time with an average result of 0.188 ± 0.041",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:002"
+        },
+        {
+          "page": 11,
+          "section": null,
+          "quote": "The model was evaluated with five-fold cross validation using the metric MSE from Equation 12 to score the accuracy of model for each tested fold that resulted in an average cross validation score of 0.186 ± 0.025.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "ml_model_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 12,
+          "section": null,
+          "quote": "compressive dwells continue to be detrimental at low strain ranges, resulting in a steeper strain-life curve, which likely related to an oxidation-fatigue interaction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "15077edb3d9a9b18:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,189 @@
+{
+  "type": "json_object",
+  "document_id": "52dc2afb7806117c",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Scientific strategy of Nb-base superalloys coating",
+    "authors": [
+      "M. Okazaki",
+      "Department of Metallurgy, School of Engineering, The University of Tokyo, Hongo 7-3-1, Bunkyo-ku, Tokyo 113-8656, Japan"
+    ],
+    "journal": "Science and Technology of Advanced Materials",
+    "year": 2000,
+    "doi": "10.1016/S1468-6996(00)00022-X"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb-base superalloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Scientific strategy of Nb-base superalloys coating",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52dc2afb7806117c:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "MCrAlY alloy",
+      "material_category": "coating alloy",
+      "evidence": [
+        {
+          "page": "4",
+          "section": null,
+          "quote": "Third generation coatings began with the development of the so-called MCrAlY alloys (where M is Fe, Co, Ni, or a combination of these) [9,11,16].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52dc2afb7806117c:part:003"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "Nb-based superalloy",
+      "material_category": "Nb-based alloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Niobium-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52dc2afb7806117c:part:004"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Niobium-base superalloy",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_3",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Niobium-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52dc2afb7806117c:part:004"
+        },
+        {
+          "page": "6",
+          "section": null,
+          "quote": "the formation of the ordered intermetallic Ni3Al",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52dc2afb7806117c:part:004"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "ordered intermetallic Ni3Al",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "dendritic interdendritic regions",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "the formation of the ordered intermetallic Ni3Al phase in dendritic inter-dendritic regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52dc2afb7806117c:part:004"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The solid solution strengthening effect of Si and Ge in the Nb-1Zr alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52dc2afb7806117c:part:004"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "the formation of the ordered intermetallic Ni3Al phase in dendritic inter-dendritic regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52dc2afb7806117c:part:004"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The solid solution strengthening effect of Si and Ge in the Nb-1Zr alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52dc2afb7806117c:part:004"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "MCrAlY alloy"
+  ],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

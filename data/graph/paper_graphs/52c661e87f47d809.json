@@ -1,0 +1,614 @@
+{
+  "document_id": "52c661e87f47d809",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Laser powder bed fusion of pure Nb and Nb + WC powder mixture",
+    "authors": [
+      "Eloisa P. Cardozo",
+      "Ana Sofia C.M. D'Oliveira",
+      "Moataz M. Attallah"
+    ],
+    "journal": "International Journal of Refractory Metals and Hard Materials",
+    "year": 2024,
+    "doi": "10.1016/j.ijrmhm.2024.106687"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "pure Nb",
+      "material_category": "refractory metal",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "In this study, pure Nb and a blend of Nb with 2.5 wt% WC was processed with Laser Powder Bed Fusion (LPBF)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Nb-WC composite",
+      "material_category": "refractory metal composite",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "a blend of Nb with 2.5 wt% WC was processed with Laser Powder Bed Fusion (LPBF)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "pure Nb cubes",
+      "canonical_name": "Nb",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "pure Nb and a blend of Nb with 2.5 wt% WC was processed with Laser Powder Bed Fusion (LPBF)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Nb + WC cubes",
+      "canonical_name": "Nb-2.5WC",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "WC",
+          "value": 2.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Abstract",
+              "quote": "a blend of Nb with 2.5 wt% WC",
+              "table": null,
+              "figure": null,
+              "chunk_id": "52c661e87f47d809:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Nb + 2.5 wt% WC powder mixture",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Argon < 1000 ppm",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": "275-375",
+        "scan_speed": "400-1000",
+        "layer_thickness": "30-60",
+        "other": {
+          "hatch_spacing_mm": "0.05-0.11",
+          "scan_strategy": "island scan (5 mm x 5 mm)"
+        }
+      },
+      "input_state": "powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 Material and method",
+          "quote": "A DoE optimisation study using the parameters in Table 1 was initially performed on pure Nb to build 5 mm cubes on a Ti plate",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Argon < 1000 ppm",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": "275-375",
+        "scan_speed": "400-1000",
+        "layer_thickness": "30-60",
+        "other": {
+          "hatch_spacing_mm": "0.05-0.11",
+          "scan_strategy": "island scan (5 mm x 5 mm)"
+        }
+      },
+      "input_state": "powder mixture",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 Material and method",
+          "quote": "The powder mixture Nb + WC was then processed using the same parameters.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Nb with oxygen in solid solution",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1 Laser powder bed fusion of pure Nb",
+          "quote": "the processed Nb has a single phase with a BCC structure",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dendritic microstructure",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "attributes": {
+        "morphology": "refined",
+        "location": null,
+        "size": null,
+        "phase_fraction": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2 Laser powder bed fusion of niobium + WC",
+          "quote": "the WC addition resulted in a refined microstructure",
+          "table": null,
+          "figure": "Fig. 10(b)",
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "porosity",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "attributes": {
+        "morphology": "large and spherical",
+        "location": "bulk",
+        "size": null,
+        "phase_fraction": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2 Laser powder bed fusion of niobium + WC",
+          "quote": "large and spherical pores, typical features of gas pores",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "columnar grain",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "morphology": "columnar",
+        "location": null,
+        "size": null,
+        "phase_fraction": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Laser powder bed fusion of pure Nb",
+          "quote": "The higher hardness values can be partially associated to the fine columnar microstructure formed because of the typically high cooling rates in LPBF",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "hardness",
+      "value": 291,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 11,
+      "unit": "HV0.1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "Vickers",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "10s",
+        "test_method": "Vickers microhardness"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Laser powder bed fusion of pure Nb",
+          "quote": "The average hardness of cubes (291 ± 11HV0.1)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "hardness",
+      "value": 250,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 16,
+      "unit": "HV0.1",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "Vickers",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "10s",
+        "test_method": "Vickers microhardness"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Laser powder bed fusion of niobium + WC",
+          "quote": "The average hardness of Nb + WC cubes was 250 ± 16 HV0.1, which is 15% lower than that of the average hardness of the pure Nb cubes.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "tensile strength",
+      "value": 941,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "converted from hardness"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2 Laser powder bed fusion of niobium + WC",
+          "quote": "HV0.1 = 291 HV (941 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "tensile strength",
+      "value": 821,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "converted from hardness"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2 Laser powder bed fusion of niobium + WC",
+          "quote": "HV0.1 = 250 HV (821 MPa)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "grain size",
+      "value": 82,
+      "min_value": 38,
+      "max_value": 126,
+      "uncertainty": null,
+      "unit": "um",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "EBSD"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2 Laser powder bed fusion of niobium + WC",
+          "quote": "GS_Nb = 82 ± 44 um",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "grain size",
+      "value": 47,
+      "min_value": 27,
+      "max_value": 67,
+      "uncertainty": null,
+      "unit": "um",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "EBSD"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2 Laser powder bed fusion of niobium + WC",
+          "quote": "GS_Nb + WC = 47 ± 20 um",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1 Laser powder bed fusion of pure Nb",
+          "quote": "the measured displacement as the energy density increases can be associated with the solid solution effects of oxygen pick-up",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Hall-Petch strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2 Laser powder bed fusion of niobium + WC",
+          "quote": "The Hall-Petch equation predicts that tensile strength might increase with grain refining.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 Material and method",
+          "quote": "A DoE optimisation study using the parameters in Table 1 was initially performed on pure Nb to build 5 mm cubes on a Ti plate",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2 Material and method",
+          "quote": "The powder mixture Nb + WC was then processed using the same parameters.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Laser powder bed fusion of pure Nb",
+          "quote": "The excessive hardness increases in LPBF processed Nb has been associated with the oxygen pick-up during the process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2 Laser powder bed fusion of niobium + WC",
+          "quote": "The Hall-Petch equation predicts that tensile strength might increase with grain refining.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "52c661e87f47d809:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

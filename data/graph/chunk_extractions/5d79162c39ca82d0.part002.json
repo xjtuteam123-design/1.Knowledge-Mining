@@ -1,0 +1,602 @@
+{
+  "document_id": "5d79162c39ca82d0",
+  "chunk_id": "5d79162c39ca82d0:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Effect of solution treatment temperature on HIPed superalloy Inconel 718",
+    "authors": [
+      "G. Appa Rao",
+      "M. Kumar",
+      "M. Srinivas",
+      "D. S. Sarma"
+    ],
+    "journal": "Materials Science and Technology",
+    "year": 2004,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "Inferior ductility and poor stress rupture life observed in P/M (HIP) processed c – c9 strengthened Ni base superalloys was attributed to the formation of PPBs",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "HIPed alloy 718",
+      "canonical_name": "Inconel 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-HIPed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "It may be noted that the powder used for the present study had 275 ppm oxygen (Table 1); as a result, the PPB precipitation is much higher and has taken place in a continuous form in this alloy.",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "hot isostatic pressing (HIP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "powder",
+      "output_state": "as-HIPed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "thermomechanical working of HIPed alloys has been proposed.15,16",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": {
+          "min": 850,
+          "max": 1270
+        },
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-HIPed",
+      "output_state": "solution treated",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "In the present investigation the alloy was solution treated over a wide range of temperature from 850 uC to 1270 uC.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": {
+          "min": 620,
+          "max": 720
+        },
+        "time": "8 h at each temperature",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "furnace cooling to 620 uC, then air cooling to room temperature",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution treated",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "After solution treatment, aging is carried out at 720 uC for 8 h, followed by furnace cooling to 620 uC and holding at 620 uC for 8 h, and then air cooling to room temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma'' (Ni3Nb)",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "strengthening phases such as c0 and c9 were coarsened at this temperature (Fig. 6a)",
+          "table": null,
+          "figure": "6a",
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "delta (Ni3Nb)",
+      "sample_id": "sample_1",
+      "material_state": "solution treated at 850 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "platelike",
+        "location": "prior particle boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "At 850 uC the d phase had a platelike morphology and the plates were found to be placed very closely at the prior particle boundaries",
+          "table": null,
+          "figure": "6a",
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "delta (Ni3Nb)",
+      "sample_id": "sample_1",
+      "material_state": "solution treated at 955 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "acicular",
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the alloy contained d phase with an acicular morphology, with reduced volume fraction at the grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "MC carbide",
+      "sample_id": "sample_1",
+      "material_state": "solution treated at 1270 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "prior particle boundaries",
+        "composition": "(Nb and Ti)C",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The PPBs were decorated with highly brittle oxides (Al 2O3 and TiO2) and MC type (Nb and Ti) C carbides.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "Al2O3",
+      "sample_id": "sample_1",
+      "material_state": "as-HIPed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "prior particle boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The PPBs were decorated with highly brittle oxides (Al 2O3 and TiO2) and MC type (Nb and Ti) C carbides.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "TiO2",
+      "sample_id": "sample_1",
+      "material_state": "as-HIPed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "prior particle boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The PPBs were decorated with highly brittle oxides (Al 2O3 and TiO2) and MC type (Nb and Ti) C carbides.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "gamma' (Ni3Al)",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "strengthening phases such as c0 and c9 were coarsened at this temperature (Fig. 6a)",
+          "table": null,
+          "figure": "6a",
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Defect",
+      "name": "prior particle boundary (PPB) network",
+      "sample_id": "sample_1",
+      "material_state": "as-HIPed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "continuous",
+        "location": "prior particle boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "as a result, the PPB precipitation is much higher and has taken place in a continuous form in this alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "fine dimple",
+      "sample_id": "sample_1",
+      "material_state": "aged, solution treated at 1270 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "fine dimples",
+        "location": "fracture surface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "the sample solution treated at 1270 uC consisted of ﬁne dimples, suggestive of adequate ductility.",
+          "table": null,
+          "figure": "10c",
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "particle boundary decohesion",
+      "sample_id": "sample_1",
+      "material_state": "aged, solution treated at 850-1150 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "particle boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "Samples solution treated between 850 and 1150 uC exhibited particle boundary decohesion, which resulted in lower values of ductility,",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged, solution treated at 980 °C",
+      "property": "elongation",
+      "value": 3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "Although these values are slightly less than the minimum speciﬁcation requirements of 12% EL and 15% RA for wrought IN 718, they are far superior to the 3% EL and 7.7% RA obtained with the standard solution treatment temperature of 980 uC.",
+          "table": null,
+          "figure": "8b",
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "aged, solution treated at 980 °C",
+      "property": "reduction of area",
+      "value": 7.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "Although these values are slightly less than the minimum speciﬁcation requirements of 12% EL and 15% RA for wrought IN 718, they are far superior to the 3% EL and 7.7% RA obtained with the standard solution treatment temperature of 980 uC.",
+          "table": null,
+          "figure": "8b",
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "aged, solution treated at 1270 °C",
+      "property": "elongation",
+      "value": 8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "The 650 uC ductility of the alloy solution treated at 1270uC showed the highest values, at 8% EL and 13% RA (Fig. 8b).",
+          "table": null,
+          "figure": "8b",
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "aged, solution treated at 1270 °C",
+      "property": "reduction of area",
+      "value": 13,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "The 650 uC ductility of the alloy solution treated at 1270uC showed the highest values, at 8% EL and 13% RA (Fig. 8b).",
+          "table": null,
+          "figure": "8b",
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "phase_5",
+      "predicate": "CAUSES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-HIPed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The PPBs were decorated with highly brittle oxides (Al 2O3 and TiO2) and MC type (Nb and Ti) C carbides.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "microstructure_1",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-HIPed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "Since the brittle particles are spaced closely along the prior particle boundaries, they provide a continuous path for crack propagation and ultimately lead to particle boundary decohesion, resulting in poor ductility.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "phase_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged, solution treated at 980 °C",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "The increase in YS and UTS values of the aged alloy for solution treatment temperatures between 1050 and 1150 uC is attributed to the dissolution of d phase, resulting in excess Nb content in the matrix enabling the formation of a greater volume fraction of c0 and c9 strengthening phases during aging treatment",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d79162c39ca82d0:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

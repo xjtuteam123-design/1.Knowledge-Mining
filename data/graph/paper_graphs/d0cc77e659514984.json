@@ -1,0 +1,1513 @@
+{
+  "document_id": "d0cc77e659514984",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Effect of temperature on the mechanical properties of Ni-based superalloys via molecular dynamics and crystal plasticity",
+    "authors": [
+      "Y.-Z. Liu",
+      "Z.-L. Shi",
+      "Y.-B. Zhang",
+      "M. Qin",
+      "S.-P. Hu",
+      "X.-G. Song",
+      "W. Fu",
+      "B.-J. Lee"
+    ],
+    "journal": "Journal of Materials Science & Technology",
+    "year": 2024,
+    "doi": "10.1016/j.jmst.2024.02.085"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Hastelloy-X (HX) alloy, an face-centered cubic (FCC) crystal structure nickel-based superalloy with the main element of Ni-Cr-Mo-Fe, is mainly applied in aerospace thermal protection structures and engine sealing structures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni47Cr25Co2Mo6Fe20",
+      "canonical_name": "Hastelloy-X (HX) alloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed at 300 K (MD model)",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 47,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Computational method of MD",
+              "quote": "The model was created in the form of Ni47 Cr25 Co2 Mo6 Fe20 (atomic ratio model for HX alloy).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d0cc77e659514984:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Computational method of MD",
+              "quote": "The model was created in the form of Ni47 Cr25 Co2 Mo6 Fe20 (atomic ratio model for HX alloy).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d0cc77e659514984:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Computational method of MD",
+              "quote": "The model was created in the form of Ni47 Cr25 Co2 Mo6 Fe20 (atomic ratio model for HX alloy).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d0cc77e659514984:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Computational method of MD",
+              "quote": "The model was created in the form of Ni47 Cr25 Co2 Mo6 Fe20 (atomic ratio model for HX alloy).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d0cc77e659514984:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Computational method of MD",
+              "quote": "The model was created in the form of Ni47 Cr25 Co2 Mo6 Fe20 (atomic ratio model for HX alloy).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d0cc77e659514984:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Computational method of MD",
+          "quote": "The model was created in the form of Ni47 Cr25 Co2 Mo6 Fe20 (atomic ratio model for HX alloy). The initial lattice length used for the model was 3.61 ˚A.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "energy minimization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "energy-minimized model",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1.2 Tensile simulation",
+          "quote": "we ﬁrst conducted energy minimization on the initial models, followed by relaxation for 20 ps at 300 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "relaxation",
+      "parameters": {
+        "temperature_c": 26.85,
+        "time": "20 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "relaxed at 300 K",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1.2 Tensile simulation",
+          "quote": "we ﬁrst conducted energy minimization on the initial models, followed by relaxation for 20 ps at 300 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "Monte Carlo simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "description": "MC atomic exchange and MD hybrid methods to construct CSRO"
+        }
+      },
+      "input_state": "relaxed at 300 K",
+      "output_state": "model containing CSRO",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1.2 Tensile simulation",
+          "quote": "An atomic model of the HX alloy containing CSRO was constructed based on the initial model by combining the MC atomic exchange and MD hybrid methods.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "cooled from 1500 K to 300, 600, 900, and 1200 K at a rate of 1 K/ps",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "start_temperature_K": 1500,
+          "end_temperatures_K": [
+            300,
+            600,
+            900,
+            1200
+          ],
+          "cooling_rate": "1 K/ps"
+        }
+      },
+      "input_state": "model containing CSRO",
+      "output_state": "annealed at 300, 600, 900, and 1200 K",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1.2 Tensile simulation",
+          "quote": "After MC simulation, we annealed the model from 1500 K to 300, 60 0, 90 0, and 120 0 K at a 1 K/ps rate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "second lattice relaxation under canonical ensemble (NVT)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "boundary_conditions": "non-periodic on X, Y, Z"
+        }
+      },
+      "input_state": "annealed at 300, 600, 900, and 1200 K",
+      "output_state": "second lattice relaxed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1.2 Tensile simulation",
+          "quote": "For a second lattice relaxation under canonical ensemble (NVT), we switched the model to non-periodic boundary conditions on the X, Y , and Z axes [32].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_1",
+      "sequence": 6,
+      "method": "tensile simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "Y-direction deformation",
+        "strain_rate": "1e8 s-1 (engineering strain rate)",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "boundary_conditions": "free on planes parallel to loading axis; rigid blocks at top and bottom"
+        }
+      },
+      "input_state": "second lattice relaxed",
+      "output_state": "tensile-deformed (MD)",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1.2 Tensile simulation",
+          "quote": "The Y -direction deformation is performed at an engineering strain rate of 108 s−1 . At the top and bottom regions of the simulation box, rigid blocks containing immobile atoms were positioned.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_1",
+      "sequence": 7,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": "furnace-cooled",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature": "1450 K"
+        }
+      },
+      "input_state": null,
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.3",
+          "quote": "annealing process: vacuum at 1450 K for 4 h, and then furnace-cooled",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "MD model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Hastelloy-X (HX) alloy, an face-centered cubic (FCC) crystal structure nickel-based superalloy with the main element of Ni-Cr-Mo-Fe",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "intrinsic stacking fault (ISF)",
+      "sample_id": "sample_1",
+      "material_state": "MD tensile deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "Firstly, there is the generation of stacking faults where the dislocation in the [1—1—2] direction moves (this stacking fault is known as ISF), resulting in a decrease in tensile strength from 4.4 to 4.17 GPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "extrinsic stacking fault (ESF)",
+      "sample_id": "sample_1",
+      "material_state": "MD tensile deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "After the introduction of the ISF, the atoms below the neighboring plane (marked as II in Fig. 2 (a)) are immobilized. The remaining atoms are further displaced by one Bv along the [11–2] direction, ultimately transforming into the ESF.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "deformation twin (TW)",
+      "sample_id": "sample_1",
+      "material_state": "MD tensile deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "After completing the ESF introduction, moving the atoms above plane III by one Bv distance can convert the ESF to a deformed Twin.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": "sample_1",
+      "material_state": "MD tensile deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "with the continued increase in strain, some of the stacking faults transform into hexagonal close-packed (HCP) structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Microstructure",
+      "name": "micro twin",
+      "sample_id": "sample_1",
+      "material_state": "MD tensile deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "micro twins",
+        "location": "cross-section",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "the presence of mi- cro twins in the cross-section was found by planar defect identiﬁcation analysis of the deformation process (As shown in Fig. 5 (c, d)).",
+          "table": null,
+          "figure": "Fig. 5 (c, d)",
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.5",
+          "quote": "many crossed stacking faults and high-density dislocations in the FCC phase exist",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_8",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.5",
+          "quote": "the stress-induced transformation of the FCC structure into the HCP structure occurs when the stacking fault energy of the alloy is low",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "stacking fault",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "crossed",
+        "location": "grain",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.5",
+          "quote": "many crossed stacking faults and high-density dislocations in the FCC phase exist",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "micro twin",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "edges of stacking faults",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.5",
+          "quote": "the existence of a certain amount of micro twin crystals at the edges of the faults",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "slip band",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": "3.5",
+          "quote": "EDS elemental scans were performed on the structure where the slip bands occurred",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "high density",
+        "location": "grain",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.5",
+          "quote": "high-density dislocations in the FCC phase exist",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "MD tensile deformed",
+      "property": "tensile strength",
+      "value": 4.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[110]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "the generation of stacking faults where the dislocation in the [1—1—2] direction moves (this stacking fault is known as ISF), resulting in a decrease in tensile strength from 4.4 to 4.17 GPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "MD tensile deformed",
+      "property": "tensile strength",
+      "value": 4.17,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[110]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "the generation of stacking faults where the dislocation in the [1—1—2] direction moves (this stacking fault is known as ISF), resulting in a decrease in tensile strength from 4.4 to 4.17 GPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "MD tensile deformed",
+      "property": "tensile strength",
+      "value": 4.15,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[110]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "Secondly, the number of stacking faults increases as the model strain rises, as shown in Fig. 6 (c2) (at this point, the tensile strength is 4.15 GPa).",
+          "table": null,
+          "figure": "Fig. 6 (c2)",
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "MD model",
+      "property": "stacking fault energy (SFE)",
+      "value": 50.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m2",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "generalized SFE simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "After calculation, the SFE was determined to be 50.3 mJ/m2 , which is very close to the experimental value of 41 mJ/m2 [45], as shown in Fig. 4 (b).",
+          "table": null,
+          "figure": "Fig. 4 (b)",
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "MD model",
+      "property": "intrinsic stacking fault energy (γISF)",
+      "value": 18.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "GSFE calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "Based on the calculation, we determine that γISF , γESF , and γTW are 18.5, 62.5, and 98.8 m J/m2 , respectively (As shown in Fig. 6 (a)).",
+          "table": null,
+          "figure": "Fig. 6 (a)",
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "MD model",
+      "property": "extrinsic stacking fault energy (γESF)",
+      "value": 62.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "GSFE calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "Based on the calculation, we determine that γISF , γESF , and γTW are 18.5, 62.5, and 98.8 m J/m2 , respectively (As shown in Fig. 6 (a)).",
+          "table": null,
+          "figure": "Fig. 6 (a)",
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "MD model",
+      "property": "deformation twin energy (γTW)",
+      "value": 98.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "GSFE calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "Based on the calculation, we determine that γISF , γESF , and γTW are 18.5, 62.5, and 98.8 m J/m2 , respectively (As shown in Fig. 6 (a)).",
+          "table": null,
+          "figure": "Fig. 6 (a)",
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "property": "yield strength",
+      "value": 330,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "X, Y, and Z directions",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.3",
+          "quote": "There is no significant difference in the yield strength of model-1 in the three directions, which is about 330 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "stacking fault deformation (ISF to ESF to twin)",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "MD tensile deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "the transformation process begins from ISF to ESF, followed by ESF to TW, eventually resulting in the gradual growth of the twin boundary.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation network formation",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": "MD tensile deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "Finally, as the model strain increases further, the twin crystals intersect with the stacking faults, forming a dislocation network.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "twinning",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2",
+          "quote": "MD studies show that the plastic deformation mechanism of HX alloys below 300 K is mainly twinning and stacking fault deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "stacking fault deformation",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2",
+          "quote": "MD studies show that the plastic deformation mechanism of HX alloys below 300 K is mainly twinning and stacking fault deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "stacking fault deformation",
+      "category": "deformation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 17,
+          "section": null,
+          "quote": "stretched between 300 and 1200 K, its primary deformation mechanism is deformation due to stacking faults.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_6",
+      "name": "dislocation motion",
+      "category": "deformation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 17,
+          "section": null,
+          "quote": "The TEM characterization reveals that the primary deformation mechanism of HX alloys at room temperature is the movement of stacking faults and dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_7",
+      "name": "dislocation-stacking fault interaction",
+      "category": "strain hardening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 17,
+          "section": null,
+          "quote": "The persistent strain hardening is also attributed to the interaction between dislocations and stacking faults, which aligns with the findings from MD simulations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Hastelloy-X (HX) alloy, an face-centered cubic (FCC) crystal structure nickel-based superalloy with the main element of Ni-Cr-Mo-Fe, is mainly applied in aerospace thermal protection structures and engine sealing structures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Computational method of MD",
+          "quote": "The model was created in the form of Ni47 Cr25 Co2 Mo6 Fe20 (atomic ratio model for HX alloy).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": "MD model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Hastelloy-X (HX) alloy, an face-centered cubic (FCC) crystal structure nickel-based superalloy with the main element of Ni-Cr-Mo-Fe",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": null,
+      "material_state": "MD tensile deformed",
+      "conditions": {
+        "loading_mode": "tensile",
+        "orientation": "[110]",
+        "temperature_c": null
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "Firstly, there is the generation of stacking faults where the dislocation in the [1—1—2] direction moves (this stacking fault is known as ISF), resulting in a decrease in tensile strength from 4.4 to 4.17 GPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": null,
+      "material_state": "MD tensile deformed",
+      "conditions": {
+        "loading_mode": "tensile",
+        "orientation": "[110]",
+        "temperature_c": null
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "After the introduction of the ISF, the atoms below the neighboring plane (marked as II in Fig. 2 (a)) are immobilized. The remaining atoms are further displaced by one Bv along the [11–2] direction, ultimately transforming into the ESF.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": null,
+      "material_state": "MD tensile deformed",
+      "conditions": {
+        "loading_mode": "tensile",
+        "orientation": "[110]",
+        "temperature_c": null
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "After completing the ESF introduction, moving the atoms above plane III by one Bv distance can convert the ESF to a deformed Twin.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": null,
+      "material_state": "MD tensile deformed",
+      "conditions": {
+        "loading_mode": "tensile",
+        "orientation": "[110]",
+        "temperature_c": null
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "with the continued increase in strain, some of the stacking faults transform into hexagonal close-packed (HCP) structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_6",
+      "sample_id": null,
+      "material_state": "MD tensile deformed",
+      "conditions": {
+        "loading_mode": "tensile",
+        "orientation": "[111]",
+        "temperature_c": null
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "the presence of mi- cro twins in the cross-section was found by planar defect identiﬁcation analysis of the deformation process (As shown in Fig. 5 (c, d)).",
+          "table": null,
+          "figure": "Fig. 5 (c, d)",
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "phase_2",
+      "predicate": "TRANSFORMS_TO",
+      "target_id": "phase_3",
+      "sample_id": null,
+      "material_state": "MD tensile deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "the transformation process begins from ISF to ESF, followed by ESF to TW, eventually resulting in the gradual growth of the twin boundary.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "phase_3",
+      "predicate": "TRANSFORMS_TO",
+      "target_id": "phase_4",
+      "sample_id": null,
+      "material_state": "MD tensile deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "the transformation process begins from ISF to ESF, followed by ESF to TW, eventually resulting in the gradual growth of the twin boundary.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": "MD tensile deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "the generation of stacking faults where the dislocation in the [1—1—2] direction moves (this stacking fault is known as ISF), resulting in a decrease in tensile strength from 4.4 to 4.17 GPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_2",
+      "predicate": "FORMS",
+      "target_id": "phase_4",
+      "sample_id": null,
+      "material_state": "MD tensile deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.1 MD study of the tensile behavior of HX alloys",
+          "quote": "Finally, as the model strain increases further, the twin crystals intersect with the stacking faults, forming a dislocation network.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_7",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.5",
+          "quote": "many crossed stacking faults and high-density dislocations in the FCC phase exist",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_8",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.5",
+          "quote": "the stress-induced transformation of the FCC structure into the HCP structure occurs when the stacking fault energy of the alloy is low",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.5",
+          "quote": "many crossed stacking faults and high-density dislocations in the FCC phase exist",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.5",
+          "quote": "high-density dislocations in the FCC phase exist",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.5",
+          "quote": "the existence of a certain amount of micro twin crystals at the edges of the faults",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "3.5",
+          "quote": "EDS elemental scans were performed on the structure where the slip bands occurred",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2",
+          "quote": "Refining grain size through twinning deformation can increase dislocation density, thereby leading to a more significant low-temperature elongation rate and higher ultimate strength of HX alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d0cc77e659514984:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "ISF",
+    "ESF",
+    "S-N type",
+    "HX alloy",
+    "rolled texture",
+    "CP"
+  ],
+  "conflicts": []
+}

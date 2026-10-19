@@ -1,0 +1,2534 @@
+{
+  "document_id": "b80902f41fba81ea",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Alloying effects and effective alloy design of high-Cr CoNi-based superalloys via a high-throughput experiments and machine learning framework",
+    "authors": [
+      "Xiaoli Zhuang",
+      "Stoichko Antonov",
+      "Wendao Li",
+      "Song Lu",
+      "Longfei Li",
+      "Qiang Feng"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2023,
+    "doi": "10.1016/j.actamat.2022.118525"
+  },
+  "alloy_systems": [
+    {
+      "id": "part1_alloy_system_1",
+      "name": "CoNi-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The discovery of a stable γ/γ’ microstructure in Co-Al-W-based alloys brought forth possibilities for Co-based superalloys as potential alternatives to Ni-based superalloys in high temperature applications.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_alloy_system_1",
+      "name": "CoNi-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2",
+          "quote": "the multicomponent CoNi-based superalloys with high Cr content",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part3_alloy_system_1",
+      "name": "CoNi-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "The γ/ γ′ compositions (at.%) and the partitioning coeﬃcients K γ′ / γ between γ′ and γ phases in the alloys A1 and A2 after aging at 850 °C for 10 0 0 h.",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "part1_sample_1",
+      "original_name": "Base alloy",
+      "canonical_name": "Co-30Ni-8Al-3W-3Ti-1Ta-12Cr",
+      "alloy_system_id": "part1_alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+              "quote": "The base alloy was Co-30Ni-8Al-3W-3Ti-1Ta-12Cr (at.%) with relatively high Cr content.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+              "quote": "The base alloy was Co-30Ni-8Al-3W-3Ti-1Ta-12Cr (at.%) with relatively high Cr content.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+              "quote": "The base alloy was Co-30Ni-8Al-3W-3Ti-1Ta-12Cr (at.%) with relatively high Cr content.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+              "quote": "The base alloy was Co-30Ni-8Al-3W-3Ti-1Ta-12Cr (at.%) with relatively high Cr content.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+              "quote": "The base alloy was Co-30Ni-8Al-3W-3Ti-1Ta-12Cr (at.%) with relatively high Cr content.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+              "quote": "The base alloy was Co-30Ni-8Al-3W-3Ti-1Ta-12Cr (at.%) with relatively high Cr content.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 12,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+              "quote": "The base alloy was Co-30Ni-8Al-3W-3Ti-1Ta-12Cr (at.%) with relatively high Cr content.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+          "quote": "The base alloy was Co-30Ni-8Al-3W-3Ti-1Ta-12Cr (at.%) with relatively high Cr content.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_1",
+      "original_name": "A1",
+      "canonical_name": "Co-32Ni-9Al-2W-1Ti-1Ta-14Cr-2.5Mo-0.5Nb",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 nominal bal. 32.0 9.0 2.0 1.0 1.0 14.0 2.5 0.5",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 32.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 nominal bal. 32.0 9.0 2.0 1.0 1.0 14.0 2.5 0.5",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 9.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 nominal bal. 32.0 9.0 2.0 1.0 1.0 14.0 2.5 0.5",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 2.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 nominal bal. 32.0 9.0 2.0 1.0 1.0 14.0 2.5 0.5",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 1.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 nominal bal. 32.0 9.0 2.0 1.0 1.0 14.0 2.5 0.5",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 1.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 nominal bal. 32.0 9.0 2.0 1.0 1.0 14.0 2.5 0.5",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 14.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 nominal bal. 32.0 9.0 2.0 1.0 1.0 14.0 2.5 0.5",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 2.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 nominal bal. 32.0 9.0 2.0 1.0 1.0 14.0 2.5 0.5",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 nominal bal. 32.0 9.0 2.0 1.0 1.0 14.0 2.5 0.5",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "Alloy A1 has a higher content of Mo, which mainly ensures a spherical γ’ morphology.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_2",
+      "original_name": "A1",
+      "canonical_name": "Co-32Ni-9Al-2W-1Ti-1Ta-14Cr-2.5Mo-0.5Nb",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 measured bal. 33.8 ±0.1 8.7 ±0.1 2.1 ±0.1 1.0 ±0.1 0.9 ±0.1 13.5 ±0.2 2.1 ±0.1 0.3 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 33.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 measured bal. 33.8 ±0.1 8.7 ±0.1 2.1 ±0.1 1.0 ±0.1 0.9 ±0.1 13.5 ±0.2 2.1 ±0.1 0.3 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 8.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 measured bal. 33.8 ±0.1 8.7 ±0.1 2.1 ±0.1 1.0 ±0.1 0.9 ±0.1 13.5 ±0.2 2.1 ±0.1 0.3 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 2.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 measured bal. 33.8 ±0.1 8.7 ±0.1 2.1 ±0.1 1.0 ±0.1 0.9 ±0.1 13.5 ±0.2 2.1 ±0.1 0.3 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 1.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 measured bal. 33.8 ±0.1 8.7 ±0.1 2.1 ±0.1 1.0 ±0.1 0.9 ±0.1 13.5 ±0.2 2.1 ±0.1 0.3 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 0.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 measured bal. 33.8 ±0.1 8.7 ±0.1 2.1 ±0.1 1.0 ±0.1 0.9 ±0.1 13.5 ±0.2 2.1 ±0.1 0.3 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 13.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 measured bal. 33.8 ±0.1 8.7 ±0.1 2.1 ±0.1 1.0 ±0.1 0.9 ±0.1 13.5 ±0.2 2.1 ±0.1 0.3 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 2.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 measured bal. 33.8 ±0.1 8.7 ±0.1 2.1 ±0.1 1.0 ±0.1 0.9 ±0.1 13.5 ±0.2 2.1 ±0.1 0.3 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 0.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A1 measured bal. 33.8 ±0.1 8.7 ±0.1 2.1 ±0.1 1.0 ±0.1 0.9 ±0.1 13.5 ±0.2 2.1 ±0.1 0.3 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "The nominal and measured compositions of the selected alloys are shown in Table 3 . Alloy A1 has a higher content of Mo, which mainly ensures a spherical γ’ morphology.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_3",
+      "original_name": "A2",
+      "canonical_name": "Co-30Ni-8Al-2W-2.5Ti-1.5Ta-14Cr-1Nb",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 nominal bal. 30.0 8.0 2.0 2.5 1.5 14.0 - 1.0",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 30.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 nominal bal. 30.0 8.0 2.0 2.5 1.5 14.0 - 1.0",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 8.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 nominal bal. 30.0 8.0 2.0 2.5 1.5 14.0 - 1.0",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 2.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 nominal bal. 30.0 8.0 2.0 2.5 1.5 14.0 - 1.0",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 2.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 nominal bal. 30.0 8.0 2.0 2.5 1.5 14.0 - 1.0",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 1.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 nominal bal. 30.0 8.0 2.0 2.5 1.5 14.0 - 1.0",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 14.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 nominal bal. 30.0 8.0 2.0 2.5 1.5 14.0 - 1.0",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 1.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 nominal bal. 30.0 8.0 2.0 2.5 1.5 14.0 - 1.0",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "Alloy A2 does not contain Mo, but has a high Ti, Ta and Nb content, since the γ’ morphology should be cuboidal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_4",
+      "original_name": "A2",
+      "canonical_name": "Co-30Ni-8Al-2W-2.5Ti-1.5Ta-14Cr-1Nb",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 measured bal. 30.0 ±0.2 8.2 ±0.1 2.0 ±0.1 2.7 ±0.1 1.3 ±0.1 14.2 ±0.2 - 0.9 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 30.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 measured bal. 30.0 ±0.2 8.2 ±0.1 2.0 ±0.1 2.7 ±0.1 1.3 ±0.1 14.2 ±0.2 - 0.9 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 8.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 measured bal. 30.0 ±0.2 8.2 ±0.1 2.0 ±0.1 2.7 ±0.1 1.3 ±0.1 14.2 ±0.2 - 0.9 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 2.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 measured bal. 30.0 ±0.2 8.2 ±0.1 2.0 ±0.1 2.7 ±0.1 1.3 ±0.1 14.2 ±0.2 - 0.9 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 2.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 measured bal. 30.0 ±0.2 8.2 ±0.1 2.0 ±0.1 2.7 ±0.1 1.3 ±0.1 14.2 ±0.2 - 0.9 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 1.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 measured bal. 30.0 ±0.2 8.2 ±0.1 2.0 ±0.1 2.7 ±0.1 1.3 ±0.1 14.2 ±0.2 - 0.9 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 14.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 measured bal. 30.0 ±0.2 8.2 ±0.1 2.0 ±0.1 2.7 ±0.1 1.3 ±0.1 14.2 ±0.2 - 0.9 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 0.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "measured",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "3.4",
+              "quote": "A2 measured bal. 30.0 ±0.2 8.2 ±0.1 2.0 ±0.1 2.7 ±0.1 1.3 ±0.1 14.2 ±0.2 - 0.9 ±0.1",
+              "table": "Table 3",
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "Alloy A2 does not contain Mo, but has a high Ti, Ta and Nb content, since the γ’ morphology should be cuboidal.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part3_sample_1",
+      "original_name": "A1",
+      "canonical_name": null,
+      "alloy_system_id": "part3_alloy_system_1",
+      "material_state": "aged at 850 °C for 1000 h",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": 2.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "14",
+              "section": null,
+              "quote": "the addition of Mo, with a nominal composition of 2.5 at.%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b80902f41fba81ea:part:003"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "There were no secondary phases even along the grain boundaries of alloys A1 and A2 after aging at 850 °C for 10 0 0 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_sample_2",
+      "original_name": "A2",
+      "canonical_name": null,
+      "alloy_system_id": "part3_alloy_system_1",
+      "material_state": "aged at 850 °C for 1000 h",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "There were no secondary phases even along the grain boundaries of alloys A1 and A2 after aging at 850 °C for 10 0 0 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "part1_process_1",
+      "sample_id": "part1_sample_1",
+      "sequence": 1,
+      "method": "arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "remelt_count": "more than 8 times"
+        }
+      },
+      "input_state": "pure metals",
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+          "quote": "the diffusion couple alloys were melted from the appropriate amounts of high purity metals in accordance to the compositions shown in Table 1 via arc melting under an Ar atmosphere. The alloys were inverted and re-melted more than 8 times in order to achieve homogeneous mixing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_2",
+      "sample_id": "part1_sample_1",
+      "sequence": 2,
+      "method": "homogenization",
+      "parameters": {
+        "temperature_c": 1240,
+        "time": "50 h",
+        "pressure": null,
+        "atmosphere": "Ar (quartz tube back-filled)",
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "homogenized",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+          "quote": "a two-stage heat treatment process of 1240 °C/50h with air cooling and 850 °C/1000h with water cooling was performed. As introduced by Cao et al. [35, 36], 1240 °C/50h was mainly used to form a composition gradient along the couple interfaces quickly at high temperature and 850 °C/1000h was used to achieve phase equilibrium at a target service temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_3",
+      "sample_id": "part1_sample_1",
+      "sequence": 3,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 850,
+        "time": "1000 h",
+        "pressure": null,
+        "atmosphere": "Ar (quartz tube back-filled)",
+        "cooling_method": "water cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "homogenized",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+          "quote": "a two-stage heat treatment process of 1240 °C/50h with air cooling and 850 °C/1000h with water cooling was performed. As introduced by Cao et al. [35, 36], 1240 °C/50h was mainly used to form a composition gradient along the couple interfaces quickly at high temperature and 850 °C/1000h was used to achieve phase equilibrium at a target service temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_4",
+      "sample_id": "part1_sample_1",
+      "sequence": 4,
+      "method": "hot isostatic pressing (HIP)",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": "5 h",
+        "pressure": "160 MPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+          "quote": "Hot isostatic pressing (HIP) at 1200 °C/160MPa for 5 h was used to compact the diffusion interfaces and achieve tight interfacial contacts.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_process_1",
+      "sample_id": "part2_sample_1",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 850,
+        "time": "1000 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "Fig. 11 shows the microstructures of the selected alloys after aging at 850 °C for 10 0 0 h.",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_process_2",
+      "sample_id": "part2_sample_3",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 850,
+        "time": "1000 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "Fig. 11 shows the microstructures of the selected alloys after aging at 850 °C for 10 0 0 h.",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_1",
+      "sample_id": "part3_sample_1",
+      "sequence": 1,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 850,
+        "time": "1000 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "aged at 850 °C for 1000 h",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "after aging at 850 °C for 10 0 0 h",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_process_2",
+      "sample_id": "part3_sample_2",
+      "sequence": 1,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 850,
+        "time": "1000 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "aged at 850 °C for 1000 h",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "after aging at 850 °C for 10 0 0 h",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "part1_phase_1",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "part1_sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.2 Compositional measurement and microstructure characterization of the multicomponent diffusion-multiple",
+          "quote": "For the γ/γ’ two-phase region in the diffusion couple, the EPMA beam spot was set to a circular diameter of 5 μm to determine the average composition of the local area",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_2",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "part1_sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1 Microstructure of the diffusion couple alloys after long-term aging",
+          "quote": "The base alloy remained as a γ/γ’ two-phase microstructure with a small and cuboidal morphology of γ’ precipitates after aging at 850 °C for 1000 h, indicating that the base alloy had a good microstructural stability.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_3",
+      "type": "Phase",
+      "name": "μ phase",
+      "sample_id": "part1_sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "needle-like",
+        "location": "intragranular",
+        "composition": "enriched in W, Mo and Ta",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1 Microstructure of the diffusion couple alloys after long-term aging",
+          "quote": "The needle-like secondary phase in alloy + 3Mo was mainly enriched in W, Mo and Ta, and was identified from the selected area diffraction pattern (SADP) as the deleterious μ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": "0.457",
+        "size": "189 nm",
+        "morphology": "spherical",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "The γ’ morphologies of alloys A1 and A2 are spherical and cuboidal respectively",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_2",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": "0.490",
+        "size": "139 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "The γ’ morphologies of alloys A1 and A2 are spherical and cuboidal respectively",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_3",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.4",
+          "quote": "Table 5 lists the γ and γ’ phase compositions and the partitioning coefficients (K γ′ / γ) of each alloy.",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_4",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.4",
+          "quote": "Table 5 lists the γ and γ’ phase compositions and the partitioning coefficients (K γ′ / γ) of each alloy.",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_1",
+      "type": "Microstructure",
+      "name": "grain boundary",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "No secondary phases were precipitated on the grain boundaries, indicating that alloys A1 and A2 have decent microstructural stability",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_2",
+      "type": "Microstructure",
+      "name": "grain boundary",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "No secondary phases were precipitated on the grain boundaries, indicating that alloys A1 and A2 have decent microstructural stability",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part3_phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "part3_sample_1",
+      "material_state": "aged at 850 °C for 1000 h",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "189 ± 67 nm",
+        "morphology": "spherical",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "the γ ʹ precipitates of alloy A1 coarsened faster, resulting in signiﬁcantly larger γ ʹ size (189 ±67 nm) after aging at 850 °C for 10 0 0 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_phase_2",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "part3_sample_2",
+      "material_state": "aged at 850 °C for 1000 h",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "139 ± 55 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "compared to that in alloy A2 (139 ±55 nm)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "part2_observation_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "property": "γ' volume fraction",
+      "value": 45.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "1.8",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 850,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "1000 h",
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A1 Measured 45.7 ±1.8 189 ±67 0.81 ±0.11 1050",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "property": "γ' size",
+      "value": 189,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "67",
+      "unit": "nm",
+      "conditions": {
+        "temperature_c": 850,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "1000 h",
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A1 Measured 45.7 ±1.8 189 ±67 0.81 ±0.11 1050",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "property": "γ' roundness",
+      "value": 0.81,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "0.11",
+      "unit": null,
+      "conditions": {
+        "temperature_c": 850,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "1000 h",
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A1 Measured 45.7 ±1.8 189 ±67 0.81 ±0.11 1050",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_4",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "property": "γ' solvus temperature",
+      "value": 1050,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A1 Measured 45.7 ±1.8 189 ±67 0.81 ±0.11 1050",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_5",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "property": "γ' volume fraction",
+      "value": 49.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "2.6",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 850,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "1000 h",
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A2 Measured 49.0 ±2.6 139 ±55 0.71 ±0.18 1095",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_6",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "property": "γ' size",
+      "value": 139,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "55",
+      "unit": "nm",
+      "conditions": {
+        "temperature_c": 850,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "1000 h",
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A2 Measured 49.0 ±2.6 139 ±55 0.71 ±0.18 1095",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_7",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "property": "γ' roundness",
+      "value": 0.71,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "0.18",
+      "unit": null,
+      "conditions": {
+        "temperature_c": 850,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "1000 h",
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A2 Measured 49.0 ±2.6 139 ±55 0.71 ±0.18 1095",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_8",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "property": "γ' solvus temperature",
+      "value": 1095,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A2 Measured 49.0 ±2.6 139 ±55 0.71 ±0.18 1095",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part3_observation_1",
+      "sample_id": "part3_sample_1",
+      "material_state": "aged at 850 °C for 1000 h",
+      "property": "density",
+      "value": 8.47,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 0.01",
+      "unit": "g/cm3",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "alloys A1 and A2 have densities of 8.47 ± 0.01 g/cm 3 and 8.43 ± 0.04 g/cm 3",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_observation_2",
+      "sample_id": "part3_sample_2",
+      "material_state": "aged at 850 °C for 1000 h",
+      "property": "density",
+      "value": 8.43,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 0.04",
+      "unit": "g/cm3",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "alloys A1 and A2 have densities of 8.47 ± 0.01 g/cm 3 and 8.43 ± 0.04 g/cm 3",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "part3_mechanism_1",
+      "name": "γ' coarsening",
+      "category": "microstructural evolution",
+      "sample_id": "part3_sample_1",
+      "material_state": "aged at 850 °C for 1000 h",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "This may be attributed to the higher Mo content (3.28 ±0.23 at.%) in the γ matrix of alloy A1, which leads to a decrease of the Cr content in the γ matrix. This explains the reason as to why the addition of Mo is unfavorable in terms of minimizing the γ′ coarsening rate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "part1_ml_model_1",
+      "name": "Gradient Boosting Decision Tree (GBDT)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "classification of phase equilibrium (γ+γ' two-phase or not)",
+      "inputs": [
+        "compositional content"
+      ],
+      "target": "phase equilibrium",
+      "dataset": "1053 compositions and their corresponding phase equilibrium from the multicomponent diffusion-multiple",
+      "validation": "10-fold cross-validation",
+      "metrics": {
+        "Macro-F1": null
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3 Machine learning",
+          "quote": "For the classification model of the phase equilibrium, Gradient Boosting Decision Tree (GBDT), Random Forest (RF), K Nearest Neighbor (KNN), Logistic Regression (LR) and Deep Neural Network (DNN) were selected.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_ml_model_2",
+      "name": "Support Vector Regression (SVR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression of γ' volume fraction, γ' size, γ' roundness",
+      "inputs": [
+        "compositional content"
+      ],
+      "target": "γ' volume fraction, γ' size, γ' roundness",
+      "dataset": "1053 compositions and their corresponding microstructural parameters from the multicomponent diffusion-multiple",
+      "validation": "10-fold cross-validation",
+      "metrics": {
+        "RMSE": null
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3 Machine learning",
+          "quote": "For the regression models of the γ′ volume fraction, γ′ size, γ′ roundness and γ’ solvus temperature, GBDT, RF, linear regression model (Lin), DNN and support vector regression (SVR) with a radial basis function kernel were selected.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_ml_model_1",
+      "name": "support vector regression (SVR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "Prediction of γ' microstructural parameters (volume fraction, size, roundness) from alloy composition.",
+      "inputs": [
+        "alloy composition"
+      ],
+      "target": "γ' volume fraction, γ' size, γ' roundness",
+      "dataset": "data from multicomponent diffusion-multiples",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.3",
+          "quote": "Fig. 9 (a, b, c) shows the predictions of the SVR models for the effects of Al and Cr on the γ′ volume fraction, γ′ size and γ’ roundness in the Co-30Ni-xAl-3W-3Ti-1Ta-yCr alloy system.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "part1_claim_1",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1 Microstructure of the diffusion couple alloys after long-term aging",
+          "quote": "The base alloy remained as a γ/γ’ two-phase microstructure with a small and cuboidal morphology of γ’ precipitates after aging at 850 °C for 1000 h, indicating that the base alloy had a good microstructural stability.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_2",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1 Microstructure of the diffusion couple alloys after long-term aging",
+          "quote": "The base alloy remained as a γ/γ’ two-phase microstructure with a small and cuboidal morphology of γ’ precipitates after aging at 850 °C for 1000 h, indicating that the base alloy had a good microstructural stability.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_3",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1 Microstructure of the diffusion couple alloys after long-term aging",
+          "quote": "The needle-like secondary phase in alloy + 3Mo was mainly enriched in W, Mo and Ta, and was identified from the selected area diffraction pattern (SADP) as the deleterious μ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_4",
+      "source_id": "part1_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part1_process_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+          "quote": "the diffusion couple alloys were melted from the appropriate amounts of high purity metals in accordance to the compositions shown in Table 1 via arc melting under an Ar atmosphere.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_5",
+      "source_id": "part1_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part1_process_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "homogenized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+          "quote": "a two-stage heat treatment process of 1240 °C/50h with air cooling and 850 °C/1000h with water cooling was performed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_6",
+      "source_id": "part1_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part1_process_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+          "quote": "a two-stage heat treatment process of 1240 °C/50h with air cooling and 850 °C/1000h with water cooling was performed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_7",
+      "source_id": "part1_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part1_process_4",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1 Design and preparation of the multicomponent diffusion-multiple",
+          "quote": "Hot isostatic pressing (HIP) at 1200 °C/160MPa for 5 h was used to compact the diffusion interfaces and achieve tight interfacial contacts.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_1",
+      "source_id": "part2_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part2_phase_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "The γ’ morphologies of alloys A1 and A2 are spherical and cuboidal respectively",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_2",
+      "source_id": "part2_sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part2_phase_2",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "The γ’ morphologies of alloys A1 and A2 are spherical and cuboidal respectively",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_3",
+      "source_id": "part2_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part2_phase_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.4",
+          "quote": "Table 5 lists the γ and γ’ phase compositions and the partitioning coefficients (K γ′ / γ) of each alloy.",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_4",
+      "source_id": "part2_sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part2_phase_4",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.4",
+          "quote": "Table 5 lists the γ and γ’ phase compositions and the partitioning coefficients (K γ′ / γ) of each alloy.",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_5",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part2_microstructure_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "No secondary phases were precipitated on the grain boundaries, indicating that alloys A1 and A2 have decent microstructural stability",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_6",
+      "source_id": "part2_sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part2_microstructure_2",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "No secondary phases were precipitated on the grain boundaries, indicating that alloys A1 and A2 have decent microstructural stability",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_7",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A1 Measured 45.7 ±1.8 189 ±67 0.81 ±0.11 1050",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_8",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A1 Measured 45.7 ±1.8 189 ±67 0.81 ±0.11 1050",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_9",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A1 Measured 45.7 ±1.8 189 ±67 0.81 ±0.11 1050",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_10",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_4",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A1 Measured 45.7 ±1.8 189 ±67 0.81 ±0.11 1050",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_11",
+      "source_id": "part2_sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_5",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A2 Measured 49.0 ±2.6 139 ±55 0.71 ±0.18 1095",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_12",
+      "source_id": "part2_sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_6",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A2 Measured 49.0 ±2.6 139 ±55 0.71 ±0.18 1095",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_13",
+      "source_id": "part2_sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_7",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A2 Measured 49.0 ±2.6 139 ±55 0.71 ±0.18 1095",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_14",
+      "source_id": "part2_sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_8",
+      "sample_id": "part2_sample_3",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "A2 Measured 49.0 ±2.6 139 ±55 0.71 ±0.18 1095",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_15",
+      "source_id": "part2_ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "part2_observation_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "The machine learning predicted values are close to the experimental values and within the relative errors shown in Fig. S5, indicating that the machine learning model has a relatively high accuracy for the γ′ microstructural parameters and solvus temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_16",
+      "source_id": "part2_ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "part2_observation_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "annealed",
+      "conditions": null,
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.4",
+          "quote": "The machine learning predicted values are close to the experimental values and within the relative errors shown in Fig. S5, indicating that the machine learning model has a relatively high accuracy for the γ′ microstructural parameters and solvus temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_1",
+      "source_id": "part3_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part3_phase_1",
+      "sample_id": "part3_sample_1",
+      "material_state": "aged at 850 °C for 1000 h",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "the γ ʹ precipitates of alloy A1 coarsened faster, resulting in signiﬁcantly larger γ ʹ size (189 ±67 nm)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_2",
+      "source_id": "part3_sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part3_phase_2",
+      "sample_id": "part3_sample_2",
+      "material_state": "aged at 850 °C for 1000 h",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "compared to that in alloy A2 (139 ±55 nm)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_3",
+      "source_id": "part3_mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "part3_observation_1",
+      "sample_id": "part3_sample_1",
+      "material_state": "aged at 850 °C for 1000 h",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "This may be attributed to the higher Mo content (3.28 ±0.23 at.%) in the γ matrix of alloy A1, which leads to a decrease of the Cr content in the γ matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_4",
+      "source_id": "part3_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part3_observation_1",
+      "sample_id": "part3_sample_1",
+      "material_state": "aged at 850 °C for 1000 h",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "alloys A1 and A2 have densities of 8.47 ± 0.01 g/cm 3",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_5",
+      "source_id": "part3_sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part3_observation_2",
+      "sample_id": "part3_sample_2",
+      "material_state": "aged at 850 °C for 1000 h",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "14",
+          "section": null,
+          "quote": "and 8.43 ± 0.04 g/cm 3",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b80902f41fba81ea:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [
+    {
+      "type": "merge_fallback",
+      "message": "Segment graphs were combined deterministically; aliases may remain duplicated."
+    }
+  ]
+}

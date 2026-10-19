@@ -1,0 +1,350 @@
+{
+  "document_id": "ee086a6905e19f4c",
+  "chunk_id": "ee086a6905e19f4c:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Ju Rong",
+      "Xiaohua Yu",
+      "Zhaohua Liu",
+      "Jing Feng",
+      "Chengyi Hou",
+      "Yongzhi Wu",
+      "Li Ma",
+      "Jueyi Ye",
+      "Keyuan Chen",
+      "Chenghui Lin",
+      "Hanqing Li"
+    ],
+    "journal": "Materials Today Communications",
+    "year": 2025,
+    "doi": "10.1016/j.mtcomm.2025.113401"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Fe-Pt alloy",
+      "material_category": "intermetallic alloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the sharp increase in diffusion coefficients in the 1900 – 2000 K range coincides well with the melting region of FePt, suggesting a possible transition from ordered to disordered structures within this temperature interval.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "FePt alloy",
+      "canonical_name": "FePt",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Fe",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Pt",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The DP model successfully reproduced the trend of GSFE variations predicted by DFT, with the peak GSFE for FePt reaching 2.601 J/m² and a relative error of less than 7.7 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Fe",
+      "canonical_name": "Fe",
+      "alloy_system_id": null,
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "For pure Fe, pure Pt, and FePt alloy, as predicted by the DP model and DFT calculations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Pt",
+      "canonical_name": "Pt",
+      "alloy_system_id": null,
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "For pure Fe, pure Pt, and FePt alloy, as predicted by the DP model and DFT calculations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "generalized stacking fault energy",
+      "value": 2.601,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "J/m²",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "[110]/2 slip path",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "DP model prediction"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the peak GSFE for FePt reaching 2.601 J/m² and a relative error of less than 7.7 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation pinning",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "This performance is primarily attributed to the pinning effect of Pt atoms on dislocation motion and the strengthening effect of short-range Fe–Pt ordering.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "short-range ordering",
+      "category": "strengthening mechanism",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the strengthening effect of short-range Fe–Pt ordering.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "DP-GEN deep potential",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "high-temperature mechanical behavior prediction",
+      "inputs": [],
+      "target": null,
+      "dataset": "first-principles dataset covering 300–1200 K",
+      "validation": "comparison with DFT and experimental observations",
+      "metrics": {
+        "relative_error_property_prediction_max_percent": 5
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "A high-accuracy DP model was developed based on a high-quality first-principles dataset covering the temperature range of 300 – 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        },
+        {
+          "page": "7",
+          "section": null,
+          "quote": "with key property prediction errors controlled within 5 %, markedly outperforming traditional MEAM potentials.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "For pure Fe, pure Pt, and FePt alloy, as predicted by the DP model and DFT calculations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the peak GSFE for FePt reaching 2.601 J/m² and a relative error of less than 7.7 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "This performance is primarily attributed to the pinning effect of Pt atoms on dislocation motion",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the strengthening effect of short-range Fe–Pt ordering.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the peak GSFE for FePt reaching 2.601 J/m² and a relative error of less than 7.7 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ee086a6905e19f4c:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "TiPt"
+  ],
+  "conflicts": [
+    {
+      "id": "conflict_1",
+      "description": "Figure 7 caption mentions 'TiPt' while the text discusses FePt alloy and pure Fe/Pt.",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Fig. 7. Stacking fault energy versus slip distance for (a) Fe, (b) Pt, and (c) TiPt. Comparison between DP and DFT results.",
+          "table": null,
+          "figure": null
+        }
+      ]
+    }
+  ]
+}

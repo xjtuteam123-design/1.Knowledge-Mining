@@ -1,0 +1,954 @@
+{
+  "document_id": "48530cff24132060",
+  "chunk_id": "48530cff24132060:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Research progress on hot deformation behavior of high-strength β titanium alloy: flow behavior and constitutive model",
+    "authors": [
+      "Chang-Min Li",
+      "Liang Huang",
+      "Cheng-Lin Li",
+      "Song-Xiao Hui",
+      "Yang Yu",
+      "Ming-Jie Zhao",
+      "Shi-Qi Guo",
+      "Jian-Jun Li"
+    ],
+    "journal": "Rare Metals",
+    "year": 2022,
+    "doi": "10.1007/s12598-021-01861-7"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "near β titanium alloy",
+      "material_category": "titanium alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "High-strength β titanium alloys represented by near β titanium alloy and metastable β titanium alloy are preferred materials for large-scale load-carrying structures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "metastable β titanium alloy",
+      "material_category": "titanium alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "High-strength β titanium alloys represented by near β titanium alloy and metastable β titanium alloy are preferred materials for large-scale load-carrying structures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ti–55531",
+      "canonical_name": "Ti-5Al-5Mo-5V-3Cr-1Zr",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "coarse β grains with lamellar α",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Typical high-strength β titanium alloy",
+          "quote": "Ti–5Al–5Mo–5V–3Cr–1Zr (Ti –55531) 4.950 803 1300 [ 31]",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        },
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3a shows coarse β grains with lamellar α in Ti–55531 alloy [ 35].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Ti–55511",
+      "canonical_name": "Ti-5V-5Mo-1Cr-1Fe-5Al",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "lamellar α phase + β matrix",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Fe",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Typical high-strength β titanium alloy",
+          "quote": "Ti–5V–5Mo–1Cr–1Fe–5Al (Ti –55511) 7.850 855 1100 [ 26]",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        },
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3c shows the lamellar α phase and β matrix in the Ti–55511 alloy, in which the fraction of lamellar α phase is 63.4% [ 41].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Ti–7333",
+      "canonical_name": "Ti-7Mo-3Al-3Cr-3Nb",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "single β phase (equiaxed grains)",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Typical high-strength β titanium alloy",
+          "quote": "Ti–7Mo–3Al–3Cr–3Nb (Ti –7333) 9.640 850 1400 [ 23]",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        },
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3d shows that the Ti–7333 alloy is composed of single β phase in the form of equiaxed grains with an average size of (119 ±76) μm[ 42].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "Ti–52244",
+      "canonical_name": null,
+      "alloy_system_id": null,
+      "material_state": "colony microstructure",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3.2 Dynamic softening effect",
+          "quote": "Figure 7 shows the ﬂow softening behavior of Ti–52244 alloy with different initial microstructures MA (equiaxed α and β matrix, Fig. 7a) and MB (colony microstructure, Fig. 7b) [ 43]",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "furnace cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "coarse β grains with lamellar α",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Coarse β grains with lamellar α 950 °C/2 h ?furnace cooling [ 35]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "free forging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "equiaxed α phase + β matrix",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Equiaxed α phase?β matrix Free forging [ 40]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 750,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "lamellar α phase + β matrix",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Lamellar α phase?β matrix 750 °C/2 h ?air cooling [ 41]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": 900,
+        "time": "30 min",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "water cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "single β phase",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Single β phase 900 °C/30 min ?water cooling [42]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "lamellar α phase",
+      "sample_id": "sample_1",
+      "material_state": "coarse β grains with lamellar α",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "lamellar",
+        "location": "within coarse β grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3a shows coarse β grains with lamellar α in Ti–55531 alloy [ 35].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "equiaxed α phase",
+      "sample_id": "sample_1",
+      "material_state": "equiaxed α phase + β matrix",
+      "attributes": {
+        "phase_fraction": 35,
+        "size": null,
+        "morphology": "equiaxed",
+        "location": "in β matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3b indicates the equiaxed α phase and β matrix in Ti–55531 alloy, in which the proportion of equiaxed α phase is 35% [ 40].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "lamellar α phase",
+      "sample_id": "sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "attributes": {
+        "phase_fraction": 63.4,
+        "size": null,
+        "morphology": "lamellar",
+        "location": "in β matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3c shows the lamellar α phase and β matrix in the Ti–55511 alloy, in which the fraction of lamellar α phase is 63.4% [ 41].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "single β phase",
+      "sample_id": "sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "119 ± 76 μm (average grain size)",
+        "morphology": "equiaxed grains",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3d shows that the Ti–7333 alloy is composed of single β phase in the form of equiaxed grains with an average size of (119 ±76) μm[ 42].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "colony microstructure",
+      "sample_id": "sample_4",
+      "material_state": "colony microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "colony",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3.2 Dynamic softening effect",
+          "quote": "MB (colony microstructure, Fig. 7b) [ 43]",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dynamic recrystallization (DRX)",
+      "category": "softening",
+      "sample_id": "sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "The main softening mechanisms of single β phase alloy during hot deformation are DRX and dynamic recovery (DRV).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dynamic recovery (DRV)",
+      "category": "softening",
+      "sample_id": "sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "The main softening mechanisms of single β phase alloy during hot deformation are DRX and dynamic recovery (DRV).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation pile-up at α/β interface",
+      "category": "work hardening",
+      "sample_id": "sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "This is mainly because the lamellar α phase hinders the dislocation movement in the ﬁrst stage. Many dislocation accumulation and entanglement are formed at the α/β interface, resulting in peak stress significantly higher than that of the equiaxed α phase [43].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "lamellar bending/kinking",
+      "category": "softening",
+      "sample_id": "sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "With the dislocation density increasing, the lamellar bending/kinking is responsible for the flow softening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "High-strength β titanium alloys represented by near β titanium alloy and metastable β titanium alloy are preferred materials for large-scale load-carrying structures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "coarse β grains with lamellar α",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3a shows coarse β grains with lamellar α in Ti–55531 alloy [ 35].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "equiaxed α phase + β matrix",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3b indicates the equiaxed α phase and β matrix in Ti–55531 alloy, in which the proportion of equiaxed α phase is 35% [ 40].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3c shows the lamellar α phase and β matrix in the Ti–55511 alloy, in which the fraction of lamellar α phase is 63.4% [ 41].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "Figure 3d shows that the Ti–7333 alloy is composed of single β phase in the form of equiaxed grains with an average size of (119 ±76) μm[ 42].",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_4",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_4",
+      "material_state": "colony microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3.2 Dynamic softening effect",
+          "quote": "MB (colony microstructure, Fig. 7b) [ 43]",
+          "table": null,
+          "figure": "Figure 7",
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "coarse β grains with lamellar α",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Coarse β grains with lamellar α 950 °C/2 h ?furnace cooling [ 35]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "equiaxed α phase + β matrix",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Equiaxed α phase?β matrix Free forging [ 40]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_3",
+      "sample_id": "sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Lamellar α phase?β matrix 750 °C/2 h ?air cooling [ 41]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_3",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_4",
+      "sample_id": "sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Single β phase 900 °C/30 min ?water cooling [42]",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "microstructure_4",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "The main softening mechanisms of single β phase alloy during hot deformation are DRX and dynamic recovery (DRV).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "microstructure_4",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_3",
+      "material_state": "single β phase (equiaxed grains)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "The main softening mechanisms of single β phase alloy during hot deformation are DRX and dynamic recovery (DRV).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "microstructure_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "This is mainly because the lamellar α phase hinders the dislocation movement in the ﬁrst stage. Many dislocation accumulation and entanglement are formed at the α/β interface, resulting in peak stress significantly higher than that of the equiaxed α phase [43].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "microstructure_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_2",
+      "material_state": "lamellar α phase + β matrix",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2.1 Initial state of samples",
+          "quote": "With the dislocation density increasing, the lamellar bending/kinking is responsible for the flow softening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "48530cff24132060:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "MA (equiaxed α and β matrix)",
+    "MB (colony microstructure)"
+  ],
+  "conflicts": []
+}

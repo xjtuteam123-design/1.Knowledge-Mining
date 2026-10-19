@@ -1,0 +1,218 @@
+{
+  "document_id": "826768b6fe7d29d4",
+  "chunk_id": "826768b6fe7d29d4:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A new multi-objective optimization design framework for high-temperature alloy steel via machine learning",
+    "authors": [
+      "Cun Chen",
+      "Dandan Zang",
+      "Jingli Ren"
+    ],
+    "journal": "Materials Today Communications",
+    "year": 2025,
+    "doi": "10.1016/j.mtcomm.2025.113955"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "high-temperature alloy steel",
+      "material_category": "alloy steel",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "In this study, a novel multi-objective optimization design framework is proposed for developing high-temperature alloy steels with superior creep rupture time and tensile strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "crystal structure relaxation",
+      "category": "thermal",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "As the test temperature (TT) increases, the relaxation of crystal structure and atomic diffusion also increase, leading to more grain slip and deformation, thereby reduces the tensile strength of steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "atomic diffusion",
+      "category": "thermal",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "As the test temperature (TT) increases, the relaxation of crystal structure and atomic diffusion also increase, leading to more grain slip and deformation, thereby reduces the tensile strength of steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "grain slip",
+      "category": "deformation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "leading to more grain slip and deformation, thereby reduces the tensile strength of steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "grain boundary segregation",
+      "category": "microstructural",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "the addition of Mn element promotes grain boundary segregation, thereby improving grain boundary strength and hardness",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "stacking fault energy increase",
+      "category": "microstructural",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "The addition of Al into high-Mn austenitic steels brings two pivotal consequences: an increasing in stacking fault energy (SFE) and the producing of short-range ordering (SRO) and/or the precipitation of κ ʹ -carbide",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_6",
+      "name": "short-range ordering",
+      "category": "microstructural",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "The addition of Al into high-Mn austenitic steels brings two pivotal consequences: an increasing in stacking fault energy (SFE) and the producing of short-range ordering (SRO) and/or the precipitation of κ ʹ -carbide",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "eXtreme Gradient Boosting (XGBoost)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression",
+      "inputs": [
+        "Si",
+        "Mn",
+        "Al",
+        "Cr",
+        "Ti",
+        "VEC",
+        "TT",
+        "Ts"
+      ],
+      "target": "creep rupture time",
+      "dataset": "845 alloy steel samples from NIMS Creep Data Sheet",
+      "validation": "test set (9:1 train-test split)",
+      "metrics": {
+        "R2": 0.98
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The eXtreme Gradient Boosting (XGBoost) model, optimized via particle swarm optimization, achieved high predictive accuracy for creep rupture time and tensile strength, with coefficients of determination (R²) of 0.98 and 0.99, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "eXtreme Gradient Boosting (XGBoost)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression",
+      "inputs": [
+        "Si",
+        "Mn",
+        "Al",
+        "Cr",
+        "Ti",
+        "VEC",
+        "TT",
+        "Ts"
+      ],
+      "target": "tensile strength",
+      "dataset": "845 alloy steel samples from NIMS Creep Data Sheet",
+      "validation": "test set (9:1 train-test split)",
+      "metrics": {
+        "R2": 0.99
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The eXtreme Gradient Boosting (XGBoost) model, optimized via particle swarm optimization, achieved high predictive accuracy for creep rupture time and tensile strength, with coefficients of determination (R²) of 0.98 and 0.99, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": []
+}

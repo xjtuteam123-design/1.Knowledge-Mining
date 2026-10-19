@@ -1,0 +1,1303 @@
+{
+  "document_id": "9bf277d424b4e1a3",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "title": "Laser based additive manufacturing of tungsten: Multi-scale thermo-kinetic and thermo-mechanical computational model and experiments",
+    "authors": [
+      "Shashank Sharma",
+      "K. V. Mani Krishna",
+      "Sameehan S. Joshi",
+      "M. Radhakrishnan",
+      "Selvamurugan Palaniappan",
+      "Saikumar Dussa",
+      "Rajarshi Banerjee",
+      "Narendra B. Dahotre"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2023,
+    "doi": "10.1016/j.actamat.2023.119244"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "pure tungsten",
+      "material_category": "refractory metal",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "laser-based powder bed fusion (LPBF) of pure tungsten",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "LPBF tungsten ILF 15.9 J/mm2 (400 W, 400 mm/s)",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "W",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1. Experiments",
+              "quote": "Spherical powder of tungsten with a 99.9% purity",
+              "table": null,
+              "figure": null,
+              "chunk_id": "9bf277d424b4e1a3:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "400 400 15.9 No preheating",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "LPBF tungsten ILF 28.6 J/mm2 (900 W, 500 mm/s)",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "W",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1. Experiments",
+              "quote": "Spherical powder of tungsten with a 99.9% purity",
+              "table": null,
+              "figure": null,
+              "chunk_id": "9bf277d424b4e1a3:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "900 500 28.6",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "LPBF tungsten ILF 15.9 J/mm2 (400 W, 400 mm/s) + substrate preheating 873 K",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "W",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1. Experiments",
+              "quote": "Spherical powder of tungsten with a 99.9% purity",
+              "table": null,
+              "figure": null,
+              "chunk_id": "9bf277d424b4e1a3:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "400 400 15.9 873",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "LPBF tungsten ILF 9.5 J/mm2 (600 W, 1000 mm/s)",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "W",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1. Experiments",
+              "quote": "Spherical powder of tungsten with a 99.9% purity",
+              "table": null,
+              "figure": null,
+              "chunk_id": "9bf277d424b4e1a3:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "600 1000 9.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "LPBF tungsten ILF 19.1 J/mm2 (600 W, 500 mm/s)",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "W",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1. Experiments",
+              "quote": "Spherical powder of tungsten with a 99.9% purity",
+              "table": null,
+              "figure": null,
+              "chunk_id": "9bf277d424b4e1a3:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "600 500 19.1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "LPBF tungsten ILF 25.5 J/mm2 (800 W, 500 mm/s)",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "W",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1. Experiments",
+              "quote": "Spherical powder of tungsten with a 99.9% purity",
+              "table": null,
+              "figure": null,
+              "chunk_id": "9bf277d424b4e1a3:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "800 500 25.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 400,
+        "scan_speed": 400,
+        "layer_thickness": 50,
+        "other": {
+          "hatch_spacing_um": 60,
+          "stripe_length_mm": 1,
+          "ILF_J_mm2": 15.9,
+          "scan_pattern_rotation_deg": 90,
+          "oxygen_level_ppm": 10
+        }
+      },
+      "input_state": "powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "400 400 15.9 No preheating",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 900,
+        "scan_speed": 500,
+        "layer_thickness": 50,
+        "other": {
+          "hatch_spacing_um": 60,
+          "stripe_length_mm": 1,
+          "ILF_J_mm2": 28.6,
+          "scan_pattern_rotation_deg": 90,
+          "oxygen_level_ppm": 10
+        }
+      },
+      "input_state": "powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "900 500 28.6",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "substrate preheating",
+      "parameters": {
+        "temperature_c": 600,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "substrate_preheat_temperature_K": 873
+        }
+      },
+      "input_state": "tungsten substrate",
+      "output_state": "preheated substrate",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1. Experiments",
+          "quote": "a heating stage attachment capable of raising the temperature of substrate plate up to 873 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_3",
+      "sequence": 2,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 400,
+        "scan_speed": 400,
+        "layer_thickness": 50,
+        "other": {
+          "hatch_spacing_um": 60,
+          "stripe_length_mm": 1,
+          "ILF_J_mm2": 15.9,
+          "scan_pattern_rotation_deg": 90,
+          "oxygen_level_ppm": 10,
+          "substrate_preheat_temperature_K": 873
+        }
+      },
+      "input_state": "powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "400 400 15.9 873",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_4",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 600,
+        "scan_speed": 1000,
+        "layer_thickness": 50,
+        "other": {
+          "hatch_spacing_um": 60,
+          "stripe_length_mm": 1,
+          "ILF_J_mm2": 9.5,
+          "scan_pattern_rotation_deg": 90,
+          "oxygen_level_ppm": 10
+        }
+      },
+      "input_state": "powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "600 1000 9.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_5",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 600,
+        "scan_speed": 500,
+        "layer_thickness": 50,
+        "other": {
+          "hatch_spacing_um": 60,
+          "stripe_length_mm": 1,
+          "ILF_J_mm2": 19.1,
+          "scan_pattern_rotation_deg": 90,
+          "oxygen_level_ppm": 10
+        }
+      },
+      "input_state": "powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "600 500 19.1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_6",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 800,
+        "scan_speed": 500,
+        "layer_thickness": 50,
+        "other": {
+          "hatch_spacing_um": 60,
+          "stripe_length_mm": 1,
+          "ILF_J_mm2": 25.5,
+          "scan_pattern_rotation_deg": 90,
+          "oxygen_level_ppm": 10
+        }
+      },
+      "input_state": "powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "800 500 25.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": null,
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.3. Evolution of microstructure during LPBF",
+          "quote": "Typically, laser processing of cubic materials was reported to result in evolution of crystallographic texture",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "columnar grain",
+      "sample_id": null,
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "width increased from ~100 µm (ILF 9.5 J/mm2) to >200 µm (ILF 28.6 J/mm2)",
+        "morphology": "columnar",
+        "location": "XZ plane",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.3. Evolution of microstructure during LPBF",
+          "quote": "the width of columnar grains increased from ~100 µ m (for ILF 9.5 J/mm 2 ) to > 200 µ m for the case of highest energy input sample (ILF: 28.6 J/mm 2 )",
+          "table": null,
+          "figure": "Fig. 14",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "equiaxed grain",
+      "sample_id": null,
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "~5–15 µm",
+        "morphology": "fine equiaxed",
+        "location": "junction of large columnar grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.4. Post-solidification in-situ restoration mechanism during LPBF",
+          "quote": "very fine grains (~5 – 15 µ m), along the boundary between the two columnar grains",
+          "table": null,
+          "figure": "Fig. 16",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "in-grain misorientation",
+      "sample_id": null,
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "within grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 16,
+          "section": "4. Conclusions",
+          "quote": "As printed microstructures were characterized by significant in- grain misorientations and low angle grain boundaries, particularly in case of samples printed with higher ILF ( > 25.5 J/mm 2 )",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "low angle grain boundary",
+      "sample_id": null,
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 16,
+          "section": "4. Conclusions",
+          "quote": "As printed microstructures were characterized by significant in- grain misorientations and low angle grain boundaries, particularly in case of samples printed with higher ILF ( > 25.5 J/mm 2 )",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "high angle grain boundary",
+      "sample_id": null,
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.4. Post-solidification in-situ restoration mechanism during LPBF",
+          "quote": "there is a substantial decrease in the f HAGB when the ILF increased from 15.9 J/mm 2 to 28.6 J/mm 2",
+          "table": null,
+          "figure": "Fig. 15",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "lack-of-fusion pore",
+      "sample_id": null,
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "50–250 µm",
+        "morphology": "irregular",
+        "location": "pores in lower ILF samples",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.1. Densification mechanism",
+          "quote": "Low ILF samples exhibited a recognizable amount of porosity, with pore sizes in the range of 50 – 250 µ m",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "crack",
+      "sample_id": null,
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "network of interconnected cracks",
+        "location": "XY plane",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "In the plane perpendicular to the build direction (XY-plane), a network of interconnected cracks was observed",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "relative density",
+      "value": null,
+      "min_value": 95,
+      "max_value": 97,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Archimedes' method"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.1. Densification mechanism",
+          "quote": "lower densities ( < 97%) were obtained for the builds with (ILF < 16 J/mm 2 )",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "relative density",
+      "value": 99.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Archimedes' method"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.1. Densification mechanism",
+          "quote": "The highest density of the samples (99.2%) corresponded to an ILF of 28.6 J/mm 2",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_4",
+      "material_state": "as-built",
+      "property": "crack density",
+      "value": null,
+      "min_value": 20,
+      "max_value": 25,
+      "uncertainty": null,
+      "unit": "mm/mm2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "XY plane",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "laser optical profilometry"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "Lower ILF samples (ILF: 9.5 J/mm2 and 15.9 J/mm2) exhibited porosity as well as significant cracking, with ρ crack d in the range of 20 - 25 mm/mm2",
+          "table": null,
+          "figure": "Fig. 9(a)",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "crack density",
+      "value": null,
+      "min_value": 20,
+      "max_value": 25,
+      "uncertainty": null,
+      "unit": "mm/mm2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "XY plane",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "laser optical profilometry"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "Lower ILF samples (ILF: 9.5 J/mm2 and 15.9 J/mm2) exhibited porosity as well as significant cracking, with ρ crack d in the range of 20 - 25 mm/mm2",
+          "table": null,
+          "figure": "Fig. 9(b)",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_6",
+      "material_state": "as-built",
+      "property": "crack density",
+      "value": null,
+      "min_value": 3.5,
+      "max_value": 4.5,
+      "uncertainty": null,
+      "unit": "mm/mm2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "XY plane",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "laser optical profilometry"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "cracking was significantly lower (3.5 – 4.5 mm/mm2) in the samples with higher ILFs of 25.5 J/mm2 and 28.6 J/mm2",
+          "table": null,
+          "figure": "Fig. 9(c)",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "crack density",
+      "value": null,
+      "min_value": 3.5,
+      "max_value": 4.5,
+      "uncertainty": null,
+      "unit": "mm/mm2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "XY plane",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "laser optical profilometry"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "cracking was significantly lower (3.5 – 4.5 mm/mm2) in the samples with higher ILFs of 25.5 J/mm2 and 28.6 J/mm2",
+          "table": null,
+          "figure": "Fig. 9(d)",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "property": "crack density",
+      "value": null,
+      "min_value": 1.9,
+      "max_value": 6.5,
+      "uncertainty": null,
+      "unit": "mm/mm2",
+      "conditions": {
+        "temperature_c": 873,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "XY plane",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "laser optical profilometry"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "All the three samples experienced significant reduction in cracking ( ρ crack d ~ 1.9 – 6.5 mm/mm2, Fig. 10 )",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_6",
+      "material_state": "as-built",
+      "property": "hardness",
+      "value": 8.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.4,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.4. Post-solidification in-situ restoration mechanism during LPBF",
+          "quote": "Nano indentation measurements on these high ILF samples ( > 15 J/mm2) possessed higher hardness of 8.0 ± 0.4 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_4",
+      "material_state": "as-built",
+      "property": "hardness",
+      "value": 6.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.5,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "nanoindentation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.4. Post-solidification in-situ restoration mechanism during LPBF",
+          "quote": "hardness of 6.5 ± 0.5 GPa for the low ILF samples ( < 9.5 J/mm2)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "in-situ restoration",
+      "category": "microstructural restoration",
+      "sample_id": null,
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.4. Post-solidification in-situ restoration mechanism during LPBF",
+          "quote": "these mechanisms, such as dislocation patterning and/or recrystallization, are more effective in case of the samples fabricated with higher ILF and/or the samples with preheated substrate, potentially leading to reduced cracking tendency.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "4. Conclusions",
+          "quote": "As printed microstructures were characterized by significant in- grain misorientations and low angle grain boundaries, particularly in case of samples printed with higher ILF ( > 25.5 J/mm 2 )",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.1. Densification mechanism",
+          "quote": "lower densities ( < 97%) were obtained for the builds with (ILF < 16 J/mm 2 )",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.1. Densification mechanism",
+          "quote": "The highest density of the samples (99.2%) corresponded to an ILF of 28.6 J/mm 2",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_4",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "Lower ILF samples (ILF: 9.5 J/mm2 and 15.9 J/mm2) exhibited porosity as well as significant cracking, with ρ crack d in the range of 20 - 25 mm/mm2",
+          "table": null,
+          "figure": "Fig. 9(a)",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "Lower ILF samples (ILF: 9.5 J/mm2 and 15.9 J/mm2) exhibited porosity as well as significant cracking, with ρ crack d in the range of 20 - 25 mm/mm2",
+          "table": null,
+          "figure": "Fig. 9(b)",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_6",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_6",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "cracking was significantly lower (3.5 – 4.5 mm/mm2) in the samples with higher ILFs of 25.5 J/mm2 and 28.6 J/mm2",
+          "table": null,
+          "figure": "Fig. 9(c)",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "cracking was significantly lower (3.5 – 4.5 mm/mm2) in the samples with higher ILFs of 25.5 J/mm2 and 28.6 J/mm2",
+          "table": null,
+          "figure": "Fig. 9(d)",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_3",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Evolution of cracking during LPBF",
+          "quote": "All the three samples experienced significant reduction in cracking ( ρ crack d ~ 1.9 – 6.5 mm/mm2, Fig. 10 )",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_6",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_6",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.4. Post-solidification in-situ restoration mechanism during LPBF",
+          "quote": "Nano indentation measurements on these high ILF samples ( > 15 J/mm2) possessed higher hardness of 8.0 ± 0.4 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_9",
+      "sample_id": "sample_4",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.4. Post-solidification in-situ restoration mechanism during LPBF",
+          "quote": "hardness of 6.5 ± 0.5 GPa for the low ILF samples ( < 9.5 J/mm2)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_1",
+      "predicate": "DECREASES",
+      "target_id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.4. Post-solidification in-situ restoration mechanism during LPBF",
+          "quote": "these mechanisms, such as dislocation patterning and/or recrystallization, are more effective in case of the samples fabricated with higher ILF and/or the samples with preheated substrate, potentially leading to reduced cracking tendency.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "microstructure_5",
+      "predicate": "PROMOTES",
+      "target_id": "defect_2",
+      "sample_id": null,
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.4. Post-solidification in-situ restoration mechanism during LPBF",
+          "quote": "HAGBs are known to be sites of crack nucleation in tungsten",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "microstructure_4",
+      "predicate": "SUPPRESSES",
+      "target_id": "defect_2",
+      "sample_id": null,
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 14,
+          "section": "3.4. Post-solidification in-situ restoration mechanism during LPBF",
+          "quote": "formation of LAGBs can help mitigate cracking",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9bf277d424b4e1a3:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

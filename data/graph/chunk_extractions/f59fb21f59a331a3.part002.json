@@ -1,0 +1,398 @@
+{
+  "document_id": "f59fb21f59a331a3",
+  "chunk_id": "f59fb21f59a331a3:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "International Journal on Interactive Design and Manufacturing (IJIDeM)",
+    "year": 2025,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Inconel 617",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "Hybrid laser arc welding techniques were developed for welding of Inconel 617 alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "base metal",
+      "canonical_name": "Inconel 617",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "base metal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "The base metal shows superior tensile properties than the weld joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "weld joints",
+      "canonical_name": "Inconel 617",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "welded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "The base metal shows superior tensile properties than the weld joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "hybrid laser arc welding",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "wire_feed_rate": "10 m/min",
+          "heat_input": "lower"
+        }
+      },
+      "input_state": "base metal",
+      "output_state": "welded",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "Due to lower heat input and faster cooling rate the maximum high-temperature tensile strength of 538 MPa was achieved at the WFR of 10 m/min and temperature of 750 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "equiaxed dimples",
+      "sample_id": "sample_2",
+      "material_state": "welded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "equiaxed",
+        "location": "fracture surface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "The fracture surfaces of the tensile specimens exhibited a significant presence of equiaxed dimples. Notably, the number of these dimples increases as the temperature increases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "welded",
+      "property": "ultimate tensile strength",
+      "value": 538,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "Due to lower heat input and faster cooling rate the maximum high-temperature tensile strength of 538 MPa was achieved at the WFR of 10 m/min and temperature of 750 °C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "ductile fracture",
+      "category": "fracture mechanism",
+      "sample_id": "sample_2",
+      "material_state": "welded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "11 Conclusion",
+          "quote": "Consequently, the fractures of all the weldments are in ductile mode.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "heat activation of dislocations",
+      "category": "deformation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "welded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "10.3.2 Machine learning models for prediction of tensile properties",
+          "quote": "This is commonly associated to heat activation of dislocations within the crystal structure of the material, which allows plastic deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "linear regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict ultimate tensile strength, yield strength, and percentage elongation",
+      "inputs": [
+        "type of weld sample",
+        "working temperature"
+      ],
+      "target": "tensile properties",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "UTS_R2": -4.208,
+        "UTS_RMSE": 0.0465,
+        "elongation_R2": -0.05716,
+        "elongation_RMSE": 0.05454,
+        "yield_strength_R2": 0.6841,
+        "yield_strength_RMSE": 0.05036
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "Table 3 Statistical indices values of ultimate tensile strength based machine learning model\nModel R 2 RMSE\nLR − 4.208 0.0465",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "decision tree regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict ultimate tensile strength, yield strength, and percentage elongation",
+      "inputs": [
+        "type of weld sample",
+        "working temperature"
+      ],
+      "target": "tensile properties",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "UTS_R2": -12.25,
+        "UTS_RMSE": 0.0554,
+        "elongation_R2": -4,
+        "elongation_RMSE": 0.1186,
+        "yield_strength_R2": 0.6772,
+        "yield_strength_RMSE": 0.05091
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "Table 3 Statistical indices values of ultimate tensile strength based machine learning model\nModel R 2 RMSE\nDTR − 12.25 0.0554",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "random forest regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict ultimate tensile strength, yield strength, and percentage elongation",
+      "inputs": [
+        "type of weld sample",
+        "working temperature"
+      ],
+      "target": "tensile properties",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "UTS_R2": -217.75,
+        "UTS_RMSE": 0.3018,
+        "elongation_R2": -3.091,
+        "elongation_RMSE": 0.1073,
+        "yield_strength_R2": 0.9031,
+        "yield_strength_RMSE": 0.00741
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "Table 3 Statistical indices values of ultimate tensile strength based machine learning model\nModel R 2 RMSE\nRFR − 217.75 0.3018",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_4",
+      "name": "polynomial regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict ultimate tensile strength, yield strength, and percentage elongation",
+      "inputs": [
+        "type of weld sample",
+        "working temperature"
+      ],
+      "target": "tensile properties",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "UTS_R2": 0.99,
+        "UTS_RMSE": 0.0051,
+        "elongation_R2": 0.999,
+        "elongation_RMSE": 0.000364,
+        "yield_strength_R2": 0.9999,
+        "yield_strength_RMSE": 7.99e-05
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "PR 0.99 0.0051",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_5",
+      "name": "Gaussian process regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict ultimate tensile strength, yield strength, and percentage elongation",
+      "inputs": [
+        "type of weld sample",
+        "working temperature"
+      ],
+      "target": "tensile properties",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "UTS_R2": -28776.62,
+        "UTS_RMSE": 3.462,
+        "elongation_R2": -12.672,
+        "elongation_RMSE": 0.1961,
+        "yield_strength_R2": 0.3488,
+        "yield_strength_RMSE": 0.0723
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "GPR − 28,776.62 3.462",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_6",
+      "name": "support vector regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict ultimate tensile strength, yield strength, and percentage elongation",
+      "inputs": [
+        "type of weld sample",
+        "working temperature"
+      ],
+      "target": "tensile properties",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "UTS_R2": -612.309,
+        "UTS_RMSE": 0.5054,
+        "elongation_R2": -4.5156,
+        "elongation_RMSE": 0.12459,
+        "yield_strength_R2": 0.6603,
+        "yield_strength_RMSE": 0.05223
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": null,
+          "quote": "SVR − 612.309 0.5054",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "f59fb21f59a331a3:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": []
+}

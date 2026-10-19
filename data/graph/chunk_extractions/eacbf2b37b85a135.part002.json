@@ -1,0 +1,62 @@
+{
+  "document_id": "eacbf2b37b85a135",
+  "chunk_id": "eacbf2b37b85a135:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Journal of Engineering Materials and Technology",
+    "year": "2014",
+    "doi": "10.1115/1.4026271"
+  },
+  "alloy_systems": [],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "ANN-Neuber artificial neural network model",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of temperature-, strain-rate- and orientation-dependent Ramberg-Osgood parameters and approximate local stress-strain response at notch",
+      "inputs": [
+        "temperature",
+        "orientation (angle from DS axis)",
+        "strain rate",
+        "elastic stresses from purely elastic finite element analysis"
+      ],
+      "target": "Ramberg-Osgood parameters defining relation between principal stresses and strains",
+      "dataset": "TIVP simulations under plane stress conditions",
+      "validation": "graphical comparison against natural spline interpolation to check overfitting; comparison with TIVP model predictions",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The trained ANN shows good correlation with the CVP model predictions at arbitrary temperatures, strain rates, and orientations, since these effects are captured in the Ramberg-Osgood parameters.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "eacbf2b37b85a135:part:002"
+        },
+        {
+          "page": "8",
+          "section": null,
+          "quote": "information for the highest stressed element concerning tempera- ture, orientation, and strain rate may be passed into the ANN model to give the approximate Ramberg-Osgood curve for that element.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "eacbf2b37b85a135:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "unresolved_terms": [
+    "CVP (MG)",
+    "CVP (SX)",
+    "TIVP"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,644 @@
+{
+  "document_id": "85cdfdcfbf7ac2a3",
+  "chunk_id": "85cdfdcfbf7ac2a3:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "W. Li",
+      "L.Y. Xiong",
+      "M.C. Niu"
+    ],
+    "journal": "Journal of Materials Science & Technology",
+    "year": 2026,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "CoCrFeNi high-entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2.1 At room temperature",
+          "quote": "the solute concentration ( c ) of the fcc matrix at 750 °C is ∼3.13 %.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "double-aged alloy",
+      "canonical_name": "FeCoCrNi",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "double-aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "When the alloy undergoes the second-step aging at 750 °C,",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        },
+        {
+          "page": "7",
+          "section": "4.2.1",
+          "quote": "the alloy is approximately 24 μm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 950,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "one-step aged",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "Therefore, the initial aging step at 950 °C is essential to drive the formation of the L21 phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 750,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "one-step aged",
+      "output_state": "double-aged",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "When the alloy undergoes the second-step aging at 750 °C, the increased supersaturation of Ti and Al further drives the precipitation of nanoparticles in both the PFZs and grain interiors.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "L21 phase",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "the formation of L21 phase during 950 °C aging",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "L12 phase",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "discontinuous precipitation of the L12 phase prevails at GBs",
+          "table": null,
+          "figure": "S3",
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "fcc matrix",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2.1",
+          "quote": "the lattice parameter of the matrix is 3.636 Å",
+          "table": null,
+          "figure": "2(c,d)",
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "precipitate-free zone",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "attributes": {
+        "width": "~200 nm",
+        "location": "grain boundaries"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.3",
+          "quote": "the PFZs with a width of ∼200 nm facilitates the dislocation slip",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "dual-scale nanoprecipitates",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "attributes": {
+        "size": "~57 nm to 110 nm for L12 nanoparticles",
+        "location": "grain interiors and PFZs"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "previously formed L12 nanoparticles continue to grow, with the size increasing from approximately 57 nm to 110 nm.",
+          "table": null,
+          "figure": "6",
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        },
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "results in a dual-scale nanoprecipitation configuration within the alloy following the two-step aging process.",
+          "table": null,
+          "figure": "6",
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "property": "yield strength",
+      "value": 975,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2.1",
+          "quote": "the theoretical yield strength of the alloy was estimated to be ∼962 MPa, closely matching the experimental value of ∼975 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "property": "yield strength",
+      "value": 780,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "9",
+          "section": "4.2.2",
+          "quote": "the theoretical yield strength of the double-aged alloy is approximately 744 MPa, which shows good agreement with the experimentally measured value ( ∼780 MPa).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "ordering strengthening",
+      "category": "precipitation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2.1",
+          "quote": "ordered strengthening is considered to be the dominant mechanism for the precipitates in this study",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Orowan bypass",
+      "category": "precipitation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2.1",
+          "quote": "Orowan bypass mechanism is unlikely to be operative in the current alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation shearing",
+      "category": "precipitation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2.1",
+          "quote": "only the dislocation shearing mechanism is considered in the strengthening analysis",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "grain boundary sliding",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.3",
+          "quote": "the dynamic recrystallization during deformation promotes the GB sliding (GBS)",
+          "table": null,
+          "figure": "11(a)",
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "twinning",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4.3",
+          "quote": "with the activation of the twinning mechanism in some regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "the initial aging step at 950 °C is essential to drive the formation of the L21 phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "When the alloy undergoes the second-step aging at 750 °C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "the formation of L21 phase during 950 °C aging",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "discontinuous precipitation of the L12 phase prevails at GBs",
+          "table": null,
+          "figure": "S3",
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.2.1",
+          "quote": "the lattice parameter of the matrix is 3.636 Å",
+          "table": null,
+          "figure": "2(c,d)",
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.3",
+          "quote": "the PFZs with a width of ∼200 nm facilitates the dislocation slip",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1",
+          "quote": "results in a dual-scale nanoprecipitation configuration within the alloy following the two-step aging process.",
+          "table": null,
+          "figure": "6",
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.2.1",
+          "quote": "the strengthening contribution from L12 precipitates at room temperature is estimated to be approximately 373 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "4.2.2",
+          "quote": "the precipitation strengthening contribution from L12 particles at 650 °C is estimated to be approximately 373 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.3",
+          "quote": "the dynamic recrystallization during deformation promotes the GB sliding (GBS)",
+          "table": null,
+          "figure": "11(a)",
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "microstructure_2",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_5",
+      "sample_id": "sample_1",
+      "material_state": "double-aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4.3",
+          "quote": "the elevated stress levels further promote the coordinated deformation within the hard L21 phase, with the activation of the twinning mechanism in some regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "85cdfdcfbf7ac2a3:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

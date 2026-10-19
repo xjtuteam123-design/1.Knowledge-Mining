@@ -1,0 +1,1452 @@
+{
+  "document_id": "0772c6fa8967456f",
+  "chunk_id": "0772c6fa8967456f:part:001",
+  "paper_metadata": {
+    "title": "Regression analysis of high-temperature oxidation of Ni-based superalloys using artificial neural network",
+    "authors": [
+      "Hee-Soo Kim",
+      "Si-Jun Park",
+      "Seong-Moon Seo",
+      "Young-Soo Yoo",
+      "Hi-Won Jeong",
+      "HeeJin Jang"
+    ],
+    "journal": "Corrosion Science",
+    "year": 2021,
+    "doi": "10.1016/j.corsci.2020.109207"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The high-temperature oxidation resistances of Ni-based superalloys with the compositions of Ni – (0 – 15)Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10)Ta – 0.1C – 0.01B were analyzed using an artificial neural network (ANN).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "RSM-1 to RSM-62",
+      "canonical_name": "Ni-(0-15)Co-(8-15)Cr-(0-5)Mo-(0-10)W-(3-8)Al-(0-5)Ti-(0-10)Ta-0.1C-0.01B",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2.1",
+              "quote": "Alloys with 62 combinations of chemical compositions were designed using the design of experiment (DOE) scheme. The compositions are in the range of Ni – (0 – 15) Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10) Ta – 0.1C – 0.01B.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": 0,
+          "max_value": 15,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2.1",
+              "quote": "Ni – (0 – 15) Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10) Ta – 0.1C – 0.01B.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": 8,
+          "max_value": 15,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2.1",
+              "quote": "Ni – (0 – 15) Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10) Ta – 0.1C – 0.01B.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": 0,
+          "max_value": 5,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2.1",
+              "quote": "Ni – (0 – 15) Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10) Ta – 0.1C – 0.01B.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": null,
+          "min_value": 0,
+          "max_value": 10,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2.1",
+              "quote": "Ni – (0 – 15) Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10) Ta – 0.1C – 0.01B.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": 3,
+          "max_value": 8,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2.1",
+              "quote": "Ni – (0 – 15) Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10) Ta – 0.1C – 0.01B.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": 0,
+          "max_value": 5,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2.1",
+              "quote": "Ni – (0 – 15) Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10) Ta – 0.1C – 0.01B.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": null,
+          "min_value": 0,
+          "max_value": 10,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2.1",
+              "quote": "Ni – (0 – 15) Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10) Ta – 0.1C – 0.01B.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2.1",
+              "quote": "Ni – (0 – 15) Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10) Ta – 0.1C – 0.01B.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": 0.01,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2.1",
+              "quote": "Ni – (0 – 15) Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10) Ta – 0.1C – 0.01B.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Table 1",
+          "quote": "Table 1 List of alloy compositions used in this study. Alloys Co Cr Mo W Al Ti Ta C B Ni RSM-1 7.5 11.5 2.5 0 3 0 5 0.1 0.01 Bal.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "GTD-111",
+      "canonical_name": "GTD-111",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 9.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Co 9.5 8.5 9.3 12.95 4.74",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 14,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Cr 14 16 8 9.64 16.09",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 1.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Mo 1.5 1.8 0.5 < 0.01 0.63",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "W 4 2.5 9.5 8.79 5.3",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 3 3.5 5.5 5.14 4.87",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Ti 5 3.5 0.7 0.98 1.53",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Ta 3 1.5 3.2 2.93 5.98",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "C 0.1 0.1 0.07 0.097 0.07",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": 0.01,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "B 0.01 0.01 0.15 0.016 0.017",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Ni Bal. Bal. Bal. Bal. Bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Table 2 Chemical compositions of the Ni-based superalloys used in this study (wt.%).",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "IN738LC",
+      "canonical_name": "IN738LC",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 8.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Co 9.5 8.5 9.3 12.95 4.74",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 16,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Cr 14 16 8 9.64 16.09",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 1.8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Mo 1.5 1.8 0.5 < 0.01 0.63",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 2.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "W 4 2.5 9.5 8.79 5.3",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 3.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 3 3.5 5.5 5.14 4.87",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 3.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Ti 5 3.5 0.7 0.98 1.53",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 1.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Ta 3 1.5 3.2 2.93 5.98",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "C 0.1 0.1 0.07 0.097 0.07",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": 0.01,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "B 0.01 0.01 0.15 0.016 0.017",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Nb 0 1 0 0 0",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 0.06,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Zr 0 0.06 0.01 0.007 0.007",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Ni Bal. Bal. Bal. Bal. Bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Table 2 Chemical compositions of the Ni-based superalloys used in this study (wt.%).",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "CM247LC",
+      "canonical_name": "CM247LC",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 9.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Co 9.5 8.5 9.3 12.95 4.74",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Cr 14 16 8 9.64 16.09",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Mo 1.5 1.8 0.5 < 0.01 0.63",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 9.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "W 4 2.5 9.5 8.79 5.3",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 5.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 3 3.5 5.5 5.14 4.87",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 0.7,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Ti 5 3.5 0.7 0.98 1.53",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 3.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Ta 3 1.5 3.2 2.93 5.98",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": 0.07,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "C 0.1 0.1 0.07 0.097 0.07",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": 0.15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "B 0.01 0.01 0.15 0.016 0.017",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 1.4,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Hf 0 0 1.4 < 0.01 < 0.01",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 0.01,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Zr 0 0.06 0.01 0.007 0.007",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Ni Bal. Bal. Bal. Bal. Bal.",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "0772c6fa8967456f:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Table 2 Chemical compositions of the Ni-based superalloys used in this study (wt.%).",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "vacuum melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1",
+          "quote": "The alloys were prepared via vacuum melting, cut into disk coupons of diameter 10 mm and height 3 mm, and finished with #600 SiC paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "cutting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "dimensions": "diameter 10 mm, height 3 mm"
+        }
+      },
+      "input_state": "as-cast",
+      "output_state": "disk coupon",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1",
+          "quote": "The alloys were prepared via vacuum melting, cut into disk coupons of diameter 10 mm and height 3 mm, and finished with #600 SiC paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "polishing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "grit": "#600 SiC paper"
+        }
+      },
+      "input_state": "disk coupon",
+      "output_state": "polished coupon",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1",
+          "quote": "The alloys were prepared via vacuum melting, cut into disk coupons of diameter 10 mm and height 3 mm, and finished with #600 SiC paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "oxidized",
+      "property": "oxidation mass gain",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mg/cm2",
+      "conditions": {
+        "temperature_c": 850,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "air",
+        "duration": "20 cycles",
+        "test_method": "cyclic oxidation test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2",
+          "quote": "The alloys were exposed to air at 400 ◦ C and then heated to 850 ◦ C at a rate of 3.75 ℃/min. The alloys were maintained for 15 h at 850 ◦ C and then cooled for 4 h in the furnace until the temperature reached 400 ◦ C. This cycle was repeated 20 times.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "oxidized",
+      "property": "coefficient of determination (R2)",
+      "value": 0.99563,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1",
+          "quote": "For training data, the slope was > 0.99, the intercept was 0.014, and R 2 was 0.99563.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "oxidized",
+      "property": "oxidation mass gain",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mg/cm2",
+      "conditions": {
+        "temperature_c": 850,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "air",
+        "duration": "20 cycles",
+        "test_method": "cyclic oxidation test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2",
+          "quote": "The experimental mass gains after 20 cycles of oxidation at 850 ℃ were obtained from Ref [ 11 ].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "protective oxide scale formation",
+      "category": "oxidation",
+      "sample_id": "sample_1",
+      "material_state": "oxidized",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "Oxides from alloying elements, such as Cr2O3 and Al2O3, form protective layers against oxidation, but the mechanical properties of alloys may be degraded by excessive alloying.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "The addition of Co, Cr, Mo, and W improves the mechanical properties of Ni-based alloys through solid solution strengthening, whereas the addition of Al, Ti, and Ta results in precipitation strengthening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "The addition of Co, Cr, Mo, and W improves the mechanical properties of Ni-based alloys through solid solution strengthening, whereas the addition of Al, Ti, and Ta results in precipitation strengthening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "artificial neural network",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression of oxidation mass gain",
+      "inputs": [
+        "number of oxidation cycles",
+        "Co content",
+        "Cr content",
+        "Mo content",
+        "W content",
+        "Al content",
+        "Ti content",
+        "Ta content"
+      ],
+      "target": "oxidation mass gain",
+      "dataset": "1240 data (62 alloys × 20 cycles) from oxidation tests",
+      "validation": "75% training (930 data), 25% test (310 data), 10,000 epochs",
+      "metrics": {
+        "training_R2": 0.99563,
+        "test_R2": 0.98581,
+        "training_slope": 0.99,
+        "test_slope": 0.96
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.3",
+          "quote": "The ANN [ 19 , 20 ] used in this study is shown in Fig. 3 . The network has one input layer, three hidden layers, and one output layer.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The high-temperature oxidation resistances of Ni-based superalloys with the compositions of Ni – (0 – 15)Co – (8 – 15)Cr – (0 – 5)Mo – (0 – 10)W – (3 – 8)Al – (0 – 5)Ti – (0 – 10)Ta – 0.1C – 0.01B were analyzed using an artificial neural network (ANN).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1",
+          "quote": "The alloys were prepared via vacuum melting, cut into disk coupons of diameter 10 mm and height 3 mm, and finished with #600 SiC paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1",
+          "quote": "The alloys were prepared via vacuum melting, cut into disk coupons of diameter 10 mm and height 3 mm, and finished with #600 SiC paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1",
+          "quote": "The alloys were prepared via vacuum melting, cut into disk coupons of diameter 10 mm and height 3 mm, and finished with #600 SiC paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "oxidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.2",
+          "quote": "The alloys were exposed to air at 400 ◦ C and then heated to 850 ◦ C at a rate of 3.75 ℃/min.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "oxidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.3",
+          "quote": "The output layer has only one node, which is the mass gain of the alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "oxidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2",
+          "quote": "The experimental mass gains after 20 cycles of oxidation at 850 ℃ were obtained from Ref [ 11 ].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "oxidized",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "Oxides from alloying elements, such as Cr2O3 and Al2O3, form protective layers against oxidation, but the mechanical properties of alloys may be degraded by excessive alloying.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "The addition of Co, Cr, Mo, and W improves the mechanical properties of Ni-based alloys through solid solution strengthening, whereas the addition of Al, Ti, and Ta results in precipitation strengthening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "The addition of Co, Cr, Mo, and W improves the mechanical properties of Ni-based alloys through solid solution strengthening, whereas the addition of Al, Ti, and Ta results in precipitation strengthening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0772c6fa8967456f:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

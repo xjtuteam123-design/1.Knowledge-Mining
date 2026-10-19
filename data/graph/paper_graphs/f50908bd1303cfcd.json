@@ -1,0 +1,258 @@
+{
+  "document_id": "f50908bd1303cfcd",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Compositional prediction of creep rupture life of single crystal Ni base superalloy by Bayesian neural network",
+    "authors": [
+      "Y.S. Yoo",
+      "C.Y. Jo",
+      "C.N. Jones"
+    ],
+    "journal": "Materials Science and Engineering A",
+    "year": 2002,
+    "doi": "10.1016/S0921-5093(01)01965-7"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "single crystal Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The creep rupture lives of single crystal Ni base superalloys are predicted as a function of alloy composition, creep stress, and creep temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f50908bd1303cfcd:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-received",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": "3.2. Neural network modelling",
+              "quote": "the composition of CMSX-4 the representative 2nd generation single crystal superalloy was selected.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f50908bd1303cfcd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2. Neural network modelling",
+          "quote": "To see the effects of each elements keeping all other input variables constant the composition of CMSX-4 the representative 2nd generation single crystal superalloy was selected.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f50908bd1303cfcd:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "cuboidal gamma-prime precipitates in gamma matrix",
+      "sample_id": null,
+      "material_state": "heat-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "three-dimensionally aligned cubic",
+        "location": "gamma matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "most of the single crystal superalloys undergo heat treatment, which gives a more or less uniform microstructure—three dimensionally aligned cubic /p107/p37in a /p107matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f50908bd1303cfcd:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "property": "creep rupture life",
+      "value": 0.932,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "multiple correlation coefficient between predicted and experimental values"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Neural network modelling",
+          "quote": "Multiple correlation coefﬁcient between the prediction and real data was 0.932 implying that this model is reasonably accurate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f50908bd1303cfcd:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "gamma-prime coarsening retardation",
+      "category": "microstructural degradation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2. Neural network modelling",
+          "quote": "It is known that Re contributes /p107strengthening and slows down the /p107/p37coarsening rate by retarding diffusion of other elements.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f50908bd1303cfcd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2. Neural network modelling",
+          "quote": "We can also see the effects of solid solution hardening elements such as W and Ta and the /p107/p37former such as Al and Ti are notable.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f50908bd1303cfcd:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "Bayesian neural network",
+      "sample_id": null,
+      "property_observation_id": "observation_1",
+      "task": "regression",
+      "inputs": [
+        "Co",
+        "Cr",
+        "Mo",
+        "W",
+        "Re",
+        "Al",
+        "Ta",
+        "Ti",
+        "Nb",
+        "V",
+        "Hf",
+        "T",
+        "stress"
+      ],
+      "target": "creep rupture life",
+      "dataset": "1291 creep rupture life datapoints for 164 single crystal superalloys",
+      "validation": "5% held-out test set",
+      "metrics": {
+        "multiple_correlation_coefficient": 0.932
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Neural network modelling",
+          "quote": "Multiple correlation coefﬁcient between the prediction and real data was 0.932 implying that this model is reasonably accurate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f50908bd1303cfcd:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Neural network modelling",
+          "quote": "Multiple correlation coefﬁcient between the prediction and real data was 0.932 implying that this model is reasonably accurate.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f50908bd1303cfcd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2. Neural network modelling",
+          "quote": "It is known that Re contributes /p107strengthening and slows down the /p107/p37coarsening rate by retarding diffusion of other elements. Thus Re contributes to the creep rupture life of single crystal superalloy signiﬁcantly.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f50908bd1303cfcd:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

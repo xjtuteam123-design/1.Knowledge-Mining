@@ -1,0 +1,685 @@
+{
+  "document_id": "5bb030f589765065",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A review on atom probe and correlative microscopy studies of corrosion in nickel-based superalloys",
+    "authors": [
+      "C. Rodenkirchen",
+      "M. Appleton",
+      "M.P. Ryan",
+      "S. Pedrazzini"
+    ],
+    "journal": "MRS Bulletin",
+    "year": 2022,
+    "doi": "10.1557/s43577-022-00366-7"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "Ni-based superalloys exhibit outstanding mechanical strength and creep resistance at temperatures close to their melting points.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        },
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Multicomponent Ni-based superalloys exhibit accelerated oxidation and the formation of Mo oxide as well.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "s1_p1",
+      "original_name": "TMS238",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "a developmental alloy TMS238 of the latest generation (not currently employed in-service) excels with a creep rupture life of 2000 h at 1100°C, 137 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "s2_p1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "several hundred hours longer than the current commonly applied second-generation superalloy CMSX-4.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        },
+        {
+          "page": "5",
+          "section": "Corrosion below 600°C",
+          "quote": "Specimens of superalloy CMSX-4, commonly employed in turbine engines, were coated with a Na/K sulfate, and subjected to a constant load through three-point bending at 550°C and an air/300 ppm SO3 environment",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "s1_p2",
+      "original_name": "B-containing superalloy",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "oxidized",
+      "composition": [
+        {
+          "element": "B",
+          "value": 0.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": null,
+              "quote": "boron additions of 0.05 wt% extended the sample lifetime from 90 to 9000 h in creep tests",
+              "table": null,
+              "figure": null,
+              "chunk_id": "5bb030f589765065:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "A B-containing superalloy was also studied using APT, and the results showed a surface aluminoborate phase within the oxide scale, which weakened the polycrystalline superalloy due to the outward diffusion of B from grain boundaries into the oxide scale.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "proc1_p1",
+      "sample_id": "s2_p1",
+      "sequence": 1,
+      "method": "coating",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "coating_material": "Na/K sulfate"
+        }
+      },
+      "input_state": null,
+      "output_state": "coated",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Corrosion below 600°C",
+          "quote": "Specimens of superalloy CMSX-4, commonly employed in turbine engines, were coated with a Na/K sulfate,",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "proc2_p1",
+      "sample_id": "s2_p1",
+      "sequence": 2,
+      "method": "three-point bending",
+      "parameters": {
+        "temperature_c": 550,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "air/300 ppm SO3",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "load": "constant load",
+          "loading_mode": "three-point bending"
+        }
+      },
+      "input_state": "coated",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Corrosion below 600°C",
+          "quote": "subjected to a constant load through three-point bending at 550°C and an air/300 ppm SO3 environment",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "ph1_p1",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "s1_p1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "The two strengthening phases γ and γ′ are introduced",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ph2_p1",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": "s1_p1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": "300-500 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "The γ and γ′ phases",
+          "quote": "cuboidal γ′ precipitates with dimensions of around 300–500 nm (Figure 3).",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ph1_p2",
+      "type": "Phase",
+      "name": "aluminoborate",
+      "sample_id": "s1_p2",
+      "material_state": "oxidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "surface oxide scale",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "A B-containing superalloy was also studied using APT, and the results showed a surface aluminoborate phase within the oxide scale, which weakened the polycrystalline superalloy due to the outward diffusion of B from grain boundaries into the oxide scale.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "obs1_p1",
+      "sample_id": "s1_p1",
+      "material_state": null,
+      "property": "creep rupture life",
+      "value": 2000,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": "s2_p1",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "a developmental alloy TMS238 of the latest generation (not currently employed in-service) excels with a creep rupture life of 2000 h at 1100°C, 137 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "obs1_p2",
+      "sample_id": "s1_p2",
+      "material_state": "crept",
+      "property": "sample lifetime",
+      "value": null,
+      "min_value": 90,
+      "max_value": 9000,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "creep",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "boron additions of 0.05 wt% extended the sample lifetime from 90 to 9000 h in creep tests",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mech1_p1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "s1_p1",
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "The γ and γ′ phases",
+          "quote": "The γ phase is strengthened through solid-solution strengthening by larger elements than Ni (e.g., Cr, Re, Mo, W, Co).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mech2_p1",
+      "name": "dislocation cross-slip",
+      "category": "deformation",
+      "sample_id": "s1_p1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "The γ and γ′ phases",
+          "quote": "its yield strength increases with temperature (up to a maximum) due to a dislocation cross-slip mechanism, which renders them temporarily sessile.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mech3_p1",
+      "name": "fluxing",
+      "category": "corrosion",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Hot corrosion",
+          "quote": "Fluxing is one of the dominant hot corrosion mechanisms, as elaborated by Rapp.43 It describes the dissolution of the protective oxide layer by a liquid salt-film and its reprecipitation further within the melt as individual oxide particles, having lost their protective character.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mech4_p1",
+      "name": "electrochemical stress-corrosion cracking",
+      "category": "corrosion",
+      "sample_id": "s2_p1",
+      "material_state": "tested",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Corrosion below 600°C",
+          "quote": "Brooking et al. proposed that liquid sodium salts acted as an electrolyte, which in combination with the static load led to an electrochemical stress-corrosion cracking mechanism.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mech1_p2",
+      "name": "outward diffusion of boron",
+      "category": "diffusion",
+      "sample_id": "s1_p2",
+      "material_state": "oxidized",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "A B-containing superalloy was also studied using APT, and the results showed a surface aluminoborate phase within the oxide scale, which weakened the polycrystalline superalloy due to the outward diffusion of B from grain boundaries into the oxide scale.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim1_p1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "s1_p1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "a developmental alloy TMS238 of the latest generation (not currently employed in-service) excels with a creep rupture life of 2000 h at 1100°C, 137 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim2_p1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "s2_p1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "several hundred hours longer than the current commonly applied second-generation superalloy CMSX-4.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim3_p1",
+      "source_id": "s1_p1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "ph1_p1",
+      "sample_id": "s1_p1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "The two strengthening phases γ and γ′ are introduced",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim4_p1",
+      "source_id": "s1_p1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "ph2_p1",
+      "sample_id": "s1_p1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "The γ and γ′ phases",
+          "quote": "cuboidal γ′ precipitates with dimensions of around 300–500 nm (Figure 3).",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim5_p1",
+      "source_id": "s1_p1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "obs1_p1",
+      "sample_id": "s1_p1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "a developmental alloy TMS238 of the latest generation (not currently employed in-service) excels with a creep rupture life of 2000 h at 1100°C, 137 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim6_p1",
+      "source_id": "ph1_p1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mech1_p1",
+      "sample_id": "s1_p1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "The γ and γ′ phases",
+          "quote": "The γ phase is strengthened through solid-solution strengthening by larger elements than Ni (e.g., Cr, Re, Mo, W, Co).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim7_p1",
+      "source_id": "ph2_p1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mech2_p1",
+      "sample_id": "s1_p1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "The γ and γ′ phases",
+          "quote": "its yield strength increases with temperature (up to a maximum) due to a dislocation cross-slip mechanism, which renders them temporarily sessile.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim8_p1",
+      "source_id": "mech3_p1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "obs1_p1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Hot corrosion",
+          "quote": "Fluxing is one of the dominant hot corrosion mechanisms, as elaborated by Rapp.43 It describes the dissolution of the protective oxide layer by a liquid salt-film and its reprecipitation further within the melt as individual oxide particles, having lost their protective character.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim9_p1",
+      "source_id": "s2_p1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "proc1_p1",
+      "sample_id": "s2_p1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Corrosion below 600°C",
+          "quote": "Specimens of superalloy CMSX-4, commonly employed in turbine engines, were coated with a Na/K sulfate,",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim10_p1",
+      "source_id": "s2_p1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "proc2_p1",
+      "sample_id": "s2_p1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Corrosion below 600°C",
+          "quote": "subjected to a constant load through three-point bending at 550°C and an air/300 ppm SO3 environment",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim1_p2",
+      "source_id": "s1_p2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "ph1_p2",
+      "sample_id": "s1_p2",
+      "material_state": "oxidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "A B-containing superalloy was also studied using APT, and the results showed a surface aluminoborate phase within the oxide scale",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim2_p2",
+      "source_id": "mech1_p2",
+      "predicate": "DEGRADES",
+      "target_id": "obs1_p2",
+      "sample_id": "s1_p2",
+      "material_state": "oxidized",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "A B-containing superalloy was also studied using APT, and the results showed a surface aluminoborate phase within the oxide scale, which weakened the polycrystalline superalloy due to the outward diffusion of B from grain boundaries into the oxide scale.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5bb030f589765065:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

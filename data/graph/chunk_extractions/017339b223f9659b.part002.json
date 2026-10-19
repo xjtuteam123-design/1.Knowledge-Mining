@@ -1,0 +1,182 @@
+{
+  "document_id": "017339b223f9659b",
+  "chunk_id": "017339b223f9659b:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "High temperature mechanical behavior of low-pressure sand-cast Mg–Gd–Y–Zr magnesium alloy",
+    "authors": [
+      "W. Liu",
+      "B. Zhou",
+      "G. Wu"
+    ],
+    "journal": "Journal of Magnesium and Alloys",
+    "year": null,
+    "doi": "10.1016/j.jma.2019.07.006"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Mg–Gd–Y–Zr magnesium alloy",
+      "material_category": "magnesium alloy",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "High temperature mechanical behavior of low-pressure sand-cast Mg–Gd–Y–Zr magnesium alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "017339b223f9659b:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "low-pressure sand-cast Mg–Gd–Y–Zr alloy",
+      "canonical_name": "Mg–Gd–Y–Zr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "High temperature mechanical behavior of low-pressure sand-cast Mg–Gd–Y–Zr magnesium alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "017339b223f9659b:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "low-pressure sand casting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "pressure_regime": "low pressure",
+          "mold": "sand"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "low-pressure sand-cast Mg–Gd–Y–Zr magnesium alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "017339b223f9659b:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "intergranular fracture",
+      "category": "fracture",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "With the increase of ten- sile temperature, more intergranular fracture mecha- nisms appear and the fracture mode gradually trans- forms to intergranular fracture.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "017339b223f9659b:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "low-pressure sand-cast Mg–Gd–Y–Zr magnesium alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "017339b223f9659b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "low-pressure sand-cast Mg–Gd–Y–Zr magnesium alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "017339b223f9659b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {
+        "loading_mode": "tensile",
+        "temperature_trend": "increasing"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": null,
+          "quote": "With the increase of ten- sile temperature, more intergranular fracture mecha- nisms appear and the fracture mode gradually trans- forms to intergranular fracture.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "017339b223f9659b:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

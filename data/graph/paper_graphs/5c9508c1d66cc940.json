@@ -1,0 +1,873 @@
+{
+  "type": "json_object",
+  "document_id": "5c9508c1d66cc940",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Rafting and redissolution of γ′ phase in Ni–Al alloy under external stress",
+    "authors": [
+      "Jiajia Chen",
+      "Shenglong Wang",
+      "Kunwu Lai",
+      "Shuaige Yang",
+      "Zhichen Geng",
+      "Keyi Lin",
+      "Peng Sang",
+      "Qingqing Qin",
+      "Yongsheng Li"
+    ],
+    "journal": "Heliyon",
+    "year": 2023,
+    "doi": "10.1016/j.heliyon.2023.e23093"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Al alloy",
+      "material_category": "intermetallic alloy (Ni-based superalloy model alloy)",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The phase-field simulation is performed to study the rafting accompany with the redissolution of γ ʹ phase under high temperature and loading stress in Ni – Al alloy, the driving force and kinetics evolution of the γ ʹ rafting were revealed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni-17 at.% Al alloy",
+      "canonical_name": "Ni-17Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 17,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "3.1 Evolution of γʹ phase under stress during isothermal aging",
+              "quote": "Fig. 1 (a) shows the two-dimensional morphology of the Ni-17 at.% Al alloy at 973 K and t * = 100",
+              "table": null,
+              "figure": "Fig. 1",
+              "chunk_id": "5c9508c1d66cc940:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "3.1 Evolution of γʹ phase under stress during isothermal aging",
+              "quote": "Fig. 1 (a) shows the two-dimensional morphology of the Ni-17 at.% Al alloy at 973 K and t * = 100",
+              "table": null,
+              "figure": "Fig. 1",
+              "chunk_id": "5c9508c1d66cc940:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Evolution of γʹ phase under stress during isothermal aging",
+          "quote": "Fig. 1 (a) shows the two-dimensional morphology of the Ni-17 at.% Al alloy at 973 K and t * = 100, where the red color delegates the γ ʹ phase and the blue color delegates the γ phase.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Ni-17.0 at.% Al alloy",
+      "canonical_name": "Ni-17Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "continuous heating from aged state (heating rate k = 2, 4, 6, 10), simulated (phase-field)",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 17.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "6",
+              "section": "3.2 Redissolution of γʹ phase under stress",
+              "quote": "Morphology evolutions of γ ʹ phase in Ni-17.0 at.% Al alloy with tensile stress",
+              "table": null,
+              "figure": "Fig. 6",
+              "chunk_id": "5c9508c1d66cc940:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "6",
+              "section": "3.2 Redissolution of γʹ phase under stress",
+              "quote": "Morphology evolutions of γ ʹ phase in Ni-17.0 at.% Al alloy with tensile stress",
+              "table": null,
+              "figure": "Fig. 6",
+              "chunk_id": "5c9508c1d66cc940:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Redissolution of γʹ phase under stress",
+          "quote": "Morphology evolutions of γ ʹ phase in Ni-17.0 at.% Al alloy with tensile stress, (a) isothermal aged at 973 K for t * = 100, σ xx = 0 MPa, (b) σ xx = 0 MPa, T = 1255 K",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "phase-field simulation",
+      "parameters": {
+        "temperature_c": 973.0,
+        "time": "t* = 100 (dimensionless)",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_tensile_stress_MPa": [
+            "0",
+            "212",
+            "424"
+          ],
+          "simulation_type": "isothermal aging phase-field simulation",
+          "grid_number": "256",
+          "time_step": "0.0005"
+        }
+      },
+      "input_state": null,
+      "output_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Evolution of γʹ phase under stress during isothermal aging",
+          "quote": "Fig. 1 (a) shows the two-dimensional morphology of the Ni-17 at.% Al alloy at 973 K and t * = 100",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        },
+        {
+          "page": "4",
+          "section": "3.1 Evolution of γʹ phase under stress during isothermal aging",
+          "quote": "Under the tensile stresses σ xx = 212 MPa and σ xx = 424 MPa, the cubic γ ʹ phase is elongated and connected into strip-shape in direction [ 10 ]",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "phase-field simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "heating_rate_k": [
+            "2",
+            "4",
+            "6",
+            "10"
+          ],
+          "maximum_temperature_K": "1273",
+          "applied_stress_MPa": [
+            "0",
+            "212",
+            "424",
+            "-424"
+          ],
+          "simulation_type": "continuous heating phase-field simulation"
+        }
+      },
+      "input_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "output_state": "continuous heating to 1273 K, simulated (phase-field)",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Redissolution of γʹ phase under stress",
+          "quote": "When the temperature increases to 1255 K with a heating rate k = 6, some γ ʹ particles with small size are dissolved in Fig. 6 (b).",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        },
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "Fig. 7 (a) ‒ (c) show the volume fraction of γ ʹ phase with heating rates k = 2, 6 and 10 under the tensile stress.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ' (Ni3Al)",
+      "sample_id": "sample_1",
+      "material_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cubic",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Introduction",
+          "quote": "In the Ni-based superalloys, the γ ʹ phase usually has a cubic shape and arranges in crystal directions [001] and [100]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ (Ni-rich fcc matrix)",
+      "sample_id": "sample_1",
+      "material_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "channel between γ' precipitates",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Evolution of γʹ phase under stress during isothermal aging",
+          "quote": "where the red color delegates the γ ʹ phase and the blue color delegates the γ phase",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "P-type rafted γ' morphology",
+      "sample_id": "sample_1",
+      "material_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "elongated strip-shape, connected, rafting direction parallel to stress direction",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1.1 Driving force of diffusion under external stress",
+          "quote": "is called as the rafting or directional coarsening in single crystal superalloys, here the P -type rafting happens in the Ni-17 at.% Al alloy, i.e. the rafting direction of γ ʹ phase is parallel to the stress direction.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "diffusion neck",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating from aged state (heating rate k = 2, 4, 6, 10), simulated (phase-field)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "connection of adjacent γ' particles",
+        "location": "between adjacent γ' particles",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Redissolution of γʹ phase under stress",
+          "quote": "the adjacent γ ʹ phase will be connected through the “ diffusion neck ” .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "γ/γ' phase interface",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating from aged state (heating rate k = 2, 4, 6, 10), simulated (phase-field)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "interfacial width δ = 1.37–1.63 nm depending on temperature, heating rate and stress",
+        "morphology": null,
+        "location": "between γ and γ' phases",
+        "composition": "Al in γ' declines 22.72 to 22.42 at.%; Al in γ increases 14.20 to 17.09 at.%",
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3.3 Variations of γ/γʹ phase interfacial width",
+          "quote": "The Al content in γ ʹ phase declines from 22.72 at. % to 22.42 at. % with elevating temperature, while the Al content in the γ matrix increases from 14.20 at.% to 17.09 at.%",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating to 1273 K, k = 2, simulated (phase-field)",
+      "property": "γ' phase volume fraction difference",
+      "value": 1.83,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1273.0,
+        "strain_rate": null,
+        "loading_mode": "tensile stress (comparison σxx = 424 MPa vs 0 MPa)",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation, heating rate k = 2"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "When heating to 1273 K, the difference of volume fraction between σ xx = 424 MPa and σ xx = 0 MPa are Δ V = 1.83 %, 0.73 %, and 0.26 % for k = 2, 6 and 10, respectively.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating to 1273 K, k = 6, simulated (phase-field)",
+      "property": "γ' phase volume fraction difference",
+      "value": 0.73,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1273.0,
+        "strain_rate": null,
+        "loading_mode": "tensile stress (comparison σxx = 424 MPa vs 0 MPa)",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation, heating rate k = 6"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "When heating to 1273 K, the difference of volume fraction between σ xx = 424 MPa and σ xx = 0 MPa are Δ V = 1.83 %, 0.73 %, and 0.26 % for k = 2, 6 and 10, respectively.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating to 1273 K, k = 10, simulated (phase-field)",
+      "property": "γ' phase volume fraction difference",
+      "value": 0.26,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1273.0,
+        "strain_rate": null,
+        "loading_mode": "tensile stress (comparison σxx = 424 MPa vs 0 MPa)",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation, heating rate k = 10"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "When heating to 1273 K, the difference of volume fraction between σ xx = 424 MPa and σ xx = 0 MPa are Δ V = 1.83 %, 0.73 %, and 0.26 % for k = 2, 6 and 10, respectively.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating to 1273 K, k = 2, σxx = 0 MPa, simulated (phase-field)",
+      "property": "specific surface area (BET) of γ' phase",
+      "value": 0.285,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "nm^-1",
+      "conditions": {
+        "temperature_c": 1273.0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation, heating rate k = 2"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "When the temperature increases to 1273 K with rate k = 2, in state of stress-free σ xx = 0 MPa, tensile stress σ xx = 212 MPa and σ xx = 424 MPa, the BETs of the γ ʹ phase are 0.285 nm 1 , 0.283 nm 1 and 0.278 nm 1 , respectively.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating to 1273 K, k = 2, σxx = 212 MPa, simulated (phase-field)",
+      "property": "specific surface area (BET) of γ' phase",
+      "value": 0.283,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "nm^-1",
+      "conditions": {
+        "temperature_c": 1273.0,
+        "strain_rate": null,
+        "loading_mode": "tensile stress",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation, heating rate k = 2"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "When the temperature increases to 1273 K with rate k = 2, in state of stress-free σ xx = 0 MPa, tensile stress σ xx = 212 MPa and σ xx = 424 MPa, the BETs of the γ ʹ phase are 0.285 nm 1 , 0.283 nm 1 and 0.278 nm 1 , respectively.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating to 1273 K, k = 2, σxx = 424 MPa, simulated (phase-field)",
+      "property": "specific surface area (BET) of γ' phase",
+      "value": 0.278,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "nm^-1",
+      "conditions": {
+        "temperature_c": 1273.0,
+        "strain_rate": null,
+        "loading_mode": "tensile stress",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "phase-field simulation, heating rate k = 2"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "When the temperature increases to 1273 K with rate k = 2, in state of stress-free σ xx = 0 MPa, tensile stress σ xx = 212 MPa and σ xx = 424 MPa, the BETs of the γ ʹ phase are 0.285 nm 1 , 0.283 nm 1 and 0.278 nm 1 , respectively.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "elastic strain energy gradient-driven directional diffusion",
+      "category": "diffusion",
+      "sample_id": "sample_1",
+      "material_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.1 Driving force of diffusion under external stress",
+          "quote": "The changes of elastic energy difference Δ E EG el in horizontal and Δ E EF el in vertical channel of γ matrix indicates that the Al atoms diffuse from horizontal to vertical channel. Therefore, the gradient of elastic strain energy drives the diffusion of element to form the rafted morphology.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "specific surface area reduction slowing dissolution",
+      "category": "kinetics",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating to 1273 K, simulated (phase-field)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "The decrease of γ ʹ phase BET slows down the diffusion rate of solute atoms, resulting in a slower redissolution of γ ʹ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Evolution of γʹ phase under stress during isothermal aging",
+          "quote": "Fig. 1 (a) shows the two-dimensional morphology of the Ni-17 at.% Al alloy at 973 K",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Redissolution of γʹ phase under stress",
+          "quote": "Morphology evolutions of γ ʹ phase in Ni-17.0 at.% Al alloy with tensile stress",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Evolution of γʹ phase under stress during isothermal aging",
+          "quote": "Fig. 1 (a) shows the two-dimensional morphology of the Ni-17 at.% Al alloy at 973 K and t * = 100",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating from aged state (heating rate k = 2, 4, 6, 10), simulated (phase-field)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "Fig. 7 (a) ‒ (c) show the volume fraction of γ ʹ phase with heating rates k = 2, 6 and 10 under the tensile stress.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Evolution of γʹ phase under stress during isothermal aging",
+          "quote": "where the red color delegates the γ ʹ phase and the blue color delegates the γ phase",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Evolution of γʹ phase under stress during isothermal aging",
+          "quote": "where the red color delegates the γ ʹ phase and the blue color delegates the γ phase",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.1.1 Driving force of diffusion under external stress",
+          "quote": "here the P -type rafting happens in the Ni-17 at.% Al alloy, i.e. the rafting direction of γ ʹ phase is parallel to the stress direction.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating from aged state (heating rate k = 2, 4, 6, 10), simulated (phase-field)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Redissolution of γʹ phase under stress",
+          "quote": "the adjacent γ ʹ phase will be connected through the “ diffusion neck ” .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating from aged state (heating rate k = 2, 4, 6, 10), simulated (phase-field)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.3.3 Variations of γ/γʹ phase interfacial width",
+          "quote": "The compressive stress makes the interface more diffusional and wide, which induces the strong rafting of the γ ʹ phase during the continuous heating process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "isothermally aged at 973 K, simulated (phase-field)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.1 Driving force of diffusion under external stress",
+          "quote": "Therefore, the gradient of elastic strain energy drives the diffusion of element to form the rafted morphology.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "microstructure_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating to 1273 K, simulated (phase-field)",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "With the increased heating rate, the BETs of γ ʹ phase increase, while the BETs decrease with the increased tensile stress. The dissolution of γ ʹ phase is affected by the diffusion across the phase interface [ 42 ]. The decrease of γ ʹ phase BET slows down the diffusion rate of solute atoms, resulting in a slower redissolution of γ ʹ phase.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_2",
+      "predicate": "SUPPRESSES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "continuous heating to 1273 K, k = 2, simulated (phase-field)",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.3.1 Evolution of volume fraction",
+          "quote": "The decrease of γ ʹ phase BET slows down the diffusion rate of solute atoms, resulting in a slower redissolution of γ ʹ phase. Therefore, the Δ V is reduced at a high heating rate in which the diffusion time is shorter.",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5c9508c1d66cc940:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "t* (dimensionless time)",
+    "k (dimensionless heating rate)"
+  ],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

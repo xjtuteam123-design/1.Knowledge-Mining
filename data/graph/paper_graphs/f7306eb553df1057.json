@@ -1,0 +1,824 @@
+{
+  "type": "json_object",
+  "document_id": "f7306eb553df1057",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Modeling of Temperature Influence on the Fatigue Crack Growth Behavior of Superalloys",
+    "authors": [
+      "Dawei Huang",
+      "Xiaojun Yan",
+      "Peiyuan Li",
+      "Xiaoyu Qin",
+      "Xiaoyong Zhang",
+      "Mingjing Qi",
+      "Zhiwei Liu"
+    ],
+    "journal": "International Journal of Fatigue",
+    "year": 2017,
+    "doi": "10.1016/j.ijfatigue.2017.12.020"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "precipitation-hardening superalloy",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.1 Material and specimen",
+          "quote": "The alloy in this investigation is a precipitation-hardening Ni-base superalloy, GH4720Li",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "GH4720Li",
+      "canonical_name": "GH4720Li",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and two-stage aged",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 1",
+              "quote": "The nominal chemical composition of the investigated superalloy is listed in Table 1 . ... Element Ni C Cr Co W Mo Al Ti ... Wt pct Balance",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f7306eb553df1057:part:001"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": null,
+          "min_value": 0.01,
+          "max_value": 0.02,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 1",
+              "quote": "Element Ni C Cr Co W Mo Al Ti Wt pct Balance 0.01~0.02 15.50~16.50 14.00~15.50 1.00~1.50 2.75~3.25 2.25~2.75 4.75~5.25",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f7306eb553df1057:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": 15.5,
+          "max_value": 16.5,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 1",
+              "quote": "Element Ni C Cr Co W Mo Al Ti Wt pct Balance 0.01~0.02 15.50~16.50 14.00~15.50 1.00~1.50 2.75~3.25 2.25~2.75 4.75~5.25",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f7306eb553df1057:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": 14.0,
+          "max_value": 15.5,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 1",
+              "quote": "Element Ni C Cr Co W Mo Al Ti Wt pct Balance 0.01~0.02 15.50~16.50 14.00~15.50 1.00~1.50 2.75~3.25 2.25~2.75 4.75~5.25",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f7306eb553df1057:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": null,
+          "min_value": 1.0,
+          "max_value": 1.5,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 1",
+              "quote": "Element Ni C Cr Co W Mo Al Ti Wt pct Balance 0.01~0.02 15.50~16.50 14.00~15.50 1.00~1.50 2.75~3.25 2.25~2.75 4.75~5.25",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f7306eb553df1057:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": 2.75,
+          "max_value": 3.25,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 1",
+              "quote": "Element Ni C Cr Co W Mo Al Ti Wt pct Balance 0.01~0.02 15.50~16.50 14.00~15.50 1.00~1.50 2.75~3.25 2.25~2.75 4.75~5.25",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f7306eb553df1057:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": 2.25,
+          "max_value": 2.75,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 1",
+              "quote": "Element Ni C Cr Co W Mo Al Ti Wt pct Balance 0.01~0.02 15.50~16.50 14.00~15.50 1.00~1.50 2.75~3.25 2.25~2.75 4.75~5.25",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f7306eb553df1057:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": 4.75,
+          "max_value": 5.25,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 1",
+              "quote": "Element Ni C Cr Co W Mo Al Ti Wt pct Balance 0.01~0.02 15.50~16.50 14.00~15.50 1.00~1.50 2.75~3.25 2.25~2.75 4.75~5.25",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "f7306eb553df1057:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.1 Material and specimen",
+          "quote": "The alloy in this investigation is a precipitation-hardening Ni-base superalloy, GH4720Li, developed by Beijing Cisri-Gaona Materials & Technology Co., Ltd.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": "4 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "oil quenching",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range_c": "1080~1110"
+        }
+      },
+      "input_state": null,
+      "output_state": "solution treated",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.1 Material and specimen",
+          "quote": "solution treated at temperature of 1080~1110℃ for 4 h followed by oil quenching",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "first-stage aging",
+      "parameters": {
+        "temperature_c": 650,
+        "time": "24 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooled",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution treated",
+      "output_state": "first-stage aged",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.1 Material and specimen",
+          "quote": "first-stage aged at 650℃ for 24 h and air cooled",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "second-stage aging",
+      "parameters": {
+        "temperature_c": 760,
+        "time": "16 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooled",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "first-stage aged",
+      "output_state": "two-stage aged",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.1 Material and specimen",
+          "quote": "second-stage aged at 760 ℃ for 16 h followed by air cooling",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "primary gamma-prime precipitate",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and two-stage aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "2.1 Material and specimen",
+          "quote": "The primary γ＇ precipitates can be seen clearly in the optical metallography. It is obvious that the un -dissolved primary γ＇ precipitates are present mainly at grain boundaries, as indicated by the arrows.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "fatigue striation",
+      "sample_id": "sample_1",
+      "material_state": "tested at 300 C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "0.1811 μm (average single striation width at ΔK=35 MPa·m1/2)",
+        "morphology": null,
+        "location": "stable crack growth regime",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": "2.3 Experimental results",
+          "quote": "At 300℃, 550 ℃ and 650 ℃, the average single striation widths are 0.1811 μm, 0.3189 μm and 0.4489 μm respectively",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "fatigue striation",
+      "sample_id": "sample_1",
+      "material_state": "tested at 550 C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "0.3189 μm (average single striation width at ΔK=35 MPa·m1/2)",
+        "morphology": null,
+        "location": "stable crack growth regime",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": "2.3 Experimental results",
+          "quote": "At 300℃, 550 ℃ and 650 ℃, the average single striation widths are 0.1811 μm, 0.3189 μm and 0.4489 μm respectively",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "fatigue striation",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650 C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "0.4489 μm (average single striation width at ΔK=35 MPa·m1/2)",
+        "morphology": null,
+        "location": "stable crack growth regime",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": "2.3 Experimental results",
+          "quote": "At 300℃, 550 ℃ and 650 ℃, the average single striation widths are 0.1811 μm, 0.3189 μm and 0.4489 μm respectively",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and two-stage aged",
+      "property": "fatigue crack growth rate",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "load control, triangular waveform",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM CT specimen FCG test, R=0.1, f=8 Hz"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "2.3 Experimental results",
+          "quote": "the FCG rates increase with the increase of temperature at the identical △K value",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and two-stage aged",
+      "property": "fatigue crack growth rate",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 550,
+        "strain_rate": null,
+        "loading_mode": "load control, triangular waveform",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM CT specimen FCG test, R=0.1, f=8 Hz"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "2.3 Experimental results",
+          "quote": "the FCG rates increase with the increase of temperature at the identical △K value",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and two-stage aged",
+      "property": "fatigue crack growth rate",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "load control, triangular waveform",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "ASTM CT specimen FCG test, R=0.1, f=8 Hz"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "8",
+          "section": "2.3 Experimental results",
+          "quote": "the FCG rates increase with the increase of temperature at the identical △K value",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary weakening by oxidation",
+      "category": "oxidation-assisted crack growth",
+      "sample_id": "sample_1",
+      "material_state": "tested at 550 C",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "2.3 Experimental results",
+          "quote": "while as temperature increases, oxidation is more and more obvious on the fracture surfaces of specimens at 550 ℃ and 650 ℃, which may accelerate the crack growth by weakening the grain boundaries",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and two-stage aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.1 Material and specimen",
+          "quote": "The alloy in this investigation is a precipitation-hardening Ni-base superalloy, GH4720Li",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.1 Material and specimen",
+          "quote": "solution treated at temperature of 1080~1110℃ for 4 h followed by oil quenching",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "first-stage aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.1 Material and specimen",
+          "quote": "first-stage aged at 650℃ for 24 h and air cooled",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "two-stage aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.1 Material and specimen",
+          "quote": "second-stage aged at 760 ℃ for 16 h followed by air cooling",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and two-stage aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "2.1 Material and specimen",
+          "quote": "It is obvious that the un -dissolved primary γ＇ precipitates are present mainly at grain boundaries, as indicated by the arrows.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "tested at 300 C",
+      "conditions": {
+        "temperature_c": 300,
+        "stress_intensity_factor_range": "35 MPa·m1/2"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "2.3 Experimental results",
+          "quote": "At 300℃, 550 ℃ and 650 ℃, the average single striation widths are 0.1811 μm, 0.3189 μm and 0.4489 μm respectively",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "tested at 550 C",
+      "conditions": {
+        "temperature_c": 550,
+        "stress_intensity_factor_range": "35 MPa·m1/2"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "2.3 Experimental results",
+          "quote": "At 300℃, 550 ℃ and 650 ℃, the average single striation widths are 0.1811 μm, 0.3189 μm and 0.4489 μm respectively",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650 C",
+      "conditions": {
+        "temperature_c": 650,
+        "stress_intensity_factor_range": "35 MPa·m1/2"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "2.3 Experimental results",
+          "quote": "At 300℃, 550 ℃ and 650 ℃, the average single striation widths are 0.1811 μm, 0.3189 μm and 0.4489 μm respectively",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and two-stage aged",
+      "conditions": {
+        "temperature_c": 300
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "2.3 Experimental results",
+          "quote": "the FCG rates increase with the increase of temperature at the identical △K value",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and two-stage aged",
+      "conditions": {
+        "temperature_c": 550
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "2.3 Experimental results",
+          "quote": "the FCG rates increase with the increase of temperature at the identical △K value",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and two-stage aged",
+      "conditions": {
+        "temperature_c": 650
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "2.3 Experimental results",
+          "quote": "the FCG rates increase with the increase of temperature at the identical △K value",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tested at 550 C",
+      "conditions": {
+        "temperature_c": 550
+      },
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "2.3 Experimental results",
+          "quote": "which may accelerate the crack growth by weakening the grain boundaries",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650 C",
+      "conditions": {
+        "temperature_c": 650
+      },
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "2.3 Experimental results",
+          "quote": "which may accelerate the crack growth by weakening the grain boundaries",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f7306eb553df1057:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "temperature exponential model"
+  ],
+  "conflicts": []
+}

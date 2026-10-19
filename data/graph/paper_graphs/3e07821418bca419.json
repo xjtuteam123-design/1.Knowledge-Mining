@@ -1,0 +1,1737 @@
+{
+  "document_id": "3e07821418bca419",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Ledges and grooves at γ/γ0 interfaces of single crystal superalloys",
+    "authors": [
+      "A.B. Parsa",
+      "P. Wollgramm",
+      "H. Buck",
+      "A. Kostka",
+      "C. Somsen",
+      "A. Dlouhy",
+      "G. Eggeler"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2015,
+    "doi": "10.1016/j.actamat.2015.02.005"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base single crystal superalloy",
+      "material_category": "single crystal Ni-base superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "In the present work we study the formation of grooves and ledges (typical size: <100 nm) at c/c0 interfaces of single crystal Ni-base superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        },
+        {
+          "page": "6",
+          "section": null,
+          "quote": "In the present study we perform annealing and creep experiments of single crystal Ni-base superalloys with c/c0 microstructures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:002"
+        },
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the collaborative research center SFB/TR 103 on superalloy single crystals",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "ERBO/1",
+      "canonical_name": "ERBO/1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat treated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Material and experiments",
+          "quote": "In the present work we use the Ni-base single crystal superalloy ERBO/1 [68], which is a second generation single crystal derived from CMSX 4 [69].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "ERBO/1 (crept specimens)",
+      "canonical_name": "ERBO/1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "crept",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Material and experiments",
+          "quote": "Specimens were deformed at 1323 K and 165 MPa. Tests were interrupted early in creep life, after strains of the order of 0.1%, to capture the early stages of high temperature plasticity",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        },
+        {
+          "page": "12",
+          "section": null,
+          "quote": "The present work also provides clear 3D evidence for the ﬁlling of c channels with dislocations in the early stages of creep.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "creep testing",
+      "parameters": {
+        "temperature_c": 1050,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress_MPa": 165,
+          "strain": "~0.1%"
+        }
+      },
+      "input_state": "heat treated",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Material and experiments",
+          "quote": "Specimens were deformed at 1323 K and 165 MPa. Tests were interrupted early in creep life, after strains of the order of 0.1%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "6. Summary and conclusions",
+          "quote": "In the present study we perform annealing and creep experiments of single crystal Ni-base superalloys with c/c0 microstructures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "creep",
+      "parameters": {
+        "temperature_c": 1323,
+        "time": null,
+        "pressure": "160 MPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "0.1% total strain",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "loading_direction": "[001] tensile"
+        }
+      },
+      "input_state": "annealed",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2. Microstructure after high temperature and low stress creep",
+          "quote": "Fig. 10 shows two STEM-HAADF micrographs which were taken after [0 0 1] tensile creep (1323 K, 160 MPa) to a total strain of only 0.1%.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ0 (L12)",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "attributes": {
+        "phase_fraction": "80 vol.%",
+        "size": "cube-edge lengths 0.3-0.8 µm",
+        "morphology": "cuboidal primary particles",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4.1 Microstructure of the heat treated alloy (initial state)",
+          "quote": "The microstructure consists of Primary c0 particles (dark, cube-edge lengths: 0.3–0.8 lm) separated by narrow c channels (bright, channel widths: 40–100 nm).",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ (FCC)",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "attributes": {
+        "phase_fraction": "20%",
+        "size": "channel widths 40-100 nm",
+        "morphology": "narrow channels",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "separated by thin c channels (fcc crystal structure, typical volume fraction: 20%, typical average channel width: 0.1 lm)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "secondary γ0",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "small particles",
+        "location": "wide γ channels",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4.1 Microstructure of the heat treated alloy (initial state)",
+          "quote": "wider c channels contain small secondary c0 particles",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "channel network",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2. Microstructure after high temperature and low stress creep",
+          "quote": "We see a rectangular network of c channels, which are parallel to the direction of the applied stress.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal particles",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2. Microstructure after high temperature and low stress creep",
+          "quote": "The stereographic inspection showed that the bright dislocation segments in the central part of the image were deposited in c channels perpendicular to the loading directions below the dark c0 particles.",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboid",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "regions with regular c0 cuboids, straight c channels and low dislocation densities",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "small",
+        "morphology": "secondary particles",
+        "location": "gamma channels",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "small sec-ondary c0 particles have formed in the c channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "phase_8",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "channel",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "straight c channels and low dislocation densities",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dendritic microstructure",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "The resulting cast microstructure consists of dendrites and interdendritic regions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "γ/γ0 interface",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "coherent, flat or less regular",
+        "location": "between γ0 cubes and γ channels",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "The interfaces between the c0 cubes and the c channels are coherent.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "dislocation network",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "around γ0 particles",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "Eventually, regular dislocation networks with narrow network spacings form around c0 particles [13,14], Fig. 1 c.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Defect",
+      "name": "groove",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "<100 nm",
+        "morphology": "symmetric groove",
+        "location": "γ/γ0 interface near interface dislocations",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "In the present work we study the formation of grooves and ledges (typical size: <100 nm) at c/c0 interfaces of single crystal Ni-base superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Defect",
+      "name": "ledge",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "<100 nm",
+        "morphology": "asymmetric ledge",
+        "location": "γ/γ0 interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "We use diﬀraction contrast stereo transmission electron microscopy (TEM) to provide new evidence for the presence of ledges and grooves near dislocations at c/c0 interfaces after heat treatment and creep.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_6",
+      "type": "Microstructure",
+      "name": "groove",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "symmetric",
+        "location": "gamma/gamma prime interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "While the surface irregularities which we observed after annealing were symmetrical, the interface features after creep are step like.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_7",
+      "type": "Microstructure",
+      "name": "ledge",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "step like",
+        "location": "gamma/gamma prime interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "While the surface irregularities which we observed after annealing were symmetrical, the interface features after creep are step like.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "interface dislocation",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma/gamma prime interface",
+        "composition": null,
+        "identification_status": "experimental",
+        "burgers_vector": "1/2[110]"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Our analysis shows that dislocation segments 1–7 have Burgers vectors of type ±1/2 [1 1 0].",
+          "table": "Table 1",
+          "figure": "Fig. 6",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_8",
+      "type": "Microstructure",
+      "name": "gamma/gamma' interface groove",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "groove",
+        "location": "gamma/gamma' interfaces",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Previous observations of grooves and ledges at c/c0 interfaces, which form during heat treatment and creep",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_9",
+      "type": "Microstructure",
+      "name": "gamma/gamma' interface ledge",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "ledge",
+        "location": "gamma/gamma' interfaces",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Previous observations of grooves and ledges at c/c0 interfaces, which form during heat treatment and creep",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_10",
+      "type": "Microstructure",
+      "name": "irregular gamma/gamma' interface",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "irregular",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "c/c0 interfaces look irregular",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_11",
+      "type": "Microstructure",
+      "name": "local dissolution of gamma' cubes",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "c0 cubes have suf-fered local dissolution",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_12",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma channels",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "c channel dislocation densities are high",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_13",
+      "type": "Defect",
+      "name": "interface dislocation",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma/gamma' interfaces",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Local dissolution events of large primary c0 cubes dri-ven by interface dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "creep strain",
+      "value": 0.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 1323,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2. Microstructure after high temperature and low stress creep",
+          "quote": "Fig. 10 shows two STEM-HAADF micrographs which were taken after [0 0 1] tensile creep (1323 K, 160 MPa) to a total strain of only 0.1%.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation-stress-driven interface diffusion",
+      "category": "diffusional mechanism",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "We present a 2D model of the interfacial region which shows how dislocation stress ﬁelds alter local chemical potentials and drive diﬀusional ﬂuxes which result in the formation of a groove.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "rafting",
+      "category": "microstructural instability",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The results obtained in the present study suggest that the formation of grooves and ledges represents an elementary process which needs to be considered when rationalizing the kinetics of rafting, the directional coarsening of the c0 phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation stress field assisted dissolution",
+      "category": "diffusion",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "5.7. Dislocation assisted local dissolution",
+          "quote": "dislocation stress ﬁeld assisted dissolution scenarios seem to be well worth pursuing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "channel filling",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "In passing we note that these represent gliding c channel segments which deposit sessile dislocation segments at the c/c0 interfaces and thus ﬁll the channels.",
+          "table": null,
+          "figure": "Fig. 11b",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "dislocation-assisted dissolution",
+      "category": "diffusional dissolution",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "we provide clear microstructural evidence for a dislocation assisted dissolution scenario",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_6",
+      "name": "diffusional flux driven by dislocation stress field",
+      "category": "diffusion",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Through their stress ﬁelds, dislocations can aﬀect the local chemical potential at c/c0 interfaces and can drive diﬀusional ﬂuxes which result in groove formation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_7",
+      "name": "re-precipitation of secondary gamma' particles",
+      "category": "precipitation",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Local dissolution events of large primary c0 cubes, dri-ven by interface dislocations, lead to the re-precipita-tion of small secondary c0 particles in the adjacent c channel.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_8",
+      "name": "groove formation",
+      "category": "interface morphology evolution",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "We show that these diﬀusional ﬂuxes can lead to the formation of a groove.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Material and experiments",
+          "quote": "In the present work we use the Ni-base single crystal superalloy ERBO/1 [68], which is a second generation single crystal derived from CMSX 4 [69].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Material and experiments",
+          "quote": "Specimens were deformed at 1323 K and 165 MPa. Tests were interrupted early in creep life, after strains of the order of 0.1%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Material and experiments",
+          "quote": "Specimens were deformed at 1323 K and 165 MPa. Tests were interrupted early in creep life, after strains of the order of 0.1%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4.1 Microstructure of the heat treated alloy (initial state)",
+          "quote": "The microstructure consists of Primary c0 particles (dark, cube-edge lengths: 0.3–0.8 lm) separated by narrow c channels (bright, channel widths: 40–100 nm).",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4.1 Microstructure of the heat treated alloy (initial state)",
+          "quote": "The microstructure consists of Primary c0 particles (dark, cube-edge lengths: 0.3–0.8 lm) separated by narrow c channels (bright, channel widths: 40–100 nm).",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4.1 Microstructure of the heat treated alloy (initial state)",
+          "quote": "wider c channels contain small secondary c0 particles",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "The resulting cast microstructure consists of dendrites and interdendritic regions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "The interfaces between the c0 cubes and the c channels are coherent.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "Eventually, regular dislocation networks with narrow network spacings form around c0 particles [13,14], Fig. 1 c.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "In the present work we study the formation of grooves and ledges (typical size: <100 nm) at c/c0 interfaces of single crystal Ni-base superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_1",
+      "material_state": "heat treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "We use diﬀraction contrast stereo transmission electron microscopy (TEM) to provide new evidence for the presence of ledges and grooves near dislocations at c/c0 interfaces after heat treatment and creep.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "microstructure_4",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "We present a 2D model of the interfacial region which shows how dislocation stress ﬁelds alter local chemical potentials and drive diﬀusional ﬂuxes which result in the formation of a groove.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The results obtained in the present study suggest that the formation of grooves and ledges represents an elementary process which needs to be considered when rationalizing the kinetics of rafting, the directional coarsening of the c0 phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "6. Summary and conclusions",
+          "quote": "In the present study we perform annealing and creep experiments of single crystal Ni-base superalloys with c/c0 microstructures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "6. Summary and conclusions",
+          "quote": "In the present study we perform annealing and creep experiments of single crystal Ni-base superalloys with c/c0 microstructures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2. Microstructure after high temperature and low stress creep",
+          "quote": "Fig. 10 shows two STEM-HAADF micrographs which were taken after [0 0 1] tensile creep (1323 K, 160 MPa) to a total strain of only 0.1%.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2. Microstructure after high temperature and low stress creep",
+          "quote": "We see a rectangular network of c channels, which are parallel to the direction of the applied stress.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2. Microstructure after high temperature and low stress creep",
+          "quote": "The stereographic inspection showed that the bright dislocation segments in the central part of the image were deposited in c channels perpendicular to the loading directions below the dark c0 particles.",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_6",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "While the surface irregularities which we observed after annealing were symmetrical, the interface features after creep are step like.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_7",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "While the surface irregularities which we observed after annealing were symmetrical, the interface features after creep are step like.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Our analysis shows that dislocation segments 1–7 have Burgers vectors of type ±1/2 [1 1 0].",
+          "table": "Table 1",
+          "figure": "Fig. 6",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "mechanism_3",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_6",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "5.7. Dislocation assisted local dissolution",
+          "quote": "dislocation stress ﬁeld assisted dissolution scenarios seem to be well worth pursuing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "mechanism_4",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_7",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "In passing we note that these represent gliding c channel segments which deposit sessile dislocation segments at the c/c0 interfaces and thus ﬁll the channels.",
+          "table": null,
+          "figure": "Fig. 11b",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4.2. Microstructure after high temperature and low stress creep",
+          "quote": "Fig. 10 shows two STEM-HAADF micrographs which were taken after [0 0 1] tensile creep (1323 K, 160 MPa) to a total strain of only 0.1%.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "3e07821418bca419:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_25",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_6",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "regions with regular c0 cuboids, straight c channels and low dislocation densities",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_26",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_7",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "small sec-ondary c0 particles have formed in the c channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_27",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_8",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "straight c channels and low dislocation densities",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_28",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_8",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Previous observations of grooves and ledges at c/c0 interfaces, which form during heat treatment and creep",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_29",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_9",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Previous observations of grooves and ledges at c/c0 interfaces, which form during heat treatment and creep",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_30",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_10",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "c/c0 interfaces look irregular",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_31",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_11",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "c0 cubes have suf-fered local dissolution",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_32",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_12",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "c channel dislocation densities are high",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_33",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_13",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Local dissolution events of large primary c0 cubes dri-ven by interface dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_34",
+      "source_id": "microstructure_13",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_5",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "we provide clear microstructural evidence for a dislocation assisted dissolution scenario",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_35",
+      "source_id": "microstructure_13",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_6",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Through their stress ﬁelds, dislocations can aﬀect the local chemical potential at c/c0 interfaces and can drive diﬀusional ﬂuxes which result in groove formation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_36",
+      "source_id": "mechanism_5",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_7",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "Local dissolution events of large primary c0 cubes, dri-ven by interface dislocations, lead to the re-precipita-tion of small secondary c0 particles in the adjacent c channel.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_37",
+      "source_id": "mechanism_6",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_8",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "we suggest that grooves and ledges are the result of local dissolution events which are triggered by dislocations at c/c0 interfaces.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_38",
+      "source_id": "mechanism_8",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_8",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "We show that these diﬀusional ﬂuxes can lead to the formation of a groove.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e07821418bca419:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "overheating-induced swelling",
+    "rafting scenario"
+  ],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

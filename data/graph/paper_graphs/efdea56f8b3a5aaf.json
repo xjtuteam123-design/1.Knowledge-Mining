@@ -1,0 +1,297 @@
+{
+  "type": "json_object",
+  "document_id": "efdea56f8b3a5aaf",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Bin Chen",
+      "Wen-Ping Wu",
+      "Ming-Xiang Chen",
+      "Ya-Fang Guo"
+    ],
+    "journal": "Computational Materials Science",
+    "year": null,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "Conclusions",
+          "quote": "The fatigue deformation mechanisms and mechanical properties of Ni-based superalloys at different temperatures and strain rates under cyclic loadings are studied by MD simulations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni-based single crystal superalloy model with γ' volume fraction 72.9%",
+      "canonical_name": "Ni-based single crystal superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-modeled for MD simulation",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 10,
+              "section": "Conclusions",
+              "quote": "Ni-based superalloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "efdea56f8b3a5aaf:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4 Validation of MD simulations",
+          "quote": "the γ' precipitate volume fraction of the model is 72.9% in the present model, which ensures that the ratio of the channel width to the size of the precipitate is consistent with that of the actual materials",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (γ')",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled for MD simulation",
+      "attributes": {
+        "phase_fraction": "0.729",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4 Validation of MD simulations",
+          "quote": "the γ' precipitate volume fraction of the model is 72.9% in the present model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": "sample_1",
+      "material_state": "cyclically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.3 strain rate effect",
+          "quote": "the higher dislocation density and proportion of SFs will more strongly impede the movement of dislocations, resulting in an increase in deformation resistance",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "stacking fault",
+      "sample_id": "sample_1",
+      "material_state": "cyclically deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.3 strain rate effect",
+          "quote": "the higher dislocation density and proportion of SFs will more strongly impede the movement of dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "gamma/gamma-prime channel structure",
+      "sample_id": "sample_1",
+      "material_state": "as-modeled for MD simulation",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "channel width 14.08 Å; precipitate size 126.7 Å",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.4 Validation of MD simulations",
+          "quote": "the channel width and precipitate size are 14.08 Å and 126.7 Å, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation and stacking fault shearing of gamma-prime phase",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "cyclically deformed at low temperature",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "Conclusions",
+          "quote": "In the low temperature range, dislocations and stacking faults shearing γ' phase is the main deformation mechanism",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Orowan bypassing",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "cyclically deformed at high temperature",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "Conclusions",
+          "quote": "Orowan-bypassing and climbing mechanism dominates the deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation climb",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "cyclically deformed at high temperature",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "Conclusions",
+          "quote": "Orowan-bypassing and climbing mechanism dominates the deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "cyclic hardening",
+      "category": "cyclic deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "cyclically loaded",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "Conclusions",
+          "quote": "cyclic hardening first occurs, and then the stress amplitude reaches saturation stage as the number of cycles increased",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "dynamic equilibrium of dislocation proliferation and annihilation",
+      "category": "cyclic deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "cyclically loaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "Conclusions",
+          "quote": "the cyclic deformation mechanism of superalloys is the dynamic equilibrium of proliferation and annihilation process of the dislocation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "cyclically deformed at low temperature",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "Conclusions",
+          "quote": "In the low temperature range, dislocations and stacking faults shearing γ' phase is the main deformation mechanism",
+          "table": null,
+          "figure": null,
+          "chunk_id": "efdea56f8b3a5aaf:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

@@ -1,0 +1,488 @@
+{
+  "document_id": "1838e6980446772f",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A non-Schmid crystal plasticity finite element approach to multi-scale modeling of nickel-based superalloys",
+    "authors": [
+      "Shahriyar Keshavarz",
+      "Somnath Ghosh",
+      "Andrew C.E. Reid",
+      "Stephen A. Langer"
+    ],
+    "journal": "Acta Materialia",
+    "year": "2016",
+    "doi": "10.1016/j.actamat.2016.05.016"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This paper develops non-Schmid crystal plasticity constitutive models at two length scales, and bridges them in a multi-scale framework. The constitutive models address thermo-mechanical behavior of Nickel-based superalloys for a large temperature range, viz. 300 K e1223 K, and include orientation dependencies and tension-compression asymmetry.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        },
+        {
+          "page": "7",
+          "section": "3. Grain-scale crystal plasticity framework",
+          "quote": "The homogenized single crystal grain-scale for FCC Nickel su-peralloys is obtained from parametrized representation of the morphology of the precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2.3 Calibration of parameters in the constitutive law",
+          "quote": "The rest of the material constants in the constitutive model are calibrated from experiments on single crystal CMSX-4 in Ref. [11]. The alloy contains 70% volume fraction of predominantly cuboidal g0 precipitates of average size 0.45 mm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        },
+        {
+          "page": "8",
+          "section": "4.3. Validation of the homogenized single crystal grain-scale model",
+          "quote": "experiments for single crystal of CMSX-4 with vp ¼ 70% of volume fraction of in the shape of cube as g’ precipitates ( n/∞). The average length of this cube is 0.45 mm and the average distance between precipitates is 0.05 mm which results in channel width lc ¼ 0.0866 mm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "channel",
+        "location": null,
+        "composition": "Ni",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "These alloys contain multiple phases including regular FCC crystal structure mainly Ni in g channel and L12 ordered crystal structure in g’ precipitates as indicated in Fig. 1.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": 70,
+        "size": "0.45 mm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2.3 Calibration of parameters in the constitutive law",
+          "quote": "The alloy contains 70% volume fraction of predominantly cuboidal g0 precipitates of average size 0.45 mm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "gamma-gamma prime morphology",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "two-phase gamma-gamma prime",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Two-pahse g-g’ sub-grain scale of nickel superalloys",
+          "quote": "The material studied is a two-phase, binary Nickel-based superalloy consisting of g(Ni) and g’(Ni3 Al) phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_1_part002",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with gamma-gamma prime microstructure",
+      "attributes": {
+        "phase_fraction": "70 vol.%",
+        "size": "average cube length 0.45 mm",
+        "morphology": "cube",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.3. Validation of the homogenized single crystal grain-scale model",
+          "quote": "CMSX-4 with vp ¼ 70% of volume fraction of in the shape of cube as g’ precipitates ( n/∞). The average length of this cube is 0.45 mm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1_part002",
+      "type": "Microstructure",
+      "name": "gamma-gamma prime two-phase microstructure",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with gamma-gamma prime microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1. Morphological variables in the sub-grain microstructural RVE",
+          "quote": "The sub-grain microstructural RVE consists of two-phase g-g’ which is characterized as three morphology variables to incorpo-rate the volume fraction, shape and size of the g’ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Kear-Wilsdorf lock formation",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "As temperature increases dislocations in intermetallic g’ phase, which are mostly screw dislocations, tend to be locked in a Kear-Wilsdorf (KW) conﬁguration due to cross-slip [9].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "cross-slip",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "The activation of cube slip systems is more pronounced for temperatures above the temperature of peak cross-slip rate or critical temperature, which is around 1000 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_1_part002",
+      "name": "cross-slip",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with gamma-gamma prime microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3. Grain-scale crystal plasticity framework",
+          "quote": "In order to incorporate the cross-slip mechanism in this length scale, cross-slip shear resistance is considered as the second mechanism contributing in the cutting stress",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2_part002",
+      "name": "cube slip system activation",
+      "category": "slip system activation",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with gamma-gamma prime microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "4.3.1. Effect of temperature in CMSX-4",
+          "quote": "The ﬂow stress at higher tempera-tures is much less than at room temperature due to activation of cube slip systems.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2.3 Calibration of parameters in the constitutive law",
+          "quote": "The rest of the material constants in the constitutive model are calibrated from experiments on single crystal CMSX-4 in Ref. [11].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "These alloys contain multiple phases including regular FCC crystal structure mainly Ni in g channel and L12 ordered crystal structure in g’ precipitates as indicated in Fig. 1.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2.3 Calibration of parameters in the constitutive law",
+          "quote": "The alloy contains 70% volume fraction of predominantly cuboidal g0 precipitates of average size 0.45 mm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Two-pahse g-g’ sub-grain scale of nickel superalloys",
+          "quote": "The material studied is a two-phase, binary Nickel-based superalloy consisting of g(Ni) and g’(Ni3 Al) phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "The rate of lock formation increases as temperature rises to a maximum around 1000 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "As temperature increases dislocations in intermetallic g’ phase, which are mostly screw dislocations, tend to be locked in a Kear-Wilsdorf (KW) conﬁguration due to cross-slip [9].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_1_part002",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with gamma-gamma prime microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.3. Validation of the homogenized single crystal grain-scale model",
+          "quote": "experiments for single crystal of CMSX-4 with vp ¼ 70% of volume fraction of in the shape of cube as g’ precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2_part002",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1_part002",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with gamma-gamma prime microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.3. Validation of the homogenized single crystal grain-scale model",
+          "quote": "CMSX-4 with vp ¼ 70% of volume fraction of in the shape of cube as g’ precipitates ( n/∞). The average length of this cube is 0.45 mm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3_part002",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1_part002",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with gamma-gamma prime microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1. Morphological variables in the sub-grain microstructural RVE",
+          "quote": "The sub-grain microstructural RVE consists of two-phase g-g’ which is characterized as three morphology variables to incorpo-rate the volume fraction, shape and size of the g’ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4_part002",
+      "source_id": "mechanism_2_part002",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1_part002",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with gamma-gamma prime microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "4.3.1. Effect of temperature in CMSX-4",
+          "quote": "The ﬂow stress at higher tempera-tures is much less than at room temperature due to activation of cube slip systems.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1838e6980446772f:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

@@ -1,0 +1,507 @@
+{
+  "document_id": "c8a40444e5e2b1b7",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Micromechanics method to evaluate fatigue life of Ni-based superalloys during morphological evolution",
+    "authors": [
+      "Wen-Ping Wu",
+      "Ya-Fang Guo",
+      "Yue-Sheng Wang"
+    ],
+    "journal": "Key Engineering Materials",
+    "year": 2008,
+    "doi": "10.4028/www.scientific.net/KEM.385-387.221"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "A quantitative life prediction method has been proposed to evaluate fatigue life during morphological evolution of precipitates in Ni-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni-based superalloy composite model",
+      "canonical_name": "Ni-based superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "model composite",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "base",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Introduction",
+              "quote": "Ni-based superalloys have been inevitable materials for the blades and vane applications in gas turbines",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c8a40444e5e2b1b7:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Model of analysis",
+          "quote": "The microstructure of Ni-based superalloy is modeled by a composite material system in which the γ' precipitates distribute uniformly in the γ matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma matrix",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "attributes": {
+        "phase_fraction": 0.36,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Model of analysis",
+          "quote": "the volume fraction 0.36m fV, 0.64p fV",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma' precipitates",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "attributes": {
+        "phase_fraction": 0.64,
+        "size": null,
+        "morphology": "ellipsoidal",
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Model of analysis",
+          "quote": "the volume fraction 0.36m fV, 0.64p fV",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Microstructure",
+      "name": "disc-shaped precipitate",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "disc (shape factor α→0)",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Morphological evolution",
+          "quote": "The limiting case of α→0 for the disc shape has the lowest energy. Therefore, the disc-shaped particles are energetically favored for a negative misfit alloy when the material undergoes a plastic deformation under a tensile stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Microstructure",
+      "name": "needle-shaped precipitate",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "needle (shape factor α→∞)",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Morphological evolution",
+          "quote": "When the compressive stress is applied and the matrix plastic strain is smaller, the needle-shaped particles have the lowest energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Microstructure",
+      "name": "spherical precipitate",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "sphere (shape factor α=1)",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Morphological evolution",
+          "quote": "if the matrix plastic strain exceeds a certain value, the spherical particles will yield the smallest total energy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "property": "fatigue life",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "x1",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "micromechanics model (Eshelby inclusion, Mori-Tanaka mean field, Manson-Coffin)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Life estimation",
+          "quote": "The more stable the shape is during morphological evolution of precipitates, the longer fatigue life of Ni-based alloys is.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "property": "fatigue life",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compressive",
+        "orientation": "x1",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "micromechanics model (Eshelby inclusion, Mori-Tanaka mean field, Manson-Coffin)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Life estimation",
+          "quote": "The smaller external stress and matrix plastic strain have a longer fatigue life.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "morphological evolution of precipitates",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Morphological evolution",
+          "quote": "the magnitude of the matrix plastic strain plays an important role in the morphological evolution of the precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "shape stability of precipitates",
+      "category": "microstructural stability",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Life estimation",
+          "quote": "fatigue life is closely related with the shape stability of precipitates during morphological evolution.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Model of analysis",
+          "quote": "the volume fraction 0.36m fV, 0.64p fV",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Model of analysis",
+          "quote": "the volume fraction 0.36m fV, 0.64p fV",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "conditions": {
+        "loading_mode": "tensile"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Morphological evolution",
+          "quote": "the disc-shaped particles are energetically favored for a negative misfit alloy when the material undergoes a plastic deformation under a tensile stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "conditions": {
+        "loading_mode": "compressive"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Morphological evolution",
+          "quote": "When the compressive stress is applied and the matrix plastic strain is smaller, the needle-shaped particles have the lowest energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_5",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "conditions": {
+        "loading_mode": "compressive"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Morphological evolution",
+          "quote": "if the matrix plastic strain exceeds a certain value, the spherical particles will yield the smallest total energy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "phase_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Morphological evolution",
+          "quote": "the magnitude of the matrix plastic strain plays an important role in the morphological evolution of the precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Life estimation",
+          "quote": "The more stable the shape is during morphological evolution of precipitates, the longer fatigue life of Ni-based alloys is.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "conditions": {
+        "loading_mode": "tensile"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Life estimation",
+          "quote": "The more stable the shape is during morphological evolution of precipitates, the longer fatigue life of Ni-based alloys is.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "model composite",
+      "conditions": {
+        "loading_mode": "compressive"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Life estimation",
+          "quote": "The smaller external stress and matrix plastic strain have a longer fatigue life.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c8a40444e5e2b1b7:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

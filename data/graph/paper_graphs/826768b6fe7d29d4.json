@@ -1,0 +1,782 @@
+{
+  "document_id": "826768b6fe7d29d4",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A new multi-objective optimization design framework for high-temperature alloy steel via machine learning",
+    "authors": [
+      "Cun Chen",
+      "Dandan Zang",
+      "Jingli Ren"
+    ],
+    "journal": "Materials Today Communications",
+    "year": 2025,
+    "doi": "10.1016/j.mtcomm.2025.113955"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "high-temperature alloy steel",
+      "material_category": "alloy steel",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "In this study, a novel multi-objective optimization design framework is proposed for developing high-temperature alloy steels with superior creep rupture time and tensile strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        },
+        {
+          "page": "13",
+          "section": null,
+          "quote": "we propose a new algorithm combining NSGA-II and SA for multi-objective optimization.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        },
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "A novel machine learning framework for multi-objective optimization design of high-temperature alloy steel is proposed, which involves NSGA-II, data augmentation and transfer learning.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Inconel 718",
+      "canonical_name": "Inconel 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Inconel 718 exhibits a tensile strength of 576 MPa and a creep rupture time of 5856.1 h at a test temperature of 650 ◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "HR3C",
+      "canonical_name": "HR3C",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "high-performance austenitic steel HR3C, which possesses a tensile strength of 792 MPa and a creep rupture time of 13,730 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "recommendation 1 for 600-700 C",
+      "canonical_name": "high-temperature alloy steel recommendation 1 (600-700 C)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "recommended composition and process parameters",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 15,
+          "section": "Table 8",
+          "quote": "10 recommendations for the test temperature between 600 °C and 700 °C. Number 1: Creep Rupture Time 233160.7 h, Tensile Strength 906.8 MPa, Test Temperature 633.2 °C",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "tensile strength",
+      "value": 576,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Inconel 718 exhibits a tensile strength of 576 MPa and a creep rupture time of 5856.1 h at a test temperature of 650 ◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "creep rupture time",
+      "value": 5856.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Inconel 718 exhibits a tensile strength of 576 MPa and a creep rupture time of 5856.1 h at a test temperature of 650 ◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "property": "tensile strength",
+      "value": 792,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "high-performance austenitic steel HR3C, which possesses a tensile strength of 792 MPa and a creep rupture time of 13,730 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "property": "creep rupture time",
+      "value": 13730,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "high-performance austenitic steel HR3C, which possesses a tensile strength of 792 MPa and a creep rupture time of 13,730 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_3",
+      "material_state": "recommended composition and process parameters",
+      "property": "creep rupture time",
+      "value": 233160.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 633.2,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": "Table 8",
+          "quote": "Number 1: Creep Rupture Time 233160.7 h, Tensile Strength 906.8 MPa, Test Temperature 633.2 °C",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_3",
+      "material_state": "recommended composition and process parameters",
+      "property": "tensile strength",
+      "value": 906.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 633.2,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": "Table 8",
+          "quote": "Number 1: Creep Rupture Time 233160.7 h, Tensile Strength 906.8 MPa, Test Temperature 633.2 °C",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "crystal structure relaxation",
+      "category": "thermal",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "As the test temperature (TT) increases, the relaxation of crystal structure and atomic diffusion also increase, leading to more grain slip and deformation, thereby reduces the tensile strength of steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "atomic diffusion",
+      "category": "thermal",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "As the test temperature (TT) increases, the relaxation of crystal structure and atomic diffusion also increase, leading to more grain slip and deformation, thereby reduces the tensile strength of steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "grain slip",
+      "category": "deformation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "leading to more grain slip and deformation, thereby reduces the tensile strength of steel",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "grain boundary segregation",
+      "category": "microstructural",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "the addition of Mn element promotes grain boundary segregation, thereby improving grain boundary strength and hardness",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "stacking fault energy increase",
+      "category": "microstructural",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "The addition of Al into high-Mn austenitic steels brings two pivotal consequences: an increasing in stacking fault energy (SFE) and the producing of short-range ordering (SRO) and/or the precipitation of κ ʹ -carbide",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_6",
+      "name": "short-range ordering",
+      "category": "microstructural",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Feature selection",
+          "quote": "The addition of Al into high-Mn austenitic steels brings two pivotal consequences: an increasing in stacking fault energy (SFE) and the producing of short-range ordering (SRO) and/or the precipitation of κ ʹ -carbide",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "eXtreme Gradient Boosting (XGBoost)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression",
+      "inputs": [
+        "Si",
+        "Mn",
+        "Al",
+        "Cr",
+        "Ti",
+        "VEC",
+        "TT",
+        "Ts"
+      ],
+      "target": "creep rupture time",
+      "dataset": "845 alloy steel samples from NIMS Creep Data Sheet",
+      "validation": "test set (9:1 train-test split)",
+      "metrics": {
+        "R2": 0.98
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The eXtreme Gradient Boosting (XGBoost) model, optimized via particle swarm optimization, achieved high predictive accuracy for creep rupture time and tensile strength, with coefficients of determination (R²) of 0.98 and 0.99, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "eXtreme Gradient Boosting (XGBoost)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression",
+      "inputs": [
+        "Si",
+        "Mn",
+        "Al",
+        "Cr",
+        "Ti",
+        "VEC",
+        "TT",
+        "Ts"
+      ],
+      "target": "tensile strength",
+      "dataset": "845 alloy steel samples from NIMS Creep Data Sheet",
+      "validation": "test set (9:1 train-test split)",
+      "metrics": {
+        "R2": 0.99
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The eXtreme Gradient Boosting (XGBoost) model, optimized via particle swarm optimization, achieved high predictive accuracy for creep rupture time and tensile strength, with coefficients of determination (R²) of 0.98 and 0.99, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "XGBoost",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predicting tensile strength and creep rupture time",
+      "inputs": [],
+      "target": null,
+      "dataset": "alloy steel dataset",
+      "validation": null,
+      "metrics": {
+        "R2_creep_rupture_time": 0.94,
+        "R2_tensile_strength": 0.98
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "the R2 of XGBoost for predicting creep rupture time is 0.94, and the R2 for predicting tensile strength is 0.98",
+          "table": "Table 3",
+          "figure": "Fig. 7",
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_4",
+      "name": "PSO-XGBoost",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predicting tensile strength and creep rupture time",
+      "inputs": [],
+      "target": null,
+      "dataset": "alloy steel dataset",
+      "validation": "1000 bootstrap resampling iterations",
+      "metrics": {
+        "R2_creep_rupture_time": 0.98,
+        "R2_tensile_strength": 0.99
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The prediction accuracy of PSO-XGBoost model for both creep rupture time and tensile strength has been improved, with the R2 increasing to 0.98 and 0.99, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_5",
+      "name": "CGAN",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "data extrapolation",
+      "inputs": [],
+      "target": "tensile strength",
+      "dataset": "source dataset (225 high-temperature alloy samples + original 801 data points) and target dataset",
+      "validation": null,
+      "metrics": {
+        "average_Wasserstein_distance": 0.9
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the CGAN model is initially trained using the source dataset.",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        },
+        {
+          "page": "9",
+          "section": null,
+          "quote": "The calculated average Wasserstein distance distances between the generated data and the real data is 0.9",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_6",
+      "name": "NSGA-II + SA",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "multi-objective optimization to maximize tensile strength and creep rupture time",
+      "inputs": [],
+      "target": null,
+      "dataset": "extrapolated data and experimental data",
+      "validation": null,
+      "metrics": {
+        "HV": 0.758,
+        "IGD": 0.113
+      },
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "our hybrid NSGA-II + SA algorithm obtained a larger hypervolume (HV = 0.758) and lower inverted generational distance (IGD = 0.113)",
+          "table": null,
+          "figure": "Fig. 17",
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_7",
+      "name": "XGBoost optimized by PSO",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict tensile strength and creep rupture time",
+      "inputs": [],
+      "target": "tensile strength, creep rupture time",
+      "dataset": null,
+      "validation": "good generalization performance, predicted values close to actual values for a new set of 10 data points",
+      "metrics": {
+        "R2": "0.99 for tensile strength, 0.98 for creep rupture time"
+      },
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "The XGBoost model optimized by PSO shows excellent prediction performance for tensile strength and creep rupture time (the values of R2 are 0.99 and 0.98, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_8",
+      "name": "NSGA-II",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "multi-objective optimization",
+      "inputs": [],
+      "target": "composition and process parameters",
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "During multi-objective optimization, a combination of Non-dominated Sorting Genetic Algorithm II and Simulated Annealing is introduced to traverse an immense search space of approximately 1.22 × 10^28.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_9",
+      "name": "simulated annealing",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "multi-objective optimization",
+      "inputs": [],
+      "target": "composition and process parameters",
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "During multi-objective optimization, a combination of Non-dominated Sorting Genetic Algorithm II and Simulated Annealing is introduced to traverse an immense search space of approximately 1.22 × 10^28.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_3",
+      "predicate": "COMPARED_WITH",
+      "target_id": "ml_model_4",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The prediction accuracy of PSO-XGBoost model for both creep rupture time and tensile strength has been improved, with the R2 increasing to 0.98 and 0.99, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "ml_model_5",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the CGAN model is initially trained using the source dataset. The input of the generator is noise and a condition (here is the tensile strength), and its output is synthetic data that resembles the real data in terms of features and potential target values.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "ml_model_6",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_4",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "The proposed multi-objective optimization method combining NSGA-II and SA based on transfer learning has significantly improved both tensile strength and creep rupture time.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "ml_model_7",
+      "predicate": "PREDICTS",
+      "target_id": "observation_5",
+      "sample_id": "sample_3",
+      "material_state": "recommended composition and process parameters",
+      "conditions": {
+        "temperature_c": 633.2
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "The XGBoost model optimized by PSO shows excellent prediction performance for tensile strength and creep rupture time (the values of R2 are 0.99 and 0.98, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "ml_model_7",
+      "predicate": "PREDICTS",
+      "target_id": "observation_6",
+      "sample_id": "sample_3",
+      "material_state": "recommended composition and process parameters",
+      "conditions": {
+        "temperature_c": 633.2
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "5. Conclusion",
+          "quote": "The XGBoost model optimized by PSO shows excellent prediction performance for tensile strength and creep rupture time (the values of R2 are 0.99 and 0.98, respectively).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "recommended composition and process parameters",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "Table 8",
+          "quote": "10 recommendations for the test temperature between 600 °C and 700 °C.",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "826768b6fe7d29d4:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

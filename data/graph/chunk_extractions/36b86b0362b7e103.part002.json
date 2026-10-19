@@ -1,0 +1,1165 @@
+{
+  "document_id": "36b86b0362b7e103",
+  "chunk_id": "36b86b0362b7e103:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Development of 3-Dimensional (3D) response surfaces to maximize yield strength and elongation of InterPulsed TIG welded thin high temperature alloy sheets for jet engine applications",
+    "authors": [
+      "T. Sonar",
+      "V. Balasubramanian",
+      "S. Malarvizhi"
+    ],
+    "journal": "CIRP Journal of Manufacturing Science and Technology",
+    "year": "2020",
+    "doi": "10.1016/j.cirpj.2020.09.003"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy (Alloy 718)",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The parametric mathematical models predict the parameters and responses for maximizing the yield strength and elongation of joints",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Base metal",
+      "canonical_name": "Alloy 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "base metal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Test specimen Tensile strength (MPa) 0.2% Yield strength (MPa) Elongation in 50 mm gauge length (%) Failure location Base metal 870 580 38 –",
+          "table": "Table 9",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Joint No. 21",
+      "canonical_name": "Alloy 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "21 Maximum yield strength Experimental 65 50 4 60 548 MPa",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Experiment number 24",
+      "canonical_name": "Alloy 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "24 Maximum elongation Experimental 65 50 12 70 31.50%",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "interpulsed TIG welding",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "welding_current_A": 65,
+          "interpulse_current_A": 50,
+          "interpulse_frequency_kHz": 4,
+          "welding_speed_mm_per_min": 60
+        }
+      },
+      "input_state": "base metal",
+      "output_state": "welded",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "21 Maximum yield strength Experimental 65 50 4 60 548 MPa",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "interpulsed TIG welding",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "welding_current_A": 65,
+          "interpulse_current_A": 50,
+          "interpulse_frequency_kHz": 12,
+          "welding_speed_mm_per_min": 70
+        }
+      },
+      "input_state": "base metal",
+      "output_state": "welded",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "24 Maximum elongation Experimental 65 50 12 70 31.50%",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The joints with high volume fraction of laves phase revealed lower yield strength and elongation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "equiaxed grain",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "equiaxed",
+        "location": "nickel matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Microstructural analysis",
+          "quote": "It shows equiaxed grains in Nickel matrix with the evolvement of niobium carbides (NbC) across the boundaries of grains.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ],
+      "type_override": "Microstructure"
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "NbC",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Microstructural analysis",
+          "quote": "It shows equiaxed grains in Nickel matrix with the evolvement of niobium carbides (NbC) across the boundaries of grains. It was conﬁrmed by the EDXM point scan analysis.",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "dendritic grain",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "refined",
+        "morphology": "dendritic",
+        "location": "fusion zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Microstructural analysis",
+          "quote": "The joints produced using optimized parameters (Joint No. 21) disclosed reﬁnement of grains in FZ and lower laves phase evolvement.",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "fine discrete, homogeneously distributed",
+        "location": "interdendritic zone of fusion zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Microstructural analysis",
+          "quote": "The reﬁnement of grains in FZ causes the development of laves phase in ﬁner and discrete morphology, distributed homogeneously in the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "coarse grain",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "coarse",
+        "morphology": null,
+        "location": "fusion zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The joints produced using maximum level of welding current, InterPulse current and frequency showed the development of coarse grains in FZ whereas it was found to be ﬁner at maximum level of weld traverse speed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "coarse networked",
+        "location": "interdendritic zone of fusion zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "it promotes segregation of alloying elements in interdendritic areas of FZ and causes the growth of laves phase in coarser networked morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "yield strength",
+      "value": 580,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test, 0.2% offset"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Base metal 870 580 38 –",
+          "table": "Table 9",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "property": "yield strength",
+      "value": 548,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test, 0.2% offset"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "21 Maximum yield strength Experimental 65 50 4 60 548 MPa",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "property": "elongation",
+      "value": 27.93,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test, 50 mm gauge length"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Welded joint (Joint No. 21) 863 548 27.93 Fusion zone",
+          "table": "Table 9",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "elongation",
+      "value": 38,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test, 50 mm gauge length"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Base metal 870 580 38 –",
+          "table": "Table 9",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "property": "elongation",
+      "value": 31.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "the joints made using welding current of 65 A, InterPulse current of 50 A, InterPulse frequency of 12 kHz and welding speed of 70 mm/min showed maximum elongation of 31.50%.",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain refinement",
+      "category": "microstructural",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "All the above consequences of electromagnetic constriction and pulsation of InterPulsed TIG welding arc contributes in microstructural reﬁnement and enhancing the yield strength and elongation of joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solute segregation",
+      "category": "solidification",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "It is the result of Nb segregation and substantial laves phase growth in interdendritic areas of FZ.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The dispersion of hard and brittle laves phase in ductile solidiﬁed matrix imparts reinforcing strength. This makes it difﬁcult for the movement of dislocations and increases the strength of joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "crack initiation at Laves phase",
+      "category": "fracture",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "being hard and brittle intermetallic compound, laves phase reduces the plastic ﬂow of the matrix and provides rapid crack initiation and growth at lower strain energy. This signiﬁcantly drops the elongation of joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Base metal 870 580 38 –",
+          "table": "Table 9",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "21 Maximum yield strength Experimental 65 50 4 60 548 MPa",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_3",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "24 Maximum elongation Experimental 65 50 12 70 31.50%",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "21 Maximum yield strength Experimental 65 50 4 60 548 MPa",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "24 Maximum elongation Experimental 65 50 12 70 31.50%",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Microstructural analysis",
+          "quote": "It shows equiaxed grains in Nickel matrix with the evolvement of niobium carbides (NbC) across the boundaries of grains.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Microstructural analysis",
+          "quote": "It shows equiaxed grains in Nickel matrix with the evolvement of niobium carbides (NbC) across the boundaries of grains.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Microstructural analysis",
+          "quote": "The joints produced using optimized parameters (Joint No. 21) disclosed reﬁnement of grains in FZ and lower laves phase evolvement.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Microstructural analysis",
+          "quote": "The reﬁnement of grains in FZ causes the development of laves phase in ﬁner and discrete morphology, distributed homogeneously in the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The joints produced using maximum level of welding current, InterPulse current and frequency showed the development of coarse grains in FZ",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "causes the growth of laves phase in coarser networked morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Base metal 870 580 38 –",
+          "table": "Table 9",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Base metal 870 580 38 –",
+          "table": "Table 9",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "21 Maximum yield strength Experimental 65 50 4 60 548 MPa",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "Welded joint (Joint No. 21) 863 548 27.93 Fusion zone",
+          "table": "Table 9",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "the joints made using welding current of 65 A, InterPulse current of 50 A, InterPulse frequency of 12 kHz and welding speed of 70 mm/min showed maximum elongation of 31.50%.",
+          "table": "Table 8",
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "microstructure_2",
+      "predicate": "FORMS",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Microstructural analysis",
+          "quote": "The reﬁnement of grains in FZ causes the development of laves phase in ﬁner and discrete morphology, distributed homogeneously in the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "microstructure_3",
+      "predicate": "PROMOTES",
+      "target_id": "phase_4",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The evolvement of coarse grain microstructure is undesirable as it promotes segregation of alloying elements in interdendritic areas of FZ and causes the growth of laves phase in coarser networked morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "microstructure_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "it promotes segregation of alloying elements in interdendritic areas of FZ",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "phase_4",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "It is the result of Nb segregation and substantial laves phase growth in interdendritic areas of FZ.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The dispersion of hard and brittle laves phase in ductile solidiﬁed matrix imparts reinforcing strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "This makes it difﬁcult for the movement of dislocations and increases the strength of joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "phase_4",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "being hard and brittle intermetallic compound, laves phase reduces the plastic ﬂow of the matrix and provides rapid crack initiation and growth at lower strain energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "mechanism_4",
+      "predicate": "DEGRADES",
+      "target_id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "This signiﬁcantly drops the elongation of joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_25",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Microstructural analysis",
+          "quote": "The joints produced using optimized parameters (Joint No. 21) disclosed reﬁnement of grains in FZ and lower laves phase evolvement.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_26",
+      "source_id": "mechanism_1",
+      "predicate": "REFINES",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "It provides dendritic structure reﬁnement in FZ.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_27",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "welded (InterPulsed TIG, optimized for yield strength)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "All the above consequences of electromagnetic constriction and pulsation of InterPulsed TIG welding arc contributes in microstructural reﬁnement and enhancing the yield strength and elongation of joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_28",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_5",
+      "sample_id": "sample_3",
+      "material_state": "welded (InterPulsed TIG, optimized for elongation)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "All the above consequences of electromagnetic constriction and pulsation of InterPulsed TIG welding arc contributes in microstructural reﬁnement and enhancing the yield strength and elongation of joints.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "36b86b0362b7e103:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

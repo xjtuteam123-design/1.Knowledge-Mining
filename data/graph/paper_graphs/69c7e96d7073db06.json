@@ -1,0 +1,926 @@
+{
+  "document_id": "69c7e96d7073db06",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "3D打印用近球形Nb521合金粉末的流化制备",
+    "authors": [
+      "陈佳男",
+      "丁旺旺",
+      "朱科研",
+      "陈刚",
+      "曲选辉"
+    ],
+    "journal": "粉末冶金技术",
+    "year": 2022,
+    "doi": "10.19591/j.cnki.cn11-1974/tf.2021030030"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb521 alloy",
+      "material_category": "Nb-based refractory alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "采用氢化脱氢（hydrogenation-dehydrogenation，HDH）工艺制备不规则形状Nb521合金粉末",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "氢化脱氢原料粉末",
+      "canonical_name": "Nb521",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-HDH",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "氢化脱氢制粉以Nb521合金传统机加工产生的切削废料为原料",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "流化粉末",
+      "canonical_name": "Nb521",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "fluidized",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 粉末间隙元素含量",
+          "quote": "表2所示为450 ℃流化处理前后Nb521合金粉末的O、C、H、N间隙元素质量分数。",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "hydrogenation",
+      "parameters": {
+        "temperature_c": 700,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "H2 (4N, 99.99%)",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "Nb521 machining chips",
+      "output_state": "brittle hydrogenated Nb521",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "将铌屑加热至700 ℃，随后保温渗氢制备出脆性的氢化Nb521",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "crushing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "brittle hydrogenated Nb521",
+      "output_state": "hydride powder",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "然后，对氢化Nb521进行破碎得到粉末",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "dehydrogenation",
+      "parameters": {
+        "temperature_c": 700,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "hydride powder",
+      "output_state": "irregular-shaped HDH Nb521 alloy powder",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "再进行700 ℃脱氢处理，获得不规则形状氢化脱氢Nb521合金粉末",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "fluidization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "high-purity flowing argon (5N, O mass fraction 3 × 10-6)",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range_c": "450-900",
+          "flow_rate_L/min": "2-8",
+          "treatment_time_min": "10-30"
+        }
+      },
+      "input_state": "irregular-shaped HDH Nb521 alloy powder",
+      "output_state": "fluidized Nb521 alloy powder",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "即将氢化脱氢Nb521合金粉末置于流化床反应器内，在450～900 ℃温度和一定流量（2～8 L/min）高纯度流动氩气（纯度为5 N，氧质量分数为3 × 10‒6）作用下进行流化改性处理10～30 min",
+          "table": null,
+          "figure": "1",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "流化前后Nb521合金粉末的相组成并未发生明显变化，均为体心立方晶体结构的单相组织。",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "流化前后Nb521合金粉末的相组成并未发生明显变化，均为体心立方晶体结构的单相组织。",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "irregular angular particle morphology",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "many ultrafine powders <10 μm",
+        "morphology": "irregular, sharp edges and corners",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "氢化脱氢制备得到的Nb521合金粉末形貌不规则，呈现出尖锐的棱角，小于10 μm的超细粉末较多。",
+          "table": null,
+          "figure": "2(a)",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "near-spherical particle morphology",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "ultrafine powder count significantly reduced",
+        "morphology": "near-spherical, smooth surface, fine powder attached in pits and cracks of large particles",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "粉末经过流化改性处理后，超细粉末颗粒数量显著减少……有部分细粉附着在大颗粒的凹坑和裂缝处，这一定程度上提高了粉末的球形度。",
+          "table": null,
+          "figure": "2(b)-(d)",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "property": "oxygen mass fraction",
+      "value": 0.26,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "chemical analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 粉末间隙元素含量",
+          "quote": "氢化脱氢工艺制得的Nb521合金粉末初始O、H、N、C质量分数分别为0.26%、0.009%、0.021%、0.012%。",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "property": "hydrogen mass fraction",
+      "value": 0.009,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "chemical analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 粉末间隙元素含量",
+          "quote": "氢化脱氢工艺制得的Nb521合金粉末初始O、H、N、C质量分数分别为0.26%、0.009%、0.021%、0.012%。",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "property": "nitrogen mass fraction",
+      "value": 0.021,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "chemical analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 粉末间隙元素含量",
+          "quote": "氢化脱氢工艺制得的Nb521合金粉末初始O、H、N、C质量分数分别为0.26%、0.009%、0.021%、0.012%。",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "property": "carbon mass fraction",
+      "value": 0.012,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "chemical analysis"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 粉末间隙元素含量",
+          "quote": "氢化脱氢工艺制得的Nb521合金粉末初始O、H、N、C质量分数分别为0.26%、0.009%、0.021%、0.012%。",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "property": "oxygen mass fraction",
+      "value": 0.22,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 450,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "chemical analysis"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "表2 氢化脱氢原料粉末和流化粉末间隙元素质量分数",
+          "quote": "流化粉末 0.22 0.008 0.021 0.012",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "property": "hydrogen mass fraction",
+      "value": 0.008,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 450,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "chemical analysis"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "表2 氢化脱氢原料粉末和流化粉末间隙元素质量分数",
+          "quote": "流化粉末 0.22 0.008 0.021 0.012",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "property": "nitrogen mass fraction",
+      "value": 0.021,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 450,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "chemical analysis"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "表2 氢化脱氢原料粉末和流化粉末间隙元素质量分数",
+          "quote": "流化粉末 0.22 0.008 0.021 0.012",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "property": "carbon mass fraction",
+      "value": 0.012,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 450,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "chemical analysis"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "表2 氢化脱氢原料粉末和流化粉末间隙元素质量分数",
+          "quote": "流化粉末 0.22 0.008 0.021 0.012",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "property": "flowability index",
+      "value": 66,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "BT-1001 powder comprehensive properties tester"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.3 粉末铺展性评价",
+          "quote": "经过流化改性后，粉末的流动性指数提高至66，属于中等偏上水平，基本满足3D打印的铺粉要求。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "particle collision and friction induced plastic deformation",
+      "category": "microstructure evolution",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "颗粒之间会发生相互碰撞、摩擦，高温下Nb521合金的屈服强度会大幅下降，碰撞和摩擦产生的冲击力和剪切力可能会使粉末尖锐部位发生塑性变形，有利于消除不规则Nb521粉末表面棱角。",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "将铌屑加热至700 ℃，随后保温渗氢制备出脆性的氢化Nb521",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "然后，对氢化Nb521进行破碎得到粉末",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "再进行700 ℃脱氢处理，获得不规则形状氢化脱氢Nb521合金粉末",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "流化前后Nb521合金粉末的相组成并未发生明显变化，均为体心立方晶体结构的单相组织。",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "氢化脱氢制备得到的Nb521合金粉末形貌不规则，呈现出尖锐的棱角，小于10 μm的超细粉末较多。",
+          "table": null,
+          "figure": "2(a)",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "流化前后Nb521合金粉末的相组成并未发生明显变化，均为体心立方晶体结构的单相组织。",
+          "table": null,
+          "figure": "3",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "粉末经过流化改性处理后，超细粉末颗粒数量显著减少……有部分细粉附着在大颗粒的凹坑和裂缝处，这一定程度上提高了粉末的球形度。",
+          "table": null,
+          "figure": "2(b)-(d)",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "即将氢化脱氢Nb521合金粉末置于流化床反应器内，在450～900 ℃温度和一定流量（2～8 L/min）高纯度流动氩气（纯度为5 N，氧质量分数为3 × 10‒6）作用下进行流化改性处理10～30 min",
+          "table": null,
+          "figure": "1",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "microstructure_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_9",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "流化处理后，Nb521合金粉末的粒度分布和表面球形度均得到了改善，从而大幅提高了粉末的流动性。",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_1",
+      "predicate": "FORMS",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.1 粉末形貌与粒度分布",
+          "quote": "碰撞和摩擦产生的冲击力和剪切力可能会使粉末尖锐部位发生塑性变形，有利于消除不规则Nb521粉末表面棱角……最终形成了近球形的粉末颗粒。",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-HDH",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 粉末间隙元素含量",
+          "quote": "氢化脱氢工艺制得的Nb521合金粉末初始O、H、N、C质量分数分别为0.26%、0.009%、0.021%、0.012%。",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "表2 氢化脱氢原料粉末和流化粉末间隙元素质量分数",
+          "quote": "流化粉末 0.22 0.008 0.021 0.012",
+          "table": "2",
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "process_4",
+      "predicate": "PRODUCES",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "fluidized",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "即将氢化脱氢Nb521合金粉末置于流化床反应器内，在450～900 ℃温度和一定流量（2～8 L/min）高纯度流动氩气（纯度为5 N，氧质量分数为3 × 10‒6）作用下进行流化改性处理10～30 min",
+          "table": null,
+          "figure": "1",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "氢化脱氢制粉以Nb521合金传统机加工产生的切削废料为原料",
+          "table": null,
+          "figure": null,
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1 实验材料及方法",
+          "quote": "即将氢化脱氢Nb521合金粉末置于流化床反应器内……进行流化改性处理10～30 min",
+          "table": null,
+          "figure": "1",
+          "chunk_id": "69c7e96d7073db06:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

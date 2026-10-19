@@ -1,0 +1,519 @@
+{
+  "document_id": "6a25d95834731a2f",
+  "chunk_id": "6a25d95834731a2f:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Multiscale modeling of the mechanical behavior of IN718 superalloy based on micropillar compression and computational homogenization",
+    "authors": [
+      "A. Cruzado",
+      "B. Gan",
+      "M. Jiménez",
+      "D. Barba",
+      "K. Ostolaza",
+      "A. Linaza",
+      "J.M. Molina-Aldareguia",
+      "J. Llorca",
+      "J. Segurado"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2015,
+    "doi": "10.1016/j.actamat.2015.07.006"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Fe-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Polycrystalline IN718 is a Ni–Fe based superalloy strengthened with c0 and c00 precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "IN718 wrought alloy",
+      "canonical_name": "IN718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "wrought",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Experimental methodology",
+          "quote": "The microstructure of the IN718 wrought alloy was characterized by optical microscopy, scanning electron microscopy (SEM), using a FEI Helios Nanolab 600i instrument, and electron backscatter diffraction (EBSD) in an Oxford AZTEC system.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma (Ni FCC solid solution)",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The microstructure of IN718 is made up by a c phase (Ni FCC solid solution) which contains a dispersion of nm-sized c0-Ni3(Al,Ti) and c00-Ni3Nb coherent precipitates within the grains together with lm-sized metal carbides and d phase (Ni 3Nb) parti-cles at grain boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma'-Ni3(Al,Ti)",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "<50 nm",
+        "morphology": null,
+        "location": "within grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Microstructural characterization",
+          "quote": "Transmission electron microscopy analysis, performed using a JEOL 3000F instrument, revealed the presence of profuse amounts of c0 and c00 precipitates in the interior of the grains with sizes below 50 nm",
+          "table": null,
+          "figure": "Fig. 1d",
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma''-Ni3Nb",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "<50 nm",
+        "morphology": "thin ellipsoidal disc-shape precipitates",
+        "location": "within grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Microstructural characterization",
+          "quote": "Transmission electron microscopy analysis, performed using a JEOL 3000F instrument, revealed the presence of profuse amounts of c0 and c00 precipitates in the interior of the grains with sizes below 50 nm",
+          "table": null,
+          "figure": "Fig. 1d",
+          "chunk_id": "6a25d95834731a2f:part:001"
+        },
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "the c00 phase shows a body centered tetragonal (BCT) D0 22 structure [5] and forms thin ellipsoidal disc-shape precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "delta phase (Ni3Nb)",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "attributes": {
+        "phase_fraction": "<1 vol.%",
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Microstructural characterization",
+          "quote": "Negligible amounts of d phase particles (<1 vol.%) were found, all decorating the grain boundaries",
+          "table": null,
+          "figure": "Fig. 1c",
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "metal carbides",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "attributes": {
+        "phase_fraction": "<1 vol.%",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Microstructural characterization",
+          "quote": "The microstructure was mainly composed of c phase grains, with negligible amounts of dispersed metal carbides (<1 vol.%)",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "gamma grain",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "average grain size 95 μm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Microstructural characterization",
+          "quote": "The average grain size was 95 μm and the grain orientations presented a random crystallographic texture",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "property": "compressive strength",
+      "value": 1000,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Polycrystalline IN718 presents a strength well above 1000 MPa, large ductility (>30%)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "property": "elongation",
+      "value": 30,
+      "min_value": 30,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Polycrystalline IN718 presents a strength well above 1000 MPa, large ductility (>30%)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The c00 phase (which provides most of the strengthening [6]) is a metastable form of Ni 3Nb",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Experimental methodology",
+          "quote": "The microstructure of the IN718 wrought alloy was characterized",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The microstructure of IN718 is made up by a c phase (Ni FCC solid solution)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Microstructural characterization",
+          "quote": "profuse amounts of c0 and c00 precipitates in the interior of the grains with sizes below 50 nm",
+          "table": null,
+          "figure": "Fig. 1d",
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Microstructural characterization",
+          "quote": "profuse amounts of c0 and c00 precipitates in the interior of the grains with sizes below 50 nm",
+          "table": null,
+          "figure": "Fig. 1d",
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Microstructural characterization",
+          "quote": "Negligible amounts of d phase particles (<1 vol.%) were found, all decorating the grain boundaries",
+          "table": null,
+          "figure": "Fig. 1c",
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Microstructural characterization",
+          "quote": "negligible amounts of dispersed metal carbides (<1 vol.%)",
+          "table": null,
+          "figure": "Fig. 1a",
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Microstructural characterization",
+          "quote": "The average grain size was 95 μm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The c00 phase (which provides most of the strengthening [6])",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Polycrystalline IN718 presents a strength well above 1000 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "wrought",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "large ductility (>30%)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6a25d95834731a2f:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

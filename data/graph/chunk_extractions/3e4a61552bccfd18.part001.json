@@ -1,0 +1,838 @@
+{
+  "document_id": "3e4a61552bccfd18",
+  "chunk_id": "3e4a61552bccfd18:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Influence of the alloying element Re on the ideal tensile and shear strength of γ'-Ni3Al",
+    "authors": [
+      "Yun-Jiang Wang",
+      "Chong-Yu Wang"
+    ],
+    "journal": "Scripta Materialia",
+    "year": 2009,
+    "doi": "10.1016/j.scriptamat.2009.03.042"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni3Al-based γ' alloy",
+      "material_category": "intermetallic compound",
+      "evidence": [
+        {
+          "page": 1,
+          "section": null,
+          "quote": "These superalloys are constituted by precipitate γ' phase (L12, ordered face-centered cubic (fcc), Ni3Al based)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Re-doped Ni3Al",
+      "material_category": "intermetallic compound",
+      "evidence": [
+        {
+          "page": 1,
+          "section": null,
+          "quote": "The effects of the alloying element Re on the ideal strength of γ'-Ni3Al under tensile and shear stresses are investigated using the first-principles method.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "pure Ni3Al",
+      "canonical_name": "Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "ideal defect-free crystal (first-principles)",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": null,
+              "quote": "precipitate γ' phase (L1 2, ordered face-centered cubic (fcc), Ni 3Al based)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "3e4a61552bccfd18:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": null,
+              "quote": "precipitate γ' phase (L1 2, ordered face-centered cubic (fcc), Ni 3Al based)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "3e4a61552bccfd18:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "For the tensile strain of pure Ni3Al along the [0 0 1] direction, the stress increases until it reaches a maximum of 26.0 GPa at the strain of 0.32",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Ni3(Al, Re)",
+      "canonical_name": "Ni3(Al,Re)",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "The substitution of Re occupies Al site in Ni3Al according to the results of previous first-principles and experimental site-preference studies",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Ni3(Al, Re), 16 atom supercell, {111}<110> and {111}<112> shear and [111] tensile",
+      "canonical_name": "Ni3(Al,Re)",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "When doped with Re, the strain energy increases compared to pure Ni 3Al. As a result, the maximum stress is correspondingly raised to 7.7 GPa, an increment of 33%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "first-principles DFT calculation (VASP, PAW-GGA)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "code": "VASP",
+          "functional": "GGA-PAW",
+          "cutoff_energy_eV": 350,
+          "k_point_mesh": "11x11x15 / 11x11x8 for [001] and [110]; 5x5x5 for [111] and shear",
+          "force_convergence_eV_per_A": 0.01
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "The first-principles calculations presented here are based on electronic density-functional theory (DFT), and have been carried out using the VASP code",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "first-principles DFT calculation (VASP, PAW-GGA)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "code": "VASP",
+          "functional": "GGA-PAW",
+          "cutoff_energy_eV": 350,
+          "k_point_mesh": "11x11x15 / 11x11x8 for [001] and [110]; 5x5x5 for [111] and shear",
+          "force_convergence_eV_per_A": 0.01
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "The first-principles calculations presented here are based on electronic density-functional theory (DFT), and have been carried out using the VASP code",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "L12 ordered fcc γ' phase",
+      "sample_id": "sample_1",
+      "material_state": "ideal defect-free crystal (first-principles)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": null,
+          "quote": "precipitate γ' phase (L1 2, ordered face-centered cubic (fcc), Ni 3Al based)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "ideal defect-free crystal (first-principles)",
+      "property": "ideal tensile strength",
+      "value": 26.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "For the tensile strain of pure Ni3Al along the [0 0 1] direction, the stress increases until it reaches a maximum of 26.0 GPa at the strain of 0.32",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "property": "ideal tensile strength",
+      "value": 26.3,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "When doped with Re, the strength remains nearly unchanged with a value of 26.3 GPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "ideal defect-free crystal (first-principles)",
+      "property": "ideal tensile strength",
+      "value": 7.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[110]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "Without Re addition, the ideal strengths for these two directions are 7.4 and 25.4 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "ideal defect-free crystal (first-principles)",
+      "property": "ideal tensile strength",
+      "value": 25.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[111]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "Without Re addition, the ideal strengths for these two directions are 7.4 and 25.4 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "property": "ideal tensile strength",
+      "value": 11.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[110]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "The addition of Re increases the values to 11.2 and 27.0 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "property": "ideal tensile strength",
+      "value": 27.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[111]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "The addition of Re increases the values to 11.2 and 27.0 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_3",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "property": "ideal tensile strength",
+      "value": 13.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": "[110]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT (16 atom supercell)"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "In contrast with the 16 atom model, this yields a higher tensile strength of 13.7 GPa along the [1 1 0] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "ideal defect-free crystal (first-principles)",
+      "property": "ideal shear strength",
+      "value": 5.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "shear",
+        "orientation": "{111}<110> slip system",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "Thus, the ideal shear strength for the {1 1 1}[−211 0] direction is 5.8 GPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "ideal defect-free crystal (first-principles)",
+      "property": "ideal shear strength",
+      "value": 13.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "shear",
+        "orientation": "{111}<112> slip system",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "The addition improves the ideal strength from 13.7 to 15.7 GPa, which can be seen in Figure 2d.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_3",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "property": "ideal shear strength",
+      "value": 7.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "shear",
+        "orientation": "{111}<110> slip system",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "As a result, the maximum stress is correspondingly raised to 7.7 GPa, an increment of 33%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_3",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "property": "ideal shear strength",
+      "value": 15.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "shear",
+        "orientation": "{111}<112> slip system",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles DFT"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "The addition improves the ideal strength from 13.7 to 15.7 GPa, which can be seen in Figure 2d.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "covalent-like Re-Ni directional bonding",
+      "category": "electronic/bonding",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "The covalent-like bond along the [1 1 0] direction will resist the tensile deformation, leading to higher strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "covalent-like Re-Ni directional bonding",
+      "category": "electronic/bonding",
+      "sample_id": "sample_3",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "The strong directional Re–Ni bonds effectively resist the shear deformation, and result in a higher shear strength of Ni3Al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "weak Re-host interaction along [001] due to large interatomic distance",
+      "category": "electronic/bonding",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "The reason is that the distance between Re and host atoms along the [0 0 1] direction is too long, and their interactions are too weak to influence the tensile strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_2",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "The substitution of Re occupies Al site in Ni3Al according to the results of previous first-principles and experimental site-preference studies",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "The first-principles calculations presented here are based on electronic density-functional theory (DFT), and have been carried out using the VASP code",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "ideal defect-free crystal (first-principles)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": null,
+          "quote": "precipitate γ' phase (L1 2, ordered face-centered cubic (fcc), Ni 3Al based)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "The addition of Re increases the values to 11.2 and 27.0 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "The covalent-like bond along the [1 1 0] direction will resist the tensile deformation, leading to higher strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "The result is consistent with the finding that Re considerably improves the tensile strength along the [1 1 0] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_3",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "The strong directional Re–Ni bonds effectively resist the shear deformation, and result in a higher shear strength of Ni3Al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_10",
+      "sample_id": "sample_3",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": null,
+          "quote": "The strong directional Re–Ni bonds effectively resist the shear deformation, and result in a higher shear strength of Ni3Al.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_3",
+      "predicate": "SUPPRESSES",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "Re-doped, ideal defect-free crystal (first-principles)",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": null,
+          "quote": "This is the reason why the addition of Re has almost no effect on the ideal tensile strength of Ni3Al along the [0 0 1] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3e4a61552bccfd18:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

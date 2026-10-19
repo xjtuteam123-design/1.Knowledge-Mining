@@ -1,0 +1,209 @@
+{
+  "document_id": "690258300011fed9",
+  "chunk_id": "690258300011fed9:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Crystals",
+    "year": 2020,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "STEM micrographs showing dislocation microstructures, which formed during shear creep deformation at 750 °C and 300 MPa to 1% strain.",
+          "table": null,
+          "figure": "4",
+          "chunk_id": "690258300011fed9:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": null,
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2",
+          "quote": "Overview micrographs of dislocations and planar faults that formed during shear creep deformation at 750 °C and 300 MPa are shown in Figure 4a, b.",
+          "table": null,
+          "figure": "4",
+          "chunk_id": "690258300011fed9:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma phase",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "channel",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2",
+          "quote": "A high density of gamma channel dislocations is observed in Figure 4a.",
+          "table": null,
+          "figure": "4a",
+          "chunk_id": "690258300011fed9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime phase",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "particle",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2",
+          "quote": "In Figure 4a, dislocations do not cut into the γ'-particles and no planar faults in the γ'-phase are observed.",
+          "table": null,
+          "figure": "4a",
+          "chunk_id": "690258300011fed9:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation glide and climb",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.3",
+          "quote": "At t2, the red dislocation segment d3 has moved by glide and climb.",
+          "table": null,
+          "figure": "9",
+          "chunk_id": "690258300011fed9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "gamma prime cutting",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4.2",
+          "quote": "frequent cutting events are observed, which manifest themselves by the presence of planar faults in the γ'-phase, as shown in Figure 4b.",
+          "table": null,
+          "figure": "4b",
+          "chunk_id": "690258300011fed9:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2",
+          "quote": "A high density of gamma channel dislocations is observed in Figure 4a.",
+          "table": null,
+          "figure": "4a",
+          "chunk_id": "690258300011fed9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2",
+          "quote": "In Figure 4a, dislocations do not cut into the γ'-particles and no planar faults in the γ'-phase are observed.",
+          "table": null,
+          "figure": "4a",
+          "chunk_id": "690258300011fed9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": "4.3",
+          "quote": "Moreover, the red 60° dislocation also experiences a positive climb force, which enables climb down onto the common (111) glide plane.",
+          "table": null,
+          "figure": "9",
+          "chunk_id": "690258300011fed9:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

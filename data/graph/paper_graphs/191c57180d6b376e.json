@@ -1,0 +1,1072 @@
+{
+  "document_id": "191c57180d6b376e",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Molecular Dynamics Study on Characteristics of Misfit Dislocations in Ni-Based Superalloys",
+    "authors": [
+      "Kisaragi Yashiro",
+      "Yuuhu Suzuki",
+      "Joy Rizki Pangestu",
+      "Yoshihiro Tomita"
+    ],
+    "journal": "Key Engineering Materials",
+    "year": 2007,
+    "doi": "10.4028/www.scientific.net/KEM.345-346.951"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Title",
+          "quote": "Molecular Dynamics Study on Characteristics of Misfit Dislocations in Ni-Based Superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni phase in Ni/Ni3Al bicrystal laminate",
+      "canonical_name": "Ni",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Simulation procedure",
+              "quote": "The Ni3Al phase is composed of 49x49x25 unit lattices of the L12 structure while the Ni phase 50x50x25 fcc unit lattices.",
+              "table": null,
+              "figure": "Fig. 1",
+              "chunk_id": "191c57180d6b376e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Simulation procedure",
+          "quote": "The Ni3Al phase is composed of 49x49x25 unit lattices of the L12 structure while the Ni phase 50x50x25 fcc unit lattices.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Ni3Al phase in Ni/Ni3Al bicrystal laminate",
+      "canonical_name": "Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Simulation procedure",
+              "quote": "The Ni3Al phase is composed of 49x49x25 unit lattices of the L12 structure while the Ni phase 50x50x25 fcc unit lattices.",
+              "table": null,
+              "figure": "Fig. 1",
+              "chunk_id": "191c57180d6b376e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Simulation procedure",
+              "quote": "The Ni3Al phase is composed of 49x49x25 unit lattices of the L12 structure while the Ni phase 50x50x25 fcc unit lattices.",
+              "table": null,
+              "figure": "Fig. 1",
+              "chunk_id": "191c57180d6b376e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Simulation procedure",
+          "quote": "The Ni3Al phase is composed of 49x49x25 unit lattices of the L12 structure while the Ni phase 50x50x25 fcc unit lattices.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": 10,
+        "time": "15000 fs",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "cell_size_control": "cell size controlled to cancel normal stresses",
+          "potential": "EAM potential by Voter",
+          "temperature_control": "velocity scaling",
+          "lattice_parameter_nm": "0.350"
+        }
+      },
+      "input_state": "initial laminate configuration",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Simulation procedure",
+          "quote": "The initial configuration is then relaxed with 15000fs MD calculation, controlling the cell size to cancel the normal stresses. The temperature is controlled at 10K by velocity scaling, in order to separate the effect of thermal vibration.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": 10,
+        "time": "15000 fs",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "cell_size_control": "cell size controlled to cancel normal stresses",
+          "potential": "EAM potential by Voter",
+          "temperature_control": "velocity scaling",
+          "lattice_parameter_nm": "0.357"
+        }
+      },
+      "input_state": "initial laminate configuration",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Simulation procedure",
+          "quote": "The initial configuration is then relaxed with 15000fs MD calculation, controlling the cell size to cancel the normal stresses. The temperature is controlled at 10K by velocity scaling, in order to separate the effect of thermal vibration.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "tensile loading",
+      "parameters": {
+        "temperature_c": 10,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "applied normal to interfaces (z-direction)",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "strain_increment": "1.0x10^-5 per step",
+          "loading_mode": "quasi-static"
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "fractured (cleavage at IF 2)",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Simulation procedure",
+          "quote": "Then tensile simulation is performed by applying the small strain increment of ∆ε=1.0x10 -5 in the z-direction at every step, in order to study the motion of misfit dislocations under external loading.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "tensile loading",
+      "parameters": {
+        "temperature_c": 10,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "applied normal to interfaces (z-direction)",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "strain_increment": "1.0x10^-5 per step",
+          "loading_mode": "quasi-static"
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "fractured (cleavage at IF 2)",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Simulation procedure",
+          "quote": "Then tensile simulation is performed by applying the small strain increment of ∆ε=1.0x10 -5 in the z-direction at every step, in order to study the motion of misfit dislocations under external loading.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Simulation procedure",
+          "quote": "while the Ni phase 50x50x25 fcc unit lattices",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "L12",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Simulation procedure",
+          "quote": "The Ni3Al phase is composed of 49x49x25 unit lattices of the L12 structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "misfit dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "network of inscribed lines along [110] and [-110] directions",
+        "location": "interface IF1 (no Al atoms); interface IF2 (with Al atoms)",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "the networks are formed as the inscribed lines in the [110] and [ 110] directions. The line directions coincide with experimental observations; however, the net spacing solely depends on the cell size and the number of lattice planes",
+          "table": null,
+          "figure": "Fig. 1(b)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "interfacial groove",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "groove",
+        "location": "2nd layer of IF1, (001) plane of Ni3Al without Al atoms",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "We can find most clear \"groove\" on the 2nd layer of IF 1, or the (001) plane of Ni3Al phase without Al atoms. The grooving is suppressed at IF 2, or the (001) plane of Ni3Al phase with Al atoms.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "partial dislocation loop",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "loop",
+        "location": "nucleated from misfit dislocation networks at IF1 and IF2",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "Then leading partials nucleate from the networks and propagate into Ni phase (IF 1) and into Ni3Al phase (IF 2), as indicated with the arrows in Fig. 3(d).",
+          "table": null,
+          "figure": "Fig. 3(d)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "wedge-like stacking fault",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "wedge-like, along the network",
+        "location": "IF2 (interface with Al atoms)",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Detail of the different behavior at the interfaces",
+          "quote": "the dislocations of IF 2 form wedge-like stacking faults along the network as indicated in Fig. 4(b).",
+          "table": null,
+          "figure": "Fig. 4(b)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_3",
+      "type": "Defect",
+      "name": "stacking fault tetrahedron",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "immobile wedge-like stacking fault analogous to SFT",
+        "location": "IF2 (interface with Al atoms)",
+        "composition": null,
+        "identification_status": "author_interpretation"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Detail of the different behavior at the interfaces",
+          "quote": "it is essentially identical to the immobile stacking fault tetrahedra (SFT). Thus the leading edge of the loops cannot propagate anymore, suppressing the dislocation burst from IF 2.",
+          "table": null,
+          "figure": "Fig. 4(b)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ],
+      "defect_id": null
+    },
+    {
+      "id": "defect_4",
+      "type": "Defect",
+      "name": "cleavage crack",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "IF2",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "Then the cleavage cracking occurs at IF 2 when many dislocation loops reach there (Fig. 3(i)).",
+          "table": null,
+          "figure": "Fig. 3(i)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ],
+      "defect_id": null
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "maximum tensile stress",
+      "value": 18.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 10,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "normal to interfaces (z-direction)",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "the stress rapidly drops to zero at the strain of εzz =0.117, after showing the maximum stress of σzz =18.5GPa.",
+          "table": null,
+          "figure": "Fig. 3(a)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation nucleation from misfit dislocation network",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "At the stress drop, the \"dislocation burst\", or the nucleation and propagation of dislocation loops, takes place from the interfaces.",
+          "table": null,
+          "figure": "Fig. 3(e)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation propagation",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "the loops from IF 1 expand in the Ni phase much faster than in the Ni3Al phase, reaching IF 2 around t=16000fs.",
+          "table": null,
+          "figure": "Fig. 3(e)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "stacking fault formation",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Detail of the different behavior at the interfaces",
+          "quote": "The bump of partial dislocations on the conjugate slip plane can lead this fault; that is, it is essentially identical to the immobile stacking fault tetrahedra (SFT).",
+          "table": null,
+          "figure": "Fig. 4(b)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "cleavage cracking",
+      "category": "fracture mechanism",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "Then the cleavage cracking occurs at IF 2 when many dislocation loops reach there (Fig. 3(i)). Thus the laminate structure cannot support the external load any more.",
+          "table": null,
+          "figure": "Fig. 3(i)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "misfit dislocation networks are made on semi-coherent interfaces in a laminate structure of Ni and Ni3Al single crystals.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "misfit dislocation networks are made on semi-coherent interfaces in a laminate structure of Ni and Ni3Al single crystals.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Simulation procedure",
+          "quote": "The initial configuration is then relaxed with 15000fs MD calculation, controlling the cell size to cancel the normal stresses.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Simulation procedure",
+          "quote": "The initial configuration is then relaxed with 15000fs MD calculation, controlling the cell size to cancel the normal stresses.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Simulation procedure",
+          "quote": "Then tensile simulation is performed by applying the small strain increment of ∆ε=1.0x10 -5 in the z-direction at every step",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Simulation procedure",
+          "quote": "Then tensile simulation is performed by applying the small strain increment of ∆ε=1.0x10 -5 in the z-direction at every step",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Simulation procedure",
+          "quote": "while the Ni phase 50x50x25 fcc unit lattices",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Simulation procedure",
+          "quote": "The Ni3Al phase is composed of 49x49x25 unit lattices of the L12 structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "the networks are formed as the inscribed lines in the [110] and [ 110] directions.",
+          "table": null,
+          "figure": "Fig. 1(b)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "We can find most clear \"groove\" on the 2nd layer of IF 1, or the (001) plane of Ni3Al phase without Al atoms.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "Then leading partials nucleate from the networks and propagate into Ni phase (IF 1) and into Ni3Al phase (IF 2)",
+          "table": null,
+          "figure": "Fig. 3(d)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_2",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Detail of the different behavior at the interfaces",
+          "quote": "the dislocations of IF 2 form wedge-like stacking faults along the network as indicated in Fig. 4(b).",
+          "table": null,
+          "figure": "Fig. 4(b)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_3",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Detail of the different behavior at the interfaces",
+          "quote": "it is essentially identical to the immobile stacking fault tetrahedra (SFT).",
+          "table": null,
+          "figure": "Fig. 4(b)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "Then the cleavage cracking occurs at IF 2 when many dislocation loops reach there (Fig. 3(i)).",
+          "table": null,
+          "figure": "Fig. 3(i)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "after showing the maximum stress of σzz =18.5GPa.",
+          "table": null,
+          "figure": "Fig. 3(a)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "At the stress drop, the \"dislocation burst\", or the nucleation and propagation of dislocation loops, takes place from the interfaces.",
+          "table": null,
+          "figure": "Fig. 3(e)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "mechanism_1",
+      "predicate": "FORMS",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "Then leading partials nucleate from the networks and propagate into Ni phase (IF 1) and into Ni3Al phase (IF 2), as indicated with the arrows in Fig. 3(d).",
+          "table": null,
+          "figure": "Fig. 3(d)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "defect_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "the loops from IF 1 expand in the Ni phase much faster than in the Ni3Al phase, reaching IF 2 around t=16000fs.",
+          "table": null,
+          "figure": "Fig. 3(e)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "defect_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Detail of the different behavior at the interfaces",
+          "quote": "The bump of partial dislocations on the conjugate slip plane can lead this fault; that is, it is essentially identical to the immobile stacking fault tetrahedra (SFT).",
+          "table": null,
+          "figure": "Fig. 4(b)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "mechanism_3",
+      "predicate": "FORMS",
+      "target_id": "defect_2",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Detail of the different behavior at the interfaces",
+          "quote": "the dislocations of IF 2 form wedge-like stacking faults along the network as indicated in Fig. 4(b).",
+          "table": null,
+          "figure": "Fig. 4(b)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "defect_3",
+      "predicate": "SUPPRESSES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Detail of the different behavior at the interfaces",
+          "quote": "Thus the leading edge of the loops cannot propagate anymore, suppressing the dislocation burst from IF 2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "defect_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results and discussion",
+          "quote": "Then the cleavage cracking occurs at IF 2 when many dislocation loops reach there (Fig. 3(i)). Thus the laminate structure cannot support the external load any more.",
+          "table": null,
+          "figure": "Fig. 3(i)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "defect_4",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Results and discussion",
+          "quote": "Thus the stress rapidly drops to zero at the strain of εzz =0.117, after showing the maximum stress of σzz =18.5GPa.",
+          "table": null,
+          "figure": "Fig. 3(a)",
+          "chunk_id": "191c57180d6b376e:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

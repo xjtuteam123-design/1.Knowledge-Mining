@@ -1,0 +1,331 @@
+{
+  "document_id": "c6dad08fe775f868",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Ni基単結晶超合金の組織因子を用いたクリープ構成式",
+    "authors": [
+      "Hitoshi Izuno",
+      "Tadaharu Yokokawa",
+      "Yutaka Koizumi",
+      "Satoko Odaka",
+      "Hiroshi Harada"
+    ],
+    "journal": "日本金属学会誌 (J. Japan Inst. Metals)",
+    "year": 2004,
+    "doi": "10.2320/jinstmet.68.526"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base single crystal superalloy",
+      "material_category": "Ni-base superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "We proposed a new creep constructive equation to express the characteristic ``S ­shape'' primary stage for Ni ­base single crystal superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "TMS-75",
+      "canonical_name": "TMS-75",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [
+        {
+          "element": "Re",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mass%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "2. クリープ構成式",
+              "quote": "Fig. 1 に 5m a s sRe 添加の 第三世代 Ni 基超合金 TMS­75 の 1100 °C/137 MPa におけるクリープ曲線を 示す．",
+              "table": null,
+              "figure": "Fig. 1",
+              "chunk_id": "c6dad08fe775f868:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "2. クリープ構成式",
+          "quote": "Fig. 1 に 5m a s sRe 添加の 第三世代 Ni 基超合金 TMS­75 の 1100 °C/137 MPa におけるクリープ曲線を 示す．",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "TMS-160",
+      "canonical_name": "TMS-160",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. 重回帰分析結果",
+          "quote": "一方，Fig. 4 は重回帰分析に用いなかった合金についてのクリープ曲線予測である．",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (g′) phase",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "g′析出強化型 Ni 基単結晶超合金 (以下，Ni 基超合金と略 )",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "Ni 基超合金の高温・低応力下における高いクリープ強度は固溶強化のみならず g′相の析出強化およびラフト化 3,4)による転位の抑制によるものといわれている 5,6) ．",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "rafting",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "多くのク リープ試験中断試験における観察より，ラフト化は一次ク リープの段階で起こることが知られており，ラフト化の程度 に対応して Ni 基超合金の高温・低応力におけるクリープ曲 線は一般に一次クリープ域が S 字カーブを描く特異な形状 となっている．",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "multiple regression model",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of creep constructive equation parameters (A1, c1, m, A2, c2, A3, c3, l) and creep curve",
+      "inputs": [
+        "content of alloying elements in gamma-prime phase",
+        "lattice misfit",
+        "gamma-prime volume fraction"
+      ],
+      "target": "creep constructive equation parameters",
+      "dataset": "creep curves at 1100 °C, 137 MPa for 23 Ni-base superalloys",
+      "validation": "interpolation on alloys used in regression and extrapolation to alloys not used",
+      "metrics": {
+        "R2_A1": 0.637,
+        "R2_c1": 0.467,
+        "R2_m": 0.292,
+        "R2_A2": 0.466,
+        "R2_c2": 0.561,
+        "R2_A3": 0.358,
+        "R2_c3": 0.415,
+        "R2_l": 0.483
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. 重回帰分析結果",
+          "quote": "Table 2 に，各パラメータに対して採用したモデルの自由度，R2 値，標準誤差，F 値を示す．",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "2. クリープ構成式",
+          "quote": "Fig. 1 に 5m a s sRe 添加の 第三世代 Ni 基超合金 TMS­75 の 1100 °C/137 MPa におけるクリープ曲線を 示す．",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. 重回帰分析結果",
+          "quote": "一方，Fig. 4 は重回帰分析に用いなかった合金についてのクリープ曲線予測である．",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "g′析出強化型 Ni 基単結晶超合金 (以下，Ni 基超合金と略 )",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "Ni 基超合金の高温・低応力下における高いクリープ強度は固溶強化のみならず g′相の析出強化およびラフト化 3,4)による転位の抑制によるものといわれている 5,6) ．",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "phase_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "多くのク リープ試験中断試験における観察より，ラフト化は一次ク リープの段階で起こることが知られており",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {
+        "temperature_c": 1100,
+        "loading_mode": "creep",
+        "stress": "137 MPa"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3. 重回帰分析結果",
+          "quote": "Fig. 3 は本研究の重回帰式を用いて再計算した パラメータ による，重回帰分析に用いた(内挿側の)合金のクリープ曲線 予測である．",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "c6dad08fe775f868:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

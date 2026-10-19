@@ -1,0 +1,292 @@
+{
+  "document_id": "7e3f4c662b6dc103",
+  "chunk_id": "7e3f4c662b6dc103:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Morphology Dependent Flow Stress in Nickel-Based Superalloys in the Multi-Scale Crystal Plasticity Framework",
+    "authors": [
+      "Shahriyar Keshavarz",
+      "Zara Molaeinia",
+      "Andrew C. E. Reid",
+      "Stephen A. Langer"
+    ],
+    "journal": "Crystals",
+    "year": 2017,
+    "doi": "10.3390/cryst7110334"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This paper develops a framework to obtain the flow stress of nickel-based superalloys as a function of γ-γ′ morphology.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.2. Material Constants in the Constitutive Law",
+          "quote": "The rest of the material constants in the constitutive model, corresponding to the second type, are calibrated from experiments on single-crystal CMSX-4 in [8]. The alloy contains a 70% volume fraction of predominantly cuboidal γ′ precipitates of an average size of 0.45 µm with the average size of the RVE of 0.5 µm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "channel",
+        "location": "channel",
+        "composition": "mainly nickel",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "The channelγ phase (white) is mainly nickel, while the precipitate γ-γ′ phase (black) is an ordered L12 crystal structure.",
+          "table": null,
+          "figure": "Figure 1a",
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "attributes": {
+        "phase_fraction": 70.0,
+        "size": "0.45 µm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.2. Material Constants in the Constitutive Law",
+          "quote": "The alloy contains a 70% volume fraction of predominantly cuboidal γ′ precipitates of an average size of 0.45 µm with the average size of the RVE of 0.5 µm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        },
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "The precipitate γ-γ′ phase (black) is an ordered L12 crystal structure.",
+          "table": null,
+          "figure": "Figure 1a",
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "γ-γ′ two-phase microstructure",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "two-phase γ-γ′ morphology",
+        "location": "sub-grain",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "In general, these alloys have a two-phaseγ-γ′ microstructure as shown in Figure 1a.",
+          "table": null,
+          "figure": "Figure 1a",
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Kear-Wilsdorf lock formation",
+      "category": "dislocation locking",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "In this temperature range, most of the dislocations in the intermetallic γ′ phase become immobile screw dislocations that are locked in a Kear–Wilsdorf (or KW) configuration due to cross-slip [7].",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "anti-phase boundary shearing",
+      "category": "precipitate shearing",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Sub-Grain Scale for the γ-γ′ Microstructural of Nickel Superalloys",
+          "quote": "Section 2 of this paper introduces the sub-grain scale dislocation density crystal plasticity constitutive laws with anti-phase boundary (APB) shearing of γ′ precipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.2. Material Constants in the Constitutive Law",
+          "quote": "The rest of the material constants in the constitutive model, corresponding to the second type, are calibrated from experiments on single-crystal CMSX-4 in [8].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "The channelγ phase (white) is mainly nickel, while the precipitate γ-γ′ phase (black) is an ordered L12 crystal structure.",
+          "table": null,
+          "figure": "Figure 1a",
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.2. Material Constants in the Constitutive Law",
+          "quote": "The alloy contains a 70% volume fraction of predominantly cuboidal γ′ precipitates of an average size of 0.45 µm with the average size of the RVE of 0.5 µm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "In general, these alloys have a two-phaseγ-γ′ microstructure as shown in Figure 1a.",
+          "table": null,
+          "figure": "Figure 1a",
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "single crystal with γ-γ′ microstructure",
+      "conditions": {
+        "temperature_c": null,
+        "description": "up to 1000 K"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "In this temperature range, most of the dislocations in the intermetallic γ′ phase become immobile screw dislocations that are locked in a Kear–Wilsdorf (or KW) configuration due to cross-slip [7].",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "7e3f4c662b6dc103:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

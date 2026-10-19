@@ -1,0 +1,492 @@
+{
+  "type": "json_object",
+  "document_id": "4fd8cae634ff9a2f",
+  "chunk_id": "4fd8cae634ff9a2f:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Ronghai Wu",
+      "Zheng Wang",
+      "Xiaoxiang Wu",
+      "Heng Li"
+    ],
+    "journal": "Computational Materials Science",
+    "year": 2025,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the present work studies the strain rate (2 × 10 3 s 1) in-between",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        },
+        {
+          "page": "9",
+          "section": null,
+          "quote": "it might be more physical to have dislocation glide only in the present case of single crystal Ni-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "γ/γ’ two-phase single crystal superalloy (matrix channel width 80 nm, γ’ APB energy 125 mJ/m2, γ’ volume fraction 67.5%, interface misfit varied)",
+      "canonical_name": "Ni-based single crystal superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.4. Effect of matrix/precipitate interface misfit on elastoplastic deformation",
+          "quote": "The γ matrix channel width, γ’ APB energy and γ’ precipitate volume fraction are fixed to 80 nm, 125 mJ / m 2 and 67.5 %, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "γ/γ’ two-phase single crystal superalloy (γ’ precipitate volume fraction 55.5%)",
+      "canonical_name": "Ni-based single crystal superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "3D microstructures with different γ’ precipitate volume fractions at plastic strain 0.6%: (a) 55.5%; (b) 67.5%; (c) 74.3%.",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "γ/γ’ two-phase single crystal superalloy (γ’ precipitate volume fraction 67.5%)",
+      "canonical_name": "Ni-based single crystal superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "3D microstructures with different γ’ precipitate volume fractions at plastic strain 0.6%: (a) 55.5%; (b) 67.5%; (c) 74.3%.",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "γ/γ’ two-phase single crystal superalloy (γ’ precipitate volume fraction 74.3%)",
+      "canonical_name": "Ni-based single crystal superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "3D microstructures with different γ’ precipitate volume fractions at plastic strain 0.6%: (a) 55.5%; (b) 67.5%; (c) 74.3%.",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "3D discrete dislocation dynamics (DDD) simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": 2000.0,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "strain_rate_unit": "s-1",
+          "interface_misfits": [
+            0.0,
+            0.003,
+            0.006
+          ],
+          "matrix_channel_width_nm": 80,
+          "apb_energy": "125 mJ/m2",
+          "precipitate_volume_fraction": "67.5%"
+        }
+      },
+      "input_state": "static two-phase γ/γ' microstructure",
+      "output_state": "elastoplastic deformation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.4. Effect of matrix/precipitate interface misfit on elastoplastic deformation",
+          "quote": "By setting three different γ / γ’ interface misfits (0.0, 0.003, and 0.006), its effect on elastoplastic deformation is studied.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ matrix",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "channel width 80 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "3.4. Effect of matrix/precipitate interface misfit on elastoplastic deformation",
+          "quote": "The γ matrix channel width, γ’ APB energy and γ’ precipitate volume fraction are fixed to 80 nm, 125 mJ / m 2 and 67.5 %, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ' precipitate",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The γ matrix channel width, γ’ APB energy and γ’ precipitate volume fraction are fixed to 80 nm, 125 mJ / m 2 and 67.5 %, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "γ/γ' interface",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix/precipitate interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The resolved shear stress (RSS) fields on the first slip system (S01) induced by γ / γ’ interface misfits of 0.003 and 0.006 without external loading are plotted in Fig. 14.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ/γ' interfaces",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the dislocation networks piling up at the γ / γ’ interfaces are denser with higher γ’ precipitate volume fraction due to the bigger loading stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation pile-up at γ/γ' interface",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "Dislocations multiply in the γ matrix channels at the early stage of plastic deformation and pile up at γ / γ’ interfaces due to the resistance of γ’ APB energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation shearing of γ' precipitate",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "it is always beneficial to have bigger APB energy by adding some rare earth elements. It is also beneficial to increase the volume fraction of γ’ precipitates up to a critical point",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "line tension resistance",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the strong hardening of higher γ’ precipitate volume fraction is not from the line tension resistance caused by the curvature of dislocation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The γ matrix channel width, γ’ APB energy and γ’ precipitate volume fraction are fixed to 80 nm, 125 mJ / m 2 and 67.5 %, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The γ matrix channel width, γ’ APB energy and γ’ precipitate volume fraction are fixed to 80 nm, 125 mJ / m 2 and 67.5 %, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "The resolved shear stress (RSS) fields on the first slip system (S01) induced by γ / γ’ interface misfits of 0.003 and 0.006 without external loading are plotted in Fig. 14.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the dislocation networks piling up at the γ / γ’ interfaces are denser with higher γ’ precipitate volume fraction due to the bigger loading stress.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "Dislocations multiply in the γ matrix channels at the early stage of plastic deformation and pile up at γ / γ’ interfaces due to the resistance of γ’ APB energy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "Dislocations cut into the γ’ precipitate when the push stress excreted on the leading dislocation of pile-up structure is big enough to overcome the γ’ APB stress, regardless of the two-phase microstructure characteristics.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "phase_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "Simultaneously, the high volume fraction of γ’ precipitates yields narrow γ matrix channels, which further leads to big line tension resistance stress for dislocations to move in the γ matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated γ/γ' two-phase microstructure",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "the big APB energy prevents dislocations cutting into the γ’ precipitates, which forces dislocation to move in the γ matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4fd8cae634ff9a2f:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

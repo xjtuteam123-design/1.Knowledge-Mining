@@ -1,0 +1,638 @@
+{
+  "document_id": "950e49408f7e1e4e",
+  "chunk_id": "950e49408f7e1e4e:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "An atomistic study on grain-size and temperature effects on mechanical properties of polycrystal CoCrFeNi high-entropy alloys",
+    "authors": [
+      "Lu Xie",
+      "Guangda Wu",
+      "Qing Peng",
+      "Junpeng Liu",
+      "Dongyue Li",
+      "Wenrui Wang"
+    ],
+    "journal": "Materials Today Communications",
+    "year": 2023,
+    "doi": "10.1016/j.mtcomm.2023.107264"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "CoCrFeNi high-entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "polycrystalline CoCrFeNi HEAs",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CoCrFeNi HEA",
+      "canonical_name": "CoCrFeNi",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built (MD model)",
+      "composition": [
+        {
+          "element": "Co",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2. MD simulation details",
+              "quote": "The atomic quantities of Co, Cr, Fe, and Ni are nearly equal, with values of 225395, 225393, 225391, and 225394, respectively.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "950e49408f7e1e4e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2. MD simulation details",
+              "quote": "The atomic quantities of Co, Cr, Fe, and Ni are nearly equal, with values of 225395, 225393, 225391, and 225394, respectively.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "950e49408f7e1e4e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2. MD simulation details",
+              "quote": "The atomic quantities of Co, Cr, Fe, and Ni are nearly equal, with values of 225395, 225393, 225391, and 225394, respectively.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "950e49408f7e1e4e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "2. MD simulation details",
+              "quote": "The atomic quantities of Co, Cr, Fe, and Ni are nearly equal, with values of 225395, 225393, 225391, and 225394, respectively.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "950e49408f7e1e4e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. MD simulation details",
+          "quote": "The polycrystalline CoCrFeNi HEAs model consists of 10 grains and a total of 901573 atoms, with dimensions of 22 nm × 22 nm × 22 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "software": "LAMMPS",
+          "grain_size_nm": 12.7,
+          "simulation_box_nm": "22×22×22",
+          "number_of_grains": 10,
+          "boundary_conditions": "periodic in three orthogonal directions"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-built (MD model)",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. MD simulation details",
+          "quote": "The polycrystalline CoCrFeNi HEAs model consists of 10 grains and a total of 901573 atoms, with dimensions of 22 nm × 22 nm × 22 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "thermodynamic equilibration",
+      "parameters": {
+        "temperature_c": 26.85,
+        "time": "100 ps",
+        "pressure": "0 GPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT"
+        }
+      },
+      "input_state": "as-built (MD model)",
+      "output_state": "equilibrated at 300 K",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. MD simulation details",
+          "quote": "the model is initially thermodynamically equilibrated with a thermostat targeting the temperature of 300 K for 100 picoseconds.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "temperature equilibration",
+      "parameters": {
+        "temperature_c": [
+          500,
+          298,
+          200,
+          77
+        ],
+        "time": "100 ps relaxation",
+        "pressure": "0 GPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_change_rate": "0.2×10^12 K/s",
+          "ensemble": "NPT"
+        }
+      },
+      "input_state": "equilibrated at 300 K",
+      "output_state": "equilibrated at 500/298/200/77 K",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. MD simulation details",
+          "quote": "the system at five temperatures are prepared by changing the temperature to 500 K, 298 K, 200 K, and 77 K with a temperature change rate of 0.2 × 10^12 K/s, followed by full relaxation at a constant temperature for 100 picoseconds.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "uniaxial tensile deformation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": "0 GPa in x and y directions",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension along Z-axis",
+        "strain_rate": "3×10^9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "equilibrated at 500/298/200/77 K",
+      "output_state": "deformed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. MD simulation details",
+          "quote": "stretching along the Z-axis at a strain rate of 3 × 10^9 s^−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "grain_sizes_nm": [
+            17.2,
+            15.0,
+            12.7,
+            9.3,
+            7.4,
+            5.9,
+            3.7
+          ],
+          "number_of_grains": 10,
+          "software": "LAMMPS"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-built (MD model) with varying grain sizes",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Grain size effect",
+          "quote": "Seven configurations are displayed in Fig. 3 (a) for grain size of 17.2, 15.0, 12.7, 9.3, 7.4, 5.9, and 3.7 nm.",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "uniaxial tensile deformation",
+      "parameters": {
+        "temperature_c": -196.15,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension",
+        "strain_rate": "3×10^9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-built (MD model) with varying grain sizes",
+      "output_state": "deformed at 77 K",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Grain size effect",
+          "quote": "A strain rate of 3 × 10^9 s^−1 and a temperature of 77 K were used during the tensile process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-built (MD model)",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental (MD)"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. MD simulation details",
+          "quote": "polycrystalline CoCrFeNi HEAs model in FCC phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental (MD)"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4. Discussion",
+          "quote": "the density of initial dislocations shows an upwards trend as the grain size decreases.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built (MD model)",
+      "property": "ultimate tensile strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": -196.15,
+        "strain_rate": "3×10^9 s^-1",
+        "loading_mode": "tension",
+        "orientation": "Z-axis",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MD simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Grain size effect",
+          "quote": "A strain rate of 3 × 10^9 s^−1 and a temperature of 77 K were used during the tensile process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built (MD model)",
+      "property": "Young's modulus",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": -196.15,
+        "strain_rate": "3×10^9 s^-1",
+        "loading_mode": "tension",
+        "orientation": "Z-axis",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MD simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2. Grain size effect",
+          "quote": "The ultimate tensile strength (UTS) and Young’s modulus were analyzed for polycrystalline CoCrFeNi HEAs at different average grain sizes in Fig. 4 (a) and Fig. 4 (b).",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Hall-Petch effect",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-built (MD model)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Grain size effect",
+          "quote": "when the grain size is larger than 12.7 nm, the material strength follows the Hall–Petch relationship that the strength decrease with an increase in grain size.",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "inverse Hall-Petch effect",
+      "category": "softening",
+      "sample_id": "sample_1",
+      "material_state": "as-built (MD model)",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Grain size effect",
+          "quote": "when the grain size is smaller than 12.7 nm, the material strength exhibits the inverse Hall–Petch relationship that the material strength increases with an increase in grain size.",
+          "table": null,
+          "figure": "Fig. 3c",
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "4. Discussion",
+          "quote": "the density of initial dislocations shows an upwards trend as the grain size decreases.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built (MD model)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. MD simulation details",
+          "quote": "polycrystalline CoCrFeNi HEAs model in FCC phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built (MD model)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Grain size effect",
+          "quote": "A strain rate of 3 × 10^9 s^−1 and a temperature of 77 K were used during the tensile process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built (MD model)",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2. Grain size effect",
+          "quote": "The ultimate tensile strength (UTS) and Young’s modulus were analyzed for polycrystalline CoCrFeNi HEAs at different average grain sizes in Fig. 4 (a) and Fig. 4 (b).",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built (MD model)",
+      "conditions": {
+        "grain_size_nm": ">12.7"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Grain size effect",
+          "quote": "when the grain size is larger than 12.7 nm, the material strength follows the Hall–Petch relationship that the strength decrease with an increase in grain size.",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built (MD model)",
+      "conditions": {
+        "grain_size_nm": "<12.7"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Grain size effect",
+          "quote": "when the grain size is smaller than 12.7 nm, the material strength exhibits the inverse Hall–Petch relationship that the material strength increases with an increase in grain size.",
+          "table": null,
+          "figure": "Fig. 3c",
+          "chunk_id": "950e49408f7e1e4e:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

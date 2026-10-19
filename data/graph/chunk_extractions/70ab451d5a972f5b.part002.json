@@ -1,0 +1,160 @@
+{
+  "document_id": "70ab451d5a972f5b",
+  "chunk_id": "70ab451d5a972f5b:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Selective Laser Melting and Remelting of Pure Tungsten",
+    "authors": [
+      "Xiong"
+    ],
+    "journal": "Advanced Engineering Materials",
+    "year": 2020,
+    "doi": "10.1002/adem.201901352"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "pure tungsten",
+      "material_category": "pure metal",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "densiﬁcation behavior. The reduction and increase in porosity",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "pure tungsten SLM sample without remelting",
+      "canonical_name": "W",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "W",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "fine-grain zone (FGZ)",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "near the centerline of the melt pool",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the chilled grains are less likely to grow and form the FGZ near the centerline of the melt pool.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "relative density",
+      "value": 98.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 0.5",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "Archimedes method"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "4. Conclusions",
+          "quote": "Pure tungsten parts with high relative density (98.4 /C6 0.5%) were obtained in the end.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "fluid flow in molten pool",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Therefore, the ﬂow of ﬂuids caused by remelting plays a decisive role in the formation of FGZ.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "FORMS",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Therefore, the ﬂow of ﬂuids caused by remelting plays a decisive role in the formation of FGZ.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "70ab451d5a972f5b:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

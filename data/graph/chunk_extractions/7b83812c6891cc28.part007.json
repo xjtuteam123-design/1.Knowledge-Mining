@@ -1,0 +1,931 @@
+{
+  "document_id": "7b83812c6891cc28",
+  "chunk_id": "7b83812c6891cc28:part:007",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Optimization of Cutting Parameters of Machinability Aspects During Dry Turning",
+    "authors": [
+      "Anurag Sharma",
+      "R. C. Singh",
+      "Ranganath M. Singari"
+    ],
+    "journal": "Lecture Notes in Mechanical Engineering",
+    "year": 2020,
+    "doi": "10.1007/978-981-15-1071-7_8"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "AISI D3 cold-work tool steel",
+      "material_category": "tool steel",
+      "evidence": [
+        {
+          "page": 87,
+          "section": "1 Introduction",
+          "quote": "High chromium tool steel alloy AISI D3 with HRC 60 is used in manufacturing blanking and forming dies, forming tools, press tools, punches, bushes and wear-resistant moulds.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "TiN-coated tungsten carbide cutting insert",
+      "material_category": "cemented carbide cutting tool material",
+      "evidence": [
+        {
+          "page": 89,
+          "section": "2.1 Workpiece and Cutting Inserts Material",
+          "quote": "Cutting inserts have been used in the shape of diamond of tungsten carbide coated with titanium nitride of thickness 4 mm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "AISI D3",
+      "canonical_name": "AISI D3",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-received",
+      "composition": [
+        {
+          "element": "C",
+          "value": 2.02,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Si",
+          "value": 0.259,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 0.43,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "S",
+          "value": 0.029,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "P",
+          "value": 0.02,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 11.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 0.074,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": 0.1,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 0.011,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 0.023,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 0.038,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 0.087,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 85.909,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 90,
+              "section": "Table 1 Chemical composition of AISID 3 steel",
+              "quote": "C Si Mn S P Cr Ni Mo Co Nb V W Fe\n2.02 0.259 0.430 0.029 0.020 11.00 0.074 <0.10 0.011 0.023 0.038 0.087 85.909",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 89,
+          "section": "2.1 Workpiece and Cutting Inserts Material",
+          "quote": "AISI D3 material has been used in the shape of circular bar of dimensions 28 mm (diameter) and 300 mm (length). The composition of material was according to the speciﬁed range of percentage of elements examined through chemical testing of a sample as shown in Table 1.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "DCMT11T308HQ grade PV 20 cutting insert",
+      "canonical_name": "TiN-coated tungsten carbide cutting insert",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "as-received",
+      "composition": [
+        {
+          "element": "C",
+          "value": 7.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 91,
+              "section": "Table 2 Chemical composition of cutting inserts",
+              "quote": "C Co Mn V Nb Ni W Mo Ti\n7.10 16.25 0.30 2.05 5.23 4.95 15.88 0.69 47.55",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 16.25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 91,
+              "section": "Table 2 Chemical composition of cutting inserts",
+              "quote": "C Co Mn V Nb Ni W Mo Ti\n7.10 16.25 0.30 2.05 5.23 4.95 15.88 0.69 47.55",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": 0.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 91,
+              "section": "Table 2 Chemical composition of cutting inserts",
+              "quote": "C Co Mn V Nb Ni W Mo Ti\n7.10 16.25 0.30 2.05 5.23 4.95 15.88 0.69 47.55",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": 2.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 91,
+              "section": "Table 2 Chemical composition of cutting inserts",
+              "quote": "C Co Mn V Nb Ni W Mo Ti\n7.10 16.25 0.30 2.05 5.23 4.95 15.88 0.69 47.55",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5.23,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 91,
+              "section": "Table 2 Chemical composition of cutting inserts",
+              "quote": "C Co Mn V Nb Ni W Mo Ti\n7.10 16.25 0.30 2.05 5.23 4.95 15.88 0.69 47.55",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 4.95,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 91,
+              "section": "Table 2 Chemical composition of cutting inserts",
+              "quote": "C Co Mn V Nb Ni W Mo Ti\n7.10 16.25 0.30 2.05 5.23 4.95 15.88 0.69 47.55",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 15.88,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 91,
+              "section": "Table 2 Chemical composition of cutting inserts",
+              "quote": "C Co Mn V Nb Ni W Mo Ti\n7.10 16.25 0.30 2.05 5.23 4.95 15.88 0.69 47.55",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.69,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 91,
+              "section": "Table 2 Chemical composition of cutting inserts",
+              "quote": "C Co Mn V Nb Ni W Mo Ti\n7.10 16.25 0.30 2.05 5.23 4.95 15.88 0.69 47.55",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 47.55,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 91,
+              "section": "Table 2 Chemical composition of cutting inserts",
+              "quote": "C Co Mn V Nb Ni W Mo Ti\n7.10 16.25 0.30 2.05 5.23 4.95 15.88 0.69 47.55",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "7b83812c6891cc28:part:007"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 89,
+          "section": "2.1 Workpiece and Cutting Inserts Material",
+          "quote": "Cutting inserts have been used in the shape of diamond of tungsten carbide coated with titanium nitride of thickness 4 mm, end relief angle 11°, front rake angle 0°, nose radius 8 mm of speciﬁcation as DCMT11T308HQ grade PV 20 with left-hand cutting tool holder of a square face of 12 mm and length 80 mm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "dry turning",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "dry (no coolant or cutting fluid)",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "cutting_speed_rpm": "289, 409, 639",
+          "feed_mm_per_rev": "0.05334, 0.08636, 0.13716",
+          "depth_of_cut_mm": "0.254, 0.381, 0.476"
+        }
+      },
+      "input_state": "as-received",
+      "output_state": "machined",
+      "evidence": [
+        {
+          "page": 89,
+          "section": "1 Introduction",
+          "quote": "Hard turning is designated in the category of turning materials with hardness in the range of 45–65 HRC and usually performed during dry condition without any application of coolant or cutting ﬂuid",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "continuous coiled long chip",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "continuous, long and coiled",
+        "location": "chip",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 87,
+          "section": "Abstract",
+          "quote": "The chips have been found continuous, long and coiled.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "property": "coefficient of friction",
+      "value": 0.3778,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "StDev 0.1155",
+      "unit": "dimensionless",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "dry",
+        "duration": null,
+        "test_method": "dry turning, L9 Taguchi design (9 runs)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 89,
+          "section": "3.1 Probability Analysis",
+          "quote": "Mean 0.3778\nStDev 0.1 1 55\nN9",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "property": "machining time",
+      "value": 132.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "StDev 69.44",
+      "unit": "s",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "dry",
+        "duration": null,
+        "test_method": "dry turning, L9 Taguchi design (9 runs)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 89,
+          "section": "3.1 Probability Analysis",
+          "quote": "Mean 1 32.1\nStDev 69.44\nN9",
+          "table": null,
+          "figure": "Fig. 2b",
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "property": "cutting temperature",
+      "value": 55.44,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "StDev 22.63",
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "dry",
+        "duration": null,
+        "test_method": "dry turning, L9 Taguchi design (9 runs)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 89,
+          "section": "3.1 Probability Analysis",
+          "quote": "Mean 55.44\nStDev 22.63\nN9",
+          "table": null,
+          "figure": "Fig. 2c",
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "property": "coefficient of friction",
+      "value": 0.21,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "dimensionless",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "dry",
+        "duration": null,
+        "test_method": "predicted from Taguchi S/N ratio at optimized parameters (speed 639 rpm, feed 0.13716 mm/rev, depth of cut 0.476 mm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 95,
+          "section": "3.3 Coefﬁcient of Friction",
+          "quote": "The predicted coefﬁcient of friction and S/N ratio has been obtained as 0.21 and 13.661, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "property": "machining time",
+      "value": 47.86,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "s",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "dry",
+        "duration": null,
+        "test_method": "predicted from Taguchi S/N ratio at optimized parameters (speed 639 rpm, feed 0.13716 mm/rev, depth of cut 0.381 mm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 96,
+          "section": "3.4 Machining Time",
+          "quote": "By using Eqs. ( 4) and (5), S/N ratio of predicted response machining time at optimized level is 1.6793 and predicted response value is 47.86 s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "property": "coefficient of friction",
+      "value": 0.25,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "dimensionless",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "dry",
+        "duration": null,
+        "test_method": "dry turning, run 3 (speed 289 rpm, feed 0.13716 mm/rev, depth of cut 0.476 mm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 93,
+          "section": "Table 5 Signal-to-noise ratios for investigated parameters",
+          "quote": "3 0.25 108.52 39 12.041 − 40.668 − 38.821",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "property": "machining time",
+      "value": 271.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "s",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "dry",
+        "duration": null,
+        "test_method": "dry turning, run 1 (speed 289 rpm, feed 0.05334 mm/rev, depth of cut 0.254 mm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 93,
+          "section": "Table 5 Signal-to-noise ratios for investigated parameters",
+          "quote": "1 0.60 271.10 28 4.437 − 48.662 − 28.943",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "property": "cutting temperature",
+      "value": 100,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "°C",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": "dry",
+        "duration": null,
+        "test_method": "dry turning, run 9 (speed 639 rpm, feed 0.13716 mm/rev, depth of cut 0.381 mm)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 93,
+          "section": "Table 5 Signal-to-noise ratios for investigated parameters",
+          "quote": "9 0.26 47.78 100 11.701 − 33.584 − 40.000",
+          "table": "Table 5",
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 89,
+          "section": "3.1 Probability Analysis",
+          "quote": "Each plot shows mean value of the response, standard deviation (StDev), the number of experiments (N), Anderson–Darling value (AD) and P-value",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 89,
+          "section": "3.1 Probability Analysis",
+          "quote": "Each plot shows mean value of the response, standard deviation (StDev), the number of experiments (N), Anderson–Darling value (AD) and P-value",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 89,
+          "section": "3.1 Probability Analysis",
+          "quote": "Each plot shows mean value of the response, standard deviation (StDev), the number of experiments (N), Anderson–Darling value (AD) and P-value",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "as-received",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 91,
+          "section": "Table 2 Chemical composition of cutting inserts",
+          "quote": "The sample of cutting tool insert was examined chemically for checking for the composition of percentage of elements as shown in Table 2.",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "microstructure_1",
+      "predicate": "CORRELATES_WITH",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "machined",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 95,
+          "section": "3.3 Coefﬁcient of Friction",
+          "quote": "The increasing coefﬁcient of friction during turning shows the corresponding increment of cutting forces and temperature at the interface of cutting insert and workpiece.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "7b83812c6891cc28:part:007"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

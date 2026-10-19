@@ -1,0 +1,593 @@
+{
+  "document_id": "71cfe21c75f7e525",
+  "chunk_id": "71cfe21c75f7e525:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Achieving high strength and ductility in chemically complex intermetallic alloys manufactured by laser powder bed fusion",
+    "authors": [],
+    "journal": "Virtual and Physical Prototyping",
+    "year": null,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Co-Fe-Al-Ti chemically complex intermetallic alloy",
+      "material_category": "intermetallic alloy",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "Figure 13 (a) illustrates the typical stress–strain curves and a comparison of the mechanical properties of Ni-Co-Fe–Al-Ti CCIMA at room temperature with various conventional intermetallic alloys.",
+          "table": null,
+          "figure": "13",
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "as-built Ni-Co-Fe-Al-Ti CCIMA",
+      "canonical_name": "Ni-Co-Fe-Al-Ti",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "Mechanical behaviour",
+          "quote": "The yield strength and ultimate tensile strength of the as-built sample are 1030.67 ± 13.00 MPa and 1426.80 ± 8.30 MPa, and the total elongation is 11.63 ± 0.68%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "HIP Ni-Co-Fe-Al-Ti CCIMA",
+      "canonical_name": "Ni-Co-Fe-Al-Ti",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "HIP",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "However, the HIP specimen not only has lower strength, but also lowers total elongation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "HIP+HT Ni-Co-Fe-Al-Ti CCIMA",
+      "canonical_name": "Ni-Co-Fe-Al-Ti",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "HIP+HT",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The yield strength, ultimate tensile strength and total elongation of HIP + HT samples are 855.36 ± 52.26 MPa, 1456.7 ± 67.11 MPa and 20.17 ± 1.98%, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "laser powder bed fusion (L-PBF)",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "due to the ultra-fast heating and cooling characteristics in the L-PBF process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "hot isostatic pressing (HIP)",
+      "parameters": {
+        "temperature_c": 1200,
+        "time": null,
+        "pressure": "100 MPa",
+        "atmosphere": null,
+        "cooling_method": "furnace cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-built",
+      "output_state": "HIP",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "pressure (100 MPa) and elevated temperature (1200℃)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 3,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "HIP",
+      "output_state": "HIP+HT",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "the HIP + HT specimen undergoes air-cooling, and thus, the relatively high cooling rate promotes the non-equilibrium segregation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "L12",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "Both the HIP and HIP + HT specimens exhibit the L12 matrix, minor B2 phase and FCC phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "B2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "cell boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": null,
+          "quote": "the B2 precipitates at the cell boundary",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_3",
+      "material_state": "HIP+HT",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundary",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "the grain boundary region witnesses the order-to-disorder transition and transforms to the disordered FCC phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "yield strength",
+      "value": 1030.67,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 13.0,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": "sample_3",
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The yield strength and ultimate tensile strength of the as-built sample are 1030.67 ± 13.00 MPa and 1426.80 ± 8.30 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate tensile strength",
+      "value": 1426.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 8.3,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": "sample_3",
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The yield strength and ultimate tensile strength of the as-built sample are 1030.67 ± 13.00 MPa and 1426.80 ± 8.30 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "total elongation",
+      "value": 11.63,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 0.68,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": "sample_3",
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "the total elongation is 11.63 ± 0.68%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_3",
+      "material_state": "HIP+HT",
+      "property": "yield strength",
+      "value": 855.36,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 52.26,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The yield strength, ultimate tensile strength and total elongation of HIP + HT samples are 855.36 ± 52.26 MPa, 1456.7 ± 67.11 MPa and 20.17 ± 1.98%, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_3",
+      "material_state": "HIP+HT",
+      "property": "ultimate tensile strength",
+      "value": 1456.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 67.11,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The yield strength, ultimate tensile strength and total elongation of HIP + HT samples are 855.36 ± 52.26 MPa, 1456.7 ± 67.11 MPa and 20.17 ± 1.98%, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_3",
+      "material_state": "HIP+HT",
+      "property": "total elongation",
+      "value": 20.17,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 1.98,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 10,
+          "section": null,
+          "quote": "The yield strength, ultimate tensile strength and total elongation of HIP + HT samples are 855.36 ± 52.26 MPa, 1456.7 ± 67.11 MPa and 20.17 ± 1.98%, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation cell strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "Owing to the formation of high-density dislocation cells, the as-built specimen demonstrates higher yield strength than HIP and HIP + HT specimens, reaching a yield strength of 1030.67 ± 13.00 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "grain boundary segregation-induced disordering",
+      "category": "microstructural",
+      "sample_id": "sample_3",
+      "material_state": "HIP+HT",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "stronger segregation of Fe and Co elements towards the grain boundary region significantly alters the local chemical environment at the grain boundaries, leading to the transformation from the L12 phase to the FCC phase and significantly reducing the ordering degree at the localised grain boundary region.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "the ultra-fast heating and cooling characteristics in the L-PBF process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "HIP",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "pressure (100 MPa) and elevated temperature (1200℃)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "process_3",
+      "predicate": "PRODUCES",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "HIP+HT",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "the HIP + HT specimen undergoes air-cooling, and thus, the relatively high cooling rate promotes the non-equilibrium segregation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "Owing to the formation of high-density dislocation cells, the as-built specimen demonstrates higher yield strength than HIP and HIP + HT specimens, reaching a yield strength of 1030.67 ± 13.00 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_6",
+      "sample_id": "sample_3",
+      "material_state": "HIP+HT",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "This improvement can be ascribed to the grain boundary order-to-disorder transition, which facilitates dislocation movement across adjacent grains and reduces stress concentration.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "71cfe21c75f7e525:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

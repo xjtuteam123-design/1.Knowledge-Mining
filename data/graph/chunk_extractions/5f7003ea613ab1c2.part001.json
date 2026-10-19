@@ -1,0 +1,450 @@
+{
+  "document_id": "5f7003ea613ab1c2",
+  "chunk_id": "5f7003ea613ab1c2:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Design of refractory multi-principal-element alloys for high-temperature applications",
+    "authors": [
+      "Gaoyuan Ouyang",
+      "Prashant Singh",
+      "Ranran Su",
+      "Duane D. Johnson",
+      "Matthew J. Kramer",
+      "John H. Perepezko",
+      "Oleg N. Senkov",
+      "Daniel Miracle",
+      "Jun Cui"
+    ],
+    "journal": "npj Computational Materials",
+    "year": 2023,
+    "doi": "10.1038/s41524-023-01095-4"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "refractory multi-principal-element alloy (RMPEA)",
+      "material_category": "refractory multi-principal-element alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Article title/abstract",
+          "quote": "Refractory multi-principal-element alloys (RMPEAs) exhibit high specific strength at elevated temperatures (T).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Mo-W-Ta-Ti-Zr alloy",
+      "material_category": "refractory multi-principal-element alloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Results and Discussion",
+          "quote": "For the five-element MoWTaTiZr system, we directly evaluated 8000 compositions using KKR-CPA with Mo, W, and Ta varied at 5 at.% intervals and with Ti:Zr ratio fixed at 1:1",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "AL-A3",
+      "canonical_name": "Mo95W5)85Ta10(TiZr)5",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": null,
+              "section": "Table 1",
+              "quote": "ALA3 80.8 4.3 10 2.5 2.5 0 0",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "5f7003ea613ab1c2:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Table 1",
+          "quote": "ALA3 80.8 4.3 10 2.5 2.5 0 0",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "type": "combinatorial arc melting"
+        }
+      },
+      "input_state": "elemental metals",
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Rapid sample preparation and verification",
+          "quote": "Small samples (1.5 g each) were prepared using a combinatorial arc melting system capable of making 32 samples in one run.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "A2 (bcc)",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Rapid sample preparation and verification",
+          "quote": "The as-cast samples (quench rate ~10^3 °C/s) are all nearly a single solid solution A2 (bcc) phase based on X-ray diffraction analysis (Fig. 4a–d).",
+          "table": null,
+          "figure": "Fig. 4a–d",
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 820,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "compression test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Mechanical properties by compression test",
+          "quote": "The yield strength σ0.2 and compressive strain before fracture for AL-A3, A6, and A8 are (820 MPa, 10.0%), (760 MPa, 9.2%), and (750 MPa, 7.8%), respectively (Fig. 6).",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "compressive strain at fracture",
+      "value": 10.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "compression test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Mechanical properties by compression test",
+          "quote": "The yield strength σ0.2 and compressive strain before fracture for AL-A3, A6, and A8 are (820 MPa, 10.0%), (760 MPa, 9.2%), and (750 MPa, 7.8%), respectively (Fig. 6).",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "small punch yield strength",
+      "value": 150,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1300,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "small punch test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Tensile and creep properties by small punch test",
+          "quote": "Our SPT results show that the yield points for as-cast AL-A3, A6, and A8 are 150, 240, and 193 MPa at 1300 °C, respectively (Fig. 7).",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Mechanical properties by compression test",
+          "quote": "AL-A3, A6, and A8 have larger atomic size differences (δ = 2.64, 2.62, and 3.22, respectively) than MoNbTaW (δ = 2.28), which may boost yield strength due to increased solute-induced stress",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Rapid sample preparation and verification",
+          "quote": "The as-cast samples (quench rate ~10^3 °C/s) are all nearly a single solid solution A2 (bcc) phase based on X-ray diffraction analysis (Fig. 4a–d).",
+          "table": null,
+          "figure": "Fig. 4a–d",
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Standard size sample preparation and characterization",
+          "quote": "The as-cast AL-A3, A6, and A8 exhibit dendritic structures typical for arc-melted RMPEA due to constitutional segregation during solidification",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Mechanical properties by compression test",
+          "quote": "The yield strength σ0.2 and compressive strain before fracture for AL-A3, A6, and A8 are (820 MPa, 10.0%), (760 MPa, 9.2%), and (750 MPa, 7.8%), respectively (Fig. 6).",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Mechanical properties by compression test",
+          "quote": "The yield strength σ0.2 and compressive strain before fracture for AL-A3, A6, and A8 are (820 MPa, 10.0%), (760 MPa, 9.2%), and (750 MPa, 7.8%), respectively (Fig. 6).",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Tensile and creep properties by small punch test",
+          "quote": "Our SPT results show that the yield points for as-cast AL-A3, A6, and A8 are 150, 240, and 193 MPa at 1300 °C, respectively (Fig. 7).",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "5f7003ea613ab1c2:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    {
+      "term": "AL-A6",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "AL-A8",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALB5",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALC5",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALD5",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALA6",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALB6",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALC6",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALD6",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALA8",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALB8",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALC8",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "ALD8",
+      "reason": "Opaque author code; composition not fully resolved in text."
+    },
+    {
+      "term": "MoNbTaW",
+      "reason": "Reference alloy; not the primary subject of this paper."
+    },
+    {
+      "term": "MoNbTaVW",
+      "reason": "Reference alloy; not the primary subject of this paper."
+    },
+    {
+      "term": "TZM",
+      "reason": "Reference alloy; not the primary subject of this paper."
+    },
+    {
+      "term": "Haynes 282",
+      "reason": "Reference alloy; not the primary subject of this paper."
+    }
+  ],
+  "conflicts": []
+}

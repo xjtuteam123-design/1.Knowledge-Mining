@@ -1,0 +1,119 @@
+{
+  "document_id": "eb055049b9667168",
+  "chunk_id": "eb055049b9667168:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Computational design of precipitation strengthened austenitic heat-resistant steels",
+    "authors": [
+      "Qi Lu",
+      "Wei Xu",
+      "Sybrand van der Zwaag"
+    ],
+    "journal": "Philosophical Magazine",
+    "year": 2013,
+    "doi": "10.1080/14786435.2013.809493"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "austenitic heat-resistant steel",
+      "material_category": "steel",
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "A new genetic alloy design approach based on thermodynamic and kinetic principles is presented to calculate the optimal composition of MX carbonitrides precipitation strengthened austenitic heat-resistant steels.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "eb055049b9667168:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "coarsening",
+      "category": "microstructural degradation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2.2",
+          "quote": "The main cause for strength loss at high temperatures for precipitation-strengthened austenitic steels is the coarsening of the precipitates [45,49].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "eb055049b9667168:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation by-pass",
+      "category": "strengthening mechanism",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.3.1",
+          "quote": "When the number and size of precipitate particles increase, it becomes increasingly difficult for a dislocation to shear the precipitate. Instead, the dislocation will bow around them and leave dislocation loops, which is called the by-pass mechanism.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "eb055049b9667168:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "precipitation strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.3.1",
+          "quote": "For heat-resistant alloys, the temperature and service time are usually high and long. Then, the by-pass mechanism is the most relevant and its contribution can be estimated as [52]:",
+          "table": null,
+          "figure": null,
+          "chunk_id": "eb055049b9667168:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "mechanism_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "2.3.1",
+          "quote": "In conclusion, in our design of precipitation-strengthened austenitic oxidation-resistant high-temperature steels, the precipitation strengthening contribution, being inversely proportional to the time and temperature dependent inter-particle spacing, is taken as the sole optimization parameter in the alloy composition search.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "eb055049b9667168:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

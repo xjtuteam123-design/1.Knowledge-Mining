@@ -1,0 +1,820 @@
+{
+  "document_id": "13c34173d91e2f73",
+  "chunk_id": "13c34173d91e2f73:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "A.R. Khoei"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2021,
+    "doi": "10.1016/j.msea.2021.140977"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2",
+          "quote": "In the MD simulation, Ni-based superalloy models are simplified in which the elements and compositions with a low fraction in the real material, such as W or Co, are not considered.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Model 1",
+      "canonical_name": "Ni3Al precipitate in Ni matrix",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated",
+      "composition": [
+        {
+          "element": "Ni3Al",
+          "value": 70,
+          "min_value": null,
+          "max_value": null,
+          "unit": "vol%",
+          "role": "nominal",
+          "applies_to": "γ′ precipitate, simplified pure Ni3Al",
+          "evidence": [
+            {
+              "page": 6,
+              "section": "4",
+              "quote": "it is assumed that the γ and γ′ phases consist of pure Ni and pure Ni3Al, respectively",
+              "table": null,
+              "figure": null,
+              "chunk_id": "13c34173d91e2f73:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "γ matrix, simplified pure Ni",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 1",
+          "quote": "Model 1 (001) 406224 8 × aγ 66 × aγ′ 2 × aγ′",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Model 2",
+      "canonical_name": "Ni3Al precipitate in Ni matrix",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 1",
+          "quote": "2 (011) 812448 8√2 × aγ 66√2 × aγ′ 2 × aγ′",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Model 3",
+      "canonical_name": "Ni3Al precipitate in Ni matrix",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 1",
+          "quote": "3 (111) 741424 x:6√6 × aγ x:46√6 × aγ′ √2 × aγ′ y:8√3 × aγ y:66√3 × aγ′",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "energy minimization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "algorithm": "conjugate gradient (CG)"
+        }
+      },
+      "input_state": "constructed simulation box",
+      "output_state": "energy-minimized",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "after performing an energy minimization for each system using the conjugate gradient (CG) method, the atoms are relaxed in two steps, each taking 60 ps with a constant time step of 3 fs",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "NVT relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "60 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "thermostat": "Nose-Hoover",
+          "temperature_damping": "10 × time step",
+          "time_step": "3 fs"
+        }
+      },
+      "input_state": "energy-minimized",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "The first relaxation is carried out by applying a Nose-Hoover thermostat through the NVT ensemble with the temperature damping parameter of 10 times the time step.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "NPT relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "60 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "barostat": "Nose-Hoover",
+          "stress_damping": "1000 × time step",
+          "time_step": "3 fs"
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "stress-free minimum-energy state",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "the second relaxation includes applying a Nose-Hoover barostat through the NPT ensemble with the stress damping parameter of 1000 times the time step",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "uniaxial tensile loading",
+      "parameters": {
+        "temperature_c": null,
+        "time": "700 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "loading_direction": "y",
+          "stress_range": "0.5–5.0 GPa",
+          "stress_increment": "0.5 GPa",
+          "ensemble": "NPT",
+          "stress_ramp_time": "30 ps",
+          "hold_time": "670 ps"
+        }
+      },
+      "input_state": "stress-free minimum-energy state",
+      "output_state": "crept/deformed",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "10 different uniaxial tensile stresses are applied to the simulation box in the y direction. The considered sequence of stresses ranges from 0.5 to 5.0 GPa with a common difference of 0.5 GPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ matrix",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "pure Ni",
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "4",
+          "quote": "it is assumed that the γ and γ′ phases consist of pure Ni and pure Ni3Al, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′ precipitate",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": "~70 vol%",
+        "size": "66 × aγ′",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": "pure Ni3Al",
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "To create a unit cell that consists of nearly 70% of γ′ phase, a cuboidal simulation box is created with the side lengths of 75 × aγ in the xy plane",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "N-type raft",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "long precipitates (rafts) with normal-orientation to stress",
+        "location": "horizontal channels",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2",
+          "quote": "This leads to the appearance of long precipitates termed as rafts. The direction of the rafts with respect to the stress can be either normal or parallel, which defines N-type and P-type rafting",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "misfit dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "network",
+        "location": "γ/γ′ interface",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "4",
+          "quote": "the difference in lattice parameters of pure γ and γ′ phases results in misfit strain, which can be relieved by the development of misfit dislocation networks at the interfaces between the two phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "γ channel",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "8 × aγ",
+        "morphology": null,
+        "location": "between γ′ precipitates",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "Therefore, the γ channel width is 8 times aγ.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation pile-up in γ channels",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2",
+          "quote": "Since the dislocations at the interface cannot shear the γ′ precipitates, the dislocations pile-up in the channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "cross-slip",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2",
+          "quote": "When enough stress and temperature has been added to a screw dislocation, it achieves the ability to change the glide plane and cross slip onto other adjacent planes, over a γ′ particle.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation climb",
+      "category": "diffusion-mediated mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2",
+          "quote": "the diffusion-mediated climb allows the trapped dislocations to bypass the γ′ precipitates at high temperatures. Dislocation climb is an alternative mechanism of dislocation motion that allows an edge dislocation to move perpendicular to its slip plane.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "dislocation shearing of γ′ precipitates",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "5.1",
+          "quote": "Provided that sufficient stress is applied to the model to overcome the high APB energy and the CRSS, the a/2<110>(111) dislocations are activated, which shear the γ′ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "rafting",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2",
+          "quote": "Rafting is the directional coarsening of the γ′ precipitates attributed to the directional diffusion of alloying elements.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_6",
+      "name": "creep cavitation",
+      "category": "damage mechanism",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2",
+          "quote": "due to high stress concentrations at the interface and elevated temperature, pores appear and turn into cavitation sites.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 1",
+          "quote": "Model 1 (001) 406224 8 × aγ 66 × aγ′ 2 × aγ′",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 1",
+          "quote": "2 (011) 812448",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Table 1",
+          "quote": "3 (111) 741424",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "after performing an energy minimization for each system using the conjugate gradient (CG) method",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "The first relaxation is carried out by applying a Nose-Hoover thermostat through the NVT ensemble",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "the second relaxation includes applying a Nose-Hoover barostat through the NPT ensemble",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "10 different uniaxial tensile stresses are applied to the simulation box in the y direction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "4",
+          "quote": "it is assumed that the γ and γ′ phases consist of pure Ni and pure Ni3Al",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "To create a unit cell that consists of nearly 70% of γ′ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "mechanism_5",
+      "predicate": "FORMS",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2",
+          "quote": "This leads to the appearance of long precipitates termed as rafts.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "4",
+          "quote": "relieved by the development of misfit dislocation networks at the interfaces between the two phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4",
+          "quote": "Therefore, the γ channel width is 8 times aγ.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2",
+          "quote": "Since the dislocations at the interface cannot shear the γ′ precipitates, the dislocations pile-up in the channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "mechanism_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "5.1",
+          "quote": "This model activates the greatest number of slip systems. Provided that sufficient stress is applied to the model to overcome the high APB energy and the CRSS, the a/2<110>(111) dislocations are activated, which shear the γ′ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "mechanism_5",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_6",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "2",
+          "quote": "due to high stress concentrations at the interface and elevated temperature, pores appear and turn into cavitation sites",
+          "table": null,
+          "figure": null,
+          "chunk_id": "13c34173d91e2f73:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,1538 @@
+{
+  "document_id": "1be66c91189b855b",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A multi-scale study for detwinning in nanotwinned Ni-Cr and Ni-Fe alloys",
+    "authors": [
+      "Yixi Shen",
+      "Irene J. Beyerlein"
+    ],
+    "journal": "Journal of Materials Research",
+    "year": 2025,
+    "doi": "10.1557/s43578-025-01704-6"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Cr alloy",
+      "material_category": "FCC binary Ni-based alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "we combined molecular dynamics (MD) simulations with a recently developed anisotropic multi-phase phase field model to investigate NT stability in two Ni-based binary alloys: Ni–Cr and Ni–Fe.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        },
+        {
+          "page": "8",
+          "section": "Conclusions",
+          "quote": "The molecular dynamics (MD) results show distinctly contrasting roles for alloying elements Cr and Fe in Ni: Cr significantly reduces the stacking fault and incoherent twin boundary (ITB) energies, promoting NT formation, whereas Fe has an opposite effect, potentially limiting NT formation and mobility.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-Fe alloy",
+      "material_category": "FCC binary Ni-based alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "we combined molecular dynamics (MD) simulations with a recently developed anisotropic multi-phase phase field model to investigate NT stability in two Ni-based binary alloys: Ni–Cr and Ni–Fe.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        },
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "Our results show that FCC Ni–Fe exhibits substantially lower ITB mobility than Ni–Cr at the same temperature and concentration, suggesting that, if NTs could be synthesized in Ni–Fe, they would be much more thermally stable than in Ni–Cr.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "pure Ni",
+      "canonical_name": "Ni",
+      "alloy_system_id": null,
+      "material_state": "model",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Results",
+              "quote": "as a function of Ni concentration, ranging from 70 to 100% (pure Ni).",
+              "table": null,
+              "figure": "Figure 1",
+              "chunk_id": "1be66c91189b855b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "The solid black star in panel (a) represents the /Sigma13{112} ITB energy calculated in pure Ni.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Ni70Fe",
+      "canonical_name": "Ni70Fe",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "model",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 70,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Results",
+              "quote": "climbing from about 1033 mJ/m 2 for pure Ni to about 1180 mJ/m 2 in Ni70Fe",
+              "table": null,
+              "figure": "Figure 1",
+              "chunk_id": "1be66c91189b855b:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Results",
+              "quote": "climbing from about 1033 mJ/m 2 for pure Ni to about 1180 mJ/m 2 in Ni70Fe",
+              "table": null,
+              "figure": "Figure 1",
+              "chunk_id": "1be66c91189b855b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results",
+          "quote": "In contrast, the ITB in Ni70 Fe does not migrate until about 1300 K (about 0.78 Tm ).",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Ni70Cr",
+      "canonical_name": "Ni70Cr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "model",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 70,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Results",
+              "quote": "obtained from MD simulations in Ni70 Cr and Ni70Fe",
+              "table": null,
+              "figure": "Figure 2",
+              "chunk_id": "1be66c91189b855b:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 30,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "Introduction",
+              "quote": "Increasing the Cr content to 30% reduces the ITB energy by approximately 15% compared to pure Ni.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1be66c91189b855b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results",
+          "quote": "One significant difference in ITB behavior between Ni70 Cr and Ni70 Fe is the onset temperature for measurable ITB migration.",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "Ni80Cr",
+      "canonical_name": "Ni80Cr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "model",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 80,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "6",
+              "section": "Discussion",
+              "quote": "An unusually high ITB energy is observed in Ni80Cr, deviating from the expected composition dependence.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1be66c91189b855b:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 20,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "6",
+              "section": "Discussion",
+              "quote": "An unusually high ITB energy is observed in Ni80Cr, deviating from the expected composition dependence.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1be66c91189b855b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Discussion",
+          "quote": "An unusually high ITB energy is observed in Ni80Cr, deviating from the expected composition dependence.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "Ni90Cr",
+      "canonical_name": "Ni90Cr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "model",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 90,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "6",
+              "section": "Discussion",
+              "quote": "consistent with the higher SFE at lower Cr concentration (like Ni90Cr) and lower SFE at higher Cr concentrations ( Ni70Cr)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1be66c91189b855b:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "6",
+              "section": "Discussion",
+              "quote": "consistent with the higher SFE at lower Cr concentration (like Ni90Cr) and lower SFE at higher Cr concentrations ( Ni70Cr)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1be66c91189b855b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Discussion",
+          "quote": "consistent with the higher SFE at lower Cr concentration (like Ni90Cr) and lower SFE at higher Cr concentrations ( Ni70Cr)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "pure Cu",
+      "canonical_name": "Cu",
+      "alloy_system_id": null,
+      "material_state": "as-simulated",
+      "composition": [
+        {
+          "element": "Cu",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": "Detwinning behavior in Ni‑Cr binary",
+              "quote": "For NT s with the same thickness (like 5 nm), NT migration in pure Cu occurs at temperatures below 400 K, with velocities exceeding 6 m/s at 400 K [24], whereas NTs in Ni70 Cr remain stationary until 600 K and exhibit a migration velocity of only 1.7 m/s.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "1be66c91189b855b:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "For NT s with the same thickness (like 5 nm), NT migration in pure Cu occurs at temperatures below 400 K, with velocities exceeding 6 m/s at 400 K [24], whereas NTs in Ni70 Cr remain stationary until 600 K and exhibit a migration velocity of only 1.7 m/s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range": "800-1400 K",
+          "temperature_increment": "100 K",
+          "driving_force": "0.025 eV/atom",
+          "ensemble": "NPT"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-simulated",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "Atomistic simulation /Sigma13{112} incoherent twin boundary energy and mobility",
+          "quote": "To investigate the temperature dependence of ITB migration, we consider moderate temperatures ranging from 800 to 1400 K in increments of 100 K, corresponding to approximately 0.5 to 0.85 of the homologous temperature in the Ni-based binary alloys considered here.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_3",
+      "sequence": 2,
+      "method": "phase field simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-simulated",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "With temperature-dependent mobility informed by MD simulation, PF modeling is employed here to study the roles of annealing temperature and NT thickness on migration of NTs.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_6",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-simulated",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "In previous work [24], this PF model was validated by comparing NT migration velocities in pure Cu calculated by MD and the PF model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Microstructure",
+      "name": "nanotwin",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "5 nm, 10 nm, 15 nm thickness",
+        "morphology": null,
+        "location": "within grain, bounded by GBs",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results",
+          "quote": "These three nanotwins have the same length along the x-axis but different thicknesses of 5 nm, 10 nm, and 15 nm.",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Microstructure",
+      "name": "incoherent twin boundary",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "nanotwin/grain boundary junction",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Once detached, an ITB is exposed, which then proceeds to migrate, removing the twin domain.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Microstructure",
+      "name": "coherent twin boundary",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "including the intrinsic SFE ( γiSFE ), ITB energy ( σITB ), and CTB ( σCTB ) for Ni-based alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Conclusions",
+          "quote": "First, MD calculations are used to quantify three key defect properties: the 0 K stacking fault energy (SFE), the energy of /Sigma13[112] incoherent twin boundaries (ITBs), and the temperature-dependent ITB mobility as a function of alloy type and its concentration.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "nanotwin",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "attributes": {
+        "size": "5 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "For NT s with the same thickness (like 5 nm), NT migration in pure Cu occurs at temperatures below 400 K, with velocities exceeding 6 m/s at 400 K [24], whereas NTs in Ni70 Cr remain stationary until 600 K and exhibit a migration velocity of only 1.7 m/s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "property": "incoherent twin boundary migration velocity",
+      "value": 170,
+      "min_value": null,
+      "max_value": null,
+      "unit": "m/s",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results",
+          "quote": "immobile up to about 600 K and then the velocity rises to about 170 m/s",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "property": "coherent twin boundary energy",
+      "value": 0.11,
+      "min_value": null,
+      "max_value": null,
+      "unit": "J/m2",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "σCTB 0.11J/m 2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "property": "incoherent twin boundary energy",
+      "value": 0.85,
+      "min_value": null,
+      "max_value": null,
+      "unit": "J/m2",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "σITB 0.85J/m 2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "property": "incoherent twin boundary mobility pre-exponent",
+      "value": 1.374e-07,
+      "min_value": null,
+      "max_value": null,
+      "unit": "m4/(J*s)",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "M 0_ITB 1.374 × 10 − 7 m 4 /(J ·s)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "property": "incoherent twin boundary migration activation energy",
+      "value": 0.116,
+      "min_value": null,
+      "max_value": null,
+      "unit": "eV",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "Q ITB 0.116eV",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "model",
+      "property": "incoherent twin boundary energy",
+      "value": 861.9,
+      "min_value": null,
+      "max_value": null,
+      "unit": "mJ/m2",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "The value calculated here is approximately 861.9 mJ/m 2 , which is in close agreement with the result reported by Olmsted et al.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "model",
+      "property": "intrinsic stacking fault energy",
+      "value": 110,
+      "min_value": null,
+      "max_value": null,
+      "unit": "mJ/m2",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_3",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "in Ni–Fe, the SFE increases from about 90 mJ/m 2 at 70 at.% Ni to about 110 mJ/m 2 at 90 at. % Ni",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "property": "intrinsic stacking fault energy",
+      "value": 30,
+      "min_value": null,
+      "max_value": null,
+      "unit": "mJ/m2",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "The Ni–Cr alloys exhibit a similar trend but build from a much lower baseline ( ≈ 30 mJ/m 2 at 70 at.% Ni)",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_4",
+      "material_state": "model",
+      "property": "incoherent twin boundary energy",
+      "value": 980,
+      "min_value": null,
+      "max_value": null,
+      "unit": "mJ/m2",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "However in Ni-Cr, the ITB energy reaches a modest maximum at 80 at. % Ni (980 mJ/m 2 )",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_2",
+      "material_state": "model",
+      "property": "incoherent twin boundary energy",
+      "value": 1180,
+      "min_value": null,
+      "max_value": null,
+      "unit": "mJ/m2",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "climbing from about 1033 mJ/m 2 for pure Ni to about 1180 mJ/m 2 in Ni70Fe",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_5",
+      "material_state": "model",
+      "property": "incoherent twin boundary energy",
+      "value": 850,
+      "min_value": null,
+      "max_value": null,
+      "unit": "mJ/m2",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "then decreases to about 850 mJ/m 2 at 70 at.% Ni",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "property": "ITB migration velocity",
+      "value": 1.7,
+      "min_value": null,
+      "max_value": null,
+      "unit": "m/s",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MD simulation"
+      },
+      "comparison_sample_id": "sample_6",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "For NT s with the same thickness (like 5 nm), NT migration in pure Cu occurs at temperatures below 400 K, with velocities exceeding 6 m/s at 400 K [24], whereas NTs in Ni70 Cr remain stationary until 600 K and exhibit a migration velocity of only 1.7 m/s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_6",
+      "material_state": "as-simulated",
+      "property": "ITB migration velocity",
+      "value": null,
+      "min_value": 6,
+      "max_value": null,
+      "unit": "m/s",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": 127,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MD simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "For NT s with the same thickness (like 5 nm), NT migration in pure Cu occurs at temperatures below 400 K, with velocities exceeding 6 m/s at 400 K [24], whereas NTs in Ni70 Cr remain stationary until 600 K and exhibit a migration velocity of only 1.7 m/s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "incoherent twin boundary migration",
+      "category": "diffusionless boundary migration",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "Detwinning typically occurs via the nucleation and migration of incoherent twin boundaries (ITBs), which are the /Sigma13{112} boundaries of the twin domain",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Arrhenius-type thermally activated migration",
+      "category": "thermal activation",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "ITB mobility exhibits Arrhenius behavior within the studied temperature range.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "nanotwin/grain boundary detachment",
+      "category": "detwinning",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "A critical initial step in detwinning is NT/GB detachment. Once detached, an ITB is exposed, which then proceeds to migrate, removing the twin domain.",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "detwinning",
+      "category": "microstructural evolution",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Conclusions",
+          "quote": "Additionally, PF simulations reveal that narrower NTs and lower GB energies both facilitate the detwinning process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "curvature-driven migration",
+      "category": "boundary migration",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "The size dependence reported here is primarily governed by curvature-driven migration. In general, the driving force for boundary motion is proportional to the product of boundary energy and boundary curvature, F ∼ σκ , where κ is the curvature of the boundary.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Introduction",
+          "quote": "Detwinning typically occurs via the nucleation and migration of incoherent twin boundaries (ITBs)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results",
+          "quote": "immobile up to about 600 K and then the velocity rises to about 170 m/s",
+          "table": null,
+          "figure": "Figure 2",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_3",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Results",
+          "quote": "Once detached, an ITB is exposed, which then proceeds to migrate, removing the twin domain.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "phase_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results",
+          "quote": "A near linear relationship between annealing temperature and migration velocity v can be seen.",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_1",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results",
+          "quote": "These three nanotwins have the same length along the x-axis but different thicknesses of 5 nm, 10 nm, and 15 nm.",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "in Ni–Fe, the SFE increases from about 90 mJ/m 2 at 70 at.% Ni to about 110 mJ/m 2 at 90 at. % Ni",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "The Ni–Cr alloys exhibit a similar trend but build from a much lower baseline ( ≈ 30 mJ/m 2 at 70 at.% Ni)",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_9",
+      "sample_id": "sample_4",
+      "material_state": "model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "the ITB energy reaches a modest maximum at 80 at. % Ni (980 mJ/m 2 )",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "The value calculated here is approximately 861.9 mJ/m 2",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Results",
+          "quote": "σITB 0.85J/m 2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "Additionally, PF simulations presented in this work show an increase in NT migration velocity with rising temperatures in Ni70Cr.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "9",
+          "section": "Atomistic simulation /Sigma13{112} incoherent twin boundary energy and mobility",
+          "quote": "To investigate the temperature dependence of ITB migration, we consider moderate temperatures ranging from 800 to 1400 K in increments of 100 K, corresponding to approximately 0.5 to 0.85 of the homologous temperature in the Ni-based binary alloys considered here.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "With temperature-dependent mobility informed by MD simulation, PF modeling is employed here to study the roles of annealing temperature and NT thickness on migration of NTs.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_6",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_6",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "In previous work [24], this PF model was validated by comparing NT migration velocities in pure Cu calculated by MD and the PF model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Conclusions",
+          "quote": "First, MD calculations are used to quantify three key defect properties: the 0 K stacking fault energy (SFE), the energy of /Sigma13[112] incoherent twin boundaries (ITBs), and the temperature-dependent ITB mobility as a function of alloy type and its concentration.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "For NT s with the same thickness (like 5 nm), NT migration in pure Cu occurs at temperatures below 400 K, with velocities exceeding 6 m/s at 400 K [24], whereas NTs in Ni70 Cr remain stationary until 600 K and exhibit a migration velocity of only 1.7 m/s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_3",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_12",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "For NT s with the same thickness (like 5 nm), NT migration in pure Cu occurs at temperatures below 400 K, with velocities exceeding 6 m/s at 400 K [24], whereas NTs in Ni70 Cr remain stationary until 600 K and exhibit a migration velocity of only 1.7 m/s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_6",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_13",
+      "sample_id": "sample_6",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "For NT s with the same thickness (like 5 nm), NT migration in pure Cu occurs at temperatures below 400 K, with velocities exceeding 6 m/s at 400 K [24], whereas NTs in Ni70 Cr remain stationary until 600 K and exhibit a migration velocity of only 1.7 m/s.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Conclusions",
+          "quote": "Additionally, PF simulations reveal that narrower NTs and lower GB energies both facilitate the detwinning process.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_5",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Detwinning behavior in Ni‑Cr binary",
+          "quote": "The size dependence reported here is primarily governed by curvature-driven migration. In general, the driving force for boundary motion is proportional to the product of boundary energy and boundary curvature, F ∼ σκ , where κ is the curvature of the boundary.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "mechanism_4",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "observation_12",
+      "sample_id": "sample_3",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Conclusions",
+          "quote": "The findings of this work suggest that there might be a trade-off between achieving thermal stability and enhancing strength or radiation resistance in nanotwinned alloys. Finer NTs increase strength and radiation resistance by introducing a higher density of CTBs [5, 9, 11], yet this refinement reduces thermal stability because narrower NTs migrate more readily [20, 27].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "1be66c91189b855b:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

@@ -1,0 +1,1567 @@
+{
+  "document_id": "ab5046a8580862a8",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Microstructure evolution under [110] creep in Ni-base superalloys",
+    "authors": [
+      "M. Cottura",
+      "B. Appolaire",
+      "A. Finel",
+      "Y. Le Bouar"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2021,
+    "doi": "10.1016/j.actamat.2021.116851"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Microstructure evolutions in Ni-base superalloys are investigated during [110] creep loading using 3D and 2D phase ﬁeld simulations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        },
+        {
+          "page": 6,
+          "section": "3.2",
+          "quote": "2D rafting of Ni-base superalloys during creep",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:002"
+        },
+        {
+          "page": 11,
+          "section": null,
+          "quote": "In the case of Ni-base superalloys the precipitate and matrix have the same cubic symmetry",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "part1_sample_1",
+      "original_name": "AM1 superalloy",
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "cuboidal microstructure",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3.1 Physical properties and phase field parameters",
+          "quote": "The physical properties and elastic constants used in the subsequent calculations are reported in Table 1 . The inhomogeneous and anisotropic elastic constants have been retrieved from [45] , where it has been shown that a large inhomogeneity of the shear modulus C ′ = (C 11 − C 12 ) / 2 is required to generate well-aligned cuboidal precipitates with aspect ratios close to the experimental observations of the AM1 superalloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_sample_2",
+      "original_name": "SRR99",
+      "canonical_name": "SRR99",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Kuttner et al. [5] re- ported that, for a SRR99 superalloy under [011] tensile creep, the cubic morphology is maintained at 1033 K whereas a rod morphology perpendicular to the applied load is observed at 1173 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_sample_3",
+      "original_name": "Udimet-700",
+      "canonical_name": "Udimet-700",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "in agreement with Tien and Copley for the Udimet-700 [2] .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_sample_4",
+      "original_name": "LEK 94",
+      "canonical_name": "LEK 94",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "In the case of the LEK 94 su- peralloy at 1293 K, a microstructure also made of rafts is ob- served but in two 45 ◦ directions in Agudo Jacome et al. [12] .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_1",
+      "original_name": "model superalloy",
+      "canonical_name": "Ni-base superalloy (model)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "the alloy is aged during 4.2 h at 950 ◦C under stress-free conditions using the elastic phase field model parametrized with the material parameters listed in Table 1 .",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "part1_process_1",
+      "sample_id": null,
+      "sequence": 1,
+      "method": "phase field simulation",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "9 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "loading": "stress-free",
+          "box_size": "3.4^3 μm^3",
+          "discretization": "512^3 nodes, d = 6.7 nm",
+          "boundary_conditions": "periodic",
+          "model_type": "purely elastic 3D"
+        }
+      },
+      "input_state": null,
+      "output_state": "cuboidal microstructure",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.1 3D cuboidal microstructure",
+          "quote": "Using the phase ﬁeld model presented in Section 2 , we ﬁrst perform a purely elastic 3D simulation in stress-free conditions to obtain a cuboidal microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        },
+        {
+          "page": 4,
+          "section": "3.1.1 3D cuboidal microstructure",
+          "quote": "The simulation box size is 3.4 3 μm 3 , discretized with 512 3 nodes ( d = 6 . 7 nm) with periodic boundary conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        },
+        {
+          "page": 4,
+          "section": "3.1.1 3D cuboidal microstructure",
+          "quote": "The microstructure obtained at T = 950 ◦C after t = 9 h is pre- sented in Fig. 1 -a.",
+          "table": null,
+          "figure": "Fig. 1-a",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_2",
+      "sample_id": null,
+      "sequence": 2,
+      "method": "creep simulation",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "25.5 min",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_stress": "150 MPa uniaxial tensile",
+          "loading_direction": "[110]",
+          "model_type": "full elasto-viscoplastic phase field",
+          "initial_dislocation_density": "2.6e12 m^-2 on all slip systems"
+        }
+      },
+      "input_state": "cuboidal microstructure",
+      "output_state": "rod-like precipitates perpendicular to loading axis",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.2 3D microstructure evolution under tensile loading",
+          "quote": "The cuboidal microstructure is submitted to a constant uniaxial stress of σ a = 150 MPa while holding the temperature at 950 ◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        },
+        {
+          "page": 4,
+          "section": "3.1.2 3D microstructure evolution under tensile loading",
+          "quote": "The same initial homogeneous dislocation density on all slip systems ρα 0 = ¯ρ0 = 2 . 6 10 12 m −2 has been con- sidered [4 8,4 9] .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        },
+        {
+          "page": 4,
+          "section": "3.1.2 3D microstructure evolution under tensile loading",
+          "quote": "In Figs. 1 -b and 1 -c, the microstructure obtained after t = 25 . 5 min under the perfect [110] and the [110] +12 ◦ oriented load are presented, respectively, using concentration ﬁelds.",
+          "table": null,
+          "figure": "Fig. 1-b, 1-c",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_3",
+      "sample_id": null,
+      "sequence": 2,
+      "method": "creep simulation",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "25.5 min",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_stress": "150 MPa uniaxial tensile",
+          "loading_direction": "[110]+12°",
+          "model_type": "full elasto-viscoplastic phase field",
+          "initial_dislocation_density": "2.6e12 m^-2 on all slip systems"
+        }
+      },
+      "input_state": "cuboidal microstructure",
+      "output_state": "rafted microstructure",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.2 3D microstructure evolution under tensile loading",
+          "quote": "In Figs. 1 -b and 1 -c, the microstructure obtained after t = 25 . 5 min under the perfect [110] and the [110] +12 ◦ oriented load are presented, respectively, using concentration ﬁelds.",
+          "table": null,
+          "figure": "Fig. 1-c",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_process_1",
+      "sample_id": "part2_sample_1",
+      "sequence": 1,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "4.2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "condition": "stress-free",
+          "model": "elastic phase field model"
+        }
+      },
+      "input_state": "disordered γ phase",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "starting from an initial disordered γ phase, the alloy is aged during 4.2 h at 950 ◦C under stress-free conditions using the elastic phase field model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "part1_phase_1",
+      "type": "Phase",
+      "name": "gamma (FCC)",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "strengthening γ′ cuboidal precipitates (L1 2 ordered structure) embedded in a γ matrix (face-centered cubic solid solution)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_2",
+      "type": "Phase",
+      "name": "gamma-prime (L1_2)",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": "precipitate",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "strengthening γ′ cuboidal precipitates (L1 2 ordered structure) embedded in a γ matrix (face-centered cubic solid solution)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_1",
+      "type": "Microstructure",
+      "name": "cuboidal microstructure",
+      "sample_id": "part1_sample_1",
+      "material_state": "cuboidal microstructure",
+      "attributes": {
+        "phase_fraction": 0.54,
+        "size": "395 nm",
+        "morphology": "cuboidal gamma-prime aligned along cubic directions separated by gamma channels",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.1 3D cuboidal microstructure",
+          "quote": "The microstructure consists of γ′ cuboidal pre- cipitates (white regions) aligned along cubic directions and sepa- rated by well-deﬁned γ channels (dark regions). The volume frac- tion of the γ′ precipitates is f v = 0 . 54 and their average size is 395 nm.",
+          "table": null,
+          "figure": "Fig. 1-a",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_2",
+      "type": "Microstructure",
+      "name": "rod-like precipitates",
+      "sample_id": null,
+      "material_state": "creep under [110] at 150 MPa and 950 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rod-like, elongated perpendicular to tensile axis along [001]",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.2 3D microstructure evolution under tensile loading",
+          "quote": "For the perfect [110] tensile load, the applied stress mainly leads to the coarsening of the precipitates along the [001] crys- tal orientation to form a microstructure made of rod-like precip- itates elongated in a direction perpendicular to the tensile load- ing axis.",
+          "table": null,
+          "figure": "Fig. 1-b",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_3",
+      "type": "Microstructure",
+      "name": "rafted microstructure",
+      "sample_id": null,
+      "material_state": "creep under [110]+12° at 150 MPa and 950 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rafting",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "We show that small misorientations of the tensile axis strongly modify the evolution: rafting is observed for small deviations, as opposed to a microstructure made of rod-like precipitates when load- ing is performed along a perfectly aligned [110] direction.",
+          "table": null,
+          "figure": "Fig. 1-c",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_4",
+      "type": "Microstructure",
+      "name": "rod-like precipitates perpendicular to applied load",
+      "sample_id": "part1_sample_2",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rod morphology perpendicular to the applied load",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "the cubic morphology is maintained at 1033 K whereas a rod morphology perpendicular to the applied load is observed at 1173 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_5",
+      "type": "Microstructure",
+      "name": "rafts 45° away from loading direction",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rafts at 45° from loading direction",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Tian et al. [10,11] investigated [110] tensile creep under high- temperature and low-stress creep conditions reporting rafting 45 ◦ away from the loading direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_microstructure_6",
+      "type": "Microstructure",
+      "name": "rafts in two 45° directions",
+      "sample_id": "part1_sample_4",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rafts in two 45° directions",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "In the case of the LEK 94 su- peralloy at 1293 K, a microstructure also made of rafts is ob- served but in two 45 ◦ directions in Agudo Jacome et al. [12] .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_defect_1",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma channels and slip systems",
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.2 3D microstructure evolution under tensile loading",
+          "quote": "The same initial homogeneous dislocation density on all slip systems ρα 0 = ¯ρ0 = 2 . 6 10 12 m −2 has been con- sidered [4 8,4 9] .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_defect_2",
+      "type": "Defect",
+      "name": "irregularly shaped precipitates from spurious coagulation",
+      "sample_id": "part1_sample_1",
+      "material_state": "cuboidal microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "irregular",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.1 3D cuboidal microstructure",
+          "quote": "as well as few irregularly shaped precipitates resulting from spurious coagulations, which can be clearly observed on the 2D section of the 3D simulation in the loading plane",
+          "table": null,
+          "figure": "Fig. 1-a",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_1",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "part2_sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": 0.62,
+        "size": "350 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "The volume fraction of the γ′ precipitates is f v = 0 . 62 .",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_2",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "part2_sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "channel",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "aligned along cubic directions and separated by well-deﬁned γ channels (dark regions).",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_1",
+      "type": "Microstructure",
+      "name": "cuboidal γ′ precipitate",
+      "sample_id": "part2_sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": 0.62,
+        "size": "average size around 350 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "the precipitates average size is around 350 nm with an average aspect ratio of 0.77 reﬂecting their cuboidal morphology",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_2",
+      "type": "Microstructure",
+      "name": "γ channel",
+      "sample_id": "part2_sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "around 95 nm wide",
+        "morphology": "channel",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "while the γ channels are around 95 nm wide.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_3",
+      "type": "Microstructure",
+      "name": "rafted microstructure",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "raft/platelet",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2.1",
+          "quote": "we observe that the introduction of a non zero misorientation leads to the formation of rafts",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part3_phase_1",
+      "type": "Phase",
+      "name": "gamma prime precipitate",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": "f_v",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": "Appendix A",
+          "quote": "where f v is the volume fraction of precipitates, ϵ∼0 the eigenstrain of the precipitate and ¯ϵ∼ the average strain.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "part2_observation_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "property": "plastic strain",
+      "value": 0.061,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 950,
+        "strain_rate": null,
+        "loading_mode": "tensile creep",
+        "orientation": "[110]",
+        "atmosphere": null,
+        "duration": "7 h",
+        "test_method": "elasto-viscoplastic phase field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2.5",
+          "quote": "the evolution slows down and becomes almost linear to reach about 0.061% after 7 h (green curve).",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "property": "plastic strain",
+      "value": 0.074,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 950,
+        "strain_rate": null,
+        "loading_mode": "tensile creep",
+        "orientation": "[110] +6°",
+        "atmosphere": null,
+        "duration": "7 h",
+        "test_method": "elasto-viscoplastic phase field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.2.5",
+          "quote": "with values around 0.074% and 0.096% after 7 h for θ = +6 / + 12 ◦",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "property": "plastic strain",
+      "value": 0.096,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 950,
+        "strain_rate": null,
+        "loading_mode": "tensile creep",
+        "orientation": "[110] +12°",
+        "atmosphere": null,
+        "duration": "7 h",
+        "test_method": "elasto-viscoplastic phase field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.2.5",
+          "quote": "with values around 0.074% and 0.096% after 7 h for θ = +6 / + 12 ◦",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "part1_mechanism_1",
+      "name": "directional coarsening (rafting)",
+      "category": "diffusion-controlled phase transformation",
+      "sample_id": null,
+      "material_state": "creep under [110]+12° at 150 MPa and 950 °C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "rafting is observed for small deviations, as opposed to a microstructure made of rod-like precipitates when load- ing is performed along a perfectly aligned [110] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_2",
+      "name": "plasticity-driven rafting",
+      "category": "plasticity",
+      "sample_id": null,
+      "material_state": "creep at 950 °C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The relative role of inhomogeneous and anisotropic elastic and plastic driving forces is also investigated, plasticity being the main driving force for rafting in the considered case.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_3",
+      "name": "dislocation multiplication and glide",
+      "category": "crystal plasticity",
+      "sample_id": null,
+      "material_state": "creep at 950 °C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.2 3D microstructure evolution under tensile loading",
+          "quote": "In these conditions, plasticity is only active inside the γ chan- nels, whereas the γ′ phase behaves elastically [6] .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_1",
+      "name": "Ostwald ripening",
+      "category": "coarsening",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2.2",
+          "quote": "mainly by Ostwald ripening where large precipitates grow at the expense of smaller ones by exchanging solute by diffusion through the matrix",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part3_mechanism_1",
+      "name": "rafting",
+      "category": "microstructural evolution",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "(ii) inhomogeneous elasticity or plasticity alone are enough to gener- ate rafts and (iii) in our material plasticity is the main driving force for rafting.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "part1_claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part1_sample_1",
+      "sample_id": "part1_sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.3.1 Physical properties and phase field parameters",
+          "quote": "the experimental observations of the AM1 superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part1_sample_2",
+      "sample_id": "part1_sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Kuttner et al. [5] re- ported that, for a SRR99 superalloy under [011] tensile creep",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part1_sample_3",
+      "sample_id": "part1_sample_3",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "in agreement with Tien and Copley for the Udimet-700 [2] .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_4",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part1_sample_4",
+      "sample_id": "part1_sample_4",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "In the case of the LEK 94 su- peralloy at 1293 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_5",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_microstructure_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "cuboidal microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.1 3D cuboidal microstructure",
+          "quote": "The microstructure consists of γ′ cuboidal pre- cipitates (white regions) aligned along cubic directions and sepa- rated by well-deﬁned γ channels (dark regions). The volume frac- tion of the γ′ precipitates is f v = 0 . 54 and their average size is 395 nm.",
+          "table": null,
+          "figure": "Fig. 1-a",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_6",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "cuboidal microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "strengthening γ′ cuboidal precipitates (L1 2 ordered structure) embedded in a γ matrix (face-centered cubic solid solution)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_7",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "cuboidal microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "strengthening γ′ cuboidal precipitates (L1 2 ordered structure)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_8",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_defect_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "cuboidal microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.1 3D cuboidal microstructure",
+          "quote": "as well as few irregularly shaped precipitates resulting from spurious coagulations",
+          "table": null,
+          "figure": "Fig. 1-a",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_9",
+      "source_id": "part1_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part1_process_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "cuboidal microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.1 3D cuboidal microstructure",
+          "quote": "Using the phase ﬁeld model presented in Section 2 , we ﬁrst perform a purely elastic 3D simulation in stress-free conditions to obtain a cuboidal microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_10",
+      "source_id": "part1_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part1_process_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "cuboidal microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.2 3D microstructure evolution under tensile loading",
+          "quote": "The cuboidal microstructure is submitted to a constant uniaxial stress of σ a = 150 MPa while holding the temperature at 950 ◦C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_11",
+      "source_id": "part1_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part1_process_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "cuboidal microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.2 3D microstructure evolution under tensile loading",
+          "quote": "In Figs. 1 -b and 1 -c, the microstructure obtained after t = 25 . 5 min under the perfect [110] and the [110] +12 ◦ oriented load are presented, respectively, using concentration ﬁelds.",
+          "table": null,
+          "figure": "Fig. 1-b, 1-c",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_12",
+      "source_id": "part1_process_1",
+      "predicate": "PRODUCES",
+      "target_id": "part1_microstructure_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "cuboidal microstructure",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.1 3D cuboidal microstructure",
+          "quote": "The microstructure obtained at T = 950 ◦C after t = 9 h is pre- sented in Fig. 1 -a.",
+          "table": null,
+          "figure": "Fig. 1-a",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_13",
+      "source_id": "part1_process_2",
+      "predicate": "PRODUCES",
+      "target_id": "part1_microstructure_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "creep under [110] at 150 MPa and 950 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1.2 3D microstructure evolution under tensile loading",
+          "quote": "For the perfect [110] tensile load, the applied stress mainly leads to the coarsening of the precipitates along the [001] crys- tal orientation to form a microstructure made of rod-like precip- itates elongated in a direction perpendicular to the tensile load- ing axis.",
+          "table": null,
+          "figure": "Fig. 1-b",
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_14",
+      "source_id": "part1_process_3",
+      "predicate": "PRODUCES",
+      "target_id": "part1_microstructure_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "creep under [110]+12° at 150 MPa and 950 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "rafting is observed for small deviations, as opposed to a microstructure made of rod-like precipitates when load- ing is performed along a perfectly aligned [110] direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_15",
+      "source_id": "part1_sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_microstructure_4",
+      "sample_id": "part1_sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "the cubic morphology is maintained at 1033 K whereas a rod morphology perpendicular to the applied load is observed at 1173 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_16",
+      "source_id": "part1_sample_4",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_microstructure_6",
+      "sample_id": "part1_sample_4",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "In the case of the LEK 94 su- peralloy at 1293 K, a microstructure also made of rafts is ob- served but in two 45 ◦ directions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_17",
+      "source_id": "part1_defect_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_3",
+      "sample_id": null,
+      "material_state": "creep at 950 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The model uses a storage-recovery law for the dislocation density of each glide system and a hardening matrix to account for the short-range interactions between dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_18",
+      "source_id": "part1_mechanism_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_1",
+      "sample_id": null,
+      "material_state": "creep under [110]+12° at 150 MPa and 950 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "The relative role of inhomogeneous and anisotropic elastic and plastic driving forces is also investigated, plasticity being the main driving force for rafting in the considered case.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_19",
+      "source_id": "part1_mechanism_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_1",
+      "sample_id": null,
+      "material_state": "creep under [110]+12° at 150 MPa and 950 °C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "plasticity being the main driving force for rafting in the considered case.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_1",
+      "source_id": "part2_process_1",
+      "predicate": "PRODUCES",
+      "target_id": "part2_microstructure_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "The resulting microstructure consists of γ′ cuboidal precipitates, as shown in Fig. 3 -a and b",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_2",
+      "source_id": "part2_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part2_phase_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "The volume fraction of the γ′ precipitates is f v = 0 . 62 .",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_3",
+      "source_id": "part2_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part2_phase_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "aligned along cubic directions and separated by well-deﬁned γ channels (dark regions).",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_4",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part2_microstructure_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "the precipitates average size is around 350 nm with an average aspect ratio of 0.77 reﬂecting their cuboidal morphology",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_5",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part2_microstructure_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "while the γ channels are around 95 nm wide.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_6",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part2_microstructure_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "conditions": {
+        "loading_mode": "tensile creep",
+        "temperature_c": 950
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2.1",
+          "quote": "we observe that the introduction of a non zero misorientation leads to the formation of rafts",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_7",
+      "source_id": "part2_microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part2_mechanism_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2.2",
+          "quote": "mainly by Ostwald ripening where large precipitates grow at the expense of smaller ones by exchanging solute by diffusion through the matrix",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_8",
+      "source_id": "part2_mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "part2_microstructure_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2.2",
+          "quote": "the average precipitate size increases, mainly by Ostwald ripening where large precipitates grow at the expense of smaller ones by exchanging solute by diffusion through the matrix.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_9",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2.5",
+          "quote": "the evolution slows down and becomes almost linear to reach about 0.061% after 7 h (green curve).",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_10",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.2.5",
+          "quote": "with values around 0.074% and 0.096% after 7 h for θ = +6 / + 12 ◦",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_11",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.2.5",
+          "quote": "with values around 0.074% and 0.096% after 7 h for θ = +6 / + 12 ◦",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part3_claim_1",
+      "source_id": "part3_mechanism_1",
+      "predicate": "FORMS",
+      "target_id": "part3_phase_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "in our material plasticity is the main driving force for rafting",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

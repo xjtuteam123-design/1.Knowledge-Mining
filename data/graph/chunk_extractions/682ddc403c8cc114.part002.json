@@ -1,0 +1,235 @@
+{
+  "document_id": "682ddc403c8cc114",
+  "chunk_id": "682ddc403c8cc114:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A physical metallurgy-guided machine learning strategy for creep life prediction of Ni-based single crystal superalloys",
+    "authors": [
+      "Yuyu Huang",
+      "Jide Liu",
+      "Chongwei Zhu",
+      "Xinguang Wang",
+      "Yizhou Zhou",
+      "Xiaofeng Sun",
+      "Jinguo Li"
+    ],
+    "journal": "Computational Materials Science",
+    "year": 2023,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Creep life prediction of engineering-applied superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "TMS-75 superalloy",
+      "material_category": "Ni-based single crystal superalloy",
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the third-generation single crystal superalloy TMS-75",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "TMS-75 superalloy",
+      "canonical_name": "TMS-75",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the third-generation single crystal superalloy TMS-75",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "engineering-applied Ni-based single crystal superalloys",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "three kinds of engineering-applied Ni-based single crystal superalloys were selected for creep experiments",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:002"
+        },
+        {
+          "page": 7,
+          "section": null,
+          "quote": "Their compositions are shown in Table 3",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": "55.3%",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the best-measured value in the experiment is 55.3%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma'",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "attributes": {
+        "phase_fraction": "49.2%",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "the best-predicted value is 49.2%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "physical metallurgy guided ML model",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "creep life prediction",
+      "inputs": [
+        "8 key microstructural features"
+      ],
+      "target": "creep life",
+      "dataset": null,
+      "validation": "generalization ability to predict the creep life of the alloys that are out of the dataset",
+      "metrics": {
+        "relative error": "<10%"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "5. Conclusions",
+          "quote": "a creep life prediction ML model based on 8 key microstructural features was established",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:002"
+        },
+        {
+          "page": 7,
+          "section": "4.2. Creep life prediction of engineering-applied superalloys",
+          "quote": "the relative errors between the predicted values and the experimental values of most alloys are less than 10%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4.1. Creep life prediction of TMS-75 superalloy",
+          "quote": "Fig. 6 (b) shows the relationship between γ' phase volume fraction and creep life of the third-generation single crystal superalloy TMS-75. Among them, the blue data points are the prediction values of the model",
+          "table": null,
+          "figure": "Fig. 6 (b)",
+          "chunk_id": "682ddc403c8cc114:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4.2. Creep life prediction of engineering-applied superalloys",
+          "quote": "the creep lives of these alloys under corresponding testing conditions were predicted by the trained ML model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "682ddc403c8cc114:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

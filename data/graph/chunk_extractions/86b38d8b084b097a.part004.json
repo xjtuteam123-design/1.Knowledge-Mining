@@ -1,0 +1,202 @@
+{
+  "document_id": "86b38d8b084b097a",
+  "chunk_id": "86b38d8b084b097a:part:004",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Materials Science and Technology",
+    "year": null,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "single-crystal nickel-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 25,
+          "section": "Summary and conclusions",
+          "quote": "(1) A critical assessment of models for the tertiary creep deformation behaviour of single-crystal superalloys is presented.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "86b38d8b084b097a:part:004"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single-crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 25,
+          "section": "Summary and conclusions",
+          "quote": "Good agreement of the present model with the performance of the benchmark alloy CMSX-4 is demonstrated, without the use of excessive fitting.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "86b38d8b084b097a:part:004"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime",
+      "sample_id": "sample_1",
+      "material_state": "single-crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 24,
+          "section": null,
+          "quote": "overpredicted values for γ′ volume fraction and/or underpredicted values for the coarsening rate parameter lead to an overestimation of creep life",
+          "table": null,
+          "figure": null,
+          "chunk_id": "86b38d8b084b097a:part:004"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "gamma-prime precipitate shearing",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "single-crystal",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 24,
+          "section": null,
+          "quote": "At these stress levels, shearing of γ′ precipitates becomes feasible [19].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "86b38d8b084b097a:part:004"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "gamma-prime coarsening",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "single-crystal",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 25,
+          "section": "Summary and conclusions",
+          "quote": "coarsening of strengthening γ′ precipitates and the accumulation of mobile dislocations in γ matrix channels are the two main damage mechanisms occurring in the tertiary regime",
+          "table": null,
+          "figure": null,
+          "chunk_id": "86b38d8b084b097a:part:004"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "mobile dislocation accumulation in gamma matrix channels",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "single-crystal",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 25,
+          "section": "Summary and conclusions",
+          "quote": "the two main damage mechanisms occurring in the tertiary regime are the coarsening of strengthening γ′ precipitates and the accumulation of mobile dislocations in γ matrix channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "86b38d8b084b097a:part:004"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "single-crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 24,
+          "section": null,
+          "quote": "At these stress levels, shearing of γ′ precipitates becomes feasible [19]. Although this mechanism may not be dominant, it represents an additional source of damage",
+          "table": null,
+          "figure": null,
+          "chunk_id": "86b38d8b084b097a:part:004"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "single-crystal",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 25,
+          "section": "Summary and conclusions",
+          "quote": "the coarsening of strengthening γ′ precipitates and the accumulation of mobile dislocations in γ matrix channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "86b38d8b084b097a:part:004"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_3",
+      "predicate": "DEGRADES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "single-crystal",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 25,
+          "section": "Summary and conclusions",
+          "quote": "the accumulation of mobile dislocations in γ matrix channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "86b38d8b084b097a:part:004"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

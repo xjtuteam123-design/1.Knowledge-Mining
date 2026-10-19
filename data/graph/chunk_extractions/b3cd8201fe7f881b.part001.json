@@ -1,0 +1,358 @@
+{
+  "document_id": "b3cd8201fe7f881b",
+  "chunk_id": "b3cd8201fe7f881b:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Modeling the microstructural evolution of Ni-base superalloys by phase field method combined with CALPHAD and CVM",
+    "authors": [
+      "J.C. Wang",
+      "M. Osawa",
+      "T. Yokokawa",
+      "H. Harada",
+      "M. Enomoto"
+    ],
+    "journal": "Computational Materials Science",
+    "year": 2007,
+    "doi": "10.1016/j.commatsci.2006.10.014"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-Al alloy",
+      "material_category": "Ni-base superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the microstructure evolution of a Ni–Al binary alloy at the temperature of 1000 K has been simulated",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni–18 at.%Al",
+      "canonical_name": "Ni-18Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-quenched",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 18,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "3.3",
+              "quote": "Microstructure evolution of Ni–18 at.%Al at 1000 K",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b3cd8201fe7f881b:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "3.3",
+              "quote": "Microstructure evolution of Ni–18 at.%Al at 1000 K",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b3cd8201fe7f881b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3",
+          "quote": "Microstructure evolution of Ni–18 at.%Al at 1000 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "quenching",
+      "parameters": {
+        "temperature_c": 727,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "target_temperature_k": 1000
+        }
+      },
+      "input_state": "high-temperature single-phase state",
+      "output_state": "as-quenched",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "The initial condition of the system is just quenching at the temperature of 1000 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma (FCC)",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Al composition 0.134 (PFM and CALPHAD) or 0.130 (CVM) at 1000 K",
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "the equilibrium composition of c phase and c0 phase at the stress-free state are 0.134 and 0.238, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime (L12)",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal precipitates",
+        "location": null,
+        "composition": "Al composition 0.238 (PFM and CALPHAD) or 0.234 (CVM) at 1000 K",
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "the equilibrium composition of c phase and c0 phase at the stress-free state are 0.134 and 0.238, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "cuboidal precipitate microstructure",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal with direction alignment",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3",
+          "quote": "the final microstructure is a cuboidal structure with a certain direction alignment",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Ostwald ripening",
+      "category": "coarsening",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3",
+          "quote": "One is that the conventional Ostwald-ripening, where small particles shrink due to emission while large particles grow by absorption.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.3",
+          "quote": "Microstructure evolution of Ni–18 at.%Al at 1000 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1",
+          "quote": "The initial condition of the system is just quenching at the temperature of 1000 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "the equilibrium composition of c phase and c0 phase at the stress-free state are 0.134 and 0.238, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2",
+          "quote": "the equilibrium composition of c phase and c0 phase at the stress-free state are 0.134 and 0.238, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3",
+          "quote": "the final microstructure is a cuboidal structure with a certain direction alignment",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-quenched",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3",
+          "quote": "One is that the conventional Ostwald-ripening, where small particles shrink due to emission while large particles grow by absorption.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b3cd8201fe7f881b:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

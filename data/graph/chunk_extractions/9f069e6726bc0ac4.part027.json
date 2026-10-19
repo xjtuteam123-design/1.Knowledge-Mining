@@ -1,0 +1,101 @@
+{
+  "document_id": "9f069e6726bc0ac4",
+  "chunk_id": "9f069e6726bc0ac4:part:027",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": null,
+    "doi": null
+  },
+  "alloy_systems": [],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "property": "coefficient of determination (R2)",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": null,
+          "section": null,
+          "quote": "MAE, RMSE, accuracy, F1 and other explicit validation metrics.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9f069e6726bc0ac4:part:027"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "DBSCAN",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "clustering analysis",
+      "inputs": [
+        "flight data"
+      ],
+      "target": null,
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 409,
+          "section": "46.2.2 DBSCAN Algorithm",
+          "quote": "DBSCAN algorithm is a typical density-based clustering method. In this algorithm, the cluster is discovered by acquiring the density of points’ neighborhood.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9f069e6726bc0ac4:part:027"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 409,
+          "section": "46.1 Introduction",
+          "quote": "Using the algorithm of density-based spatial clustering of applications with noise (DBSCAN), the FOQA based on clustering analysis is developed to identify anomalous data or flights by grouping the flight data into clusters",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9f069e6726bc0ac4:part:027"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

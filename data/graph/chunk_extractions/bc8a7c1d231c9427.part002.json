@@ -1,0 +1,261 @@
+{
+  "document_id": "bc8a7c1d231c9427",
+  "chunk_id": "bc8a7c1d231c9427:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "First-principles-based prediction of yield strength in the RhIrPdPtNiCu high-entropy alloy",
+    "authors": [
+      "B. Yin",
+      "W. A. Curtin"
+    ],
+    "journal": "npj Computational Materials",
+    "year": 2019,
+    "doi": "10.1038/s41524-019-0151-x"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "RhIrPdPtNiCu high-entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Yield strength prediction",
+          "quote": "With DFT results computed explicitly here for fcc RhIrPdPtNiCu, we can assess the accuracy of such a simple model since all the elements are stable in the fcc structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bc8a7c1d231c9427:part:002"
+        },
+        {
+          "page": 6,
+          "section": "DISCUSSION",
+          "quote": "Executing the methodology on the fcc RhIrPdPtNiCu HEA, we obtain parameter-free predictions of the yield strength with no experimental inputs and find very good agreement with the experimental strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bc8a7c1d231c9427:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "RhIrPdPtNiCu",
+      "canonical_name": "RhIrPdPtNiCu",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Rh",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ir",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Pd",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Pt",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cu",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Yield strength prediction",
+          "quote": "the yield strength of well-characterized alloys usually has small scatter. As analyzed in previous work using approximate methods,10 this as-cast alloy has two different phases but these phases have very similar lattice constants and estimated strengths.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bc8a7c1d231c9427:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Yield strength prediction",
+          "quote": "this as-cast alloy has two different phases but these phases have very similar lattice constants and estimated strengths.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bc8a7c1d231c9427:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 527.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": "10^-4 s^-1",
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Yield strength prediction",
+          "quote": "The average prediction of 583 MPa is in very good agreement with the single experimental value of 527 MPa.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bc8a7c1d231c9427:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "Vegard's law and rule-of-mixtures (ROM) model",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "prediction of yield strength",
+      "inputs": [
+        "lattice constants of elemental metals",
+        "elastic constants of elemental metals"
+      ],
+      "target": "yield strength",
+      "dataset": "elemental properties of Rh, Ir, Pd, Pt, Ni, Cu",
+      "validation": null,
+      "metrics": {
+        "predicted_yield_strength": "775 MPa"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "DISCUSSION",
+          "quote": "The approximate approach above is thus of limited value for quantitative prediction in this family of alloys. However, the approximate approach may be too high mainly due to the moduli estimates, and the moduli estimates may be systematically high for other composition in the configurational space.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bc8a7c1d231c9427:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": "10^-4 s^-1"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Yield strength prediction",
+          "quote": "As shown in Table 3, the predicted strength using only the DFT-computed inputs is σy = 583 MPa. The average prediction of 583 MPa is in very good agreement with the single experimental value of 527 MPa.",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "bc8a7c1d231c9427:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "DISCUSSION",
+          "quote": "With the approximate estimates for both δ and μV being larger than the true DFT-computed properties for the alloy, the predicted strength using the approximate model is 775 MPa, which is rather larger than the full prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bc8a7c1d231c9427:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,830 @@
+{
+  "document_id": "76083474975e43b2",
+  "chunk_id": "76083474975e43b2:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Micromechanical behaviour of Ni-based superalloys close to the yield point: a comparative study between neutron diffraction on different polycrystalline microstructures and crystal plasticity finite element modelling",
+    "authors": [
+      "Jonas von Kobylinski",
+      "Robert Lawitzki",
+      "Michael Hofmann",
+      "Christian Krempaszky",
+      "Ewald Werner"
+    ],
+    "journal": "Continuum Mechanics and Thermodynamics",
+    "year": 2018,
+    "doi": "10.1007/s00161-018-0720-0"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "To investigate the microstructure-dependent relationships in polycrystalline Ni-based superalloys (Haynes 282 and Inconel 718) deformed in the elastoplastic regime",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Haynes 282",
+      "canonical_name": "Haynes 282",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1.1 Motivation",
+          "quote": "Haynes 282 is a γ′-precipitate hardened Ni-based superalloy combining creep performance with resistance to strain-age cracking [2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Inconel 718",
+      "canonical_name": "Inconel 718",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution annealed, air-cooled, age-hardened, furnace-cooled, air-cooled",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1.1 Motivation",
+          "quote": "A widely employed Ni-based superalloy is Inconel 718, which is hardened by precipitation of the ordered γ′- and γ′′-phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "solution annealing",
+      "parameters": {
+        "temperature_c": 1010,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "solution annealed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Haynes 282 samples were solution annealed at 1010 °C for two hours, then water-quenched, machined to round tensile specimens with a diameter of 6 mm, age-hardened at 788 °C for eight hours and air-cooled.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "water quenching",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "water quenching",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution annealed",
+      "output_state": "water-quenched",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Haynes 282 samples were solution annealed at 1010 °C for two hours, then water-quenched, machined to round tensile specimens with a diameter of 6 mm, age-hardened at 788 °C for eight hours and air-cooled.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "machining",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "specimen_dimensions": "round tensile specimens with a diameter of 6 mm"
+        }
+      },
+      "input_state": "water-quenched",
+      "output_state": "machined",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Haynes 282 samples were solution annealed at 1010 °C for two hours, then water-quenched, machined to round tensile specimens with a diameter of 6 mm, age-hardened at 788 °C for eight hours and air-cooled.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "age hardening",
+      "parameters": {
+        "temperature_c": 788,
+        "time": "8 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "machined",
+      "output_state": "age-hardened",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Haynes 282 samples were solution annealed at 1010 °C for two hours, then water-quenched, machined to round tensile specimens with a diameter of 6 mm, age-hardened at 788 °C for eight hours and air-cooled.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 5,
+      "method": "air cooling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "air",
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "age-hardened",
+      "output_state": "air-cooled",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Haynes 282 samples were solution annealed at 1010 °C for two hours, then water-quenched, machined to round tensile specimens with a diameter of 6 mm, age-hardened at 788 °C for eight hours and air-cooled.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "solution annealing",
+      "parameters": {
+        "temperature_c": 975,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "solution annealed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Inconel 718 samples were analogously prepared, albeit with an additional age hardening step, according to the material’s standard heat treatment: solution annealing at 975°C for two hours, subsequent air cooling to room temperature, an eight-hour hardening step at 718 °C, with subsequent furnace cooling to 621 °C, where it was held for further eight hours followed by a final air cooling step.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "air cooling",
+      "parameters": {
+        "temperature_c": "room temperature",
+        "time": null,
+        "pressure": null,
+        "atmosphere": "air",
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution annealed",
+      "output_state": "air-cooled",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Inconel 718 samples were analogously prepared, albeit with an additional age hardening step, according to the material’s standard heat treatment: solution annealing at 975°C for two hours, subsequent air cooling to room temperature, an eight-hour hardening step at 718 °C, with subsequent furnace cooling to 621 °C, where it was held for further eight hours followed by a final air cooling step.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_8",
+      "sample_id": "sample_2",
+      "sequence": 3,
+      "method": "age hardening",
+      "parameters": {
+        "temperature_c": 718,
+        "time": "8 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "air-cooled",
+      "output_state": "age-hardened",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Inconel 718 samples were analogously prepared, albeit with an additional age hardening step, according to the material’s standard heat treatment: solution annealing at 975°C for two hours, subsequent air cooling to room temperature, an eight-hour hardening step at 718 °C, with subsequent furnace cooling to 621 °C, where it was held for further eight hours followed by a final air cooling step.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_9",
+      "sample_id": "sample_2",
+      "sequence": 4,
+      "method": "furnace cooling",
+      "parameters": {
+        "temperature_c": 621,
+        "time": "8 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "furnace cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "age-hardened",
+      "output_state": "furnace-cooled",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Inconel 718 samples were analogously prepared, albeit with an additional age hardening step, according to the material’s standard heat treatment: solution annealing at 975°C for two hours, subsequent air cooling to room temperature, an eight-hour hardening step at 718 °C, with subsequent furnace cooling to 621 °C, where it was held for further eight hours followed by a final air cooling step.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_10",
+      "sample_id": "sample_2",
+      "sequence": 5,
+      "method": "air cooling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "air",
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "furnace-cooled",
+      "output_state": "air-cooled",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Inconel 718 samples were analogously prepared, albeit with an additional age hardening step, according to the material’s standard heat treatment: solution annealing at 975°C for two hours, subsequent air cooling to room temperature, an eight-hour hardening step at 718 °C, with subsequent furnace cooling to 621 °C, where it was held for further eight hours followed by a final air cooling step.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ matrix",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "In addition to γ-matrix and γ′-precipitates, titanium nitride and carbides with high Mo content were also observed with volume fractions below 1%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′ precipitates",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "attributes": {
+        "phase_fraction": 0.15,
+        "size": "~25 nm",
+        "morphology": "spherical",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Transmission electron microscopy revealed spherical γ′ precipitates with size of approx. 25 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        },
+        {
+          "page": 7,
+          "section": "4.1 Phase similarity",
+          "quote": "The (200)-reflection was resolved with a higher resolution than the (100)-reflection, as the γ′-phase volume fraction was only approx. 15%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "titanium nitride",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "attributes": {
+        "phase_fraction": "< 1 vol.%",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "In addition to γ-matrix and γ′-precipitates, titanium nitride and carbides with high Mo content were also observed with volume fractions below 1%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "carbides with high Mo content",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "attributes": {
+        "phase_fraction": "< 1 vol.%",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "high Mo content",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "In addition to γ-matrix and γ′-precipitates, titanium nitride and carbides with high Mo content were also observed with volume fractions below 1%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "γ′ phase",
+      "sample_id": "sample_2",
+      "material_state": "solution annealed, air-cooled, age-hardened, furnace-cooled, air-cooled",
+      "attributes": {
+        "phase_fraction": "3.1 ± 0.4%",
+        "size": "6.9 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "δ-phase precipitates sized 0.9 ± 0.4µm with a volume fraction of 2.7 ± 0.1%, γ′-phase precipitates sized 6.9 nm with a volume fraction of 3.1 ± 0.4% and γ′′-phase precipitates sized 4.0 nm with a volume fraction of 3.8 ± 0.6%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "γ′′ phase",
+      "sample_id": "sample_2",
+      "material_state": "solution annealed, air-cooled, age-hardened, furnace-cooled, air-cooled",
+      "attributes": {
+        "phase_fraction": "3.8 ± 0.6%",
+        "size": "4.0 nm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "δ-phase precipitates sized 0.9 ± 0.4µm with a volume fraction of 2.7 ± 0.1%, γ′-phase precipitates sized 6.9 nm with a volume fraction of 3.1 ± 0.4% and γ′′-phase precipitates sized 4.0 nm with a volume fraction of 3.8 ± 0.6%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "δ phase",
+      "sample_id": "sample_2",
+      "material_state": "solution annealed, air-cooled, age-hardened, furnace-cooled, air-cooled",
+      "attributes": {
+        "phase_fraction": "2.7 ± 0.1%",
+        "size": "0.9 ± 0.4 µm",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "δ-phase precipitates sized 0.9 ± 0.4µm with a volume fraction of 2.7 ± 0.1%, γ′-phase precipitates sized 6.9 nm with a volume fraction of 3.1 ± 0.4% and γ′′-phase precipitates sized 4.0 nm with a volume fraction of 3.8 ± 0.6%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "shearing of precipitates",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4.1 Phase similarity",
+          "quote": "The lack of load redistribution observable in the nearly identical mechanical behaviours between the γ- and the γ′-phase indicates the inactivity of the Orowan mechanism and the dominance of shearing processes due to the large number density and small size of the γ′-particles [27].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "In addition to γ-matrix and γ′-precipitates, titanium nitride and carbides with high Mo content were also observed with volume fractions below 1%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "Transmission electron microscopy revealed spherical γ′ precipitates with size of approx. 25 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "In addition to γ-matrix and γ′-precipitates, titanium nitride and carbides with high Mo content were also observed with volume fractions below 1%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "In addition to γ-matrix and γ′-precipitates, titanium nitride and carbides with high Mo content were also observed with volume fractions below 1%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": "sample_2",
+      "material_state": "solution annealed, air-cooled, age-hardened, furnace-cooled, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "δ-phase precipitates sized 0.9 ± 0.4µm with a volume fraction of 2.7 ± 0.1%, γ′-phase precipitates sized 6.9 nm with a volume fraction of 3.1 ± 0.4% and γ′′-phase precipitates sized 4.0 nm with a volume fraction of 3.8 ± 0.6%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_6",
+      "sample_id": "sample_2",
+      "material_state": "solution annealed, air-cooled, age-hardened, furnace-cooled, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "δ-phase precipitates sized 0.9 ± 0.4µm with a volume fraction of 2.7 ± 0.1%, γ′-phase precipitates sized 6.9 nm with a volume fraction of 3.1 ± 0.4% and γ′′-phase precipitates sized 4.0 nm with a volume fraction of 3.8 ± 0.6%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_7",
+      "sample_id": "sample_2",
+      "material_state": "solution annealed, air-cooled, age-hardened, furnace-cooled, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Specimens characterization",
+          "quote": "δ-phase precipitates sized 0.9 ± 0.4µm with a volume fraction of 2.7 ± 0.1%, γ′-phase precipitates sized 6.9 nm with a volume fraction of 3.1 ± 0.4% and γ′′-phase precipitates sized 4.0 nm with a volume fraction of 3.8 ± 0.6%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "AFFECTS",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "4.1 Phase similarity",
+          "quote": "The lack of load redistribution observable in the nearly identical mechanical behaviours between the γ- and the γ′-phase indicates the inactivity of the Orowan mechanism and the dominance of shearing processes due to the large number density and small size of the γ′-particles [27].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "solution annealed, water-quenched, age-hardened, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1.1 Motivation",
+          "quote": "Haynes 282 is a γ′-precipitate hardened Ni-based superalloy combining creep performance with resistance to strain-age cracking [2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_2",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "solution annealed, air-cooled, age-hardened, furnace-cooled, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1.1 Motivation",
+          "quote": "A widely employed Ni-based superalloy is Inconel 718, which is hardened by precipitation of the ordered γ′- and γ′′-phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "76083474975e43b2:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

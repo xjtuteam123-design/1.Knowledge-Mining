@@ -1,0 +1,1283 @@
+{
+  "document_id": "b7b64e673ec16a09",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Molecular Dynamics Simulation of the Evolution of Interfacial Dislocation Network and Stress Distribution of a Ni-Based Single-Crystal Superalloy",
+    "authors": [
+      "Yun-Li Li",
+      "Wen-Ping Wu",
+      "Zhi-Gang Ruan"
+    ],
+    "journal": "Acta Metall. Sin. (Engl. Lett.)",
+    "year": 2016,
+    "doi": "10.1007/s40195-016-0420-3"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single-crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The evolution of misfit dislocation network at c/c0 phase interfaces and the stress distribution characteristics of Ni-based single-crystal superalloys under different temperatures of 0, 100 and 300 K are studied by molecular dynamics (MD) simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "MD model with mismatch d = 1.5%",
+      "canonical_name": "Ni3Al precipitate in Ni matrix (lattice mismatch 1.5%)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "matrix",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2 Modeling and Simulation",
+              "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b7b64e673ec16a09:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "precipitate Ni3Al",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2 Modeling and Simulation",
+              "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b7b64e673ec16a09:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "where ac is 0.352 nm [15] and ac0 is 0.3573 nm [16] or 0.362 nm [17], i.e., d for the c/c0 phase system is 1.5 or 2.8%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        },
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "In this model, the cuboidal c0 precipitate will not be squeezed by the c matrix, and the c0 fraction of the model is (67/75)3 & 71 vol% or (36/40)3 & 73 vol%, which is in agreement with the experimental value (about 70 vol%).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "MD model with mismatch d = 2.8%",
+      "canonical_name": "Ni3Al precipitate in Ni matrix (lattice mismatch 2.8%)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "matrix",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2 Modeling and Simulation",
+              "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b7b64e673ec16a09:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "precipitate Ni3Al",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2 Modeling and Simulation",
+              "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+              "table": null,
+              "figure": null,
+              "chunk_id": "b7b64e673ec16a09:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "where ac is 0.352 nm [15] and ac0 is 0.3573 nm [16] or 0.362 nm [17], i.e., d for the c/c0 phase system is 1.5 or 2.8%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "300 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_k": 0,
+          "time_step": "3.0e-15 s",
+          "boundary_conditions": "periodic",
+          "potential": "Voter-Chen EAM",
+          "code": "LAMMPS"
+        }
+      },
+      "input_state": "initial unit cell",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Shape of Dislocation Network at 0 K",
+          "quote": "The two MD models with different types of mismatch (d = 1.5 or 2.8%) were selected to perform MD relaxation, and then, a closed three-dimensional misfit dislocation network appeared at c/c0 phase interfaces of two models after 300 ps relaxation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "10 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_k": 300,
+          "time_step": "3.0e-15 s",
+          "boundary_conditions": "periodic",
+          "potential": "Voter-Chen EAM",
+          "code": "LAMMPS"
+        }
+      },
+      "input_state": "initial unit cell",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "As it can be seen in Fig. 3a, the shape of dislocation network still keeps roughly the mosaic structure at t = 10 ps.",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "120 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_k": 300,
+          "time_step": "3.0e-15 s",
+          "boundary_conditions": "periodic",
+          "potential": "Voter-Chen EAM",
+          "code": "LAMMPS"
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "Subsequently, as increasing the time steps, some kink deformation occurs at t = 120 ps, as shown in Fig. 3b.",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_2",
+      "sequence": 3,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "300 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_k": 300,
+          "time_step": "3.0e-15 s",
+          "boundary_conditions": "periodic",
+          "potential": "Voter-Chen EAM",
+          "code": "LAMMPS"
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "When the relaxation time is further increased, at t = 300 ps, emission of dislocations from the c matrix and a few slip dislocations in the c matrix cut into the c0 phase during the evolution of dislocation network, as shown in Fig. 3c.",
+          "table": null,
+          "figure": "Fig. 3c",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma matrix (fcc Ni)",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": "pure Ni",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma' precipitate (L12 Ni3Al)",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": "embedded in gamma matrix",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma matrix (fcc Ni)",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": "pure Ni",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "gamma' precipitate (L12 Ni3Al)",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": "embedded in gamma matrix",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "three-dimensional misfit dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "closed three-dimensional network (mosaic structure)",
+        "location": "gamma/gamma' phase interfaces",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Shape of Dislocation Network at 0 K",
+          "quote": "The two MD models with different types of mismatch (d = 1.5 or 2.8%) were selected to perform MD relaxation, and then, a closed three-dimensional misfit dislocation network appeared at c/c0 phase interfaces of two models after 300 ps relaxation.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "three-dimensional misfit dislocation network",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "closed three-dimensional network (mosaic structure)",
+        "location": "gamma/gamma' phase interfaces",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Shape of Dislocation Network at 0 K",
+          "quote": "It can be seen from Fig. 2 that the morphologies of misfit dislocation network are the same for two different misfit degrees d, but they are not the same in the side lengths, and the dislocation network with a mismatch d = 1.5% has larger side length than the dislocation network with a mismatch d = 2.8%.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "type": "Defect",
+      "name": "local damage of dislocation network",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "attributes": {
+        "location": "gamma/gamma' phase interfaces",
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "irregular",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "id": "microstructure_3",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "In the current MD relaxation at T = 300 K, we find that the dislocations emit in the c matrix and a local damage occurs during the evolution of dislocation network after 300 ps relaxation (see Fig. 3c).",
+          "table": null,
+          "figure": "Fig. 3c",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "type": "Defect",
+      "name": "dislocation network kink deformation",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "attributes": {
+        "location": "gamma/gamma' phase interfaces",
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "kink deformation",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "id": "microstructure_4",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "Subsequently, as increasing the time steps, some kink deformation occurs at t = 120 ps, as shown in Fig. 3b.",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "property": "averaged atomic tensile stress in gamma matrix",
+      "value": 6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "10 ps",
+        "test_method": "atomic stress calculation (MD)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "At t = 10 ps, the tensile stress value is about 6 GPa in the c matrix phase.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "property": "averaged atomic tensile stress in gamma matrix",
+      "value": 8.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "120 ps",
+        "test_method": "atomic stress calculation (MD)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "With the increase in time step, the stress values of c matrix phase at t = 120 ps and t = 300 ps are approximately 8.5 and 9.5 GPa, respectively, as shown in Fig. 5.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "property": "averaged atomic tensile stress in gamma matrix",
+      "value": 9.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "300 ps",
+        "test_method": "atomic stress calculation (MD)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "With the increase in time step, the stress values of c matrix phase at t = 120 ps and t = 300 ps are approximately 8.5 and 9.5 GPa, respectively, as shown in Fig. 5.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "property": "averaged atomic tensile stress in gamma matrix",
+      "value": 4.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "100 ps",
+        "test_method": "atomic stress calculation (MD)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3 Evolution of Dislocation Network and Stress Field at Different Temperatures",
+          "quote": "Furthermore, the averaged tensile stress values of c phase also increase with the increase in temperature, and the stresses are approximately 4.5, 7.0 and 9.0 GPa at the 0, 100 and 300 K, respectively.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "property": "averaged atomic tensile stress in gamma matrix",
+      "value": 7.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": -173.15,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "100 ps",
+        "test_method": "atomic stress calculation (MD)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3 Evolution of Dislocation Network and Stress Field at Different Temperatures",
+          "quote": "Furthermore, the averaged tensile stress values of c phase also increase with the increase in temperature, and the stresses are approximately 4.5, 7.0 and 9.0 GPa at the 0, 100 and 300 K, respectively.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "property": "averaged atomic tensile stress in gamma matrix",
+      "value": 9.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "100 ps",
+        "test_method": "atomic stress calculation (MD)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3 Evolution of Dislocation Network and Stress Field at Different Temperatures",
+          "quote": "Furthermore, the averaged tensile stress values of c phase also increase with the increase in temperature, and the stresses are approximately 4.5, 7.0 and 9.0 GPa at the 0, 100 and 300 K, respectively.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation emission from gamma matrix",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "The emission of dislocation is linked to the stress field in a localized region, when stress increases up to the yield strength of material in a localized region which initiates slip [28].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation cutting into gamma' precipitate through damaged network",
+      "category": "dislocation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "Once the dislocation network is damaged at the c/c0 interfaces, the dislocation network lose the co-ordinating role of maintaining the dynamic equilibrium; the slip dislocations in the c matrix may cut into the c0 phase from the interfaces where dislocation network is damaged.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "misfit stress relaxation by interfacial dislocation network",
+      "category": "stress relaxation",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "At T = 300 K, with the increase in relaxation time, the highest tensile stress value at the c/c0 phase interfaces slightly increases, because the dislocation network can effectively relax the mismatch stress at the c/c0 phase interfaces, and the mismatch stress will increase when the dislocation network begins to deform and damage under the temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "where ac is 0.352 nm [15] and ac0 is 0.3573 nm [16] or 0.362 nm [17], i.e., d for the c/c0 phase system is 1.5 or 2.8%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "where ac is 0.352 nm [15] and ac0 is 0.3573 nm [16] or 0.362 nm [17], i.e., d for the c/c0 phase system is 1.5 or 2.8%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Shape of Dislocation Network at 0 K",
+          "quote": "The two MD models with different types of mismatch (d = 1.5 or 2.8%) were selected to perform MD relaxation, and then, a closed three-dimensional misfit dislocation network appeared at c/c0 phase interfaces of two models after 300 ps relaxation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "As it can be seen in Fig. 3a, the shape of dislocation network still keeps roughly the mosaic structure at t = 10 ps.",
+          "table": null,
+          "figure": "Fig. 3a",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "Subsequently, as increasing the time steps, some kink deformation occurs at t = 120 ps, as shown in Fig. 3b.",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "When the relaxation time is further increased, at t = 300 ps, emission of dislocations from the c matrix and a few slip dislocations in the c matrix cut into the c0 phase during the evolution of dislocation network, as shown in Fig. 3c.",
+          "table": null,
+          "figure": "Fig. 3c",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2 Modeling and Simulation",
+          "quote": "MD simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 c0 phase) and the pure Ni matrix (fcc c phase).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Shape of Dislocation Network at 0 K",
+          "quote": "The two MD models with different types of mismatch (d = 1.5 or 2.8%) were selected to perform MD relaxation, and then, a closed three-dimensional misfit dislocation network appeared at c/c0 phase interfaces of two models after 300 ps relaxation.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Shape of Dislocation Network at 0 K",
+          "quote": "It can be seen from Fig. 2 that the morphologies of misfit dislocation network are the same for two different misfit degrees d, but they are not the same in the side lengths, and the dislocation network with a mismatch d = 1.5% has larger side length than the dislocation network with a mismatch d = 2.8%.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "In the current MD relaxation at T = 300 K, we find that the dislocations emit in the c matrix and a local damage occurs during the evolution of dislocation network after 300 ps relaxation (see Fig. 3c).",
+          "table": null,
+          "figure": "Fig. 3c",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "Subsequently, as increasing the time steps, some kink deformation occurs at t = 120 ps, as shown in Fig. 3b.",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "At t = 10 ps, the tensile stress value is about 6 GPa in the c matrix phase.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "With the increase in time step, the stress values of c matrix phase at t = 120 ps and t = 300 ps are approximately 8.5 and 9.5 GPa, respectively, as shown in Fig. 5.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "With the increase in time step, the stress values of c matrix phase at t = 120 ps and t = 300 ps are approximately 8.5 and 9.5 GPa, respectively, as shown in Fig. 5.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3 Evolution of Dislocation Network and Stress Field at Different Temperatures",
+          "quote": "Furthermore, the averaged tensile stress values of c phase also increase with the increase in temperature, and the stresses are approximately 4.5, 7.0 and 9.0 GPa at the 0, 100 and 300 K, respectively.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3 Evolution of Dislocation Network and Stress Field at Different Temperatures",
+          "quote": "Furthermore, the averaged tensile stress values of c phase also increase with the increase in temperature, and the stresses are approximately 4.5, 7.0 and 9.0 GPa at the 0, 100 and 300 K, respectively.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3 Evolution of Dislocation Network and Stress Field at Different Temperatures",
+          "quote": "Furthermore, the averaged tensile stress values of c phase also increase with the increase in temperature, and the stresses are approximately 4.5, 7.0 and 9.0 GPa at the 0, 100 and 300 K, respectively.",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "observation_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "The emission of dislocation is linked to the stress field in a localized region, when stress increases up to the yield strength of material in a localized region which initiates slip [28].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "microstructure_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "Once the dislocation network is damaged at the c/c0 interfaces, the dislocation network lose the co-ordinating role of maintaining the dynamic equilibrium; the slip dislocations in the c matrix may cut into the c0 phase from the interfaces where dislocation network is damaged.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_23",
+      "source_id": "microstructure_2",
+      "predicate": "SUPPRESSES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.3 Evolution of Dislocation Network and Stress Field at Different Temperatures",
+          "quote": "It reveals that the dislocation network become easier to deform and damage at a higher temperature and the existence of the fine dislocation network can effectively enhance the interface of the alloys and prevent the slip dislocations in the c phase from moving through the c/c0 phase interfaces.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_24",
+      "source_id": "microstructure_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "At T = 300 K, with the increase in relaxation time, the highest tensile stress value at the c/c0 phase interfaces slightly increases, because the dislocation network can effectively relax the mismatch stress at the c/c0 phase interfaces, and the mismatch stress will increase when the dislocation network begins to deform and damage under the temperature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_25",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2 Evolution of Dislocation Network and Stress Field at 300 K",
+          "quote": "Meanwhile, the increase in the atomic stress in the c matrix phase, which leads to a large number of dislocations, occurs in the c matrix phase (see Fig. 4c).",
+          "table": null,
+          "figure": "Fig. 4c",
+          "chunk_id": "b7b64e673ec16a09:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

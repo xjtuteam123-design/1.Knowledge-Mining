@@ -1,0 +1,1233 @@
+{
+  "document_id": "c6a340569441007c",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Modern Data Analytics Approach to Predict Creep of High-Temperature Alloys",
+    "authors": [
+      "D. Shin",
+      "Y. Yamamoto",
+      "M. P. Brady",
+      "S. Lee",
+      "J. A. Haynes"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2019,
+    "doi": "10.1016/j.actamat.2019.02.017"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "alumina-forming austenitic (AFA) stainless steel",
+      "material_category": "Fe-base austenitic stainless steel",
+      "evidence": [
+        {
+          "page": "Page 7",
+          "section": "2. Experimental Data and Computational Methods",
+          "quote": "Creep-resistant, AFA stainless-steel alloys are a new, developmental class of Fe-base heat-resistant structural alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        },
+        {
+          "page": 19,
+          "section": null,
+          "quote": "We next analyzed the relationship between advanced scientific features populated from equilibrium thermodynamic calculations of AFA alloy s and LMP.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        },
+        {
+          "page": 38,
+          "section": null,
+          "quote": "Correlation analysis between all the alloy features (simple/superficial and microstructure-related synthetic/scientific features generated from high-throughput Thermo-Calc computation) and LMP of AFA alloys",
+          "table": null,
+          "figure": "Figure 4",
+          "chunk_id": "c6a340569441007c:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "AFA alloys",
+      "canonical_name": "Fe-22Ni-14Cr-2.5Al-1Nb (AFA alloy)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-solution-treated",
+      "composition": [
+        {
+          "element": "Fe",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Fe (Bal.), Ni (12-32), Cr (12-20), Al (0-5), Nb (0-3.3), Ti (0-1), V (0-1), Mo (0-2), W (0-2), Si (0-1), Mn (0-12), Cu (0-3), Zr (0-0.5), Y(0-0.2), C (0-0.2), B (0-0.1)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": 12,
+          "max_value": 32,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Ni (12-32)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": 12,
+          "max_value": 20,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Cr (12-20)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": 0,
+          "max_value": 5,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Al (0-5)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": 0,
+          "max_value": 3.3,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Nb (0-3.3)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": 0,
+          "max_value": 1,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Ti (0-1)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "V",
+          "value": null,
+          "min_value": 0,
+          "max_value": 1,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "V (0-1)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": 0,
+          "max_value": 2,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Mo (0-2)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": null,
+          "min_value": 0,
+          "max_value": 2,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "W (0-2)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Si",
+          "value": null,
+          "min_value": 0,
+          "max_value": 1,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Si (0-1)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Mn",
+          "value": null,
+          "min_value": 0,
+          "max_value": 12,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Mn (0-12)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Cu",
+          "value": null,
+          "min_value": 0,
+          "max_value": 3,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Cu (0-3)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": null,
+          "min_value": 0,
+          "max_value": 0.5,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Zr (0-0.5)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "Y",
+          "value": null,
+          "min_value": 0,
+          "max_value": 0.2,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "Y(0-0.2)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "C",
+          "value": null,
+          "min_value": 0,
+          "max_value": 0.2,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "C (0-0.2)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": null,
+          "min_value": 0,
+          "max_value": 0.1,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "Page 9",
+              "section": "2.1 Experimental Alloy Data",
+              "quote": "nominal composition range of Fe-(12-32)Ni-(12-20)Cr-(0-5)Al-(0-3.3)Nb-(0-1)Ti-(0-1)V-(0-2)Mo-(0-2)W-(0-1)Si-(0-12)Mn-(0-3)Cu-(0-0.5)Zr-(0-0.2)Y-(0-0.2)C-(0-0.1)B, in wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:001"
+            },
+            {
+              "page": 30,
+              "section": null,
+              "quote": "B (0-0.1)",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "c6a340569441007c:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "Page 7",
+          "section": "2. Experimental Data and Computational Methods",
+          "quote": "Creep-resistant, AFA stainless-steel alloys are a new, developmental class of Fe-base heat-resistant structural alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        },
+        {
+          "page": 30,
+          "section": null,
+          "quote": "Table 1 List of considered elements with compositio n range in wt%, temperature, stress and phases of the AFA experimental creep dataset and computational thermodynamic calculations.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "arc casting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "scale": "lab-scale"
+        }
+      },
+      "input_state": null,
+      "output_state": "arc-cast",
+      "evidence": [
+        {
+          "page": "Page 9",
+          "section": "2.1 Experimental Alloy Data",
+          "quote": "more than 100 lab-scale arc-cast (0.1 to 0.5 kg) and pilot scale industrial vacuum cast (15 kg, with several compositions at 200 kg and 4000 kg) AFA alloys were manufactured",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range": "1100-1250"
+        }
+      },
+      "input_state": "arc-cast",
+      "output_state": "as-solution-treated",
+      "evidence": [
+        {
+          "page": "Page 10",
+          "section": "2.1 Experimental Alloy Data",
+          "quote": "creep (and oxidation) evaluation usually conducted in the as-solution treated condition, typically 1200°C, although ranging from 1100-1250°C depending on specific alloy melting point and strengthening design strategy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC austenite matrix",
+      "sample_id": "sample_1",
+      "material_state": "as-solution-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 9",
+          "section": "2.1 Experimental Alloy Data",
+          "quote": "single austenite-phase matrix for high temperature creep strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        },
+        {
+          "page": 30,
+          "section": null,
+          "quote": "FCC Austenite (FCC matrix)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "MC carbide",
+      "sample_id": "sample_1",
+      "material_state": "as-solution-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 9",
+          "section": "2.1 Experimental Alloy Data",
+          "quote": "AFA alloys have been designed to use MC, M23C6, Laves and/or L12 strengthening precipitates in an austenite single-phase matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "M23C6 carbide",
+      "sample_id": "sample_1",
+      "material_state": "as-solution-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 9",
+          "section": "2.1 Experimental Alloy Data",
+          "quote": "AFA alloys have been designed to use MC, M23C6, Laves and/or L12 strengthening precipitates in an austenite single-phase matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        },
+        {
+          "page": 30,
+          "section": null,
+          "quote": "M 23 C6",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "sample_1",
+      "material_state": "as-solution-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 9",
+          "section": "2.1 Experimental Alloy Data",
+          "quote": "AFA alloys have been designed to use MC, M23C6, Laves and/or L12 strengthening precipitates in an austenite single-phase matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "L12",
+      "sample_id": "sample_1",
+      "material_state": "as-solution-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 9",
+          "section": "2.1 Experimental Alloy Data",
+          "quote": "AFA alloys have been designed to use MC, M23C6, Laves and/or L12 strengthening precipitates in an austenite single-phase matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        },
+        {
+          "page": 30,
+          "section": null,
+          "quote": "L1 2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "B2",
+      "sample_id": "sample_1",
+      "material_state": "as-solution-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 11",
+          "section": "2.2 Synthetic/scientific alloy features via high-throughput computational thermodynamics",
+          "quote": "These phases, as well as all other phases either identified in alloy characterization efforts or predicted using the TCFE9 database were included (e.g. FCC matrix, B2, sigma, metal borides, etc. See Table 1)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        },
+        {
+          "page": 30,
+          "section": null,
+          "quote": "BCC (B2) (Fe,Ni)Al",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "sigma",
+      "sample_id": "sample_1",
+      "material_state": "as-solution-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 11",
+          "section": "2.2 Synthetic/scientific alloy features via high-throughput computational thermodynamics",
+          "quote": "These phases, as well as all other phases either identified in alloy characterization efforts or predicted using the TCFE9 database were included (e.g. FCC matrix, B2, sigma, metal borides, etc. See Table 1)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        },
+        {
+          "page": 30,
+          "section": null,
+          "quote": "Sigma",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_8",
+      "type": "Phase",
+      "name": "metal borides",
+      "sample_id": "sample_1",
+      "material_state": "as-solution-treated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 11",
+          "section": "2.2 Synthetic/scientific alloy features via high-throughput computational thermodynamics",
+          "quote": "These phases, as well as all other phases either identified in alloy characterization efforts or predicted using the TCFE9 database were included (e.g. FCC matrix, B2, sigma, metal borides, etc. See Table 1)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_9",
+      "type": "Phase",
+      "name": "NbC",
+      "sample_id": "sample_1",
+      "material_state": "as-solutionized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 30,
+          "section": null,
+          "quote": "NbC",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_10",
+      "type": "Phase",
+      "name": "C14 Laves Fe2(Mo,Nb)",
+      "sample_id": "sample_1",
+      "material_state": "as-solutionized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 30,
+          "section": null,
+          "quote": "C14 Laves Fe 2(Mo,Nb)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_11",
+      "type": "Phase",
+      "name": "M2B",
+      "sample_id": "sample_1",
+      "material_state": "as-solutionized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 30,
+          "section": null,
+          "quote": "M 2B",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_12",
+      "type": "Phase",
+      "name": "M3B2",
+      "sample_id": "sample_1",
+      "material_state": "as-solutionized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 30,
+          "section": null,
+          "quote": "M 3B2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_13",
+      "type": "Phase",
+      "name": "MB2",
+      "sample_id": "sample_1",
+      "material_state": "as-solutionized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 30,
+          "section": null,
+          "quote": "MB 2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_14",
+      "type": "Phase",
+      "name": "Nb3B2",
+      "sample_id": "sample_1",
+      "material_state": "as-solutionized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 30,
+          "section": null,
+          "quote": "Nb3B2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_15",
+      "type": "Phase",
+      "name": "NbNi3",
+      "sample_id": "sample_1",
+      "material_state": "as-solutionized",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 30,
+          "section": null,
+          "quote": "NbNi3",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "nano-scale intermetallic compound and carbide particles",
+      "sample_id": "sample_1",
+      "material_state": "creep-rupture tested at 750°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "nano-scale",
+        "morphology": null,
+        "location": "grain boundary and inside the FCC-Fe matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "Page 9",
+          "section": "2.1 Experimental Alloy Data",
+          "quote": "Figure 1 represents typical microstructures of AFA alloys after aging (Figure 1a) or creep-rupture testing (Figure 1b) at 750°C [20] which consist of multiple second-phase particles including nano-scale intermetallic compounds and carbides formed on the grain boundary and inside the FCC-Fe matrix.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "c6a340569441007c:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "creep-rupture tested at 750°C",
+      "property": "creep rupture life",
+      "value": null,
+      "min_value": 20,
+      "max_value": 7000,
+      "uncertainty": null,
+      "unit": "h",
+      "conditions": {
+        "temperature_c": 750,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "creep test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "Page 10",
+          "section": "2.1 Experimental Alloy Data",
+          "quote": "Creep rupture lifetimes were in the range of ~20 to 7000 h, with most falling in the ~100-1500 h range.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-solution-treated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "Page 7",
+          "section": "2. Experimental Data and Computational Methods",
+          "quote": "high creep strength via controlled second-phase precipitation strengthening at elevated temperatures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-solution-treated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "Page 9",
+          "section": "2.1 Experimental Alloy Data",
+          "quote": "use of minor alloying additions (such as Mn, Si, Nb, Mo, W, Ti, Zr, Hf, Y, Cu, C, and B) to improve stability of the austenite-phase matrix, increase the effect of solution hardening, maximize strengthening second-phases (carbides, intermetallic-phases)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c6a340569441007c:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "random forest",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict LMP of AFA alloys",
+      "inputs": [
+        "elemental compositions",
+        "stress",
+        "solutionizing temperature",
+        "ratio between Nb and C"
+      ],
+      "target": "LMP",
+      "dataset": "AFA alloys dataset",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 39,
+          "section": null,
+          "quote": "Training results of machine learning models with simple/superficial features, i.e., elemental compositions, stress, solutionizing temperature, and the ratio between Nb and C: (a) accuracy, represented as PCC of five different machine learning models (RF: random forest, LR: linear regression, NN: nearest neighbor, KR: kernel ridge regression, BR: Bayesian ridge regression) as a function of number of top ranking features",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "c6a340569441007c:part:003"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "linear regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict LMP of AFA alloys",
+      "inputs": [
+        "elemental compositions",
+        "stress",
+        "solutionizing temperature",
+        "ratio between Nb and C"
+      ],
+      "target": "LMP",
+      "dataset": "AFA alloys dataset",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 39,
+          "section": null,
+          "quote": "Training results of machine learning models with simple/superficial features, i.e., elemental compositions, stress, solutionizing temperature, and the ratio between Nb and C: (a) accuracy, represented as PCC of five different machine learning models (RF: random forest, LR: linear regression, NN: nearest neighbor, KR: kernel ridge regression, BR: Bayesian ridge regression) as a function of number of top ranking features",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "c6a340569441007c:part:003"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "nearest neighbor",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict LMP of AFA alloys",
+      "inputs": [
+        "elemental compositions",
+        "stress",
+        "solutionizing temperature",
+        "ratio between Nb and C"
+      ],
+      "target": "LMP",
+      "dataset": "AFA alloys dataset",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 39,
+          "section": null,
+          "quote": "Training results of machine learning models with simple/superficial features, i.e., elemental compositions, stress, solutionizing temperature, and the ratio between Nb and C: (a) accuracy, represented as PCC of five different machine learning models (RF: random forest, LR: linear regression, NN: nearest neighbor, KR: kernel ridge regression, BR: Bayesian ridge regression) as a function of number of top ranking features",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "c6a340569441007c:part:003"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_4",
+      "name": "kernel ridge regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict LMP of AFA alloys",
+      "inputs": [
+        "elemental compositions",
+        "stress",
+        "solutionizing temperature",
+        "ratio between Nb and C"
+      ],
+      "target": "LMP",
+      "dataset": "AFA alloys dataset",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 39,
+          "section": null,
+          "quote": "Training results of machine learning models with simple/superficial features, i.e., elemental compositions, stress, solutionizing temperature, and the ratio between Nb and C: (a) accuracy, represented as PCC of five different machine learning models (RF: random forest, LR: linear regression, NN: nearest neighbor, KR: kernel ridge regression, BR: Bayesian ridge regression) as a function of number of top ranking features",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "c6a340569441007c:part:003"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_5",
+      "name": "Bayesian ridge regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "predict LMP of AFA alloys",
+      "inputs": [
+        "elemental compositions",
+        "stress",
+        "solutionizing temperature",
+        "ratio between Nb and C"
+      ],
+      "target": "LMP",
+      "dataset": "AFA alloys dataset",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 39,
+          "section": null,
+          "quote": "Training results of machine learning models with simple/superficial features, i.e., elemental compositions, stress, solutionizing temperature, and the ratio between Nb and C: (a) accuracy, represented as PCC of five different machine learning models (RF: random forest, LR: linear regression, NN: nearest neighbor, KR: kernel ridge regression, BR: Bayesian ridge regression) as a function of number of top ranking features",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "c6a340569441007c:part:003"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,520 @@
+{
+  "document_id": "8e41fbbdbb6484cf",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Atomistic simulations of high-temperature creep in nanotwinned TiAl alloys",
+    "authors": [
+      "Yongpan Zeng",
+      "Xiaoyan Li"
+    ],
+    "journal": "Extreme Mechanics Letters",
+    "year": 2021,
+    "doi": "10.1016/j.eml.2021.101253"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "TiAl alloy",
+      "material_category": "intermetallic alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Here, we performed a series of large-scale atomistic simulations for high-temperature creep in nanocrystalline and nanotwinned γ-TiAl alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "NC γ-TiAl sample",
+      "canonical_name": "TiAl",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "nanocrystalline",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "nanocrystalline and nanotwinned γ-TiAl alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "8e41fbbdbb6484cf:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "stoichiometric",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "nanocrystalline and nanotwinned γ-TiAl alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "8e41fbbdbb6484cf:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methods",
+          "quote": "The NC sample is compared with NT samples. The simulated NC and NT samples contain randomly oriented columnar grains constructed by the Voronoi method.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "NT γ-TiAl sample",
+      "canonical_name": "TiAl",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "nanotwinned",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "nanocrystalline and nanotwinned γ-TiAl alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "8e41fbbdbb6484cf:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "stoichiometric",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "1",
+              "section": "Abstract",
+              "quote": "nanocrystalline and nanotwinned γ-TiAl alloys",
+              "table": null,
+              "figure": null,
+              "chunk_id": "8e41fbbdbb6484cf:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methods",
+          "quote": "We constructed two types of samples: one type of sample with dimensions of 50 × 50 × 2.8 nm3 and a mean grain size varying from 3.1 nm to 12.5 nm and another type of sample with dimensions of 60 × 60 × 2.8 nm3 and a mean grain size of 20 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation setup",
+      "parameters": {
+        "temperature_c": null,
+        "time": "200 ps equilibration",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "dimensions_nm3": "50 × 50 × 2.8",
+          "grain_size_nm": "3.1 to 12.5",
+          "texture": "(110)-textured"
+        }
+      },
+      "input_state": "initial",
+      "output_state": "nanocrystalline",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methods",
+          "quote": "The simulated NC and NT samples contain randomly oriented columnar grains constructed by the Voronoi method. We constructed two types of samples: one type of sample with dimensions of 50 × 50 × 2.8 nm3 and a mean grain size varying from 3.1 nm to 12.5 nm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "molecular dynamics simulation setup",
+      "parameters": {
+        "temperature_c": null,
+        "time": "200 ps equilibration",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "dimensions_nm3": "60 × 60 × 2.8",
+          "grain_size_nm": "20",
+          "texture": "(110)-textured",
+          "twin_thickness_nm": "0.70 to 17.42"
+        }
+      },
+      "input_state": "initial",
+      "output_state": "nanotwinned",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methods",
+          "quote": "another type of sample with dimensions of 60 × 60 × 2.8 nm3 and a mean grain size of 20 nm. The first type is used to study the effects of applied stress σ, temperature T and grain size d on creep deformation, and the second type is used to investigate the effects of twin thickness λ on creep deformation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ-TiAl",
+      "sample_id": "sample_1",
+      "material_state": "nanocrystalline",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "TiAl",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methods",
+          "quote": "the unit cell of the γ-TiAl lattice (face-centered tetragonal lattice)",
+          "table": null,
+          "figure": "Fig. 1(a)",
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "twins",
+      "sample_id": "sample_2",
+      "material_state": "nanotwinned",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "twin thickness varies from 0.70 nm to 17.42 nm",
+        "morphology": "nanoscale twins",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methods",
+          "quote": "the twin thickness varies from 0.70 nm to 17.42 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "nanotwinned",
+      "property": "creep strain rate",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1200,
+        "strain_rate": null,
+        "loading_mode": "constant stress",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1 Creep behaviors of nanocrystalline and nanotwinned samples",
+          "quote": "For a given stress, the NT samples have lower creep strain rates than the NC sample, as indicated by the comparison between Fig. 2(c) and (d).",
+          "table": null,
+          "figure": "Fig. 2(c) and (d)",
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary diffusion",
+      "category": "diffusion",
+      "sample_id": "sample_1",
+      "material_state": "nanocrystalline",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Creep mechanisms of nanocrystalline and nanotwinned samples",
+          "quote": "in the low-stress regime, the dominant creep mechanism revealed from our MD simulations is GB diffusion",
+          "table": null,
+          "figure": "Fig. 3(b)",
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "grain boundary sliding",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "nanocrystalline",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Creep mechanisms of nanocrystalline and nanotwinned samples",
+          "quote": "in the moderate-stress regime, GB sliding dominates the creep mechanism",
+          "table": null,
+          "figure": "Fig. 3(c)",
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation nucleation and slip",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "nanocrystalline",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Creep mechanisms of nanocrystalline and nanotwinned samples",
+          "quote": "in the high-stress regime, creep is governed by dislocation motion",
+          "table": null,
+          "figure": "Fig. 3(d)",
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "detwinning due to twin boundary migration",
+      "category": "deformation",
+      "sample_id": "sample_2",
+      "material_state": "nanotwinned",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.4 Influence of twin thickness on creep in the nanotwinned sample",
+          "quote": "for a smaller twin thickness, detwinning due to TB migration dominates creep.",
+          "table": null,
+          "figure": "Fig. 6(a) and (b)",
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "nanocrystalline",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methods",
+          "quote": "the unit cell of the γ-TiAl lattice (face-centered tetragonal lattice)",
+          "table": null,
+          "figure": "Fig. 1(a)",
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_2",
+      "sample_id": "sample_2",
+      "material_state": "nanotwinned",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methods",
+          "quote": "the twin thickness varies from 0.70 nm to 17.42 nm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "nanotwinned",
+      "conditions": {
+        "stress": "low"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.4 Influence of twin thickness on creep in the nanotwinned sample",
+          "quote": "GB diffusion dominates the creep in the low-stress regime",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "nanotwinned",
+      "conditions": {
+        "stress": "moderate"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Creep mechanisms of nanocrystalline and nanotwinned samples",
+          "quote": "GB sliding dominates the creep mechanism",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_3",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "nanotwinned",
+      "conditions": {
+        "stress": "high"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2 Creep mechanisms of nanocrystalline and nanotwinned samples",
+          "quote": "creep is governed by dislocation motion",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_4",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "nanotwinned",
+      "conditions": {
+        "stress": "high",
+        "twin_thickness": "small"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.4 Influence of twin thickness on creep in the nanotwinned sample",
+          "quote": "for a smaller twin thickness, detwinning due to TB migration dominates creep.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8e41fbbdbb6484cf:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

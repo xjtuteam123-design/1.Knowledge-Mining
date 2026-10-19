@@ -1,0 +1,485 @@
+{
+  "document_id": "fdbed60110426a29",
+  "chunk_id": "fdbed60110426a29:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "A thermodynamically consistent constitutive model for diffusion-assisted plasticity in Ni-based superalloys",
+    "authors": [
+      "D. Barba",
+      "E. Alabort",
+      "D. Garcia-Gonzalez",
+      "J.J. Moverare",
+      "R.C. Reed",
+      "A. Jérusalem"
+    ],
+    "journal": "International Journal of Plasticity",
+    "year": 2018,
+    "doi": "10.1016/j.ijplas.2017.12.007"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "1. Introduction",
+          "quote": "Ni-based superalloys are a class of materials widely used in the aerospace industry due to their outstanding properties at high temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "MD2",
+      "canonical_name": "Ni-5.0Al-5.1Co-8.0Cr-0.1Hf-2.1Mo-6.0Ta-0.1Si-1.3Ti-8.1W (wt.%)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution treated and aged",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 5.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Co",
+          "value": 5.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Cr",
+          "value": 8.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Hf",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 2.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": 6.0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Si",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ti",
+          "value": 1.3,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "W",
+          "value": 8.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "2. Experimental creep campaign",
+          "quote": "Table 1: Chemical composition (wt.% and at.%) of Ni-based superalloy MD2.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        },
+        {
+          "page": 9,
+          "section": "2. Experimental creep campaign",
+          "quote": "The material was solution treated at 1275◦C for 8 hours, followed by 6 hours of ageing at 1080 ◦C and ﬁnally at 870◦C for 16 hours.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": 1275,
+        "time": "8 hours",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "2. Experimental creep campaign",
+          "quote": "The material was solution treated at 1275◦C for 8 hours, followed by 6 hours of ageing at 1080 ◦C and ﬁnally at 870◦C for 16 hours.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "ageing",
+      "parameters": {
+        "temperature_c": 1080,
+        "time": "6 hours",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "2. Experimental creep campaign",
+          "quote": "The material was solution treated at 1275◦C for 8 hours, followed by 6 hours of ageing at 1080 ◦C and ﬁnally at 870◦C for 16 hours.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "ageing",
+      "parameters": {
+        "temperature_c": 870,
+        "time": "16 hours",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "2. Experimental creep campaign",
+          "quote": "The material was solution treated at 1275◦C for 8 hours, followed by 6 hours of ageing at 1080 ◦C and ﬁnally at 870◦C for 16 hours.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma' (L12)",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "1. Introduction",
+          "quote": "The in-service micromechanics of these materials consists of precipitation hardening of the γ′ phase (L12 crystal structure) embedded coherently in the γ face-centred cubic (FCC) matrix [2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma (FCC)",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "1. Introduction",
+          "quote": "The in-service micromechanics of these materials consists of precipitation hardening of the γ′ phase (L12 crystal structure) embedded coherently in the γ face-centred cubic (FCC) matrix [2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "diffusion-assisted microtwinning",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 18,
+          "section": "2.2. Microtwinning shearing in Ni-based superalloys",
+          "quote": "The diffusion of Co and Cr to this pseudo microtwin relaxes the wrong atomic structure and transforms this high energy fault to a low energy true microtwin embryo or superlattice extrinsic stacking fault (SESF) [Smith et al. 2016, Freund et al. 2017, Barba et al. 2017] (Fig. 4c-3). The advance of the twin partials is now limited by the segregation of Co and Cr to the growing fault (Fig. 4c-4). This implies long range diffusion and, therefore, a time-dependent shearing of the precipitates. In the present work, this is named diffusion-assisted plasticity and, constitutively, is treated as a phase transformation.",
+          "table": null,
+          "figure": "Fig. 4c",
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "2. Experimental creep campaign",
+          "quote": "The prototype single crystal Ni-based superalloy MD2 was used in this study. Its chemical composition is presented in Table 1.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "2. Experimental creep campaign",
+          "quote": "The material was solution treated at 1275◦C for 8 hours, followed by 6 hours of ageing at 1080 ◦C and ﬁnally at 870◦C for 16 hours.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "2. Experimental creep campaign",
+          "quote": "The material was solution treated at 1275◦C for 8 hours, followed by 6 hours of ageing at 1080 ◦C and ﬁnally at 870◦C for 16 hours.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "2. Experimental creep campaign",
+          "quote": "The material was solution treated at 1275◦C for 8 hours, followed by 6 hours of ageing at 1080 ◦C and ﬁnally at 870◦C for 16 hours.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "1. Introduction",
+          "quote": "The in-service micromechanics of these materials consists of precipitation hardening of the γ′ phase (L12 crystal structure) embedded coherently in the γ face-centred cubic (FCC) matrix [2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "1. Introduction",
+          "quote": "The in-service micromechanics of these materials consists of precipitation hardening of the γ′ phase (L12 crystal structure) embedded coherently in the γ face-centred cubic (FCC) matrix [2].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "solution treated and aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 18,
+          "section": "2.2. Microtwinning shearing in Ni-based superalloys",
+          "quote": "The diffusion of Co and Cr to this pseudo microtwin relaxes the wrong atomic structure and transforms this high energy fault to a low energy true microtwin embryo or superlattice extrinsic stacking fault (SESF) [Smith et al. 2016, Freund et al. 2017, Barba et al. 2017] (Fig. 4c-3). The advance of the twin partials is now limited by the segregation of Co and Cr to the growing fault (Fig. 4c-4). This implies long range diffusion and, therefore, a time-dependent shearing of the precipitates. In the present work, this is named diffusion-assisted plasticity and, constitutively, is treated as a phase transformation.",
+          "table": null,
+          "figure": "Fig. 4c",
+          "chunk_id": "fdbed60110426a29:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

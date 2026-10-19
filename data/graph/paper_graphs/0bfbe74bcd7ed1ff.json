@@ -1,0 +1,1429 @@
+{
+  "document_id": "0bfbe74bcd7ed1ff",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Accelerated discovery of refractory high-entropy alloys for strength-ductility co-optimization: An exploration in NbTaZrHfMo system by machine learning",
+    "authors": [
+      "Cheng Wen",
+      "Haicheng Shen",
+      "Yuwan Tian",
+      "Gongqi Lou",
+      "Nanchuan Wang",
+      "Yanjing Su"
+    ],
+    "journal": "Scripta Materialia",
+    "year": 2024,
+    "doi": "10.1016/j.scriptamat.2024.116240"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "NbTaZrHfMo refractory high-entropy alloy",
+      "material_category": "refractory high-entropy alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Herein, we formulate a machine learning-based design strategy fusing uncertainty estimation and clustering analysis to explore a special alloy system (NbTaZrHfMo) for collaborative optimization of HT strength and RT ductility.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "A1",
+      "canonical_name": "Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": 0.29,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 0.18,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 0.24,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.09,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "A2",
+      "canonical_name": "Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": 0.26,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 0.19,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 0.19,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.16,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "A3",
+      "canonical_name": "Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": 0.31,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 0.17,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 0.15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.14,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.23,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "A4",
+      "canonical_name": "Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": 0.27,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 0.21,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Zr",
+          "value": 0.13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.13,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.26,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 4,
+              "section": "Table 1",
+              "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Body",
+          "quote": "The four designed RHEAs are then synthesized by vacuum arc-melting and phase-detected by XRD before and after compression deformation at 1000 ℃.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Body",
+          "quote": "The four designed RHEAs are then synthesized by vacuum arc-melting and phase-detected by XRD before and after compression deformation at 1000 ℃.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Body",
+          "quote": "The four designed RHEAs are then synthesized by vacuum arc-melting and phase-detected by XRD before and after compression deformation at 1000 ℃.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_4",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Body",
+          "quote": "The four designed RHEAs are then synthesized by vacuum arc-melting and phase-detected by XRD before and after compression deformation at 1000 ℃.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_2",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_3",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "IM",
+      "sample_id": "sample_3",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_4",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "IM",
+      "sample_id": "sample_4",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "dendrite-interdendrite morphology",
+      "sample_id": null,
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Body",
+          "quote": "The microstructure of the newly-designed RHEAs present typical dendrite-interdendrite morphology (see in Supplementary Material).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 1217,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 1501,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_3",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 1487,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_4",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 1547,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 714,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 974,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_3",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 979,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_4",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 1061,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1000,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 304,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1200,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_2",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 669,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1200,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_3",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 710,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1200,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_4",
+      "material_state": "as-cast",
+      "property": "yield strength",
+      "value": 940,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 1200,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "property": "fracture strain",
+      "value": null,
+      "min_value": 50,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A1 Nb0.29Ta0.18Zr0.24Hf0.2Mo0.09 BCC 1217 714 304 > 50",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_14",
+      "sample_id": "sample_2",
+      "material_state": "as-cast",
+      "property": "fracture strain",
+      "value": 30.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A2 Nb0.26Ta0.19Zr0.19Hf0.16Mo0.2 BCC 1501 974 669 30.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_15",
+      "sample_id": "sample_3",
+      "material_state": "as-cast",
+      "property": "fracture strain",
+      "value": 20.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A3 Nb0.31Ta0.17Zr0.15Hf0.14Mo0.23 BCC + IM 1487 979 710 20.1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_16",
+      "sample_id": "sample_4",
+      "material_state": "as-cast",
+      "property": "fracture strain",
+      "value": 17.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "A4 Nb0.27Ta0.21Zr0.13Hf0.13Mo0.26 BCC + IM 1547 1061 940 17.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_3",
+      "material_state": "as-cast",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Body",
+          "quote": "It can be inferred that the SSS effect [ 28 ] is important for alloy A3 at HT and thus can contribute to its strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "support vector machine",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": null,
+      "inputs": [],
+      "target": null,
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Body",
+          "quote": "These data are then used to train ML models using support vector machine algorithm, which is always used for modeling small data.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0bfbe74bcd7ed1ff:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_2",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_3",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_3",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_3",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_4",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": "sample_4",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_4",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_6",
+      "sample_id": "sample_4",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_7",
+      "sample_id": "sample_3",
+      "material_state": "as-cast",
+      "conditions": {
+        "temperature_c": 1000
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

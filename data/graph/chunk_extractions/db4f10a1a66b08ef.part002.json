@@ -1,0 +1,822 @@
+{
+  "document_id": "db4f10a1a66b08ef",
+  "chunk_id": "db4f10a1a66b08ef:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Softening mechanism and fracture mode transformation behavior of P/M TA15 alloy at high temperatures",
+    "authors": [
+      "Shaolong Li",
+      "Shufeng Li",
+      "Lei Liu",
+      "Lina Gao",
+      "Yabo Fu",
+      "Xin Zhang",
+      "Bo Li"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2023,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "TA15 titanium alloy",
+      "material_category": "titanium alloy",
+      "evidence": []
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "TA15",
+      "canonical_name": "Ti-6Al-2Zr-1Mo-1V",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-sintered",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "bal.",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 6,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "V",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "spark plasma sintering (SPS)",
+      "parameters": {
+        "temperature_c": 1300,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "powder",
+      "output_state": "as-sintered",
+      "evidence": []
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "α-Ti",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "α lamella thickness ~0.8 μm",
+        "morphology": "lamellar",
+        "location": "within prior β grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "β-Ti",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "β lamella thickness 77 nm",
+        "morphology": "lamellar",
+        "location": "within prior β grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "prior β grain boundary",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "lath",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "within grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "crack",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "at prior β grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": []
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested at 500°C",
+      "property": "fracture toughness",
+      "value": 177.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa·m^1/2",
+      "conditions": {
+        "temperature_c": 500,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "calculated from tensile properties"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "4. Discussion",
+          "quote": "At 500 and 550 ◦C, the fracture toughness is 177.1 and 157.8 MPa m1/2, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tested at 550°C",
+      "property": "fracture toughness",
+      "value": 157.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa·m^1/2",
+      "conditions": {
+        "temperature_c": 550,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "calculated from tensile properties"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 8,
+          "section": "4. Discussion",
+          "quote": "At 500 and 550 ◦C, the fracture toughness is 177.1 and 157.8 MPa m1/2, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "tested at 500°C",
+      "property": "yield strength",
+      "value": 462,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 500,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "500 462 0.0909 579 0.1076 177.1 0.0037427 3.74",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "tested at 550°C",
+      "property": "yield strength",
+      "value": 450,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 550,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "550 450 0.0903 544 0.0990 157.8 0.0033660 3.37",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "tested at 600°C",
+      "property": "yield strength",
+      "value": 409,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "600 409 0.0768 488 0.0940 121.6 0.0024826 2.48",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "property": "yield strength",
+      "value": 320,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "650 320 0.0696 389 0.1280 124.2 0.0040783 4.08",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "tested at 500°C",
+      "property": "elongation",
+      "value": 0.0909,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "fraction",
+      "conditions": {
+        "temperature_c": 500,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "500 462 0.0909 579 0.1076 177.1 0.0037427 3.74",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "tested at 550°C",
+      "property": "elongation",
+      "value": 0.0903,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "fraction",
+      "conditions": {
+        "temperature_c": 550,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "550 450 0.0903 544 0.0990 157.8 0.0033660 3.37",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "tested at 600°C",
+      "property": "elongation",
+      "value": 0.0768,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "fraction",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "600 409 0.0768 488 0.0940 121.6 0.0024826 2.48",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_10",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "property": "elongation",
+      "value": 0.0696,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "fraction",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "650 320 0.0696 389 0.1280 124.2 0.0040783 4.08",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_11",
+      "sample_id": "sample_1",
+      "material_state": "tested at 500°C",
+      "property": "ultimate tensile strength",
+      "value": 579,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 500,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "500 462 0.0909 579 0.1076 177.1 0.0037427 3.74",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_12",
+      "sample_id": "sample_1",
+      "material_state": "tested at 550°C",
+      "property": "ultimate tensile strength",
+      "value": 544,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 550,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "550 450 0.0903 544 0.0990 157.8 0.0033660 3.37",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_13",
+      "sample_id": "sample_1",
+      "material_state": "tested at 600°C",
+      "property": "ultimate tensile strength",
+      "value": 488,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "600 409 0.0768 488 0.0940 121.6 0.0024826 2.48",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_14",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "property": "ultimate tensile strength",
+      "value": 389,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 650,
+        "strain_rate": null,
+        "loading_mode": "tensile",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "Table 4",
+          "quote": "650 320 0.0696 389 0.1280 124.2 0.0040783 4.08",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "grain boundary sliding",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "tested at high temperatures",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "4. Discussion",
+          "quote": "At high temperatures, since multiple grain boundaries slipping increases the likelihood of the wedge crack nucleation, the stress state at the trigeminal point of the grain boundary is similar to the three-way tensile stress state.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation passing through phase interfaces",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results",
+          "quote": "The dislocation can pass through phase interfaces at high temperatures, which alleviates the concentration of dislocations and stress concentration at phase interfaces",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "FABRICATED_BY",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-sintered",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "5. Conclusion",
+          "quote": "P/M TA15 alloy was prepared by SPS at 1300 ◦C in this work.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-sintered",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": null,
+          "quote": "TA15 (Ti-6Al-2Zr-1Mo-1V)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Results",
+          "quote": "there is a large amount of α-Ti and a little β-Ti",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Results",
+          "quote": "there is a large amount of α-Ti and a little β-Ti",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-sintered",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "5. Conclusion",
+          "quote": "P/M TA15 alloy was prepared by SPS at 1300 ◦C in this work.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "tested at 650°C",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Results",
+          "quote": "It also indicates that dislocations can cross the α/β phase interface and release stress on phase interfaces, thus obstructing the growth of cracks.",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested at high temperatures",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "4. Discussion",
+          "quote": "At high temperatures, since multiple grain boundaries slipping increases the likelihood of the wedge crack nucleation, the stress state at the trigeminal point of the grain boundary is similar to the three-way tensile stress state.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "db4f10a1a66b08ef:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,139 @@
+{
+  "document_id": "ab9ec9388bb07e02",
+  "chunk_id": "ab9ec9388bb07e02:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Materials",
+    "year": 2021,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "high-entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "svr.rbf was trained and used for the prediction of the yield strength of HEAs at room at 20°C, 600°C or 800°C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "support vector regression with radial basis function kernel",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "yield strength prediction of high-entropy alloys",
+      "inputs": [
+        "atomic size mismatch δ",
+        "valence electron concentration (VEC)",
+        "enthalpy of mixing (ΔHmix)",
+        "electronegativity difference Δχ",
+        "configurational entropy ΔSmix",
+        "work function φ",
+        "shear modulus μ",
+        "shear modulus difference Δμ",
+        "γ parameter",
+        "Λ parameter",
+        "Ω parameter"
+      ],
+      "target": "yield strength",
+      "dataset": "30–35 alloys depending on temperature",
+      "validation": "train/test split with training dataset sizes varied from 0.3 to 0.9 of the full dataset; bootstrap with replacement using 50 datasets of size 0.7; cross-validation",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "svr.rbf was trained and used for the prediction of the yield strength of HEAs at room at 20°C, 600°C or 800°C. A cross-validation approach was also used for pretesting of the svr.rbf algorithm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Since the size of the initial dataset was rather small (30–35 alloys, depending on temperature), it was important to choose the optimal ratio of the new-forming training and test datasets in all used algorithms to attain the best accuracy of the prediction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "The optimal size of the training dataset was defined at 0.7 of the whole initial datasets.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "A total of 50 bootstrap datasets with a size of 0.7 of the initial datasets, each created by choosing random alloys from the initial dataset",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "ridge regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "yield strength prediction of high-entropy alloys",
+      "inputs": [
+        "atomic size mismatch δ",
+        "valence electron concentration (VEC)",
+        "enthalpy of mixing (ΔHmix)",
+        "electronegativity difference Δχ",
+        "configurational entropy ΔSmix",
+        "work function φ",
+        "shear modulus μ",
+        "shear modulus difference Δμ",
+        "γ parameter",
+        "Λ parameter",
+        "Ω parameter"
+      ],
+      "target": "yield strength",
+      "dataset": "30–35 alloys depending on temperature",
+      "validation": "train/test split; bootstrap with replacement using 50 datasets of size 0.7",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "seven well-known machine learning algorithms [68], such as a ridge regression algorithm (rid), support vector regressions with a linear kernel (svr.lin), a polynomial kernel (svr.poly), and a radial basis function kernel (svr.rbf), a regression tree algorithm (tree) and a k-nearest neighbor algorithm (knn) were compared.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Among two algorithms showing the minimum prediction error (svr.rbf and rid; Figure 4), svr.rbf was trained and used for the prediction of the yield strength of HEAs at room at 20°C, 600°C or 800°C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab9ec9388bb07e02:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": []
+}

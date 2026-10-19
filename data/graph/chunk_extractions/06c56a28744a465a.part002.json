@@ -1,0 +1,145 @@
+{
+  "document_id": "06c56a28744a465a",
+  "chunk_id": "06c56a28744a465a:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Mahesh Kumar Gupta",
+      "Vinay Panwar",
+      "Rajendra Prasad Mahapatra"
+    ],
+    "journal": "Journal of Molecular Modeling",
+    "year": 2022,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Cu-Ta alloy",
+      "material_category": "nanocrystalline binary alloy",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Conclusions",
+          "quote": "The mechanical behavior of 9Cu-Ta nanoalloy at different temperatures from 50 to 1600 K and a fixed strain rate of 5 × 1010 s−1 has been investigated by classical molecular dynamic simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "9Cu-Ta nanoalloy",
+      "canonical_name": "9Cu-Ta",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "nanocrystalline",
+      "composition": [
+        {
+          "element": "Cu",
+          "value": 9,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "9",
+              "section": null,
+              "quote": "Potential energy of 9Cu-Ta nanoalloy with fixed strain rate 5 × 1010 s.−1",
+              "table": null,
+              "figure": "Fig. 7",
+              "chunk_id": "06c56a28744a465a:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Conclusions",
+          "quote": "The mechanical behavior of 9Cu-Ta nanoalloy at different temperatures from 50 to 1600 K and a fixed strain rate of 5 × 1010 s−1 has been investigated by classical molecular dynamic simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "thermal softening",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "nanocrystalline",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Conclusions",
+          "quote": "the nanocrystalline alloy exhibits prominent ductile behavior and degraded mechanical properties at higher temperatures due to the thermal softening effect",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "nanocrystalline",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Conclusions",
+          "quote": "The mechanical behavior of 9Cu-Ta nanoalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "nanocrystalline",
+      "conditions": {
+        "temperature_c": null
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Conclusions",
+          "quote": "exhibits prominent ductile behavior and degraded mechanical properties at higher temperatures due to the thermal softening effect",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c56a28744a465a:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,412 @@
+# （加Cr 抗氧化）含高Cr Nb-Si基合金的室温机械性能和高温抗氧化性能
+
+<!-- source: D:\总文献\（加Cr 抗氧化）含高Cr Nb-Si基合金的室温机械性能和高温抗氧化性能.pdf -->
+<!-- file_sha256: 0f309a6817b19fa41e707740d4aecf6f89bf9db4e13b4e343b6e0194916d3eab -->
+
+## Page 1
+
+Room temperature mechanical properties and high temperature
+oxidation resistance of a high Cr containing Nb –Si based alloy
+L.N. Jia, J.F. Weng, Z. Li, Z. Hong, L.F. Su, H. Zhang n
+School of Materials Science and Engineering, Beihang University, No. 37, Xueyuan Road, Beijing 100191, China
+article info
+Article history:
+Received 26 July 2014
+Accepted 1 November 2014
+Available online 10 November 2014
+Keywords:
+High Cr containing Nb –Si based alloy
+Directional solidi ﬁcation
+Heat treatment
+Mechanical property
+Oxidation resistance
+abstract
+A high Cr containing Nb –Si based alloy (Nb –12Si–24Ti–10Cr–2Al–2Hf) was prepared by non-equilibrium
+rapid directional solidi ﬁcation, and then was heat treated at 1400 1C for 10 h. The microstructure was
+greatly improved by these processes. Big block-like Nb 5Si3 was avoided and vermicular one as a
+strengthening phase uniformly distributed in the toughening Nb SS matrix. Exciting fracture toughness
+(17.9 MPa m1/2) and tensile strength (771 MPa) were achieved for this high Cr containing Nb –Si based
+alloy. Oxidation behaviors of this alloy at 1200 1C and 1250 1C were also studied.
+& 2014 Elsevier B.V. All rights reserved.
+1. Introduction
+Niobium–silicide based alloys have attracted signiﬁcant attention
+for their high melting points, low densities and good high tempera-
+ture performance. They exhibit a great potential to replace super-
+alloys in the hottest sections on advanced turbine engines[1,2].U pt o
+now, excellent combined mechanical properties including room
+temperature fracture toughness and high temperature strength have
+been obtained in the Nb –24.7Ti–8.2Hf–2.0Cr–1.9Al–16.0Si (MASC)
+a l l o yb yG e n e r a lE l e c t r i cC o .[3]. However, achieving a balance of
+mechanical and environmental properties is still a major challenge to
+the alloy designer given the diverse properties of the phases and
+alloy processing difﬁculties [4].
+There is a prominent contradiction between the room tempera-
+ture mechanical properties and high temperature oxidation resis-
+tance. The fracture toughness and tensile strength at room
+temperature mainly depend on the Nbss phase, but the oxidation
+resistance of the Nbss phase is very poor. Previous studies have
+indicated that the high Cr content Nb –Si based alloys processed
+better high temperature oxidation resistance compared with the low
+Cr content alloys [5,6]. After oxidation at 1250 1Cf o r1 0 0 h ,t h e
+weight change of the Nb–22Ti–14Si–20Cr–3Al–5Hf–1.5B–0.06Y alloy
+is about 29.10 mg/cm2, obviously better than that of the Nb –22Ti–
+14Si–10Cr–3Al–5Hf–1.5B–0.06Y alloy [5]. Unfortunately, high Cr con-
+tents would result in the appearance of large block-like Nb 5Si3.
+Furthermore, it would lead to an increase in the brittle-to-ductile
+transition temperature (BDTT) of Nb
+SS.H e n c e ,r o o mt e m p e r a t u r e
+mechanical properties of high Cr content Nb–Si based alloys are very
+poor [6–9]. For example, the fracture toughness of Nb –22Ti–14Si–
+xCr–2Al–2Hf alloy decreased from 14.3 MPa m 1/2 to 8.7 MPa m 1/2,
+when the content of Cr ( x) increased from 2 at% to 17 at% [6].
+To alleviate the disadvantage of Cr addition, re ﬁning micro-
+structure is of great importance. Over the past few years, a variety
+of processing schemes have been explored for the production of
+Nb–Si based alloys, including vacuum consumable or non-
+consumables arc-melting, powder-metallurgy, physical vapor
+deposition, spark plasma sintering and different kinds of direc-
+tional solidi ﬁcations [10–15]. Li et al. have tried to improve the
+room temperature fracture toughness of Nb –16Si–22Ti–2Al–2Hf–
+17Cr alloy by different processing schemes, such as vacuum non-
+consumable arc-melting (VCAM), vacuum induction melting (VIM)
+and induction skull melting [16]. Nevertheless, the room tempera-
+ture fracture toughness of these alloys is still very low, ranging
+from 7.5 to 9.7 MPa m 1/2 [16]. The morphology of Nb 5Si3 is not to
+be optimized, showing big block-like morphology. The contra-
+dictions between the high Cr content and ﬁne microstructure
+cannot be solved by these traditional methods.
+It is well known that microstructure can be re ﬁned by rapid
+solidiﬁcation. In this study, rapid directional solidi ﬁcation was
+employed to re ﬁne the microstructure of a type of high Cr content
+Nb–Si based alloys.
+2. Experimental procedures
+A master alloy with the nominal composition of Nb –12Si–24Ti–
+10Cr–2Al–2Hf was prepared by vacuum non-consumable arc-melting.
+Contents lists available at ScienceDirect
+journal homepage: www.elsevier.com/locate/msea
+Materials Science & Engineering A
+http://dx.doi.org/10.1016/j.msea.2014.1 1.001
+0921-5093/& 2014 Elsevier B.V. All rights reserved.
+n Corresponding author. Tel.: þ86 10 82316958; fax: þ86 10 82338598.
+E-mail address: zhanghu@buaa.edu.cn (H. Zhang).
+Materials Science & Engineering A 623 (2015) 32 –37
+
+## Page 2
+
+The alloy button was remelted ﬁve times to ensure homogeneity.
+Master alloy rods with a diameter of approximately 14 mm were
+prepared by electro-discharge machining (EDM). Liquid-metal-cooled
+directional solidiﬁcation was performed in a high vacuum directional
+solidiﬁcation furnace at 1 750 1C. The bars were assembled in Y 2O3
+crucibles, which sizes are 170 mm in length and 15 mm in inner. The
+furnace chamber for the directional solidiﬁc a t i o nw a sh e a t e du pw h e n
+the vacuum level in it was higher than 1.0 /C2 10/C0 3 Pa. High-purity
+argon was let into the furnace chamber as a protective atmosphere
+when the temperature was higher than 10001C. In order to compare
+the difference of the microstructure of this alloy solidi ﬁed under
+different conditions, the alloy was directionally solidiﬁed at rates of
+1.2 and 100 mm/min, which were marked as DS1.2 and DS100,
+respectively. Heat treatments were carried out in a high vacuum heat
+treatment furnace at 1350 1Ca n d1 4 0 0 1C for 10 h. The heating
+processes were similar to those used for directional solidiﬁcation. All
+the specimens after heat treatments were furnace cooled.
+Oxidized experiments were performed in a tube furnace at
+1200 1C and 1250 1C for 50 h. The specimens were cut into a
+cylinder with a diameter of 12 mm and a height of 5 mm by EDM.
+All specimens were ground with 800-grit SiC paper to ensure the
+same surface features. Before oxidation experiments, the alumina
+crucible were kept in the furnace at the test temperature for 2 h to
+ensure that the weight did not change any longer. At intervals of
+1 h, 3 h, 7 h, 10 h, 20 h, 30 h, 40 h and 50 h, the specimens and
+crucibles were weighted together by an analytical balance (Model
+CPA225D, Germany) with an accuracy of 0.0001 g.
+Microstructural analysis was performed in a scanning electron
+microscope (SEM) equipped with energy dispersive X-ray
+spectroscopy (EDS). Single-edge notched bending specimens
+(SENBs) with dimensions of 3 /C2 6 /C2 30 mm3 were used for room
+temperature fracture toughness measurements. The notch in the
+SENBs normal to the growth direction was prepared by EDM using
+a Mo wire 0.18 mm in diameter without any fatigue precracking.
+The crosshead speed during the bending tests was 0.1 mm/min.
+Specimens with 3 /C2 2 mm cross-section and 25 mm gauge length
+were employed for tensile tests which were carried out at room
+temperature with a crosshead speed of 0.025 mm/min. The
+indentation tests were performed using Nano Indenter XP (Agilent
+Technologies Inc.). A diamond Berkovich indenter (three-faced
+pyramid) was pressed into the Nb –Si alloys at a constant strain
+rate (0.05 s /C0 1). The indentation depth was set to be (1000) nm. K1c
+of Nb 5Si3 was calculated by the results of nano-indentation tests
+according to the equation
+K1C ¼ Cv E
+H
+/C18/C191=2 P
+c3=2 ð1Þ
+where E is the elasticity modulus of the phase, H is the hardness of
+the phase, c is the length of the crack, P is the load and Cv is the
+constant of the indenter.
+3. Results and discussion
+3.1. Microstructure of the DS alloys
+Fig. 1 shows the microstructure of the DS1.2 and DS100 alloys.
+The former mainly consists of Nb SS dendrites, Nb 5Si3 and Cr 2Nb
+Fig. 1. SEM images of the microstructure on both longitudinal (a, c) and transverse (b, d) sections of the DS1.2 alloy (a, b) and DS100 alloy (c, d), (e) enlarged image of the
+ﬁgure (c).
+L.N. Jia et al. / Materials Science & Engineering A 623 (2015) 32 –37 33
+
+## Page 3
+
+blocks ( Fig. 1 a and b), while the latter mainly consists of Nb SS
+dendrites, small-sized Nb3Si blocks and Cr 2Nb particles (Fig. 1c and
+d). The scales of all the constituent phases are signi ﬁcantly reﬁned
+under this rapid solidi ﬁcation condition. A metastable Nb 3Si phase
+with an island-like morphology and curved boundary is formed,
+exhibiting non-faceted growth. The Nb 3Si boundary is surrounded
+by a very ﬁne lamellar-like structure of Nb 5Si3 þNbSS (Fig. 1e).
+The growth of faceted phases is affected by the atomic deposit
+kinetic, interfacial tension, thermal and mass diffusion on the
+interface. Not only materials but also solidi ﬁcation condition
+determines these factors. Rapid solidi ﬁcation leads to large under-
+cooling, which would change the growth pattern of the Nb 3Si from
+lateral growth to continuous one. The reason is that a much
+greater driving force (undercooling) is capable of overcoming the
+free-energy barrier to continuous growth and this situation
+corresponds to the rough interface. As a result, a transition of
+Nb3Si from faceting to non-faceting behavior occurred.
+3.2. Microstructure of the heat treated alloys
+To improve the stability and homogeneity of the microstruc-
+ture, the DS100 alloy was heat treated at 1350 1C and 1400 1C for
+10 h, respectively. The microstructure of the heat treated alloys is
+shown in Fig. 2 . Metastable phase Nb 3Si completely transforms to
+Nb5Si3 during the heat treatments. After the heat treatment at
+1350 1C for 10 h, the microstructure displays a generally co-
+continuous distribution of the Nb SS and Nb 5Si3 phases. Nb 5Si3 in
+the eutectoid structure aggregates together and does not distri-
+bute uniformly. Besides, Nb 5Si3 tends to be spheroidized, and the
+lamellar-like morphology is not obvious. Cr 2Nb still presents in the
+heat treated microstructure, but in a slightly lower volume
+fraction, about 3%. After the heat treatment at 1400 1C for 10 h,
+the microstructure is very ﬁne, and vermicular-like Nb 5Si3 is
+uniformly distributed in the Nb SS matrix. The length of the
+vermicular-like Nb5Si3 is less than 20 μm, and the width is about
+5 μm. Lamellar-like Nb 5Si3 has spheroidized. The volume fraction
+of NbSS in the heat treated alloys is about 65%. Composition of the
+NbSS in the heat treated alloys is also analyzed, as shown in the
+Table 1 . It can be seen that the compositions of Nb SS in the two
+alloys have no obvious difference. After the heat treatments, the
+compositions of Nb SS on different areas are also similar. It can be
+induced that the main difference between the two heat-treated
+alloys is the distribution and morphology of Nb 5Si3.
+In common, the morphology of large sized Nb 5Si3, which is
+directly solidi ﬁed from the liquid as a stable phase, cannot be
+easily changed by heat treatments. Guo and Tewari et al. reported
+that this Nb 5Si3 would be coarsened rather than broken into small
+particles during the heat treatments [17,18]. In this paper, a
+metastable phase Nb 3Si is formed and enclosed by the lamellar-
+like Nb SS þ Nb5Si3. The existence of lamellar-like Nb SS þNb5Si3
+around some Nb 3Si indicates that the Nb 3Si has decomposed
+during the rapid solidi ﬁcation process. The Nb 3Si phase in this
+alloy can be decomposed in a short while. When the temperature
+rose from room temperature to 800 1C in two hours, the decom-
+position of Nb 3Si was completely ﬁnished. This fast transformation
+may be led by the addition of a high amount of Cr contents.
+The contents and distribution of alloying elements around island-
+like Nb 3Si in DS100 have been analyzed, as shown in Fig. 3 .
+Fig. 2. SEM images of the DS100 alloy after the heat treatment at 1350 1C (a, b) and 1400 1C (c, d) for 10 h, respectively. (a, c) Longitudinal and (b, d) transverse
+microstructure.
+L.N. Jia et al. / Materials Science & Engineering A 623 (2015) 32 –3734
+
+## Page 4
+
+Compositions of ﬁve points are analyzed, and the results are
+shown in Table 2 . It can be seen that the contents of Cr, Ti and
+Hf of island-like Nb 3Si on its external rim are higher than those
+toward its center. The decomposition of Nb 3Si in the Nb –24Ti–
+12Si–2Hf–2Al–2Cr alloy is also investigated. After the heat treat-
+ment at 1450 1C for 100 h, Nb 3Si in this alloy with low Cr content
+does not decompose completely, and the content of Cr on the
+Nb3Si blocks is little. Compared with the compositions, it can be
+found that the content of Cr around Nb 3Si in the high Cr content
+alloy is higher than that in the low Cr content alloy, which may
+promote the transformation of Nb 3Si to Nb SS and Nb 5Si3. It can be
+inferred that during the solidi ﬁcation process, the Cr atoms are
+continuously exhausted from the melt. The solidi ﬁcation was very
+fast, there was not enough time for all the Nb 3Si to decompose.
+Nevertheless, during heat treatments, Nb 3Si completely trans-
+ferred to Nb 5Si3 and Nb SS.
+3.3. Room temperature mechanical properties and oxidation
+resistance
+Room temperature mechanical properties of this alloy were
+studied, as shown in Table 3. The fracture toughness and ductility
+of the DS alloy are very low, while those of the heat treated one are
+excellent. After the heat treatment at 1400 1C for 10 h, the tensile
+strength could reach 771 MPa with the ductility above 0.5%, and
+the fracture toughness was up to 17.9 MPa m 1/2, which are exciting
+improvements for high Cr containing Nb –Si based alloys.
+For the Nb –Si based alloys, high concentrations of Cr can
+improve the oxidation resistance, but degrade the fracture tough-
+ness and ductility [3,7]. In our study, although the Cr contents of
+the alloy were about 10 at%, an exciting balance of room tempera-
+ture mechanical properties was obtained as a result of the ﬁne and
+uniform microstructure. The crack growth path of the three-point
+bending test samples was analyzed, as shown in Fig. 4 . The crack
+grew through a large area of Nb
+5Si3 in the sample heat treated at
+1350 1C, while it passed much Nb SS matrix in the sample heat
+treated at 1400 1C. After the heat treatment at 1350 1C for 10 h, the
+eutectoid structure was not uniformly dispersed and the presence
+of continuous Nb 5Si3 particles provided the convenience for the
+propagation of the crack. Most of the cracks passed the Nb 5Si3
+phase, and the fracture behavior is intergranular fracture, as
+shown in Fig. 4 a. After the heat treatment at 1400 1C for 10 h,
+vermicular-like Nb
+5Si3 is uniformly distributed in the Nb SS matrix,
+and toughening phase supplies more bridging ligaments during
+the fracture process, cracks mainly pass by the ductile Nb SS phase
+(Fig. 4 b).
+Tensile strength and fracture toughness of three kinds of Nb SS
+(Nb–18.7Ti–1.7Cr–2.3Al–1.1Hf (marked as Nb SS1), Nb –28.6Ti–
+4.6Cr–2.9Al–1.6Hf (marked as Nb SS2) and Nb –26Ti–6Cr–2.5Al–
+1.5Hf (marked as Nb SS3) ) were also studied. Although the
+Cr content in Nb SS3 and Nb SS2 is higher than that of in Nb SS1,
+both of Nb SS2 and Nb SS3 display better fracture toughness
+(60–65 MPa m1/2) and tensile strength (about 700 –850 MPa) than
+that of Nb SS1, escepcially Nb SS3. It is indicated that the high
+content of Ti in Nb SS can alleviate the increase of BDTT of Cr in
+NbSS. Three kinds of Nb SS exhibit different fracture patterns, as
+shown in Fig. 5 . The Nb SS3 shows obvious dimple pattern, while
+NbSS1 exhibits quasi-cleavage fracture pattern. Moreover, the
+fracture toughness of Nb 5Si3 was also in ﬂuenced by the content
+of Ti. When the Nb 5Si3 contained about 24 –28 at% Ti, the K 1C of
+Nb5Si3 phase was about 10.17 MPa m 1/2. The K 1C of the Nb 5Si3
+phase which contains 15 –20 at% Ti is about 2.14 MPa m 1/2.I ti s
+manifested that high content of Ti is bene ﬁcial for the room
+temperature mechanical properties of Nb SS and Nb 5Si3. In this
+paper, although the content of Cr in Nb SS phase is high, the
+fracture toughness and tensile strength are excellent. Big block-
+like Nb 5Si3 is avoided, and most of all the Nb 5Si3 phase with
+vermicular shape uniformally distributes in the Nb SS. Secondly, the
+Table 1
+Composition of Nb SS in the heat treated alloys.
+NbSS Nb Ti Cr Al Hf Si
+1400 1C/10 h 56.06 27.25 12.44 2.16 1.28 0.81
+55.22 27.21 13.22 2.25 1.16 0.84
+55.84 27.30 12.56 2.25 1.13 0.93
+55.71 27.95 12.66 1.99 1.13 0.56
+55.58 27.59 12.27 1.82 1.12 1.62
+56.06 27.22 12.79 1.97 1.00 0.95
+1375 1C/10 h 55.68 27.32 13.14 2.12 1.14 0.60
+55.19 27.92 12.77 2.12 1.05 0.95
+55.34 27.49 13.12 2.22 1.05 0.78
+55.57 27.78 12.62 2.08 1.25 0.70
+55.34 27.49 13.12 2.22 1.05 0.78
+55.24 27.72 12.77 2.05 1.22 1.00
+Fig. 3. SEM images of the Nb 3Si phase.
+Table 2
+Compositions of different positions around Nb 3Si phase.
+Points Nb Si Ti Cr Hf
+1 55.17 23.37 18.68 1.03 1.76
+2 54.34 23.59 19.07 1.04 1.96
+3 53.35 23.56 19.88 1.04 2.18
+4 47.12 23.74 24.85 1.49 2.81
+5 25.97 0 18.24 53.32 2.47
+Table 3
+Mechanical properties of the Nb –12Si–24Ti–10Cr–2Al–2Hf alloy at different
+conditions.
+Condition Tensile strength (MPa) Fracture toughness (Mpa m
+1/2)
+1350 1C/10 h 449 463 15.1 1 1.2
+1400 1C/10 h 771 698 17.9 17.0
+DS 121 147 10.3 9.8
+L.N. Jia et al. / Materials Science & Engineering A 623 (2015) 32 –37 35
+
+## Page 5
+
+high content of Ti in this alloy ensures better fracture toughness
+and tensile strength of Nb SS.
+3.4. High temperature oxidation resistance
+Oxidation tests were conducted on the DS100 alloy after the
+heat treatment at 1400 1C, and the weight changes were recorded
+by thermogravimetry. Fig. 6 shows the weight gain per unit area as
+a function of the exposure time at 1200 1C and 1250 1C, respec-
+tively. This sample exhibits a linear plot of the kinetic curve with
+the weight gain of about 80 mg/cm 2 and 165 mg/cm2, respectively.
+So the outmost oxide scale does not provide suf ﬁcient protection
+for the substrate from further oxidation.
+According to the result of XRD, the oxidation products are a
+mixture of Nb 2O5, TiNb 2O7, CrNbO 4 and SiO 2. For this alloy, the
+predominant phase is Nb SS, which forms continuously as the
+matrix. During the oxidation, Nb SS could dissolve a certain amount
+of oxygen and then oxygen could permeate into the substrate
+through NbSS smoothly without effective resistance. The oxidation
+resistance of Nb –Si alloys is based on the volume fraction of
+silicide and Cr 2Nb but they do not form largely in this alloy.
+Although the content of Cr in the Nb SS phase was up to about
+13.75 at%, the oxidation resistance of this alloy is not good enough
+as Nb SS could not hinder the oxygen diffusion in the substrate.
+Moreover, it could be suggested that when Cr is dissolved in the
+NbSS, CrNbO 4 could not be easily formed on the surface.
+Although the oxidation resistance of this alloy is not adequate
+for the application requirement, it can be seen that more Cr or Si
+can be added in to rapidly solidi ﬁed Nb –Si alloys with ﬁne
+microstructure.
+4. Conclusion
+This work provided a new method of optimizing the mechan-
+ical properties of the high Cr containing Nb –Si based alloys. Rapid
+directional solidi ﬁcation was employed to fabricate the Nb –12Si–
+24Ti–10Cr–2Al–2Hf alloy, and the microstructure of this alloy has
+been greatly re ﬁned. Heat treatment was carried out to gain a
+stable microstructure. The room temperature fracture toughness
+and tensile strength as well as the high temperature oxidation
+resistance of this alloy were investigated. The conclusions of this
+work are as follows:
+(1) The big block-like Nb 5Si3 was avoided through the rapid
+solidiﬁcation, and the vermicular-like Nb 5Si3 was obtained
+through the decomposition of Nb 3Si. After the heat treatment
+at 1400 1C for 10 h, vermicular-like Nb 5Si3 as a strengthening
+phase uniformly distributed in the toughening Nb SS matrix.
+Fig. 4. SEM images of the crack growth path of the three-point bending tests samples after the heat treatment at 1350 1C (a) and 1400 1C (b) for 10 h.
+Fig. 5. Fracture morphology of tensile test samples: (a) Nb SS1, (b) Nb SS2 and (c) Nb SS3.
+Fig. 6. Oxidation kinetics of DS100 alloy after the heat treatment at 1400 1C for
+10 h in static air at 1200 1C and 1250 1C for 50 h.
+L.N. Jia et al. / Materials Science & Engineering A 623 (2015) 32 –3736
+
+## Page 6
+
+(2) The fracture toughness and tensile strength of the Nb –12Si–
+24Ti–10Cr–2Al–2Hf alloy after the heat treatment at 1400 1C
+were 17.9 MPa m1/2 and 771 MPa, respectively.
+(3) The weight gain of the Nb –12Si–24Ti–10Cr–2Al–2Hf alloy after
+the heat treatment at 1400 1C was 80 mg/cm 2 and 165 mg/cm2
+after the oxidation at 1200 1C and 1250 1C for 50 h.
+Acknowledgment
+The authors gratefully acknowledge the ﬁnancial support by
+National Natural Science Foundation of China under the Contract
+of 511010 05.
+References
+[1] J.L. Yu, K.F. Zhang, Z.K. Li, X. Zheng, G.F. Wang, R. Bai, Scr. Mater. 61 (2009)
+620–623.
+[2] B.P. Bewlay, M.R. Jackson, J.C. Zhao, P.R. Subramanian, Metall. Mater. Trans. 34A
+(2003) 2043 –2052.
+[3] B.P. Bewlay, M.R. Jackson, H.A. Lipsitt, Metall. Mater. Trans. 27A (1996)
+3801–3808.
+[4] Panos Tsakiropouos, Conference on Beyond Nickel-based superalloys, ECI,
+Bayreuth, 2013, p. 28.
+[5] L.Q. Chen, X.P. Guo, Trans. Mater. Heat Treat. 34 (2013) 30 –36 (in Chinese) .
+[6] L.G. Wang, L.N. Jia, R.J. Cui, L.J. Zheng, H. Zhang, Chin. J. Aeronaut. 25 (2012)
+292–296.
+[7] J. Geng, P. Tsakiropoulos, G. Shao, Intermetallics 14 (2006) 227 –235.
+[8] D.L. Davinson, K.S. Chan, Metall. Mater. Trans. 30A (1999) 2007 .
+[9] D.L. Davinson, K.S. Chan, D.L. Anton, Metall. Mater. Trans. 27A (1996)
+3007–3018.
+[10] S.J. Miuraa, Y.K. Murasatob, Y. Sekitob, Y. Tsutsumib, K. Ohkuboa, Y. Kimurac,
+Y. Mishimac, T. Mohria, Mater. Sci. Eng. A 510 –51 1 (2009) 317–321.
+[1 1] B.W. Xiong, C.C. Cai, Z.J. Wang, Mater. Sci. Eng. A 606 (2014) 68 –73.
+[12] C.H. Shang, D.V. Heerden, A.J. Gavens, T.P. Weihs, Acta Mater. 48 (2000)
+3533–3543.
+[13] H.S. Guo, X.P. Guo, Scr. Mater. 64 (201 1) 637 –641.
+[14] W.Y. Kim, H. Tanaka, A. Kasama, S. Hanada, Intermetallics 9 (201 1) 827 –834.
+[15] J.L. Yu, K.F. Zhang, Scr. Mater. 59 (2008) 714 –717.
+[16] X.J. Li, H.F. Chen, J.B. Sha, H. Zhang, Mater. Sci. Eng. 527A (2010) 6140 –6152.
+[1 7] R. Tewari, H.J. Song, A. Chatterjee, V.K. Vasudevan, Metall. Mater. Trans. 37A
+(2006) 2669 –2682.
+[18] H.S. Guo, X.P. Guo, Trans. Nonferr. Met. Soc. China 21 (201 1) 1283 –1290.
+L.N. Jia et al. / Materials Science & Engineering A 623 (2015) 32 –37 37

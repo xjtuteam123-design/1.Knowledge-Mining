@@ -1,0 +1,527 @@
+{
+  "document_id": "63a0098ea664b34b",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Molecular dynamics simulations of dynamics mechanical behavior and interfacial microstructure evolution of Ni-based single crystal superalloys under shock loading",
+    "authors": [
+      "Bin Chen",
+      "Wen-Ping Wu"
+    ],
+    "journal": "journal of materials research and technology",
+    "year": 2021,
+    "doi": "10.1016/j.jmrt.2021.11.116"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Ni-based single crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "superalloys atomic model",
+      "canonical_name": "Ni with Ni3Al precipitate",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed equilibrium",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "gamma matrix phase",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Methodologies",
+              "quote": "the g phase is composed of single crystal Ni",
+              "table": null,
+              "figure": null,
+              "chunk_id": "63a0098ea664b34b:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "gamma prime phase (Ni3Al)",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Methodologies",
+              "quote": "the g0 phase is composed of the intermetallic compound Ni3Al",
+              "table": null,
+              "figure": null,
+              "chunk_id": "63a0098ea664b34b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Methodologies",
+          "quote": "the three-dimensional cubic structure atomic model of the superalloys is established, as shown in Fig. 1 b, in which the g matrix phase is composed of Ni unit cells and the g0 phase is composed of Ni3Al unit cells.",
+          "table": null,
+          "figure": "Fig. 1b",
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "conjugate gradient optimization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "initial atomic structure",
+      "output_state": "optimized structure",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Methodologies",
+          "quote": "Before shock loading, the model is optimized by the conjugate gradient method",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "NPT relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT"
+        }
+      },
+      "input_state": "optimized structure",
+      "output_state": "thermodynamic equilibrium",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Methodologies",
+          "quote": "then the model is relaxed under the NPT ... ensemble to reach the thermodynamic equilibrium.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "shock loading simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVE",
+          "piston_velocity_km_per_s": "variable",
+          "boundary_conditions": "periodic X and Z, free Y"
+        }
+      },
+      "input_state": "thermodynamic equilibrium",
+      "output_state": "shocked equilibrium state",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Methodologies",
+          "quote": "The shock loading simulation process are carried out under the NVE ... ensemble, periodic boundary conditions are applied in X and Z directions of the model, and free boundary conditions in the Y direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "relaxed equilibrium",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2. Microstructural evolution characteristics under shock loading",
+          "quote": "the atomic structure will gradually change from a face-centered cubic (FCC) structure or a close-packed hexagonal (HCP) structure to a body-centered cubic (BCC) structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": "sample_1",
+      "material_state": "relaxed equilibrium",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2. Microstructural evolution characteristics under shock loading",
+          "quote": "the atomic structure will gradually change from a face-centered cubic (FCC) structure or a close-packed hexagonal (HCP) structure to a body-centered cubic (BCC) structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "relaxed equilibrium",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "quadrilateral network",
+        "location": "gamma/gamma prime phase interface",
+        "composition": "composed of Stair-rod dislocations",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Microstructural evolution characteristics under shock loading",
+          "quote": "a quadrilateral dislocation network is formed at the g/g0 phase interface, and the interface dislocation network in the Y direction is composed of Stair-rod dislocations",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Defect",
+      "name": "Lomer-Cottrell lock",
+      "sample_id": "sample_1",
+      "material_state": "shocked equilibrium at Up=0.5 km/s",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma/gamma prime interface",
+        "composition": "composed of Shockley dislocations, Stair-rod dislocations, and stacking faults",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Microstructural evolution characteristics under shock loading",
+          "quote": "the dislocations in the sample of superalloys consists of a number of Lomer-Cottrell lock which is composed of Shockley dislocations, Stair-rod dislocations, and stacking faults.",
+          "table": null,
+          "figure": "Fig. 4f",
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation slipping and dragging",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "shocked equilibrium at Up=0.5 km/s",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the deformation of the microstructure is dominated by the slipping and dragging of dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "structural phase transformation",
+      "category": "phase transformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "shocked equilibrium at Up=1.0 km/s",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the interfacial dislocation network is destroyed under the shock loading, the dislocations basically disappear, the atomic structure becomes disordered and undergoes structural phase transformation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Ni-based single crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Methodologies",
+          "quote": "Before shock loading, the model is optimized by the conjugate gradient method",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Methodologies",
+          "quote": "then the model is relaxed under the NPT ... ensemble to reach the thermodynamic equilibrium.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2. Methodologies",
+          "quote": "The shock loading simulation process are carried out under the NVE ... ensemble, periodic boundary conditions are applied in X and Z directions of the model, and free boundary conditions in the Y direction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed equilibrium",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2. Microstructural evolution characteristics under shock loading",
+          "quote": "the atomic structure will gradually change from a face-centered cubic (FCC) structure or a close-packed hexagonal (HCP) structure to a body-centered cubic (BCC) structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed equilibrium",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.2. Microstructural evolution characteristics under shock loading",
+          "quote": "the atomic structure will gradually change from a face-centered cubic (FCC) structure or a close-packed hexagonal (HCP) structure to a body-centered cubic (BCC) structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed equilibrium",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Microstructural evolution characteristics under shock loading",
+          "quote": "a quadrilateral dislocation network is formed at the g/g0 phase interface, and the interface dislocation network in the Y direction is composed of Stair-rod dislocations",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "shocked equilibrium at Up=0.5 km/s",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "3.2. Microstructural evolution characteristics under shock loading",
+          "quote": "the dislocations in the sample of superalloys consists of a number of Lomer-Cottrell lock which is composed of Shockley dislocations, Stair-rod dislocations, and stacking faults.",
+          "table": null,
+          "figure": "Fig. 4f",
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "shocked equilibrium at Up=0.5 km/s",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the interfacial dislocation network composed of the Stair-rod dislocation will prevent the Shockley dislocation from shearing the g0 phase, the deformation of the microstructure is dominated by the slipping and dragging of dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "63a0098ea664b34b:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

@@ -1,0 +1,159 @@
+{
+  "document_id": "2e0b6465d72f84c1",
+  "chunk_id": "2e0b6465d72f84c1:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Accelerated prediction of Vickers hardness of Co- and Ni-based superalloys from microstructure and composition using advanced image processing techniques and machine learning",
+    "authors": [
+      "Nikhil Khatavkar",
+      "Sucheta Swetlana",
+      "Abhishek Kumar Singh"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2020,
+    "doi": "10.1016/j.actamat.2020.06.042"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Co-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "Accelerated prediction of Vickers hardness of Co- and Ni-based superalloys from microstructure and composition using advanced image processing techniques and machine learning",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "Accelerated prediction of Vickers hardness of Co- and Ni-based superalloys from microstructure and composition using advanced image processing techniques and machine learning",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma (fcc)",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "The nickel based superalloys commonly used in structural materials generally possess a microstructure, which consists of a fcc matrix (γ) phase and a L12 precipitate (γ′) phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime (L12)",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "The nickel based superalloys commonly used in structural materials generally possess a microstructure, which consists of a fcc matrix (γ) phase and a L12 precipitate (γ′) phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "Gaussian process regression (GPR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of Vickers hardness of Co- and Ni-based superalloys from microstructure and composition",
+      "inputs": [
+        "microstructure (2-point correlation)",
+        "composition"
+      ],
+      "target": "Vickers hardness",
+      "dataset": "experimental data on Co- and Ni-based superalloys",
+      "validation": "trained on experimental data and tested on separate simulated data",
+      "metrics": {
+        "RMSE": 0.14,
+        "R2": 0.98
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "The ML model trained through Gaussian process regression (GPR) using microstructure and composition features show unprecedented accuracy with root mean square error (RMSE) of 0.14 and R2 of 0.98",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": null,
+          "quote": "Accelerated prediction of Vickers hardness of Co- and Ni-based superalloys from microstructure and composition",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2e0b6465d72f84c1:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,328 @@
+{
+  "document_id": "d9ad02308665aa17",
+  "chunk_id": "d9ad02308665aa17:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "S. Liu",
+      "J. Zhang",
+      "H. Wang"
+    ],
+    "journal": "Journal of Materials Science & Technology",
+    "year": 2024,
+    "doi": "10.1016/j.jmst.2023.06.053"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "FeCrAl alloy",
+      "material_category": "FeCrAl alloy",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Tensile properties",
+          "quote": "Tensile properties and mechanical thermal stability of the FeCrAl alloys.",
+          "table": null,
+          "figure": "Fig. 9",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "0.5Si-alloy",
+      "canonical_name": "FeCrAl-0.5Si",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-RFPA",
+      "composition": [
+        {
+          "element": "Si",
+          "value": 0.5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": "Results",
+              "quote": "the 0.5Si-alloy have the optimized maximum uniform elongation",
+              "table": null,
+              "figure": "Fig. 9 (d)",
+              "chunk_id": "d9ad02308665aa17:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results",
+          "quote": "the 0.5Si-alloy have the optimized maximum uniform elongation, see Fig. 9 (d).",
+          "table": null,
+          "figure": "Fig. 9 (d)",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "2Si-alloy",
+      "canonical_name": "FeCrAl-2Si",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-RFPA",
+      "composition": [
+        {
+          "element": "Si",
+          "value": 2,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": "Results",
+              "quote": "there is a plateau of uniform elongation ∼14.2% in the range of 800–1100 °C for the 2Si-alloy",
+              "table": null,
+              "figure": "Fig. 9 (d)",
+              "chunk_id": "d9ad02308665aa17:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results",
+          "quote": "there is a plateau of uniform elongation ∼14.2% in the range of 800–1100 °C for the 2Si-alloy almost with the lowest ductility among all our alloys",
+          "table": null,
+          "figure": "Fig. 9 (d)",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1100,
+        "time": "1 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-RFPA",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results",
+          "quote": "there is a maximum uniform elongation after 1100 °C annealing, and overall the 0.5Si-alloy have the optimized maximum uniform elongation",
+          "table": null,
+          "figure": "Fig. 9 (d)",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": "sample_2",
+      "material_state": "annealed at 800–1100 °C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results",
+          "quote": "the reprecipitation of Laves precipitates at GBs (see Fig. 6 (d5)), which severely weakens the GB cohesion strength.",
+          "table": null,
+          "figure": "Fig. 6 (d5)",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "annealed at 800–1100 °C",
+      "property": "uniform elongation",
+      "value": 14.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": "1 h",
+        "test_method": "tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results",
+          "quote": "there is a plateau of uniform elongation ∼14.2% in the range of 800–1100 °C for the 2Si-alloy",
+          "table": null,
+          "figure": "Fig. 9 (d)",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Discussion",
+          "quote": "the contribution of precipitation strengthening to YS of the RFPA 2Si-alloys is ∼26.5%.",
+          "table": null,
+          "figure": "Fig. S4",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "Zener pinning",
+      "category": "grain growth inhibition",
+      "sample_id": "sample_2",
+      "material_state": "annealed at 700–900 °C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1 Grain stabilizing mechanisms",
+          "quote": "grain growth at 700 °C is difficult due to the sufficient Zener pinning effect.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "stacking fault formation",
+      "category": "deformation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4.3 Enhancement of ductility via Si-alloying",
+          "quote": "(0001) basal plane SFs were emitted from the Laves/matrix interface to the precipitate interior, resulting in the extended SFs.",
+          "table": null,
+          "figure": "Fig. 13",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "annealed at 800–1100 °C",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results",
+          "quote": "the reprecipitation of Laves precipitates at GBs (see Fig. 6 (d5)), which severely weakens the GB cohesion strength.",
+          "table": null,
+          "figure": "Fig. 6 (d5)",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "STABILIZES",
+      "target_id": "phase_1",
+      "sample_id": "sample_2",
+      "material_state": "annealed at 700–900 °C",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.1 Grain stabilizing mechanisms",
+          "quote": "grain growth at 700 °C is difficult due to the sufficient Zener pinning effect.",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4.3 Enhancement of ductility via Si-alloying",
+          "quote": "Partial dislocation motion in the interior of Laves particles allows to alleviate the stress concentrations at interfaces and leads to synergistic deformation between precipitates and the alloy matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d9ad02308665aa17:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

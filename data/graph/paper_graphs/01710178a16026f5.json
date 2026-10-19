@@ -1,0 +1,187 @@
+{
+  "document_id": "01710178a16026f5",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Strain and Damage-Based Analytical Methods to Determine the Kachanov/Rabotnov Tertiary Creep-Damage Constants",
+    "authors": [
+      "Calvin M. Stewart",
+      "Ali P. Gordon"
+    ],
+    "journal": "International Journal of Damage Mechanics",
+    "year": 2012,
+    "doi": "10.1177/1056789511430519"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "nickel-base superalloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Abstract",
+          "quote": "In response, the classical Kachanov /C151Rabotnov coupled creep-damage constitutive model is often used to predict the creep deformation and damage of Ni-base superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "01710178a16026f5:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Waspaloy",
+      "canonical_name": "Waspaloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Results and Discussion",
+          "quote": "To demonstrate the analytical approaches, the subject material Waspaloy was chosen. Waspaloy is a precipitation hardening Ni-base superalloy that is used in high temperature applications. Literature has provided uniaxial specimen data at 700 /C14 C (Hyde et al., 1996).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "01710178a16026f5:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "property": "yield strength",
+      "value": 860,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Results and Discussion",
+          "quote": "The yield strength and Young’s modulus of Waspaloy at 700 /C14 C are 860 MPa and 178 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "01710178a16026f5:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "property": "Young's modulus",
+      "value": 178,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 700,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Results and Discussion",
+          "quote": "The yield strength and Young’s modulus of Waspaloy at 700 /C14 C are 860 MPa and 178 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "01710178a16026f5:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Results and Discussion",
+          "quote": "Waspaloy is a precipitation hardening Ni-base superalloy that is used in high temperature applications.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "01710178a16026f5:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Results and Discussion",
+          "quote": "The yield strength and Young’s modulus of Waspaloy at 700 /C14 C are 860 MPa and 178 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "01710178a16026f5:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Results and Discussion",
+          "quote": "The yield strength and Young’s modulus of Waspaloy at 700 /C14 C are 860 MPa and 178 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "01710178a16026f5:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

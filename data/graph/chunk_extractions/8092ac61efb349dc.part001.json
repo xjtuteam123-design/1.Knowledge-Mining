@@ -1,0 +1,981 @@
+{
+  "document_id": "8092ac61efb349dc",
+  "chunk_id": "8092ac61efb349dc:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Orientation-Dependent Morphology and Evolution of Interfacial Dislocation Networks in Ni-Based Single-Crystal Superalloys: A Molecular Dynamics Simulation",
+    "authors": [
+      "Bin Chen",
+      "Wen-Ping Wu",
+      "Ming-Xiang Chen"
+    ],
+    "journal": "Acta Mechanica Solida Sinica",
+    "year": 2020,
+    "doi": "10.1007/s10338-020-00172-1"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single-crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": null,
+          "quote": "In this paper, the morphology and evolution of interfacial dislocation networks of (100), (110) and (111) interphases of Ni-based single-crystal superalloys are studied by molecular dynamics (MD) simulations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Cubic-type model A",
+      "canonical_name": "Ni/Ni3Al interface model (100) cubic-type",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Modeling and Simulation",
+          "quote": "The A, C, E models are denoted as the cubic-type model",
+          "table": "Table 1",
+          "figure": "Fig. 1",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Cubic-type model C",
+      "canonical_name": "Ni/Ni3Al interface model (110) cubic-type",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Modeling and Simulation",
+          "quote": "The A, C, E models are denoted as the cubic-type model",
+          "table": "Table 1",
+          "figure": "Fig. 1",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Cubic-type model E",
+      "canonical_name": "Ni/Ni3Al interface model (111) cubic-type",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Modeling and Simulation",
+          "quote": "The A, C, E models are denoted as the cubic-type model",
+          "table": "Table 1",
+          "figure": "Fig. 1",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "Sandwich-type model B",
+      "canonical_name": "Ni/Ni3Al interface model (100) sandwich-type",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Modeling and Simulation",
+          "quote": "The B, D, F models are denoted as the sandwich-type model",
+          "table": "Table 1",
+          "figure": "Fig. 1",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "Sandwich-type model D",
+      "canonical_name": "Ni/Ni3Al interface model (110) sandwich-type",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Modeling and Simulation",
+          "quote": "The B, D, F models are denoted as the sandwich-type model",
+          "table": "Table 1",
+          "figure": "Fig. 1",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "Sandwich-type model F",
+      "canonical_name": "Ni/Ni3Al interface model (111) sandwich-type",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2. Modeling and Simulation",
+          "quote": "The B, D, F models are denoted as the sandwich-type model",
+          "table": "Table 1",
+          "figure": "Fig. 1",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": 1,
+        "time": "100 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "time_step": "1e-15 s"
+        }
+      },
+      "input_state": "initial",
+      "output_state": "as-relaxed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Modeling and Simulation",
+          "quote": "The models are relaxed using the NPT (the total number of particles ( N), the pressure ( P), and the temperature (T) are constant) ensemble for 100 ps to reach energy equilibrium. All models are relaxed at a time step of 1 × 10−15 s, and the temperature of the system is maintained at 1 K to reduce the thermal motion of atoms as much as possible.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": 1,
+        "time": "100 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "time_step": "1e-15 s"
+        }
+      },
+      "input_state": "initial",
+      "output_state": "as-relaxed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Modeling and Simulation",
+          "quote": "The models are relaxed using the NPT (the total number of particles ( N), the pressure ( P), and the temperature (T) are constant) ensemble for 100 ps to reach energy equilibrium. All models are relaxed at a time step of 1 × 10−15 s, and the temperature of the system is maintained at 1 K to reduce the thermal motion of atoms as much as possible.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": 1,
+        "time": "100 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "time_step": "1e-15 s"
+        }
+      },
+      "input_state": "initial",
+      "output_state": "as-relaxed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Modeling and Simulation",
+          "quote": "The models are relaxed using the NPT (the total number of particles ( N), the pressure ( P), and the temperature (T) are constant) ensemble for 100 ps to reach energy equilibrium. All models are relaxed at a time step of 1 × 10−15 s, and the temperature of the system is maintained at 1 K to reduce the thermal motion of atoms as much as possible.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_4",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": 1,
+        "time": "100 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "time_step": "1e-15 s"
+        }
+      },
+      "input_state": "initial",
+      "output_state": "as-relaxed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Modeling and Simulation",
+          "quote": "The models are relaxed using the NPT (the total number of particles ( N), the pressure ( P), and the temperature (T) are constant) ensemble for 100 ps to reach energy equilibrium. All models are relaxed at a time step of 1 × 10−15 s, and the temperature of the system is maintained at 1 K to reduce the thermal motion of atoms as much as possible.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_5",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": 1,
+        "time": "100 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "time_step": "1e-15 s"
+        }
+      },
+      "input_state": "initial",
+      "output_state": "as-relaxed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Modeling and Simulation",
+          "quote": "The models are relaxed using the NPT (the total number of particles ( N), the pressure ( P), and the temperature (T) are constant) ensemble for 100 ps to reach energy equilibrium. All models are relaxed at a time step of 1 × 10−15 s, and the temperature of the system is maintained at 1 K to reduce the thermal motion of atoms as much as possible.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_6",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": 1,
+        "time": "100 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "time_step": "1e-15 s"
+        }
+      },
+      "input_state": "initial",
+      "output_state": "as-relaxed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Modeling and Simulation",
+          "quote": "The models are relaxed using the NPT (the total number of particles ( N), the pressure ( P), and the temperature (T) are constant) ensemble for 100 ps to reach energy equilibrium. All models are relaxed at a time step of 1 × 10−15 s, and the temperature of the system is maintained at 1 K to reduce the thermal motion of atoms as much as possible.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The material is strengthened by a high volume fraction of hard cubical γ′ precipitates embedded coherently in a softer γ matrix, where the volume fraction of γ′ phase may reach 70% or even more [4].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma prime",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cubical",
+        "location": null,
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The material is strengthened by a high volume fraction of hard cubical γ′ precipitates embedded coherently in a softer γ matrix, where the volume fraction of γ′ phase may reach 70% or even more [4].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        },
+        {
+          "page": 2,
+          "section": "2. Modeling and Simulation",
+          "quote": "The γ and γ′ phases of Ni-based single-crystal superalloys have different lattice parameters; thus, a lattice mismatch occurs at the phase interface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "square",
+        "location": "phase interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "the dislocation network of the (100) orientation model exhibits a square structure at the phase interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rectangular",
+        "location": "phase interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "a rectangular structure exists at the (110) orientation model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "sample_3",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "equilateral triangle",
+        "location": "phase interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "an equilateral triangle structure exists at the (111) orientation model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "sample_4",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "square",
+        "location": "phase interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Results of the Sandwich-Type Model",
+          "quote": "The interfacial dislocation network shows a square structure, which is composed of perfect dislocations with a Burgess vector of 1/2[110].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "sample_5",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rectangular",
+        "location": "phase interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Results of the Sandwich-Type Model",
+          "quote": "It can be observed that the shape of the dislocation network is also rectangular.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_6",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "sample_6",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "equilateral triangle",
+        "location": "phase interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Results of the Sandwich-Type Model",
+          "quote": "We find that the interfacial dislocation network consists of equilateral triangles formed by multiple Shockley dislocation segments.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "property": "average atomic energy",
+      "value": -4.583,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "(100)",
+        "atmosphere": null,
+        "duration": "20 ps",
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "Figure2 shows that the (100) orientation model reaches an equilibrium state with the lowest energy of− 4.583 eV",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_4",
+      "material_state": "as-relaxed",
+      "property": "average atomic energy",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "eV",
+      "conditions": {
+        "temperature_c": 1,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "(100)",
+        "atmosphere": null,
+        "duration": "100 ps",
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Results of the Sandwich-Type Model",
+          "quote": "Like the cubic-type model, the (111) orientation model has the largest average atomic energy after relaxation, while the (100) orientation model has the smallest average atomic energy and the best stability.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation reaction",
+      "category": "dislocation dynamics",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "As the dislocation slides outward, the No. 5 dislocation continues to elongate. When it reaches 24.86 ˙A, the dislocations of Nos. 1, 2, 3 and 4 no longer continue to slide. At this time, the No. 5 dislocation dissociates and forms some small circle-shaped dislocations at the nodes of the dislocation networks",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation dissociation",
+      "category": "dislocation dynamics",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "At this time, the No. 5 dislocation dissociates and forms some small circle-shaped dislocations at the nodes of the dislocation networks (the green circles in Fig. 3), and this dissociation reaction process can minimize the local energy of the crystal caused by the dislocation motion, thereby reducing the system’s energy.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The material is strengthened by a high volume fraction of hard cubical γ′ precipitates embedded coherently in a softer γ matrix, where the volume fraction of γ′ phase may reach 70% or even more [4].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The material is strengthened by a high volume fraction of hard cubical γ′ precipitates embedded coherently in a softer γ matrix, where the volume fraction of γ′ phase may reach 70% or even more [4].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_4",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_4",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The material is strengthened by a high volume fraction of hard cubical γ′ precipitates embedded coherently in a softer γ matrix, where the volume fraction of γ′ phase may reach 70% or even more [4].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_4",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_4",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The material is strengthened by a high volume fraction of hard cubical γ′ precipitates embedded coherently in a softer γ matrix, where the volume fraction of γ′ phase may reach 70% or even more [4].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "the dislocation network of the (100) orientation model exhibits a square structure at the phase interface",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "a rectangular structure exists at the (110) orientation model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_3",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_3",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "an equilateral triangle structure exists at the (111) orientation model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_4",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_4",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Results of the Sandwich-Type Model",
+          "quote": "The interfacial dislocation network shows a square structure, which is composed of perfect dislocations with a Burgess vector of 1/2[110].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_5",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_5",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Results of the Sandwich-Type Model",
+          "quote": "It can be observed that the shape of the dislocation network is also rectangular.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_6",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_6",
+      "sample_id": "sample_6",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2. Results of the Sandwich-Type Model",
+          "quote": "We find that the interfacial dislocation network consists of equilateral triangles formed by multiple Shockley dislocation segments.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "As the dislocation slides outward, the No. 5 dislocation continues to elongate. When it reaches 24.86 ˙A, the dislocations of Nos. 1, 2, 3 and 4 no longer continue to slide. At this time, the No. 5 dislocation dissociates and forms some small circle-shaped dislocations at the nodes of the dislocation networks",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "At this time, the No. 5 dislocation dissociates and forms some small circle-shaped dislocations at the nodes of the dislocation networks (the green circles in Fig. 3), and this dissociation reaction process can minimize the local energy of the crystal caused by the dislocation motion, thereby reducing the system’s energy.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "mechanism_2",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "this dissociation reaction process can minimize the local energy of the crystal caused by the dislocation motion, thereby reducing the system’s energy.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Results of the Cubic-Type Model",
+          "quote": "Figure2 shows that the (100) orientation model reaches an equilibrium state with the lowest energy of− 4.583 eV",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_4",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_4",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Results of the Sandwich-Type Model",
+          "quote": "Like the cubic-type model, the (111) orientation model has the largest average atomic energy after relaxation, while the (100) orientation model has the smallest average atomic energy and the best stability.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "8092ac61efb349dc:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

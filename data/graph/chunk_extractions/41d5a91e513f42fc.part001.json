@@ -1,0 +1,934 @@
+{
+  "document_id": "41d5a91e513f42fc",
+  "chunk_id": "41d5a91e513f42fc:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Effect of surface relief on solid phase joining of heat-resistant nickel superalloys",
+    "authors": [
+      "E. V. Galieva",
+      "R. Ya. Lutfullin",
+      "A. Kh. Akhunova",
+      "V. A. Valitov",
+      "S. V. Dmitriev"
+    ],
+    "journal": "Science and Technology of Welding and Joining",
+    "year": 2018,
+    "doi": "10.1080/13621718.2018.1440992"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni3Al-based intermetallic superalloy",
+      "material_category": "intermetallic superalloy",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "Single-crystal Ni3Al-based intermetallic superalloy with γ′ and γ phases will be referred to as Alloy 1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "The deformed Ni-based superalloy having microduplex γ + δ ultrafine-grained structure is termed Alloy 2 with average grain sizes of γ and δ phases less than 1μm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Alloy 1 (VKNA)",
+      "canonical_name": "VKNA",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast single crystal",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Details of physical modelling and FEM",
+              "quote": "The chemical composition of Alloy 1, called VKNA, is presented in [7]; it includes elements such as Ni, Al, Cr, Mo, Zr, B, W, Ti, Co, Re.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "41d5a91e513f42fc:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "Single-crystal Ni3Al-based intermetallic superalloy with γ′ and γ phases will be referred to as Alloy 1. The initial state of Alloy 1 is primary γ-phase precipitates bordered by a eutectic consisting of γ′ phase with γ-phase interlayers",
+          "table": null,
+          "figure": "Figure 1(a,b)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Alloy 2 (EK61)",
+      "canonical_name": "EK61",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "3",
+              "section": "Details of physical modelling and FEM",
+              "quote": "The chemical composition of Alloy 2, called EK61, is presented in [4]; it includes Ni, Cr, Mo, B, Al and Cu.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "41d5a91e513f42fc:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "The deformed Ni-based superalloy having microduplex γ + δ ultrafine-grained structure is termed Alloy 2 with average grain sizes of γ and δ phases less than 1μm (Figure 1(c))",
+          "table": null,
+          "figure": "Figure 1(c)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "electrospark discharge machining",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "relief_depth_mm": 0.5,
+          "relief_profiles": [
+            "rectangular",
+            "triangular",
+            "wave-type",
+            "trapezoidal"
+          ]
+        }
+      },
+      "input_state": "single crystal",
+      "output_state": "single crystal with surface relief",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "The reliefs were cut with the use of an electrospark discharge machine. The same surface reliefs were considered in physical modelling and FEM",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "mechanical polishing",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "surface_roughness_Ra_um": 0.2
+        }
+      },
+      "input_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "output_state": "flat polished surface",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "Before joining, the surfaces were mechanically polished (Ra= 0.2μm), then washed in alcohol and finally in acetone.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "pressure welding",
+      "parameters": {
+        "temperature_c": 850,
+        "time": "68-72 min",
+        "pressure": null,
+        "atmosphere": "vacuum of 10-3 Pa",
+        "cooling_method": "cooling in furnace together with cooling of the furnace",
+        "deformation": null,
+        "strain_rate": 0.0001,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "compressive_stress_MPa": 100,
+          "compressive_strain_percent": 54
+        }
+      },
+      "input_state": "single crystal with surface relief",
+      "output_state": "solid phase joint sample",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "PW of Alloy 1 with Alloy 2 samples was performed with different surface reliefs under low-temperature superplasticity conditions at 850°C, under a compressive stress of 100MPa, vacuum of 10−3 Pa and an initial strain rate of 10−4 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "pressure welding",
+      "parameters": {
+        "temperature_c": 850,
+        "time": "68-72 min",
+        "pressure": null,
+        "atmosphere": "vacuum of 10-3 Pa",
+        "cooling_method": "cooling in furnace together with cooling of the furnace",
+        "deformation": "height reduction about 54%",
+        "strain_rate": 0.0001,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "compressive_stress_MPa": 100
+        }
+      },
+      "input_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "output_state": "solid phase joint sample",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "PW of Alloy 1 with Alloy 2 samples was performed with different surface reliefs under low-temperature superplasticity conditions at 850°C, under a compressive stress of 100MPa, vacuum of 10−3 Pa and an initial strain rate of 10−4 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "as-cast single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "primary precipitates",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "The initial state of Alloy 1 is primary γ-phase precipitates bordered by a eutectic consisting of γ′ phase with γ-phase interlayers",
+          "table": null,
+          "figure": "Figure 1(a,b)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "as-cast single crystal",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "eutectic with γ-phase interlayers",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "primary γ-phase precipitates bordered by a eutectic consisting of γ′ phase with γ-phase interlayers",
+          "table": null,
+          "figure": "Figure 1(a,b)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_2",
+      "material_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "less than 1 μm",
+        "morphology": "ultrafine-grained microduplex",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "microduplex γ + δ ultrafine-grained structure is termed Alloy 2 with average grain sizes of γ and δ phases less than 1μm",
+          "table": null,
+          "figure": "Figure 1(c)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "δ",
+      "sample_id": "sample_2",
+      "material_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "less than 1 μm",
+        "morphology": "ultrafine-grained microduplex",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "microduplex γ + δ ultrafine-grained structure is termed Alloy 2 with average grain sizes of γ and δ phases less than 1μm",
+          "table": null,
+          "figure": "Figure 1(c)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "diffusion zone",
+      "sample_id": "sample_1",
+      "material_state": "after pressure welding",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "5 ± 0.5 μm",
+        "morphology": null,
+        "location": "joining zone",
+        "composition": "Ni-based superalloy interlayer having an intermediate chemical composition; Cr in Alloy 1 up to 4 μm depth, W in Alloy 2 up to 1.5 μm depth",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "In the joining zone, the so-called diffusion zone is formed, which is the Ni-based superalloy interlayer having an intermediate chemical composition",
+          "table": null,
+          "figure": "Figure 4(b,d)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "oxide layer",
+      "sample_id": "sample_1",
+      "material_state": "initial surface",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "welded surface",
+        "composition": null,
+        "identification_status": "author_hypothesis"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "which can probably be explained by ripping off the oxide layer by the plastic flow of Alloy 2 along these surfaces",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "after pressure welding",
+      "property": "microhardness",
+      "value": 4300,
+      "min_value": null,
+      "max_value": null,
+      "unit": "MPa",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "microhardness measurement (Axiovert-100, micro-solid-state attachment)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Microhardness of SPJ",
+          "quote": "It was found that the microhardness of the primary precipitates is near 4300MPa, which is 2–5% higher than the microhardness of the eutectic (4150MPa). Microhardness of Alloy 2 is about 3400MPa.",
+          "table": null,
+          "figure": "Figure 6",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "after pressure welding",
+      "property": "microhardness",
+      "value": 4150,
+      "min_value": null,
+      "max_value": null,
+      "unit": "MPa",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "microhardness measurement (Axiovert-100, micro-solid-state attachment)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Microhardness of SPJ",
+          "quote": "It was found that the microhardness of the primary precipitates is near 4300MPa, which is 2–5% higher than the microhardness of the eutectic (4150MPa). Microhardness of Alloy 2 is about 3400MPa.",
+          "table": null,
+          "figure": "Figure 6",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "after pressure welding",
+      "property": "microhardness",
+      "value": 3400,
+      "min_value": null,
+      "max_value": null,
+      "unit": "MPa",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "microhardness measurement (Axiovert-100, micro-solid-state attachment)"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Microhardness of SPJ",
+          "quote": "Microhardness of Alloy 2 is about 3400MPa.",
+          "table": null,
+          "figure": "Figure 6",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "superplastic deformation",
+      "category": "deformation mechanism",
+      "sample_id": "sample_2",
+      "material_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "That is why plastic and superplastic deformation is more pronounced in the top element made of Alloy 2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "shear strain localisation",
+      "category": "deformation mechanism",
+      "sample_id": null,
+      "material_state": "after pressure welding",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Confirmation of a positive effect of the surface relief on SPJ formation",
+          "quote": "The relief provides deformation localisation, which can influence the joint quality.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "interdiffusion",
+      "category": "diffusion mechanism",
+      "sample_id": null,
+      "material_state": "after pressure welding",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Confirmation of a positive effect of the surface relief on SPJ formation",
+          "quote": "The remaining micro-voids disappear in the process of interdiffusion.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "Single-crystal Ni3Al-based intermetallic superalloy with γ′ and γ phases will be referred to as Alloy 1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_2",
+      "sample_id": "sample_2",
+      "material_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "The deformed Ni-based superalloy having microduplex γ + δ ultrafine-grained structure is termed Alloy 2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "Only Alloy 1 samples had a relief, whereas Alloy 2 samples had a flat surface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "Before joining, the surfaces were mechanically polished (Ra= 0.2μm)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "as-cast single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "PW of Alloy 1 with Alloy 2 samples was performed with different surface reliefs under low-temperature superplasticity conditions at 850°C, under a compressive stress of 100MPa, vacuum of 10−3 Pa and an initial strain rate of 10−4 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_4",
+      "sample_id": "sample_2",
+      "material_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "PW of Alloy 1 with Alloy 2 samples was performed with different surface reliefs under low-temperature superplasticity conditions at 850°C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "The initial state of Alloy 1 is primary γ-phase precipitates bordered by a eutectic consisting of γ′ phase with γ-phase interlayers",
+          "table": null,
+          "figure": "Figure 1(a,b)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "primary γ-phase precipitates bordered by a eutectic consisting of γ′ phase with γ-phase interlayers",
+          "table": null,
+          "figure": "Figure 1(a,b)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "microduplex γ + δ ultrafine-grained structure is termed Alloy 2 with average grain sizes of γ and δ phases less than 1μm",
+          "table": null,
+          "figure": "Figure 1(c)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_2",
+      "material_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Details of physical modelling and FEM",
+          "quote": "microduplex γ + δ ultrafine-grained structure is termed Alloy 2 with average grain sizes of γ and δ phases less than 1μm",
+          "table": null,
+          "figure": "Figure 1(c)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "after pressure welding",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "In the joining zone, the so-called diffusion zone is formed, which is the Ni-based superalloy interlayer having an intermediate chemical composition",
+          "table": null,
+          "figure": "Figure 4(b,d)",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "after pressure welding",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Microhardness of SPJ",
+          "quote": "It was found that the microhardness of the primary precipitates is near 4300MPa",
+          "table": null,
+          "figure": "Figure 6",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "after pressure welding",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Microhardness of SPJ",
+          "quote": "the microhardness of the eutectic (4150MPa)",
+          "table": null,
+          "figure": "Figure 6",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "after pressure welding",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Microhardness of SPJ",
+          "quote": "Microhardness of Alloy 2 is about 3400MPa.",
+          "table": null,
+          "figure": "Figure 6",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "deformed, microduplex γ + δ ultrafine-grained",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Results and discussion",
+          "quote": "That is why plastic and superplastic deformation is more pronounced in the top element made of Alloy 2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "after pressure welding",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Confirmation of a positive effect of the surface relief on SPJ formation",
+          "quote": "The remaining micro-voids disappear in the process of interdiffusion.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "process_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "after pressure welding",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Confirmation of a positive effect of the surface relief on SPJ formation",
+          "quote": "The relief provides deformation localisation, which can influence the joint quality.",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "41d5a91e513f42fc:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

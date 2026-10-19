@@ -1,0 +1,833 @@
+{
+  "document_id": "af40a89d45d04e86",
+  "chunk_id": "af40a89d45d04e86:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Phase-Field Simulation of the Effect of Elastic Inhomogeneity on Microstructure Evolution in Ni-Based Superalloys",
+    "authors": [
+      "Yuhki Tsukada",
+      "Yoshinori Murata",
+      "Toshiyuki Koyama",
+      "Masahiko Morinaga"
+    ],
+    "journal": "Materials Transactions",
+    "year": 2009,
+    "doi": "10.2320/matertrans.MBW200826"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Phase-field simulation is performed to examine the effect of elastic inhomogeneity between the γ and γ' phases on microstructure evolution of the γ' phase in Ni-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "TMS-26 alloy",
+      "canonical_name": "TMS-26",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "Elastic constants of the TMS-26 alloy at 1373 K (Cm 11 ¼ 184, Cm 12 ¼ 135, Cm 44 ¼ 88:1, Cp 11 ¼ 209, Cp 12 ¼ 142, Cp 44 ¼ 90:4 GPa)6) were employed in this simulation, and the volume fraction of the γ' phase in the equilibrium state was set to be 55%.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "phase-field simulation",
+      "parameters": {
+        "temperature_c": 1373,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "dimension": "2D",
+          "boundary_conditions": "periodic",
+          "time_steps": [
+            "10000",
+            "20000",
+            "40000",
+            "80000"
+          ],
+          "initial_condition": "supersaturated solid solution with random noise",
+          "gamma_prime_equilibrium_volume_fraction": "55%",
+          "lattice_misfit": "-0.003",
+          "double_well_potential_height_J_per_m3": "1.7e7",
+          "gradient_energy_coefficient_J_per_m": "2.1e-10",
+          "W1_J_per_mol": "1.20e3",
+          "W2_J_per_mol": "1.45e3"
+        }
+      },
+      "input_state": "supersaturated solid solution with random noise of field variables",
+      "output_state": "coarsened two-phase γ/γ' microstructure",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "Phase-field simulation at a temperature of 1373 K was performed by solving the two sets of eqs. (1) and (2) numerically, using the explicit method under the periodic boundary conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ' (L12)",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "attributes": {
+        "phase_fraction": "55%",
+        "size": null,
+        "morphology": "cuboidal arranged along <10> direction",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1 Morphology",
+          "quote": "The cuboidal shape of the γ' phase arranged along the h10i crystallographic direction of the γ matrix is observed due to the anisotropic elastic interaction.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ (FCC)",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "Ni-based superalloys consisting of the γ' phase (L1 2 structure) precipitated in the γ phase with face-centered cubic lattice",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "anti-phase domain",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "within γ' phase",
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "Four different types of anti-phase domains in the γ' phase are also considered in this simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "γ' particle size distribution",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "modeled"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2 Particle size distribution",
+          "quote": "From the simulation results, scaled particle size distribution of the γ' phase was obtained by measuring the fraction of the γ' particles having a radius (r) within a size interval which was normalized by the average radius (r).",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "property": "standard deviation of γ' particle size distribution",
+      "value": 0.478,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1373,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "2D phase-field simulation, dimensionless radius r/rbar",
+        "other": {
+          "anisotropy_m": 6.07,
+          "anisotropy_p": 2.17
+        }
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "(6.07, 2.17) 0.478",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "property": "standard deviation of γ' particle size distribution",
+      "value": 0.593,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1373,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "2D phase-field simulation, dimensionless radius r/rbar",
+        "other": {
+          "anisotropy_m": 2.55,
+          "anisotropy_p": 3.57
+        }
+      },
+      "comparison_sample_id": "observation_1",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "(2.55, 3.57) 0.593",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "property": "standard deviation of γ' particle size distribution",
+      "value": 0.535,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1373,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "2D phase-field simulation, dimensionless radius r/rbar",
+        "other": {
+          "anisotropy_m": 3.59,
+          "anisotropy_p": 2.69,
+          "shear_modulus_ratio": 1.02
+        }
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "(γm;γp) (3.59, 2.69) 0.535",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "property": "standard deviation of γ' particle size distribution",
+      "value": 0.521,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1373,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "2D phase-field simulation, dimensionless radius r/rbar",
+        "other": {
+          "shear_modulus_ratio": 0.9
+        }
+      },
+      "comparison_sample_id": "observation_3",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "(η) 0.90 0.521",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "property": "standard deviation of γ' particle size distribution",
+      "value": 0.513,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1373,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "2D phase-field simulation, dimensionless radius r/rbar",
+        "other": {
+          "shear_modulus_ratio": 1.16
+        }
+      },
+      "comparison_sample_id": "observation_3",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "1.16 0.513",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "property": "standard deviation of γ' particle size distribution",
+      "value": 0.523,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1373,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "2D phase-field simulation, dimensionless radius r/rbar",
+        "other": {
+          "shear_modulus_ratio": 1.32
+        }
+      },
+      "comparison_sample_id": "observation_3",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "1.32 0.523",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "property": "standard deviation of γ' particle size distribution",
+      "value": 0.496,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1373,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "2D phase-field simulation, dimensionless radius r/rbar",
+        "other": {
+          "shear_modulus_ratio": 1.74
+        }
+      },
+      "comparison_sample_id": "observation_3",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "1.74 0.496",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "anisotropic elastic interaction",
+      "category": "elastic effect",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1 Morphology",
+          "quote": "The cuboidal shape of the γ' phase arranged along the h10i crystallographic direction of the γ matrix is observed due to the anisotropic elastic interaction.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "Elastic constants of the TMS-26 alloy at 1373 K ... were employed in this simulation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "Phase-field simulation at a temperature of 1373 K was performed by solving the two sets of eqs. (1) and (2) numerically",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3. Results",
+          "quote": "the volume fraction of the γ' phase in the equilibrium state was set to be 55%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "the γ' phase (L1 2 structure) precipitated in the γ phase with face-centered cubic lattice",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. Introduction",
+          "quote": "Four different types of anti-phase domains in the γ' phase are also considered in this simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2 Particle size distribution",
+          "quote": "scaled particle size distribution of the γ' phase was obtained by measuring the fraction of the γ' particles",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_1",
+      "predicate": "FORMS",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "3.1 Morphology",
+          "quote": "The cuboidal shape of the γ' phase arranged along the h10i crystallographic direction of the γ matrix is observed due to the anisotropic elastic interaction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "microstructure_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "(6.07, 2.17) 0.478",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "microstructure_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "(2.55, 3.57) 0.593",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "microstructure_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "(γm;γp) (3.59, 2.69) 0.535",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "microstructure_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "0.90 0.521",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "microstructure_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "1.16 0.513",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "microstructure_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "1.32 0.523",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "microstructure_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Table 1",
+          "quote": "1.74 0.496",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "mechanism_1",
+      "predicate": "INCREASES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {
+        "anisotropy_ratio": "varied"
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2 Particle size distribution",
+          "quote": "It is shown that the spectrum becomes broad with increasing the ratio of γp to γm, while the radius showing the maximum size distribution ... does not change",
+          "table": "Table 1",
+          "figure": "Fig. 4",
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "mechanism_1",
+      "predicate": "STABILIZES",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4. Discussion",
+          "quote": "under the conditions of the variation of the shear modulus employing in this study, the cuboidal γ' phase was stable by the effect of the anisotropy in the γ and γ' phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "observation_4",
+      "predicate": "COMPARED_WITH",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium two-phase (γ + γ') state",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "4. Discussion",
+          "quote": "the variation of the shear modulus did not affect both morphology and particle size distribution of the γ' phase",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "af40a89d45d04e86:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

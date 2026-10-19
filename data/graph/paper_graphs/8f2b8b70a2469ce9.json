@@ -1,0 +1,592 @@
+{
+  "document_id": "8f2b8b70a2469ce9",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Machine learning model for predicting the influence of crystallographic orientation on thermomechanical fatigue of Ni-base superalloys",
+    "authors": [
+      "Rohan Acharya",
+      "Alexander N. Caputo",
+      "Richard W. Neu"
+    ],
+    "journal": "International Journal of Fatigue",
+    "year": 2025,
+    "doi": "10.1016/j.ijfatigue.2025.108832"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Ni-base superalloys used in gas turbine blades are often directionally-solidified (DS) or single-crystal (SX) to minimize grain boundaries and enhance creep resistance.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        },
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The variation of the elastic modulus of single crystalline Ni-base su - peralloys at various temperatures with orientation is shown in Fig. 1 .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "directionally solidified Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "2.4. Modification for DS alloys",
+          "quote": "For DS alloys, we employ a similar orientation assignment.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "single-crystal Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The variation of the elastic modulus of single crystalline Ni-base su - peralloys at various temperatures with orientation is shown in Fig. 1 .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-8",
+      "canonical_name": "CMSX-8",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Estrada Rodas, Gorgannejad, Neu [6] CMSX-8 SX IF None, T, C",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "PWA1484",
+      "canonical_name": "PWA1484",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Amaro, Antolovich, Neu [45] PWA1484 SX TMF None, C",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "STAL-15",
+      "canonical_name": "STAL-15",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Segers ¨all, Leidermark, Moverare [9] STAL-15 SX TMF C",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "René N5",
+      "canonical_name": "René N5",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Lafata, Rettberg, He, Pollock [46] Ren ´e N5 SX IF C",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Hong, Choi, Kim, Yoo, Jo [47] CMSX-4 SX IF T & C",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "CM247LC",
+      "canonical_name": "CM247LC",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "directionally solidified",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Okazaki, Take, Kakehi, Yamazaki, Sakane, Arai, et al. [53] CMSX-4 CM247LC SX DS IF, TMF IF, TMF None, C None, C",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": "René N4",
+      "canonical_name": "René N4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Gabb, Gayda, Miner [3] Ren ´e N4 SX IF None",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_8",
+      "original_name": "AM1",
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single crystal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Fleury, R ´emy [4] AM1 SX IF None",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_9",
+      "original_name": "GTD-111",
+      "canonical_name": "GTD-111",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "directionally solidified",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Shenoy, Gordon, McDowell, Neu [65] GTD-111 DS IF None, T, C",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "grain boundary",
+      "sample_id": "sample_9",
+      "material_state": "directionally solidified",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1.1 Influence of crystallographic orientation",
+          "quote": "L-oriented specimens experience primarily transgranular cracking, while T-oriented experience intergranular cracking along grain boundaries and the interdendritic regions [12–14].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": null,
+      "material_state": "room temperature",
+      "property": "Young's modulus",
+      "value": 125,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "<001>",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1.1 Influence of crystallographic orientation",
+          "quote": "The Young's modulus in the <001> direction at room temperature is about 125 GPa, which is the lowest of any orientation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": null,
+      "material_state": "room temperature",
+      "property": "Young's modulus",
+      "value": 220,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "<011>",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1.1 Influence of crystallographic orientation",
+          "quote": "In <011> direction it is 220 GPa and in the <111> direction, it is the greatest at 294 GPa, over 2.3 times greater than in the <001> [7].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": null,
+      "material_state": "room temperature",
+      "property": "Young's modulus",
+      "value": 294,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "<111>",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1.1 Influence of crystallographic orientation",
+          "quote": "In <011> direction it is 220 GPa and in the <111> direction, it is the greatest at 294 GPa, over 2.3 times greater than in the <001> [7].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "multiple slip system activation",
+      "category": "deformation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1.1 Influence of crystallographic orientation",
+          "quote": "For the orientations closer to <111> and <011>, often just one active slip system appears to be dominant, in contrast to <001> loading where multiple slip systems are activated, resulting in energy dissipation over multiple slip systems [9] promoting planar crack growth [10].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "intergranular crack growth",
+      "category": "crack growth",
+      "sample_id": "sample_9",
+      "material_state": "directionally solidified",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1.1 Influence of crystallographic orientation",
+          "quote": "Therefore, in addition to the increase in Young's modulus when loading in the T direction, the lower fatigue life compared to L direction has a contribution from the faster fatigue crack growth rate of cracks propagating intergranularly and through the interdendritic regions [13].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "creep rupture",
+      "category": "fracture",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "3.2. Influence of crystallographic orientation on TMF",
+          "quote": "The fracture behavior exhibited features of creep rupture with the fracture occurring along a grain boundary of the DS alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "physics-guided probabilistic neural network (PPgNN)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "prediction of thermomechanical fatigue and creep-fatigue cycles to failure and life variance with confidence intervals",
+      "inputs": [
+        "strain range",
+        "temperature extremes",
+        "dwell durations",
+        "cyclic frequency",
+        "TMF phasing",
+        "crystallographic orientation",
+        "normalized elastic modulus"
+      ],
+      "target": "cycles to failure",
+      "dataset": "database extracted from open literature of 573 experimental data points (337 SX, 236 DS)",
+      "validation": "goodness of fit (parity) plots and k-fold cross-validation",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This work extends a previously developed probabilistic physics-guided neural network (PPgNN), originally limited to <001> orientations, by incorporating a normalized elastic modulus as a physics-informed input to account for crystallographic orientation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        },
+        {
+          "page": "8",
+          "section": "2.5. PPgNN architecture",
+          "quote": "The PPgNN model architecture for predicting life and confidence intervals for DS and SX Ni-base superalloys is shown in Fig. 3 .",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        },
+        {
+          "page": "10",
+          "section": "2.7. Evaluation of model training",
+          "quote": "The thoroughness of the model ’ s training was scrutinized using two principal methodologies: goodness of fit plots and k-fold cross- validation testing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "single crystal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Estrada Rodas, Gorgannejad, Neu [6] CMSX-8 SX IF None, T, C",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_6",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_6",
+      "material_state": "directionally solidified",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Okazaki, Take, Kakehi, Yamazaki, Sakane, Arai, et al. [53] CMSX-4 CM247LC SX DS IF, TMF IF, TMF None, C None, C",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_9",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_9",
+      "material_state": "directionally solidified",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1.1 Influence of crystallographic orientation",
+          "quote": "L-oriented specimens experience primarily transgranular cracking, while T-oriented experience intergranular cracking along grain boundaries and the interdendritic regions [12–14].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_9",
+      "material_state": "directionally solidified",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1.1 Influence of crystallographic orientation",
+          "quote": "Therefore, in addition to the increase in Young's modulus when loading in the T direction, the lower fatigue life compared to L direction has a contribution from the faster fatigue crack growth rate of cracks propagating intergranularly and through the interdendritic regions [13].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "For the first time, a general PPgNN framework predicts both cycles to failure and life variance, integrating critical parameters such as strain range, temperature extremes, dwell durations, cyclic frequency, TMF phasing, and crystallographic orientation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_3",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "ml_model_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "14",
+          "section": "3.2. Influence of crystallographic orientation on TMF",
+          "quote": "the current archi - tecture of PPgNN does not have any information on the presence of grain boundaries, which will be needed to predict this condition",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8f2b8b70a2469ce9:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

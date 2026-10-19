@@ -1,0 +1,800 @@
+{
+  "document_id": "6ac1a3732f59a920",
+  "chunk_id": "6ac1a3732f59a920:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Effects of temperature and strain rate on crack propagation in NiCoCr multi-principal element alloys: A molecular dynamics simulation",
+    "authors": [
+      "Xinru Zhao",
+      "Shulan Liu",
+      "Zun Xie",
+      "Zhao Liu",
+      "Dianwu Wang",
+      "Lingen Luo"
+    ],
+    "journal": "Materials Today Communications",
+    "year": 2025,
+    "doi": "10.1016/j.mtcomm.2025.111667"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "NiCoCr multi-principal element alloy",
+      "material_category": "multi-principal element alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "the tensile deformation behaviour of NiCoCr multi-principal element alloys under a cracked system at four different temperatures (77 K, 300 K, 800 K and 1100 K) and four different strain rates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "NiCoCr MPEAs model",
+      "canonical_name": "NiCoCr",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-constructed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Introduction",
+              "quote": "Multi-principal element alloys (MPEAs), also known as high-entropy alloys [1] , are composed of numerous elements with nearly equal atomic ratios.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "6ac1a3732f59a920:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Introduction",
+              "quote": "Multi-principal element alloys (MPEAs), also known as high-entropy alloys [1] , are composed of numerous elements with nearly equal atomic ratios.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "6ac1a3732f59a920:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Introduction",
+              "quote": "Multi-principal element alloys (MPEAs), also known as high-entropy alloys [1] , are composed of numerous elements with nearly equal atomic ratios.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "6ac1a3732f59a920:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Simulation method and details",
+          "quote": "Fig. 2 constructs a sample of rectangular NiCoCr MPEAs with a completely random atomic distribution pre-existing edge crack embedding.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "potential": "Embedded Atom Method (EAM) developed by MA et al.",
+          "system_size": "358 Å × 179 Å × 358 Å, 2002650 atoms",
+          "boundary_conditions": "x free, y and z periodic",
+          "time_step": "1 fs",
+          "thermostat": "Nosé-Hoover",
+          "software": "LAMMPS",
+          "visualization": "OVITO"
+        }
+      },
+      "input_state": "as-constructed",
+      "output_state": "as-constructed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Simulation method and details",
+          "quote": "In this study, the Embedded Atom Method (EAM) developed by MA [16] et al. was used to describe the atomic interaction in Ni-Co-Cr system",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "uniaxial tensile loading",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "uniaxial tension",
+        "strain_rate": "2 × 10^8 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "direction": "z[001]",
+          "temperatures": "77 K, 298 K, 800 K, 1100 K"
+        }
+      },
+      "input_state": "as-constructed",
+      "output_state": "deformed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Simulation method and details",
+          "quote": "a strain rate of 5 × 10 8 s 1 , 2 × 10 8 s 1 , 5 × 10 7 s 1 , 2 × 10 7 s 1 is used to investigate the simulation of uniaxial tensile loading of the NiCoCr model at temperatures of 77 K, 298 K, 800 K and 1100 K along the z[001] direction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The intricate microstructures of NiCoCr MPEAs may consist of Face-Center Cubic (FCC), Body-Center Cubic (BCC) phases or a mixture of the two",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and discussion",
+          "quote": "After the yield strain is reached, MPEAs with FCC structure undergo plastic deformation with increasing strain. The atoms in the alloy are gradually transformed into other lattice structures such as BCC and HCP due to the low stacking layer misfit energy of NiCoCr",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and discussion",
+          "quote": "green atoms are FCC structure atoms, red atoms are HCP structure atoms, blue atoms are BCC structure atoms, and grey atoms are amorphous structure atoms.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "micro_1",
+      "type": "Microstructure",
+      "name": "pre-existing edge crack",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "initial length 89 Å",
+        "morphology": "edge crack",
+        "location": "x[010] direction",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Simulation method and details",
+          "quote": "The initial length of the crack is 89 Å (about one-fourth of the x[010] direction)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "micro_2",
+      "type": "Microstructure",
+      "name": "dislocation",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "the corresponding dislocation lengths are 11580.3 Å, 22264.6 Å, 34049.8 Å, and 7230.43 Å at 77 K, 298 K, 800 K, and 1100 K",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield stress",
+      "value": 4.57,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 298,
+        "strain_rate": "2 × 10^8 s^-1",
+        "loading_mode": "uniaxial tension",
+        "orientation": "z[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "when the temperature increases from 298 K to 1100 K, the yield stress of NiCoCr decreases from 4.57 GPa to 1.95 GPa, which is 57.33 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield stress",
+      "value": 1.95,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": "2 × 10^8 s^-1",
+        "loading_mode": "uniaxial tension",
+        "orientation": "z[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "when the temperature increases from 298 K to 1100 K, the yield stress of NiCoCr decreases from 4.57 GPa to 1.95 GPa, which is 57.33 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield strain",
+      "value": 0.073,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 298,
+        "strain_rate": "2 × 10^8 s^-1",
+        "loading_mode": "uniaxial tension",
+        "orientation": "z[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "the yield strain decreases from 0.073 to 0.039, which is 46.58 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield strain",
+      "value": 0.039,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": 1100,
+        "strain_rate": "2 × 10^8 s^-1",
+        "loading_mode": "uniaxial tension",
+        "orientation": "z[001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "the yield strain decreases from 0.073 to 0.039, which is 46.58 %",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation motion",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "the macroscopic plastic deformation of crystals is realized through the movement of dislocations, and the mechanical properties of crystals, such as strength, plasticity and fracture, are all related to the movement of dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "twinning",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and discussion",
+          "quote": "Both dislocation slip and twinning constitute the primary deformation mechanisms, with dislocation slip often accompanied by the generation of stacking faults [30] .",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Simulation method and details",
+          "quote": "a NiCoCr MPEAs model is selected to explore the effects of different temperatures and tensile strain rates on the mechanical and microstructural aspects of the model during tensile stretching.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Simulation method and details",
+          "quote": "a NiCoCr MPEAs model is selected",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Simulation method and details",
+          "quote": "the Embedded Atom Method (EAM) developed by MA [16] et al. was used to describe the atomic interaction in Ni-Co-Cr system",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Simulation method and details",
+          "quote": "a strain rate of 5 × 10 8 s 1 , 2 × 10 8 s 1 , 5 × 10 7 s 1 , 2 × 10 7 s 1 is used to investigate the simulation of uniaxial tensile loading of the NiCoCr model at temperatures of 77 K, 298 K, 800 K and 1100 K along the z[001] direction",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "The intricate microstructures of NiCoCr MPEAs may consist of Face-Center Cubic (FCC), Body-Center Cubic (BCC) phases or a mixture of the two",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and discussion",
+          "quote": "After the yield strain is reached, MPEAs with FCC structure undergo plastic deformation with increasing strain. The atoms in the alloy are gradually transformed into other lattice structures such as BCC and HCP",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and discussion",
+          "quote": "The atoms in the alloy are gradually transformed into other lattice structures such as BCC and HCP due to the low stacking layer misfit energy of NiCoCr",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "micro_1",
+      "sample_id": "sample_1",
+      "material_state": "as-constructed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Simulation method and details",
+          "quote": "Fig. 2 constructs a sample of rectangular NiCoCr MPEAs with a completely random atomic distribution pre-existing edge crack embedding.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "micro_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "With the increase of strain, all the dislocations show an upward trend, indicating that the formation and growth of dislocations are closely related to plastic deformation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "micro_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "the macroscopic plastic deformation of crystals is realized through the movement of dislocations, and the mechanical properties of crystals, such as strength, plasticity and fracture, are all related to the movement of dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "As the temperature increases, the yield stress value and yield strain of NiCoCr alloy decrease.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "the yield stress of NiCoCr decreases from 4.57 GPa to 1.95 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "the yield stress of NiCoCr decreases from 4.57 GPa to 1.95 GPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "the yield strain decreases from 0.073 to 0.039",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "the yield strain decreases from 0.073 to 0.039",
+          "table": null,
+          "figure": null,
+          "chunk_id": "6ac1a3732f59a920:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

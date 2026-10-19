@@ -1,0 +1,428 @@
+{
+  "document_id": "8db99b5e85f48d08",
+  "chunk_id": "8db99b5e85f48d08:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "An intelligent design for Ni-based superalloy based on machine learning and multi-objective optimization",
+    "authors": [
+      "Yuedan Deng",
+      "Yu Zhang",
+      "Xiufang Gong",
+      "Wang Hu",
+      "Yucheng Wang",
+      "Ying Liu",
+      "Lixian Lian"
+    ],
+    "journal": "Materials & Design",
+    "year": 2022,
+    "doi": "10.1016/j.matdes.2022.110935"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "abstract",
+          "quote": "A comprehensive strategy of machine learning (ML) and multi-objective optimization based on thermodynamic simulation data was proposed to accelerate the composition design of Ni-based superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "D6",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "solution-treated and aged",
+      "composition": [
+        {
+          "element": "C",
+          "value": 0.1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2.1.2 Dataset",
+              "quote": "Therefore, carbon content was ﬁxed at 0.1%.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "8db99b5e85f48d08:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Validation",
+          "quote": "Take candi- date D6 as an example, which met the design preference of three objective properties.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "vacuum arc melting",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "melt_count": "at least six times",
+          "mass": "100 g",
+          "homogenization": "magnetic stirring"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2 Experimental procedure",
+          "quote": "The alloy button ingots were prepared by vacuum arc melting. To ensure the homo- geneity of the alloy composition, every 100 g alloy was melted at least six times and was homogenized by the magnetic stirring of a vacuum arc furnace.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "solution treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": "4 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_range_c": "1180-1220"
+        }
+      },
+      "input_state": "as-cast",
+      "output_state": "solution-treated",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2 Experimental procedure",
+          "quote": "the as-cast ingots were subjected to solution heat treatment within 1180–1220 /C176C for 4 h followed by air cooling",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 900,
+        "time": "4 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "water cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "solution-treated",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2 Experimental procedure",
+          "quote": "subsequently aged at 900 /C176C for 4 h followed by water cooling in Mufﬂe furnace.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "precipitation strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "The comprehensive properties of Ni-based superalloys such as rupture strength, creep resistance and high- temperature strength are inﬂuenced by solution strengthening, precipitation strengthening, and other multiple strengthening mechanisms",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid-solution strengthening",
+      "category": "strengthening mechanism",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "1. Introduction",
+          "quote": "The comprehensive properties of Ni-based superalloys such as rupture strength, creep resistance and high- temperature strength are inﬂuenced by solution strengthening, precipitation strengthening, and other multiple strengthening mechanisms",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "back-propagation neural network",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "multi-task regression of microscopic parameters from composition",
+      "inputs": [
+        "Ni",
+        "Al",
+        "Ti",
+        "Ta",
+        "Nb",
+        "Hf",
+        "Cr",
+        "Co",
+        "W",
+        "Mo"
+      ],
+      "target": [
+        "γ' volume fraction",
+        "γ' solvus temperature",
+        "TCP phases content"
+      ],
+      "dataset": "56,909 compositions sampled randomly and uniformly and calculated by Thermo-Calc (TCNi9 database); split 70% training / 30% test",
+      "validation": "train/test split (70%/30%)",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1.4 Machine learning strategy",
+          "quote": "The BPNN model was conﬁgurated with the elements, Ni, Al, Ti, Ta, Nb, Hf, Cr, Co, W, Mo, as the inputs and the microscopic parameters, V c0,T c0, TCP phases content, as the multi-task outputs.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "support vector regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "regression of microscopic parameters from composition",
+      "inputs": [
+        "Ni",
+        "Al",
+        "Ti",
+        "Ta",
+        "Nb",
+        "Hf",
+        "Cr",
+        "Co",
+        "W",
+        "Mo"
+      ],
+      "target": [
+        "γ' volume fraction",
+        "γ' solvus temperature",
+        "TCP phases content"
+      ],
+      "dataset": "56,909 compositions calculated by Thermo-Calc; split 70% training / 30% test",
+      "validation": "train/test split (70%/30%)",
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.1.3 Establishments of ML and MOEA",
+          "quote": "The R 2 values of SVR were 0.5629, 0.7926, and 0.9338 on three objectives, respectively, while the R 2 values of the BPNN were 0.9788, 0.9623, and 0.9268 respectively.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "3.2 Validation",
+          "quote": "Take candi- date D6 as an example, which met the design preference of three objective properties.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_ELEMENT",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1.2 Dataset",
+          "quote": "Therefore, carbon content was ﬁxed at 0.1%.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2 Experimental procedure",
+          "quote": "The alloy button ingots were prepared by vacuum arc melting.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "solution-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2 Experimental procedure",
+          "quote": "the as-cast ingots were subjected to solution heat treatment within 1180–1220 /C176C for 4 h followed by air cooling",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2 Experimental procedure",
+          "quote": "subsequently aged at 900 /C176C for 4 h followed by water cooling in Mufﬂe furnace.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.1.4 Machine learning strategy",
+          "quote": "The BPNN model was conﬁgurated with the elements, Ni, Al, Ti, Ta, Nb, Hf, Cr, Co, W, Mo, as the inputs and the microscopic parameters, V c0,T c0, TCP phases content, as the multi-task outputs.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8db99b5e85f48d08:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "56,909 thermodynamic samples",
+    "nine candidate compositions",
+    "133 constraint-satisfied compositions"
+  ],
+  "conflicts": []
+}

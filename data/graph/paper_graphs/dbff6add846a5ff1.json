@@ -1,0 +1,753 @@
+{
+  "document_id": "dbff6add846a5ff1",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Atomistic simulation studies of Ni-based superalloys",
+    "authors": [
+      "Ronghai Wu",
+      "Yunsong Zhao",
+      "Qian Yin",
+      "Jiapo Wang",
+      "Xing Ai",
+      "Zhixun Wen"
+    ],
+    "journal": "Journal of Alloys and Compounds",
+    "year": 2020,
+    "doi": "https://doi.org/10.1016/j.jallcom.2020.157355"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "Ni-based superalloys are key materials for hot-end components of aeroengines.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:001"
+        },
+        {
+          "page": "10",
+          "section": null,
+          "quote": "MD simulations of tensile loading along ⟨001⟩, and under diﬀerent strain rates (from 10 8 s−1 to 1010 s−1) and diﬀerent temperatures (from 0 K to 1200 K) show that the deformation mechanisms and mechanical properties depend on conditions [66–68].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-Al alloy",
+      "material_category": "binary model alloy",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "Wang et al. investigated the dependence of tensile properties on the crystalline orientation and nano-cavity in the Ni-Al binary system [70–72].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "Ni-Al-Co alloy",
+      "material_category": "model alloy",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The Co drags dislocations in γ and inhibits dislocations to cut into γ′, which then reverses the Co depletion inγ′ phase [19].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni-Al binary γ′",
+      "canonical_name": "Ni-Al",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "idealized simulation sample",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "Figure 9: MD simulation results of Ni-Al binaryγ′ under [001] compression",
+          "table": null,
+          "figure": "Figure 9",
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "experiment-informed Ni-Al γ/γ′ sample",
+      "canonical_name": "Ni-Al",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "experiment-informed simulation sample",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "(a) The atomic structure obtained by atom probe in experiments; (b) The MD atomic structure converted from the atom probe structure",
+          "table": null,
+          "figure": "Figure 8",
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Ni-Al idealized γ/γ′ sample",
+      "canonical_name": "Ni-Al",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "idealized simulation sample",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "Diﬀerent samples (i.e. experiment-informed and idealized samples) and diﬀerent boundary conditions (i.e. periodic and ﬁxed boundary conditions) have non-trivial inﬂuence on the stress states in the γ and γ′ phases [60].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "idealized simulation sample",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "Figure 9: MD simulation results of Ni-Al binaryγ′ under [001] compression",
+          "table": null,
+          "figure": "Figure 9",
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_3",
+      "material_state": "idealized simulation sample",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "the stress states in the γ and γ′ phases [60]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ/γ′ interface",
+      "sample_id": "sample_2",
+      "material_state": "experiment-informed simulation sample",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "γ/γ′ interface, especially its local curvature, and the local chemical composition dramatically aﬀect the γ/γ′ misﬁt dislocation network",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "square dislocation network",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "square network",
+        "location": "γ/γ′ interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "At the low strain rate, the square dislocation network is locally damaged at one node and a/2⟨110⟩ dislocations penetrate theγ′ precipitate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "nano-cavity",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "12",
+          "section": null,
+          "quote": "the lower ﬁgure shows the evolution of nano-cavity fraction with time [70]",
+          "table": null,
+          "figure": "Figure 10",
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_2",
+      "type": "Defect",
+      "name": "stacking fault",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "between partial dislocations",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "the stacking fault naturally formed between two partial dislocations is a barrier which might not be overcame at low stress",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "defect_3",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "13",
+          "section": null,
+          "quote": "in real Ni-based superalloys, dislocations with density about 12 m−2 constantly exist in γ phase even after long time heat treatment before deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "experiment-informed simulation sample",
+      "property": "critical resolved shear stress ratio",
+      "value": 40,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MD simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "MD simulations show that with a diameter of γ′ smaller than the average distance of dislocations in γ, the critical resolved shear stresses of the trailing dislocation of the superdislocation is about 40% of that of the leading dislocation [61].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "idealized simulation sample",
+      "property": "critical stress",
+      "value": 6.97,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[100]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MD simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The critical stresses under [100], [110] and [111] orientation loading are 6.97 GPa, 6.77 GPa and 7.31 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "idealized simulation sample",
+      "property": "critical stress",
+      "value": 6.77,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[110]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MD simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The critical stresses under [100], [110] and [111] orientation loading are 6.97 GPa, 6.77 GPa and 7.31 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "idealized simulation sample",
+      "property": "critical stress",
+      "value": 7.31,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "[111]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "MD simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The critical stresses under [100], [110] and [111] orientation loading are 6.97 GPa, 6.77 GPa and 7.31 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The results show that the solid solution strengthening increases in the order of Re, Ru and Co [55].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation nucleation",
+      "category": "deformation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The strong bonding between Ni the three alloying elements inhibit crack cleavage and promote dislocation nucleation, in the order of W > Re > Co [56].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "pseudo-twinning",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "idealized simulation sample",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "Initial deformation starts with energetically favored pseudo-twinning instead of dislocation activity, which is the reason of initial strain burst (see Fig. 9).",
+          "table": null,
+          "figure": "Figure 9",
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "dislocation pile-up at γ/γ′ interface",
+      "category": "deformation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "Due to the high energy barrier of ordering change when dislocations in γ channel cut into γ′ precipitate, dislocations piled up at γ/γ′ interfaces do not penetrate γ′ precipitate until the local stress is big enough (about 3 GPa) for the nucleation of superpartial dislocations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "alloy_system_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "In the present work, we provide an overview on the studies of Ni-based superalloys by atomistic simulation methods including molecular dynamics (MD), Monte Carlo (MC) and phase ﬁeld crystal (PFC).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": "experiment-informed simulation sample",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "(a) The atomic structure obtained by atom probe in experiments; (b) The MD atomic structure converted from the atom probe structure",
+          "table": null,
+          "figure": "Figure 8",
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "idealized simulation sample",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "Initial deformation starts with energetically favored pseudo-twinning instead of dislocation activity, which is the reason of initial strain burst (see Fig. 9).",
+          "table": null,
+          "figure": "Figure 9",
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_4",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "experiment-informed simulation sample",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "MD simulations show that with a diameter of γ′ smaller than the average distance of dislocations in γ, the critical resolved shear stresses of the trailing dislocation of the superdislocation is about 40% of that of the leading dislocation [61].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The results show that the solid solution strengthening increases in the order of Re, Ru and Co [55].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The strong bonding between Ni the three alloying elements inhibit crack cleavage and promote dislocation nucleation, in the order of W > Re > Co [56].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "idealized simulation sample",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The critical stresses under [100], [110] and [111] orientation loading are 6.97 GPa, 6.77 GPa and 7.31 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "idealized simulation sample",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The critical stresses under [100], [110] and [111] orientation loading are 6.97 GPa, 6.77 GPa and 7.31 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "idealized simulation sample",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The critical stresses under [100], [110] and [111] orientation loading are 6.97 GPa, 6.77 GPa and 7.31 GPa, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "defect_1",
+      "predicate": "DEGRADES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "idealized simulation sample",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "The nano-cavity sizes and volume fraction signiﬁcantly aﬀect mechanical properties like Young’s modulus, incipient yield stress and incipient yield strain.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "alloy_system_3",
+      "predicate": "STUDIES",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "The Co drags dislocations in γ and inhibits dislocations to cut into γ′, which then reverses the Co depletion inγ′ phase [19].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "dbff6add846a5ff1:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "PFC",
+    "MD",
+    "MC",
+    "Ni-based superalloy",
+    "γ/γ′ interface",
+    "misfit dislocation network",
+    "rafting",
+    "Ni3Al"
+  ],
+  "conflicts": []
+}

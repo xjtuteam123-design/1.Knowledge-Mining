@@ -1,0 +1,282 @@
+{
+  "document_id": "40fb6a02cec71949",
+  "chunk_id": "40fb6a02cec71949:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Study on Dynamic Mechanical Properties of Low-Alloy, High-Strength Steel Weld Metal at High Temperatures",
+    "authors": [
+      "Liang Song",
+      "Yun Peng",
+      "Haiyan Zhao",
+      "Yang Cao",
+      "Lin Zhao"
+    ],
+    "journal": "Materials",
+    "year": 2025,
+    "doi": "10.3390/ma18071488"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "low-alloy high-strength steel",
+      "material_category": "steel",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Title/Abstract",
+          "quote": "Study on Dynamic Mechanical Properties of Low-Alloy, High-Strength Steel Weld Metal at High Temperatures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Q960E high-strength steel plate",
+      "canonical_name": "Q960E high-strength steel",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "base metal",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1.1 Experimental Materials",
+          "quote": "a Q960E high-strength steel plate was selected as the base material (substrate), with dimensions of 400.0 mm × 200.0 mm × 15.0 mm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        },
+        {
+          "page": "7",
+          "section": "3.1.1 Experimental Materials",
+          "quote": "Its yield strength can reach 960 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "MG70-G gas-shielded welding wire",
+      "canonical_name": "MG70-G welding wire",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "welding wire",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1.1 Experimental Materials",
+          "quote": "the filling material was MG70-G gas-shielded welding wire with a diameter of 1.2 mm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Q960E welded joint (weld seam)",
+      "canonical_name": "Q960E high-strength steel weld metal",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-welded",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The experimental results show that the weld seam is the weakest region of the whole welded joint, and with the increase in temperature, the yield strength and tensile strength of the welded joints decrease.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "gas metal arc welding (MIG)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "98% Ar + 2% CO2 shielding gas",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "welding_type": "melting electrode gas-shielded welding (MIG)",
+          "equipment": "full digital control pulse MIG welding machine",
+          "joint_type": "butt joint, single V-type bevel, bevel angle 60°, passive edge thickness 2 mm, root gap 3 mm",
+          "wire_diameter_mm": 1.2
+        }
+      },
+      "input_state": null,
+      "output_state": "as-welded",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1.1 Experimental Materials",
+          "quote": "Given the welding type for the melting electrode of gas-shielded welding (MIG) and the welding equipment selection of a full digital control pulse MIG welding machine, the equipment has a stable current output and good welding performance. The shielding gas is a mixture of 98% argon (Ar) and 2% carbon dioxide (CO2)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "property": "yield strength",
+      "value": 960,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1.1 Experimental Materials",
+          "quote": "Its yield strength can reach 960 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1.1 Experimental Materials",
+          "quote": "a Q960E high-strength steel plate was selected as the base material (substrate)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_2",
+      "sample_id": "sample_2",
+      "material_state": "welding wire",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1.1 Experimental Materials",
+          "quote": "the filling material was MG70-G gas-shielded welding wire with a diameter of 1.2 mm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_3",
+      "sample_id": "sample_3",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The experimental results show that the weld seam is the weakest region of the whole welded joint",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_3",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_3",
+      "material_state": "as-welded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1.1 Experimental Materials",
+          "quote": "The welded joints are designed as butt joints, with a single V-type bevel, a bevel angle of 60 ◦, a passive edge thickness of 2 mm, and a root gap of 3 mm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "base metal",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "3.1.1 Experimental Materials",
+          "quote": "Its yield strength can reach 960 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "40fb6a02cec71949:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

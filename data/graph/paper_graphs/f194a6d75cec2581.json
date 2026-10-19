@@ -1,0 +1,950 @@
+{
+  "document_id": "f194a6d75cec2581",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Molecular dynamics study on the evolution of interfacial dislocation network and mechanical properties of Ni-based single crystal superalloys",
+    "authors": [
+      "Nan-Lin Li",
+      "Wen-Ping Wu",
+      "Kai Nie"
+    ],
+    "journal": "Physics Letters A",
+    "year": 2018,
+    "doi": "10.1016/j.physleta.2018.03.031"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "Ni-based single crystal superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The evolution of misfit dislocation network at γ/γ′phase interface and tensile mechanical properties of Ni-based single crystal superalloys at various temperatures and strain rates are studied by using molecular dynamics (MD) simulations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        },
+        {
+          "page": "6",
+          "section": null,
+          "quote": "An obvious tension–compression asymmetry of Ni-based single crystal superalloys is found based on MD simulations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni/Ni3Al γ/γ′ interface model",
+      "canonical_name": "Ni-Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Modeling and simulation",
+              "quote": "Due to the inconsistent lattice constants of γ (Ni, is 0.352 nm) and γ′(Ni3Al, is 0.362 nm)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f194a6d75cec2581:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "precipitate",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "2. Modeling and simulation",
+              "quote": "the γ′ volume fraction of the model is (36/40)3 ≈73%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f194a6d75cec2581:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Modeling and simulation",
+          "quote": "In this model, the total number of atoms is 240876, the orientations of crystal lattices are arranged along the cubic orientation",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "20000 steps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "integration_time_step": "1.0e-15 s",
+          "boundary_conditions": "periodic"
+        }
+      },
+      "input_state": "initial unit cell",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Modeling and simulation",
+          "quote": "Before the external loading, the system is relaxed by running 20000 steps to minimize the elastic stress field caused by lattice misfit and reach the energy equilibrium.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "uniaxial tensile molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": "5.0e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature": "0 K",
+          "orientation": "X-[100], Y-[010], Z-[001]"
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "deformed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "then the tensile simulation is performed at a constant strain rate 5.0 ×109 s−1.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": "Ni",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Modeling and simulation",
+          "quote": "Due to the inconsistent lattice constants of γ (Ni, is 0.352 nm) and γ′(Ni3Al, is 0.362 nm)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": "73%",
+        "size": null,
+        "morphology": "cuboidal",
+        "location": "precipitate",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Modeling and simulation",
+          "quote": "the γ′ volume fraction of the model is (36/40)3 ≈73%, which is in agreement with the experimental value (about 70%)",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "interfacial dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "mosaic structure",
+        "location": "γ/γ′ phase interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "a closed three dimensional misfit network is found to be formed on the γ/γ′ phase interface at approximately 0 K",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "matrix dislocation",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "the dislocations in the γ matrix are prevented from cutting into γ′ phase by the dislocation network and gather in {111} γ/γ′ phase interface",
+          "table": null,
+          "figure": "Fig. 2b",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "property": "initial misfit stress",
+      "value": 8.62,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "The value of the initial stress is approximately 8.62 GPa produced before loading.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "tensile strength",
+      "value": 21.146,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": "5.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "it is a linear relationship between the stress and the strain in elastic stage until reaching the value of 21.146 GPa and 13%, respectively.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "elastic modulus",
+      "value": 104.35,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": "5.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "linear fitting of MD stress-strain curve"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "the elastic modulus obtained by the linear fitting is approximately 104.35 GPa.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "yield strength",
+      "value": 17.78,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": "1.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Effect of temperature",
+          "quote": "the maximum yield stress and yield strain are 17.78 GPa and 16.8% at the temperature of 0 K, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "elastic modulus",
+      "value": 72.485,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": "1.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Effect of temperature",
+          "quote": "the values of elastic modulus of Ni-based single crystal at 300 K, 500 K, 800 K and 1200 K are 72.485 GPa, 69.39 GPa, 56.89 GPa and 41.34 GPa, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "elastic modulus",
+      "value": 69.39,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 500,
+        "strain_rate": "1.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Effect of temperature",
+          "quote": "the values of elastic modulus of Ni-based single crystal at 300 K, 500 K, 800 K and 1200 K are 72.485 GPa, 69.39 GPa, 56.89 GPa and 41.34 GPa, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "elastic modulus",
+      "value": 56.89,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 800,
+        "strain_rate": "1.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Effect of temperature",
+          "quote": "the values of elastic modulus of Ni-based single crystal at 300 K, 500 K, 800 K and 1200 K are 72.485 GPa, 69.39 GPa, 56.89 GPa and 41.34 GPa, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "elastic modulus",
+      "value": 41.34,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 1200,
+        "strain_rate": "1.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Effect of temperature",
+          "quote": "the values of elastic modulus of Ni-based single crystal at 300 K, 500 K, 800 K and 1200 K are 72.485 GPa, 69.39 GPa, 56.89 GPa and 41.34 GPa, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "property": "tensile strength",
+      "value": 17.784,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 0,
+        "strain_rate": "1.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.4. Tension–compression asymmetry",
+          "quote": "the maximum tensile strength of Ni-based single crystal superalloys is up to 17.784 GPa which is larger than the maximum compressive strength",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "interfacial dislocation network strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the dislocation network effectively inhibits dislocations emitted in the γ matrix cutting into the γ′phase and absorbs the matrix dislocations to strengthen itself which increases the stability of structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation pile-up",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "a large number of dislocations pile up near the regions of γ/γ′interfaces and cause stress concentration",
+          "table": null,
+          "figure": "Fig. 2d",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "dislocation network strengthening",
+      "category": null,
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "the formation of the dislocation network effectively reduce the mismatch stress, prevent dislocation cutting into γ′phase and enhance creep resistance of superalloys [4,7].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "The evolution of misfit dislocation network at γ/γ′phase interface and tensile mechanical properties of Ni-based single crystal superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Modeling and simulation",
+          "quote": "Before the external loading, the system is relaxed by running 20000 steps",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "then the tensile simulation is performed at a constant strain rate 5.0 ×109 s−1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Modeling and simulation",
+          "quote": "Due to the inconsistent lattice constants of γ (Ni, is 0.352 nm)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2. Modeling and simulation",
+          "quote": "the γ′ volume fraction of the model is (36/40)3 ≈73%",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "a closed three dimensional misfit network is found to be formed on the γ/γ′ phase interface at approximately 0 K",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "the dislocation network effectively inhibits dislocations emitted in the γ matrix cutting into the γ′phase and absorbs the matrix dislocations to strengthen itself",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "The value of the initial stress is approximately 8.62 GPa produced before loading.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "it is a linear relationship between the stress and the strain in elastic stage until reaching the value of 21.146 GPa and 13%, respectively.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.1. Evolution of the dislocation network at 0 K",
+          "quote": "the elastic modulus obtained by the linear fitting is approximately 104.35 GPa.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Effect of temperature",
+          "quote": "the maximum yield stress and yield strain are 17.78 GPa and 16.8% at the temperature of 0 K, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Effect of temperature",
+          "quote": "the values of elastic modulus of Ni-based single crystal at 300 K, 500 K, 800 K and 1200 K are 72.485 GPa, 69.39 GPa, 56.89 GPa and 41.34 GPa, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_6",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Effect of temperature",
+          "quote": "the values of elastic modulus of Ni-based single crystal at 300 K, 500 K, 800 K and 1200 K are 72.485 GPa, 69.39 GPa, 56.89 GPa and 41.34 GPa, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Effect of temperature",
+          "quote": "the values of elastic modulus of Ni-based single crystal at 300 K, 500 K, 800 K and 1200 K are 72.485 GPa, 69.39 GPa, 56.89 GPa and 41.34 GPa, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_8",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "3.2. Effect of temperature",
+          "quote": "the values of elastic modulus of Ni-based single crystal at 300 K, 500 K, 800 K and 1200 K are 72.485 GPa, 69.39 GPa, 56.89 GPa and 41.34 GPa, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_9",
+      "sample_id": "sample_1",
+      "material_state": "deformed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "3.4. Tension–compression asymmetry",
+          "quote": "the maximum tensile strength of Ni-based single crystal superalloys is up to 17.784 GPa which is larger than the maximum compressive strength",
+          "table": null,
+          "figure": "Fig. 10",
+          "chunk_id": "f194a6d75cec2581:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

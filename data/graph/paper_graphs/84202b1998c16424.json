@@ -1,0 +1,1192 @@
+{
+  "document_id": "84202b1998c16424",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Understanding the Fracture Failure Mechanism of WC Particle-Reinforced FeCoCrNiMn High-Entropy Alloy Coatings at 600 °C",
+    "authors": [
+      "Xinbo Wang",
+      "Shihan Zhang",
+      "Fei Zhao",
+      "Zhisheng Wu",
+      "Zhiwen Xie"
+    ],
+    "journal": "Coatings",
+    "year": 2024,
+    "doi": "10.3390/coatings14030339"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "WC-reinforced FeCoCrNiMn high-entropy alloy composite",
+      "material_category": "particle-reinforced metal matrix composite coating",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "the fracture mechanism of WC particles reinforced with FeCoCrNiMn high-entropy alloy coatings at 600 ◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "FeCoCrNiMn/WC HEA composite coating",
+      "canonical_name": "FeCoCrNiMn with 80 wt.% WC",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-clad",
+      "composition": [
+        {
+          "element": "WC",
+          "value": 80,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2. Materials and Methods",
+              "quote": "uniformly mixed in a ball mill according to the predetermined WC mass fraction of 80%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "84202b1998c16424:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and Methods",
+          "quote": "FeCoCrNiMn/WC HEA composite coatings were fabricated on 45# steel through plasma cladding (DML-V03AD).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "vacuum aerosol atomization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "nitrogen",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "powder_diameter_range": "45-105 um"
+        }
+      },
+      "input_state": null,
+      "output_state": "FeCoCrNiMn powder",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and Methods",
+          "quote": "FeCoCrNiMn powder was prepared by the nitrogen vacuum aerosol process, and its diameter ranged from 45µm to 105 µm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "drying",
+      "parameters": {
+        "temperature_c": 80,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "FeCoCrNiMn powder and WC powder",
+      "output_state": "dried powder",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and Methods",
+          "quote": "These powders were heated and dried at a temperature of 80 ◦C for 2 h",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "ball milling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "WC_mass_fraction": "80%"
+        }
+      },
+      "input_state": "dried FeCoCrNiMn and WC powders",
+      "output_state": "mixed powder",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and Methods",
+          "quote": "then uniformly mixed in a ball mill according to the predetermined WC mass fraction of 80%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "plasma cladding",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "fast cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "welding_current_A": 150,
+          "powder_feeding_capacity_rad_per_min": 40,
+          "protective_gas_flow_rate_L_per_min": 1,
+          "powder_feeding_gas_flow_rate_L_per_min": 4,
+          "ion_gas_flow_rate_L_per_min": 2,
+          "welding_speed_mm_per_min": 170,
+          "substrate": "45# steel"
+        }
+      },
+      "input_state": "mixed powder on 45# steel substrate",
+      "output_state": "as-clad",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and Methods, Table 1",
+          "quote": "FeCoCrNiMn/WC HEA composite coatings were fabricated on 45# steel through plasma cladding (DML-V03AD).",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The diffraction peaks located at 43.4◦, 50.2◦ and 74.3◦ correspond to the face-centered cubic (FCC) phase",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "WC",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "53-150 um powder",
+        "morphology": "spherical particles",
+        "location": "embedded in matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "the diffraction peaks located at 30.9◦, 35.2◦ and 48.4◦ are attributed to the WC phases",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "Fe3W3C",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "the Fe3W3C phases are characterized at 32.1◦, 39.7◦, 42.3◦, 46.3◦, 59.6◦, 64.4◦ and 72.3◦",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "W2C",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "the W2C phases are identified at 39.7◦, 52.3◦, 61.8◦ and 69.3◦",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "network structure",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "network",
+        "location": "matrix alloy",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "the matrix alloy presents a network structure accompanied with many white dispersed phases",
+          "table": null,
+          "figure": "Figure 2b",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "white dispersed phase",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "dispersed",
+        "location": "matrix alloy",
+        "composition": "25.27 at.% W, 29.60 at.% C, 12.77 at.% Cr, 13.60 at.% Ni, 6.74 at.% Fe, 5.09 at.% Co, 1.29 at.% Mn",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "the compositions of the white dispersed phases in point 2 are 25.27 at. % W, 29.60 at. % C, 12.77 at. % Cr, 13.60 at. % Ni, 6.74 at. % Fe, 5.09 at. % Co and 1.29 at. % Mn",
+          "table": null,
+          "figure": "Figure 2b",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "large-sized fiber",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "large-sized",
+        "morphology": "fiber",
+        "location": "middle of coating",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "Plenty of large-sized fibers appear on the fracture. Compared with the SEM surface image of the coating, these large-sized fibers form in the middle of the coating",
+          "table": null,
+          "figure": "Figure 4a",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "elemental segregation",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix alloy",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "during the surfacing process, WC decomposition induces the formation of large-sized fibers and local elemental segregation, triggering high local stress in the matrix alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "slim fiber",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "slim",
+        "morphology": "fiber",
+        "location": "randomly distributed in matrix alloy",
+        "composition": "28.03 at.% W, 27.85 at.% C",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "these large-sized fibers have disappeared and have been replaced by numerous slim fibers. The SEM image in Figure 4d shows that these slim fibers are randomly distributed in the matrix alloy.",
+          "table": null,
+          "figure": "Figure 4c,d",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_5",
+      "type": "Microstructure",
+      "name": "whisker",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "whisker",
+        "location": "edge of WC particles",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "Plenty of whiskers also form at the edge of the WC particles.",
+          "table": null,
+          "figure": "Figure 4d",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_6",
+      "type": "Microstructure",
+      "name": "nanofiber",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "nanoscale",
+        "morphology": "fiber",
+        "location": "reaction layer and matrix alloy",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "high-density nanofibers form in the reaction layer. As shown in Figure 5b, these nanofibers also appear in the matrix alloy.",
+          "table": null,
+          "figure": "Figure 5a,b",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_7",
+      "type": "Microstructure",
+      "name": "reaction layer",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "between WC particles and matrix alloy",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "WC decomposition is further confirmed by the TEM result in Figure 2c, showing that a clear reaction layer forms between the WC particles and the matrix alloy.",
+          "table": null,
+          "figure": "Figure 2c",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "property": "tensile strength",
+      "value": 150,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile testing"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "The tensile strength of the coating is about 150 MPa at RT",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "property": "tensile strength",
+      "value": 242,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile testing"
+      },
+      "comparison_sample_id": "observation_1",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "reaches a higher value of 242 MPa as the temperature increases to 600 ◦C",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "property": "strain",
+      "value": 2.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 25,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile testing"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "this coating possesses a strain of 2.1% at RT",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "property": "strain",
+      "value": 2.6,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 600,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile testing"
+      },
+      "comparison_sample_id": "observation_3",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "displays a higher strain of 2.6% at 600 ◦C",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "WC decomposition",
+      "category": "phase decomposition",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The appearance of Fe3W3C and W2C implies the decomposition of the WC particles during the surfacing process.",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "local stress concentration",
+      "category": "mechanical",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "WC decomposition induces the formation of large-sized fibers and local elemental segregation, triggering high local stress in the matrix alloy, and eventually results in poor tensile properties",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "structural homogenization",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "during the 600 ◦C tensile test, the high temperature promotes the structural homogenization process",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "multi-scale fiber strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "these slim fibers and nanoﬁbers induce a prominent nailing eﬀect and reinforce the matrix alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "The diffraction peaks located at 43.4◦, 50.2◦ and 74.3◦ correspond to the face-centered cubic (FCC) phase",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "the diffraction peaks located at 30.9◦, 35.2◦ and 48.4◦ are attributed to the WC phases",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "the Fe3W3C phases are characterized at 32.1◦, 39.7◦, 42.3◦, 46.3◦, 59.6◦, 64.4◦ and 72.3◦",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3. Results and Discussion",
+          "quote": "the W2C phases are identified at 39.7◦, 52.3◦, 61.8◦ and 69.3◦",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "the matrix alloy presents a network structure accompanied with many white dispersed phases",
+          "table": null,
+          "figure": "Figure 2b",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "the compositions of the white dispersed phases in point 2 are 25.27 at. % W, 29.60 at. % C, 12.77 at. % Cr, 13.60 at. % Ni, 6.74 at. % Fe, 5.09 at. % Co and 1.29 at. % Mn",
+          "table": null,
+          "figure": "Figure 2b",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "Plenty of large-sized fibers appear on the fracture. Compared with the SEM surface image of the coating, these large-sized fibers form in the middle of the coating",
+          "table": null,
+          "figure": "Figure 4a",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "WC decomposition induces the formation of large-sized fibers and local elemental segregation, triggering high local stress in the matrix alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_4",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "these large-sized fibers have disappeared and have been replaced by numerous slim fibers. The SEM image in Figure 4d shows that these slim fibers are randomly distributed in the matrix alloy.",
+          "table": null,
+          "figure": "Figure 4c,d",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_5",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "Plenty of whiskers also form at the edge of the WC particles.",
+          "table": null,
+          "figure": "Figure 4d",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_6",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and Discussion",
+          "quote": "high-density nanofibers form in the reaction layer. As shown in Figure 5b, these nanofibers also appear in the matrix alloy.",
+          "table": null,
+          "figure": "Figure 5a,b",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_7",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "WC decomposition is further confirmed by the TEM result in Figure 2c, showing that a clear reaction layer forms between the WC particles and the matrix alloy.",
+          "table": null,
+          "figure": "Figure 2c",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {
+        "temperature_c": 25
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "The tensile strength of the coating is about 150 MPa at RT",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "conditions": {
+        "temperature_c": 600
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "reaches a higher value of 242 MPa as the temperature increases to 600 ◦C",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_15",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {
+        "temperature_c": 25
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "this coating possesses a strain of 2.1% at RT",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_16",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_4",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "conditions": {
+        "temperature_c": 600
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and Discussion",
+          "quote": "displays a higher strain of 2.6% at 600 ◦C",
+          "table": null,
+          "figure": "Figure 3",
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_17",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "during the surfacing process, WC decomposition induces the formation of large-sized fibers and local elemental segregation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_18",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "during the surfacing process, WC decomposition induces the formation of large-sized fibers and local elemental segregation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_19",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "triggering high local stress in the matrix alloy, and eventually results in poor tensile properties",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_20",
+      "source_id": "mechanism_3",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "The homogenized structure is expected to relieve local high stress, while these slim fibers and nanofibers induce a prominent nailing eﬀect and reinforce the matrix alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_21",
+      "source_id": "mechanism_4",
+      "predicate": "IMPROVES",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "600 °C tensile tested",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and Discussion",
+          "quote": "The strong synergy of structural homogenization and muti-scale ﬁber strengthening resulted in enhanced fracture resistance of the coating at 600 ◦C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_22",
+      "source_id": "process_4",
+      "predicate": "PRODUCES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "as-clad",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Materials and Methods",
+          "quote": "FeCoCrNiMn/WC HEA composite coatings were fabricated on 45# steel through plasma cladding (DML-V03AD).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "84202b1998c16424:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "FeCoCrNiMn matrix nominal composition not given in segment"
+  ],
+  "conflicts": []
+}

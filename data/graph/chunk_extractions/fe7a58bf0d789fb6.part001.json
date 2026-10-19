@@ -1,0 +1,473 @@
+{
+  "document_id": "fe7a58bf0d789fb6",
+  "chunk_id": "fe7a58bf0d789fb6:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Effect of temperature on motion of misfit dislocation in γ/γ' interface of a Ni-based single-crystal superalloy: molecular dynamic simulations",
+    "authors": [
+      "Xie Hong-Xian",
+      "Yu Tao",
+      "Liu Bo"
+    ],
+    "journal": "Acta Physica Sinica",
+    "year": "2011",
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single-crystal superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "introduction",
+          "quote": "镍基单晶高温合金是目前先进航空发动机和工业燃气轮机涡轮叶片等热端部件的主要用材",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-Al alloy",
+      "material_category": "intermetallic compound",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "simulation model and method",
+          "quote": "该 耘粤酝 比较成功地应用在对 晕蚤鄄粤造 体系的研究中",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "γ/γ' (001) interface supercell model",
+      "canonical_name": "Ni / Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed at 5 K",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "simulation model and method",
+              "quote": "上半部分是 晕蚤袁大小为 远苑咱员园员暂 袁远苑咱员园 员 暂 和 员员 咱 园员园 暂 曰下半部分是 晕蚤猿 粤造",
+              "table": null,
+              "figure": null,
+              "chunk_id": "fe7a58bf0d789fb6:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "2",
+              "section": "simulation model and method",
+              "quote": "下半部分是 晕蚤猿 粤造袁 大小为 远远 咱员 园 员暂袁 远 远咱员 园 员暂 和 员 员咱园 员 园暂",
+              "table": null,
+              "figure": null,
+              "chunk_id": "fe7a58bf0d789fb6:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "simulation model and method",
+          "quote": "整个模型被一个 渊园员园冤 晶面分成上下两部分 袁上半部分是 晕蚤袁大小为 远苑咱员园员暂 袁远苑咱员园 员 暂 和 员员 咱 园员园 暂 曰下半部分是 晕蚤猿 粤造",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": -268.15,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_reported": "5 K",
+          "time_step": "5e-15 s",
+          "boundary_conditions": "periodic in x and y, free in z"
+        }
+      },
+      "input_state": "initial superlattice model",
+      "output_state": "relaxed at 5 K",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "simulation model and method",
+          "quote": "在 载 和 再 方向利用周期性边界条件袁在 在 方向利用自由边界条件 曰 体系所加温度为 缘运 袁 采用的时间步长为 驻贼 越缘 伊员 园 原员 缘 泽",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "shear loading molecular dynamics simulation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": "50 MPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_stress": "tau_zx = 501 MPa",
+          "time_step": "5e-15 s",
+          "temperature_control": "atom velocities rescaled to set temperature"
+        }
+      },
+      "input_state": "relaxed at 5 K",
+      "output_state": "tested",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "simulation model and method",
+          "quote": "我们对体系的上下两个表面几层原子施加切应力 子扎曾 越 缘园员 酝孕葬",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "relaxed at 5 K",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "upper half of model",
+        "composition": "Ni",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "simulation model and method",
+          "quote": "上半部分是 晕蚤",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "relaxed at 5 K",
+      "attributes": {
+        "phase_fraction": "70%",
+        "size": null,
+        "morphology": null,
+        "location": "lower half of model",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "introduction",
+          "quote": "酌 忆 相作为强化相 袁其体积百分比高达 苑园豫",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "misfit dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "relaxed at 5 K",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "parallel dislocation spacing 16.68 nm",
+        "morphology": "#-shaped",
+        "location": "γ/γ' interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "results",
+          "quote": "从图中可以看到 袁 平行位错 之间的间距为员远郾 远愿 灶皂",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "kink nucleation and migration",
+      "category": "dislocation motion mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "abstract",
+          "quote": "无论是在低温还是在高温下 袁错配位错的运动都是通过扭折的形核及扭折沿位错线的迁移来实现",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation interaction promoted kink nucleation",
+      "category": "dislocation interaction mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "abstract",
+          "quote": "在低温时错配位错的相互作用有利于错配位错的运动",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "stacking fault hindering dislocation motion",
+      "category": "dislocation motion mechanism",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "abstract",
+          "quote": "在高温时错配位错的相互作用可以阻碍错配位错的运动 袁从而阻碍 酌 和 酌忆相界面的相对滑动",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed at 5 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "simulation model and method",
+          "quote": "整个模型被一个 渊园员园冤 晶面分成上下两部分 袁上半部分是 晕蚤",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed at 5 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "introduction",
+          "quote": "镍基单晶高温合金主要由 酌 母相渊 镍基固溶体 冤 和 酌忆析出相 渊晕 蚤猿 粤造 金属间化合物冤 两相组成",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed at 5 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "introduction",
+          "quote": "镍基单晶高温合金主要由 酌 母相渊 镍基固溶体 冤 和 酌忆析出相 渊晕 蚤猿 粤造 金属间化合物冤 两相组成",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "defect_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed at 5 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "results",
+          "quote": "在相界面上形成如图 员 中野 井冶 字形的错配位错",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "defect_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {
+        "temperature": "400 K to 900 K",
+        "applied_stress": "501 MPa"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "abstract",
+          "quote": "无论是在低温还是在高温下 袁错配位错的运动都是通过扭折的形核及扭折沿位错线的迁移来实现",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {
+        "temperature": "400 K"
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "results",
+          "quote": "在低温时错配位错的相互作用有利于错配位错的运动",
+          "table": null,
+          "figure": null,
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_3",
+      "predicate": "DEGRADES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {
+        "temperature": ">= 600 K"
+      },
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "results",
+          "quote": "正是这片层错阻碍了错配位错交叉部分的运动",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "fe7a58bf0d789fb6:part:001"
+        }
+      ],
+      "conflicts": []
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

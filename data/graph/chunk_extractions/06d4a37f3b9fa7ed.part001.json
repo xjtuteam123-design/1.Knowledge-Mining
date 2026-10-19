@@ -1,0 +1,249 @@
+{
+  "document_id": "06d4a37f3b9fa7ed",
+  "chunk_id": "06d4a37f3b9fa7ed:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "The Site Preferences of Transition Elements and Their Synergistic Effects on the Bonding Strengthening and Structural Stability of γ′-Ni3Al Precipitates in Ni-Based Superalloys: A First-Principles Investigation",
+    "authors": [
+      "Rasim Eriş",
+      "M. Vedat Akdeniz",
+      "Amdulla O. Mekhrabov"
+    ],
+    "journal": "Metallurgical and Materials Transactions A",
+    "year": 2021,
+    "doi": "10.1007/s11661-021-06222-8"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "Advanced mechanical properties of Ni-based superalloys strongly depend on the site preferences of alloying X elements in γ′-Ni3Al-X precipitates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06d4a37f3b9fa7ed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-Al intermetallic",
+      "material_category": "Ni-Al intermetallic",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "III. RESULTS AND DISCUSSION",
+          "quote": "The formation enthalpies of X element substitutions either at Al or Ni sites of γ′-Ni3Al-X intermetallics (i.e., Hd = HXAl or HXNi) are calculated by using Eqs. [2] and [3]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06d4a37f3b9fa7ed:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "γ′-Ni24Al8",
+      "canonical_name": "Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "computational model",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 24,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atoms per supercell",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Al",
+          "value": 8,
+          "min_value": null,
+          "max_value": null,
+          "unit": "atoms per supercell",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "II. COMPUTATIONAL MODELING AND FIRST-PRINCIPLES CALCULATIONS",
+          "quote": "For γ′-Ni24Al8 alloy, plane wave cut-off energy and a set of k points were converged to 315 eV and 9 9 9 9 9, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06d4a37f3b9fa7ed:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "first-principles density functional theory calculation",
+      "parameters": {
+        "temperature_c": 0,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "code": "VASP",
+          "functional": "generalized gradient approximation (Perdew-Burke-Ernzerhof)",
+          "plane_wave_cutoff_ev": 315,
+          "k_point_mesh": "9x9x9",
+          "smearing": "Methfessel-Paxton",
+          "smearing_width_ev": 0.2,
+          "scf_convergence_ev": 1e-07,
+          "supercell": "2x2x2"
+        }
+      },
+      "input_state": null,
+      "output_state": "computational model",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "II. COMPUTATIONAL MODELING AND FIRST-PRINCIPLES CALCULATIONS",
+          "quote": "First-principles density functional theory calculations solving the Kohn–Sham equations based on the generalized gradient approximation after Perdew, Burke, and Ernzerhofer exchange correlation were employed as implemented in the Vienna ab initio simulation package (VASP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06d4a37f3b9fa7ed:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "L12 γ′-Ni3Al",
+      "sample_id": "sample_1",
+      "material_state": "computational model",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "I. INTRODUCTION",
+          "quote": "L12-type ordered γ′-Ni3Al precipitates are coherently dispersed in FCC-type disordered Ni-rich γ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06d4a37f3b9fa7ed:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "computational model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "II. COMPUTATIONAL MODELING AND FIRST-PRINCIPLES CALCULATIONS",
+          "quote": "For γ′-Ni24Al8 alloy, plane wave cut-off energy and a set of k points were converged to 315 eV and 9 9 9 9 9, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06d4a37f3b9fa7ed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "computational model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "II. COMPUTATIONAL MODELING AND FIRST-PRINCIPLES CALCULATIONS",
+          "quote": "First-principles density functional theory calculations solving the Kohn–Sham equations based on the generalized gradient approximation after Perdew, Burke, and Ernzerhofer exchange correlation were employed as implemented in the Vienna ab initio simulation package (VASP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06d4a37f3b9fa7ed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "computational model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "I. INTRODUCTION",
+          "quote": "L12-type ordered γ′-Ni3Al precipitates are coherently dispersed in FCC-type disordered Ni-rich γ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06d4a37f3b9fa7ed:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "phase_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_2",
+      "sample_id": "sample_1",
+      "material_state": "computational model",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "III. RESULTS AND DISCUSSION",
+          "quote": "The formation enthalpies of X element substitutions either at Al or Ni sites of γ′-Ni3Al-X intermetallics (i.e., Hd = HXAl or HXNi) are calculated by using Eqs. [2] and [3]",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06d4a37f3b9fa7ed:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,455 @@
+{
+  "document_id": "3a024dfa2dd1bd06",
+  "chunk_id": "3a024dfa2dd1bd06:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Coupling the Phase Field Method for diffusive transformations with dislocation density-based crystal plasticity: Application to Ni-based superalloys",
+    "authors": [
+      "M. Cottura",
+      "B. Appolaire",
+      "A. Finel",
+      "Y. Le Bouar"
+    ],
+    "journal": "Journal of the Mechanics and Physics of Solids",
+    "year": 2016,
+    "doi": "10.1016/j.jmps.2016.05.016"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "the rafting of γ′ precipitates in a Ni-based superalloy is investigated during [100] creep loadings",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "AM1 alloy",
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-cast",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "AM1 alloy observed by Scanning Electron Microscopy: γ′ precipitates (dark) in γ matrix (light) after a standard heat treatment",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "AM1 alloy",
+      "canonical_name": "AM1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "crept",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "b - after creep loading under 150 MPa at 950 ◦C during 100 h",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "standard heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-cast",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "after a standard heat treatment",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "creep loading",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "100 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "stress": "150 MPa",
+          "loading_axis": "[100]"
+        }
+      },
+      "input_state": "as-cast",
+      "output_state": "crept",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "after creep loading under 150 MPa at 950 ◦C during 100 h",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": "high volume fraction",
+        "size": null,
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "a high volume fraction of strengtheningγ′ precipitates (L12 ordered structure) embedded in a face-centered cubic (fcc) solid-solutionγ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        },
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "γ′ precipitates (dark) in γ matrix (light) after a standard heat treatment",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "face-centered cubic (fcc) solid-solutionγ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "raft",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "rafter; perpendicular to the tensile loading axis",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "the model predicts that rafting proceeds perpendicularly to the tensile loading axis",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        },
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "the directional coarsening (rafting) ofγ′ precipitates occurs under creep loading together with plastic deformation mainly localized within the γ channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "rafting",
+      "category": "microstructure evolution",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "in agreement with experiments, the model predicts that rafting proceeds perpendicularly to the tensile loading axis and it is shown that plasticity slows down significantly the evolution of the rafts",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "AM1 alloy",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "AM1 alloy",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "after a standard heat treatment",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Model",
+          "quote": "after creep loading under 150 MPa at 950 ◦C during 100 h",
+          "table": null,
+          "figure": "Figure 1",
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "a high volume fraction of strengtheningγ′ precipitates (L12 ordered structure) embedded in a face-centered cubic (fcc) solid-solutionγ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "as-cast",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "face-centered cubic (fcc) solid-solutionγ matrix",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "process_2",
+      "predicate": "PRODUCES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {
+        "temperature_c": 950,
+        "duration": "100 h",
+        "stress": "150 MPa"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "the rafting of γ′ precipitates in a Ni-based superalloy is investigated during [100] creep loadings",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "process_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {
+        "temperature_c": 950,
+        "duration": "100 h",
+        "stress": "150 MPa"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Abstract",
+          "quote": "in agreement with experiments, the model predicts that rafting proceeds perpendicularly to the tensile loading axis",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_1",
+      "predicate": "FORMS",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "the directional coarsening (rafting) ofγ′ precipitates occurs under creep loading together with plastic deformation mainly localized within the γ channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3a024dfa2dd1bd06:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

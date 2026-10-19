@@ -1,0 +1,48 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets and user state
+config.json
+.env
+.env.*
+!.env.example
+chat_history/
+.gradio/
+data/auth/
+
+# Installed frontend dependencies
+node_modules/
+
+# Runtime databases. Both active databases exceed GitHub's 100 MiB limit.
+data/index/
+data/graph/graph.db
+data/graph/graph.db-*
+data/*.db
+data/*.db-*
+
+# Working copies and intermediate inputs. The curated GitHub dataset is
+# data/markdown_bundle, not data/markdown.
+data/markdown/
+data/uploads/
+data/ocr-temp/
+data/archive/
+data/graph/failed/
+
+# Generated release archives are uploaded as GitHub Release assets.
+release_assets/
+
+# Runtime logs and usage/account telemetry
+*.log
+*.err
+reports/*usage*.jsonl
+reports/app.*
+reports/local_app_*
+
+# Local temporary files
+*.tmp
+*.bak
+.ocr-test.png

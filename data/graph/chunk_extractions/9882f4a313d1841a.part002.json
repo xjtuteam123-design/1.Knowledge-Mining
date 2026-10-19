@@ -1,0 +1,186 @@
+{
+  "document_id": "9882f4a313d1841a",
+  "chunk_id": "9882f4a313d1841a:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "X. Jiang"
+    ],
+    "journal": "Computational Materials Science",
+    "year": 2018,
+    "doi": "10.1016/j.commatsci.2017.09.061"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "5. Conclusion",
+          "quote": "The informatics approach integrated with machine learning algorithms provides a novel methodology during material design, especially for lattice misﬁt of Ni-based single crystal superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9882f4a313d1841a:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "multilayer perceptron (MLP)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "lattice misfit prediction",
+      "inputs": [
+        "composition",
+        "dendrite information",
+        "shape and size of specimen",
+        "temperature"
+      ],
+      "target": "lattice misfit",
+      "dataset": "Ni-based single crystal superalloys database accumulated manually from open access literatures",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "6",
+          "section": "5. Conclusion",
+          "quote": "Finally we choose MLP model for its distinguished prediction performance with high correlation coefﬁcient and low MAE and RMSE values.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9882f4a313d1841a:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "support vector regression (SVR)",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "lattice misfit prediction",
+      "inputs": [
+        "composition",
+        "dendrite information",
+        "shape and size of specimen",
+        "temperature"
+      ],
+      "target": "lattice misfit",
+      "dataset": "Ni-based single crystal superalloys database accumulated manually from open access literatures",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "6",
+          "section": "5. Conclusion",
+          "quote": "we train misﬁt models by SVR, SMOreg and MLP machine learning algorithms with linear and poly kernels for appropriate model selecting",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9882f4a313d1841a:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "SMOreg",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "lattice misfit prediction",
+      "inputs": [
+        "composition",
+        "dendrite information",
+        "shape and size of specimen",
+        "temperature"
+      ],
+      "target": "lattice misfit",
+      "dataset": "Ni-based single crystal superalloys database accumulated manually from open access literatures",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "6",
+          "section": "5. Conclusion",
+          "quote": "we train misﬁt models by SVR, SMOreg and MLP machine learning algorithms with linear and poly kernels for appropriate model selecting",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9882f4a313d1841a:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "5. Conclusion",
+          "quote": "Finally we choose MLP model for its distinguished prediction performance with high correlation coefﬁcient and low MAE and RMSE values.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9882f4a313d1841a:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "alloy_system_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "5. Conclusion",
+          "quote": "we train misﬁt models by SVR, SMOreg and MLP machine learning algorithms with linear and poly kernels for appropriate model selecting",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9882f4a313d1841a:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "5. Conclusion",
+          "quote": "we train misﬁt models by SVR, SMOreg and MLP machine learning algorithms with linear and poly kernels for appropriate model selecting",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9882f4a313d1841a:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,555 @@
+{
+  "document_id": "9369ef058c881ebc",
+  "chunk_id": "9369ef058c881ebc:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Intelligent optimized design of novel high-temperature titanium alloys",
+    "authors": [
+      "Lingzhi Liu",
+      "Lixian Lian",
+      "Xingyue Li",
+      "Wu Jiaqi",
+      "Wang Hu",
+      "Ying Liu"
+    ],
+    "journal": "Materials Genome Engineering Advances",
+    "year": 2025,
+    "doi": "10.1002/mgea.70006"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ti-Al-Sn-Zr-Mo-Si alloy",
+      "material_category": "high-temperature titanium alloy",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Database building",
+          "quote": "Based on the existing typical high-temperature titanium alloy system Ti-Al-Sn-Zr-Mo-Si, elements Ta, Nb, B, and C are added.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ti-Al-Sn-Zr-Mo-Si-Nb-Ta-B-C alloy",
+      "material_category": "high-temperature titanium alloy",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Database building",
+          "quote": "The 10 alloying elements above were used as variables to define the composition space, as shown in Table 1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "Ti-6Al-4V alloy",
+      "material_category": "high-temperature titanium alloy",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Design strategy",
+          "quote": "Thermodynamic calculations through JMatPro to explore the influences of elements such as Al, V, and Cr (Ti-Al-V alloys)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Design space alloy (Table 1 composition space)",
+      "canonical_name": "Ti-Al-Sn-Zr-Mo-Si-Nb-Ta-B-C",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "equilibrium at 650°C",
+      "composition": [
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": 5.6,
+          "max_value": 8.0,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Sn",
+          "value": null,
+          "min_value": 0,
+          "max_value": 4.8,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Zr",
+          "value": null,
+          "min_value": 1.5,
+          "max_value": 11.0,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Mo",
+          "value": null,
+          "min_value": 0,
+          "max_value": 5.0,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Si",
+          "value": null,
+          "min_value": 0.1,
+          "max_value": 0.6,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": 0,
+          "max_value": 3.0,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ta",
+          "value": null,
+          "min_value": 0,
+          "max_value": 2.0,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "B",
+          "value": null,
+          "min_value": 0,
+          "max_value": 0.5,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "C",
+          "value": null,
+          "min_value": 0,
+          "max_value": 0.06,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        },
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": "4",
+          "section": "2.2 Database building",
+          "quote": "Content (wt.%) 5.6–8 0–4.8 1.5–11 0–5 0.1–0.6 0–3 0–2 0–0.5 0–0.06 Bal.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "high-throughput thermodynamic calculation (JMatPro)",
+      "parameters": {
+        "temperature_c": 650,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "data_sets": 56134
+        }
+      },
+      "input_state": "composition space defined in Table 1",
+      "output_state": "equilibrium at 650°C",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Database building",
+          "quote": "The phase content, high-temperature strength, and creep life of the equilibrium state at 650°C for each composition were calculated using high-throughput methods from the titanium alloy database of the JMatPro software, and a total of 56,134 sets of data were collected",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "α2 phase",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Design strategy",
+          "quote": "machine learning models were developed to assess the yield strength, creep life, and volume fraction of the α2 phase (Vα2) of alloys at 650°C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "α phase",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.4 Multiobjective optimization strategy",
+          "quote": "The α phase is a hexagonal close-packed structure and has a lower diffusion rate than the β phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "β phase",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.4 Multiobjective optimization strategy",
+          "quote": "the β phase with a body-centered cubic structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Database building",
+          "quote": "Nb is a weaker β-stabilizing element, has similar electronegativity to Ti, and has a larger solidification in the α phase, which plays a good solid solution strengthening role",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "grain refinement",
+      "category": "microstructural",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Database building",
+          "quote": "A small amount of B can markedly improve the microstructure by refining grains, increasing phase boundaries to impede dislocation movement, thereby enhancing the alloy's creep resistance and high-temperature strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "feedforward neural network (FNN)",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "regression prediction of yield strength, creep life at 150 MPa, and α2 phase volume fraction at 650°C",
+      "inputs": [
+        "alloy composition (Al, Sn, Zr, Mo, Si, Nb, Ta, B, C, Ti)"
+      ],
+      "target": "yield strength; creep life; α2 volume fraction",
+      "dataset": "56,134 JMatPro-calculated data sets at 650°C",
+      "validation": "train/validation/test split 7:1.5:1.5; ensemble of 20 base models",
+      "metrics": {
+        "R2": {
+          "value": null,
+          "min_value": 0.9,
+          "max_value": null
+        },
+        "MAE": {
+          "value": null,
+          "min_value": null,
+          "max_value": 5
+        },
+        "RMSE": {
+          "value": null,
+          "min_value": null,
+          "max_value": 11
+        }
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "A high-precision predictive model has been established, achieving R2 values exceeding 0.9, with mean absolute error (MAE) and root mean square error (RMSE) not exceeding 5 and 11, respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "STUDIES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Database building",
+          "quote": "Based on the existing typical high-temperature titanium alloy system Ti-Al-Sn-Zr-Mo-Si, elements Ta, Nb, B, and C are added.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Database building",
+          "quote": "The phase content, high-temperature strength, and creep life of the equilibrium state at 650°C for each composition were calculated using high-throughput methods",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "2.1 Design strategy",
+          "quote": "machine learning models were developed to assess the yield strength, creep life, and volume fraction of the α2 phase (Vα2) of alloys at 650°C",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.4 Multiobjective optimization strategy",
+          "quote": "The α phase is a hexagonal close-packed structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "2.4 Multiobjective optimization strategy",
+          "quote": "the β phase with a body-centered cubic structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Database building",
+          "quote": "Nb is a weaker β-stabilizing element, has similar electronegativity to Ti, and has a larger solidification in the α phase, which plays a good solid solution strengthening role",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "equilibrium at 650°C",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.2 Database building",
+          "quote": "A small amount of B can markedly improve the microstructure by refining grains, increasing phase boundaries to impede dislocation movement, thereby enhancing the alloy's creep resistance and high-temperature strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "ml_model_1",
+      "predicate": "USES_MODEL",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "3",
+          "section": "2.3 Establishment of machine learning model",
+          "quote": "The alloy compositions listed in Table 1 were used as inputs, whereas yield strength, creep life at 150 MPa, and the volume fraction of the α2 phase (Vα2) of the alloy at 650°C were used as outputs for constructing the FNN machine learning model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9369ef058c881ebc:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "α + α2 alloy",
+    "near-α alloy"
+  ],
+  "conflicts": []
+}

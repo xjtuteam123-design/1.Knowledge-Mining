@@ -1,0 +1,362 @@
+{
+  "document_id": "ca86c2de67fd2e70",
+  "chunk_id": "ca86c2de67fd2e70:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": "Metallurgical and Materials Transactions A",
+    "year": "1998",
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "TiAl alloy",
+      "material_category": "intermetallic",
+      "evidence": [
+        {
+          "page": "11",
+          "section": null,
+          "quote": "Fig. 14ÐEffect of cooling rate on the compressive yield strength of various mechanically milled TiAl alloys (VHPed and annealed at 1300 7C for 5 h).",
+          "table": null,
+          "figure": "14",
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "5 pct B alloy",
+      "canonical_name": "TiAl-5B",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "VHPed and annealed at 1300 °C for 5 h, air-cooled",
+      "composition": [
+        {
+          "element": "B",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "pct",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "10",
+              "section": null,
+              "quote": "mechanically milled 5 pct B alloy (VHPed and annealed at 1300 7C for 5 h, followed by air cooling)",
+              "table": null,
+              "figure": "13",
+              "chunk_id": "ca86c2de67fd2e70:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "mechanically milled 5 pct B alloy (VHPed and annealed at 1300 7C for 5 h, followed by air cooling)",
+          "table": null,
+          "figure": "13",
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "0 pct B alloy",
+      "canonical_name": "TiAl-0B",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "B",
+          "value": 0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "pct",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "10",
+              "section": null,
+              "quote": "resulting in a lower strength than the 0 pct B alloy.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "ca86c2de67fd2e70:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "resulting in a lower strength than the 0 pct B alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "mechanical milling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "mechanically milled",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "mechanically milled 5 pct B alloy",
+          "table": null,
+          "figure": "13",
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "vacuum hot pressing (VHP)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "vacuum",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "mechanically milled",
+      "output_state": "VHPed",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "VHPed and annealed at 1300 7C for 5 h",
+          "table": null,
+          "figure": "13",
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1300,
+        "time": "5 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "VHPed",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "VHPed and annealed at 1300 7C for 5 h, followed by air cooling",
+          "table": null,
+          "figure": "13",
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "fine grain",
+      "sample_id": "sample_1",
+      "material_state": "VHPed and annealed at 1300 °C for 5 h, air-cooled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "finest",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "dominant for the 5 pct B alloy with the ®nest grains",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "mechanically milled 5 pct B alloy",
+          "table": null,
+          "figure": "13",
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "resulting in a lower strength than the 0 pct B alloy.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "mechanically milled 5 pct B alloy",
+          "table": null,
+          "figure": "13",
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "VHPed and annealed at 1300 7C for 5 h",
+          "table": null,
+          "figure": "13",
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "VHPed and annealed at 1300 7C for 5 h, followed by air cooling",
+          "table": null,
+          "figure": "13",
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "VHPed and annealed at 1300 °C for 5 h, air-cooled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "dominant for the 5 pct B alloy with the ®nest grains",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ca86c2de67fd2e70:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

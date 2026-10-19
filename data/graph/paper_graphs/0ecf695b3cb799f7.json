@@ -1,0 +1,943 @@
+{
+  "document_id": "0ecf695b3cb799f7",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Impact of multi-scale microstructural heterogeneities on the mechanical behavior of additively manufactured and post-processed Nb-based C103 alloy",
+    "authors": [
+      "Advika Chesetti",
+      "Tirthesh Ingale",
+      "Sucharita Banerjee",
+      "Madhavan Radhakrishnan",
+      "Narendra B. Dahotre",
+      "Abhishek Sharma",
+      "Rajarshi Banerjee"
+    ],
+    "journal": "Materialia",
+    "year": 2024,
+    "doi": "10.1016/j.mtla.2024.102230"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb-Hf-Ti alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Laser powder-bed fusion (LPBF) processed Nb-based alloy C103 (Nb-10Hf-1Ti wt.%) develops a complex, hier - archical microstructure comprising a fine-scale solidification cell structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "AB",
+      "canonical_name": "Nb-10Hf-1Ti wt.%",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Nb",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Abstract",
+              "quote": "(Nb-10Hf-1Ti wt.%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0ecf695b3cb799f7:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Abstract",
+              "quote": "(Nb-10Hf-1Ti wt.%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0ecf695b3cb799f7:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 1,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Abstract",
+              "quote": "(Nb-10Hf-1Ti wt.%)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0ecf695b3cb799f7:part:001"
+            }
+          ]
+        },
+        {
+          "element": "O",
+          "value": 0.042,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "measured",
+          "applies_to": "powder",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2. Material and methods",
+              "quote": "0.042 wt% O concentration was estimated in the powder using the LECO ON736 infrared analyzer.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "0ecf695b3cb799f7:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Material and methods",
+          "quote": "The as-built block (AB) was subjected to two different post-deposition processing treatments.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "AB + SR",
+      "canonical_name": "Nb-10Hf-1Ti wt.%",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "stress-relieved",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Material and methods",
+          "quote": "For the first treatment, AB was stress relieved under vacuum (~10 – 5 torr) at 1100 ◦ C for 1 h and furnace cooled (referred to as AB + SR).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "AB + HIP",
+      "canonical_name": "Nb-10Hf-1Ti wt.%",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "hot isostatically pressed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Material and methods",
+          "quote": "In the second treatment, the AB block was HIP ’ ed at 1300 ◦ C under 206 MPa for 4 h (referred to as AB + HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "laser powder bed fusion (LPBF)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": "Ar",
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": 180,
+        "scan_speed": "200 mm/s",
+        "layer_thickness": "50 µm",
+        "other": {
+          "laser_beam_diameter": "55 µm",
+          "hatch_spacing": "100 µm",
+          "scan_strategy": "bi-directional scanning with 90° rotation every layer",
+          "chamber_oxygen_level": "<100 ppm"
+        }
+      },
+      "input_state": "C103 pre-alloyed powder",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Material and methods",
+          "quote": "Samples were printed on the Trumpf TruPrint 1000 equipped with a 55 μ m laser beam diameter and layer height of 50 µ m. Bi-directional scanning strategy was employed with 90◦ scan rota - tion every layer. The prints were carried out in an inert Ar atmosphere, with the chamber oxygen level maintained below 100 ppm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        },
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "the highest relative density of ~ 99% was achieved at 180 W laser power, 200 mm/s scan speed, and 100 µ m hatch spacing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "stress-relieving annealing",
+      "parameters": {
+        "temperature_c": 1100,
+        "time": "1 h",
+        "pressure": "~10^-5 torr",
+        "atmosphere": "vacuum",
+        "cooling_method": "furnace cooled",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-built",
+      "output_state": "stress-relieved",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Material and methods",
+          "quote": "For the first treatment, AB was stress relieved under vacuum (~10 – 5 torr) at 1100 ◦ C for 1 h and furnace cooled (referred to as AB + SR).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "hot isostatic pressing (HIP)",
+      "parameters": {
+        "temperature_c": 1300,
+        "time": "4 h",
+        "pressure": "206 MPa",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-built",
+      "output_state": "hot isostatically pressed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Material and methods",
+          "quote": "In the second treatment, the AB block was HIP ’ ed at 1300 ◦ C under 206 MPa for 4 h (referred to as AB + HIP).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "The Nb-based alloy has a BCC single-phase solid solution micro - structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "monoclinic-HfO2",
+      "sample_id": "sample_2",
+      "material_state": "stress-relieved",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "107 ± 80 nm",
+        "morphology": null,
+        "location": "high angle grain boundaries",
+        "composition": "HfO2",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "In the present study, EBSD and XRD data provided in Supplementary Section, S3 confirm the presence of monoclinic-HfO2 in the LPBF processed and stress relief annealed C103.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        },
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Average Size Distribution 107 ± 80 nm",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "HfO2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": "1.0 ± 0.3%",
+        "size": "54 ± 20 nm",
+        "morphology": null,
+        "location": "solidification cell boundaries and within cells",
+        "composition": "HfO2",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "Fine-scale (~ 50 nm), bright particles were observed in the AB condition which have been found to be rich in both Hf and O based on STEM-EDS mapping.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        },
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Area Fraction 1.0 ± 0.3%",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "HfO2",
+      "sample_id": "sample_3",
+      "material_state": "hot isostatically pressed",
+      "attributes": {
+        "phase_fraction": "2.1 ± 0.3%",
+        "size": "100 ± 63 nm",
+        "morphology": null,
+        "location": "high angle grain boundaries",
+        "composition": "HfO2",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "Average Size Distribution 100 ± 63 nm Area Fraction 2.1 ± 0.3%",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "solidification cell structure",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "within grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3. Results and discussion",
+          "quote": "reveals a cellular solidification microstructure within the grains, with bright intercellular channels (presumably rich in Hf) surrounding cells exhibiting a darker contrast.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "dislocation cell network",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "overlapping with solidification cell structure",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "overlaid with a dense dislocation-network outlining the cell boundaries, within the primary grains.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "low angle boundaries",
+      "sample_id": "sample_2",
+      "material_state": "stress-relieved",
+      "attributes": {
+        "phase_fraction": "0.77",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 2",
+          "quote": "Fraction of 1◦¡5◦ Boundaries (low angle, LABs) 0.77",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "defect_1",
+      "type": "Defect",
+      "name": "porosity",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Additional defects are porosities (even in parts with > 99% relative density) and columnar grains",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "yield strength",
+      "value": 486,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 30",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": "room temperature",
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tensile",
+        "orientation": "perpendicular to build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 3",
+          "quote": "YS (in MPa) 486 ± 30",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "ultimate tensile strength",
+      "value": 564,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 17",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": "room temperature",
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tensile",
+        "orientation": "perpendicular to build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 3",
+          "quote": "UTS (in MPa) 564 ± 17",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "property": "elongation",
+      "value": 7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 3",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": "room temperature",
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tensile",
+        "orientation": "perpendicular to build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 3",
+          "quote": "εf (in%) 7 ± 3%",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "stress-relieved",
+      "property": "yield strength",
+      "value": 292,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 7",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": "room temperature",
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tensile",
+        "orientation": "perpendicular to build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 3",
+          "quote": "YS (in MPa) 292 ± 7",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "stress-relieved",
+      "property": "ultimate tensile strength",
+      "value": 416,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 8",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": "room temperature",
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tensile",
+        "orientation": "perpendicular to build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 3",
+          "quote": "UTS (in MPa) 416 ± 8",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "stress-relieved",
+      "property": "elongation",
+      "value": 21,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 6",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": "room temperature",
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tensile",
+        "orientation": "perpendicular to build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 3",
+          "quote": "εf (in%) 21 ± 6%",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_3",
+      "material_state": "hot isostatically pressed",
+      "property": "yield strength",
+      "value": 371,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 4",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": "room temperature",
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tensile",
+        "orientation": "perpendicular to build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 3",
+          "quote": "YS (in MPa) 371 ± 4",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_3",
+      "material_state": "hot isostatically pressed",
+      "property": "ultimate tensile strength",
+      "value": 533,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 3",
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": "room temperature",
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tensile",
+        "orientation": "perpendicular to build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 3",
+          "quote": "UTS (in MPa) 533 ± 3",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_9",
+      "sample_id": "sample_3",
+      "material_state": "hot isostatically pressed",
+      "property": "elongation",
+      "value": 39,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": "± 1",
+      "unit": "%",
+      "conditions": {
+        "temperature_c": "room temperature",
+        "strain_rate": "10^-3 s^-1",
+        "loading_mode": "uniaxial tensile",
+        "orientation": "perpendicular to build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Table 3",
+          "quote": "εf (in%) 39 ± 1%",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Hf and Ti impart significant solid solution strengthening to Nb without compromising on ductility",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation cell network strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "it appears that the presence of the dense dislocation cell-type network contributes to the high YS in the AB condition which sets it apart from AB + HIP condition despite having similar fraction of LABs, MABs, and HAGBs.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "boundary strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "As there is a higher fraction of boundaries with larger mis - orientations in the first two conditions, the boundary strengthening can also be expected to be higher.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "microstructure_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "it appears that the presence of the dense dislocation cell-type network contributes to the high YS in the AB condition which sets it apart from AB + HIP condition despite having similar fraction of LABs, MABs, and HAGBs.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "it appears that the presence of the dense dislocation cell-type network contributes to the high YS in the AB condition which sets it apart from AB + HIP condition despite having similar fraction of LABs, MABs, and HAGBs.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "phase_4",
+      "predicate": "SUPPRESSES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_3",
+      "material_state": "hot isostatically pressed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "This can be attributed to the Hf-oxide rich particles pinning grain boundaries and preventing grain growth.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "phase_3",
+      "predicate": "SUPPRESSES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "stress-relieved",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "This can be attributed to the Hf-oxide rich particles pinning grain boundaries and preventing grain growth.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "phase_3",
+      "predicate": "DECREASES",
+      "target_id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "stress-relieved",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3. Results and discussion",
+          "quote": "Therefore, despite the comparable size of the precipitates in these two conditions, the higher area fraction of the oxides in case of AB + SR, markedly decreases the YS presumably due to lower solid solution strengthening from Hf coupled with coarsening of the Hf-oxide pre - cipitates.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "0ecf695b3cb799f7:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

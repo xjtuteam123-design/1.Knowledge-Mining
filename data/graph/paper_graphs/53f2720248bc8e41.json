@@ -1,0 +1,844 @@
+{
+  "document_id": "53f2720248bc8e41",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Molecular dynamics simulation of tensile properties of Nickel-based superalloy with temperature and Co",
+    "authors": [
+      "Huicong Dong",
+      "Yinghao Chen",
+      "Dayong Wu",
+      "Haikun Ma",
+      "Qian Wang",
+      "Zhihao Feng",
+      "Baocai You",
+      "Chonglin Jia",
+      "Ru Su"
+    ],
+    "journal": "Materials Chemistry and Physics",
+    "year": 2024,
+    "doi": "10.1016/j.matchemphys.2024.129635"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Ni(Nickel)-based superalloys are used as indispensable materials for turbine blades in aero-engines because of their excellent creep, fatigue and corrosion resistance.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        },
+        {
+          "page": 7,
+          "section": "Conclusions",
+          "quote": "This paper mainly used molecular dynamics simulation to study the effect of Co and temperature on the tensile mechanical properties of Ni-based superalloy, and explored from the aspects of mechanical properties and microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "0 % Co structure",
+      "canonical_name": "Ni-18.75Al (gamma/gamma' Ni3Al model, 0% Co)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2. Numerical simulation and calculation methods",
+              "quote": "The idealized Ni-based superalloy consists of γ matrix phase (Pure Ni) with FCC (Face Center Cubic) structures and γ ′ precipitate phase (Ni 3 Al) with L1 2 structures",
+              "table": null,
+              "figure": null,
+              "chunk_id": "53f2720248bc8e41:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 18.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2. Numerical simulation and calculation methods",
+              "quote": "The volume fraction of γ ′ phase in the model is 72.9 %",
+              "table": null,
+              "figure": null,
+              "chunk_id": "53f2720248bc8e41:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 0,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Abstract",
+              "quote": "tensile properties and microstructure of Ni-based superalloys doped with or without Co (5 %) have been investigated through molecular dynamics simulation",
+              "table": null,
+              "figure": null,
+              "chunk_id": "53f2720248bc8e41:part:001"
+            },
+            {
+              "page": 7,
+              "section": "Conclusions",
+              "quote": "compared with the 0 % Co structure, the addition of Co leads to the reduction of yield stress, yield strain and elastic modulus",
+              "table": null,
+              "figure": null,
+              "chunk_id": "53f2720248bc8e41:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "the 0 % Co structural model and the 5 % Co structural were constructed as shown in Fig. 2",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "5 % Co structure",
+      "canonical_name": "Ni-18.75Al-5Co (gamma/gamma' Ni3Al model, 5% Co)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "simulated relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2. Numerical simulation and calculation methods",
+              "quote": "The idealized Ni-based superalloy consists of γ matrix phase (Pure Ni) with FCC (Face Center Cubic) structures and γ ′ precipitate phase (Ni 3 Al) with L1 2 structures",
+              "table": null,
+              "figure": null,
+              "chunk_id": "53f2720248bc8e41:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 18.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "2. Numerical simulation and calculation methods",
+              "quote": "The volume fraction of γ ′ phase in the model is 72.9 %",
+              "table": null,
+              "figure": null,
+              "chunk_id": "53f2720248bc8e41:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 1,
+              "section": "Abstract",
+              "quote": "tensile properties and microstructure of Ni-based superalloys doped with or without Co (5 %) have been investigated through molecular dynamics simulation",
+              "table": null,
+              "figure": null,
+              "chunk_id": "53f2720248bc8e41:part:001"
+            },
+            {
+              "page": 7,
+              "section": "Conclusions",
+              "quote": "the 5 % Co structure produces more layers of lamellar HCP phase and intrudes into the γ ′ phase",
+              "table": null,
+              "figure": null,
+              "chunk_id": "53f2720248bc8e41:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "the 0 % Co structural model and the 5 % Co structural were constructed as shown in Fig. 2",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "100000 steps (1 fs timestep)",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "timestep": "1 fs",
+          "steps": 100000
+        }
+      },
+      "input_state": "as-constructed",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "the model was first relaxed before stretching, and a canonical ensemble (NVT ensemble, the total number of atoms (N), constant volume (V), and the temperature (T) are constant) was used in the relaxation process with a time step of 1fs and 100,000 relaxation steps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "100000 steps (1 fs timestep)",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NVT",
+          "timestep": "1 fs",
+          "steps": 100000
+        }
+      },
+      "input_state": "as-constructed",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "the model was first relaxed before stretching, and a canonical ensemble (NVT ensemble, the total number of atoms (N), constant volume (V), and the temperature (T) are constant) was used in the relaxation process with a time step of 1fs and 100,000 relaxation steps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "tensile test",
+      "parameters": {
+        "temperature_c": 27,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension along X-axis [001]",
+        "strain_rate": "3.0e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "temperature_K": 300
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "deformed at 300 K",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "In the tensile process, an isothermal-isobaric ensemble (NPT ensemble, the total number of atoms (N), the total pressure (P), and the temperature (T) are constant) was used, and the strain rate was 3.0 × 10 9 s 1 , and four tensile simulations with different temperatures were simulated, which were 300 K, 600 K, 900 K, and 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "tensile test",
+      "parameters": {
+        "temperature_c": 327,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension along X-axis [001]",
+        "strain_rate": "3.0e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "temperature_K": 600
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "deformed at 600 K",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "In the tensile process, an isothermal-isobaric ensemble (NPT ensemble, the total number of atoms (N), the total pressure (P), and the temperature (T) are constant) was used, and the strain rate was 3.0 × 10 9 s 1 , and four tensile simulations with different temperatures were simulated, which were 300 K, 600 K, 900 K, and 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "tensile test",
+      "parameters": {
+        "temperature_c": 627,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension along X-axis [001]",
+        "strain_rate": "3.0e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "temperature_K": 900
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "deformed at 900 K",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "In the tensile process, an isothermal-isobaric ensemble (NPT ensemble, the total number of atoms (N), the total pressure (P), and the temperature (T) are constant) was used, and the strain rate was 3.0 × 10 9 s 1 , and four tensile simulations with different temperatures were simulated, which were 300 K, 600 K, 900 K, and 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "tensile test",
+      "parameters": {
+        "temperature_c": 927,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension along X-axis [001]",
+        "strain_rate": "3.0e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "temperature_K": 1200
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "deformed at 1200 K",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "In the tensile process, an isothermal-isobaric ensemble (NPT ensemble, the total number of atoms (N), the total pressure (P), and the temperature (T) are constant) was used, and the strain rate was 3.0 × 10 9 s 1 , and four tensile simulations with different temperatures were simulated, which were 300 K, 600 K, 900 K, and 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "tensile test",
+      "parameters": {
+        "temperature_c": 27,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension along X-axis [001]",
+        "strain_rate": "3.0e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "temperature_K": 300
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "deformed at 300 K",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "In the tensile process, an isothermal-isobaric ensemble (NPT ensemble, the total number of atoms (N), the total pressure (P), and the temperature (T) are constant) was used, and the strain rate was 3.0 × 10 9 s 1 , and four tensile simulations with different temperatures were simulated, which were 300 K, 600 K, 900 K, and 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_8",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "tensile test",
+      "parameters": {
+        "temperature_c": 327,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension along X-axis [001]",
+        "strain_rate": "3.0e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "temperature_K": 600
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "deformed at 600 K",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "In the tensile process, an isothermal-isobaric ensemble (NPT ensemble, the total number of atoms (N), the total pressure (P), and the temperature (T) are constant) was used, and the strain rate was 3.0 × 10 9 s 1 , and four tensile simulations with different temperatures were simulated, which were 300 K, 600 K, 900 K, and 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_9",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "tensile test",
+      "parameters": {
+        "temperature_c": 627,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension along X-axis [001]",
+        "strain_rate": "3.0e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "temperature_K": 900
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "deformed at 900 K",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "In the tensile process, an isothermal-isobaric ensemble (NPT ensemble, the total number of atoms (N), the total pressure (P), and the temperature (T) are constant) was used, and the strain rate was 3.0 × 10 9 s 1 , and four tensile simulations with different temperatures were simulated, which were 300 K, 600 K, 900 K, and 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_10",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "tensile test",
+      "parameters": {
+        "temperature_c": 927,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "tension along X-axis [001]",
+        "strain_rate": "3.0e9 s^-1",
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "temperature_K": 1200
+        }
+      },
+      "input_state": "relaxed",
+      "output_state": "deformed at 1200 K",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "In the tensile process, an isothermal-isobaric ensemble (NPT ensemble, the total number of atoms (N), the total pressure (P), and the temperature (T) are constant) was used, and the strain rate was 3.0 × 10 9 s 1 , and four tensile simulations with different temperatures were simulated, which were 300 K, 600 K, 900 K, and 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "gamma matrix",
+        "composition": "pure Ni",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "The idealized Ni-based superalloy consists of γ matrix phase (Pure Ni) with FCC (Face Center Cubic) structures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "L12 gamma'",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": 0.729,
+        "size": null,
+        "morphology": null,
+        "location": "gamma' precipitate",
+        "composition": "Ni3Al",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2. Numerical simulation and calculation methods",
+          "quote": "γ ′ precipitate phase (Ni 3 Al) with L1 2 structures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "lamellar",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Analysis of dislocation evolution",
+          "quote": "the addition of Co at 300 K and 600 K will lead to more HCP structure in the elastic deformation stage than the 0 % Co structure",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "53f2720248bc8e41:part:001"
+        },
+        {
+          "page": 7,
+          "section": "Conclusions",
+          "quote": "the 5 % Co structure produces more layers of lamellar HCP phase and intrudes into the γ ′ phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "deformed at 300 K",
+      "property": "flow stress",
+      "value": 4.62,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 27,
+        "strain_rate": "3.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": "X-axis [001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Analysis of tensile mechanical behavior",
+          "quote": "Taking the 0 % Co structure as an example, its flow stress decreases from 4.62Gpa at 300 K to 3.80Gpa at 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "deformed at 1200 K",
+      "property": "flow stress",
+      "value": 3.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 927,
+        "strain_rate": "3.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": "X-axis [001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Analysis of tensile mechanical behavior",
+          "quote": "Taking the 0 % Co structure as an example, its flow stress decreases from 4.62Gpa at 300 K to 3.80Gpa at 1200 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_2",
+      "material_state": "deformed at 300 K",
+      "property": "tensile strength",
+      "value": 5.68,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 27,
+        "strain_rate": "3.0e9 s^-1",
+        "loading_mode": "tension",
+        "orientation": "X-axis [001]",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1 Analysis of tensile mechanical behavior",
+          "quote": "the tensile strength of the 5 % Co structure is lower than that of the 0 % Co structure, reaching 5.68Gpa, 1.21Gpa lower than that of the 0 % Co structure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "1. Introduction",
+          "quote": "Liu et al. found through molecular dynamics simulation studies that Co atoms and mobile dislocations interacted with each other and solid solution strengthening was enhanced",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "strain hardening",
+      "category": "strengthening",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Analysis of dislocation evolution",
+          "quote": "At 300 K, the Stair-rod dislocation of the 5 % Co structure is longer than that of the 0 % Co structure in the plastic deformation stage, while the Stair-rod dislocation is an immovable dislocation, which promotes strain hardening of the model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "stress softening",
+      "category": "softening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Analysis of dislocation evolution",
+          "quote": "Shockley dislocation promotes the stress softening of the structure, while Stair-rod dislocation promotes the stress hardening of the structure",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_3",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.2 Analysis of dislocation evolution",
+          "quote": "the addition of Co at 300 K and 600 K will lead to more HCP structure in the elastic deformation stage than the 0 % Co structure",
+          "table": null,
+          "figure": "Fig. 7",
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "INCREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2 Analysis of dislocation evolution",
+          "quote": "the Stair-rod dislocation is an immovable dislocation, which promotes strain hardening of the model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "53f2720248bc8e41:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

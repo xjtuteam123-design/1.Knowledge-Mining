@@ -1,0 +1,879 @@
+{
+  "document_id": "5630cd0cc6649cdc",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Titanium Alloy Developments For Future Fan Disc Applications – The Fatigue Response of \"Alloy 104\"",
+    "authors": [
+      "J.S. Hewitt",
+      "M.J. Thomas",
+      "P. Garratt",
+      "M.R. Bache"
+    ],
+    "journal": "Advanced Materials Research",
+    "year": 2014,
+    "doi": "10.4028/www.scientific.net/AMR.891-892.569"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "alpha+beta titanium alloy",
+      "material_category": "titanium alloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "“Alloy 104” is a novel high strength, α+β titanium alloy primarily aimed at aero-engine fan disc applications.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Alloy 104 (aged)",
+      "canonical_name": "Alloy 104",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental Methods",
+          "quote": "The subsequent “pancakes”, designed to mimic a typical fan disc forging, were then assigned two separate heat treatments, namely “aged” and “annealed” described in Table 1.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Alloy 104 (annealed)",
+      "canonical_name": "Alloy 104",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "annealed",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental Methods",
+          "quote": "The subsequent “pancakes”, designed to mimic a typical fan disc forging, were then assigned two separate heat treatments, namely “aged” and “annealed” described in Table 1.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "beta forging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "description": "proprietary sequence of beta break down, hot chopping, re-heating and forging resulting in 250 mm diameter billets"
+        }
+      },
+      "input_state": "ingot",
+      "output_state": "billet",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental Methods",
+          "quote": "A proprietary sequence of β break down, hot chopping , re -heating and forging resulted in three 250mm diameter billets.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "forging",
+      "parameters": {
+        "temperature_c": null,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "3:1 forging reduction",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_relative": "transus -50 °C"
+        }
+      },
+      "input_state": "billet slice",
+      "output_state": "pancake",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental Methods",
+          "quote": "These 60° “cheeses” were then heated to transus -50°C for 2 hours before a 3:1 forging reduction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "fan air cooling (FAC)",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_relative": "transus -50 °C"
+        }
+      },
+      "input_state": "pancake",
+      "output_state": "heat treated pancake",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental Methods",
+          "quote": "Aged Transus -50°C/2hr FAC, + Age 500°C/8hr AC",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_1",
+      "sequence": 4,
+      "method": "ageing",
+      "parameters": {
+        "temperature_c": 500,
+        "time": "8 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling (AC)",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "heat treated pancake",
+      "output_state": "aged pancake",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental Methods",
+          "quote": "Aged Transus -50°C/2hr FAC, + Age 500°C/8hr AC",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "beta forging",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "description": "proprietary sequence of beta break down, hot chopping, re-heating and forging resulting in 250 mm diameter billets"
+        }
+      },
+      "input_state": "ingot",
+      "output_state": "billet",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental Methods",
+          "quote": "A proprietary sequence of β break down, hot chopping , re -heating and forging resulted in three 250mm diameter billets.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_6",
+      "sample_id": "sample_2",
+      "sequence": 2,
+      "method": "forging",
+      "parameters": {
+        "temperature_c": null,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": "3:1 forging reduction",
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_relative": "transus -50 °C"
+        }
+      },
+      "input_state": "billet slice",
+      "output_state": "pancake",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental Methods",
+          "quote": "These 60° “cheeses” were then heated to transus -50°C for 2 hours before a 3:1 forging reduction.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_7",
+      "sample_id": "sample_2",
+      "sequence": 3,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": null,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "fan air cooling (FAC)",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "temperature_relative": "transus -50 °C"
+        }
+      },
+      "input_state": "pancake",
+      "output_state": "heat treated pancake",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental Methods",
+          "quote": "Annealed Transus -50°C/2hr FAC, + Anneal 700°C/2hr AC",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_8",
+      "sample_id": "sample_2",
+      "sequence": 4,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 700,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": "air cooling (AC)",
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "heat treated pancake",
+      "output_state": "annealed pancake",
+      "evidence": [
+        {
+          "page": "2",
+          "section": "Experimental Methods",
+          "quote": "Annealed Transus -50°C/2hr FAC, + Anneal 700°C/2hr AC",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "primary alpha",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "A s tructure containing primary α, secondary α laths, along with fine tertiary α laths within the transformed β could be key to strength optimisation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Microstructure",
+      "name": "secondary alpha lath",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "fine",
+        "morphology": "lath",
+        "location": "within transformed beta phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "increasing magnification (Fig. 4 b and c) highlights fine α laths within the transformed β phase of the aged variant",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Microstructure",
+      "name": "tertiary alpha lath",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "fine",
+        "morphology": "lath",
+        "location": "within transformed beta phase",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "A s tructure containing primary α, secondary α laths, along with fine tertiary α laths within the transformed β could be key to strength optimisation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Microstructure",
+      "name": "tri-modal microstructure",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "tri-modal (triplex)",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "Similar aged microstructures have been reported by Lutjering [14], being referred to as “tri -modal” (or “triplex”).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "alpha2 (DO19)",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": "~6.5% at 500 °C",
+        "size": null,
+        "morphology": "precipitate",
+        "location": "aged microstructure",
+        "composition": null,
+        "identification_status": "predicted"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "A phase fraction of DO19 α2 precipitates of around 6.5% at 500°C was computed, with no α2 precipitates at 700°C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Microstructure",
+      "name": "transformed beta region",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "α precipitation is completely absent within the transformed β regions of the annealed material (Fig. 4 e and f)",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "primary alpha",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "it may be pertinent that the two variants offer very similar primary α grain sizes, shape and distributions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "property": "0.2% proof stress improvement over Ti-6Al-4V",
+      "value": 10.8,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test, comparison with room temperature Ti-6Al-4V data"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Tensile tests",
+          "quote": "the 0.2 proof stress and UTS for Alloy 104 are improved by 10.8% and 10.5% respectively, with a minor loss in RinA of 2.4% when considering in the aged condition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "property": "ultimate tensile strength improvement over Ti-6Al-4V",
+      "value": 10.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test, comparison with room temperature Ti-6Al-4V data"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Tensile tests",
+          "quote": "the 0.2 proof stress and UTS for Alloy 104 are improved by 10.8% and 10.5% respectively, with a minor loss in RinA of 2.4% when considering in the aged condition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "property": "reduction in area loss relative to Ti-6Al-4V",
+      "value": 2.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "tensile test, comparison with room temperature Ti-6Al-4V data"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "3",
+          "section": "Tensile tests",
+          "quote": "the 0.2 proof stress and UTS for Alloy 104 are improved by 10.8% and 10.5% respectively, with a minor loss in RinA of 2.4% when considering in the aged condition.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "alpha lath precipitation strengthening",
+      "category": "precipitation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "A s tructure containing primary α, secondary α laths, along with fine tertiary α laths within the transformed β could be key to strength optimisation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "alpha2 precipitate strengthening",
+      "category": "precipitation strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "The presence of such precipitates within the aged variant would inevitably enhance the strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "alpha colony refinement strengthening",
+      "category": "microstructural strengthening",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "Lutjering also discussed α colony size, where a decreasing colony size can enhance the yield strength, ductility, crack nucleati on resistance (beneficial for HCF strength) and micro -crack propagation resistance [14].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "A s tructure containing primary α, secondary α laths, along with fine tertiary α laths within the transformed β could be key to strength optimisation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "increasing magnification (Fig. 4 b and c) highlights fine α laths within the transformed β phase of the aged variant",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "Fine scale, tertiary α laths exist in the transformed β phase of the aged variant.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "Similar aged microstructures have been reported by Lutjering [14], being referred to as “tri -modal” (or “triplex”).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_5",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "A phase fraction of DO19 α2 precipitates of around 6.5% at 500°C was computed, with no α2 precipitates at 700°C.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_6",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "α precipitation is completely absent within the transformed β regions of the annealed material (Fig. 4 e and f)",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_7",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "it may be pertinent that the two variants offer very similar primary α grain sizes, shape and distributions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "4",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "A s tructure containing primary α, secondary α laths, along with fine tertiary α laths within the transformed β could be key to strength optimisation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "mechanism_2",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Fractographic and microstructural characterisation",
+          "quote": "The presence of such precipitates within the aged variant would inevitably enhance the strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "phase_4",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "6",
+          "section": "Conclusions",
+          "quote": "A tri-modal or triplex microstructure may be responsible for improving fatigue and static strength.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5630cd0cc6649cdc:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "Alloy 104 nominal composition (not reported in the supplied text)"
+  ],
+  "conflicts": []
+}

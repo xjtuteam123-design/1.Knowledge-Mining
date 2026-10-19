@@ -1,0 +1,175 @@
+{
+  "document_id": "06c225a454f08548",
+  "chunk_id": "06c225a454f08548:part:003",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Tuanwei Zhang",
+      "Renlong Xiong",
+      "Hui Chang",
+      "Jinxiong Hou",
+      "Dan Zhao",
+      "Zhong Wang",
+      "Zhouzhu Mao",
+      "Tianxiang Bai",
+      "Zhiming Jiao",
+      "Jianjun Wang",
+      "Zhihua Wang"
+    ],
+    "journal": "Materials & Design",
+    "year": "2024",
+    "doi": "10.1016/j.matdes.2024.113488"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "B2-strengthened Al-Si high-entropy alloy",
+      "material_category": "high-entropy alloy",
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "A prediction model was developed for the yield strength of a three-level B2-strengthened HEA across a broad temperature range.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c225a454f08548:part:003"
+        },
+        {
+          "page": 15,
+          "section": null,
+          "quote": "Fig. 16. A schematic diagram of deformation mechanisms for hierarchical B2 phase-strengthened Al0.3Si0.3 HEAs over a wide temperature range.",
+          "table": null,
+          "figure": "Fig. 16",
+          "chunk_id": "06c225a454f08548:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Al0.3Si0.3 HEA",
+      "canonical_name": "Al0.3Si0.3 HEA",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "Fig. 16. A schematic diagram of deformation mechanisms for hierarchical B2 phase-strengthened Al0.3Si0.3 HEAs over a wide temperature range.",
+          "table": null,
+          "figure": "Fig. 16",
+          "chunk_id": "06c225a454f08548:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "B2 phase strengthening",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "The primary and secondary B2 phases, which anchor at the grain boundaries, effectively resist grain boundary softening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c225a454f08548:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "matrix softening",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "The model suggests that the decrease in yield strength primarily results from the inherent softening of the matrix.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c225a454f08548:part:003"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "precipitation strengthening",
+      "category": null,
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "Additionally, the matrix strengthened via tertiary B2 precipitation, along with the inherent resistance of the B2 phase to high-temperature softening, significantly mitigates the softening of the FCC matrix at elevated temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c225a454f08548:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "SUPPRESSES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "The primary and secondary B2 phases, which anchor at the grain boundaries, effectively resist grain boundary softening.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c225a454f08548:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_3",
+      "predicate": "SUPPRESSES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": null,
+          "quote": "the matrix strengthened via tertiary B2 precipitation, along with the inherent resistance of the B2 phase to high-temperature softening, significantly mitigates the softening of the FCC matrix at elevated temperatures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "06c225a454f08548:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

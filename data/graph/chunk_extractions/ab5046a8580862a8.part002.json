@@ -1,0 +1,571 @@
+{
+  "document_id": "ab5046a8580862a8",
+  "chunk_id": "ab5046a8580862a8:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "M. Cottura",
+      "B. Appolaire",
+      "A. Finel",
+      "Y. Le Bouar"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2021,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2",
+          "quote": "2D rafting of Ni-base superalloys during creep",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "model superalloy",
+      "canonical_name": "Ni-base superalloy (model)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "aged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "the alloy is aged during 4.2 h at 950 ◦C under stress-free conditions using the elastic phase field model parametrized with the material parameters listed in Table 1 .",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 950,
+        "time": "4.2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "condition": "stress-free",
+          "model": "elastic phase field model"
+        }
+      },
+      "input_state": "disordered γ phase",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "starting from an initial disordered γ phase, the alloy is aged during 4.2 h at 950 ◦C under stress-free conditions using the elastic phase field model",
+          "table": null,
+          "figure": null,
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": 0.62,
+        "size": "350 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "The volume fraction of the γ′ precipitates is f v = 0 . 62 .",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "channel",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "aligned along cubic directions and separated by well-deﬁned γ channels (dark regions).",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "cuboidal γ′ precipitate",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": 0.62,
+        "size": "average size around 350 nm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "the precipitates average size is around 350 nm with an average aspect ratio of 0.77 reﬂecting their cuboidal morphology",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "γ channel",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "around 95 nm wide",
+        "morphology": "channel",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "while the γ channels are around 95 nm wide.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "rafted microstructure",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "raft/platelet",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2.1",
+          "quote": "we observe that the introduction of a non zero misorientation leads to the formation of rafts",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "plastic strain",
+      "value": 0.061,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 950,
+        "strain_rate": null,
+        "loading_mode": "tensile creep",
+        "orientation": "[110]",
+        "atmosphere": null,
+        "duration": "7 h",
+        "test_method": "elasto-viscoplastic phase field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2.5",
+          "quote": "the evolution slows down and becomes almost linear to reach about 0.061% after 7 h (green curve).",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "plastic strain",
+      "value": 0.074,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 950,
+        "strain_rate": null,
+        "loading_mode": "tensile creep",
+        "orientation": "[110] +6°",
+        "atmosphere": null,
+        "duration": "7 h",
+        "test_method": "elasto-viscoplastic phase field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.2.5",
+          "quote": "with values around 0.074% and 0.096% after 7 h for θ = +6 / + 12 ◦",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "property": "plastic strain",
+      "value": 0.096,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": 950,
+        "strain_rate": null,
+        "loading_mode": "tensile creep",
+        "orientation": "[110] +12°",
+        "atmosphere": null,
+        "duration": "7 h",
+        "test_method": "elasto-viscoplastic phase field simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.2.5",
+          "quote": "with values around 0.074% and 0.096% after 7 h for θ = +6 / + 12 ◦",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Ostwald ripening",
+      "category": "coarsening",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2.2",
+          "quote": "mainly by Ostwald ripening where large precipitates grow at the expense of smaller ones by exchanging solute by diffusion through the matrix",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "process_1",
+      "predicate": "PRODUCES",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "The resulting microstructure consists of γ′ cuboidal precipitates, as shown in Fig. 3 -a and b",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "The volume fraction of the γ′ precipitates is f v = 0 . 62 .",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "aligned along cubic directions and separated by well-deﬁned γ channels (dark regions).",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "the precipitates average size is around 350 nm with an average aspect ratio of 0.77 reﬂecting their cuboidal morphology",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2.1",
+          "quote": "while the γ channels are around 95 nm wide.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {
+        "loading_mode": "tensile creep",
+        "temperature_c": 950
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2.1",
+          "quote": "we observe that the introduction of a non zero misorientation leads to the formation of rafts",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2.2",
+          "quote": "mainly by Ostwald ripening where large precipitates grow at the expense of smaller ones by exchanging solute by diffusion through the matrix",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "microstructure_3",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2.2",
+          "quote": "the average precipitate size increases, mainly by Ostwald ripening where large precipitates grow at the expense of smaller ones by exchanging solute by diffusion through the matrix.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.2.5",
+          "quote": "the evolution slows down and becomes almost linear to reach about 0.061% after 7 h (green curve).",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.2.5",
+          "quote": "with values around 0.074% and 0.096% after 7 h for θ = +6 / + 12 ◦",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "crept",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.2.5",
+          "quote": "with values around 0.074% and 0.096% after 7 h for θ = +6 / + 12 ◦",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "ab5046a8580862a8:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

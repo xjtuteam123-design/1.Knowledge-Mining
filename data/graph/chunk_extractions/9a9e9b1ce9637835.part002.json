@@ -1,0 +1,238 @@
+{
+  "document_id": "9a9e9b1ce9637835",
+  "chunk_id": "9a9e9b1ce9637835:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "G. Han"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2015,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "TiB2/Al-Si composite",
+      "material_category": "metal matrix composite",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Conclusions",
+          "quote": "The improvements in the elastic modulus of the TiB2/Al–Si composite were found in comparison with that of the matrix alloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9a9e9b1ce9637835:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "in situ TiB2/Al–Si composite",
+      "canonical_name": "TiB2/Al-Si composite",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "TiB2",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "7",
+              "section": "Conclusions",
+              "quote": "The shape of in situ TiB2 particles is near-equiaxed with a size range from 50 to 400 nm",
+              "table": null,
+              "figure": null,
+              "chunk_id": "9a9e9b1ce9637835:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Conclusions",
+          "quote": "The fracture surface of the TiB2/Al–Si composite showed that silicon particle cracking and TiB2 particle–matrix debonding were the main damage mechanism",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9a9e9b1ce9637835:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "TiB2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": "50-400 nm",
+        "morphology": "near-equiaxed",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Conclusions",
+          "quote": "The shape of in situ TiB2 particles is near-equiaxed with a size range from 50 to 400 nm",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9a9e9b1ce9637835:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Si",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "particles",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.4",
+          "quote": "The silicon particles are more likely to cleavage fracture at a certain applied load resulting from their brittleness and large size.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9a9e9b1ce9637835:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "particle cluster",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "clusters are the regions of potential damage in the composite",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9a9e9b1ce9637835:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "particle clustering",
+      "category": "damage",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "Microvoids are more inclined to initiate first around the cluster and then coalesce together to form a large void, which have a negative effect on the mechanical strength of the composite",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9a9e9b1ce9637835:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "particle-matrix debonding",
+      "category": "damage",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.4",
+          "quote": "Matrix cracks will be inclined to divert at the interface as the tensile loading involved, leading to TiB2 particle–matrix interface debonding.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9a9e9b1ce9637835:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "microstructure_1",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "clusters are the regions of potential damage in the composite",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9a9e9b1ce9637835:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "DEGRADES",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "4.4",
+          "quote": "Matrix cracks will be inclined to divert at the interface as the tensile loading involved, leading to TiB2 particle–matrix interface debonding.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9a9e9b1ce9637835:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "Al–12Si matrix alloy",
+    "reinforcement particles"
+  ],
+  "conflicts": []
+}

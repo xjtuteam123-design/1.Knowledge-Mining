@@ -1,0 +1,2978 @@
+{
+  "document_id": "f0b6d14b5d693388",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Microscopic mechanism for the effect of temperature on impact resistance of polycrystalline γ-TiAl alloys: A molecular dynamics study",
+    "authors": [
+      "Ziyu Chen",
+      "Haitao Li",
+      "Henggao Xiang"
+    ],
+    "journal": "Journal of Materials Research and Technology",
+    "year": 2025,
+    "doi": "10.1016/j.jmrt.2025.06.199"
+  },
+  "alloy_systems": [
+    {
+      "id": "part1_alloy_system_1",
+      "name": "γ-TiAl alloy",
+      "material_category": "intermetallic titanium aluminide",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Title/Abstract",
+          "quote": "Microscopic mechanism for the effect of temperature on impact resistance of polycrystalline γ -TiAl alloys:A molecular dynamics study",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        },
+        {
+          "page": 1,
+          "section": "1. Introduction",
+          "quote": "Polycrystalline γ -TiAl alloys with an tetragonal L1 0 structure are considered the preferred materials for manufacturing certain aero - space structural components",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_alloy_system_1",
+      "name": "γ-TiAl alloy",
+      "material_category": "intermetallic alloy",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "The application temperature of γ -TiAl alloys should not exceed 780K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "part1_sample_1",
+      "original_name": "Polycrystalline γ-TiAl sample",
+      "canonical_name": "TiAl",
+      "alloy_system_id": "part1_alloy_system_1",
+      "material_state": "as-relaxed",
+      "composition": [
+        {
+          "element": "Ti",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "1. Introduction",
+              "quote": "a single-phase γ -TiAl containing equal amounts of Ti and Al formed a polycrystalline microstructure with grain boundaries",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f0b6d14b5d693388:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "1. Introduction",
+              "quote": "a single-phase γ -TiAl containing equal amounts of Ti and Al formed a polycrystalline microstructure with grain boundaries",
+              "table": null,
+              "figure": null,
+              "chunk_id": "f0b6d14b5d693388:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Methods (Fig. 1)",
+          "quote": "Fig. 1. Polycrystalline γ -TiAl sample.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        },
+        {
+          "page": 4,
+          "section": "2. Methods",
+          "quote": "The simulation box dimensions are set to 260 Å × 390 Å × 260 Å, with 8 grains. The sample of the polycrystalline γ -TiAl alloy is shown in Fig. 1 , and the sample consists of approximately 1.57 million atoms.",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_sample_1",
+      "original_name": "polycrystalline γ-TiAl合金",
+      "canonical_name": "γ-TiAl",
+      "alloy_system_id": "part2_alloy_system_1",
+      "material_state": "as-simulated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Introduction/Conclusions",
+          "quote": "In this work, impact simulations of polycrystalline γ -TiAl alloys were conducted at different initial temperatures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "part1_process_1",
+      "sample_id": "part1_sample_1",
+      "sequence": 1,
+      "method": "conjugate gradient energy minimization",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "description": "energy minimization using conjugate gradient method"
+        }
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Methods",
+          "quote": "Before the impact loading, all simulation models undergo en - ergy minimization using the conjugate gradient method.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_2",
+      "sample_id": "part1_sample_1",
+      "sequence": 2,
+      "method": "NPT relaxation",
+      "parameters": {
+        "temperature_c": 300,
+        "time": "18 ps",
+        "pressure": "constant pressure (NPT)",
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "ensemble": "NPT",
+          "boundary": "periodic (ppp)"
+        }
+      },
+      "input_state": null,
+      "output_state": "as-relaxed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Methods",
+          "quote": "Periodic boundary conditions (p p p) are applied, and the system is relaxed under constant temperature and pressure (NPT) conditions at 300K for 18ps to reach thermodynamic equilibrium.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_process_3",
+      "sample_id": "part1_sample_1",
+      "sequence": 3,
+      "method": "piston-driven shock impact (molecular dynamics)",
+      "parameters": {
+        "temperature_c": null,
+        "time": "3 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "impact_velocity_Up": "0.7-1.3 km/s",
+          "time_step": "1 fs",
+          "ensemble": "NVE",
+          "piston": "rigid piston at constant velocity",
+          "initial_temperatures": "300 K, 780 K, 1180 K",
+          "boundary": "free surface in y-direction"
+        }
+      },
+      "input_state": "as-relaxed",
+      "output_state": "shock-loaded",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Methods",
+          "quote": "Throughout the impact simulation, the microcanonical ensemble (NVE) is used. The shock wave is gen - erated by a rigid piston moving at a constant velocity (Up) for 3ps. The time step is set to 1fs, and the Up velocity ranges from 0.7 km/s to 1.3 km/s. The initial temperatures are set to room temperature (300K), an intermediate-high temperature limit (780K) [ 13 ], and high temperature (1180K).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "part1_phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "In Fig. 3 (h), the G6 grain is FCC before the impact.",
+          "table": null,
+          "figure": "Fig. 3(h)",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_2",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "attributes": {
+        "phase_fraction": "2.4 %, 2.8 %, and 2.7 % at 300K, 780K, 1180K at t = 3ps",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "At t = 3ps, the BCC phase contents corresponding to different initial temperatures are 2.4 %, 2.8 %, and 2.7 %, with the highest BCC content observed at 780K and the lowest at 300K.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_3",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "As shown in Fig. 3 (e), the FCC content continuously decreases during the impact process. This is due to phase transformation under pressure.",
+          "table": null,
+          "figure": "Fig. 3(e)",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_4",
+      "type": "Phase",
+      "name": "BCT",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "two FCC unit cells are pre-constructed into a body-centered tetragonal (BCT) structure ( Fig. 3 (i) – I).",
+          "table": null,
+          "figure": "Fig. 3(i)-I",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_5",
+      "type": "Microstructure",
+      "name": "grain boundary",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "\"Other\" atoms are almost exclusively located at the grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_6",
+      "type": "Microstructure",
+      "name": "stacking fault",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "It is evident that as the initial temperature increases, the amount of stacking faults significantly decreases.",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_7",
+      "type": "Microstructure",
+      "name": "intrinsic stacking fault (ISF)",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "Using the plane defect analysis (PDA) method, the HCP phase can be classified into intrinsic stacking faults (ISF), HCP martensite, extrinsic stacking faults (ESF), and twins (TB)",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_8",
+      "type": "Phase",
+      "name": "HCP martensite",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "Using the plane defect analysis (PDA) method, the HCP phase can be classified into intrinsic stacking faults (ISF), HCP martensite, extrinsic stacking faults (ESF), and twins (TB)",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_9",
+      "type": "Microstructure",
+      "name": "extrinsic stacking fault (ESF)",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "Using the plane defect analysis (PDA) method, the HCP phase can be classified into intrinsic stacking faults (ISF), HCP martensite, extrinsic stacking faults (ESF), and twins (TB)",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_10",
+      "type": "Microstructure",
+      "name": "twin",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "Using the plane defect analysis (PDA) method, the HCP phase can be classified into intrinsic stacking faults (ISF), HCP martensite, extrinsic stacking faults (ESF), and twins (TB)",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_11",
+      "type": "Phase",
+      "name": "amorphous phase",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "with the progression of impact, the destruction of grain boundaries leads to an increasing amount of disordered amorphous atoms. When the initial temperature reaches 1180 K, more amorphous point defects appear in the model",
+          "table": null,
+          "figure": "Fig. 3(g)",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_12",
+      "type": "Defect",
+      "name": "stair-rod dislocation",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "attributes": {
+        "phase_fraction": "maximum density 0.31 %, 0.3 %, 0.23 % at 300K, 780K, 1180K",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "the maximum densities of stair-rod dislocations and Hirth dislocations change little below 780K, with values of 0.31 %, 0.3 %, and 0.45 %, 0.38 %, respectively. However, when the temperature increases to 1180K, these values significantly decrease to 0.23 % and 0.18 %.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_13",
+      "type": "Defect",
+      "name": "Hirth dislocation",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "attributes": {
+        "phase_fraction": "maximum density 0.45 %, 0.38 %, 0.18 % at 300K, 780K, 1180K",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "the maximum densities of stair-rod dislocations and Hirth dislocations change little below 780K, with values of 0.31 %, 0.3 %, and 0.45 %, 0.38 %, respectively. However, when the temperature increases to 1180K, these values significantly decrease to 0.23 % and 0.18 %.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_14",
+      "type": "Defect",
+      "name": "Shockley partial dislocation",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "attributes": {
+        "phase_fraction": "maximum density 15 %, 13 %, 8.7 % at 300K, 780K, 1180K",
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "The red arrows in the figures represent the maximum values of Shockley dislo - cation density, which are 15 %, 13 %, and 8.7 %, respectively.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_phase_15",
+      "type": "Defect",
+      "name": "void",
+      "sample_id": "part1_sample_1",
+      "material_state": "spalled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "expanding voids forming cracks and bands",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.3. Spalling behavior",
+          "quote": "At t = 8ps, certain regions of the sample are already in tension, leading to the formation of small visible voids (depicted as purple holes in Fig. 7 (a) ). As time progresses, these voids expand and form cracks, which then evolve into more distinct bands.",
+          "table": null,
+          "figure": "Fig. 7(a)",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_1",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "a phase transformation from FCC → BCC → HCP occurs sequentially",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_2",
+      "type": "Phase",
+      "name": "BCC",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "a phase transformation from FCC → BCC → HCP occurs sequentially",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_phase_3",
+      "type": "Phase",
+      "name": "HCP",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "a phase transformation from FCC → BCC → HCP occurs sequentially",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_1",
+      "type": "Microstructure",
+      "name": "grain boundary",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "expanding and distorting under impact",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "the boundary expands at 5ps compared to its state at 0 ps",
+          "table": null,
+          "figure": "Fig. 8(a)",
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_2",
+      "type": "Microstructure",
+      "name": "void",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "nucleated at grain boundaries",
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "at 10ps, due to the nucleation of voids at the grain boundaries, the tensile stress drops sharply",
+          "table": null,
+          "figure": "Fig. 8(c)",
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_3",
+      "type": "Defect",
+      "name": "microcrack",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "extending along grain boundaries",
+        "location": "grain boundaries",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "microcracks initiate at these locations and gradually extend along the boundaries",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_microstructure_4",
+      "type": "Defect",
+      "name": "dislocation",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "perfect dislocations and dislocation loops",
+        "location": "inside grains and along grain boundaries parallel to impact direction",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "the dominant dislocations in γ -TiAl alloy are perfect dislocations, distributed inside grains and along grain boundaries parallel to the impact direction",
+          "table": null,
+          "figure": "Fig. 8(d)",
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "part1_observation_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "Hugoniot elastic limit",
+      "value": 14.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "300 0.7 14.7 5.2 94.64 360 1.3",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "Hugoniot elastic limit",
+      "value": 20.31,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 20.31 7.2 92.48 403 3.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "Hugoniot elastic limit",
+      "value": 22.98,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 22.98 9 90.15 453 3.7",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_4",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "Hugoniot elastic limit",
+      "value": 13.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 506.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "780 0.7 13.5 4.7 94.64 905 1.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_5",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "Hugoniot elastic limit",
+      "value": 18.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 506.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 18.5 6.4 92.42 968 2.4",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_6",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "Hugoniot elastic limit",
+      "value": 20.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 506.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 20.4 8 90.11 997 2.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_7",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "Hugoniot elastic limit",
+      "value": 11.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 906.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1180 0.7 11.4 4 94.78 1360 0.7",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_8",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "Hugoniot elastic limit",
+      "value": 17.1,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 906.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 17.1 5.5 92.51 1410 1.3",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_9",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "Hugoniot elastic limit",
+      "value": 17.84,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 906.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 17.84 7 89.9 1452 1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_10",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "maximum shear stress",
+      "value": 5.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "300 0.7 14.7 5.2 94.64 360 1.3",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_11",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "maximum shear stress",
+      "value": 7.2,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 20.31 7.2 92.48 403 3.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_12",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "maximum shear stress",
+      "value": 9.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 26.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 22.98 9 90.15 453 3.7",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_13",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "maximum shear stress",
+      "value": 4.7,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 506.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "780 0.7 13.5 4.7 94.64 905 1.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_14",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "maximum shear stress",
+      "value": 6.4,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 506.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 18.5 6.4 92.42 968 2.4",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_15",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "maximum shear stress",
+      "value": 8.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 506.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 20.4 8 90.11 997 2.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_16",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "maximum shear stress",
+      "value": 4.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 906.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1180 0.7 11.4 4 94.78 1360 0.7",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_17",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "maximum shear stress",
+      "value": 5.5,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 906.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 17.1 5.5 92.51 1410 1.3",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_observation_18",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "property": "maximum shear stress",
+      "value": 7.0,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": 906.85,
+        "strain_rate": null,
+        "loading_mode": "shock compression",
+        "orientation": "<110> / x-direction",
+        "atmosphere": null,
+        "duration": "3 ps",
+        "test_method": "molecular dynamics piston-driven shock"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 17.84 7 89.9 1452 1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "property": "spall strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "impact",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "As the initial temperature increases, the spall strength of the polycrystalline γ -TiAl alloy decreases. However, this reduction is not significant below 780K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_observation_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "property": "HEL stress",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "impact",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "molecular dynamics simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "Under impact loading, the σ HEL decreases as the initial temperature increases",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "part1_mechanism_1",
+      "name": "slip-induced plasticity (SLIP)",
+      "category": "plastic deformation",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "These structures indicate the presence of multiple plastic deformation mechanisms during the stacking fault stage, including slip-induced plasticity (SLIP), twinning-induced plasticity (TWIP), and transformation-induced plasticity (TRIP).",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_2",
+      "name": "twinning-induced plasticity (TWIP)",
+      "category": "plastic deformation",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "These structures indicate the presence of multiple plastic deformation mechanisms during the stacking fault stage, including slip-induced plasticity (SLIP), twinning-induced plasticity (TWIP), and transformation-induced plasticity (TRIP).",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_3",
+      "name": "transformation-induced plasticity (TRIP)",
+      "category": "plastic deformation",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "These structures indicate the presence of multiple plastic deformation mechanisms during the stacking fault stage, including slip-induced plasticity (SLIP), twinning-induced plasticity (TWIP), and transformation-induced plasticity (TRIP).",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_4",
+      "name": "Bain path phase transformation",
+      "category": "phase transformation",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "Under compression along the < 110 > direction, the BCT can transform into a BCC lattice, which is a process known as the Bain path [ 37 ]. With further deformation, the BCC lattice undergoes compression along the y-axis and sliding along the z-axis within the middle planes, resulting in a transformation from BCC to HCP.",
+          "table": null,
+          "figure": "Fig. 3(i)",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_5",
+      "name": "stress relaxation by dislocation nucleation",
+      "category": "stress relaxation",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "In the transition zone from pure elas - ticity to pure plasticity (shock front), the shear stress significantly de - creases, which is attributed to stress relaxation caused by dislocation nucleation.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_6",
+      "name": "dislocation annihilation",
+      "category": "dislocation dynamics",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "When the shock wave reflects from the right interface and interacts with the incident wave, it leads to the annihilation of Shockley dislocations. The number of newly generated dislocations is smaller than the number of annihilated ones, resulting in a decrease in Shockley dislocation density [ 44 ].",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_mechanism_7",
+      "name": "strain hardening by immobile dislocations",
+      "category": "strain hardening",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "Therefore, immobile dislocations (such as stair-rod and Hirth disloca - tions) may increase local stress, leading to strain hardening.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_1",
+      "name": "grain boundary sliding",
+      "category": "deformation mechanism",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "the observed grain boundary distortion can be attributed to boundary sliding during plastic deformation",
+          "table": null,
+          "figure": "Fig. 8(a)",
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_2",
+      "name": "atomic diffusion",
+      "category": "diffusion mechanism",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "This phenomenon can be attributed to grain boundary sliding and atomic diffusion",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_3",
+      "name": "dislocation nucleation",
+      "category": "dislocation mechanism",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "These regions require higher energy for dislocation nucleation, leading to stress concentration and the formation of microcracks along the boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_4",
+      "name": "SLIP",
+      "category": "deformation mechanism",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "both SLIP and TWIP mechanisms influence the material ’ s plastic deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_mechanism_5",
+      "name": "TWIP",
+      "category": "deformation mechanism",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "both SLIP and TWIP mechanisms influence the material ’ s plastic deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "part1_claim_1",
+      "source_id": "part1_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part1_sample_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Title/Abstract",
+          "quote": "Polycrystalline γ -TiAl alloy is an excellent high-temperature material.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_2",
+      "source_id": "part1_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part1_process_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Methods",
+          "quote": "Before the impact loading, all simulation models undergo en - ergy minimization using the conjugate gradient method.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_3",
+      "source_id": "part1_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part1_process_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Methods",
+          "quote": "relaxed under constant temperature and pressure (NPT) conditions at 300K for 18ps to reach thermodynamic equilibrium",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_4",
+      "source_id": "part1_sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "part1_process_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2. Methods",
+          "quote": "The shock wave is gen - erated by a rigid piston moving at a constant velocity (Up) for 3ps.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_5",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "as-relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "In Fig. 3 (h), the G6 grain is FCC before the impact.",
+          "table": null,
+          "figure": "Fig. 3(h)",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_6",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 26.85,
+        "impact_velocity": "0.7 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "At t = 3ps, the BCC phase contents corresponding to different initial temperatures are 2.4 %, 2.8 %, and 2.7 %, with the highest BCC content observed at 780K and the lowest at 300K.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_7",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "the number of HCP atoms increases, and the rate of increase accelerates, resulting in a trend where the BCC phase content first in - creases and then decreases.",
+          "table": null,
+          "figure": "Fig. 3(f)",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_8",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_4",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "two FCC unit cells are pre-constructed into a body-centered tetragonal (BCT) structure ( Fig. 3 (i) – I).",
+          "table": null,
+          "figure": "Fig. 3(i)-I",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_9",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_phase_5",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "\"Other\" atoms are almost exclusively located at the grain boundaries.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_10",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_phase_6",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "as the initial temperature increases, the amount of stacking faults significantly decreases",
+          "table": null,
+          "figure": "Fig. 4",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_11",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_phase_7",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "Using the plane defect analysis (PDA) method, the HCP phase can be classified into intrinsic stacking faults (ISF), HCP martensite, extrinsic stacking faults (ESF), and twins (TB)",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_12",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_8",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "Using the plane defect analysis (PDA) method, the HCP phase can be classified into intrinsic stacking faults (ISF), HCP martensite, extrinsic stacking faults (ESF), and twins (TB)",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_13",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_phase_9",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "Using the plane defect analysis (PDA) method, the HCP phase can be classified into intrinsic stacking faults (ISF), HCP martensite, extrinsic stacking faults (ESF), and twins (TB)",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_14",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part1_phase_10",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3.2. Impact unloading stage",
+          "quote": "Using the plane defect analysis (PDA) method, the HCP phase can be classified into intrinsic stacking faults (ISF), HCP martensite, extrinsic stacking faults (ESF), and twins (TB)",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_15",
+      "source_id": "part1_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part1_phase_11",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 906.85
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "When the initial temperature reaches 1180 K, more amorphous point defects appear in the model, with the highest content observed.",
+          "table": null,
+          "figure": "Fig. 3(g)",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_16",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_phase_12",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "the maximum densities of stair-rod dislocations and Hirth dislocations change little below 780K, with values of 0.31 %, 0.3 %, and 0.45 %, 0.38 %, respectively.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_17",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_phase_13",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "the maximum densities of stair-rod dislocations and Hirth dislocations change little below 780K, with values of 0.31 %, 0.3 %, and 0.45 %, 0.38 %, respectively.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_18",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_phase_14",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "The red arrows in the figures represent the maximum values of Shockley dislo - cation density, which are 15 %, 13 %, and 8.7 %, respectively.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_19",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part1_phase_15",
+      "sample_id": "part1_sample_1",
+      "material_state": "spalled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.3. Spalling behavior",
+          "quote": "certain regions of the sample are already in tension, leading to the formation of small visible voids",
+          "table": null,
+          "figure": "Fig. 7(a)",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_20",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 26.85,
+        "impact_velocity": "0.7 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "300 0.7 14.7 5.2 94.64 360 1.3",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_21",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 26.85,
+        "impact_velocity": "1 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 20.31 7.2 92.48 403 3.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_22",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 26.85,
+        "impact_velocity": "1.3 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 22.98 9 90.15 453 3.7",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_23",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_4",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 506.85,
+        "impact_velocity": "0.7 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "780 0.7 13.5 4.7 94.64 905 1.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_24",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_5",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 506.85,
+        "impact_velocity": "1 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 18.5 6.4 92.42 968 2.4",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_25",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_6",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 506.85,
+        "impact_velocity": "1.3 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 20.4 8 90.11 997 2.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_26",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_7",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 906.85,
+        "impact_velocity": "0.7 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1180 0.7 11.4 4 94.78 1360 0.7",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_27",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_8",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 906.85,
+        "impact_velocity": "1 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 17.1 5.5 92.51 1410 1.3",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_28",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_9",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 906.85,
+        "impact_velocity": "1.3 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 17.84 7 89.9 1452 1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_29",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_10",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 26.85,
+        "impact_velocity": "0.7 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "300 0.7 14.7 5.2 94.64 360 1.3",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_30",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_11",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 26.85,
+        "impact_velocity": "1 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 20.31 7.2 92.48 403 3.5",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_31",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_12",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 26.85,
+        "impact_velocity": "1.3 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 22.98 9 90.15 453 3.7",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_32",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_13",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 506.85,
+        "impact_velocity": "0.7 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "780 0.7 13.5 4.7 94.64 905 1.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_33",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_14",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 506.85,
+        "impact_velocity": "1 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 18.5 6.4 92.42 968 2.4",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_34",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_15",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 506.85,
+        "impact_velocity": "1.3 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 20.4 8 90.11 997 2.2",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_35",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_16",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 906.85,
+        "impact_velocity": "0.7 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1180 0.7 11.4 4 94.78 1360 0.7",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_36",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_17",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 906.85,
+        "impact_velocity": "1 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1 17.1 5.5 92.51 1410 1.3",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_37",
+      "source_id": "part1_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part1_observation_18",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 906.85,
+        "impact_velocity": "1.3 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 1",
+          "quote": "1.3 17.84 7 89.9 1452 1",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_38",
+      "source_id": "part1_phase_1",
+      "predicate": "TRANSFORMS_TO",
+      "target_id": "part1_phase_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "It can be seen that below 780 K, the increase in temperature promotes the transformation from the FCC phase to BCC phase, which yields greater plastic deformation [ 35 ].",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_39",
+      "source_id": "part1_phase_4",
+      "predicate": "TRANSFORMS_TO",
+      "target_id": "part1_phase_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "Under compression along the < 110 > direction, the BCT can transform into a BCC lattice, which is a process known as the Bain path [ 37 ].",
+          "table": null,
+          "figure": "Fig. 3(i)",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_40",
+      "source_id": "part1_phase_2",
+      "predicate": "TRANSFORMS_TO",
+      "target_id": "part1_phase_3",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "With further deformation, the BCC lattice undergoes compression along the y-axis and sliding along the z-axis within the middle planes, resulting in a transformation from BCC to HCP.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_41",
+      "source_id": "part1_mechanism_5",
+      "predicate": "DECREASES",
+      "target_id": "part1_observation_11",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-loaded",
+      "conditions": {
+        "temperature_c": 26.85,
+        "impact_velocity": "1 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.1. Impact loading stage",
+          "quote": "In the transition zone from pure elas - ticity to pure plasticity (shock front), the shear stress significantly de - creases, which is attributed to stress relaxation caused by dislocation nucleation.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_42",
+      "source_id": "part1_mechanism_6",
+      "predicate": "DECREASES",
+      "target_id": "part1_phase_14",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "When the shock wave reflects from the right interface and interacts with the incident wave, it leads to the annihilation of Shockley dislocations. The number of newly generated dislocations is smaller than the number of annihilated ones, resulting in a decrease in Shockley dislocation density [ 44 ].",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_43",
+      "source_id": "part1_mechanism_7",
+      "predicate": "INCREASES",
+      "target_id": "part1_observation_17",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "conditions": {
+        "temperature_c": 906.85,
+        "impact_velocity": "1 km/s"
+      },
+      "polarity": "neutral",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "Therefore, immobile dislocations (such as stair-rod and Hirth disloca - tions) may increase local stress, leading to strain hardening.",
+          "table": null,
+          "figure": "Fig. 6",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_44",
+      "source_id": "part1_phase_7",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_1",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "A high content of ISF indicates a high dislocation density and the presence of SLIP, so the higher the ISF, the better the material ’ s plastic deformation ability and ductility.",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_45",
+      "source_id": "part1_phase_10",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part1_mechanism_2",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "SLIP and TRIP contribute to enhancing the ductility of the alloy [ 40 , 41 ], whereas TWIP typically improves the material ’ s strength and strain hardening capability [ 42 , 43 ].",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part1_claim_46",
+      "source_id": "part1_mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "part1_observation_5",
+      "sample_id": "part1_sample_1",
+      "material_state": "shock-unloaded",
+      "conditions": {
+        "temperature_c": 506.85,
+        "impact_velocity": "1 km/s"
+      },
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.2. Impact unloading stage",
+          "quote": "SLIP and TRIP contribute to enhancing the ductility of the alloy [ 40 , 41 ], whereas TWIP typically improves the material ’ s strength and strain hardening capability [ 42 , 43 ].",
+          "table": null,
+          "figure": "Fig. 5",
+          "chunk_id": "f0b6d14b5d693388:part:001"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_1",
+      "source_id": "part2_alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "part2_sample_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "impact simulations of polycrystalline γ -TiAl alloys were conducted at different initial temperatures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_2",
+      "source_id": "part2_sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "part2_phase_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "a phase transformation from FCC → BCC → HCP occurs sequentially",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_3",
+      "source_id": "part2_phase_1",
+      "predicate": "TRANSFORMS_TO",
+      "target_id": "part2_phase_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "a phase transformation from FCC → BCC → HCP occurs sequentially",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_4",
+      "source_id": "part2_phase_2",
+      "predicate": "TRANSFORMS_TO",
+      "target_id": "part2_phase_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "a phase transformation from FCC → BCC → HCP occurs sequentially",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_5",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part2_microstructure_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "the boundary expands at 5ps compared to its state at 0 ps",
+          "table": null,
+          "figure": "Fig. 8(a)",
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_6",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "part2_microstructure_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "at 10ps, due to the nucleation of voids at the grain boundaries, the tensile stress drops sharply",
+          "table": null,
+          "figure": "Fig. 8(c)",
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_7",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part2_microstructure_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "microcracks initiate at these locations and gradually extend along the boundaries",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_8",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_DEFECT",
+      "target_id": "part2_microstructure_4",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "the dominant dislocations in γ -TiAl alloy are perfect dislocations",
+          "table": null,
+          "figure": "Fig. 8(d)",
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_9",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "As the initial temperature increases, the spall strength of the polycrystalline γ -TiAl alloy decreases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_10",
+      "source_id": "part2_sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "part2_observation_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "Under impact loading, the σ HEL decreases as the initial temperature increases",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_11",
+      "source_id": "part2_microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "part2_mechanism_1",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "the observed grain boundary distortion can be attributed to boundary sliding during plastic deformation",
+          "table": null,
+          "figure": "Fig. 8(a)",
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_12",
+      "source_id": "part2_mechanism_2",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "part2_microstructure_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "This phenomenon can be attributed to grain boundary sliding and atomic diffusion",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_13",
+      "source_id": "part2_mechanism_3",
+      "predicate": "PROMOTES",
+      "target_id": "part2_microstructure_3",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "Spallation analysis",
+          "quote": "These regions require higher energy for dislocation nucleation, leading to stress concentration and the formation of microcracks along the boundaries",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    },
+    {
+      "id": "part2_claim_14",
+      "source_id": "part2_mechanism_4",
+      "predicate": "IMPROVES",
+      "target_id": "part2_observation_2",
+      "sample_id": "part2_sample_1",
+      "material_state": "as-simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "4. Conclusions",
+          "quote": "both SLIP and TWIP mechanisms influence the material ’ s plastic deformation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f0b6d14b5d693388:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [
+    {
+      "type": "merge_fallback",
+      "message": "Segment graphs were combined deterministically; aliases may remain duplicated."
+    }
+  ]
+}

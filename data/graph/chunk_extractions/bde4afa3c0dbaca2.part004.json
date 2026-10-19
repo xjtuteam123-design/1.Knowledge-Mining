@@ -1,0 +1,190 @@
+{
+  "document_id": "bde4afa3c0dbaca2",
+  "chunk_id": "bde4afa3c0dbaca2:part:004",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Variation of fracture toughness in Ni-based superalloys after phase coarsening",
+    "authors": [
+      "Shunyong Zhang",
+      "Jianfeng Zhao",
+      "Yanxiang Liang",
+      "Jicheng Li",
+      "Xicheng Huang"
+    ],
+    "journal": "Materials Science & Engineering A",
+    "year": 2024,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "19",
+          "section": "Conclusions",
+          "quote": "In this study, the variation of fracture toughness in Ni-base superalloys after phase coarsening is deeply investigated.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:004"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "representative zone of specimen",
+      "canonical_name": "Ni-based superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "phase-coarsened",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "19",
+          "section": "Discussions",
+          "quote": "the simulations are based on 2-D scaled models, and only in the representative zone of specimens the inhomogeneous property of microstructure is considered.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:004"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "precipitate",
+      "sample_id": "sample_1",
+      "material_state": "phase-coarsened",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "long-strip",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "19",
+          "section": "Conclusions",
+          "quote": "After phase coarsening, the hindering effect of precipitate particles on the dislocation movement is strengthened, the dislocation plugging within the material is more serious, and the initiation of micro-voids at the crack tip is easier, eventually it weakens the fracture toughness of alloys, especially, corresponding to the larger precipitate particle, the time the crack propagation becomes unstable is earlier, and thus the fracture toughness is lower.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:004"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation movement hindering",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "phase-coarsened",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "19",
+          "section": "Conclusions",
+          "quote": "After phase coarsening, the hindering effect of precipitate particles on the dislocation movement is strengthened, the dislocation plugging within the material is more serious, and the initiation of micro-voids at the crack tip is easier, eventually it weakens the fracture toughness of alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:004"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "micro-void initiation",
+      "category": "damage",
+      "sample_id": "sample_1",
+      "material_state": "phase-coarsened",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "19",
+          "section": "Conclusions",
+          "quote": "the initiation of micro-voids at the crack tip is easier, eventually it weakens the fracture toughness of alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:004"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "phase_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "phase-coarsened",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "19",
+          "section": "Conclusions",
+          "quote": "After phase coarsening, the hindering effect of precipitate particles on the dislocation movement is strengthened",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:004"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "phase-coarsened",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "19",
+          "section": "Conclusions",
+          "quote": "the dislocation plugging within the material is more serious, and the initiation of micro-voids at the crack tip is easier",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:004"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "DEGRADES",
+      "target_id": null,
+      "sample_id": "sample_1",
+      "material_state": "phase-coarsened",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "19",
+          "section": "Conclusions",
+          "quote": "eventually it weakens the fracture toughness of alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bde4afa3c0dbaca2:part:004"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

@@ -1,0 +1,155 @@
+{
+  "document_id": "5f4d3a99af00df2f",
+  "chunk_id": "5f4d3a99af00df2f:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Mingyang Guo",
+      "Jianfei Zhang",
+      "Haixia Zhang",
+      "Zhenliang Li",
+      "Yaodong Cen",
+      "Guo Ding"
+    ],
+    "journal": "Materials Chemistry and Physics",
+    "year": 2025,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "NiAl-based eutectic alloy",
+      "material_category": "intermetallic eutectic alloy",
+      "evidence": []
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "0.05 % Dy alloy",
+      "canonical_name": "NiAl-0.05Dy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Dy",
+          "value": 0.05,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Dy-free alloy",
+      "canonical_name": "NiAl",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": null,
+      "composition": [],
+      "evidence": []
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "peak stress",
+      "value": 370.91,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "high-temperature compression"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "property": "peak stress",
+      "value": 364.71,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "compression",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "high-temperature compression"
+      },
+      "comparison_sample_id": null,
+      "evidence": []
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "fine grain strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid solution strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_2",
+      "predicate": "IMPROVES",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": []
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

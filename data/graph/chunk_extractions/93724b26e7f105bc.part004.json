@@ -1,0 +1,135 @@
+{
+  "document_id": "93724b26e7f105bc",
+  "chunk_id": "93724b26e7f105bc:part:004",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "S. Chaudhary",
+      "N. Pai",
+      "G.A. Rao",
+      "Z. Alam",
+      "R. Sankarasubramanian",
+      "P.J. Guruprasad",
+      "I. Samajdar",
+      "A. Patra"
+    ],
+    "journal": "International Journal of Fatigue",
+    "year": 2025,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "nickel-based superalloy",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "references",
+          "quote": "Inter. J. Fatigue 190 (2025) 108582",
+          "table": null,
+          "figure": null,
+          "chunk_id": "93724b26e7f105bc:part:004"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Alloy 1",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 16,
+          "section": "Fig. 12",
+          "quote": "Distribution of precipitate number density before and after cyclic deformation for (a) Alloy 1 to 44 cycles for 1.8% strain amplitude and 100 cycles for 0.9% strain amplitude",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "93724b26e7f105bc:part:004"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Alloy 2",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 16,
+          "section": "Fig. 12",
+          "quote": "(b) Alloy 2 to 200 cycles for 1.1% strain amplitude, 234 cycles for 0.85% strain amplitude and 400 cycles for 0.6% strain amplitude.",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "93724b26e7f105bc:part:004"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime precipitate",
+      "sample_id": null,
+      "material_state": "tested before and after cyclic deformation",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 16,
+          "section": "Fig. 12",
+          "quote": "Distribution of precipitate number density before and after cyclic deformation for (a) Alloy 1 to 44 cycles for 1.8% strain amplitude and 100 cycles for 0.9% strain amplitude",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "93724b26e7f105bc:part:004"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {
+        "number_of_cycles": 44,
+        "strain_amplitude": "1.8%"
+      },
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "Fig. 12",
+          "quote": "Distribution of precipitate number density before and after cyclic deformation for (a) Alloy 1 to 44 cycles for 1.8% strain amplitude and 100 cycles for 0.9% strain amplitude",
+          "table": null,
+          "figure": "Fig. 12",
+          "chunk_id": "93724b26e7f105bc:part:004"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

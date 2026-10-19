@@ -1,0 +1,587 @@
+{
+  "document_id": "f46fbcd54c830364",
+  "chunk_id": "f46fbcd54c830364:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "Nikhil Khatavkar",
+      "Abhishek Kumar Singh"
+    ],
+    "journal": "Physical Review Materials",
+    "year": 2022,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Our ML model predicts the yield point anomaly of Ni-based superalloys with reasonable accuracy as shown in Supplemental Material Fig. 2.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "9",
+          "section": null,
+          "quote": "rhenium containing alloy shows the best creep properties because of solid solution strengthening in the γ phase and low diffusion coefficients at high temperatures",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma-prime phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "An increase of annealing time/temperature leads to the formation of secondary γ ′ phases, which are generally larger in dimensions than the primary γ′ phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "carbide phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The presence of trace amounts of carbon also leads to an increase of UTS due to the formation of hard carbide phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "TCP phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "the addition of large amounts of rhenium leads to precipitation of harmful TCP phases, which significantly decrease the creep resistance of superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": null,
+      "material_state": null,
+      "property": "yield strength prediction error",
+      "value": 1.2,
+      "min_value": null,
+      "max_value": null,
+      "unit": "MPa",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "GPR machine-learning model"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The resulting prediction error of YS of 0.11 on a logarithmic scale, which translates to 1.2 MPa, is the lowest achieved among all the ML or analytical models developed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": null,
+      "material_state": null,
+      "property": "ultimate tensile strength prediction error",
+      "value": 1.09,
+      "min_value": 1.09,
+      "max_value": 1.14,
+      "unit": "MPa",
+      "uncertainty": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "GPR machine-learning model with quadratic kernel"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "When converted to a normal scale, the values show an error of 1.09 /1.14 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Elements that provide solid solution strengthening lead to an increase in the UTS.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "carbide precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The carbide phases hinder the dislocation movements and inhibit the sliding of grains relative to each other, thereby increasing the strength of superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "grain-boundary crack initiation",
+      "category": "damage",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The formation of rigid grain boundaries due to carbides often can serve as the initiation point of a crack in superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "cross slip",
+      "category": "deformation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "High temperature is known to enhance the cross slip in superalloys, leading to faster dislocation movement and defect formation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "Gaussian process regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "yield strength prediction",
+      "inputs": [
+        "composition",
+        "stress",
+        "temperature"
+      ],
+      "target": "yield strength",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "rmse_log_scale": 0.11
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The resulting prediction error of YS of 0.11 on a logarithmic scale, which translates to 1.2 MPa",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "Gaussian process regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "ultimate tensile strength prediction",
+      "inputs": [
+        "LASSO-selected features"
+      ],
+      "target": "ultimate tensile strength",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "R2_train": 0.99,
+        "R2_test": 0.98,
+        "rmse_train": 0.04,
+        "rmse_test": 0.06
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The ML model obtained the best results with the quadratic kernel having R 2 of 0.99/0.98 and rmse of 0.04/0.06.",
+          "table": "I",
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "Gaussian process regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "creep rupture life prediction",
+      "inputs": [
+        "composition",
+        "annealing parameters",
+        "measurement conditions"
+      ],
+      "target": "creep rupture life",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "R2_train": 0.95,
+        "R2_test": 0.92,
+        "rmse_train": 0.17,
+        "rmse_test": 0.19
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The GPR model with Matern kernel is the most accurate model with R 2 of 0.95 /0.92 and rmse of 0.17/0.19.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_4",
+      "name": "Gaussian process regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "fatigue life prediction (stress range)",
+      "inputs": [
+        "stress range",
+        "temperature",
+        "annealing conditions",
+        "composition",
+        "elemental features"
+      ],
+      "target": "fatigue life",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "R2_train": 0.96,
+        "R2_test": 0.96,
+        "rmse_train": 0.32,
+        "rmse_test": 0.32
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The best model for fatigue is the GPR model with Matern kernel with R 2 of 0.96/0.96 and rmse of 0.32 /0.32.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_5",
+      "name": "Gaussian process regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "fatigue life prediction (strain range)",
+      "inputs": [
+        "strain range",
+        "temperature",
+        "annealing conditions",
+        "composition",
+        "elemental features"
+      ],
+      "target": "fatigue life",
+      "dataset": null,
+      "validation": null,
+      "metrics": {
+        "R2_train": 0.94,
+        "R2_test": 0.94,
+        "rmse_train": 0.22,
+        "rmse_test": 0.22
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The best result obtained for the GPR model is R 2 of 0.94 /0.94 and rmse of 0.22/0.22.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_6",
+      "name": "support vector regression",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "mechanical property prediction",
+      "inputs": [],
+      "target": null,
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "To compare with other ML algorithms, we also trained the models using SVR and XGBoost",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_7",
+      "name": "XGBoost",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "mechanical property prediction",
+      "inputs": [],
+      "target": null,
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "To compare with other ML algorithms, we also trained the models using SVR and XGBoost",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "IMPROVES",
+      "target_id": "ml_model_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Elements that provide solid solution strengthening lead to an increase in the UTS.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "The carbide phases hinder the dislocation movements and inhibit the sliding of grains relative to each other, thereby increasing the strength of superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "phase_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": null,
+          "quote": "The formation of rigid grain boundaries due to carbides often can serve as the initiation point of a crack in superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_4",
+      "predicate": "DEGRADES",
+      "target_id": "ml_model_5",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": null,
+          "quote": "High temperature is known to enhance the cross slip in superalloys, leading to faster dislocation movement and defect formation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "phase_4",
+      "predicate": "DEGRADES",
+      "target_id": "ml_model_3",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": null,
+          "quote": "the addition of large amounts of rhenium leads to precipitation of harmful TCP phases, which significantly decrease the creep resistance of superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "f46fbcd54c830364:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "Ni-based superalloy composition",
+    "rhenium",
+    "SHAP feature importance"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,198 @@
+{
+  "document_id": "665f84ba7f5014cd",
+  "chunk_id": "665f84ba7f5014cd:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [
+      "S. Zhang"
+    ],
+    "journal": "Materials & Design",
+    "year": 2024,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3.3",
+          "quote": "In Zhou et al. [17] ’ s quasi-static tensile tests, the strength of Novel Ni-based superalloy gradually decreases after phase coarsening",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665f84ba7f5014cd:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Material #4",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "φ=60%, stage I of phase coarsening",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.3",
+          "quote": "regarding to alloys in stage I of phase coarsening (Materials #1, #4)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665f84ba7f5014cd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Material #6",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "φ=60%, stage III of phase coarsening",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.3",
+          "quote": "for alloys in stage II or III of phase coarsening (Materials #2, #3, #5 and #6)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665f84ba7f5014cd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Material #2",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "φ=30%, stage II of phase coarsening",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.3",
+          "quote": "for alloys in stage II or III of phase coarsening (Materials #2, #3, #5 and #6)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665f84ba7f5014cd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "Material #3",
+      "canonical_name": null,
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "φ=30%, stage III of phase coarsening",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 10,
+          "section": "3.3",
+          "quote": "for alloys in stage II or III of phase coarsening (Materials #2, #3, #5 and #6)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665f84ba7f5014cd:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "precipitation phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3.2",
+          "quote": "the FEM simulation results effectively capture the deformation morphologies and failure characteristics of the specimen",
+          "table": null,
+          "figure": "Fig. 8",
+          "chunk_id": "665f84ba7f5014cd:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Orowan mechanism",
+      "category": "dislocation-particle interaction",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4.1",
+          "quote": "the deformation bands bypass the precipitation phase through Orowan mechanism",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665f84ba7f5014cd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dynamic strain aging",
+      "category": "PLC effect",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3.3",
+          "quote": "the curves also exhibit sawtooth-shaped oscillation, which is derived from the dynamic strain aging effect inside the alloy, also referred to as the Portevin-Le Chatelier (PLC) effect",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665f84ba7f5014cd:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4.1",
+          "quote": "the deformation bands bypass the precipitation phase through Orowan mechanism",
+          "table": null,
+          "figure": null,
+          "chunk_id": "665f84ba7f5014cd:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

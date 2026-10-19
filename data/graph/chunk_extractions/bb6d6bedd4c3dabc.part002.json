@@ -1,0 +1,199 @@
+{
+  "document_id": "bb6d6bedd4c3dabc",
+  "chunk_id": "bb6d6bedd4c3dabc:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": null,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "nickel-based single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4. Thermodynamics of rafting",
+          "quote": "For nickel-based single crystal superalloys at high temperature",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bb6d6bedd4c3dabc:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "initial",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 13,
+          "section": "4.5.1. w and fγ′ as state variables",
+          "quote": "1negative for considered CMSX-4 superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bb6d6bedd4c3dabc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "MC2",
+      "canonical_name": "MC2",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "creep",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 11,
+          "section": "3.5. On the choice of internal variables to represent microstructure degradation",
+          "quote": "It has indeed already been shown for MC2 alloy, under both isothermal and non-isothermal creep conditions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bb6d6bedd4c3dabc:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ′",
+      "sample_id": "sample_1",
+      "material_state": "creep",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.1. Fedelich and coworkers variables for rafting",
+          "quote": "the γ′ precipitates volume fraction fγ′ can be considered as a function of absolute temperature T only",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bb6d6bedd4c3dabc:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "rafting",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "creep",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3. Tensorial variables for rafting",
+          "quote": "Loading the material along the [001] crystallographic direction, the rafting proceeds towards the widening of the w1 channels and the horizontal coalescence of the precipitates.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "bb6d6bedd4c3dabc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "coarsening",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "creep",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3. Tensorial variables for rafting",
+          "quote": "While the directional coalescence proceeds, the coarsening proceeds too.",
+          "table": null,
+          "figure": "Fig. 3",
+          "chunk_id": "bb6d6bedd4c3dabc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "Orowan bowing",
+      "category": "dislocation bypassing",
+      "sample_id": "sample_1",
+      "material_state": "creep",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4. Thermodynamics of rafting",
+          "quote": "the γ channel width is the quantity that directly acts in Orowan stress, that affects at first order the mechanical response (hardening) of the RVE",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bb6d6bedd4c3dabc:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "creep",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 13,
+          "section": "3.1. Fedelich and coworkers variables for rafting",
+          "quote": "the γ′ precipitates volume fraction fγ′ can be considered as a function of absolute temperature T only",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bb6d6bedd4c3dabc:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "mechanism_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "creep",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "4. Thermodynamics of rafting",
+          "quote": "the decrease in mechanical properties associated with the γ′ rafting mainly results from the widening of γ channels where the plastic deformation concentrates",
+          "table": null,
+          "figure": null,
+          "chunk_id": "bb6d6bedd4c3dabc:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

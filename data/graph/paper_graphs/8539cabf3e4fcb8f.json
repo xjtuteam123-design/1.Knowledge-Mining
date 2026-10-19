@@ -1,0 +1,889 @@
+{
+  "document_id": "8539cabf3e4fcb8f",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Physics-Based Machine-Learning Approach for Modeling the Temperature-Dependent Yield Strength of Superalloys",
+    "authors": [
+      "Baldur Steingrimsson",
+      "Xuesong Fan",
+      "Benjamin Adam",
+      "Peter K. Liaw"
+    ],
+    "journal": "Advanced Engineering Materials",
+    "year": 2023,
+    "doi": "10.1002/adem.202201903"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "In the case of nickel-based superalloys, nickel is selected as the main component because of its high melting point.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        },
+        {
+          "page": "7",
+          "section": "Conclusions",
+          "quote": "Similarly, our observations concerning superior YS properties of Ni-based superalloys, compared to Fe-Ni-based superalloys, in the case of both precipitation and solid-solution hardening, were also consistent with the available literature.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Fe-Ni-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Results and Discussion",
+          "quote": "Fe–Ni-based superalloys, such as the popular Inconel 718, came into existence as an extension of the stainless-steel technology",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        },
+        {
+          "page": "7",
+          "section": "Conclusions",
+          "quote": "our observations concerning superior YS properties of Ni-based superalloys, compared to Fe-Ni-based superalloys, in the case of both precipitation and solid-solution hardening",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "Co-base superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Co-based superalloys can similarly contain γ, γ 0, carbide, or TCP phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Inconel 601",
+      "canonical_name": "Inconel 601",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results and Discussion",
+          "quote": "Quantiﬁcation of modeling accuracy of the bilinear log model for the composition No. 17 from Table 1 (Inconel 601)",
+          "table": "Table 1",
+          "figure": "Figure 2",
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Inconel 600",
+      "canonical_name": "Inconel 600",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results and Discussion",
+          "quote": "Quantiﬁcation of modeling accuracy of the bilinear log model for the composition No. 18 from Table 1 (Inconel 600)",
+          "table": "Table 1",
+          "figure": "Figure 3",
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Hastelloy X (10 μm)",
+      "canonical_name": "Hastelloy X",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Results and Discussion",
+          "quote": "Quantiﬁcation of modeling accuracy of the bilinear log model for the composition No. 27 from Table 1 (Hastelloy X 10 μm)",
+          "table": "Table 1",
+          "figure": "Figure 4",
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "Waspaloy",
+      "canonical_name": "Waspaloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results and Discussion",
+          "quote": "No. Alloy Category Solvus temperature [°C] Tbreak [°C] ... 1 Waspaloy Ni-base (precipit. hard.)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "Rene 95",
+      "canonical_name": "Rene 95",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results and Discussion",
+          "quote": "28 Rene 95 Ni-base (precipit. hard.) 1343 627.6 0.000001 80 757 0.00135 217 771",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "Inconel 718",
+      "canonical_name": "Inconel 718",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Results and Discussion",
+          "quote": "At least one of the superalloys, such as Inconel 718, may exhibit a trilinear log behavior.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "single-crystal; heat treatment A",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results and Discussion",
+          "quote": "the alloy CMSX-4, a γ0-strengthened, single-crystal, nickel-based superalloy, where three exponentials are needed for accurate modeling in case of heat treatment A, but four exponentials in case of heat treatment B",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_7",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "designation": "heat treatment A"
+        }
+      },
+      "input_state": null,
+      "output_state": "heat treatment A",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results and Discussion",
+          "quote": "three exponentials are needed for accurate modeling in case of heat treatment A, but four exponentials in case of heat treatment B",
+          "table": null,
+          "figure": "Figure S4",
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_7",
+      "sequence": 2,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "designation": "heat treatment B"
+        }
+      },
+      "input_state": null,
+      "output_state": "heat treatment B",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results and Discussion",
+          "quote": "three exponentials are needed for accurate modeling in case of heat treatment A, but four exponentials in case of heat treatment B",
+          "table": null,
+          "figure": "Figure S4",
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results and Discussion",
+          "quote": "Ni-based superalloys containing γ 0 phases tend to be particularly resistant to temperature",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "gamma-double-prime",
+      "sample_id": "sample_6",
+      "material_state": "tested",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Ni3Nb",
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Results and Discussion",
+          "quote": "The γ 00 phase occurs in Ni-based superalloys, such as Inconel 718, which have signiﬁcant addition of Niobium or Vanadium. The stoichiometry of the γ 00 phase is Ni3Nb",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "gamma-prime",
+      "sample_id": "sample_7",
+      "material_state": "single-crystal; heat treatment A",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results and Discussion",
+          "quote": "the alloy CMSX-4, a γ0-strengthened, single-crystal, nickel-based superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "secondary strengthening phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "γ'",
+        "identification_status": "author_interpretation"
+      },
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Experimental Section",
+          "quote": "we seek to focus on the inﬂuence of a speciﬁc microstructural feature, secondary strengthening phases, such as γ0, as identiﬁed by the existence of inﬂection (break) points in our modeling results.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "cross-slip locking of dislocations",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results and Discussion",
+          "quote": "The effect arises from dislocation locking on secondary {100} slip planes caused by cross-slipping of primary dislocations on {111} slip planes in the γ 0 phases during plastic deformation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Results and Discussion",
+          "quote": "The precipitation-strengthened superalloys seem to result in higher YS than the solid-solution-strengthened ones",
+          "table": null,
+          "figure": "Figure 5",
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results and Discussion",
+          "quote": "Strengthening generally occurs through both alloying elements acting as solutes in the face-centered-cubic (FCC) austenitic matrix phase and through the solute-precipitation strengthening",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "thermally activated dislocation motion",
+      "category": "deformation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Results and Discussion",
+          "quote": "The strengths of most metals tend to decrease with temperature, as dislocation motion becomes thermally activated.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "precipitation strengthening",
+      "category": "strengthening",
+      "sample_id": "sample_7",
+      "material_state": "single-crystal; heat treatment A",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results and Discussion",
+          "quote": "the alloy CMSX-4, a γ0-strengthened, single-crystal, nickel-based superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_6",
+      "name": "diffusion-controlled deformation",
+      "category": "deformation",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Experimental Section",
+          "quote": "The diffusion-controlled regime can be distinguished from the low-temperature regime by a more rapid drop in strength with increasing temperature because now dislocations are able to move more easily around obstacles.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "bilinear log model",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "predict temperature-dependent yield strength of superalloys with a break temperature",
+      "inputs": [
+        "composition",
+        "T",
+        "process",
+        "defects",
+        "grain size",
+        "microstructure"
+      ],
+      "target": "yield strength",
+      "dataset": "temperature-dependent yield strength data for 40 superalloy compositions (38 compositions, 40 configurations)",
+      "validation": "comparison of mean squared error against single-exponential model",
+      "metrics": {
+        "MSE_log_domain_average": 0.00175,
+        "MSE_linear_domain_average_MPa2": 4151
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Results and Discussion",
+          "quote": "When averaged over these 40 compositions, the bilinear log model results in a mean squared error (MSE) of 0.00175 in the logarithmic domain, compared to the MSE of 0.0525 for the model based on a single exponential.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        },
+        {
+          "page": "7",
+          "section": "Conclusions",
+          "quote": "In the logarithmic domain, the bilinear log model resulted in MSE of 0.00175, compared to the MSE of 0.0525 for the single-exponent model. But in the linear domain, the bilinear log model produced MSE of 4151 MPa2, averaged across these 40 conﬁgurations, compared to the MSE of 25 836 MPa2 for the single-exponent model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_2",
+      "name": "single-exponential model",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "model overall yield strength of superalloys vs temperature",
+      "inputs": [],
+      "target": "yield strength",
+      "dataset": "temperature-dependent yield strength data for 40 superalloy compositions (38 compositions, 40 configurations)",
+      "validation": "mean squared error comparison",
+      "metrics": {
+        "MSE_log_domain_average": 0.0525,
+        "MSE_linear_domain_average_MPa2": 25836
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Results and Discussion",
+          "quote": "in the linear domain, where the bilinear log model yields the MSE of only 4,151 MPa 2, compared to the MSE of 25 836 MPa 2 for the model based on a single exponential.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        },
+        {
+          "page": "7",
+          "section": "Conclusions",
+          "quote": "In the logarithmic domain, the bilinear log model resulted in MSE of 0.00175, compared to the MSE of 0.0525 for the single-exponent model. But in the linear domain, the bilinear log model produced MSE of 4151 MPa2, averaged across these 40 conﬁgurations, compared to the MSE of 25 836 MPa2 for the single-exponent model.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "ml_model_3",
+      "name": "tri-linear log model",
+      "sample_id": null,
+      "property_observation_id": null,
+      "task": "temperature-dependent yield strength prediction",
+      "inputs": [],
+      "target": "yield strength",
+      "dataset": null,
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": "8",
+          "section": "Experimental Section",
+          "quote": "Depending on the grain sizes and the compositions comprising the superalloys, a tri-linear log model may offer a better ﬁt for speciﬁc superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results and Discussion",
+          "quote": "17 Inconel 601 Ni-base (solid sol.)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results and Discussion",
+          "quote": "18 Inconel 600 Ni-base (solid sol.)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_3",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_3",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results and Discussion",
+          "quote": "27 Hastelloy X (10 μm) Ni-base (solid sol.)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_4",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_4",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results and Discussion",
+          "quote": "1 Waspaloy Ni-base (precipit. hard.)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_5",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_5",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Results and Discussion",
+          "quote": "28 Rene 95 Ni-base (precipit. hard.)",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_6",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_2",
+      "sample_id": "sample_6",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "Results and Discussion",
+          "quote": "Fe–Ni-based superalloys, such as the popular Inconel 718",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results and Discussion",
+          "quote": "The effect arises from dislocation locking on secondary {100} slip planes caused by cross-slipping of primary dislocations on {111} slip planes in the γ 0 phases during plastic deformation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "processor_missing",
+      "predicate": "USES_MODEL",
+      "target_id": "ml_model_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Results and Discussion",
+          "quote": "Quantiﬁcation of modeling accuracy of the bilinear log model for the composition No. 17 from Table 1 (Inconel 601)",
+          "table": "Table 1",
+          "figure": "Figure 2",
+          "chunk_id": "8539cabf3e4fcb8f:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_7",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_7",
+      "material_state": "single-crystal; heat treatment A",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results and Discussion",
+          "quote": "the alloy CMSX-4, a γ0-strengthened, single-crystal, nickel-based superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_7",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_7",
+      "material_state": "single-crystal; heat treatment A",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results and Discussion",
+          "quote": "where three exponentials are needed for accurate modeling in case of heat treatment A",
+          "table": null,
+          "figure": "Figure S4",
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_7",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_7",
+      "material_state": "single-crystal; heat treatment A",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results and Discussion",
+          "quote": "but four exponentials in case of heat treatment B",
+          "table": null,
+          "figure": "Figure S4",
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "sample_7",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_7",
+      "material_state": "single-crystal; heat treatment A",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results and Discussion",
+          "quote": "the alloy CMSX-4, a γ0-strengthened, single-crystal, nickel-based superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "sample_7",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_5",
+      "sample_id": "sample_7",
+      "material_state": "single-crystal; heat treatment A",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Results and Discussion",
+          "quote": "the alloy CMSX-4, a γ0-strengthened, single-crystal, nickel-based superalloy",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_14",
+      "source_id": "ml_model_1",
+      "predicate": "PREDICTS",
+      "target_id": "mechanism_6",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "7",
+          "section": "Experimental Section",
+          "quote": "This tendency applies to low-entropy alloys, MEAs, and HEAs and serves to explain a model comprising two exponentials.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "8539cabf3e4fcb8f:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "Tbreak",
+    "Tm",
+    "MSE_linear_domain_MPa2",
+    "MSE_log_domain"
+  ],
+  "conflicts": []
+}

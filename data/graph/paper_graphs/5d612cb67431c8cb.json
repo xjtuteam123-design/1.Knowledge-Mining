@@ -1,0 +1,211 @@
+{
+  "document_id": "5d612cb67431c8cb",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "An Applicability of a Creep Constitutive Equation for Ni-Base Superalloys on Low Temperature High Stress Condition",
+    "authors": [
+      "Hitoshi Izuno",
+      "Tadaharu Yokokawa",
+      "Hiroshi Harada"
+    ],
+    "journal": "J. Japan Inst. Metals",
+    "year": 2006,
+    "doi": "10.2320/jinstmet.70.674"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-base superalloy",
+      "material_category": "precipitation-strengthened Ni-base superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "Abstract",
+          "quote": "We have proposed a new creep constitutive equation of Ni-base superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d612cb67431c8cb:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "TMS-138 合金",
+      "canonical_name": "TMS-138",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "Fig. 1 に TMS-138 合金および TMS-162 合金の 800°C/735 MPa におけるクリープ曲線を示す",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5d612cb67431c8cb:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "TMS-162 合金",
+      "canonical_name": "TMS-162",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "これに対してTMS-162 合金では一次クリープが顕著でない単純な指数関数的伸びを示す．",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d612cb67431c8cb:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "gamma-prime (gamma') phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "析出相である g′相の同条件下での異方的粗大化 (ラフト化 )が主要因であるといわれている",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d612cb67431c8cb:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "rafting",
+      "category": "microstructural evolution",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "析出相である g′相の同条件下での異方的粗大化 (ラフト化 )が主要因であるといわれている",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d612cb67431c8cb:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "Fig. 1 に TMS-138 合金および TMS-162 合金の 800°C/735 MPa におけるクリープ曲線を示す",
+          "table": null,
+          "figure": "Fig. 1",
+          "chunk_id": "5d612cb67431c8cb:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_2",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_2",
+      "material_state": "tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "これに対してTMS-162 合金では一次クリープが顕著でない単純な指数関数的伸びを示す．",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d612cb67431c8cb:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "alloy_system_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "析出相である g′相の同条件下での異方的粗大化 (ラフト化 )が主要因であるといわれている",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d612cb67431c8cb:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "1",
+          "section": "1. 緒言",
+          "quote": "析出相である g′相の同条件下での異方的粗大化 (ラフト化 )が主要因であるといわれている",
+          "table": null,
+          "figure": null,
+          "chunk_id": "5d612cb67431c8cb:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [
+    "creep constitutive equation parameters (A1, c1, m, A2, c2, A3, c3, l, b)"
+  ],
+  "conflicts": []
+}

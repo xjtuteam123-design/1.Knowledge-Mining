@@ -1,0 +1,788 @@
+{
+  "document_id": "cb2e415d16363c91",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Numerical simulation of microstructure evolution in Ni-based superalloys during P-type rafting using multiphase-field model and crystal plasticity",
+    "authors": [
+      "Yaqian Zhang",
+      "Cong Yang",
+      "Qingyan Xu"
+    ],
+    "journal": "Computational Materials Science",
+    "year": 2020,
+    "doi": "10.1016/j.commatsci.2019.109331"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "a multiphase-field model coupled with crystal plasticity was established to simulate the γ/γ' microstructure evolution of Ni-based superalloys during P-type rafting.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        },
+        {
+          "page": "10",
+          "section": "5. Conclusions",
+          "quote": "The microstructure evolution and plastic activities of multi-component Ni-base superalloys during P-type rafting was studied in this paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CMSX-4",
+      "canonical_name": "CMSX-4",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "heat-treated, aged",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 12.72,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "CMSX-4 (at.%) 12.72 9.90 7.48 0.39 0.95 2.18 1.28 2.11 0.03 bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "cb2e415d16363c91:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 9.9,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "CMSX-4 (at.%) 12.72 9.90 7.48 0.39 0.95 2.18 1.28 2.11 0.03 bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "cb2e415d16363c91:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 7.48,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "CMSX-4 (at.%) 12.72 9.90 7.48 0.39 0.95 2.18 1.28 2.11 0.03 bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "cb2e415d16363c91:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 0.39,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "CMSX-4 (at.%) 12.72 9.90 7.48 0.39 0.95 2.18 1.28 2.11 0.03 bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "cb2e415d16363c91:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Re",
+          "value": 0.95,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "CMSX-4 (at.%) 12.72 9.90 7.48 0.39 0.95 2.18 1.28 2.11 0.03 bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "cb2e415d16363c91:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 2.18,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "CMSX-4 (at.%) 12.72 9.90 7.48 0.39 0.95 2.18 1.28 2.11 0.03 bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "cb2e415d16363c91:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ti",
+          "value": 1.28,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "CMSX-4 (at.%) 12.72 9.90 7.48 0.39 0.95 2.18 1.28 2.11 0.03 bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "cb2e415d16363c91:part:001"
+            }
+          ]
+        },
+        {
+          "element": "W",
+          "value": 2.11,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "CMSX-4 (at.%) 12.72 9.90 7.48 0.39 0.95 2.18 1.28 2.11 0.03 bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "cb2e415d16363c91:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Hf",
+          "value": 0.03,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "CMSX-4 (at.%) 12.72 9.90 7.48 0.39 0.95 2.18 1.28 2.11 0.03 bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "cb2e415d16363c91:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "Table 1",
+              "quote": "CMSX-4 (at.%) 12.72 9.90 7.48 0.39 0.95 2.18 1.28 2.11 0.03 bal.",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "cb2e415d16363c91:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 1",
+          "quote": "Chemical composition of CMSX-4.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        },
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "γ′-precipitates are set to mimic γ/γ′ microstructure according to experimental results, i.e., γ'-precipitates are aligned regularly as shown in Fig. 11(a).",
+          "table": null,
+          "figure": "Fig. 11",
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "heat treatment",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "heat-treated",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "4. Simulation of γ'-precipitates rafting",
+          "quote": "The cuboidal γ'-precipitates with the size of about 0.45 μm are obtained as the initial microstructure after heat treatment simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "aging",
+      "parameters": {
+        "temperature_c": 1373,
+        "time": "2 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "condition": "stress-free, no plasticity"
+        }
+      },
+      "input_state": "supersaturated γ matrix",
+      "output_state": "aged",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "the aging process is accelerated to 2 h at 1373 K. It can be seen that the γ'-precipitates grow into cuboidal shape, separated by γ channels.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 3,
+      "method": "uniaxial compression",
+      "parameters": {
+        "temperature_c": 1373,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "applied_stress_MPa": 137,
+          "loading_direction": "[0 0 1]"
+        }
+      },
+      "input_state": "aged",
+      "output_state": "rafting under compression",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "the initial cuboidal microstructure is loaded with a uniaxial compression = 137 MPa appl in [0 1] direction, holding the temperature T = 1373 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated, aged",
+      "attributes": {
+        "phase_fraction": 0.6,
+        "size": "0.45 μm",
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "4. Simulation of γ'-precipitates rafting",
+          "quote": "The cuboidal γ'-precipitates with the size of about 0.45 μm are obtained as the initial microstructure after heat treatment simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        },
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "The average γ' size is about 0.45 μm and the γ' volume fraction is about 0.6",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated, aged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "channels separating γ' precipitates",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.4. Coupling multiphase-field model and crystal plasticity framework",
+          "quote": "In the first stage of creep, plastic activities usually happen inγ phase while γ' behaves elastically.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        },
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "the γ'-precipitates grow into cuboidal shape, separated by γ channels",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "P-type raft",
+      "sample_id": "sample_1",
+      "material_state": "rafting under compression",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "γ' precipitates elongated parallel to applied compression",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": "10",
+          "section": "5. Conclusions",
+          "quote": "which is the main reason why CMSX-4 has a P-type raft when a 137 MPa uniaxial compression is loaded.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "dislocation slip",
+      "category": "plastic deformation",
+      "sample_id": "sample_1",
+      "material_state": "compressed at 1373 K",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "4.2. Anisotropy of slip systems",
+          "quote": "Therefore, dislocation slip should be activated mainly in gable channel and σ33 plays a crucial role in it.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "anisotropic slip system activation",
+      "category": "plasticity",
+      "sample_id": "sample_1",
+      "material_state": "rafting under compression",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "5. Conclusions",
+          "quote": "The anisotropy activities of 12 octahedral slip systems influence the distribution of plastic strain and elastic driving force, which is the main reason why theγ'-precipitates elongate parallel to the applied compression and occur a P-type raft.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "slow solute diffusion at γ/γ' interface",
+      "category": "diffusion",
+      "sample_id": "sample_1",
+      "material_state": "rafting under compression",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "5. Conclusions",
+          "quote": "Re and W gather at the γ/γ′ interface because of their small chemical mobility.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "Table 1",
+          "quote": "Chemical composition of CMSX-4.",
+          "table": "Table 1",
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "4. Simulation of γ'-precipitates rafting",
+          "quote": "The cuboidal γ'-precipitates with the size of about 0.45 μm are obtained as the initial microstructure after heat treatment simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "4. Simulation of γ'-precipitates rafting",
+          "quote": "The cuboidal γ'-precipitates with the size of about 0.45 μm are obtained as the initial microstructure after heat treatment simulation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "heat-treated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.4. Coupling multiphase-field model and crystal plasticity framework",
+          "quote": "In the first stage of creep, plastic activities usually happen inγ phase while γ' behaves elastically.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "compressed at 1373 K",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "4.2. Anisotropy of slip systems",
+          "quote": "Therefore, dislocation slip should be activated mainly in gable channel and σ33 plays a crucial role in it.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "5. Conclusions",
+          "quote": "The microstructure evolution and plastic activities of multi-component Ni-base superalloys during P-type rafting was studied in this paper.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_2",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "the aging process is accelerated to 2 h at 1373 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_3",
+      "sample_id": "sample_1",
+      "material_state": "rafting under compression",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "the initial cuboidal microstructure is loaded with a uniaxial compression = 137 MPa appl in [0 1] direction, holding the temperature T = 1373 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "the γ'-precipitates grow into cuboidal shape, separated by γ channels.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "aged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "the γ'-precipitates grow into cuboidal shape, separated by γ channels.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "rafting under compression",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "After simulating for 8 h, the γ/γ' interfaces are most aligned along [0 1] direction and γ' structures have an obvious P-type raft under the compression load.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_2",
+      "predicate": "CAUSES_TRADEOFF",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "rafting under compression",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "10",
+          "section": "5. Conclusions",
+          "quote": "The anisotropy activities of 12 octahedral slip systems influence the distribution of plastic strain and elastic driving force, which is the main reason why theγ'-precipitates elongate parallel to the applied compression and occur a P-type raft.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_13",
+      "source_id": "process_3",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "rafting under compression",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "8",
+          "section": "4.4. Multiple γ'-precipitates rafting",
+          "quote": "They were captured during the process of diffusing from γ′ into γ phase due to the slow diffusion rate and finally clustered in the interface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "cb2e415d16363c91:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

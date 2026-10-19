@@ -1,0 +1,757 @@
+{
+  "document_id": "e1fb238a77e1da34",
+  "chunk_id": "e1fb238a77e1da34:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "High-cycle tensile-tensile fatigue performance of niobium alloy: Conventional vs wire-arc additive manufacturing",
+    "authors": [
+      "Gazi Tanvir",
+      "Md Abdul Karim",
+      "Namjung Kim",
+      "Yongho Jeon",
+      "Duck Bong Kim"
+    ],
+    "journal": "Journal of Materials Research and Technology",
+    "year": 2025,
+    "doi": "10.1016/j.jmrt.2024.12.254"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Nb-Zr alloy",
+      "material_category": "refractory alloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This study explores the high-cycle fatigue (HCF) behavior of a niobium alloy, NbZr1, fabricated using wire-arc additive manufacturing (WAAM), and compares its fatigue strength to that of its powder metallurgy (PM)-produced counterpart.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "NbZr1 plate (PM-NbZr1)",
+      "canonical_name": "NbZr1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-received cold-rolled",
+      "composition": [
+        {
+          "element": "Zr",
+          "value": 0.86,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Table 1",
+              "quote": "NbZr1 plate Bal. 0.86 0.04 0.009 0.022 < 10 ppm < 10 ppm 0.003 1 ppm 3 ppm – < 1 ppm 1 ppm",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "e1fb238a77e1da34:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Materials and processing methods",
+          "quote": "The NbZr1 plate, produced via PM followed by cold rolling (conforming to ASTM B393-09), was supplied by ALB Materials Inc. and served as the conventionally manufactured sample.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "WAAM-NbZr1",
+      "canonical_name": "NbZr1",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-built",
+      "composition": [
+        {
+          "element": "Zr",
+          "value": null,
+          "min_value": 0.8,
+          "max_value": 1.2,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 2,
+              "section": "Table 1",
+              "quote": "NbZr1wire Bal. 0.8 – 1.2 0.5 0.25 0.05 0.05 0.02 0.01 0.01 0.01 0.005 0.005 0.005",
+              "table": "Table 1",
+              "figure": null,
+              "chunk_id": "e1fb238a77e1da34:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Materials and processing methods",
+          "quote": "For the WAAM samples, NbZr1 wire was deposited onto NbZr1 substrates (100 mm × 25 mm × 5 mm) using a TIG-based WAAM setup with 200 A of welding current.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "wire-arc additive manufacturing (WAAM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "welding_current_A": 200,
+          "interpass_temperature_c": 100
+        }
+      },
+      "input_state": "NbZr1 wire",
+      "output_state": "as-built",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Materials and processing methods",
+          "quote": "For the WAAM samples, NbZr1 wire was deposited onto NbZr1 substrates (100 mm × 25 mm × 5 mm) using a TIG-based WAAM setup with 200 A of welding current. ... During the thin wall deposition, an interpass temperature of 100 ◦C was maintained between each successive layer.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "powder metallurgy (PM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Materials and processing methods",
+          "quote": "The NbZr1 plate, produced via PM followed by cold rolling (conforming to ASTM B393-09), was supplied by ALB Materials Inc.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": 2,
+      "method": "cold rolling",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": "as-received cold-rolled",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "2.1. Materials and processing methods",
+          "quote": "The NbZr1 plate, produced via PM followed by cold rolling (conforming to ASTM B393-09), was supplied by ALB Materials Inc.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "BCC-Nb",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3.1. Initial microstructure",
+          "quote": "Major peaks were identified at 38.19◦, 55.38◦, 69.43◦, and 82.02◦, which corresponded to the BCC-Nb matrix in WAAM-NbZr1",
+          "table": null,
+          "figure": "Fig. 2(e)",
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "ZrO2",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "interdendritic regions",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3.1. Initial microstructure",
+          "quote": "Additionally, small peaks at 27.63◦ and 32.01◦ were identified indicating the existence of ZrO2 within the microstructure.",
+          "table": null,
+          "figure": "Fig. 2(e)",
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "columnar dendrite",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "aligned with build direction",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3.1. Initial microstructure",
+          "quote": "The WAAM process produced a coarse-grained structure with columnar dendrites aligned with the build direction.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "pore",
+      "sample_id": "sample_1",
+      "material_state": "as-received cold-rolled",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "<5 μm",
+        "morphology": "spherical, unevenly distributed",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3.1. Initial microstructure",
+          "quote": "In contrast, the PM-NbZr1 structure mainly comprises sintered NbZr1 particles with pores formed during sintering. These pores are mostly spherical, unevenly distributed, and measure less than 5 μm (approx.) in diameter.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Defect",
+      "name": "residual stress",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "between deposited layers",
+        "composition": null,
+        "identification_status": null
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.4. Fracture surface",
+          "quote": "The presence of residual stresses could be a reason for these multiple crack initiation sites for WAAM-NbZr1. During the non-equilibrium cooling cycle of WAAM process, significant stresses are induced between the deposited layers.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-received cold-rolled",
+      "property": "yield strength",
+      "value": 325,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 3,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "rolled direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": "sample_2",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.2. Monotonic properties, Table 3",
+          "quote": "The yield strength of the PM sample was found 325 ± 3 MPa, whereas the WAAM sample exhibited a yield strength of 280 ± 5 MPa (Table 3).",
+          "table": "Table 3",
+          "figure": "Fig. 3",
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "yield strength",
+      "value": 280,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 5,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": "sample_1",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "3.2. Monotonic properties, Table 3",
+          "quote": "The yield strength of the PM sample was found 325 ± 3 MPa, whereas the WAAM sample exhibited a yield strength of 280 ± 5 MPa (Table 3).",
+          "table": "Table 3",
+          "figure": "Fig. 3",
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": "as-received cold-rolled",
+      "property": "tensile strength",
+      "value": 380,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 3,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "rolled direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 3",
+          "quote": "PM-NbZr1 325 ± 3 380 ± 3 27 ± 1 95 ± 1",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "tensile strength",
+      "value": 310,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 5,
+      "unit": "MPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 3",
+          "quote": "WAAM - NbZr1 280 ± 5 310 ± 5 26 ± 2 95 ± 1",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_1",
+      "material_state": "as-received cold-rolled",
+      "property": "elongation",
+      "value": 27,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 1,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "rolled direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 3",
+          "quote": "PM-NbZr1 325 ± 3 380 ± 3 27 ± 1 95 ± 1",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "elongation",
+      "value": 26,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 2,
+      "unit": "%",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 3",
+          "quote": "WAAM - NbZr1 280 ± 5 310 ± 5 26 ± 2 95 ± 1",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_1",
+      "material_state": "as-received cold-rolled",
+      "property": "Young's modulus",
+      "value": 95,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 1,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "rolled direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 3",
+          "quote": "PM-NbZr1 325 ± 3 380 ± 3 27 ± 1 95 ± 1",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "property": "Young's modulus",
+      "value": 95,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": 1,
+      "unit": "GPa",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "tension",
+        "orientation": "build direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "uniaxial tensile test"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "Table 3",
+          "quote": "WAAM - NbZr1 280 ± 5 310 ± 5 26 ± 2 95 ± 1",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "void nucleation and coalescence at ZrO2 particles",
+      "category": "damage",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "WAAM-NbZr1 showed more pronounced cleavage crack growth, accompanied by void nucleation and coalescence along the ZrO2 particles during fatigue crack propagation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "ductile failure by localized shear",
+      "category": "fracture",
+      "sample_id": "sample_1",
+      "material_state": "as-received cold-rolled",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.4. Fracture surface",
+          "quote": "This indicates a substantial amount of plastic deformation occurred through localized shear before final separation of the sample",
+          "table": null,
+          "figure": "Fig. 7(d)",
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "phase_2",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "WAAM-NbZr1 showed more pronounced cleavage crack growth, accompanied by void nucleation and coalescence along the ZrO2 particles during fatigue crack propagation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "microstructure_3",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "negative",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3.4. Fracture surface",
+          "quote": "The presence of residual stresses could be a reason for these multiple crack initiation sites for WAAM-NbZr1.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3.1. Initial microstructure",
+          "quote": "The WAAM process produced a coarse-grained structure with columnar dendrites aligned with the build direction.",
+          "table": null,
+          "figure": "Fig. 2",
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_2",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "3.1. Initial microstructure",
+          "quote": "Additionally, small peaks at 27.63◦ and 32.01◦ were identified indicating the existence of ZrO2 within the microstructure.",
+          "table": null,
+          "figure": "Fig. 2(e)",
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-received cold-rolled",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.2. Monotonic properties",
+          "quote": "The yield strength of the PM sample was found 325 ± 3 MPa",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_2",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_2",
+      "sample_id": "sample_2",
+      "material_state": "as-built",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.2. Monotonic properties",
+          "quote": "whereas the WAAM sample exhibited a yield strength of 280 ± 5 MPa",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "e1fb238a77e1da34:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

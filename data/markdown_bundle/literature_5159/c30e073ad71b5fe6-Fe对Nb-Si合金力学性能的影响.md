@@ -1,0 +1,708 @@
+# Fe对Nb-Si合金力学性能的影响
+
+<!-- source: D:\总文献\Fe对Nb-Si合金力学性能的影响.pdf -->
+<!-- file_sha256: e8af63a92ecbc8462b8e246705c10c83c41529e644ff76ab2bcaedd4ddc33b5b -->
+
+## Page 1
+
+Effect of Fe additions on microstructure and mechanical properties
+of a multi-component Nb e16Sie22Tie2Hfe2Ale2Cr alloy at room
+and high temperatures
+S.M. Zhang, J.R. Zhou, J.B. Sha *
+School of Materials Science and Engineering, Beihang University, 37 Xueyuan Rd., Beijing 100191, PR China
+article info
+Article history:
+Received 18 August 2014
+Received in revised form
+14 October 2014
+Accepted 22 October 2014
+Available online 13 November 2014
+Keywords:
+A. Intermetallics (aluminides, silicides)
+B. Fracture toughness
+B. Mechanical properties
+C. Casting
+C. Heat treatment
+D. Microstructure
+abstract
+The phase constitutions, microstructural evolutions, and mechanical properties of Nb e16Sie22Tie2Hf
+e2Ale2CrexFe alloys (where x ¼ 1, 2, 4, 6 at.%, hereafter referred to as 1Fe, 2Fe, 4Fe and 6Fe alloys,
+respectively) prepared by arc-melting were investigated. It was observed that the nominal Fe content
+affected the solidi ﬁcation path of the multi-component alloy. The as-cast 1Fe alloy primarily consisted of
+a dendritic-like Nb
+SS phase and ( aþg)-Nb5Si3 silicide, and the as-cast 2Fe and 4Fe alloys primarily
+consisted of an Nb SS phase, (aþg)-Nb5Si3 silicide and (Fe þ Ti)-rich region. In addition to the Nb SS phase,
+a multi-component Nb 4FeSi silicide was present in the as-cast 6Fe alloy. When heat-treated at 1350 /C14 C
+for 100 h, the 1Fe and 6Fe alloys almost exhibited the same microstructures as the corresponding as-cast
+samples; for the 2Fe and 4Fe alloys, the (Fe þ Ti)-rich region decomposed, and Nb 4FeSi silicide formed.
+The fracture toughness of the as-cast and heat-treated Nb e16Sie22Tie2Hfe2Ale2CrexFe samples
+monolithically decreased with the nominal Fe contents. It is interesting that at room temperature, the
+strength of the heat-treated samples was improved by the Fe additions, whereas at 1250 /C14 C and above,
+the strength decreased, suggesting the weakening role of the Nb 4FeSi silicide on the high-temperature
+strength. As the nominal Fe content increased from 1 at.% to 6 at.%, for example, the 0.2% yield
+strength increased from 1675 MPa to 1820 MPa at room temperature; also, the strength decreased from
+183 MPa to 78 MPa at 1350 /C14 C.
+© 2014 Elsevier Ltd. All rights reserved.
+1. Introduction
+Nb is one of the most attractive base metals to replace Ni-based
+superalloys for future high-temperature structural materials with
+an application temperature range in excess of 1200 /C14 C. A balanced
+combination of properties, including ductility and toughness at low
+temperatures, strength and creep resistance at elevated tempera-
+tures, as well as environmental stability, is the basic requirement for
+the Nb-based alloys to be applied in advanced aeronautics and as-
+tronautics propulsion systems. To enable Nb-based alloys to achieve
+such balanced properties, the concept of multi-phase alloys [1e10]
+and the directional solidi ﬁcation [6,8] and hot extrusion technolo-
+gies [1 1e14], have been used to design the microstructure and
+improve the mechanical properties of these alloys. For multi-phase
+design, the incorporation of the ductile Nb solid solution Nb SS with
+the stiffening silicide Nb 5Si3 [1e10] and the oxidation-resistant
+Laves phase Cr 2Nb [15e17 ] has been conducted to form an
+NbeSieCr ternary-based system with a multi-phase Nb SS/Nb5Si3/
+Cr2Nb microstructure. By optimising the volume fraction and
+morphology of the Nb SS,N b5Si3 and Cr2Nb phases in the Nb eSieCr
+based alloys, balanced properties may be obtained that meet the
+requirements of ultra-high-temperature structural materials.
+In addition to the aforementioned microstructural design and
+processing technologies, alloying is always an effective way to
+optimise each property. W and Mo are observed to be the strongest
+solid-solution strengthening elements for Nb [7,8,18], while Ti and
+Hf have been demonstrated to play a key role in improving the
+fracture toughness and ductility of the Nb solid solution because
+these elements decrease the ductile ebrittle transition temperature
+(DBTT) of Nb [19,20]. Al and Fe were observed to reduce oxygen
+diffusion and solubility in Nb, which is bene ﬁcial to the oxidation
+resistance of Nb [15e17].
+Recently, alloying Nb eSi-based alloys with Fe has attracted in-
+terest [13,14,21,22]because Fe has a similar effectiveness as Cr at
+concentrations up to 5 at.% in improving oxidation resistance [15].
+Studies have demonstrated that a 5 at.% Fe addition results in
+* Corresponding author.
+E-mail address: jbsha@sina.com (J.B. Sha).
+Contents lists available at ScienceDirect
+Intermetallics
+journal homepage: www.elsevier.com/locate/intermet
+http://dx.doi.org/10.1016/j.intermet.2014.10.013
+0966-9795/© 2014 Elsevier Ltd. All rights reserved.
+Intermetallics 57 (2015) 146 e155
+
+## Page 2
+
+complex phase constitutions in hypereutectic Nb e18Sie24Tie5Cr
+and Nb e18Sie24Tie5Cre5Sn alloys, in which a new silicide,
+Nb4FeSi, has been observed [21,22]. For as-cast NbeSieFe ternaries,
+the Nb4FeSi arises at a Fe content of 2 at.% [23]. A tensile elongation
+of 2% at room temperature and superplasticity of approximately
+512% elongation at 1450 /C14 C were obtained in a Nb e16Sie2Fe alloy
+prepared by hot pressing sintering [13] due to the formation of a
+Nb4Fe3Si5 phase with a melting-point as low as 1359 /C14 C. To our
+knowledge, the understanding of how Fe affects the phase and
+microstructural evolution and mechanical properties at room and
+high temperatures for Nb eSi based alloys remains poor. The pur-
+pose of this research is to determine the basic changes in metal-
+lurgy and mechanical behaviour of a multi-component
+Nbe16Sie22Tie2Hfe2Ale2Cr with Fe additions under as-cast and
+heat-treated conditions.
+2. Experimental procedures
+Button ingots of Nb e16Sie22Tie2Hfe2Ale2CrexFe alloys
+(x ¼ 1, 2, 4, 6 at.%), each with a weight of 150 g, were prepared by
+melting ﬁve or six times using the vacuum arc melting (VAR)
+method to homogenise the compositions of the ingots. The ingots
+were then annealed at 1350 /C14 C in vacuum for 100 h, followed by
+furnace-cooling to ensure quasi-equilibrium microstructures. The
+purity of all the raw elements used was 99.95% (in mass) or higher.
+X-ray diffraction (XRD) of the bulk samples was measured to
+identify the phase constitutions of the as-cast and heat-treated
+samples using Cu K a (l ¼ 0.15405 nm) radiation at 40 kV and
+40 mA (Rigaku D/Max 2500 PC), while Rietveld-type analysis was
+used to assign the peaks. Back-scattered electron (BSE) images were
+acquired to investigate the microstructures of the samples and
+crack paths of the bending tested samples using an SEM (JEOL JXA-
+8100) equipped with energy-dispersion X-ray spectroscopy (EDS,
+Oxford Instruments, UK) to analyse the phase compositions, while
+secondary electron images (SEI) of the fracture surfaces were ob-
+tained using an FEI Quanta 200F scanning electron microscope. The
+phase volume fraction was statistically determined by quantitative
+metallographic analysis of microstructure images taken in the BSE
+mode through a software.
+Vickers hardness ( Hv) was measured under an applied load of
+0.98 N on a digital HXZ-1000 micro-sclerometer with a loading-
+maintenance time of 15 s, and an average value was obtained by
+collecting 10 Hv readings for each sample. The Hv value was
+calculated by the formula of Hv ¼ 0.102 /C2 (2F /C2 sin(a/2))/d2, where
+F is the loading ( N), a is the top angle of the diamond indenter
+(136/C14 ), and d is the diagonal length of the indentation. Single-
+notched three-point-bending plates were employed for the frac-
+ture toughness (KQ) measurements of the bulk alloys. A notch of up
+to a/w ¼ 0.5 (a: notch length, w: specimen width) was introduced at
+the middle of the longest side of the specimens by electrical
+discharge machining with a 0.2-mm-diameter Cu wire. The di-
+mensions of the three-point-bending plates were
+30 mm /C2 6m m /C2 3 mm, and the bending tests were conducted on a
+SANS testing machine with a loading span of 24 mm and a cross-
+head displacement rate of 0.1 mm/min. The compressive tests at
+room temperature were conducted on a SANS testing machine at a
+strain rate of 3 /C2 10
+/C0 4 s/C0 1 to measure the compressive strength; the
+size of the rectangular compressive samples was
+3m m /C2 3m m /C2 6 mm. The high-temperature compressive tests at
+1250 /C14 C and 1350 /C14 C were conducted in an argon atmosphere at a
+strain rate of 3 /C2 10/C0 4 s/C0 1 using a Gleeble 1500 testing machine. The
+compressive cylinders were 6 mm in diameter and 9 mm in length.
+All the specimens for the three-point-bending and compressive
+tests were mechanically polished using SiC paper (1200-grit) with
+water before testing.
+3. Results
+3.1. Phase constitutions and microstructural evolution with Fe
+Typical X-ray diffraction patterns of the as-cast and heat-treated
+Nbe16Sie22Tie2Hfe2Ale2CrexFe alloys are presented in Fig. 1.I n
+the as-cast samples, as observed in Fig. 1 (a), the characteristic
+diffraction peaks of the Nb solid solution Nb SS, a-Nb5Si3 and g-
+Nb5Si3 silicides (referred to as the ( aþg)-Nb5Si3 phase hereafter)
+are detected in the 1-4Fe alloys, in which the peak intensities of the
+g-Nb5Si3 silicide are much lower than those of the a-Nb5Si3 silicide,
+suggesting that the a-Nb5Si3 is the dominant silicide. For the 6Fe
+alloy, the characteristic peaks of the Nb 5Si3 silicide cannot be
+detected; instead, the characteristic peaks of a new silicide,
+Nb4FeSi, with a b.c.t structure appear in addition to the Nb SS phase.
+These ﬁndings reveal that the Fe additions may promote the gen-
+eration of the Nb 4FeSi silicide while suppressing the formation of
+the Nb 5Si3 phase. After heat treatment at 1350 /C14 C for 100 h, as
+shown in Fig. 1(b), the 1Fe alloy still contains the characteristic
+peaks of the Nb SS and ( aþg)-Nb5Si3 phases, while the 6Fe alloy
+exhibits characteristic peaks of only the Nb SS and Nb 4FeSi phases.
+Heat treatment does not appear to change the phase constitutions
+Fig. 1. X-ray patterns of the as-cast (a) and heat-treated (b) 1 e6Fe samples.
+S.M. Zhang et al. / Intermetallics 57 (2015) 146 e155 147
+
+## Page 3
+
+of the 1Fe and 6Fe alloys, compared with those in the corre-
+sponding as-cast samples shown in Fig. 1(a). In the heat-treated 2Fe
+and 4Fe alloys, however, the independent peaks of the Nb 4FeSi
+phase were observed, and the others remaining were from the NbSS
+phase and ( aþg)-Nb5Si3 silicides (see Fig. 1(b)).
+Typical BSE images of the as-cast and heat-treated four alloys
+are presented in Figs. 2 and 3 , respectively. Three types of phases
+with clear contrast are observed. The microstructural analysis
+together with the X-ray diffraction patterns ( Fig. 1) and EDS data of
+phase compositions (Table 1) reveal that in the as-cast samples, the
+white blocks represent the Nb SS phase, and the light grey phase is
+the ( aþg)-Nb5Si3 silicide. For the as-cast 1Fe alloy, the micro-
+structure is composed of dendritic-like Nb SS arms, Nb SS þ Nb5Si3
+eutectics (circles in Fig. 2(a) and (a')) and an (aþg)-Nb5Si3 matrix. In
+addition, some dark areas appear in the interstices of the dendritic-
+like Nb SS arms, which were determined to be the Ti-rich ( aþg)-
+Nb5Si3 phase ( Fig. 2 (a')). At the nominal Fe content of 2 at.%, the
+sample exhibits a microstructure that is similar to the 1Fe sample,
+Fig. 2. SEM images of the as-cast 1 e6Fe alloys.
+S.M. Zhang et al. / Intermetallics 57 (2015) 146 e155148
+
+## Page 4
+
+i.e., the dendritic-like Nb SS arms, Nb SS þ Nb5Si3 eutectics and
+(aþg)-Nb5Si3 matrix, while dark (Fe þ Ti)-rich regions are observed
+((Fig. 2(b) and (b')). With further increase of the Fe content to 4 at.%,
+the (Fe þ Ti)-rich regions are extended ( Fig. 2 (c) and (c')). The
+enlarged SEM image of the 4Fe sample in Fig. 2 (c') reveals that
+these dark (Fe þ Ti)-rich regions are the eutectic-like mixture
+(Table 1 ) containing strips (deeply grey) and matrix (black). The
+morphologies in Fig. 2(d) and (d') demonstrate that the as-cast 6Fe
+alloy has different microstructures compared with the 1Fe e4Fe
+alloys; this alloy contains the primary Nb SS blocks, the Nb 4FeSi
+matrix, as well as the (Fe þ Ti)-rich regions, without the ( aþg)-
+Nb5Si3 phase. The Nb 4FeSi phase adopts a cubical shape, with
+15e30 mm in cube edge length. The EDS results in Table 1 indicate
+that the (Fe þ Ti)-rich regions have Fe and Ti concentrations of
+approximately 22.5 e24.1 at.% and 45.3 e49.4 at.%, respectively,
+which are far higher than those in the Nb SS and Nb 4FeSi phases
+(Table 1).
+After heat treatment, the microstructure of the 1Fe alloy re-
+mains composed of the NbSS and (aþg)-Nb5Si3 phases (Fig. 3(a) and
+(a')). For the 2Fe and 4Fe alloys, the (Fe þ Ti)-rich regions in the as-
+Fig. 3. SEM images of the heat-treated 1 e6Fe alloys.
+S.M. Zhang et al. / Intermetallics 57 (2015) 146 e155 149
+
+## Page 5
+
+cast sample have already vanished, and the microstructure consists
+of the continuous Nb SS strips and blocks, the Nb 4FeSi (dark) phase
+and the ( aþg)-Nb5Si3 (grey) matrix ( Fig. 3(b), (b'), (c) and (c')). For
+the heat-treated 6Fe alloy, the microstructure contains the Nb SS
+phase and the Nb 4FeSi matrix, while a small amount of Ti-rich
+Nb4FeSi remains in the Nb 4FeSi matrix ( Fig. 3(d')).
+Table 1 lists the phase compositions of the as-cast alloys. In the
+as-cast sample, Fe atoms dissolve into the Nb SS phases rather than
+into the ( aþg)-Nb5Si3 phase (less than 0.1 at.%), and the concen-
+tration of Fe in the NbSS phase exhibits an increasing tendency, from
+1.6 at.% to 4.6 at.%, as the nominal Fe content increases from 1 at.%
+to 6 at.%, respectively. For the ( aþg)-Nb5Si3 phase, the atomic ratio
+of Nb þ Ti þ Hf þ Al þ Cr to Si is approximately 5:3, the stoichio-
+metric ratio of the Nb 5Si3 binary; thus, this phase can be marked as
+the (Nb)5Si3 phase, where (Nb) means the part of Nb atoms that is
+replaced by other elements, Ti, Hf, Al and Cr. For convenience,
+(Nb)
+5Si3 remains presented as Nb 5Si3 hereafter. Note that in the Ti-
+rich ( aþg)-Nb5Si3 phase, the Fe concentration is considerably
+higher than that in the normal ( aþg)-Nb5Si3 phase, revealing that
+Ti may promote dissolution of Fe into the ( aþg)-Nb5Si3 phase. For
+the Nb 4FeSi phase in the 6Fe alloy, the concentration of
+Nb þ Ti þ Hf þ Al þ Cr is nearly 65 at.% and that of Fe varies from 2.8
+to 3.3 at.%; therefore, the atomic ratio of (Nb) to (Si þ Fe) is
+observed to be 6.5:3.5, which is very close to the stoichiometric
+ratio of 2:1 of the (Nb) 4(FeSi) ternary compound, where (Nb) has
+the same meaning as that in the (Nb) 5Si3 phase. For the (Fe þ Ti)-
+rich regions that appeared to be eutectic, their average Nb and Si
+concentrations are far lower than those of the ( aþg)-Nb5Si3 and
+Table 1
+Compositions of the phases in the as-cast samples.
+Alloys Phase Nb(at.%) Ti(at.%) Si(at.%) Hf(at.%) Al(at.%) Cr(at.%) Fe(at.%)
+1Fe Nb SS 65.3 25.7 2.0 1.3 2.2 1.9 1.6
+64.6e66.2 24.9 e26.4 0.9 e2.6 1.1 e1.4 2.0 e2.3 1.6 e2.2 1.3 e2.2
+Nb5Si3 45.9 15.5 35.7 1.9 0.8 0.1 0.1
+43.9e47.0 15.0 e16.0 35.1 e37.3 1.9 e2.0 0.6 e0.9 0.0 e0.2 0.0 e0.1
+Ti-rich Nb
+5Si3 25.1 30.4 33.6 5.0 1.5 1.0 3.4
+24.5e25.9 30.1 e30.9 33.1 e33.9 4.9 e5.0 1.4 e1.6 0.9 e1.0 3.1 e3.6
+2Fe Nb
+SS 65.5 24.8 2.6 1.1 2.1 1.9 2.0
+64.6e66.9 24.4 e25.3 2.5 e2.7 0.9 e1.3 2.0 e2.1 1.8 e2.2 1.6 e2.8
+Nb5Si3 47.5 13.9 35.6 2.0 0.8 0.1 0.1
+46.2e50.9 13.3 e14.5 35.1 e37.0 1.7 e2.1 0.7 e0.9 0.0 e0.2 0.0 e0.2
+(Fe þ Ti)-rich region 9.6 45.3 9.2 3.6 2.5 5.9 23.9
+6.6e14.3 42.4 e46.9 6.1 e11.7 3.2 e4.0 2.2 e2.9 5.6 e6.4 21.0 e26.5
+4Fe Nb
+SS 65.1 23.6 2.5 0.8 2.4 1.7 3.9
+64.2e65.8 23.2 e23.9 2.4 e2.5 0.8 e0.9 2.3 e2.5 1.7 e1.8 3.5 e4.5
+Nb
+5Si3 46.7 14.1 36.2 2.0 0.8 0.1 0.1
+45.6e47.4 13.8 e14.4 35.6 e37.3 1.9 e2.0 0.7 e0.9 0.0 e0.1 0.1 e0.2
+(Fe þ Ti)-rich region 8.7 48.5 7.4 5.8 2.5 4.6 22.5
+8.2e9.7 47.7 e51.2 6.5 e7.9 5.1 e6.1 2.3 e2.7 3.9 e5.0 22.0 e23.6
+6Fe Nb SS 63.8 24.2 2.3 0.8 2.7 1.6 4.6
+63.0e64.7 23.9 e24.7 2.0 e2.8 0.8 e0.9 2.5 e2.8 1.4 e1.8 4.0 e5.3
+Nb
+4FeSi 47.3 15 31.5 2.2 0.7 0.3 3.0
+45.6e47.9 14.2 e16.9 30.8 e32.0 2.1 e2.4 0.6 e0.9 0.2 e0.4 2.8 e3.3
+(Fe þ Ti)-rich region 9.2 49.4 6.3 4.8 2.4 3.8 24.1
+8.7e9.7 47.8 e52.2 5.2 e6.9 4.5 e5.2 2.3 e2.6 3.0 e4.4 23.1 e24.6
+Table 2
+Compositions of the phases in the heat-treated samples.
+Alloys Phases Nb(at.%) Ti(at.%) Si(at.%) Hf(at.%) Al(at.%) Cr(at.%) Fe(at.%)
+1Fe Nb SS 64.2 25.9 0.9 0.9 2.7 3.6 1.8
+63.4e66.7 25.5 e26.4 0.7 e1.0 0.6 e1.1 2.5 e2.8 3.3 e4.0 1.7 e2.1
+Nb5Si3 48.1 13.5 35.3 2.1 0.8 0.1 0.1
+46.6e49.8 12.2 e14.9 35.2 e35.3 1.9 e2.2 0.7 e0.8 0.0 e0.1 0.0 e0.1
+Ti-rich Nb
+5Si3 31.3 26.4 35.0 4.7 1.6 0.5 0.5
+30.1e32.1 25.0 e27.8 33.1 e36.0 1.3 e1.8 1.3 e1.8 0.4 e0.5 0.4 e0.5
+2Fe Nb SS 63.0 25.6 1.2 1.0 2.9 3.4 2.9
+62.4e63.7 25.5 e25.9 1.1 e1.3 0.9 e1.2 2.7 e3.1 3.2 e3.5 2.9 e3.0
+Nb
+5Si3 48.7 13.1 35.2 2.1 0.7 0.1 0.1
+47.6e49.5 12.3 e14.0 35.1 e35.4 2.0 e2.2 0.7 e0.8 0.0 e0.1 0.0 e0.1
+Nb
+4FeSi 45.6 18.1 29.8 3.0 0.7 0.4 2.4
+45.2e46.0 17.5 e18.8 29.2 e30.5 2.9 e3.1 0.7 e0.8 0.3 e0.5 2.2 e2.6
+4Fe Nb SS 59.3 25.4 1.6 0.8 3.3 3.8 5.8
+58.8e61.4 24.7 e26.0 1.4 e1.9 0.1 e1.0 3.0 e3.6 3.8 e3.9 5.4 e6.0
+Nb
+5Si3 49.9 12.0 35.2 1.9 0.7 0.1 0.2
+49.7e50.1 11.9 e12.0 35.2 e35.3 1.9 e2.0 0.6 e0.7 0.0 e0.1 0.1 e0.3
+Nb
+4FeSi 46.1 18.1 27.7 2.3 0.6 0.5 4.7
+45.2e47.3 17.5 e18.9 27.2 e28.2 1.9 e2.8 0.5 e0.7 0.4 e0.5 4.0 e5.6
+6Fe Nb SS 57.7 25.2 1.8 1.0 3.8 4.0 6.5
+57.6e58.0 25.1 e25.4 1.6 e1.9 0.9 e1.0 3.7 e4.0 3.8 e4.3 6.3 e6.6
+Nb4FeSi 46.7 17.2 28.2 2.1 0.7 0.3 4.8
+46.5e47.0 17.0 e17.4 28.0 e28.4 2.1 e2.2 0.6 e0.9 0.3 e0.4 4.5 e5.0
+Ti-rich Nb4FeSi 41.3 19.2 29.0 3.1 0.7 0.4 6.3
+40.5e41.8 18.8 e19.4 28.8 e29.1 3.0 e3.2 0.5 e0.8 0.3 e0.5 6.1 e6.7
+S.M. Zhang et al. / Intermetallics 57 (2015) 146 e155150
+
+## Page 6
+
+Nb4FeSi phases, whereas the Ti and Fe concentrations are obviously
+contrary ( Table 1 ). A detailed investigation of the (Fe þ Ti)-rich
+regions in Fig. 2 (c') reveals that the matrix (black) has a higher Ti
+concentration but lower Nb concentration than the strips (grey)
+(not shown in Table 1).
+After heat treatment, the Fe concentration in the Nb SS phase in-
+creases compared with the corresponding as-cast samples, which is,
+naturally, caused by the diffusion of Fe atoms from the Ti-rich (aþg)-
+Nb5Si3 (1Fe alloy) or the (Fe þ Ti)-rich regions (2-6Fe alloys) into the
+NbSS phase. For the (aþg)-Nb5Si3 phase, the heat treatment does not
+appear to cause any considerable change to its average compositions.
+Comparing the compositions of the (Fe þ Ti)-rich regions in the as-
+cast 2-4Fe alloys and the Nb 4FeSi phase in the heat-treated 2-4Fe
+alloys reveals that the formation of the Nb 4FeSi phase is mainly
+caused by the diffusion of Fe and Ti away from the (Fe þ Ti)-rich
+regions during heat treatment. The compositions of the Nb 4FeSi
+phase in Table 2 indicate that the Fe þ Si contents in the Nb 4FeSi
+phase undergo a small variation; however, the sum is approximately
+32e33 at.%. This ﬁnding is consistent with the Siþ Fe concentrations
+of the Nb 4FeSi phase observed in the multi-component
+Nbe24Tie18Sie5Fee5Sn and Nb e45Tie15Sie5Fee5Sn alloys
+[21,22] and the Nb eSieFe ternary [23].
+The volume fractions of the phases of the as-cast and heat-
+treated samples as a function of the nominal Fe contents are pre-
+sented in Fig. 4. The Nb SS fraction in the as-cast samples decreases
+gradually, from 57% to 41%, with the nominal Fe contents, whereas
+the other phases (the silicides ( aþg)-Nb5Si3, Ti-rich ( aþg)-Nb5Si3
+and Nb 4FeSi and the (Fe þ Ti)-rich regions) increase from 43% to
+59%. For the heat-treated samples, the volume fractions of the sil-
+icides and Nb SS phases undergo small changes, in the range of
+2e3%, compared with the corresponding as-cast alloys with
+different nominal Fe contents.
+3.2. Fracture toughness (K Q) and Vickers hardness (Hv)
+Table 3 lists the fracture toughness ( KQ) of the bulk as-cast and
+heat-treated samples and Vickers hardness ( Hv) of the Nb SS phase
+as a function of the nominal Fe content. A visible effect on KQ of the
+bulk as-cast samples with the addition of Fe is observed, that is, the
+KQ values decrease from 12.8 MPa m 1/2 to 8.0 MPa m 1/2 as the Fe
+content increases from 1 at.% to 6 at.%, respectively. The same is true
+for the heat-treated samples. By heat-treating at 1350 /C14 C for 100 h,
+KQ of the 1Fe and 2Fe alloys increases by approximately
+0.8e1.7 MPa m 1/2 compared with the corresponding as-cast sam-
+ples. The KQ values of the 4Fe and 6Fe alloys before and after heat-
+treating are at the same level as the corresponding as-cast samples.
+As the nominal Fe content increases from 1 at.% to 6 at.%, the vol-
+ume fraction of the ductile Nb SS phase in the as-cast and heat-
+treated samples decreases monolithically ( Fig. 4 ); consequently,
+the KQ value decreases by approximately 40%. The Vickers hardness
+of both the as-cast and heat-treated Nb SS phases exhibits an
+increasing tendency with the nominal Fe content. In each sample,
+the heat-treated Nb SS phase has a lower Hv than the as-cast phase
+by approximately 25 e30%. For the ( aþg)-Nb5Si3 and Nb 4FeSi sili-
+cides in the as-cast and heat-treated samples, their Hv is inde-
+pendent of the nominal Fe content, being 925 ± 63 for the Nb 4FeSi
+phase and 1 147± 88 for the ( aþg)-Nb5Si3 phase.
+To understand the failure modes of the Nb SS/silicides micro-
+structure, a series of fractographic observations were made on the
+fracture surfaces of the three-point-bent samples. Fig. 5 shows the
+typical features of the crack propagation path in the heat-treated
+samples. In general, de ﬂection and branching are observed
+frequently during the main crack propagation, and the stiffening
+silicides are the favourite path of the cracking. The crack propagates
+uninterruptedly throughout the silicides, revealing that the sili-
+cides cannot effectively stop the crack propagation; that is, the
+silicides offer little contribution to the toughness of the bulk sample
+from the viewpoint of the toughening mechanisms [8,20]. As the
+crack meets the Nb
+SS phase, however, many mechanisms that
+obstruct the crack growth are observed, which are bene ﬁcial to the
+toughness. The crack may pass through the Nb SS phase (arrows B in
+Fig. 5 (a) and (d)), go along the Nb SS/silicides interface (arrow A in
+Fig. 5 (d)), bypass the Nb SS phase (arrows C in Fig. 5 (c)) and some-
+times be arrested by the Nb SS phase (Fig. 5(a)e(c)). The interaction
+between the cracks and the constituent phases, illustrated in Fig. 5,
+is also observed in the other as-cast Nb eSi based alloys
+[8,20,24,25], suggesting the universality of the fracture behaviour
+in the ductile-stiffening two-phase Nb SS/silicides microstructure.
+The fractographic morphologies shown in Fig. 6 reveal the different
+failure modes of the Nb SS phases and silicides under bending. River
+patterns, so-called active facets, were observed on the fractured
+NbSS phase, illustrating the cleavage failure mode. The stiffening
+silicides have very smooth fracture surfaces without river patterns,
+which is representative of the typical brittle fracture characteristic.
+Incidentally, the micro-cracks that were out of plane were also
+observed in the phase boundaries (arrows A), con ﬁrming the
+branching of the main crack, as observed in Fig. 6 (a)e(c).
+3.3. Compressive behaviour at room and high temperature
+The compressive stress estrain curves of the heat-treated sam-
+ples at room temperature, 1250 /C14 C and 1350 /C14 C are displayed in
+Fig. 7 . The stress level at room temperature exhibits no visible
+difference with increasing nominal Fe content (Fig. 7(a)). At 1250 /C14 C
+and 1350 /C14 C, the stress estrain curves consist of a very short
+Fig. 4. Volume fractions of the phases in the as-cast and heat-treated
+Nbe16Sie22Tie2Hfe2Ale2CrexFe alloys.
+Table 3
+Vickers hardness ( Hv) and fracture toughness ( KQ) of the as-cast and heat-treated
+alloys at room temperature.
+Alloys KQ/MPa m1/2 Hv of Nb SS
+As-cast Heat treated As-cast Heat treated
+1Fe 12.8 ± 1.4 13.6 ± 0.6 377 ± 32 265 ± 22
+2Fe 11.6 ± 1.2 13.3 ± 0.4 404 ± 38 287 ± 19
+4Fe 10.2 ± 0.7 10.9 ± 0.4 445 ± 40 335 ± 31
+6Fe 8.0 ± 0.5 7.9 ± 0.5 467 ± 39 355 ± 28
+S.M. Zhang et al. / Intermetallics 57 (2015) 146 e155 151
+
+## Page 7
+
+deformation-hardening stage. After the stress reaches beyond the
+peak value, the stress remains at 50e80% of the peak value until the
+total strain is at approximately 20%. Among the four alloys, the 1Fe
+alloy exhibits the highest stress level at both 1250 /C14 C and 1350 /C14 C.
+The compiled average 0.2% yield compressive strength (s0.2) and
+maximum compressive strength ( smax) of the four heat-treated
+alloys at various temperatures are summarised in Table 4 .A n
+increasing Fe content improves the room-temperature yield
+strength of the Nb e16Sie22Tie2Hfe2Ale2Cr alloy, while the
+maximum compressive strength is almost at the same level. At
+1250 /C14 C and 1350 /C14 C, however, Fe appears to have a weakening
+effect on the strength. The 1Fe alloy has the highest s0.2, 290 MPa at
+1250 /C14 C and 183 MPa at 1350 /C14 C. As the nominal Fe content in-
+creases up to 6 at.%, s0.2 decreases to 185 MPa at 1250 /C14 C and
+signiﬁcantly decreases to 78 MPa at 1350 /C14 C. That is, for the 6Fe
+alloy, only 43% of the yield strength remains when the testing
+temperature increases by 100 /C14 C (from 1250 /C14 C to 1350 /C14 C).
+4. Discussion
+For the Nb e16Si alloy, the as-cast microstructure is usually
+composed of the primary dendritic-like Nb SS phase and the
+Nb3Si þ NbSS eutectic [26]. With replacement of 1 at.% to 6 at.% Nb
+by Fe, as well as the addition of 22Ti þ 2Al þ 2Hf þ 2Cr, the so-
+lidiﬁcation path and the phase constitution are changed. As
+observed in Fig. 2, the Nb 4FeSi phase appears, and the Nb 3Si phase
+[26] disappears, which suggests that the eutectic reaction of
+L / NbSS þ Nb3Si, the solidi ﬁcation path of the Nb eSi binary after
+the formation of the primary Nb SS phase, is restrained in this multi-
+component Nb eSieTieHfeAleCreFe system. According to the
+NbeSi binary diagram [26] and Fig. 2, the solidiﬁcation paths of the
+Nbe16Sie22Tie2Ale2Hfe2Cr-(1, 2, 4, 6)Fe alloys that are depen-
+dent on the nominal Fe content are primarily recommended as
+follows: 1) 1Fe alloy: L / L1 þ NbSS
+/ L2 þ NbSS þ Nb5Si3 / L3 þ NbSS þ Nb5Si3 þ (NbSS þ Nb5Si3)
+eutectic / NbSS þ Nb5Si3 þ (NbSS þ Nb5Si3) eutectic þ Ti-rich
+Nb5Si3; 2) 2Fe and 4 Fe alloys: L / L1 þ NbSS
+/ L2 þ NbSS þ Nb5Si3 / L3 þ NbSS þ Nb5Si3 þ (NbSS þ Nb5Si3)
+eutectic / NbSS þ Nb5Si3 þ (NbSS þ Nb5Si3) eutectic þ (Fe þ Ti)-
+rich region; and 3) 6Fe alloy: L
+/ L1 þ NbSS / L2 þ NbSS þ Nb4FeSi / NbSS þ Nb4FeSi þ (Fe þ Ti)-
+rich region. It is evident that at a nominal Fe content equal to or less
+than 4 at.%, the product solidi ﬁed after the formation of the Nb SS
+phase is the Nb 5Si3 and (Nb SS þ Nb5Si3) eutectic instead of the
+Nb4FeSi phase at 6 at.% Fe. By comparing the microstructures of the
+heat-treated samples with those of the as-cast ones at the corre-
+sponding Fe contents, it is apparent that the (Fe þ Ti)-rich region
+decomposes and results in the formation of the Nb 4FeSi phase in
+the 2-6Fe alloys.
+It is con ﬁrmed that in the heat-treated samples, increasing the
+Fe content from 1 at.% to 6 at.% results in a considerable change in
+the phase constitutions, from Nb SS þ (aþg)-Nb5Si3 to
+NbSS þ Nb4FeSi, and also produces a visible variation in the phase
+fractions (Fig. 4) and Fe concentrations in the Nb SS phase (Table 2).
+These metallurgical changes may affect the mechanical properties
+of the Nb eSi based alloys to a certain extent. Therefore, an
+increasing Fe concentration in the Nb SS phase embrittles Nb
+because Fe increases the DBTT of Nb [20]. In addition, the fraction of
+brittle silicides increases, or the fraction of ductile Nb SS decreases,
+with the replacement of 1 at.% e6 at.% Nb by Fe. The above two
+factors are assuredly negative for the bulk toughness of the sample.
+It is believed that the silicide fraction plays a key factor in causing a
+visible decrease in the bulk fracture toughness, for example, by
+approximately 40% for the heat-treated samples, as the Fe changes
+from 1 to 6 at.%, i.e., the silicide fraction changes from 41% to 62%
+(see Table 3 and Fig. 4 ).
+At room temperature,
+s0.2 is sensitive to the Fe additions. s0.2 of
+the heat-treated samples is improved by approximately 145 MPa as
+the nominal Fe content increases from 1 at.% to 6 at.% ( Table 4 ).
+Metallurgically, both the increasing stiffening silicide fraction from
+41% to 62% and the solid-solution hardened NbSS phase (Tables 2 and
+3) with Fe and other elements may contribute to the bulk strength of
+the current alloys according to the rule of the mixtures [7,20]. It has
+been reported that Hv of pure Nb is approximately 82 [27]; thus, the
+Fig. 5. Crack path of heat-treated samples after three-point-bending test.
+S.M. Zhang et al. / Intermetallics 57 (2015) 146 e155152
+
+## Page 8
+
+Fig. 6. Fractographic observations on fracture surfaces of the three-point-bending tested samples.
+S.M. Zhang et al. / Intermetallics 57 (2015) 146 e155 153
+
+## Page 9
+
+increase of Hv from 82 for pure Nb to 270 for the heat-treated Nb SS
+phase in the 1Fe alloy may originate from the solute concentrations
+of 25.9Tie0.9Sie0.9Hfe2.7Ale3.6Cre1.8Fe (see composition of the
+NbSS phase in the 1Fe alloy in Table 2). A further increase in Hv of the
+NbSS phase, from 265 to 355, is attributed to a comprehensive solid-
+solution hardening effect of the composition
+25.2Tie1.8Sie1.0Hfe3.8Ale4.0Cre6.5Fe on the Nb SS phase (see the
+NbSS composition in 6Fe alloy inTable 2), in which a 4.7 at.% increase
+of the Fe concentration in the Nb SS phase is thought to be the
+dominant factor that results in the solid-solution hardening effect
+on the NbSS phase and, consequently, improves the bulk strength of
+the NbeSi based alloys at room temperature.
+Unfortunately, the compressive strengths, s0.2 and smax, of the
+Nbe16Sie22Tie2Hfe2Ale2Cr alloy at 1250 /C14 C and 1350 /C14 C
+decrease due to the Fe additions, even though the stiffening silicide
+fraction increases with Fe ( Fig. 7(b) and (c) and Table 4). Our early
+work observed that the Nb eSieFe alloys began to melt at 1450 /C14 C
+[28], while the Nb e16Si binary alloy containing the Nb SS and Nb3Si
+phases remained in the solid state even at temperatures above
+180 0 /C14 C [26]. The same result was observed even for the silicide
+Nb4Fe3Si5 observed in the Nb e16Sie2Fe alloy prepared by hot
+pressing sintering, whose melting point is as low as 1359 /C14 C [14].
+This ﬁnding means that the Fe additions dramatically decrease the
+melting points of the Nb/Si silicides.
+In general, strengthening and weakening mechanisms may co-
+exist in the Nb e16Sie22Tie2Hfe2Ale2Cr alloy when this alloy is
+doped with Fe. The dominant factor for the bulk strength response
+depends on the testing temperature. A higher testing temperature
+(close to the melting point of the Nb 4FeSi phase) is believed to be
+favourable for the weakening mechanism. At room temperature,
+the solid-solution hardening of the Nb SS phase and the stiffening
+silicide hardening are dominant; therefore, the bulk strength ex-
+hibits an increasing tendency with Fe content. When the
+compressive tests were performed at 1250 /C14 C and 1350 /C14 C, the
+differences between the testing temperatures and the melting
+point of the Nb 4FeSi phase were below 100 e200 /C14 C (referred to
+1450 /C14 C [28], which is the temperature when the Nb eSieFe ter-
+naries began to melt). With the solid-solution elements Ti, Al, Hf, Cr
+in the Nb 4FeSi silicides ( Table 2), the melting points of the Nb 4FeSi
+silicides may be decreased further to close to the testing temper-
+atures; in this case, the multi-component Nb 4FeSi phase un-
+doubtedly becomes a soft zone that exhibits weakening behaviour
+for the bulk strength at 1250 /C14 C and 1350 /C14 C, which is even softer
+than the Nb 4FeSi ternary [28]. Therefore, the Fe additions weaken
+the NbeSi alloys at high temperatures. The fact that the decreasing
+amplitude of s0.2 of the 6Fe alloy at temperatures from 1250 /C14 Ct o
+1350 /C14 C occurs much faster (from 185 MPa to 78 MPa) than that of
+the 1Fe alloy (290 MPa e183 MPa) supports the above deduction.
+This ﬁnding explains why the 6Fe alloy with higher Nb4FeSi fraction
+than the 1Fe alloy exhibits lower strength at these temperatures.
+The accurate transformation temperature and the mechanism from
+strengthening to weakening of the Nb eSi alloys with the multi-
+component Nb 4FeSi phase between room temperature and
+1250 /C14 C still need to be investigated using systemic compressive
+tests with a small temperature interval in future works.
+5. Conclusions
+An investigation on the microstructural evolution and me-
+chanical properties of Nb e16Sie22Tie2Ale2Hfe2CrexFe alloys
+was performed. The major conclusions concerning the Fe additions
+are summarised as follows:
+Fig. 7. Compressive stress estrain curves of the heat-treated samples at room- and high-temperatures.
+Table 4
+Compressive strength of the heat-treated alloys at room and high temperatures.
+Alloys Parameters 1Fe 2Fe 4Fe 6Fe
+RT s0.2(MPa) 1675 ± 52 1702 ± 42 1746 ± 78 1820 ± 72
+smax(MPa) 1830 ± 59 1798 ± 88 1801 ± 89 1845 ± 69
+ε/% 1.2 0.8 0.7 0.3
+1250 /C14 C s0.2(MPa) 290 ± 20 270 ± 14 225 ± 24 185 ± 28
+smax(MPa) 305 ± 18 295 ± 9 280 ± 38 195 ± 21
+1350 /C14 C s0.2(MPa) 183 ± 15 166 ± 13 145 ± 11 78 ± 6
+smax(MPa) 195 ± 11 176 ± 33 165 ± 88 7 ± 10
+S.M. Zhang et al. / Intermetallics 57 (2015) 146 e155154
+
+## Page 10
+
+(1) The solidi ﬁcation path and microstructure of the
+Nbe16Sie22Tie2Ale2Hfe2Cr alloy are dependent on the
+nominal Fe contents. With an increase in the nominal Fe
+content, the microstructure of the as-cast sample is
+composed of Nb SS and ( aþg)-Nb5Si3 phases (1Fe alloy); this
+microstructure changes to the NbSS and (aþg)-Nb5Si3 phases
+and a (Fe þ Ti)-rich region (2Fe and 4Fe alloys) and ﬁnally to
+NbSS and a multi-component Nb 4FeSi phase (6Fe alloy). Heat
+treatment (1350/C14 C/100 h) cannot change the phase consti-
+tution and microstructure of the as-cast 1Fe and 6Fe alloys;
+however, the decomposition of the (Fe þ Ti)-rich region in
+the as-cast 2Fe and 4Fe alloys occurs during heat treatment,
+and the microstructure consists of the Nb SS,( aþg)-Nb5Si3
+and Nb 4FeSi phases. The silicide fraction is observed to in-
+crease with increasing nominal Fe contents.
+(2) Fe additions signi ﬁcantly decrease the fracture toughness KQ
+of the bulk samples. When the nominal Fe content increases
+from 1 at.% to 6 at.%, KQ decreases from 12.8 to 8.0 MPa m 1/2
+for the as-cast samples and from 13.6 to 7.9 MPa m 1/2 for the
+heat-treated samples.
+(3) The crack propagates in a de ﬂection and branching path and
+continues uninterrupted throughout the stiffening silicides.
+The silicides have very smooth fracture surfaces and fail in a
+brittle mode. As a crack meets the Nb SS phase, it may pass
+through and bypass the Nb SS phase and is sometimes
+arrested by the Nb SS phase. River patterns were observed on
+the fractured Nb SS phase, illustrating the cleavage failure
+mode.
+(4) The compressive strength of the heat-treated
+Nbe16Sie22Tie2Ale2Hfe2Cr alloy at room temperature is
+improved by the Fe additions, whereas at 1250 /C14 C and
+1350 /C14 C, the bulk compressive strength decreases. The
+Nb4FeSi phase degrades the high-temperature strength of
+the bulk NbeSi based alloys. As the Fe content increases from
+1 to 6 at.%, the bulk 0.2% yield strength increases from 1675
+to 1820 MPa at room temperature; the strength decreases
+from 290 to 185 MPa at 1250 /C14 C and from 183 to 78 MPa at
+1350 /C14 C.
+Acknowledgement
+The authors are grateful to the support from the Program for the
+National Natural Science Foundation of China (51071009 and
+5071 1 1 1).
+References
+[1] Bewlay BP, Lewandowksi JJ, Jackson MR. Refractory metal-intermetallic in-situ
+composites for aircraft engines. JOM 1997;49:44 e5.
+[2] Subramanian PR, Mendiratta MG, Dimiduk DM. The development of Nb-based
+advanced intermetallic alloys for structural applications. JOM 1996;48(1):
+33e8.
+[3] Rigney JD, Lewandowksi JJ. Loading rate and test temperature effects on
+fracture of In Situ niobium silicide-niobium composites. Metall Mater Trans
+1996;27A:3292e306.
+[4] Bewlay BP, Jackson MR, Lipsitt HA. The balance of mechanical and environ-
+mental properties of a multielement niobium-niobium silicide-based In Situ
+composite. Metall Mater Trans 1996;27A:3801 e8.
+[5] Bewlay BP, Jackson MR, Subramanian PR, Zhao JC. A review of very-high-
+temperature Nb-silicide-based composites. Metall Mater Trans 2003;34A:
+2043e52.
+[6] Bewlay BP, Jackson MR, Subramanian PR. Processing high-temperature re-
+fractory-metal silicide in-situ composites. JOM 1999;51:32 e6.
+[7] Fujikara M, Kasama A, Tannaka R, Hanada S. Effect of alloy chemistry on the
+high temperature strengths and room temperature fracture toughness of
+advanced Nb-based alloys. Mater Trans JIM 2004;45(2):493 e501.
+[8] Sha JB, Hirai H, Tabaru T, Ueno H, Kitahara A, Hanada S. Mechanical properties
+of as-cast and directionally solidi ﬁed NbeMoeWeTieSi in-situ composites at
+high temperatures. Metall Mater Trans 2003;34A:85 e94.
+[9] Kim J, Tabaru T, Sakamoto M, Hanada S. Mechanical properties and fracture
+behavior of an Nb
+SS/Nb5Si3 in-situ composite modi ﬁed by Mo and Hf alloying.
+Mater Sci Eng 2004;372A:137 e44.
+[10] Bewlay BP, Lipsitt A, Jackson MR, Reeder WJ. Solidi ﬁcation processing of high
+temperature intermetallic eutectic-based alloys. Mater Sci Eng 1995;192/3A:
+534e43.
+[11] Mendiratta MG, Dimiduk DM. Strength and toughness of an Nb/Nb 5Si3 com-
+posite. Metall Mater Trans A 1993;24A:501 e4.
+[12] Mendiratta MG, Lewandowski JJ, Dimiduk DM. Strength and ductile-phase
+toughening in the two-phase Nb/Nb 5Si3 alloys. Metall Mater Trans
+1991;22A:1573e83.
+[13] Yu JL, Zhang KF, Li ZK, Zheng X, Wang GF, Bai R. Fracture toughness of a hot-
+extruded multiphase Nb e10Sie2Fe in situ composite. Scr Mater 2009;61:
+620e3.
+[14] Yu JL, Zhang KF. Tensile properties of multiphase refractory Nb e16Sie2Fe in
+situ composite. Scr Mater 2008;59:714 e7.
+[15] Jackson MR, Bewlay BP, Zhao JC. American Patent: US 0066578, 2003.
+[16] Zhao JC, Westbrook JH. Ultrahigh-temperature materials for jet engines. MRS
+Bull e Sep 2003:622 e30.
+[17] Bewlay BP, Jackson MR, Zhao JC, Subramanian PR, Mendiratta MG,
+Lewandowski JJ. Ultrahigh-temperature Nb-silicide-based composites. MRS
+Bull e Sep 2003:646 e53.
+[18] L Ma C, Tanaka H, Kasama A, Tanaka R, Mishima Y, Hanada S. Microstructures
+and high-temperature strength of silicide-reinforced Nb alloys, MRS Pro-
+ceedings. High Temp Ordered Intermet Alloys IX 2001;646. N5.39.1 eN5.39.6.
+[19] Jackson MR, Bewlay BP, Rowe RG. High-temperature refractory metal-
+intermetallic composites. JOM 1996;48:39 e44.
+[20] Chan KS. Alloying effects on fracture mechanisms in Nb-based intermetallic
+in-situ composites. Mater Sci Eng 2002;329A:513 e22.
+[21] Vellios N, Tsakiropoulos P. Study of the role of Fe and Sn additions in the
+microstructure of Nb e24Tie18Sie5Cr silicide based alloys. Intermetallics
+2010;18:1729e36.
+[22] Vellios N, Tsakiropoulos P. The role of Fe and Ti additions in the microstruc-
+ture of Nb e18Sie5Sn silicide based alloys. Intermetallics 2007;15:1529 e37.
+[23] Zhou JR, Sha JB. Microstructural evolution and mechanical properties of an
+Nbe16Si in-situ composite with Fe additions prepared by arc-melting. In-
+termetallics 2013;34:1 e9.
+[24] Davidson DL, Chan KS, Anton DL. The effects on fracture toughness of ductile-
+phase composition and morphology in Nb eCreTi and Nb eSi in situ com-
+posites. Metall Mater Trans 1996;27A:3007 e18.
+[25] Sha JB, Hirai H, Ueno H, Tabaru T, Kitahara A, Hanada S. Toughness and
+strength characteristics of Nb eWeSi ternary alloys prepared by arc melting.
+Metall Mater Trans 2003;34A:2861 e71.
+[26] Massalski TB, editor. Binary alloy phase diagrams. 1Materials Park, OH: ASM;
+1990. p. 1511 .
+[27] Oliver WC, Pharr GM. An improved technique for determining hardness and
+elastic modulus using load and displacement sensing indentation experi-
+ments. J Mater Res 1992;7(6):1564 e83.
+[28] Zhou JR. Microstructure and mechanical properties of ultra-high temperature
+NbeSie(TieHfeAleCr)eFe alloys [Dissertation of Master Degree]. Beihang
+University; 2010 .
+S.M. Zhang et al. / Intermetallics 57 (2015) 146 e155 155

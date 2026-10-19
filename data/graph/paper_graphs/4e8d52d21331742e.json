@@ -1,0 +1,1244 @@
+{
+  "document_id": "4e8d52d21331742e",
+  "chunk_id": "paper",
+  "paper_metadata": {
+    "title": "Atomistic mechanisms of oxidation and chlorine corrosion in Ni-based superalloys: The role of boron and light interstitial segregation",
+    "authors": [
+      "Tyler D. Doležal",
+      "Rodrigo Freitas",
+      "Ju Li"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2025,
+    "doi": "10.1016/j.actamat.2025.121556"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "Ni-based superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Hybrid Monte Carlo and molecular dynamics simulations were used to investigate the interaction of light interstitials in multi-element Ni-based alloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Clean",
+      "canonical_name": "Ni-15Cr-15Fe-10Mo-5Nb-5Si",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "clean",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 50,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Si",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Preparing the surface structures",
+          "quote": "For clarity, the resulting systems are hereafter referred to as “Clean” (undoped, no oxygen), “B Only” (boron-doped, no oxygen), “O Only” (undoped, with oxygen), and “B + O” (boron-doped, with oxygen), consistent with the labeling used in all figures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "B Only",
+      "canonical_name": "Ni-15Cr-15Fe-10Mo-5Nb-5Si-B",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "boron-doped",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 50,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Si",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "Furthermore, simulations were performed with and without the inclusion of the light interstitial boron in the bulk to assess its effects on segregation tendencies, atomic ordering, and structural stability.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Preparing the surface structures",
+          "quote": "For clarity, the resulting systems are hereafter referred to as “Clean” (undoped, no oxygen), “B Only” (boron-doped, no oxygen), “O Only” (undoped, with oxygen), and “B + O” (boron-doped, with oxygen), consistent with the labeling used in all figures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "O Only",
+      "canonical_name": "Ni-15Cr-15Fe-10Mo-5Nb-5Si",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "oxidized",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 50,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Si",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Preparing the surface structures",
+          "quote": "For clarity, the resulting systems are hereafter referred to as “Clean” (undoped, no oxygen), “B Only” (boron-doped, no oxygen), “O Only” (undoped, with oxygen), and “B + O” (boron-doped, with oxygen), consistent with the labeling used in all figures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "B + O",
+      "canonical_name": "Ni-15Cr-15Fe-10Mo-5Nb-5Si-B",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "oxidized boron-doped",
+      "composition": [
+        {
+          "element": "Cr",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Fe",
+          "value": 15,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Mo",
+          "value": 10,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Nb",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 50,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Si",
+          "value": 5,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "The simulation system consisted of 4087 atoms and was randomly decorated according to the following chemical composition (in at%): Cr15, Fe15, Mo10, Nb5, Ni50, and Si5.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        },
+        {
+          "element": "B",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "2.1 Preparing the surface structures",
+              "quote": "Furthermore, simulations were performed with and without the inclusion of the light interstitial boron in the bulk to assess its effects on segregation tendencies, atomic ordering, and structural stability.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "4e8d52d21331742e:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Preparing the surface structures",
+          "quote": "For clarity, the resulting systems are hereafter referred to as “Clean” (undoped, no oxygen), “B Only” (boron-doped, no oxygen), “O Only” (undoped, with oxygen), and “B + O” (boron-doped, with oxygen), consistent with the labeling used in all figures.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": null,
+      "method": "molecular dynamics",
+      "parameters": {
+        "temperature_c": 1000,
+        "time": "5000 steps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1 Preparing the surface structures",
+          "quote": "one Ni atom was iteratively deleted from the GB core, followed by 5000 steps of a canonical (NVT) molecular dynamics (MD) simulation at 1000 K and subsequent conjugate gradient (CG) relaxation",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": null,
+      "method": "Monte Carlo",
+      "parameters": {
+        "temperature_c": 800,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2 Computational details",
+          "quote": "which was set to 1073 K (800 oC) for this work.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_1",
+      "sequence": null,
+      "method": "molecular dynamics",
+      "parameters": {
+        "temperature_c": 1073,
+        "time": "20 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": null,
+      "output_state": null,
+      "evidence": [
+        {
+          "page": 4,
+          "section": "2.2 Computational details",
+          "quote": "All MC-equilibrated structures were subsequently relaxed using a 20 ps MD simulation in the NVT ensemble at 1073 K.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Microstructure",
+      "name": "grain boundary",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 3,
+          "section": "2.1",
+          "quote": "The GB was positioned approximately seven layers above the substrate layers and 18 layers below the free surface.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "Cr2O3",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "A key contributor to their oxidation resistance is the formation of protective surface oxide scales, such as Cr2O3, which serve as diffusion barriers to oxygen ingress and help limit further degradation under oxidizing conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "Al2O3",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Park et al. [1] found that in Ni–Cr–Mo–W–Al–Ti–Ta alloys, Cr2O3 offered robust protection at 850 ◦C but became unstable at 1000 ◦C, shifting the oxidation resistance to Al2O3.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "Nb2O5",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "Nb consistently enriches at both free surfaces and internal interfaces during oxidation, forming distinct Nb2O5 and NbC-rich domains [18–20].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "M23C6",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "Sudbrack et al. [11] analyzed grain boundary chemistry and minor phase evolution in the Ni-based disk alloy ME3 following long-term exposure at 815 ◦C. They revealed that oxidation-driven chromium depletion at the grain boundaries correlated with dissolution of Cr-rich M23C6 carbides and subsequent nucleation of σ-phase in Cr- and Mo-enriched regions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "sigma phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Cr- and Mo-enriched",
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "nucleation of σ-phase in Cr- and Mo-enriched regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_7",
+      "type": "Phase",
+      "name": "M3B2 boride",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": "Mo- and Cr-rich",
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "Importantly, Mo- and Cr-rich M3B2 borides remained stable over 2000-h exposures, and boron segregation to the grain boundaries persisted across all conditions.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_8",
+      "type": "Phase",
+      "name": "Laves phase",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "Wang et al. [15] found that Nb and Mo additions to ferritic stainless steels promoted the formation of Laves phases and dense oxide scales, both of which inhibited oxygen ingress and reduced Cr depletion.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_9",
+      "type": "Phase",
+      "name": "NiO",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Sanviemvongsak et al. [4] reported that continuous Cr2O3 layers formed only in Ni–Cr alloys with 15 wt% Cr or more, while lower-Cr alloys exhibited discontinuous and porous NiO-rich scales.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_10",
+      "type": "Phase",
+      "name": "NiCr2O4",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "high pO2 driving spinel formation (NiCr2O4) instead of stable Cr2O3",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_11",
+      "type": "Phase",
+      "name": "TiC",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "Ye et al. [5] showed that small additions of Nb to a Ni-based superalloy promoted compact oxide growth by stabilizing a TiO2 overlayer and suppressing inward diffusion of oxygen and nitrogen.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_12",
+      "type": "Phase",
+      "name": "TiO2",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "stabilizing a TiO2 overlayer and suppressing inward diffusion of oxygen and nitrogen",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_13",
+      "type": "Phase",
+      "name": "NbC",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "Nb consistently enriches at both free surfaces and internal interfaces during oxidation, forming distinct Nb2O5 and NbC-rich domains [18–20].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_14",
+      "type": "Phase",
+      "name": "CrTaO4",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Results and discussion",
+          "quote": "Ye et al. [5] demonstrated that Nb addition enhances oxidation resistance not only through Nb–O bonding, but also by promoting the formation of a continuous CrTaO4 interlayer beneath the Cr2O3 scale.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_15",
+      "type": "Phase",
+      "name": "FeB",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "These coatings contained FeB, Fe2B, and mixed Cr–Fe borides that developed into continuous surface layers.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_16",
+      "type": "Phase",
+      "name": "Fe2B",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "These coatings contained FeB, Fe2B, and mixed Cr–Fe borides that developed into continuous surface layers.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_17",
+      "type": "Phase",
+      "name": "Cr-Fe boride",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "Results and discussion",
+          "quote": "These coatings contained FeB, Fe2B, and mixed Cr–Fe borides that developed into continuous surface layers.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_18",
+      "type": "Phase",
+      "name": "B2O3",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "amorphous",
+        "location": null,
+        "composition": null,
+        "identification_status": "reported"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "Results and discussion",
+          "quote": "boron has been shown to migrate toward the surface and form a distinct top-layer oxide, either as an amorphous B2O3 cap or as part of a boron-enriched passivation layer [40,41].",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_19",
+      "type": "Phase",
+      "name": "BO3",
+      "sample_id": "sample_4",
+      "material_state": "oxidized boron-doped",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "trigonal planar",
+        "location": "free surface",
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Results and discussion",
+          "quote": "The resulting local enrichment and chemical ordering with oxide-forming metals support the development of structurally robust and chemically diverse oxide networks. In particular, Cr–O, Mo–O, Nb–O, and Si–O motifs incorporate BO3 units, as demonstrated in Fig. 3b",
+          "table": null,
+          "figure": "Fig. 3b",
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "grain boundary",
+      "sample_id": "sample_2",
+      "material_state": "boron-doped",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 8,
+          "section": "3. Results and discussion",
+          "quote": "In the B Only system, boron segregates strongly to the GB at +3.80%, accompanied by pronounced enrichment of Cr +5.00% and Mo +3.40%.",
+          "table": null,
+          "figure": "Fig. 2a",
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "oxygen-induced boron segregation",
+      "category": "segregation",
+      "sample_id": "sample_4",
+      "material_state": "oxidized boron-doped",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Results and discussion",
+          "quote": "Oxygen adsorption drove boron migration from the grain boundary to the free surface, where it co-enriched with Cr, Fe, and Mo and formed BO3 trigonal motifs embedded within mixed-metal oxide networks.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "boron-mediated surface anchoring",
+      "category": "stabilization",
+      "sample_id": "sample_4",
+      "material_state": "oxidized boron-doped",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "3. Results and discussion",
+          "quote": "A key stabilization mechanism emerges uniquely in the B + O + Cl system: an anchoring effect exerted by subsurface boron atoms.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "4e8d52d21331742e:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [],
+  "unresolved_terms": [],
+  "conflicts": []
+}

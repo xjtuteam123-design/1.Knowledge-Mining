@@ -1,0 +1,774 @@
+{
+  "document_id": "2bb4647b71e3ce11",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Microstructure and Property-Based Statistically Equivalent Representative Volume Elements for Polycrystalline Ni-Based Superalloys Containing Annealing Twins",
+    "authors": [
+      "Akbar Bagri",
+      "George Weber",
+      "Jean-Charles Stinville",
+      "William Lenthe",
+      "Tresa Pollock",
+      "Christopher Woodward",
+      "Somnath Ghosh"
+    ],
+    "journal": "Metallurgical and Materials Transactions A",
+    "year": 2018,
+    "doi": "10.1007/s11661-018-4858-y"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "This paper has three major objectives related to the development of computational micromechanics models of Ni-based superalloys, containing a large number of annealing twins.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:001"
+        },
+        {
+          "page": 9,
+          "section": "IV. VALIDATION OF THE VIRTUAL MICROSTRUCTURE GENERATION ALGORITHM USING EBSD DATA",
+          "quote": "The model and algorithms are validated using the EBSD data of the Ni-based superalloy specimen, discussed in Section II–A.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        },
+        {
+          "page": 15,
+          "section": "VII. CONCLUSIONS",
+          "quote": "This paper develops a methodology for generating 3D statistically equivalent virtual polycrystalline microstructures (3D-SEVPMs) of polycrystalline Ni-based superalloys containing annealing twins, which are critical determinants of failure mechanisms such as fatigue cracks.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "René-88 DT",
+      "canonical_name": "René-88 DT",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "forged",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "II. MICROSTRUCTURAL IMAGE EXTRACTION AND MECHANICAL TESTING",
+          "quote": "A 10 × 5 × 1 μm sample was sectioned from a forging of the superalloy René-88 DT using wire electrical discharge machining (EDM).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:001"
+        },
+        {
+          "page": 11,
+          "section": "VI. PROPERTY-BASED SERVE (P-SERVE) AND ITS ESTIMATION",
+          "quote": "the parameters of the AE-CP constitutive model are directly calibrated from experimental data on polycrystalline superalloy Rene88-DT.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "3D-SEVPMs",
+      "canonical_name": "Ni-based superalloy",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "virtual polycrystalline microstructure",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 15,
+          "section": "VII. CONCLUSIONS",
+          "quote": "This paper develops a methodology for generating 3D statistically equivalent virtual polycrystalline microstructures (3D-SEVPMs) of polycrystalline Ni-based superalloys containing annealing twins, which are critical determinants of failure mechanisms such as fatigue cracks.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "wire electrical discharge machining (EDM)",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "forged",
+      "output_state": "sectioned",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "II. MICROSTRUCTURAL IMAGE EXTRACTION AND MECHANICAL TESTING",
+          "quote": "A 10 × 5 × 1 μm sample was sectioned from a forging of the superalloy René-88 DT using wire electrical discharge machining (EDM).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "annealing twin",
+      "sample_id": "sample_1",
+      "material_state": "forged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "large aspect ratio",
+        "morphology": null,
+        "location": "within parent grains",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "III. VIRTUAL MICROSTRUCTURE GENERATION FROM CHARACTERIZATION AND STATISTICAL ANALYSIS OF EBSD IMAGES",
+          "quote": "the polycrystalline microstructure contains an abundance of a large aspect ratio, annealing R3 twins that develop during material processing. These twins have a 60 deg misorientation angle with respect to the <111> crystal lattice axis",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "coherent twin boundary",
+      "sample_id": "sample_1",
+      "material_state": "forged",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "{111} planes",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 4,
+          "section": "III. VIRTUAL MICROSTRUCTURE GENERATION FROM CHARACTERIZATION AND STATISTICAL ANALYSIS OF EBSD IMAGES",
+          "quote": "the majority of annealing twin boundaries are coherent with boundaries formed along planes with {111} Miller-index facet.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "FCC",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": "IV. VALIDATION OF THE VIRTUAL MICROSTRUCTURE GENERATION ALGORITHM USING EBSD DATA",
+          "quote": "inverse pole figure (IPF) color scheme for the FCC standard triangle",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "gamma-prime",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 11,
+          "section": "A. Activation Energy-Based Crystal Plasticity Model",
+          "quote": "incorporates characteristic morphological features of the c/c0 subgrain microstructure in the representation of its constitutive parameters",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "polycrystalline microstructure",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "polycrystalline",
+        "location": null,
+        "composition": null,
+        "identification_status": "simulated"
+      },
+      "evidence": [
+        {
+          "page": 15,
+          "section": "VII. CONCLUSIONS",
+          "quote": "This paper develops a methodology for generating 3D statistically equivalent virtual polycrystalline microstructures (3D-SEVPMs) of polycrystalline Ni-based superalloys containing annealing twins, which are critical determinants of failure mechanisms such as fatigue cracks.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "annealing twin",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "observed"
+      },
+      "evidence": [
+        {
+          "page": 15,
+          "section": "VII. CONCLUSIONS",
+          "quote": "This paper develops a methodology for generating 3D statistically equivalent virtual polycrystalline microstructures (3D-SEVPMs) of polycrystalline Ni-based superalloys containing annealing twins, which are critical determinants of failure mechanisms such as fatigue cracks.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_3",
+      "type": "Microstructure",
+      "name": "parent grain",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "observed"
+      },
+      "evidence": [
+        {
+          "page": 16,
+          "section": "VII. CONCLUSIONS",
+          "quote": "The parent grain size is found to be strongly correlated to the number of twins. The number of twins per parent increases with the parent grain size, and approximately 50 pct of the parent grains are untwinned.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_4",
+      "type": "Microstructure",
+      "name": "grain structure",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "attributes": {
+        "phase_fraction": null,
+        "size": "scale of the grain structure",
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "observed"
+      },
+      "evidence": [
+        {
+          "page": 15,
+          "section": "VII. CONCLUSIONS",
+          "quote": "Finally, while the M-SERVE and P-SERVE are relatively small compared to the scale of the grain structure for these properties, other properties such as fatigue may require larger volumes of the material to be analyzed.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "strain energy",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 13,
+          "section": "B. Calibration of Crystal Plasticity Constitutive Parameters",
+          "quote": "The objective function to be minimized by the GA algorithms is the difference of strain energy increments in finite-element simulations with the SERVEs and experimental plots.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ],
+      "value_note": "Non-numeric entity extracted due to property-based modeling; no explicit numeric value given in the segment."
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "yield strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CPFEM simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "C. Convergence Studies for Estimating the P-SERVE",
+          "quote": "Results of the CPFE simulations are used to determine the volume-averaged, macroscopic strain energy, yield strength (0.2 pct flow stress in the stress–strain plot), and the hardening rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ],
+      "value_note": "Non-numeric entity extracted due to property-based modeling; no explicit numeric value given in the segment."
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "property": "hardening rate",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "uniaxial tension",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CPFEM simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 14,
+          "section": "C. Convergence Studies for Estimating the P-SERVE",
+          "quote": "Results of the CPFE simulations are used to determine the volume-averaged, macroscopic strain energy, yield strength (0.2 pct flow stress in the stress–strain plot), and the hardening rate",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ],
+      "value_note": "Non-numeric entity extracted due to property-based modeling; no explicit numeric value given in the segment."
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "property": "yield strength",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CPFEM simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": "VII. CONCLUSIONS",
+          "quote": "similar convergence trends in the effective yield strength and post-yield hardening rate with SERVE size, respectively.",
+          "table": null,
+          "figure": "Figure 12",
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ],
+      "value_note": "Non-numeric entity extracted due to property-based modeling; no explicit numeric value given in the segment."
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "property": "post-yield hardening rate",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": null,
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "CPFEM simulation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": "VII. CONCLUSIONS",
+          "quote": "similar convergence trends in the effective yield strength and post-yield hardening rate with SERVE size, respectively.",
+          "table": null,
+          "figure": "Figure 12",
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ],
+      "value_note": "Non-numeric entity extracted due to property-based modeling; no explicit numeric value given in the segment."
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "property": "SERVE size",
+      "value": 100,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "µm",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": "V. M-SERVE CONVERGENCE STUDY",
+          "quote": "The results in Figure 12 indicate that convergence is achieved for a SERVE size of 100 lm, i.e., the P-SERVE size is ~100 lm.",
+          "table": null,
+          "figure": "Figure 12",
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "property": "M-SERVE size",
+      "value": 150,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "µm",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": null
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 15,
+          "section": "VII. CONCLUSIONS",
+          "quote": "Results from the Kolmogorov–Smirnov (KS) convergence test show that the minimum size of the M-SERVE that captures the experimentally obtained statistics is ~150 lm.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "twinning",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "III. VIRTUAL MICROSTRUCTURE GENERATION ALGORITHM",
+          "quote": "By repeating the above steps, a set of twins are inserted in parent grain microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "fatigue crack initiation",
+      "category": "failure mechanism",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "VII. CONCLUSIONS",
+          "quote": "This paper develops a methodology for generating 3D statistically equivalent virtual polycrystalline microstructures (3D-SEVPMs) of polycrystalline Ni-based superalloys containing annealing twins, which are critical determinants of failure mechanisms such as fatigue cracks.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [
+    {
+      "id": "ml_model_1",
+      "name": "genetic algorithm",
+      "sample_id": "sample_1",
+      "property_observation_id": null,
+      "task": "calibration of constitutive parameters",
+      "inputs": [
+        "strain energy increments from finite-element simulations",
+        "experimental strain energy increments"
+      ],
+      "target": "minimization of difference in strain energy increments",
+      "dataset": "experimental mechanical test data for Rene88-DT",
+      "validation": null,
+      "metrics": {},
+      "evidence": [
+        {
+          "page": 13,
+          "section": "B. Calibration of Crystal Plasticity Constitutive Parameters",
+          "quote": "For calibration, a genetic algorithm (GA)-minimization loop is developed and implemented to generate different sets of constitutive parameters.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "III. VIRTUAL MICROSTRUCTURE GENERATION FROM CHARACTERIZATION AND STATISTICAL ANALYSIS OF EBSD IMAGES",
+          "quote": "the polycrystalline microstructure contains an abundance of a large aspect ratio, annealing R3 twins that develop during material processing.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "forged",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 4,
+          "section": "III. VIRTUAL MICROSTRUCTURE GENERATION FROM CHARACTERIZATION AND STATISTICAL ANALYSIS OF EBSD IMAGES",
+          "quote": "the majority of annealing twin boundaries are coherent with boundaries formed along planes with {111} Miller-index facet.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_3",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 9,
+          "section": "IV. VALIDATION OF THE VIRTUAL MICROSTRUCTURE GENERATION ALGORITHM USING EBSD DATA",
+          "quote": "inverse pole figure (IPF) color scheme for the FCC standard triangle",
+          "table": null,
+          "figure": "5",
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_4",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 11,
+          "section": "A. Activation Energy-Based Crystal Plasticity Model",
+          "quote": "incorporates characteristic morphological features of the c/c0 subgrain microstructure in the representation of its constitutive parameters",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 8,
+          "section": "III. VIRTUAL MICROSTRUCTURE GENERATION ALGORITHM",
+          "quote": "By repeating the above steps, a set of twins are inserted in parent grain microstructure.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "microstructure_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 15,
+          "section": "VII. CONCLUSIONS",
+          "quote": "This paper develops a methodology for generating 3D statistically equivalent virtual polycrystalline microstructures (3D-SEVPMs) of polycrystalline Ni-based superalloys containing annealing twins, which are critical determinants of failure mechanisms such as fatigue cracks.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "microstructure_3",
+      "predicate": "INCREASES",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_2",
+      "material_state": "virtual polycrystalline microstructure",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "experimentally_observed",
+      "evidence": [
+        {
+          "page": 16,
+          "section": "VII. CONCLUSIONS",
+          "quote": "The number of twins per parent increases with the parent grain size, and approximately 50 pct of the parent grains are untwinned.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "2bb4647b71e3ce11:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

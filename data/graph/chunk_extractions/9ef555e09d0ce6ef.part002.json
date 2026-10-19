@@ -1,0 +1,183 @@
+{
+  "document_id": "9ef555e09d0ce6ef",
+  "chunk_id": "9ef555e09d0ce6ef:part:002",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": null,
+    "authors": [],
+    "journal": null,
+    "year": null,
+    "doi": null
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "12",
+          "section": "References",
+          "quote": "[24] B. Lin, L.G. Zhao, J. Tong, H.-J. Christ, Crystal plasticity modeling of cyclic deformation for a polycrystalline nickel-based superalloy at high temperature, Mater. Sci. Eng. A. 527 (2010) 3581–3587.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "CG RR1000",
+      "canonical_name": "RR1000",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "as-tested",
+      "composition": [],
+      "evidence": [
+        {
+          "page": "15",
+          "section": "Figure 2",
+          "quote": "Figure 2. (a) Inverse pole figure of a CG RR1000 sample, and (b) SEM image of the speckled sample with Ti nano-powder overlaid on the EBSD image, to compose the AOI 9 images are acquired and stitched together. (c) IPF color code.",
+          "table": null,
+          "figure": "2",
+          "chunk_id": "9ef555e09d0ce6ef:part:002"
+        },
+        {
+          "page": "19",
+          "section": "Figure 6",
+          "quote": "Figure 6. Strain evolution for CG RR1000 specimens at 300 ºC, 550 ºC and 700 ºC mapped at 1, 10, 100 and 1,000 cycles, loaded to 0.7% initial strain.",
+          "table": null,
+          "figure": "6",
+          "chunk_id": "9ef555e09d0ce6ef:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [],
+  "phases_and_microstructures": [],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-tested",
+      "property": "fatigue cycles to strain mapping",
+      "value": 1000,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "cycles",
+      "conditions": {
+        "temperature_c": 300,
+        "strain_rate": null,
+        "loading_mode": "low cycle fatigue",
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "interrupted fatigue"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": "25",
+          "section": "Table 1",
+          "quote": "Table 1. Low cycle fatigue test parameters - temperatures and initial strains. The values in the table represent the interrupted fatigue cycles at which strain maps were acquired. Temperature Initial Strain (ε) 300 ºC (Cycles) 550 ºC (Cycles) 700 ºC (Cycles) 0.7% (1, 10, 100, 1000) (1, 10, 100, 1000) (1, 10, 100) 1.0% (1, 10, 100, 1000) (1, 10, 100, 1000) (1, 10, 100)",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:002"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "alternating zig-zagged slip",
+      "category": "deformation mechanism",
+      "sample_id": "sample_1",
+      "material_state": "as-tested",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "25",
+          "section": "Figure 12",
+          "quote": "Figure 12. Proposed mechanism for alternating zig-zagged slip along {111} planes in the γ matrix and shearing the γ’ precipitate along a {001} plane, at the mesoscale it appears that slip follows a {001} plane, redrawn from [18,44,45].",
+          "table": null,
+          "figure": "12",
+          "chunk_id": "9ef555e09d0ce6ef:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "INSTANCE_OF",
+      "target_id": "alloy_system_1",
+      "sample_id": "sample_1",
+      "material_state": "as-tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "15",
+          "section": "Figure 2",
+          "quote": "Figure 2. (a) Inverse pole figure of a CG RR1000 sample, and (b) SEM image of the speckled sample with Ti nano-powder overlaid on the EBSD image, to compose the AOI 9 images are acquired and stitched together. (c) IPF color code.",
+          "table": null,
+          "figure": "2",
+          "chunk_id": "9ef555e09d0ce6ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "HAS_PROPERTY_OBSERVATION",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-tested",
+      "conditions": {
+        "temperature_c": 300,
+        "loading_mode": "low cycle fatigue"
+      },
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "25",
+          "section": "Table 1",
+          "quote": "Table 1. Low cycle fatigue test parameters - temperatures and initial strains. The values in the table represent the interrupted fatigue cycles at which strain maps were acquired. Temperature Initial Strain (ε) 300 ºC (Cycles) 550 ºC (Cycles) 700 ºC (Cycles) 0.7% (1, 10, 100, 1000) (1, 10, 100, 1000) (1, 10, 100) 1.0% (1, 10, 100, 1000) (1, 10, 100, 1000) (1, 10, 100)",
+          "table": "1",
+          "figure": null,
+          "chunk_id": "9ef555e09d0ce6ef:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "mechanism_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "observation_1",
+      "sample_id": "sample_1",
+      "material_state": "as-tested",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_hypothesis",
+      "evidence": [
+        {
+          "page": "25",
+          "section": "Figure 12",
+          "quote": "Figure 12. Proposed mechanism for alternating zig-zagged slip along {111} planes in the γ matrix and shearing the γ’ precipitate along a {001} plane, at the mesoscale it appears that slip follows a {001} plane, redrawn from [18,44,45].",
+          "table": null,
+          "figure": "12",
+          "chunk_id": "9ef555e09d0ce6ef:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

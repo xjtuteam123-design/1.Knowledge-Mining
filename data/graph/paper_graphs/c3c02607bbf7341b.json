@@ -1,0 +1,586 @@
+{
+  "document_id": "c3c02607bbf7341b",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Molecular dynamics simulation of the structural evolution of misfit dislocation networks at γ/γ′ phase interfaces in Ni-based superalloys",
+    "authors": [
+      "Wen-Ping Wu",
+      "Ya-Fang Guo",
+      "Yue-Sheng Wang",
+      "Ralf Mueller",
+      "Dietmar Gross"
+    ],
+    "journal": "Philosophical Magazine",
+    "year": 2011,
+    "doi": "10.1080/14786435.2010.521527"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 3,
+          "section": "Abstract",
+          "quote": "The structural evolution of misfit dislocation networks at /C13 //C13 0 phase interfaces in Ni-based single crystal superalloys under tensile loading and temperatures is simulated by molecular dynamics.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        },
+        {
+          "page": 17,
+          "section": "5. Discussion and conclusions",
+          "quote": "The mechanical load is the main driving force for dislocation motion, playing a key role in the creep properties of Ni-based single crystal superalloys.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Ni/Ni3Al model",
+      "canonical_name": "Ni-Ni3Al",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "relaxed",
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "3. Modeling and simulation",
+              "quote": "the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 /C13 0 phase), and the pure Ni matrix (fcc /C13 phase)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c3c02607bbf7341b:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Al",
+          "value": 25,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": "3. Modeling and simulation",
+              "quote": "the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 /C13 0 phase), and the pure Ni matrix (fcc /C13 phase)",
+              "table": null,
+              "figure": null,
+              "chunk_id": "c3c02607bbf7341b:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Modeling and simulation",
+          "quote": "In the present study, molecular dynamics simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 /C13 0 phase), and the pure Ni matrix (fcc /C13 phase).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        },
+        {
+          "page": 15,
+          "section": null,
+          "quote": "Structural evolution of dislocation networks at the /C13 //C13 0 phase interface versus volume averaged stress–strain responses.",
+          "table": null,
+          "figure": "Figure 11",
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "molecular dynamics relaxation",
+      "parameters": {
+        "temperature_c": null,
+        "time": "60 ps",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "unrelaxed",
+      "output_state": "relaxed",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3. Modeling and simulation",
+          "quote": "The misfit dislocation networks are found to be formed on the phase interface after 60 ps (1 ps ¼ 1 /C2 10 –12 s) relaxation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ (fcc Ni)",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Modeling and simulation",
+          "quote": "the pure Ni matrix (fcc /C13 phase)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        },
+        {
+          "page": 16,
+          "section": null,
+          "quote": "the slip dislocations in the /C13 matrix may cut into the /C13 0 phase",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ′ (L12 Ni3Al)",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Modeling and simulation",
+          "quote": "Ni3Al cuboidal precipitates (L12 /C13 0 phase)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        },
+        {
+          "page": 16,
+          "section": null,
+          "quote": "irregular coarsened /C13 0 precipitates are enveloped by the networks of misfit dislocations",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "misfit dislocation network",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "γ/γ′ interface",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3. Modeling and simulation",
+          "quote": "The misfit dislocation networks are found to be formed on the phase interface after 60 ps (1 ps ¼ 1 /C2 10 –12 s) relaxation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "misfit dislocation network formation",
+      "category": "interface relaxation",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Modeling and simulation",
+          "quote": "When the mismatch exceeds the elastic limit, misfit dislocations will be formed on the phase interface to reduce the strain energy of the system.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "dislocation network damage",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "If the dislocation networks at the /C13 //C13 0 interfaces are damaged, the alloy deforms plastically and yields.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "interface strengthening by dislocation networks",
+      "category": "strengthening",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "The regular dislocation networks at the /C13 //C13 0 phase interface can effectively strengthen the interface and act as barriers to dislocation movement through the /C13 0 phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "dislocation cutting",
+      "category": "deformation",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "slip dislocations in the /C13 matrix may cut into the /C13 0 phase from the interfaces where dislocation networks are damaged.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_5",
+      "name": "rafting",
+      "category": "microstructural evolution",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "slip dislocations in the matrix first cut into the /C13 0 phase from the interfaces due to non-equilibrium damage of the dislocation networks, which finally induces rafting.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "alloy_system_1",
+      "predicate": "HAS_SAMPLE",
+      "target_id": "sample_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Modeling and simulation",
+          "quote": "In the present study, molecular dynamics simulations were performed for the idealized Ni-based superalloy composed of Ni3Al cuboidal precipitates (L12 /C13 0 phase), and the pure Ni matrix (fcc /C13 phase).",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_1",
+      "predicate": "UNDERGOES_PROCESS",
+      "target_id": "process_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3. Modeling and simulation",
+          "quote": "The misfit dislocation networks are found to be formed on the phase interface after 60 ps (1 ps ¼ 1 /C2 10 –12 s) relaxation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Modeling and simulation",
+          "quote": "the pure Ni matrix (fcc /C13 phase)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "sample_1",
+      "predicate": "CONTAINS_PHASE",
+      "target_id": "phase_2",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 5,
+          "section": "3. Modeling and simulation",
+          "quote": "Ni3Al cuboidal precipitates (L12 /C13 0 phase)",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_1",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 7,
+          "section": "3. Modeling and simulation",
+          "quote": "The misfit dislocation networks are found to be formed on the phase interface after 60 ps (1 ps ¼ 1 /C2 10 –12 s) relaxation.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "phase_1",
+      "predicate": "FORMS",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Modeling and simulation",
+          "quote": "When the mismatch exceeds the elastic limit, misfit dislocations will be formed on the phase interface to reduce the strain energy of the system.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "phase_2",
+      "predicate": "FORMS",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Modeling and simulation",
+          "quote": "When the mismatch exceeds the elastic limit, misfit dislocations will be formed on the phase interface to reduce the strain energy of the system.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_8",
+      "source_id": "microstructure_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_1",
+      "sample_id": "sample_1",
+      "material_state": "relaxed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": "3. Modeling and simulation",
+          "quote": "When the mismatch exceeds the elastic limit, misfit dislocations will be formed on the phase interface to reduce the strain energy of the system.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_9",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_2",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "If the dislocation networks at the /C13 //C13 0 interfaces are damaged, the alloy deforms plastically and yields.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_10",
+      "source_id": "phase_1",
+      "predicate": "ACTIVATES_MECHANISM",
+      "target_id": "mechanism_3",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "The regular dislocation networks at the /C13 //C13 0 phase interface can effectively strengthen the interface and act as barriers to dislocation movement through the /C13 0 phase.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_11",
+      "source_id": "mechanism_2",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_4",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "slip dislocations in the /C13 matrix may cut into the /C13 0 phase from the interfaces where dislocation networks are damaged.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_12",
+      "source_id": "mechanism_4",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_5",
+      "sample_id": "sample_1",
+      "material_state": "simulated",
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 16,
+          "section": null,
+          "quote": "slip dislocations in the matrix first cut into the /C13 0 phase from the interfaces due to non-equilibrium damage of the dislocation networks, which finally induces rafting.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "c3c02607bbf7341b:part:002"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}

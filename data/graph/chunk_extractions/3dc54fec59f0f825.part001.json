@@ -1,0 +1,858 @@
+{
+  "document_id": "3dc54fec59f0f825",
+  "chunk_id": "3dc54fec59f0f825:part:001",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Phase-Field Modeling of Kinetics of Diffusive Phase Transformation in Compositionally-Graded Ni-Based Superalloys",
+    "authors": [
+      "Ahmadreza Riyahi khorasgani",
+      "Micheal Younan",
+      "Ingo Steinbach",
+      "Julia Kundin"
+    ],
+    "journal": "Journal of Phase Equilibria and Diffusion",
+    "year": 2024,
+    "doi": "10.1007/s11669-024-01140-9"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "single-crystal Ni-based superalloys, under isothermal annealing and composition gradient",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "Binary AlNi/Ni diffusion couple",
+      "canonical_name": "AlNi-xNi (x=0.14) / Ni (pure)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 0.14,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 0.86,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Table 2 Initial mole fraction of components in the diffusion couples AlNi/Ni and AlCoCrTaNi/Ni",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "Multi-component alloy (I) AlCoCrTaNi/Ni diffusion couple",
+      "canonical_name": "Al0.111Co0.048Cr0.054Ta0.037Ni0.750 / Ni (pure)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 0.111,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Co - - - 0.048 - - - - - - - - Cr - - - 0.054 - - - - - - - - Ta - - - 0.037 - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 0.048,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Co - - - 0.048 - - - - - - - - Cr - - - 0.054 - - - - - - - - Ta - - - 0.037 - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 0.054,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Co - - - 0.048 - - - - - - - - Cr - - - 0.054 - - - - - - - - Ta - - - 0.037 - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 0.037,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Co - - - 0.048 - - - - - - - - Cr - - - 0.054 - - - - - - - - Ta - - - 0.037 - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 0.75,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Co - - - 0.048 - - - - - - - - Cr - - - 0.054 - - - - - - - - Ta - - - 0.037 - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Table 2 Initial mole fraction of components in the diffusion couples AlNi/Ni and AlCoCrTaNi/Ni",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "Multi-component alloy (II) AlCoCrTaNi/Ni diffusion couple",
+      "canonical_name": "Al0.124Co0.021Cr0.025Ta0.051Ni0.779 / Ni (pure)",
+      "alloy_system_id": "alloy_system_1",
+      "material_state": "annealed",
+      "composition": [
+        {
+          "element": "Al",
+          "value": 0.124,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Co - - - 0.048 - - - - - - - - Cr - - - 0.054 - - - - - - - - Ta - - - 0.037 - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Co",
+          "value": 0.021,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Co - - - 0.048 - - - - - - - - Cr - - - 0.054 - - - - - - - - Ta - - - 0.037 - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Cr",
+          "value": 0.025,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Co - - - 0.048 - - - - - - - - Cr - - - 0.054 - - - - - - - - Ta - - - 0.037 - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ta",
+          "value": 0.051,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Co - - - 0.048 - - - - - - - - Cr - - - 0.054 - - - - - - - - Ta - - - 0.037 - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        },
+        {
+          "element": "Ni",
+          "value": 0.779,
+          "min_value": null,
+          "max_value": null,
+          "unit": "mole fraction",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": "5",
+              "section": "Table 2",
+              "quote": "Al 0.14 - - - - - - - - - Co - - - 0.048 - - - - - - - - Cr - - - 0.054 - - - - - - - - Ta - - - 0.037 - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+              "table": "Table 2",
+              "figure": null,
+              "chunk_id": "3dc54fec59f0f825:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Table 2 Initial mole fraction of components in the diffusion couples AlNi/Ni and AlCoCrTaNi/Ni",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1323,
+        "time": "10 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 3",
+          "quote": "13 D 6 4 64 250 12 :8 12:8 50 10 h Binary",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_2",
+      "sample_id": "sample_1",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1323,
+        "time": "20 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 3",
+          "quote": "2 2D 250 500 50 100 20 h Binary",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_3",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1323,
+        "time": "50 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 3",
+          "quote": "3 3D 125 125 500 25 25 100 50 h Multi-comp. (I)",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_4",
+      "sample_id": "sample_2",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1323,
+        "time": "300 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 3",
+          "quote": "4 2D 125 1000 25 200 300 h Multi-comp. (I)",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "process_5",
+      "sample_id": "sample_3",
+      "sequence": 1,
+      "method": "annealing",
+      "parameters": {
+        "temperature_c": 1323,
+        "time": "300 h",
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {}
+      },
+      "input_state": "as-cast",
+      "output_state": "annealed",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 3",
+          "quote": "5 2D 125 1000 25 200 300 h Multi-comp. (II)",
+          "table": "Table 3",
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "Kinetics of the c /c0 phase transformation and the interdiffusion phenomena in single-crystal Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": 0.7,
+        "size": null,
+        "morphology": "cuboidal",
+        "location": "left side of couple",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "the phase fraction is conserved as its initial stage circa 70%",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "Kinetics of the c /c0 phase transformation and the interdiffusion phenomena in single-crystal Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": 0.56,
+        "size": null,
+        "morphology": null,
+        "location": "left side of couple",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": null,
+          "quote": "the equilibrium mole fractions of c0 are 56 and 70% in multi-component (I) and multi-component (II), respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "type": "Phase",
+      "name": "γ",
+      "sample_id": "sample_3",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": "matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "Kinetics of the c /c0 phase transformation and the interdiffusion phenomena in single-crystal Ni-based superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "type": "Phase",
+      "name": "γ'",
+      "sample_id": "sample_3",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": 0.7,
+        "size": null,
+        "morphology": null,
+        "location": "left side of couple",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "5",
+          "section": null,
+          "quote": "the equilibrium mole fractions of c0 are 56 and 70% in multi-component (I) and multi-component (II), respectively",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "channels between γ' precipitates",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "wider channels",
+        "location": "γ'-denuded zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "In multi-component alloy (I) (tests 3 and 4) with the equilibrium fraction of c0-phase of 56% (initial stage of left side of couple), wider channels are formed during the diffusion in the c0-denuded zone along the diffusion couple.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_2",
+      "type": "Microstructure",
+      "name": "channels between γ' precipitates",
+      "sample_id": "sample_3",
+      "material_state": "annealed",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": "narrower channels",
+        "location": "γ'-denuded zone",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "in multi-component alloy (II) (test 5) and binary alloy (test 2) with higher c0-phase fraction of 70%, the channels are much narrower",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "property": "growth rate constant of γ'-free zone (nc)",
+      "value": null,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "m2 s-1",
+      "conditions": {
+        "temperature_c": 1323,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": "<001>",
+        "atmosphere": null,
+        "duration": "50 h",
+        "test_method": "phase-field simulation"
+      },
+      "comparison_sample_id": "sample_3",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "Table 4 presents the estimated growth rate constants for various tests.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "Kirkendall effect",
+      "category": "diffusion",
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "The implemented multi-component diffusion model takes into account vacancies and pore formation, reﬂecting Kirkendall effect.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "interdiffusion",
+      "category": "diffusion",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "1",
+          "section": null,
+          "quote": "We speciﬁcally predict the interdiffusion of elements for a hypothetical alloy AlCoCrTaNi/Ni diffusion couple",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "parabolic growth of γ'-free zone",
+      "category": "kinetics",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "the dissolution of c0-particles can be quantiﬁed by the widths of the c0-free zone, Lc, and the growth rate of the c0-free zone, nc, which obey the parabolic rate expression",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_1",
+      "predicate": "HAS_COMPOSITION",
+      "target_id": null,
+      "sample_id": "sample_1",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "5",
+          "section": "Table 2",
+          "quote": "Al 0.14 - - - - - - - - - Ni 0.86 1 0.750 1 0.779 1",
+          "table": "Table 2",
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_2",
+      "source_id": "phase_2",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_1",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "In multi-component alloy (I) (tests 3 and 4) with the equilibrium fraction of c0-phase of 56% (initial stage of left side of couple), wider channels are formed",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_3",
+      "source_id": "phase_6",
+      "predicate": "HAS_MICROSTRUCTURE",
+      "target_id": "microstructure_2",
+      "sample_id": "sample_3",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": "6",
+          "section": null,
+          "quote": "in multi-component alloy (II) (test 5) and binary alloy (test 2) with higher c0-phase fraction of 70%, the channels are much narrower",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_4",
+      "source_id": "mechanism_1",
+      "predicate": "CAUSES",
+      "target_id": "observation_1",
+      "sample_id": "sample_2",
+      "material_state": "annealed",
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": "2",
+          "section": null,
+          "quote": "The results of the experiments carried out on CMSX10/Ni couples [18,19] reveal that the pores are created on the interface between c0-free and c /C0 c0 regions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "3dc54fec59f0f825:part:001"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": []
+}

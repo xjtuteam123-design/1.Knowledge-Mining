@@ -1,0 +1,1201 @@
+{
+  "document_id": "d2783619ddc129fd",
+  "paper_metadata": {
+    "document_type": "literature",
+    "title": "Impact of Re-clustering on resistances to dislocation slip mediated plastic deformations in γ matrix phases",
+    "authors": [
+      "Zhou Yi",
+      "Ping Peng"
+    ],
+    "journal": "Computational Materials Science",
+    "year": 2020,
+    "doi": "10.1016/j.commatsci.2019.109314"
+  },
+  "alloy_systems": [
+    {
+      "id": "alloy_system_1",
+      "name": "Ni-based single crystal superalloy",
+      "material_category": "superalloy",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "Ni-based single crystal (SC) superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        },
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Since the creep of alloys ... Ni-based SC superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_2",
+      "name": "Ni-Re alloy",
+      "material_category": "model alloy",
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Ni-Re [30,31] alloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        },
+        {
+          "page": 9,
+          "section": null,
+          "quote": "Re atoms tend to separate away from each other in γ-Ni(Re) phases.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_3",
+      "name": "fcc-Ni",
+      "material_category": "pure metal",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "pure fcc-Ni crystals",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "alloy_system_4",
+      "name": "Ni(Re)",
+      "material_category": "solid solution",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "fcc-Ni(Re) solid solutions",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "original_name": "pure fcc-Ni",
+      "canonical_name": "Ni",
+      "alloy_system_id": "alloy_system_3",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": 100,
+          "min_value": null,
+          "max_value": null,
+          "unit": "at.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": []
+        }
+      ],
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "pure fcc-Ni crystals",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_2",
+      "original_name": "single Re-addition (0, 0, 0) model",
+      "canonical_name": "Ni-Re",
+      "alloy_system_id": "alloy_system_4",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Re",
+          "value": 2.88,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "3.1 Tendency of Re atoms towards clustering",
+              "quote": "the Re content in γ-Ni(Re) phases is 2.88 wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d2783619ddc129fd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.1 Tendency of Re atoms towards clustering",
+          "quote": "In our substitution models of Re for one, two and three Ni atoms, the Re content in γ-Ni(Re) phases is 2.88 wt%, 5.65 wt% and 8.31 wt%, respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_3",
+      "original_name": "double Re-addition (1, 0, 0) model",
+      "canonical_name": "Ni-Re",
+      "alloy_system_id": "alloy_system_4",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Re",
+          "value": 5.65,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "3.1 Tendency of Re atoms towards clustering",
+              "quote": "the Re content in γ-Ni(Re) phases is 2.88 wt%, 5.65 wt% and 8.31 wt%, respectively.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d2783619ddc129fd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.1 Tendency of Re atoms towards clustering",
+          "quote": "Corresponding to the substitution of one, two and three Re for Ni atoms, they are remarked as (0, 0, 0), −d( ,0 ,0 )II I and −− −dd d( ,,)I II II III III I , respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_4",
+      "original_name": "three Re-addition (1, 1, 1) model",
+      "canonical_name": "Ni-Re",
+      "alloy_system_id": "alloy_system_4",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Re",
+          "value": 8.31,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt.%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 3,
+              "section": "3.1 Tendency of Re atoms towards clustering",
+              "quote": "the Re content in γ-Ni(Re) phases is 2.88 wt%, 5.65 wt% and 8.31 wt%, respectively.",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d2783619ddc129fd:part:001"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 3,
+          "section": "3.1 Tendency of Re atoms towards clustering",
+          "quote": "Corresponding to the substitution of one, two and three Re for Ni atoms, they are remarked as (0, 0, 0), −d( ,0 ,0 )II I and −− −dd d( ,,)I II II III III I , respectively.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "sample_5",
+      "original_name": "Re-free γ-Ni",
+      "canonical_name": "Ni",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Ni",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": null,
+          "role": "balance",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "In the Re-free system, the calculated γisf is 136 mJ/m 2",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d2783619ddc129fd:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "In the Re-free system",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_6",
+      "original_name": "single Re-addition γ-Ni(Re)",
+      "canonical_name": "Ni-Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Re",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 5,
+              "section": null,
+              "quote": "single Re-addition Ni(Re) solid solution phases",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d2783619ddc129fd:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "For the single Re-addition system, four kinds of situations are taken into account",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_7",
+      "original_name": "double Re-addition γ-Ni(Re)",
+      "canonical_name": "Ni-Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Re",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "the content of Re atoms is 6.32 wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d2783619ddc129fd:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "in the double Re-addition system",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_8",
+      "original_name": "three Re-addition γ-Ni(Re)",
+      "canonical_name": "Ni-Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": null,
+      "composition": [
+        {
+          "element": "Re",
+          "value": null,
+          "min_value": null,
+          "max_value": null,
+          "unit": "wt%",
+          "role": "nominal",
+          "applies_to": "bulk",
+          "evidence": [
+            {
+              "page": 7,
+              "section": null,
+              "quote": "the content of Re atoms is ... 17.46 wt%",
+              "table": null,
+              "figure": null,
+              "chunk_id": "d2783619ddc129fd:part:002"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "page": 7,
+          "section": null,
+          "quote": "In the three Re-addition system",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "sample_9",
+      "original_name": "Re-free",
+      "canonical_name": "Ni (Re-free)",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_10",
+      "original_name": "(0, 0, 0)",
+      "canonical_name": "Ni-Re (0,0,0) double Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_11",
+      "original_name": "(1, 0, 0)",
+      "canonical_name": "Ni-Re (1,0,0) double Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_12",
+      "original_name": "(2, 0, 0)",
+      "canonical_name": "Ni-Re (2,0,0) double Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_13",
+      "original_name": "(3, 0, 0)",
+      "canonical_name": "Ni-Re (3,0,0) double Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_14",
+      "original_name": "(4, 0, 0)",
+      "canonical_name": "Ni-Re (4,0,0) double Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_15",
+      "original_name": "(1, 1, 1)",
+      "canonical_name": "Ni-Re (1,1,1) three Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_16",
+      "original_name": "(1, 2, 1)",
+      "canonical_name": "Ni-Re (1,2,1) three Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_17",
+      "original_name": "(1, 1, 2)",
+      "canonical_name": "Ni-Re (1,1,2) three Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_18",
+      "original_name": "(1, 1, 3)",
+      "canonical_name": "Ni-Re (1,1,3) three Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "sample_19",
+      "original_name": "(1, 1, 4)",
+      "canonical_name": "Ni-Re (1,1,4) three Re",
+      "alloy_system_id": "alloy_system_2",
+      "material_state": "first-principles calculated",
+      "composition": [],
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "id": "process_1",
+      "sample_id": null,
+      "sequence": null,
+      "method": "first-principles calculation",
+      "parameters": {
+        "temperature_c": null,
+        "time": null,
+        "pressure": null,
+        "atmosphere": null,
+        "cooling_method": null,
+        "deformation": null,
+        "strain_rate": null,
+        "laser_power_w": null,
+        "scan_speed": null,
+        "layer_thickness": null,
+        "other": {
+          "code": "VASP",
+          "potential": "projector augmented-wave (PAW)",
+          "functional": "generalized gradient approximation (GGA)"
+        }
+      },
+      "input_state": null,
+      "output_state": "first-principles calculated",
+      "evidence": [
+        {
+          "page": 12,
+          "section": "References",
+          "quote": "G. Kresse, J. Hafner, Ab initio molecular dynamics for liquid metals, Phys. Rev. B 47 (1993) 558 –561.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    }
+  ],
+  "phases_and_microstructures": [
+    {
+      "id": "phase_1",
+      "type": "Phase",
+      "name": "fcc γ matrix",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Abstract",
+          "quote": "γ matrix phases",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "type": "Phase",
+      "name": "L12 γ′ precipitate",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "γ′ precipitates with L1 2 structure embedded coherently in fcc γ matrixes",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "microstructure_1",
+      "type": "Microstructure",
+      "name": "Re cluster",
+      "sample_id": null,
+      "material_state": null,
+      "attributes": {
+        "phase_fraction": null,
+        "size": "1.0 nm",
+        "morphology": null,
+        "location": "γ matrix",
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "short range orders of Re-crystals about 1.0 nm exist in Re-modiﬁed versions of CMSX-2 and PWA 1480 superalloys",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "type": "Phase",
+      "name": "γ-Ni",
+      "sample_id": "sample_9",
+      "material_state": "first-principles calculated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "type": "Phase",
+      "name": "γ-Ni(Re)",
+      "sample_id": "sample_10",
+      "material_state": "first-principles calculated",
+      "attributes": {
+        "phase_fraction": null,
+        "size": null,
+        "morphology": null,
+        "location": null,
+        "composition": null,
+        "identification_status": "experimental"
+      },
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    }
+  ],
+  "property_observations": [
+    {
+      "id": "observation_1",
+      "sample_id": "sample_5",
+      "material_state": null,
+      "property": "intrinsic stacking fault energy",
+      "value": 136,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "In the Re-free system, the calculated γisf is 136 mJ/m 2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_2",
+      "sample_id": "sample_5",
+      "material_state": null,
+      "property": "unstable stacking fault energy",
+      "value": 273,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 5,
+          "section": null,
+          "quote": "Meanwhile, =γ 273mJ/musf 2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_3",
+      "sample_id": "sample_6",
+      "material_state": null,
+      "property": "intrinsic stacking fault energy",
+      "value": 97,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "One can see that =γ 97mJ/misf 2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_4",
+      "sample_id": "sample_6",
+      "material_state": null,
+      "property": "unstable stacking fault energy",
+      "value": 286,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m2",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": null,
+        "orientation": null,
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "=γ 286mJ/musf 2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "observation_5",
+      "sample_id": "sample_9",
+      "material_state": "first-principles calculated",
+      "property": "unstable stacking fault energy (γusf)",
+      "value": 273,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m²",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "shear",
+        "orientation": "[−112](111) slip direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_6",
+      "sample_id": "sample_9",
+      "material_state": "first-principles calculated",
+      "property": "intrinsic stacking fault energy (γisf)",
+      "value": 136,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m²",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "shear",
+        "orientation": "[−112](111) slip direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_7",
+      "sample_id": "sample_9",
+      "material_state": "first-principles calculated",
+      "property": "unstable twin fault energy (γutf)",
+      "value": 339,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m²",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "shear",
+        "orientation": "[−112](111) slip direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    },
+    {
+      "id": "observation_8",
+      "sample_id": "sample_9",
+      "material_state": "first-principles calculated",
+      "property": "intrinsic stacking fault energy (γisf)",
+      "value": 133,
+      "min_value": null,
+      "max_value": null,
+      "uncertainty": null,
+      "unit": "mJ/m²",
+      "conditions": {
+        "temperature_c": null,
+        "strain_rate": null,
+        "loading_mode": "shear",
+        "orientation": "[−112](111) slip direction",
+        "atmosphere": null,
+        "duration": null,
+        "test_method": "first-principles calculation"
+      },
+      "comparison_sample_id": null,
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "The γusf , γisf , γutf , γesf , Λ1 and Λ2 of γ-Ni(Re) phases in the −[112](111) slip direction.",
+          "table": "Table 4",
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "mechanism_1",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 1,
+          "section": "Introduction",
+          "quote": "the solid solution strengthening of γ matrixes",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_2",
+      "name": "solid-solution strengthening",
+      "category": null,
+      "sample_id": "sample_6",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "Re as a solid solution strengthening element in γ matrixes is advantageous for improving the creep strength",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_3",
+      "name": "Suzuki segregation",
+      "category": null,
+      "sample_id": "sample_6",
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "the same Suzuki segregation effect [57] also exist in γ-Ni(Re) phases",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "mechanism_4",
+      "name": "solid-solution strengthening",
+      "category": "strengthening",
+      "sample_id": null,
+      "material_state": null,
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "Re-clusters either arisen from the accumulation of ﬁrst nearest neighboring ReNi defects or formed by a bridge linkage of extra Re-additions for separated ReNi defects do not enforce the resistance to plastic deformations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    }
+  ],
+  "machine_learning_models": [],
+  "relations": [
+    {
+      "id": "claim_1",
+      "source_id": "sample_2",
+      "predicate": "STUDIES",
+      "target_id": "alloy_system_4",
+      "sample_id": "sample_2",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_2",
+      "source_id": "sample_3",
+      "predicate": "STUDIES",
+      "target_id": "alloy_system_4",
+      "sample_id": "sample_3",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_3",
+      "source_id": "sample_4",
+      "predicate": "STUDIES",
+      "target_id": "alloy_system_4",
+      "sample_id": "sample_4",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "directly_reported",
+      "evidence": []
+    },
+    {
+      "id": "claim_4",
+      "source_id": "microstructure_1",
+      "predicate": "PROMOTES",
+      "target_id": "mechanism_1",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 2,
+          "section": "Introduction",
+          "quote": "Re-clusters are thought to play a key role in the high temperature creep of superalloys due to their more eﬃcient obstacles against dislocation motion compared to isolated solution atoms.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:001"
+        }
+      ]
+    },
+    {
+      "id": "claim_5",
+      "source_id": "sample_6",
+      "predicate": "DECREASES",
+      "target_id": "observation_1",
+      "sample_id": "sample_6",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "Since γisf in the single Re-addition system drops by 39 mJ/m2 relative to the Re-free systems",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_6",
+      "source_id": "sample_6",
+      "predicate": "INCREASES",
+      "target_id": "observation_4",
+      "sample_id": "sample_6",
+      "material_state": null,
+      "conditions": {},
+      "polarity": "positive",
+      "assertion_level": "directly_reported",
+      "evidence": [
+        {
+          "page": 6,
+          "section": null,
+          "quote": "as a result of γusf ascended to 286mJ/m2 from 273mJ/m2",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:002"
+        }
+      ]
+    },
+    {
+      "id": "claim_7",
+      "source_id": "mechanism_4",
+      "predicate": "DEGRADES",
+      "target_id": "observation_5",
+      "sample_id": null,
+      "material_state": null,
+      "conditions": {},
+      "polarity": "neutral",
+      "assertion_level": "author_interpretation",
+      "evidence": [
+        {
+          "page": 9,
+          "section": null,
+          "quote": "Re-clusters either arisen from the accumulation of ﬁrst nearest neighboring ReNi defects or formed by a bridge linkage of extra Re-additions for separated ReNi defects do not enforce the resistance to plastic deformations.",
+          "table": null,
+          "figure": null,
+          "chunk_id": "d2783619ddc129fd:part:003"
+        }
+      ]
+    }
+  ],
+  "unresolved_terms": [],
+  "conflicts": [],
+  "chunk_id": "paper"
+}
