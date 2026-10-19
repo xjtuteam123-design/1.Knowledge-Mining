@@ -1,63 +1,64 @@
 # Refractory Literature RAG
 
-面向难熔金属、难熔合金和高温材料文献的本地 RAG/GraphRAG 系统。项目提供全文检索、知识图谱关系检索、可追溯证据引用、交互式图谱展示以及断点续跑的批量抽取流程。
+A local RAG and GraphRAG system for literature on refractory metals, refractory alloys, and high-temperature materials. The project provides full-text retrieval, knowledge-graph retrieval, traceable evidence citations, interactive graph visualization, and resumable batch extraction workflows.
 
-## 当前数据集
+## Dataset
 
-整理后的有效数据集共 5169 篇：
+The curated dataset contains 5,169 documents:
 
-| 数据 | 数量 | 目录 |
+| Dataset | Count | Directory |
 | --- | ---: | --- |
-| 普通文献 Markdown | 5159 | `data/markdown_bundle/literature_5159/` |
-| 专利 Markdown | 10 | `data/markdown_bundle/patents_10/` |
-| GraphRAG 切片抽取 JSON | 9482 | `data/graph/chunk_extractions/` |
-| 论文级图谱 JSON | 5169 | `data/graph/paper_graphs/` |
+| Literature in Markdown format | 5,159 | `data/markdown_bundle/literature_5159/` |
+| Patents in Markdown format | 10 | `data/markdown_bundle/patents_10/` |
+| GraphRAG chunk extraction files | 9,482 | `data/graph/chunk_extractions/` |
+| Paper-level graph files | 5,169 | `data/graph/paper_graphs/` |
 
-第 10 篇专利为 `CN102719713A`。5169 个文档 ID 与 5169 个论文级图谱 JSON 一一对应。9 个 GraphRAG 失败项没有进入发布数据集，原始工作目录仍保留在本机。
+All 10 patent files belong to patent `CN102719713A`. The 5,169 document IDs map one-to-one to the 5,169 paper-level graph JSON files. GraphRAG extraction failures are excluded from the published dataset and retained only in the original local workspace.
+
+Verify the published dataset with:
 
 ```powershell
 python scripts\verify_github_dataset.py
 ```
 
-详细数据说明见 [data/README.md](data/README.md)。
+See [data/README.md](data/README.md) for detailed dataset documentation.
 
-## 主要功能
+## Features
 
-- SQLite FTS 全文检索与动态相关性阈值，不固定截取少量 Top-K。
-- GraphRAG 实体、工艺、组织、性能和证据关系联合检索。
-- 回答引用覆盖检查：检索到的去重参考文献均要求在答案中引用。
-- 回答模型显示为 `DeepSeek-V4.1-Flash-1017`，API 模型 ID 为 `deepseek-flash`。
-- 单次回答最大输出为 4000 tokens。
-- 2D/3D 交互式知识图谱、节点筛选、邻域扩展和原文证据查看。
-- 文献切片和图谱抽取支持断点续跑、失败重试和进度检查。
+- SQLite FTS full-text search with a dynamic relevance threshold instead of a fixed small Top-K cutoff.
+- Joint retrieval across GraphRAG entities, processes, organizations, properties, and evidence relationships.
+- Citation coverage checks requiring every deduplicated retrieved reference to be cited in the answer.
+- `DeepSeek-V4.1-Flash-1017` as the displayed answer model, using the API model ID `deepseek-flash`.
+- Up to 4,000 output tokens per answer.
+- Interactive 2D and 3D knowledge graphs with node filtering, neighborhood expansion, and source-evidence inspection.
+- Resumable document chunking and graph extraction, including retry and progress-monitoring utilities.
 
-## 项目结构
+## Project Structure
 
 ```text
 refractory-literature-rag/
-├─ app.py                         # Gradio 主界面与问答流程
-├─ rag_store.py                   # 全文索引、检索、引用和反馈数据
-├─ graph_store.py                 # 图数据库、图检索和可视化
-├─ prompts.py                     # 问答与引用提示词
-├─ graph_prompts.py               # GraphRAG 抽取提示词
-├─ account_store.py               # 可选的本地账户功能
-├─ config.example.json            # 无密钥的配置模板
-├─ requirements.txt               # Python 依赖
-├─ package.json                   # 3D 图谱前端依赖
-├─ start_app.bat                  # Windows 本地启动脚本
-├─ scripts/                       # 构建、抽取、重试、去重和校验脚本
-├─ tests/                         # 单元测试
-├─ data/
-│  ├─ markdown_bundle/            # GitHub 发布用的 5169 篇 Markdown
-│  ├─ graph/chunk_extractions/    # 切片级 GraphRAG JSON
-│  ├─ graph/paper_graphs/         # 合并后的论文级图谱 JSON
-│  └─ structured/                 # 早期结构化分析数据
-└─ docs/GITHUB_UPLOAD.md          # GitHub 上传说明
+|-- app.py                         # Gradio interface and question-answering workflow
+|-- rag_store.py                   # Full-text indexing, retrieval, citations, and feedback data
+|-- graph_store.py                 # Graph database, graph retrieval, and visualization
+|-- prompts.py                     # Question-answering and citation prompts
+|-- graph_prompts.py               # GraphRAG extraction prompts
+|-- account_store.py               # Optional local account support
+|-- config.example.json            # Configuration template without credentials
+|-- requirements.txt               # Python dependencies
+|-- package.json                   # Dependencies for the 3D graph front end
+|-- start_app.bat                  # Windows local startup script
+|-- scripts/                       # Build, extraction, retry, deduplication, and validation tools
+|-- tests/                         # Unit tests
+|-- data/
+|   |-- markdown_bundle/           # The 5,169 published Markdown documents
+|   |-- graph/chunk_extractions/   # Chunk-level GraphRAG JSON files
+|   `-- graph/paper_graphs/        # Merged paper-level graph JSON files
+`-- docs/GITHUB_UPLOAD.md          # GitHub upload instructions
 ```
 
-## 安装
+## Installation
 
-建议使用 Python 3.11–3.13。当前机器使用 Python 3.14，也可以运行，但部分第三方依赖可能显示兼容性警告。
+Python 3.11 to 3.13 is recommended. Python 3.14 may also work, although some third-party packages can emit compatibility warnings.
 
 ```powershell
 cd C:\path\to\refractory-literature-rag
@@ -68,7 +69,7 @@ npm.cmd install
 Copy-Item config.example.json config.json
 ```
 
-编辑本地 `config.json`，填入自己的 API Key。`config.json` 已被 `.gitignore` 排除，不会上传到 GitHub：
+Edit the local `config.json` file and add your API key. This file is excluded by `.gitignore` and must not be committed.
 
 ```json
 {
@@ -80,61 +81,61 @@ Copy-Item config.example.json config.json
 }
 ```
 
-## 启动
+## Running the Application
 
-完整检索需要两个运行时数据库。当前工作机已经具备这些数据库；新的 GitHub 克隆需先从项目 Release 下载 `literature.db` 和 `graph.db`，分别放入 `data/index/` 与 `data/graph/`。数据库未安装时，界面仍可启动，但不会拥有完整的 5169 篇检索能力。
+Full retrieval requires two runtime databases. Download `literature.db` and `graph.db` from the project's GitHub Releases, then place them in `data/index/` and `data/graph/`, respectively. The interface can start without these databases, but the complete 5,169-document retrieval capability will not be available.
 
-Windows：
+On Windows, run:
 
 ```powershell
 .\start_app.bat
 ```
 
-程序默认从端口 7860 开始寻找可用端口；如果 7860 已被占用，会自动使用 7861、7862 等端口。
+The application starts with port 7860 and automatically tries subsequent ports if that port is occupied.
 
-也可以直接运行：
+You can also start it directly:
 
 ```powershell
 python app.py
 ```
 
-## GraphRAG 批量处理
+## GraphRAG Batch Processing
 
-查看进度：
+Check extraction progress:
 
 ```powershell
 .\check_graphrag_progress.bat
 ```
 
-继续处理未开始或失败的文献：
+Continue processing documents that have not started or previously failed:
 
 ```powershell
 .\continue_graphrag_unstarted.bat
 ```
 
-主要脚本：
+Key scripts:
 
-- `scripts/extract_graphrag.py`：文献切片和图谱抽取。
-- `scripts/run_graphrag_resilient.py`：批量容错、断点续跑和失败重试。
-- `scripts/graph_batch_progress.py`：处理进度统计。
-- `scripts/rebuild_graph_from_json.py`：从论文级 JSON 重建图数据库。
-- `scripts/remove_duplicate_files.py`：按报告安全清理重复源文件。
-- `scripts/verify_github_dataset.py`：检查 GitHub 数据包数量和 ID 对应关系。
+- `scripts/extract_graphrag.py`: document chunking and graph extraction.
+- `scripts/run_graphrag_resilient.py`: fault-tolerant batch processing, checkpointing, and retry handling.
+- `scripts/graph_batch_progress.py`: extraction progress statistics.
+- `scripts/rebuild_graph_from_json.py`: rebuilds the graph database from paper-level JSON files.
+- `scripts/remove_duplicate_files.py`: safely removes duplicate source files based on a generated report.
+- `scripts/verify_github_dataset.py`: validates published file counts and document-ID mappings.
 
-实体命名和图谱规范见 [GRAPH_NAMING_RULES.md](GRAPH_NAMING_RULES.md)。
+See [GRAPH_NAMING_RULES.md](GRAPH_NAMING_RULES.md) for entity naming and graph conventions.
 
-## 大文件与 GitHub
+## Large Files and GitHub
 
-两个运行时 SQLite 文件不应直接加入普通 Git 历史：
+The two runtime SQLite databases should not be committed to standard Git history:
 
-- `data/index/literature.db`：约 1.37 GB。
-- `data/graph/graph.db`：约 742 MB。
+- `data/index/literature.db`: approximately 1.37 GB.
+- `data/graph/graph.db`: approximately 742 MB.
 
-它们已被 `.gitignore` 排除。需要分发开箱即用数据库时，请作为 GitHub Release 附件、Git LFS 对象或外部数据集发布。普通仓库保留 Markdown、切片 JSON 和论文级图谱 JSON。
+Both are excluded by `.gitignore`. Distribute ready-to-use databases as GitHub Release assets, Git LFS objects, or through an external dataset host. The regular repository contains the Markdown documents, chunk-level JSON files, and paper-level graph JSON files.
 
-完整上传步骤见 [docs/GITHUB_UPLOAD.md](docs/GITHUB_UPLOAD.md)。
+See [docs/GITHUB_UPLOAD.md](docs/GITHUB_UPLOAD.md) for the complete upload procedure.
 
-## 测试
+## Testing
 
 ```powershell
 python -m unittest discover -s tests -v
@@ -142,6 +143,8 @@ python -m py_compile app.py rag_store.py graph_store.py
 python scripts\verify_github_dataset.py
 ```
 
-## 数据和版权说明
+## Data and Licensing
 
-代码、论文全文、专利文本和模型生成的结构化数据可能具有不同的许可条件。公开仓库前请逐项确认原始文献的再分发权限；无法确认时建议使用私有仓库，或只发布代码、文档 ID、元数据和可重建脚本。API Key、账户数据库、聊天记录和访问日志不得提交。
+The source code, article text, patent text, and model-generated structured data may be subject to different license terms. Before publishing a repository, verify redistribution rights for every source document. If those rights cannot be confirmed, use a private repository or publish only the code, document IDs, metadata, and reproducible processing scripts.
+
+Never commit API keys, account databases, chat histories, or access logs.
